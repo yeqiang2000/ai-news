@@ -1,115 +1,115 @@
 {
-  "last_updated": "2026-06-03T13:00:00+08:00",
+  "last_updated": "2026-06-04T08:00:00+08:00",
   "hero": {
     "id": 0,
-    "title": "英伟达GTC 2026重磅发布：RTX Spark正式进军PC芯片市场，智能体时代全面到来",
-    "summary": "英伟达在台北COMPUTEX 2026大会上发布RTX Spark PC处理器，采用台积电3nm工艺，可本地运行200B参数大模型。同时发布Vera Rubin超级计算机和Nemotron 3 Ultra开源模型，黄仁勋宣告AI正式迈入智能体元年。戴尔、联想、华硕等厂商将于秋季推出搭载该芯片的整机产品，家用硬件正式跨入原生AI时代。",
-    "source": "COMPUTEX 2026",
-    "url": "https://www.nvidia.com/gtc",
-    "image": "https://picsum.photos/800/400?random=100",
-    "category": "大模型",
-    "date": "2026-06-03"
+    "title": "DeepSeek首轮融资500亿元：腾讯宁德时代参投，估值达4000亿元创国产AI纪录",
+    "summary": "中国AI独角兽DeepSeek启动首轮融资，拟筹集500亿元人民币，腾讯、宁德时代等巨头参投，创始人个人出资200亿。投后估值达3500-4000亿元，标志着中国AI基础设施自主化进入新阶段。该轮融资将整合能源与科技资源，巩固DeepSeek在中国AI战略中的核心地位。",
+    "source": "路透社 / IT之家",
+    "url": "https://www.ithome.com/",
+    "image": "https://picsum.photos/800/400?random=200",
+    "category": "投融资",
+    "date": "2026-06-04"
   },
   "articles": [
     {
       "id": 1,
-      "title": "MiniMax M3开源发布：编程能力超越GPT-5.5，百万上下文仅需1/20算力",
-      "summary": "国产大模型MiniMax发布M3，采用稀疏注意力架构MSA，在SWE-Bench Pro编程评测中取得59.0%成绩，超越GPT-5.5。",
-      "source": "新京报",
-      "url": "https://tech.sina.com.cn/roll/2026-06-01/",
-      "image": "https://picsum.photos/400/250?random=1",
+      "title": "Anthropic发布Claude Opus 4.8：代码缺陷降低75%，速度提升2.5倍",
+      "summary": "Anthropic发布旗舰模型升级版Claude Opus 4.8，聚焦智能体编程与多领域推理。在多项核心基准测试中超越GPT-5.5，AI幻觉现象大幅减少，编程缺陷率下降75%，判断力显著提升，标志着AI代码可靠性的重大突破。",
+      "source": "AIbase",
+      "url": "https://www.aibase.com/",
+      "image": "https://picsum.photos/400/250?random=101",
       "category": "大模型",
-      "date": "2026-06-01"
+      "date": "2026-06-04"
     },
     {
       "id": 2,
-      "title": "Anthropic完成650亿美元融资，估值9650亿美元超越OpenAI",
-      "summary": "Anthropic完成史上最大AI融资轮，估值达9650亿美元超越OpenAI。同时秘密提交IPO申请，启动上市流程。",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/ai/",
-      "image": "https://picsum.photos/400/250?random=2",
-      "category": "投融资",
-      "date": "2026-06-01"
+      "title": "特朗普签署AI行政令：前沿模型发布前需自愿接受30天政府审查",
+      "summary": "美国总统特朗普签署行政令，要求AI公司在发布新模型前自愿接受政府最长30天审查，同时建立AI网络安全信息中心。该令从原版90天审查期缩短至30天，反映了监管派与加速派之间的激烈博弈。",
+      "source": "澎湃新闻",
+      "url": "https://www.whitehouse.gov/",
+      "image": "https://picsum.photos/400/250?random=102",
+      "category": "政策监管",
+      "date": "2026-06-04"
     },
     {
       "id": 3,
-      "title": "高通发布\"飞龙\"数据中心芯片品牌，正式进军云端算力市场",
-      "summary": "高通CEO安蒙在COMPUTEX宣布2026年为AI智能体规模化落地起始年，未来手机、电脑、汽车全品类硬件都将搭载自主决策AI智能体。",
-      "source": " COMPUTEX",
-      "url": "https://www.computextaipei.com.tw/",
-      "image": "https://picsum.photos/400/250?random=3",
-      "category": "芯片算力",
-      "date": "2026-06-02"
+      "title": "OpenAI CEO Altman游说国会：反对AI模型审批制度，呼吁增加测试资金",
+      "summary": "OpenAI CEO Sam Altman本周访问华盛顿，将要求国会增加商务部AI测试资金，同时反对要求AI开发商在发布新模型前获得政府批准的提案。此举正值OpenAI准备秘密提交IPO申请之际。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/",
+      "image": "https://picsum.photos/400/250?random=103",
+      "category": "政策监管",
+      "date": "2026-06-04"
     },
     {
       "id": 4,
-      "title": "宇树科技IPO过会：73天闯关科创板，人形机器人累计下线11000台",
-      "summary": "宇树科技成为A股年内审核最快的IPO项目，其主力双足人形机器人单品累计下线11000台。英伟达联合宇树推出开源方案H2Plus。",
-      "source": "科创板日报",
-      "url": "https://www.cls.cn/telegraph",
-      "image": "https://picsum.photos/400/250?random=4",
-      "category": "AI应用",
-      "date": "2026-06-01"
+      "title": "欧盟发布\"技术主权\"一揽子方案：云AI法案+芯片法案2.0",
+      "summary": "欧盟委员会公布\"欧洲技术主权一揽子方案\"，包括《云与人工智能发展法案》和《芯片法案2.0》两项立法提案，目标5至7年内将欧洲数据中心容量提高3倍，建设尖端半导体能力。同时发布开源战略和能源数字化AI路线图。",
+      "source": "央视新闻",
+      "url": "https://ec.europa.eu/",
+      "image": "https://picsum.photos/400/250?random=104",
+      "category": "政策监管",
+      "date": "2026-06-04"
     },
     {
       "id": 5,
-      "title": "微软开源Windows Agent Framework 1.0，AI智能体可在本地PC统一运行",
-      "summary": "微软在Build 2026大会上以MIT协议开源WAF 1.0，支持AI智能体在本地Windows机器、Windows 365云PC及Azure Arc边缘设备上统一运行。",
-      "source": "Build 2026",
-      "url": "https://build.microsoft.com/",
-      "image": "https://picsum.photos/400/250?random=5",
-      "category": "开源动态",
-      "date": "2026-06-03"
+      "title": "谷歌推出Dreambeans：AI个性化故事应用，整合Gmail/日历/照片数据",
+      "summary": "谷歌实验室推出实验性应用Dreambeans，利用AI整合Gmail、日历、照片等多产品数据，每日生成个性化故事内容。基于Personal Intelligence和Nano Banana 2模型，目前仅面向美国AI Ultra订阅用户开放。",
+      "source": "华尔街见闻",
+      "url": "https://labs.google/",
+      "image": "https://picsum.photos/400/250?random=105",
+      "category": "AI应用",
+      "date": "2026-06-04"
     },
     {
       "id": 6,
-      "title": "OpenAI重启机器人布局：具身智能赛道再添重量级玩家",
-      "summary": "OpenAI CEO奥特曼宣布正式进军机器人赛道，同步发布相关岗位招聘。短期聚焦协助技术工人建设基础设施的特定功能机器人。",
-      "source": "AI TOP100",
-      "url": "https://aitop100.com/",
-      "image": "https://picsum.photos/400/250?random=6",
-      "category": "AI应用",
-      "date": "2026-06-01"
+      "title": "千寻智能再获15亿元A+轮融资：四个月四轮近50亿，刷新具身智能融资纪录",
+      "summary": "千寻智能宣布完成15亿元A+轮融资，股东包括一线美元基金、大型产业投资方及国资基金。短短三个月完成四轮密集融资，累计近50亿元，刷新具身智能赛道融资频次纪录，加速基座模型迭代与商业化落地。",
+      "source": "每日经济新闻",
+      "url": "https://www.nbd.com.cn/",
+      "image": "https://picsum.photos/400/250?random=106",
+      "category": "投融资",
+      "date": "2026-06-04"
     },
     {
       "id": 7,
-      "title": "Alphabet计划融资800亿美元：谷歌加速AI基础设施建设",
-      "summary": "谷歌母公司Alphabet宣布计划融资800亿美元，用于大规模扩充AI基础设施。此举将显著提升谷歌在AI军备竞赛中的竞争力。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/",
-      "image": "https://picsum.photos/400/250?random=7",
-      "category": "投融资",
-      "date": "2026-06-03"
+      "title": "阶跃Step 3.7 Flash登OpenRouter全球第二：Agent时代Flash模型新标杆",
+      "summary": "阶跃星辰最新开源基座模型Step 3.7 Flash发布2天后登上OpenRouter Trending全球第二。该模型面向Agent生产化阶段，围绕Agent、编程、搜索与多模态工作流进行系统优化，采用Apache 2.0协议开源。",
+      "source": "每经新闻",
+      "url": "https://openrouter.ai/",
+      "image": "https://picsum.photos/400/250?random=107",
+      "category": "大模型",
+      "date": "2026-06-04"
     },
     {
       "id": 8,
-      "title": "OpenClaw爆红：GitHub史上增长最快的AI Agent项目，3个月星标破32万",
-      "summary": "本地优先的个人AI执行助手OpenClaw正式上线3个月，星标突破32万，超越Linux内核成为GitHub历史上增长最快的非聚合类软件。",
-      "source": "GitHub Trending",
-      "url": "https://github.com/",
-      "image": "https://picsum.photos/400/250?random=8",
-      "category": "开源动态",
-      "date": "2026-06-02"
+      "title": "千问向第三方Agent和Skill全面开放：瑞幸、肯德基首批接入",
+      "summary": "千问宣布向第三方Agent和Skill全面开放，所有企业均可接入Skill。瑞幸咖啡、肯德基、东方航空等首批企业已提供Skill服务，未来企业可在千问运营自有品牌Agent，以对话形式为用户提供产品服务。",
+      "source": "千问官方",
+      "url": "https://tongyi.aliyun.com/",
+      "image": "https://picsum.photos/400/250?random=108",
+      "category": "AI应用",
+      "date": "2026-06-04"
     },
     {
       "id": 9,
-      "title": "腾讯云DeepSeek-V4降价97.5%：国产大模型进入普惠时代",
-      "summary": "腾讯云正式下调DeepSeek-V4全系列大模型调用资费，最高降幅97.5%。个人开发者、中小初创公司可低成本接入顶尖国产大模型。",
-      "source": "腾讯新闻",
-      "url": "https://news.qq.com/",
-      "image": "https://picsum.photos/400/250?random=9",
-      "category": "大模型",
-      "date": "2026-06-03"
+      "title": "豆包推出专业版：免费功能保持不变，增值服务开启商业化分层",
+      "summary": "豆包发布专业版说明，将针对专业人群推出软件开发、数据分析、专业设计等服务。广大用户日常使用的搜索问答、写作生图、语音视频对话等功能保持免费。专业版在一定额度内也可免费使用，行业告别全品类无限免费阶段。",
+      "source": "豆包官方",
+      "url": "https://www.doubao.com/",
+      "image": "https://picsum.photos/400/250?random=109",
+      "category": "AI应用",
+      "date": "2026-06-04"
     },
     {
       "id": 10,
-      "title": "Intel Xeon 6+发布：9:1服务器整合率，CPU仍是AI基础设施控制平面",
-      "summary": "Intel发布Xeon 6+处理器，相比第二代Xeon实现9:1服务器整合率。Intel EVP表示：CPU仍是现代AI基础设施的核心控制平面。",
-      "source": "Intel官方",
-      "url": "https://www.intel.com/",
-      "image": "https://picsum.photos/400/250?random=10",
-      "category": "芯片算力",
-      "date": "2026-06-01"
+      "title": "香港发布HKGAI V3大模型：推动\"Token出海\"，服务海外政商客户",
+      "summary": "香港生成式AI研发中心发布HKGAI V3大模型，Token压缩效率提升超10倍，智能体无干预运行时长增加近百倍。同步推出Agent Workshop超级智能体，将优先落地香港特区政府系统，并推动\"Token出海\"服务海外政商客户。",
+      "source": "中国新闻网",
+      "url": "https://hkgai.org/",
+      "image": "https://picsum.photos/400/250?random=110",
+      "category": "大模型",
+      "date": "2026-06-04"
     }
   ]
 }
