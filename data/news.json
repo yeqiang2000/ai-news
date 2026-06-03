@@ -1,0 +1,115 @@
+{
+  "last_updated": "2026-06-03T13:00:00+08:00",
+  "hero": {
+    "id": 0,
+    "title": "英伟达GTC 2026重磅发布：RTX Spark正式进军PC芯片市场，智能体时代全面到来",
+    "summary": "英伟达在台北COMPUTEX 2026大会上发布RTX Spark PC处理器，采用台积电3nm工艺，可本地运行200B参数大模型。同时发布Vera Rubin超级计算机和Nemotron 3 Ultra开源模型，黄仁勋宣告AI正式迈入智能体元年。戴尔、联想、华硕等厂商将于秋季推出搭载该芯片的整机产品，家用硬件正式跨入原生AI时代。",
+    "source": "COMPUTEX 2026",
+    "url": "https://www.nvidia.com/gtc",
+    "image": "https://picsum.photos/800/400?random=100",
+    "category": "大模型",
+    "date": "2026-06-03"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "MiniMax M3开源发布：编程能力超越GPT-5.5，百万上下文仅需1/20算力",
+      "summary": "国产大模型MiniMax发布M3，采用稀疏注意力架构MSA，在SWE-Bench Pro编程评测中取得59.0%成绩，超越GPT-5.5。",
+      "source": "新京报",
+      "url": "https://tech.sina.com.cn/roll/2026-06-01/",
+      "image": "https://picsum.photos/400/250?random=1",
+      "category": "大模型",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 2,
+      "title": "Anthropic完成650亿美元融资，估值9650亿美元超越OpenAI",
+      "summary": "Anthropic完成史上最大AI融资轮，估值达9650亿美元超越OpenAI。同时秘密提交IPO申请，启动上市流程。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/ai/",
+      "image": "https://picsum.photos/400/250?random=2",
+      "category": "投融资",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 3,
+      "title": "高通发布\"飞龙\"数据中心芯片品牌，正式进军云端算力市场",
+      "summary": "高通CEO安蒙在COMPUTEX宣布2026年为AI智能体规模化落地起始年，未来手机、电脑、汽车全品类硬件都将搭载自主决策AI智能体。",
+      "source": " COMPUTEX",
+      "url": "https://www.computextaipei.com.tw/",
+      "image": "https://picsum.photos/400/250?random=3",
+      "category": "芯片算力",
+      "date": "2026-06-02"
+    },
+    {
+      "id": 4,
+      "title": "宇树科技IPO过会：73天闯关科创板，人形机器人累计下线11000台",
+      "summary": "宇树科技成为A股年内审核最快的IPO项目，其主力双足人形机器人单品累计下线11000台。英伟达联合宇树推出开源方案H2Plus。",
+      "source": "科创板日报",
+      "url": "https://www.cls.cn/telegraph",
+      "image": "https://picsum.photos/400/250?random=4",
+      "category": "AI应用",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 5,
+      "title": "微软开源Windows Agent Framework 1.0，AI智能体可在本地PC统一运行",
+      "summary": "微软在Build 2026大会上以MIT协议开源WAF 1.0，支持AI智能体在本地Windows机器、Windows 365云PC及Azure Arc边缘设备上统一运行。",
+      "source": "Build 2026",
+      "url": "https://build.microsoft.com/",
+      "image": "https://picsum.photos/400/250?random=5",
+      "category": "开源动态",
+      "date": "2026-06-03"
+    },
+    {
+      "id": 6,
+      "title": "OpenAI重启机器人布局：具身智能赛道再添重量级玩家",
+      "summary": "OpenAI CEO奥特曼宣布正式进军机器人赛道，同步发布相关岗位招聘。短期聚焦协助技术工人建设基础设施的特定功能机器人。",
+      "source": "AI TOP100",
+      "url": "https://aitop100.com/",
+      "image": "https://picsum.photos/400/250?random=6",
+      "category": "AI应用",
+      "date": "2026-06-01"
+    },
+    {
+      "id": 7,
+      "title": "Alphabet计划融资800亿美元：谷歌加速AI基础设施建设",
+      "summary": "谷歌母公司Alphabet宣布计划融资800亿美元，用于大规模扩充AI基础设施。此举将显著提升谷歌在AI军备竞赛中的竞争力。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "image": "https://picsum.photos/400/250?random=7",
+      "category": "投融资",
+      "date": "2026-06-03"
+    },
+    {
+      "id": 8,
+      "title": "OpenClaw爆红：GitHub史上增长最快的AI Agent项目，3个月星标破32万",
+      "summary": "本地优先的个人AI执行助手OpenClaw正式上线3个月，星标突破32万，超越Linux内核成为GitHub历史上增长最快的非聚合类软件。",
+      "source": "GitHub Trending",
+      "url": "https://github.com/",
+      "image": "https://picsum.photos/400/250?random=8",
+      "category": "开源动态",
+      "date": "2026-06-02"
+    },
+    {
+      "id": 9,
+      "title": "腾讯云DeepSeek-V4降价97.5%：国产大模型进入普惠时代",
+      "summary": "腾讯云正式下调DeepSeek-V4全系列大模型调用资费，最高降幅97.5%。个人开发者、中小初创公司可低成本接入顶尖国产大模型。",
+      "source": "腾讯新闻",
+      "url": "https://news.qq.com/",
+      "image": "https://picsum.photos/400/250?random=9",
+      "category": "大模型",
+      "date": "2026-06-03"
+    },
+    {
+      "id": 10,
+      "title": "Intel Xeon 6+发布：9:1服务器整合率，CPU仍是AI基础设施控制平面",
+      "summary": "Intel发布Xeon 6+处理器，相比第二代Xeon实现9:1服务器整合率。Intel EVP表示：CPU仍是现代AI基础设施的核心控制平面。",
+      "source": "Intel官方",
+      "url": "https://www.intel.com/",
+      "image": "https://picsum.photos/400/250?random=10",
+      "category": "芯片算力",
+      "date": "2026-06-01"
+    }
+  ]
+}

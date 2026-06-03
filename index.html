@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News Daily - 每日AI科技资讯</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">AI News Daily</span>
+            </a>
+            <nav class="nav-categories">
+                <button class="nav-tag active" data-category="全部">全部</button>
+                <button class="nav-tag" data-category="大模型">大模型</button>
+                <button class="nav-tag" data-category="芯片算力">芯片算力</button>
+                <button class="nav-tag" data-category="AI应用">AI应用</button>
+                <button class="nav-tag" data-category="开源动态">开源动态</button>
+                <button class="nav-tag" data-category="投融资">投融资</button>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- 移动端导航 -->
+    <div class="mobile-nav">
+        <button class="mobile-nav-close">×</button>
+        <nav class="mobile-nav-categories">
+            <button class="mobile-nav-tag active" data-category="全部">全部</button>
+            <button class="mobile-nav-tag" data-category="大模型">大模型</button>
+            <button class="mobile-nav-tag" data-category="芯片算力">芯片算力</button>
+            <button class="mobile-nav-tag" data-category="AI应用">AI应用</button>
+            <button class="mobile-nav-tag" data-category="开源动态">开源动态</button>
+            <button class="mobile-nav-tag" data-category="投融资">投融资</button>
+        </nav>
+    </div>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            <!-- Hero区 - 今日头条 -->
+            <section class="hero-section">
+                <div class="hero-card">
+                    <a href="#" class="hero-image-link" target="_blank">
+                        <img src="" alt="Hero" class="hero-image" id="hero-image">
+                        <span class="hero-badge">今日头条</span>
+                    </a>
+                    <div class="hero-content">
+                        <div class="hero-meta">
+                            <span class="source-tag" id="hero-source"></span>
+                            <span class="hero-date" id="hero-date"></span>
+                        </div>
+                        <h1 class="hero-title" id="hero-title">
+                            <a href="#" target="_blank" id="hero-link"></a>
+                        </h1>
+                        <p class="hero-summary" id="hero-summary"></p>
+                        <span class="category-tag" id="hero-category"></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 主内容区 -->
+            <div class="content-grid-wrapper">
+                <!-- 新闻网格 -->
+                <section class="news-grid-section">
+                    <div class="section-header">
+                        <h2 class="section-title">
+                            <span class="title-icon">📰</span>
+                            最新资讯
+                        </h2>
+                        <span class="last-update">更新时间: <span id="last-update-time"></span></span>
+                    </div>
+                    <div class="news-grid" id="news-grid">
+                        <!-- 新闻卡片由JS动态生成 -->
+                    </div>
+                    <div class="no-results" id="no-results" style="display: none;">
+                        <span class="no-results-icon">🔍</span>
+                        <p>暂无该分类的新闻</p>
+                    </div>
+                </section>
+
+                <!-- 侧边栏 -->
+                <aside class="sidebar">
+                    <!-- 热门话题标签云 -->
+                    <div class="sidebar-card tag-cloud-section">
+                        <h3 class="sidebar-title">
+                            <span class="title-icon">🏷️</span>
+                            热门话题
+                        </h3>
+                        <div class="tag-cloud" id="tag-cloud">
+                            <span class="hot-tag" data-tag="智能体">智能体</span>
+                            <span class="hot-tag" data-tag="开源">开源</span>
+                            <span class="hot-tag" data-tag="GPT-5">GPT-5</span>
+                            <span class="hot-tag" data-tag="英伟达">英伟达</span>
+                            <span class="hot-tag" data-tag="人形机器人">人形机器人</span>
+                            <span class="hot-tag" data-tag="IPO">IPO</span>
+                            <span class="hot-tag" data-tag="3nm芯片">3nm芯片</span>
+                            <span class="hot-tag" data-tag="多模态">多模态</span>
+                            <span class="hot-tag" data-tag="Agent">Agent</span>
+                            <span class="hot-tag" data-tag="算力">算力</span>
+                        </div>
+                    </div>
+
+                    <!-- 本周必读 -->
+                    <div class="sidebar-card must-read-section">
+                        <h3 class="sidebar-title">
+                            <span class="title-icon">📌</span>
+                            本周必读
+                        </h3>
+                        <ul class="must-read-list" id="must-read-list">
+                            <!-- 由JS动态生成 -->
+                        </ul>
+                    </div>
+
+                    <!-- 数据来源 -->
+                    <div class="sidebar-card sources-section">
+                        <h3 class="sidebar-title">
+                            <span class="title-icon">📡</span>
+                            数据来源
+                        </h3>
+                        <div class="sources-list">
+                            <span class="source-badge">TechCrunch</span>
+                            <span class="source-badge">The Verge</span>
+                            <span class="source-badge">Wired</span>
+                            <span class="source-badge">MIT Tech Review</span>
+                            <span class="source-badge">36氪</span>
+                            <span class="source-badge">虎嗅</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- 底部 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <span class="footer-logo">⚡ AI News Daily</span>
+                    <p class="footer-tagline">汇聚全球AI科技前沿资讯</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>分类</h4>
+                        <a href="#" data-category="大模型">大模型</a>
+                        <a href="#" data-category="芯片算力">芯片算力</a>
+                        <a href="#" data-category="AI应用">AI应用</a>
+                        <a href="#" data-category="开源动态">开源动态</a>
+                        <a href="#" data-category="投融资">投融资</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>资源</h4>
+                        <a href="https://github.com/" target="_blank">GitHub</a>
+                        <a href="https://hacker-news.firebaseio.com/" target="_blank">Hacker News</a>
+                        <a href="https://techcrunch.com/" target="_blank">TechCrunch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 AI News Daily. All rights reserved.</p>
+                <p class="powered-by">
+                    <span>Powered by</span>
+                    <strong>AI</strong>
+                    <span class="ai-icon">🤖</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
