@@ -1,0 +1,17 @@
+# https://ainewsdaily.asia/robots.txt
+# AI News Daily - Robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ainewsdaily.asia/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
+
+# Block common bot traps and admin paths (none on this static site, but good practice)
+Disallow:
+
+# Allow search engines to index all public content
+# The sitemap.xml is referenced above for faster discovery

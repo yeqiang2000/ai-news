@@ -3,7 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI News Daily - 每日AI科技资讯</title>
+    <!-- SEO Meta Tags -->
+    <title>AI News Daily - 每日AI新闻聚合 | 大模型·芯片·AI应用·开源·投融资</title>
+    <meta name="description" content="AI News Daily 每日精选全球AI领域最新动态，涵盖大模型、芯片算力、AI应用、开源动态、投融资等核心赛道，深度分析+实时追踪，助你把握AI时代脉搏。">
+    <meta name="keywords" content="AI新闻,人工智能,大模型,芯片,AI应用,开源,投融资,AI日报,ChatGPT,深度学习">
+    <meta name="author" content="AI News Daily">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Chinese">
+    <meta name="theme-color" content="#6366f1">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ainewsdaily.asia/">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ainewsdaily.asia/">
+    <meta property="og:title" content="AI News Daily - 每日AI新闻聚合 | 大模型·芯片·AI应用·开源·投融资">
+    <meta property="og:description" content="AI News Daily 每日精选全球AI领域最新动态，涵盖大模型、芯片算力、AI应用、开源动态、投融资等核心赛道，深度分析+实时追踪，助你把握AI时代脉搏。">
+    <meta property="og:image" content="https://picsum.photos/1200/630?random=ai-news-og">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="AI News Daily">
+    <meta property="og:locale" content="zh_CN">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ainewsdaily.asia/">
+    <meta name="twitter:title" content="AI News Daily - 每日AI新闻聚合 | 大模型·芯片·AI应用·开源·投融资">
+    <meta name="twitter:description" content="AI News Daily 每日精选全球AI领域最新动态，涵盖大模型、芯片算力、AI应用、开源动态、投融资等核心赛道，助你把握AI时代脉搏。">
+    <meta name="twitter:image" content="https://picsum.photos/1200/630?random=ai-news-twitter">
+    <!-- Google Analytics Placeholder -->
+    <!--
+    Google Analytics (GA4) 集成说明：
+    请将以下代码粘贴到 <head> 标签内，将 G-XXXXXXXXXX 替换为您的 GA4 衡量 ID
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
+    <!-- Structured Data: WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI News Daily",
+      "url": "https://ainewsdaily.asia/",
+      "alternateName": "AI News",
+      "description": "每日AI新闻聚合，涵盖大模型、芯片算力、AI应用、开源动态、投融资等核心赛道",
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI News Daily",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ainewsdaily.asia/favicon.ico"
+        }
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://ainewsdaily.asia/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <!-- Structured Data: NewsArticle (Hero - dynamically populated by JS, here as default) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "AI News Daily - 每日AI新闻聚合平台",
+      "description": "每日精选全球AI领域最新动态，涵盖大模型、芯片算力、AI应用、开源动态、投融资等核心赛道",
+      "image": "https://picsum.photos/1200/630?random=ai-news-hero",
+      "datePublished": "2026-06-03",
+      "dateModified": "2026-06-03",
+      "author": {
+        "@type": "Organization",
+        "name": "AI News Daily",
+        "url": "https://ainewsdaily.asia/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI News Daily",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ainewsdaily.asia/favicon.ico"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://ainewsdaily.asia/"
+      },
+      "articleSection": "AI资讯",
+      "keywords": "AI新闻,人工智能,大模型,芯片,AI应用,开源,投融资",
+      "inLanguage": "zh-CN"
+    }
+    </script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,7 +157,7 @@
             <!-- Hero区 - 今日头条 -->
             <section class="hero-section">
                 <div class="hero-card">
-                    <a href="#" class="hero-image-link" target="_blank">
+                    <a href="#" class="hero-image-link" target="_blank" rel="noopener">
                         <img src="" alt="Hero" class="hero-image" id="hero-image">
                         <span class="hero-badge">今日头条</span>
                     </a>
@@ -190,9 +283,9 @@
                     </div>
                     <div class="footer-column">
                         <h4>资源</h4>
-                        <a href="https://github.com/" target="_blank">GitHub</a>
-                        <a href="https://hacker-news.firebaseio.com/" target="_blank">Hacker News</a>
-                        <a href="https://techcrunch.com/" target="_blank">TechCrunch</a>
+                        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://hacker-news.firebaseio.com/" target="_blank" rel="noopener">Hacker News</a>
+                        <a href="https://techcrunch.com/" target="_blank" rel="noopener">TechCrunch</a>
                     </div>
                     <div class="footer-column">
                         <h4>关于</h4>
