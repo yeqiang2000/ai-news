@@ -182,6 +182,53 @@ button {
     flex-wrap: wrap;
 }
 
+/* 下拉菜单 */
+.nav-dropdown {
+    position: relative;
+}
+
+.dropdown-trigger {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 8px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: var(--transition-fast);
+    z-index: 100;
+    box-shadow: var(--shadow-card);
+}
+
+.nav-dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(4px);
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 16px;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    transition: var(--transition-fast);
+}
+
+.dropdown-menu a:hover {
+    color: var(--accent-primary);
+    background: rgba(99, 102, 241, 0.1);
+}
+
 .nav-tag {
     padding: 8px 16px;
     border-radius: var(--radius-xl);
@@ -656,6 +703,69 @@ button {
     gap: 16px;
 }
 
+/* 文章推荐 */
+.article-recommendations {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+}
+
+.article-recommendations h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+}
+
+.article-rec-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px;
+    background: var(--bg-card);
+    border-radius: var(--radius-md);
+    transition: var(--transition-fast);
+    margin-bottom: 10px;
+}
+
+.article-rec-item:last-child {
+    margin-bottom: 0;
+}
+
+.article-rec-item:hover {
+    background: var(--bg-card-hover);
+    transform: translateX(4px);
+}
+
+.rec-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.rec-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.rec-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    line-height: 1.4;
+}
+
+.rec-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    color: var(--accent-primary);
+    background: rgba(99, 102, 241, 0.1);
+    padding: 2px 8px;
+    border-radius: var(--radius-xl);
+    width: fit-content;
+}
+
 .must-read-item {
     display: flex;
     gap: 14px;
@@ -874,6 +984,11 @@ button {
     }
     
     .nav-categories {
+        display: none;
+    }
+    
+    /* 移动端隐藏下拉菜单 */
+    .nav-dropdown {
         display: none;
     }
     
