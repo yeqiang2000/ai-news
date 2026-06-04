@@ -1159,3 +1159,67 @@ button {
 .news-card:nth-child(8) { animation-delay: 0.45s; }
 .news-card:nth-child(9) { animation-delay: 0.5s; }
 .news-card:nth-child(10) { animation-delay: 0.55s; }
+
+/* ============================================
+   国际化 - 语言切换按钮
+   ============================================ */
+
+/* 导航右侧操作区 */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+}
+
+/* 语言切换按钮 */
+.lang-toggle {
+    background: transparent;
+    border: 1.5px solid var(--border-color);
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    padding: 5px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.lang-toggle:hover {
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+    background: rgba(99, 102, 241, 0.08);
+    box-shadow: 0 0 12px rgba(99, 102, 241, 0.15);
+}
+
+.lang-toggle:active {
+    transform: scale(0.95);
+}
+
+/* 政策监管分类颜色 */
+:root {
+    --cat-政策监管: #3b82f6;
+}
+
+/* 移动端响应式 */
+@media (max-width: 1024px) {
+    .lang-toggle {
+        font-size: 0.75rem;
+        padding: 4px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-actions {
+        gap: 8px;
+    }
+    
+    .lang-toggle {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+        order: -1;
+    }
+}

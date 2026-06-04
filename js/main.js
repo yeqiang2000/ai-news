@@ -1,6 +1,6 @@
 /**
- * AI News Daily - 主脚本
- * 功能：动态加载新闻数据、分类筛选、相对时间转换
+ * AI News Daily - 主脚本 (双语版)
+ * 功能：动态加载新闻数据、分类筛选、相对时间转换、国际化
  */
 
 (function() {
@@ -19,7 +19,7 @@
     // ============================================
     let state = {
         newsData: null,
-        currentCategory: '全部'
+        currentCategory: '全部'  // 始终用中文key存储
     };
 
     // ============================================
@@ -33,6 +33,7 @@
         heroLink: document.getElementById('hero-link'),
         heroSummary: document.getElementById('hero-summary'),
         heroCategory: document.getElementById('hero-category'),
+        heroBadge: document.getElementById('hero-badge'),
         newsGrid: document.getElementById('news-grid'),
         noResults: document.getElementById('no-results'),
         lastUpdateTime: document.getElementById('last-update-time'),
@@ -42,7 +43,8 @@
         mobileMenuBtn: document.querySelector('.mobile-menu-btn'),
         mobileNav: document.querySelector('.mobile-nav'),
         mobileNavClose: document.querySelector('.mobile-nav-close'),
-        footerLinks: document.querySelectorAll('.footer-links a')
+        footerLinks: document.querySelectorAll('.footer-links a'),
+        langToggle: document.getElementById('lang-toggle')
     };
 
     // ============================================
@@ -50,9 +52,19 @@
     // ============================================
 
     /**
+     * 获取新闻的本地化标题
+     */
+    function getLocalizedField(item, field) {
+        const lang = I18n.getLang();
+        const enField = field + '_en';
+        if (lang === 'en' && item[enField]) {
+            return item[enField];
+        }
+        return item[field];
+    }
+
+    /**
      * 计算相对时间
-     * @param {string} dateStr - ISO日期字符串
-     * @returns {string} 相对时间字符串
      */
     function getRelativeTime(dateStr) {
         const now = new Date();
@@ -63,12 +75,14 @@
         const hours = Math.floor(diff / 3600000);
         const days = Math.floor(diff / 86400000);
         
-        if (minutes < 1) return '刚刚';
-        if (minutes < 60) return `${minutes}分钟前`;
-        if (hours < 24) return `${hours}小时前`;
-        if (days < 7) return `${days}天前`;
+        if (minutes < 1) return I18n.t('just_now');
+        if (minutes < 60) return `${minutes}${I18n.t('minutes_ago')}`;
+        if (hours < 24) return `${hours}${I18n.t('hours_ago')}`;
+        if (days < 7) return `${days}${I18n.t('days_ago')}`;
         
-        return date.toLocaleDateString('zh-CN', {
+        const lang = I18n.getLang();
+        const locale = lang === 'zh' ? 'zh-CN' : 'en-US';
+        return date.toLocaleDateString(locale, {
             month: 'short',
             day: 'numeric'
         });
@@ -76,12 +90,12 @@
 
     /**
      * 格式化完整日期
-     * @param {string} dateStr - ISO日期字符串
-     * @returns {string} 格式化日期
      */
     function formatDate(dateStr) {
         const date = new Date(dateStr);
-        return date.toLocaleDateString('zh-CN', {
+        const lang = I18n.getLang();
+        const locale = lang === 'zh' ? 'zh-CN' : 'en-US';
+        return date.toLocaleDateString(locale, {
             year: 'numeric',
             month: 'long',
             day: 'numeric'
@@ -89,26 +103,22 @@
     }
 
     /**
-     * 获取分类标签颜色
-     * @param {string} category - 分类名称
-     * @returns {string} 颜色类名
+     * 获取分类标签颜色（CSS变量用中文key）
      */
-    function getCategoryClass(category) {
+    function getCategoryClass(categoryZh) {
         const categoryMap = {
             '大模型': 'var(--cat-大模型)',
             '芯片算力': 'var(--cat-芯片算力)',
             'AI应用': 'var(--cat-AI应用)',
             '开源动态': 'var(--cat-开源动态)',
-            '投融资': 'var(--cat-投融资)'
+            '投融资': 'var(--cat-投融资)',
+            '政策监管': 'var(--cat-政策监管)'
         };
-        return categoryMap[category] || 'var(--accent-primary)';
+        return categoryMap[categoryZh] || 'var(--accent-primary)';
     }
 
     /**
      * 防抖函数
-     * @param {Function} func - 要防抖的函数
-     * @param {number} wait - 等待时间
-     * @returns {Function}
      */
     function debounce(func, wait) {
         let timeout;
@@ -128,49 +138,52 @@
 
     /**
      * 渲染Hero区
-     * @param {Object} heroData - Hero数据
      */
     function renderHero(heroData) {
         if (!heroData) return;
 
         DOM.heroImage.src = heroData.image;
-        DOM.heroImage.alt = heroData.title;
-        DOM.heroSource.textContent = heroData.source;
+        DOM.heroImage.alt = getLocalizedField(heroData, 'title');
+        DOM.heroSource.textContent = getLocalizedField(heroData, 'source');
         DOM.heroDate.textContent = formatDate(heroData.date);
-        DOM.heroLink.textContent = heroData.title;
+        DOM.heroLink.textContent = getLocalizedField(heroData, 'title');
         DOM.heroLink.href = heroData.url;
-        DOM.heroSummary.textContent = heroData.summary;
+        DOM.heroSummary.textContent = getLocalizedField(heroData, 'summary');
         
-        DOM.heroCategory.textContent = heroData.category;
-        DOM.heroCategory.setAttribute('data-category', heroData.category);
-        DOM.heroCategory.style.background = getCategoryClass(heroData.category);
+        const catZh = heroData.category;
+        DOM.heroCategory.textContent = I18n.getCategoryName(catZh);
+        DOM.heroCategory.setAttribute('data-category', catZh);
+        DOM.heroCategory.style.background = getCategoryClass(catZh);
     }
 
     /**
      * 创建新闻卡片HTML
-     * @param {Object} article - 文章数据
-     * @returns {string} HTML字符串
      */
     function createNewsCard(article) {
-        const categoryColor = getCategoryClass(article.category);
+        const catZh = article.category;
+        const categoryColor = getCategoryClass(catZh);
+        const title = getLocalizedField(article, 'title');
+        const summary = getLocalizedField(article, 'summary');
+        const source = getLocalizedField(article, 'source');
+        const categoryName = I18n.getCategoryName(catZh);
         
         return `
             <article class="news-card" data-id="${article.id}">
                 <div class="news-card-image">
-                    <img src="${article.image}" alt="${article.title}" loading="lazy">
+                    <img src="${article.image}" alt="${title}" loading="lazy">
                 </div>
                 <div class="news-card-body">
                     <div class="news-card-meta">
-                        <span class="news-card-source">${article.source}</span>
+                        <span class="news-card-source">${source}</span>
                         <span class="news-card-date">${getRelativeTime(article.date)}</span>
                     </div>
                     <h3 class="news-card-title">
-                        <a href="${article.url}" target="_blank" rel="noopener noreferrer">${article.title}</a>
+                        <a href="${article.url}" target="_blank" rel="noopener noreferrer">${title}</a>
                     </h3>
-                    <p class="news-card-summary">${article.summary}</p>
+                    <p class="news-card-summary">${summary}</p>
                     <div class="news-card-footer">
-                        <span class="category-tag" data-category="${article.category}" style="background: ${categoryColor}">
-                            ${article.category}
+                        <span class="category-tag" data-category="${catZh}" style="background: ${categoryColor}">
+                            ${categoryName}
                         </span>
                     </div>
                 </div>
@@ -180,7 +193,6 @@
 
     /**
      * 渲染新闻网格
-     * @param {Array} articles - 文章列表
      */
     function renderNewsGrid(articles) {
         if (!articles || articles.length === 0) {
@@ -190,23 +202,18 @@
         }
 
         DOM.noResults.style.display = 'none';
-        
-        // 添加淡出效果
         DOM.newsGrid.style.opacity = '0';
         
         setTimeout(() => {
             DOM.newsGrid.innerHTML = articles
                 .map(article => createNewsCard(article))
                 .join('');
-            
-            // 添加淡入效果
             DOM.newsGrid.style.opacity = '1';
         }, CONFIG.animationDuration);
     }
 
     /**
      * 渲染本周必读
-     * @param {Array} articles - 文章列表（前5条）
      */
     function renderMustRead(articles) {
         if (!articles || articles.length === 0) return;
@@ -214,18 +221,21 @@
         const topArticles = articles.slice(0, 5);
         
         DOM.mustReadList.innerHTML = topArticles
-            .map((article, index) => `
-                <li class="must-read-item" data-url="${article.url}">
-                    <span class="must-read-number">${index + 1}</span>
-                    <div class="must-read-content">
-                        <h4 class="must-read-title">${article.title}</h4>
-                        <span class="must-read-meta">${article.source} · ${getRelativeTime(article.date)}</span>
-                    </div>
-                </li>
-            `)
+            .map((article, index) => {
+                const title = getLocalizedField(article, 'title');
+                const source = getLocalizedField(article, 'source');
+                return `
+                    <li class="must-read-item" data-url="${article.url}">
+                        <span class="must-read-number">${index + 1}</span>
+                        <div class="must-read-content">
+                            <h4 class="must-read-title">${title}</h4>
+                            <span class="must-read-meta">${source} · ${getRelativeTime(article.date)}</span>
+                        </div>
+                    </li>
+                `;
+            })
             .join('');
 
-        // 绑定点击事件
         DOM.mustReadList.querySelectorAll('.must-read-item').forEach(item => {
             item.addEventListener('click', () => {
                 const url = item.dataset.url;
@@ -236,27 +246,168 @@
 
     /**
      * 更新最后更新时间
-     * @param {string} lastUpdated - 最后更新时间
      */
     function updateLastUpdateTime(lastUpdated) {
         DOM.lastUpdateTime.textContent = getRelativeTime(lastUpdated);
     }
 
     // ============================================
-    // 筛选功能
+    // UI翻译应用
     // ============================================
 
     /**
-     * 筛选新闻
-     * @param {string} category - 分类名称
+     * 更新页面所有静态UI文本
      */
+    function applyUITranslations() {
+        const lang = I18n.getLang();
+
+        // 更新html lang属性
+        document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+
+        // 更新页面标题
+        document.title = lang === 'zh' 
+            ? 'AI News Daily - 每日AI新闻聚合 | 大模型·芯片·AI应用·开源·投融资'
+            : 'AI News Daily - Daily AI News Aggregator | LLM · Chips · AI Apps · Open Source · Investment';
+
+        // Hero badge
+        if (DOM.heroBadge) DOM.heroBadge.textContent = I18n.t('hero_badge');
+
+        // Section titles
+        const sectionTitle = document.querySelector('.section-title');
+        if (sectionTitle) {
+            sectionTitle.innerHTML = `<span class="title-icon">${I18n.t('section_latest_icon')}</span>${I18n.t('section_latest')}`;
+        }
+        
+        // Last update label
+        const lastUpdateLabel = document.querySelector('.last-update');
+        if (lastUpdateLabel) {
+            lastUpdateLabel.innerHTML = `${I18n.t('last_update')}<span id="last-update-time"></span>`;
+            // 重新获取DOM引用
+            DOM.lastUpdateTime = document.getElementById('last-update-time');
+            if (state.newsData) updateLastUpdateTime(state.newsData.last_updated);
+        }
+
+        // No results text
+        if (DOM.noResults) {
+            DOM.noResults.querySelector('p').textContent = I18n.t('no_results');
+            DOM.noResults.querySelector('.no-results-icon').textContent = I18n.t('no_results_icon');
+        }
+
+        // Sidebar titles
+        document.querySelectorAll('.sidebar-title').forEach(el => {
+            const icon = el.querySelector('.title-icon');
+            const iconText = icon ? icon.textContent : '';
+            // 根据内容判断是哪个section
+            const nextSibling = el.nextElementSibling;
+            if (nextSibling && nextSibling.classList.contains('tag-cloud')) {
+                el.innerHTML = `<span class="title-icon">${I18n.t('sidebar_trending_icon')}</span>${I18n.t('sidebar_trending')}`;
+            } else if (nextSibling && nextSibling.id === 'must-read-list') {
+                el.innerHTML = `<span class="title-icon">${I18n.t('sidebar_deep_icon')}</span>${I18n.t('sidebar_deep')}`;
+            } else if (nextSibling && nextSibling.classList.contains('sources-list')) {
+                el.innerHTML = `<span class="title-icon">${I18n.t('sidebar_sources_icon')}</span>${I18n.t('sidebar_sources')}`;
+            }
+        });
+
+        // 深度文章推荐标签
+        document.querySelectorAll('.rec-tag').forEach(el => {
+            el.textContent = I18n.t('sidebar_deep_tag');
+        });
+
+        // Footer
+        const footerTagline = document.querySelector('.footer-tagline');
+        if (footerTagline) footerTagline.textContent = I18n.t('footer_tagline');
+        
+        document.querySelectorAll('.footer-column h4').forEach((el, i) => {
+            if (i === 0) el.textContent = I18n.t('footer_categories');
+            else if (i === 1) el.textContent = I18n.t('footer_resources');
+            else if (i === 2) el.textContent = I18n.t('footer_about');
+        });
+
+        // Footer category links
+        const footerCatLinks = document.querySelectorAll('.footer-column:first-child a');
+        const catKeys = ['cat_llm', 'cat_chips', 'cat_aiapp', 'cat_opensource', 'cat_investment'];
+        footerCatLinks.forEach((link, i) => {
+            if (catKeys[i]) link.textContent = I18n.t(catKeys[i]);
+        });
+
+        // Footer about links
+        const aboutLinkTexts = [I18n.t('nav_about_us'), I18n.t('nav_contact'), I18n.t('nav_privacy'), I18n.t('nav_disclaimer')];
+        const footerAboutLinks = document.querySelectorAll('.footer-column:last-child a');
+        footerAboutLinks.forEach((link, i) => {
+            if (aboutLinkTexts[i]) link.textContent = aboutLinkTexts[i];
+        });
+
+        // 导航标签
+        updateNavTranslations();
+
+        // 语言切换按钮
+        if (DOM.langToggle) {
+            DOM.langToggle.textContent = I18n.t('lang_switch_to');
+        }
+
+        // 热门标签
+        updateTagCloud();
+    }
+
+    /**
+     * 更新导航栏翻译
+     */
+    function updateNavTranslations() {
+        const navMap = {
+            '全部': 'nav_all',
+            '大模型': 'nav_llm',
+            '芯片算力': 'nav_chips',
+            'AI应用': 'nav_aiapp',
+            '开源动态': 'nav_opensource',
+            '投融资': 'nav_investment',
+            '政策监管': 'nav_policy'
+        };
+
+        DOM.navTags.forEach(tag => {
+            const cat = tag.dataset.category;
+            if (cat && navMap[cat]) {
+                tag.textContent = I18n.t(navMap[cat]);
+            }
+        });
+        DOM.mobileNavTags.forEach(tag => {
+            const cat = tag.dataset.category;
+            if (cat && navMap[cat]) {
+                tag.textContent = I18n.t(navMap[cat]);
+            }
+        });
+
+        // About dropdown
+        const dropdownTrigger = document.querySelector('.dropdown-trigger');
+        if (dropdownTrigger) dropdownTrigger.textContent = I18n.t('nav_about');
+        
+        const dropdownLinks = document.querySelectorAll('.dropdown-menu a');
+        const aboutKeys = ['nav_about_us', 'nav_contact', 'nav_privacy', 'nav_disclaimer'];
+        dropdownLinks.forEach((link, i) => {
+            if (aboutKeys[i]) link.textContent = I18n.t(aboutKeys[i]);
+        });
+
+        // Mobile about links
+        const mobileAboutLinks = document.querySelectorAll('.mobile-nav-tag[href]');
+        mobileAboutLinks.forEach((link, i) => {
+            if (aboutKeys[i]) link.textContent = I18n.t(aboutKeys[i]);
+        });
+    }
+
+    /**
+     * 更新热门标签翻译
+     */
+    function updateTagCloud() {
+        // 热门标签保持中英双语原样显示（大部分是专有名词）
+    }
+
+    // ============================================
+    // 筛选功能
+    // ============================================
+
     function filterNews(category) {
         state.currentCategory = category;
-        
-        // 更新导航标签状态
         updateNavTagsState(category);
         
-        // 根据分类筛选
         let filteredArticles = state.newsData.articles;
         
         if (category !== '全部') {
@@ -265,27 +416,18 @@
             );
         }
         
-        // 渲染
         renderNewsGrid(filteredArticles);
         
-        // 更新Hero区显示
         if (category === '全部') {
             renderHero(state.newsData.hero);
         } else {
-            // 找到该分类的第一篇文章作为Hero
             const categoryHero = state.newsData.articles.find(
                 article => article.category === category
             );
-            if (categoryHero) {
-                renderHero(categoryHero);
-            }
+            if (categoryHero) renderHero(categoryHero);
         }
     }
 
-    /**
-     * 更新导航标签状态
-     * @param {string} activeCategory - 当前分类
-     */
     function updateNavTagsState(activeCategory) {
         DOM.navTags.forEach(tag => {
             tag.classList.toggle('active', tag.dataset.category === activeCategory);
@@ -299,11 +441,7 @@
     // 事件处理
     // ============================================
 
-    /**
-     * 初始化事件监听
-     */
     function initEventListeners() {
-        // 桌面导航标签点击
         DOM.navTags.forEach(tag => {
             tag.addEventListener('click', () => {
                 filterNews(tag.dataset.category);
@@ -311,28 +449,22 @@
             });
         });
 
-        // 移动端导航标签点击
         DOM.mobileNavTags.forEach(tag => {
             tag.addEventListener('click', () => {
-                filterNews(tag.dataset.category);
-                closeMobileNav();
+                if (tag.dataset.category) {
+                    filterNews(tag.dataset.category);
+                    closeMobileNav();
+                }
             });
         });
 
-        // 移动端菜单按钮
         DOM.mobileMenuBtn.addEventListener('click', openMobileNav);
-        
-        // 移动端关闭按钮
         DOM.mobileNavClose.addEventListener('click', closeMobileNav);
 
-        // 移动端导航外层点击关闭
         DOM.mobileNav.addEventListener('click', (e) => {
-            if (e.target === DOM.mobileNav) {
-                closeMobileNav();
-            }
+            if (e.target === DOM.mobileNav) closeMobileNav();
         });
 
-        // 底部链接
         DOM.footerLinks.forEach(link => {
             link.addEventListener('click', (e) => {
                 const category = link.dataset.category;
@@ -344,32 +476,30 @@
             });
         });
 
-        // 键盘事件
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                closeMobileNav();
-            }
+            if (e.key === 'Escape') closeMobileNav();
         });
 
-        // 图片加载错误处理
         document.addEventListener('error', (e) => {
             if (e.target.tagName === 'IMG') {
-                e.target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"%3E%3Crect fill="%231e1e28" width="400" height="250"/%3E%3Ctext fill="%2364748b" font-family="sans-serif" font-size="16" x="50%25" y="50%25" text-anchor="middle" dominant-baseline="middle"%3E图片加载失败%3C/text%3E%3C/svg%3E';
+                const msg = I18n.t('img_error');
+                e.target.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect fill='%231e1e28' width='400' height='250'/%3E%3Ctext fill='%2364748b' font-family='sans-serif' font-size='16' x='50%25' y='50%25' text-anchor='middle' dominant-baseline='middle'%3E${encodeURIComponent(msg)}%3C/text%3E%3C/svg%3E`;
             }
         }, true);
+
+        // 语言切换
+        if (DOM.langToggle) {
+            DOM.langToggle.addEventListener('click', () => {
+                I18n.toggle();
+            });
+        }
     }
 
-    /**
-     * 打开移动端导航
-     */
     function openMobileNav() {
         DOM.mobileNav.classList.add('open');
         document.body.style.overflow = 'hidden';
     }
 
-    /**
-     * 关闭移动端导航
-     */
     function closeMobileNav() {
         DOM.mobileNav.classList.remove('open');
         document.body.style.overflow = '';
@@ -379,47 +509,55 @@
     // 数据加载
     // ============================================
 
-    /**
-     * 加载新闻数据
-     */
     async function loadNewsData() {
         try {
             const response = await fetch(CONFIG.dataUrl);
-            
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             const data = await response.json();
             state.newsData = data;
             
-            // 渲染页面
             renderHero(data.hero);
             renderNewsGrid(data.articles);
             renderMustRead(data.articles);
             updateLastUpdateTime(data.last_updated);
             
         } catch (error) {
-            console.error('加载新闻数据失败:', error);
-            
-            // 显示错误提示
+            console.error('Failed to load news data:', error);
             DOM.newsGrid.innerHTML = `
                 <div class="no-results" style="display: block;">
-                    <span class="no-results-icon">⚠️</span>
-                    <p>加载新闻数据失败，请刷新页面重试</p>
+                    <span class="no-results-icon">${I18n.t('load_error_icon')}</span>
+                    <p>${I18n.t('load_error')}</p>
                 </div>
             `;
         }
     }
 
     // ============================================
+    // 全局语言切换回调
+    // ============================================
+
+    window.applyLanguage = function() {
+        applyUITranslations();
+        if (state.newsData) {
+            renderHero(state.newsData.hero);
+            renderNewsGrid(
+                state.currentCategory === '全部' 
+                    ? state.newsData.articles 
+                    : state.newsData.articles.filter(a => a.category === state.currentCategory)
+            );
+            renderMustRead(state.newsData.articles);
+            updateLastUpdateTime(state.newsData.last_updated);
+        }
+    };
+
+    // ============================================
     // 初始化
     // ============================================
 
-    /**
-     * 应用启动入口
-     */
     function init() {
+        // 初始化i18n
+        I18n.init();
+        
         // 添加过渡效果
         DOM.newsGrid.style.transition = `opacity ${CONFIG.animationDuration}ms ease`;
         
@@ -427,10 +565,12 @@
         initEventListeners();
         
         // 加载数据
-        loadNewsData();
+        loadNewsData().then(() => {
+            // 数据加载后应用翻译
+            applyUITranslations();
+        });
     }
 
-    // DOM加载完成后初始化
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
     } else {
