@@ -160,7 +160,7 @@
             // Deep reads
             deep_article_1_title: 'NVIDIA GTC 2026: Three AI Chips in One Salvo',
             deep_article_2_title: '2026 AI LLM Competition: A New Landscape',
-            deep_article_3_title: 'DeepSeek's 50B RMB First Round: A Watershed Moment',
+            deep_article_3_title: 'DeepSeek 50B RMB First Round: A Watershed Moment',
 
             // Language
             lang_label: 'EN',
