@@ -82,6 +82,7 @@
             // 深度文章
             deep_article_1_title: '英伟达GTC 2026：AI芯片三箭齐发',
             deep_article_2_title: '2026年AI大模型竞赛新格局',
+            deep_article_3_title: 'DeepSeek首轮融资500亿：分水岭时刻',
 
             // 语言
             lang_label: '中文',
@@ -159,6 +160,7 @@
             // Deep reads
             deep_article_1_title: 'NVIDIA GTC 2026: Three AI Chips in One Salvo',
             deep_article_2_title: '2026 AI LLM Competition: A New Landscape',
+            deep_article_3_title: 'DeepSeek's 50B RMB First Round: A Watershed Moment',
 
             // Language
             lang_label: 'EN',
