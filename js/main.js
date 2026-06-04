@@ -313,6 +313,12 @@
             el.textContent = I18n.t('sidebar_deep_tag');
         });
 
+        // 深度文章标题
+        document.querySelectorAll('.rec-title').forEach((el, i) => {
+            const key = `deep_article_${i + 1}_title`;
+            if (I18n.t(key) !== key) el.textContent = I18n.t(key);
+        });
+
         // Footer
         const footerTagline = document.querySelector('.footer-tagline');
         if (footerTagline) footerTagline.textContent = I18n.t('footer_tagline');
@@ -397,7 +403,13 @@
      * 更新热门标签翻译
      */
     function updateTagCloud() {
-        // 热门标签保持中英双语原样显示（大部分是专有名词）
+        const tagKeyMap = I18n.tagKeyMap;
+        document.querySelectorAll('.hot-tag').forEach(el => {
+            const tagZh = el.dataset.tag;
+            if (tagKeyMap[tagZh]) {
+                el.textContent = I18n.t(tagKeyMap[tagZh]);
+            }
+        });
     }
 
     // ============================================

@@ -67,6 +67,22 @@
             hours_ago: '小时前',
             days_ago: '天前',
 
+            // 热门话题标签
+            tag_agent: '智能体',
+            tag_opensource: '开源',
+            tag_gpt5: 'GPT-5',
+            tag_nvidia: '英伟达',
+            tag_humanoid: '人形机器人',
+            tag_ipo: 'IPO',
+            tag_3nm: '3nm芯片',
+            tag_multimodal: '多模态',
+            tag_ai_agent: 'Agent',
+            tag_compute: '算力',
+
+            // 深度文章
+            deep_article_1_title: '英伟达GTC 2026：AI芯片三箭齐发',
+            deep_article_2_title: '2026年AI大模型竞赛新格局',
+
             // 语言
             lang_label: '中文',
             lang_switch_to: 'EN'
@@ -127,6 +143,22 @@
             minutes_ago: ' min ago',
             hours_ago: ' hr ago',
             days_ago: ' days ago',
+
+            // Trending topic tags
+            tag_agent: 'AI Agents',
+            tag_opensource: 'Open Source',
+            tag_gpt5: 'GPT-5',
+            tag_nvidia: 'NVIDIA',
+            tag_humanoid: 'Humanoid Robots',
+            tag_ipo: 'IPO',
+            tag_3nm: '3nm Chips',
+            tag_multimodal: 'Multimodal',
+            tag_ai_agent: 'Agent',
+            tag_compute: 'Compute',
+
+            // Deep reads
+            deep_article_1_title: 'NVIDIA GTC 2026: Three AI Chips in One Salvo',
+            deep_article_2_title: '2026 AI LLM Competition: A New Landscape',
 
             // Language
             lang_label: 'EN',
@@ -282,6 +314,20 @@
         return cat;
     }
 
+    // 中文热门标签 → 翻译key映射
+    const tagKeyMap = {
+        "智能体": "tag_agent",
+        "开源": "tag_opensource",
+        "GPT-5": "tag_gpt5",
+        "英伟达": "tag_nvidia",
+        "人形机器人": "tag_humanoid",
+        "IPO": "tag_ipo",
+        "3nm芯片": "tag_3nm",
+        "多模态": "tag_multimodal",
+        "Agent": "tag_ai_agent",
+        "算力": "tag_compute"
+    };
+
     // ============================================
     // 导出
     // ============================================
@@ -294,7 +340,8 @@
         getCategoryColorKey: getCategoryColorKey,
         normalizeCategory: normalizeCategory,
         categoryEnMap: categoryEnMap,
-        categoryZhMap: categoryZhMap
+        categoryZhMap: categoryZhMap,
+        tagKeyMap: tagKeyMap
     };
 
 })(window);
