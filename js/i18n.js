@@ -80,8 +80,8 @@
             tag_compute: '算力',
 
             // 深度文章
-            deep_article_1_title: '英伟达GTC 2026：AI芯片三箭齐发',
-            deep_article_2_title: '2026年AI大模型竞赛新格局',
+            deep_article_1_title: '英伟达Cosmos 3深度解读：物理AI的iPhone时刻',
+            deep_article_2_title: '英伟达GTC 2026：AI芯片三箭齐发',
             deep_article_3_title: 'DeepSeek首轮融资500亿：分水岭时刻',
 
             // 语言
@@ -158,8 +158,8 @@
             tag_compute: 'Compute',
 
             // Deep reads
-            deep_article_1_title: 'NVIDIA GTC 2026: Three AI Chips in One Salvo',
-            deep_article_2_title: '2026 AI LLM Competition: A New Landscape',
+            deep_article_1_title: 'NVIDIA Cosmos 3 Deep Dive: The iPhone Moment for Physical AI',
+            deep_article_2_title: 'NVIDIA GTC 2026: Three AI Chips in One Salvo',
             deep_article_3_title: 'DeepSeek 50B RMB First Round: A Watershed Moment',
 
             // Language
