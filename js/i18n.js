@@ -80,9 +80,13 @@
             tag_compute: '算力',
 
             // 深度文章
-            deep_article_1_title: '英伟达Cosmos 3深度解读：物理AI的iPhone时刻',
-            deep_article_2_title: '英伟达GTC 2026：AI芯片三箭齐发',
+            deep_article_1_title: 'AI递归式自我改进：Anthropic为何呼吁暂停？',
+            deep_article_2_title: '英伟达Cosmos 3深度解读：物理AI的iPhone时刻',
             deep_article_3_title: 'DeepSeek首轮融资500亿：分水岭时刻',
+
+            // 日期分隔符
+            date_today: '今天',
+            date_yesterday: '昨天',
 
             // 语言
             lang_label: '中文',
@@ -158,9 +162,13 @@
             tag_compute: 'Compute',
 
             // Deep reads
-            deep_article_1_title: 'NVIDIA Cosmos 3 Deep Dive: The iPhone Moment for Physical AI',
-            deep_article_2_title: 'NVIDIA GTC 2026: Three AI Chips in One Salvo',
-            deep_article_3_title: 'DeepSeek 50B RMB First Round: A Watershed Moment',
+            deep_article_1_title: "Recursive Self-Improvement: Why Anthropic Calls for a Pause",
+            deep_article_2_title: "NVIDIA Cosmos 3 Deep Dive: The iPhone Moment for Physical AI",
+            deep_article_3_title: "DeepSeek 50B RMB First Round: A Watershed Moment",
+
+            // Date separators
+            date_today: 'Today',
+            date_yesterday: 'Yesterday',
 
             // Language
             lang_label: 'EN',

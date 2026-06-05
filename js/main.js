@@ -1,6 +1,6 @@
 /**
- * AI News Daily - 主脚本 (双语版)
- * 功能：动态加载新闻数据、分类筛选、相对时间转换、国际化
+ * AI News Daily - 主脚本 (双语版·多日内容)
+ * 功能：动态加载新闻数据、分类筛选、相对时间转换、国际化、多日内容展示
  */
 
 (function() {
@@ -11,7 +11,8 @@
     // ============================================
     const CONFIG = {
         dataUrl: 'data/news.json',
-        animationDuration: 300
+        animationDuration: 300,
+        maxDays: 5  // 最多保留5天内容
     };
 
     // ============================================
@@ -19,6 +20,7 @@
     // ============================================
     let state = {
         newsData: null,
+        allArticles: [],  // 所有天的文章汇总
         currentCategory: '全部'  // 始终用中文key存储
     };
 
@@ -103,6 +105,33 @@
     }
 
     /**
+     * 格式化日期分隔符
+     */
+    function formatDateSeparator(dateStr) {
+        const date = new Date(dateStr);
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const target = new Date(date);
+        target.setHours(0, 0, 0, 0);
+        const diffDays = Math.round((today - target) / 86400000);
+        
+        const lang = I18n.getLang();
+        const locale = lang === 'zh' ? 'zh-CN' : 'en-US';
+        const formatted = date.toLocaleDateString(locale, {
+            month: 'long',
+            day: 'numeric',
+            weekday: 'long'
+        });
+        
+        if (diffDays === 0) {
+            return I18n.t('date_today') + ' · ' + formatted;
+        } else if (diffDays === 1) {
+            return I18n.t('date_yesterday') + ' · ' + formatted;
+        }
+        return formatted;
+    }
+
+    /**
      * 获取分类标签颜色（CSS变量用中文key）
      */
     function getCategoryClass(categoryZh) {
@@ -168,7 +197,7 @@
         const categoryName = I18n.getCategoryName(catZh);
         
         return `
-            <article class="news-card" data-id="${article.id}">
+            <article class="news-card" data-id="${article.id}" data-date="${article.date}">
                 <div class="news-card-image">
                     <img src="${article.image}" alt="${title}" loading="lazy">
                 </div>
@@ -192,10 +221,23 @@
     }
 
     /**
-     * 渲染新闻网格
+     * 创建日期分隔符HTML
      */
-    function renderNewsGrid(articles) {
-        if (!articles || articles.length === 0) {
+    function createDateSeparator(dateStr) {
+        return `
+            <div class="date-separator" data-date="${dateStr}">
+                <span class="date-separator-line"></span>
+                <span class="date-separator-text">${formatDateSeparator(dateStr)}</span>
+                <span class="date-separator-line"></span>
+            </div>
+        `;
+    }
+
+    /**
+     * 渲染新闻网格（支持多天内容+日期分隔）
+     */
+    function renderNewsGrid(daysData) {
+        if (!daysData || daysData.length === 0) {
             DOM.newsGrid.innerHTML = '';
             DOM.noResults.style.display = 'block';
             return;
@@ -205,11 +247,50 @@
         DOM.newsGrid.style.opacity = '0';
         
         setTimeout(() => {
-            DOM.newsGrid.innerHTML = articles
-                .map(article => createNewsCard(article))
-                .join('');
+            let html = '';
+            
+            daysData.forEach(function(dayData, dayIndex) {
+                // 添加日期分隔符（第一天的分隔符在hero下方，其他天在卡片之间）
+                if (dayIndex === 0) {
+                    html += createDateSeparator(dayData.date);
+                } else {
+                    html += createDateSeparator(dayData.date);
+                }
+                
+                // 渲染该天的文章
+                dayData.articles.forEach(function(article) {
+                    html += createNewsCard(article);
+                });
+            });
+            
+            DOM.newsGrid.innerHTML = html;
             DOM.newsGrid.style.opacity = '1';
         }, CONFIG.animationDuration);
+    }
+
+    /**
+     * 渲染新闻网格（按分类筛选后，仍然保留日期分隔）
+     */
+    function renderFilteredNewsGrid(daysData, category) {
+        if (!daysData || daysData.length === 0) {
+            DOM.newsGrid.innerHTML = '';
+            DOM.noResults.style.display = 'block';
+            return;
+        }
+
+        // 筛选各天中属于该分类的文章
+        const filteredDays = daysData.map(function(dayData) {
+            return {
+                date: dayData.date,
+                articles: dayData.articles.filter(function(article) {
+                    return article.category === category;
+                })
+            };
+        }).filter(function(dayData) {
+            return dayData.articles.length > 0;
+        });
+
+        renderNewsGrid(filteredDays);
     }
 
     /**
@@ -420,20 +501,14 @@
         state.currentCategory = category;
         updateNavTagsState(category);
         
-        let filteredArticles = state.newsData.articles;
-        
-        if (category !== '全部') {
-            filteredArticles = state.newsData.articles.filter(
-                article => article.category === category
-            );
-        }
-        
-        renderNewsGrid(filteredArticles);
+        if (!state.newsData || !state.newsData.days) return;
         
         if (category === '全部') {
-            renderHero(state.newsData.hero);
+            renderNewsGrid(state.newsData.days);
+            renderHero(state.newsData.days[0].hero);
         } else {
-            const categoryHero = state.newsData.articles.find(
+            renderFilteredNewsGrid(state.newsData.days, category);
+            const categoryHero = state.newsData.days[0].articles.find(
                 article => article.category === category
             );
             if (categoryHero) renderHero(categoryHero);
@@ -528,9 +603,29 @@
             const data = await response.json();
             state.newsData = data;
             
-            renderHero(data.hero);
-            renderNewsGrid(data.articles);
-            renderMustRead(data.articles);
+            // 兼容旧格式：如果没有days字段，包装为新格式
+            if (!data.days && data.articles) {
+                data.days = [{
+                    date: data.hero ? data.hero.date : data.last_updated,
+                    hero: data.hero,
+                    articles: data.articles
+                }];
+            }
+            
+            // 限制最多保留的天数
+            if (data.days.length > CONFIG.maxDays) {
+                data.days = data.days.slice(0, CONFIG.maxDays);
+            }
+            
+            // 汇总所有文章（用于MustRead等）
+            state.allArticles = data.days.flatMap(day => day.articles);
+            
+            // 渲染最新一天的hero
+            renderHero(data.days[0].hero);
+            // 渲染所有天的新闻（含日期分隔）
+            renderNewsGrid(data.days);
+            // MustRead取最新一天的文章
+            renderMustRead(data.days[0].articles);
             updateLastUpdateTime(data.last_updated);
             
         } catch (error) {
@@ -550,14 +645,14 @@
 
     window.applyLanguage = function() {
         applyUITranslations();
-        if (state.newsData) {
-            renderHero(state.newsData.hero);
-            renderNewsGrid(
-                state.currentCategory === '全部' 
-                    ? state.newsData.articles 
-                    : state.newsData.articles.filter(a => a.category === state.currentCategory)
-            );
-            renderMustRead(state.newsData.articles);
+        if (state.newsData && state.newsData.days) {
+            renderHero(state.newsData.days[0].hero);
+            if (state.currentCategory === '全部') {
+                renderNewsGrid(state.newsData.days);
+            } else {
+                renderFilteredNewsGrid(state.newsData.days, state.currentCategory);
+            }
+            renderMustRead(state.newsData.days[0].articles);
             updateLastUpdateTime(state.newsData.last_updated);
         }
     };

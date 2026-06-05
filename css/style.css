@@ -523,6 +523,39 @@ button {
     gap: 24px;
 }
 
+/* 日期分隔符 */
+.date-separator {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 8px 0 4px 0;
+    opacity: 1;
+    animation: none;
+}
+
+.date-separator:first-child {
+    margin-top: 0;
+}
+
+.date-separator-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border-color), transparent);
+}
+
+.date-separator-text {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
 /* 新闻卡片 */
 .news-card {
     background: var(--bg-card);
