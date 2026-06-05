@@ -81,9 +81,9 @@
             tag_compute: '算力',
 
             // 深度文章
-            deep_article_1_title: 'AI递归式自我改进：Anthropic为何呼吁暂停？',
-            deep_article_2_title: '英伟达Cosmos 3深度解读：物理AI的iPhone时刻',
-            deep_article_3_title: 'DeepSeek首轮融资500亿：分水岭时刻',
+            deep_article_1_title: '特斯拉Robotaxi：全城无人驾驶的豪言与20辆车的现实',
+            deep_article_2_title: 'AI递归式自我改进：Anthropic为何呼吁暂停？',
+            deep_article_3_title: '英伟达Cosmos 3深度解读：物理AI的iPhone时刻',
 
             // 日期分隔符
             date_today: '今天',
@@ -172,9 +172,9 @@
             tag_compute: 'Compute',
 
             // Deep reads
-            deep_article_1_title: "Recursive Self-Improvement: Why Anthropic Calls for a Pause",
-            deep_article_2_title: "NVIDIA Cosmos 3 Deep Dive: The iPhone Moment for Physical AI",
-            deep_article_3_title: "DeepSeek 50B RMB First Round: A Watershed Moment",
+            deep_article_1_title: "Tesla Robotaxi: City-Wide Driverless Promise vs 20-Car Reality",
+            deep_article_2_title: "Recursive Self-Improvement: Why Anthropic Calls for a Pause",
+            deep_article_3_title: "NVIDIA Cosmos 3 Deep Dive: The iPhone Moment for Physical AI",
 
             // Date separators
             date_today: 'Today',

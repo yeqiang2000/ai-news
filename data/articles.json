@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "id": "article-6",
+      "title": "特斯拉Robotaxi：全城无人驾驶的豪言与20辆车的现实",
+      "title_en": "Tesla Robotaxi: City-Wide Driverless Promise vs 20-Car Reality",
+      "summary": "特斯拉宣布Robotaxi覆盖奥斯汀全城，但实际运营车辆仅20辆。深度分析纯视觉路线的商业化困境、与Waymo的规模差距、FSD v15的赌注，以及中美Robotaxi赛道格局。",
+      "summary_en": "Tesla announces city-wide Robotaxi coverage in Austin, but only 20 cars are actually operating. Deep analysis of vision-only commercialization challenges, the Waymo gap, the FSD v15 bet, and the US-China Robotaxi landscape.",
+      "url": "articles/article-6.html",
+      "image": "https://picsum.photos/800/450?random=article6-robotaxi",
+      "category": "AI应用",
+      "date": "2026-06-07",
+      "author": "AI News Daily",
+      "read_time": "9 min"
+    },
+    {
       "id": "article-5",
       "title": "AI递归式自我改进：Anthropic为何呼吁暂停？",
       "title_en": "Recursive Self-Improvement: Why Anthropic Calls for a Pause",
