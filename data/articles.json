@@ -1,0 +1,69 @@
+{
+  "articles": [
+    {
+      "id": "article-5",
+      "title": "AI递归式自我改进：Anthropic为何呼吁暂停？",
+      "title_en": "Recursive Self-Improvement: Why Anthropic Calls for a Pause",
+      "summary": "Anthropic发布重磅报告《When AI Builds Itself》，揭示AI递归式自我改进的最新进展。Claude在AI研发任务中已超越人类水平，前沿实验室需制定可验证的协调暂停机制。深度解读报告核心发现与行业影响。",
+      "summary_en": "Anthropic releases landmark report 'When AI Builds Itself', revealing latest advances in recursive self-improvement. Claude surpasses human-level performance in AI R&D tasks. Frontier labs must develop verifiable coordinated pause mechanisms.",
+      "url": "articles/article-5.html",
+      "image": "https://picsum.photos/800/450?random=article5-anthropic",
+      "category": "大模型",
+      "date": "2026-06-06",
+      "author": "AI News Daily",
+      "read_time": "8 min"
+    },
+    {
+      "id": "article-4",
+      "title": "英伟达Cosmos 3深度解读：物理AI的iPhone时刻",
+      "title_en": "NVIDIA Cosmos 3 Deep Dive: The iPhone Moment for Physical AI",
+      "summary": "英伟达发布全球首款全开源全模态物理AI世界模型Cosmos 3，将AI从虚拟世界推向真实物理世界。深度解析其技术架构、行业影响与未来走向。",
+      "summary_en": "NVIDIA launches the world's first fully open-source multimodal physical AI world model Cosmos 3, pushing AI from virtual to real physical worlds. Deep analysis of its architecture, industry impact, and future direction.",
+      "url": "articles/article-4.html",
+      "image": "https://picsum.photos/800/450?random=article4-cosmos",
+      "category": "芯片算力",
+      "date": "2026-06-05",
+      "author": "AI News Daily",
+      "read_time": "7 min"
+    },
+    {
+      "id": "article-3",
+      "title": "DeepSeek首轮融资500亿：中国AI基础设施自主化的分水岭时刻",
+      "title_en": "DeepSeek 50B RMB First Round: A Watershed Moment for China AI Sovereignty",
+      "summary": "DeepSeek启动首轮融资500亿元，腾讯宁德时代参投，估值达4000亿元。深度解析这笔融资背后的产业逻辑、能源-AI融合趋势及对中国AI自主化的战略意义。",
+      "summary_en": "DeepSeek launches first funding round of 50 billion RMB, with Tencent and CATL participating, reaching 400 billion RMB valuation. Deep analysis of the industrial logic, energy-AI convergence, and strategic significance for China AI sovereignty.",
+      "url": "articles/article-3.html",
+      "image": "https://picsum.photos/800/450?random=article3-deepseek",
+      "category": "投融资",
+      "date": "2026-06-04",
+      "author": "AI News Daily",
+      "read_time": "8 min"
+    },
+    {
+      "id": "article-2",
+      "title": "2026年AI大模型竞赛新格局——Anthropic估值登顶，具身智能元年开启",
+      "title_en": "New Landscape of AI LLM Competition in 2026: Anthropic Valuation Peaks, Embodied AI Era Begins",
+      "summary": "Anthropic完成650亿美元融资估值达9650亿美元首次超越OpenAI，MiniMax M3编程能力超越GPT-5.5，OpenAI正式进军机器人赛道。深度解读2026年AI大模型竞争新格局。",
+      "summary_en": "Anthropic completes $65B funding at $96.5B valuation surpassing OpenAI, MiniMax M3 coding beats GPT-5.5, OpenAI enters robotics. Deep analysis of the new AI LLM competitive landscape in 2026.",
+      "url": "articles/article-2.html",
+      "image": "https://picsum.photos/800/450?random=article2-llm",
+      "category": "大模型",
+      "date": "2026-06-03",
+      "author": "AI News Daily",
+      "read_time": "7 min"
+    },
+    {
+      "id": "article-1",
+      "title": "英伟达GTC 2026：AI芯片三箭齐发，智能体时代全面到来",
+      "title_en": "NVIDIA GTC 2026: Three AI Chips Launched, Agent Era Fully Arrives",
+      "summary": "黄仁勋在COMPUTEX大会上发布三枚核弹：Vera Rubin正式量产、RTX Spark杀入PC市场、Vera CPU正面挑战英特尔。深度解读英伟达从GPU巨头向全栈AI基础设施运营商的转型战略。",
+      "summary_en": "Jensen Huang unveils three blockbuster products at COMPUTEX: Vera Rubin enters mass production, RTX Spark enters PC market, Vera CPU challenges Intel. Deep analysis of NVIDIA's transformation from GPU giant to full-stack AI infrastructure operator.",
+      "url": "articles/article-1.html",
+      "image": "https://picsum.photos/800/450?random=article1-nvidia",
+      "category": "芯片算力",
+      "date": "2026-06-03",
+      "author": "AI News Daily",
+      "read_time": "7 min"
+    }
+  ]
+}

@@ -11,6 +11,7 @@
     // ============================================
     const CONFIG = {
         dataUrl: 'data/news.json',
+        articlesUrl: 'data/articles.json',
         animationDuration: 300,
         maxDays: 5  // 最多保留5天内容
     };
@@ -20,8 +21,10 @@
     // ============================================
     let state = {
         newsData: null,
+        articlesData: null,  // 深度文章数据
         allArticles: [],  // 所有天的文章汇总
-        currentCategory: '全部'  // 始终用中文key存储
+        currentCategory: '全部',  // 始终用中文key存储
+        isArticleView: false  // 是否在深度文章视图
     };
 
     // ============================================
@@ -293,6 +296,124 @@
         renderNewsGrid(filteredDays);
     }
 
+    // ============================================
+    // 深度文章视图
+    // ============================================
+
+    /**
+     * 加载深度文章数据
+     */
+    async function loadArticlesData() {
+        if (state.articlesData) return state.articlesData;
+        try {
+            const response = await fetch(CONFIG.articlesUrl);
+            if (!response.ok) throw new Error('HTTP error');
+            state.articlesData = await response.json();
+            return state.articlesData;
+        } catch (error) {
+            console.error('Failed to load articles data:', error);
+            return null;
+        }
+    }
+
+    /**
+     * 创建深度文章卡片HTML
+     */
+    function createArticleCard(article, index) {
+        const catZh = article.category;
+        const categoryColor = getCategoryClass(catZh);
+        const title = getLocalizedField(article, 'title');
+        const summary = getLocalizedField(article, 'summary');
+        const categoryName = I18n.getCategoryName(catZh);
+        const readMore = I18n.t('articles_read_more');
+        const readTime = I18n.t('articles_read_time');
+        const delay = 0.1 + index * 0.08;
+
+        return `
+            <article class="deep-article-card" style="animation-delay: ${delay}s">
+                <a href="${article.url}" class="deep-article-link" target="_blank" rel="noopener noreferrer">
+                    <div class="deep-article-image">
+                        <img src="${article.image}" alt="${title}" loading="lazy">
+                        <span class="deep-article-number">#${index + 1}</span>
+                    </div>
+                    <div class="deep-article-body">
+                        <div class="deep-article-meta">
+                            <span class="category-tag" data-category="${catZh}" style="background: ${categoryColor}">
+                                ${categoryName}
+                            </span>
+                            <span class="deep-article-date">${formatDate(article.date)}</span>
+                            ${article.read_time ? '<span class="deep-article-readtime">🕐 ' + readTime + ' ' + article.read_time + '</span>' : ''}
+                        </div>
+                        <h3 class="deep-article-title">${title}</h3>
+                        <p class="deep-article-summary">${summary}</p>
+                        <span class="deep-article-readmore">${readMore} →</span>
+                    </div>
+                </a>
+            </article>
+        `;
+    }
+
+    /**
+     * 渲染深度文章视图
+     */
+    function renderArticlesView(articles) {
+        if (!articles || articles.length === 0) {
+            DOM.newsGrid.innerHTML = '';
+            DOM.noResults.style.display = 'block';
+            return;
+        }
+
+        DOM.noResults.style.display = 'none';
+        DOM.newsGrid.style.opacity = '0';
+
+        // 更新section标题
+        var sectionTitle = document.querySelector('.section-title');
+        if (sectionTitle) {
+            sectionTitle.innerHTML = '<span class="title-icon">' + I18n.t('articles_section_icon') + '</span>' + I18n.t('articles_section_title');
+        }
+
+        // 更新更新时间显示为文章数量
+        var countLabel = I18n.t('articles_count_prefix') + articles.length + I18n.t('articles_count_suffix');
+        DOM.lastUpdateTime.textContent = countLabel;
+
+        // 隐藏hero区
+        var heroSection = document.querySelector('.hero-section');
+        if (heroSection) heroSection.style.display = 'none';
+
+        // 添加文章视图样式标记
+        DOM.newsGrid.classList.add('articles-grid-mode');
+
+        setTimeout(function() {
+            var html = '';
+            articles.forEach(function(article, index) {
+                html += createArticleCard(article, index);
+            });
+            DOM.newsGrid.innerHTML = html;
+            DOM.newsGrid.style.opacity = '1';
+        }, CONFIG.animationDuration);
+    }
+
+    /**
+     * 恢复新闻视图（从深度文章视图切回）
+     */
+    function restoreNewsView() {
+        if (!state.isArticleView) return;
+        state.isArticleView = false;
+
+        // 恢复section标题
+        var sectionTitle = document.querySelector('.section-title');
+        if (sectionTitle) {
+            sectionTitle.innerHTML = '<span class="title-icon">' + I18n.t('section_latest_icon') + '</span>' + I18n.t('section_latest');
+        }
+
+        // 恢复hero区
+        var heroSection = document.querySelector('.hero-section');
+        if (heroSection) heroSection.style.display = '';
+
+        // 移除文章视图样式标记
+        DOM.newsGrid.classList.remove('articles-grid-mode');
+    }
+
     /**
      * 渲染本周必读
      */
@@ -447,7 +568,8 @@
             'AI应用': 'nav_aiapp',
             '开源动态': 'nav_opensource',
             '投融资': 'nav_investment',
-            '政策监管': 'nav_policy'
+            '政策监管': 'nav_policy',
+            '深度文章': 'nav_articles'
         };
 
         DOM.navTags.forEach(tag => {
@@ -501,11 +623,26 @@
         state.currentCategory = category;
         updateNavTagsState(category);
         
+        if (category === '深度文章') {
+            // 切换到深度文章视图
+            state.isArticleView = true;
+            loadArticlesData().then(function(data) {
+                if (data && data.articles) {
+                    renderArticlesView(data.articles);
+                }
+            });
+            return;
+        }
+        
+        // 如果从深度文章视图切回，恢复新闻视图
+        restoreNewsView();
+        
         if (!state.newsData || !state.newsData.days) return;
         
         if (category === '全部') {
             renderNewsGrid(state.newsData.days);
             renderHero(state.newsData.days[0].hero);
+            updateLastUpdateTime(state.newsData.last_updated);
         } else {
             renderFilteredNewsGrid(state.newsData.days, category);
             const categoryHero = state.newsData.days[0].articles.find(
@@ -645,7 +782,9 @@
 
     window.applyLanguage = function() {
         applyUITranslations();
-        if (state.newsData && state.newsData.days) {
+        if (state.isArticleView && state.articlesData && state.articlesData.articles) {
+            renderArticlesView(state.articlesData.articles);
+        } else if (state.newsData && state.newsData.days) {
             renderHero(state.newsData.days[0].hero);
             if (state.currentCategory === '全部') {
                 renderNewsGrid(state.newsData.days);

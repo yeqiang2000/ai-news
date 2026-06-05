@@ -19,6 +19,7 @@
             nav_opensource: '开源动态',
             nav_investment: '投融资',
             nav_policy: '政策监管',
+            nav_articles: '深度文章',
             nav_about: '关于 ▾',
             nav_about_us: '关于我们',
             nav_contact: '联系方式',
@@ -88,6 +89,14 @@
             date_today: '今天',
             date_yesterday: '昨天',
 
+            // 深度文章视图
+            articles_section_title: '深度文章',
+            articles_section_icon: '📝',
+            articles_read_more: '阅读全文',
+            articles_read_time: '阅读时长',
+            articles_count_prefix: '共',
+            articles_count_suffix: '篇',
+
             // 语言
             lang_label: '中文',
             lang_switch_to: 'EN'
@@ -101,6 +110,7 @@
             nav_opensource: 'Open Source',
             nav_investment: 'Investment',
             nav_policy: 'Policy',
+            nav_articles: 'Deep Reads',
             nav_about: 'About ▾',
             nav_about_us: 'About Us',
             nav_contact: 'Contact',
@@ -169,6 +179,14 @@
             // Date separators
             date_today: 'Today',
             date_yesterday: 'Yesterday',
+
+            // Deep articles view
+            articles_section_title: 'Deep Reads',
+            articles_section_icon: '📝',
+            articles_read_more: 'Read More',
+            articles_read_time: 'Read time',
+            articles_count_prefix: '',
+            articles_count_suffix: ' articles',
 
             // Language
             lang_label: 'EN',
