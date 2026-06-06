@@ -4,6 +4,21 @@
 
 ---
 
+## 2026-06-07 #1 — 6月7日每日更新
+
+### 新增
+- 6月7日新闻10条 + 头条（美国政府考虑入股AI企业）
+- 深度文章 `article-7.html`：《当国家成为AI股东：美国政府入股科技公司的战略逻辑与风险》（约1500字，6月8日提前发布）
+- `wechat/article-7-wechat.html`：微信图文适配版
+
+### 修改
+- `data/news.json`：新增6月7日数据，保留6月5-6日历史（3天）
+- `data/articles.json`：新增 article-7 元数据
+- `index.html`：侧边栏推荐区更新（article-7 🔥、article-6 📖、article-5 📖）
+- `js/i18n.js`：深度文章标题更新为 article-7、article-6、article-5
+
+---
+
 ## 2026-06-06 #3 — 提前写好6月7日深度文章
 
 ### 新增

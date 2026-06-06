@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "id": "article-7",
+      "title": "当国家成为AI股东：美国政府入股科技公司的战略逻辑与风险",
+      "title_en": "When the State Becomes an AI Shareholder: Strategic Logic and Risks of US Government Equity Stakes",
+      "summary": "美国政府考虑入股OpenAI等AI企业，从监管者跃迁为股东。深度分析这一史无前例的政策构想背后的战略逻辑、国际先例、利益冲突与制度风险。",
+      "summary_en": "The US government considers taking equity stakes in OpenAI and other AI firms, leaping from regulator to shareholder. Deep analysis of the strategic logic, international precedents, conflicts of interest, and institutional risks behind this unprecedented policy proposal.",
+      "url": "articles/article-7.html",
+      "image": "https://picsum.photos/800/450?random=article7-govt-stake",
+      "category": "政策监管",
+      "date": "2026-06-08",
+      "author": "AI News Daily",
+      "read_time": "9 min"
+    },
+    {
       "id": "article-6",
       "title": "特斯拉Robotaxi：全城无人驾驶的豪言与20辆车的现实",
       "title_en": "Tesla Robotaxi: City-Wide Driverless Promise vs 20-Car Reality",

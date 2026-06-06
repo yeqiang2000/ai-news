@@ -1,6 +1,154 @@
 {
-  "last_updated": "2026-06-06T07:30:00+08:00",
+  "last_updated": "2026-06-07T07:10:00+08:00",
   "days": [
+    {
+      "date": "2026-06-07",
+      "hero": {
+        "id": 0,
+        "title": "美国政府考虑入股AI企业：国家资本与科技权力的历史性交汇",
+        "title_en": "US Government Considers Taking Equity Stakes in AI Companies: Historic Convergence of State Capital and Tech Power",
+        "summary": "据Reuters等三家媒体确认，美国政府高级官员已与OpenAI等大型AI企业进行初步讨论，探讨政府入股AI公司的可能性。讨论重点在于让企业「自愿将股份转让给政府」，投资回报用于公共用途。特朗普称将「审视」这一构想。这标志着AI治理从监管者向股东的角色跃迁，可能深刻重塑硅谷与华盛顿的关系。",
+        "summary_en": "Reuters and two other outlets confirm senior US officials have held preliminary discussions with major AI firms about the government taking equity stakes. The focus is on 'voluntary share transfers' with returns directed to public use. Trump says his team will 'look into' the idea. This marks a leap from regulator to shareholder in AI governance, potentially reshaping Silicon Valley-Washington relations.",
+        "source": "Reuters / 央视新闻 / R&D World",
+        "source_en": "Reuters / CCTV News / R&D World",
+        "url": "https://www.reuters.com/",
+        "image": "https://picsum.photos/800/400?random=500",
+        "category": "政策监管",
+        "date": "2026-06-07"
+      },
+      "articles": [
+        {
+          "id": 1,
+          "title": "特朗普AI政策顾问Krishnan将离开白宫：政策真空谁来填补？",
+          "title_en": "Trump AI Policy Adviser Krishnan to Leave White House: Who Fills the Policy Vacuum?",
+          "summary": "Bloomberg和Washington Post等多家媒体确认，特朗普政府高级AI政策顾问Sriram Krishnan即将离职。Krishnan是白宫AI政策的核心设计者之一，他的离开正值美国政府考虑入股AI企业、推动联邦AI立法的关键时刻，留下政策衔接的真空。",
+          "summary_en": "Bloomberg, Washington Post and others confirm senior Trump AI policy adviser Sriram Krishnan is leaving the White House. Krishnan was a core architect of White House AI policy. His departure comes at a critical moment as the government considers equity stakes in AI firms and pushes federal AI legislation.",
+          "source": "Bloomberg / Washington Post / SCMP",
+          "source_en": "Bloomberg / Washington Post / SCMP",
+          "url": "https://www.washingtonpost.com/",
+          "image": "https://picsum.photos/400/250?random=501",
+          "category": "政策监管",
+          "date": "2026-06-07"
+        },
+        {
+          "id": 2,
+          "title": "Anthropic获Apollo与Blackstone 350亿美元投资：IPO前最后一轮？",
+          "title_en": "Anthropic Secures $35B from Apollo and Blackstone: Final Round Before IPO?",
+          "summary": "据Crypto Briefing报道，Anthropic从Apollo Global Management和Blackstone获得350亿美元新投资。此前Anthropic已向SEC秘密提交S-1上市申请草案，估值达9650亿美元。这轮注资可能成为IPO前的最后一轮大规模融资，进一步巩固Anthropic对抗OpenAI的资本壁垒。",
+          "summary_en": "Crypto Briefing reports Anthropic secured $35B in new investment from Apollo Global Management and Blackstone. Anthropic previously filed a confidential S-1 draft with the SEC at a $965B valuation. This round may be the last major funding before IPO, further cementing Anthropic's capital moat against OpenAI.",
+          "source": "Crypto Briefing / Bloomberg",
+          "source_en": "Crypto Briefing / Bloomberg",
+          "url": "https://www.bloomberg.com/",
+          "image": "https://picsum.photos/400/250?random=502",
+          "category": "投融资",
+          "date": "2026-06-07"
+        },
+        {
+          "id": 3,
+          "title": "AI生成化合物首次超越传统药物筛选：特定细胞类型命中率显著提升",
+          "title_en": "AI-Generated Compounds Outperform Conventional Drug Screening for the First Time",
+          "summary": "Phys.org报道，AI生成的化合物在针对特定细胞类型的活性测试中首次超越传统高通量筛选方法。AI不仅能发现更多活性分子，还能精准靶向特定细胞类型，这对减少药物副作用有重大意义。标志着AI从药物研发辅助工具向核心引擎的角色转变。",
+          "summary_en": "Phys.org reports AI-generated compounds have outperformed conventional high-throughput screening for the first time in cell-type-specific activity tests. AI not only identifies more active molecules but also precisely targets specific cell types, a major step toward reducing drug side effects. This marks AI's shift from supporting tool to core engine in drug discovery.",
+          "source": "Phys.org / Nature",
+          "source_en": "Phys.org / Nature",
+          "url": "https://phys.org/",
+          "image": "https://picsum.photos/400/250?random=503",
+          "category": "AI应用",
+          "date": "2026-06-07"
+        },
+        {
+          "id": 4,
+          "title": "英伟达RTX Spark搅动AI PC市场：与微软联手重塑Windows",
+          "title_en": "NVIDIA RTX Spark Stirs Up AI PC Market: Teaming with Microsoft to Reinvent Windows",
+          "summary": "ECT News报道，英伟达与微软联合推出RTX Spark系统，将数据中心级AI算力带入Windows PC。集成20核Grace CPU和Blackwell架构GPU，128GB统一内存，AI算力达1 PetaFLOPS。华硕、戴尔、联想等今秋推出搭载产品。黄仁勋称这是PC 40年来首次彻底重新设计。",
+          "summary_en": "ECT News reports NVIDIA and Microsoft are introducing RTX Spark systems, bringing data center-class AI performance to Windows PCs. With 20-core Grace CPU, Blackwell GPU, 128GB unified memory, and 1 PetaFLOPS AI compute, products from ASUS, Dell, and Lenovo arrive this fall. Huang calls it the first complete PC redesign in 40 years.",
+          "source": "ECT News / The Verge",
+          "source_en": "ECT News / The Verge",
+          "url": "https://www.ectnews.com/",
+          "image": "https://picsum.photos/400/250?random=504",
+          "category": "芯片算力",
+          "date": "2026-06-07"
+        },
+        {
+          "id": 5,
+          "title": "中科院发布「琅琊」2.0：全球海洋现象智能预报大模型，突破数值计算瓶颈",
+          "title_en": "CAS Releases Langya 2.0: Global Ocean Phenomenon AI Forecast Model Breaks Numerical Computing Bottleneck",
+          "summary": "中国科学院海洋研究所发布全球海洋现象智能预报大模型「琅琊」2.0。依托AI大模型架构突破单纯数值计算预报的性能瓶颈，可更高效预测台风、降水、海冰等六类海洋现象演变，为海洋防灾减灾提供智能化科技支撑。",
+          "summary_en": "The Institute of Oceanology, Chinese Academy of Sciences releases Langya 2.0, a global ocean phenomenon AI forecast model. It breaks through the performance bottleneck of purely numerical forecasting, efficiently predicting typhoons, precipitation, sea ice, and three other ocean phenomena, providing intelligent support for marine disaster prevention.",
+          "source": "央视新闻 / 中科院",
+          "source_en": "CCTV News / CAS",
+          "url": "http://www.cas.cn/",
+          "image": "https://picsum.photos/400/250?random=505",
+          "category": "大模型",
+          "date": "2026-06-07"
+        },
+        {
+          "id": 6,
+          "title": "FIFA用AI给2026世界杯球员搭社媒「过滤网」：3万关键词2秒拦截辱骂",
+          "title_en": "FIFA Builds AI Social Media Filter for 2026 World Cup: 30K Keywords Block Abuse in Under 2 Seconds",
+          "summary": "国际足联将在2026美加墨世界杯期间向所有参赛足协免费提供AI社交媒体保护服务。由Respondology提供技术，通过3万个关键词识别并隐藏种族主义、恐同等辱骂评论，全程不到2秒。发送者仍能看到自己的帖子但无法得知内容已被过滤。",
+          "summary_en": "FIFA will provide free AI social media protection to all participating federations during the 2026 World Cup. Powered by Respondology, the system identifies and hides abusive comments using 30,000 keywords in under 2 seconds. Senders still see their own posts but won't know they've been filtered.",
+          "source": "Coze / FIFA官方",
+          "source_en": "Coze / FIFA Official",
+          "url": "https://www.fifa.com/",
+          "image": "https://picsum.photos/400/250?random=506",
+          "category": "AI应用",
+          "date": "2026-06-07"
+        },
+        {
+          "id": 7,
+          "title": "Google AI搜索改版引发用户反弹：DuckDuckGo安装量激增",
+          "title_en": "Google AI Search Revamp Triggers User Backlash: DuckDuckGo Install Surge",
+          "summary": "Google最新的AI搜索改版在用户体验上引发强烈反弹，大量用户转向DuckDuckGo等替代搜索引擎。DuckDuckGo安装量出现显著激增，反映出消费者对AI驱动的搜索体验变化感到不安，对信息来源透明度和选择权的关注度上升。",
+          "summary_en": "Google's latest AI search revamp has triggered strong user backlash, with many switching to alternatives like DuckDuckGo. DuckDuckGo is seeing a surge in installs, reflecting consumer unease about AI-driven search changes and growing concern over source transparency and choice.",
+          "source": "ECT News / TechCrunch",
+          "source_en": "ECT News / TechCrunch",
+          "url": "https://techcrunch.com/",
+          "image": "https://picsum.photos/400/250?random=507",
+          "category": "AI应用",
+          "date": "2026-06-07"
+        },
+        {
+          "id": 8,
+          "title": "Anthropic Mythos AI发现数十年老牌开源软件漏洞：AI安全审计进入实战",
+          "title_en": "Anthropic Mythos AI Discovers Decades-Old Open Source Bugs: AI Security Audit Enters Real-World Deployment",
+          "summary": "Anthropic的Mythos AI在开源软件中发现了存在数十年的安全漏洞，这些漏洞此前未被人类审计者发现。这一成果表明AI在代码安全审计领域已从理论验证进入实战应用阶段，可能重塑软件安全行业的审查范式。",
+          "summary_en": "Anthropic's Mythos AI has discovered security bugs in open source software that have existed for decades, previously missed by human auditors. This milestone shows AI code security auditing has moved from theoretical validation to real-world deployment, potentially reshaping the software security audit paradigm.",
+          "source": "LinuxInsider / Anthropic",
+          "source_en": "LinuxInsider / Anthropic",
+          "url": "https://www.linuxinsider.com/",
+          "image": "https://picsum.photos/400/250?random=508",
+          "category": "开源动态",
+          "date": "2026-06-07"
+        },
+        {
+          "id": 9,
+          "title": "小鹏推送AIOS 6.2.0：VLA 2.0第二版解锁，智驾与座舱双升级",
+          "title_en": "Xpeng Pushes AIOS 6.2.0: VLA 2.0 v2 Unlocked, Dual Upgrade for Smart Driving and Cabin",
+          "summary": "小鹏汽车宣布启动2026款X9 AIOS 6.2.0版本推送。Ultra/Ultra SE车主将迎来VLA 2.0第二个版本升级，覆盖智驾体验优化与座舱功能新增两大维度。Max版专属功能仍在研发中。VLA 2.0代表视觉-语言-动作多模态架构在量产车上的进一步落地。",
+          "summary_en": "Xpeng announces AIOS 6.2.0 rollout for the 2026 X9. Ultra/Ultra SE owners receive VLA 2.0 second version upgrade covering smart driving and cabin enhancements. Max-exclusive features remain in development. VLA 2.0 represents further production deployment of vision-language-action multimodal architecture.",
+          "source": "Coze / 小鹏汽车",
+          "source_en": "Coze / Xpeng Motors",
+          "url": "https://www.xpeng.com/",
+          "image": "https://picsum.photos/400/250?random=509",
+          "category": "AI应用",
+          "date": "2026-06-07"
+        },
+        {
+          "id": 10,
+          "title": "共和党参议员呼吁将AI自我改进风险纳入联邦测试框架",
+          "title_en": "GOP Senator Urges Inclusion of AI Self-Improvement Risks in Federal Testing Framework",
+          "summary": "一名共和党参议员呼吁联邦政府将AI递归式自我改进风险纳入现有测试框架。此举与Anthropic此前发布的《When AI Builds Itself》报告形成政策呼应，标志着AI安全讨论从学术圈正式进入国会立法视野。可能增加开发者合规成本，影响创新节奏。",
+          "summary_en": "A Republican senator urges the federal government to incorporate AI recursive self-improvement risks into existing testing frameworks. This aligns with Anthropic's 'When AI Builds Itself' report and marks AI safety discussions moving from academia to Congressional legislation. It may increase developer compliance costs and impact innovation pace.",
+          "source": "Crypto Briefing / The Hill",
+          "source_en": "Crypto Briefing / The Hill",
+          "url": "https://thehill.com/",
+          "image": "https://picsum.photos/400/250?random=510",
+          "category": "政策监管",
+          "date": "2026-06-07"
+        }
+      ]
+    },
     {
       "date": "2026-06-06",
       "hero": {
@@ -228,71 +376,6 @@
           "url": "https://www.stcn.com/",
           "image": "https://picsum.photos/400/250?random=305",
           "category": "芯片算力",
-          "date": "2026-06-05"
-        },
-        {
-          "id": 6,
-          "title": "Vera Rubin全面量产：3360亿晶体管+288GB HBM4，推理性能达Blackwell 5倍",
-          "title_en": "Vera Rubin Enters Full Production: 336B Transistors + 288GB HBM4, 5x Inference Over Blackwell",
-          "summary": "英伟达Vera Rubin架构已投入全面量产，GPU采用台积电3nm工艺，3360亿晶体管，配备288GB HBM4显存，带宽22TB/s。引入NVFP4精度格式，推理性能达上代5倍。NVL576系统576颗GPU聚合165TB显存，预计2026下半年开始交付。",
-          "summary_en": "NVIDIA Vera Rubin enters full production with TSMC 3nm, 336B transistors, 288GB HBM4, and 22TB/s bandwidth. NVFP4 precision delivers 5x inference over Blackwell. NVL576 system aggregates 165TB VRAM across 576 GPUs. Deliveries begin H2 2026.",
-          "source": "新智元 / 雪球",
-          "source_en": "Synced / Xueqiu",
-          "url": "https://www.nvidia.com/",
-          "image": "https://picsum.photos/400/250?random=306",
-          "category": "芯片算力",
-          "date": "2026-06-05"
-        },
-        {
-          "id": 7,
-          "title": "宇树科技IPO过会：具身智能第一股诞生，行业从技术验证走向商业兑现",
-          "title_en": "Unitree IPO Approved: First Embodied AI Stock Emerges, Industry Shifts from Tech Validation to Commercial Delivery",
-          "summary": "宇树科技科创板IPO顺利过会，成为具身智能赛道首家过会企业。公司拟募资42.02亿元，其中20.22亿用于具身大模型研发。但更新招股书显示上半年扣非净利润同比下滑6%-22%，行业竞争加剧，从参数比拼转向商业兑现的拐点已至。",
-          "summary_en": "Unitree passes STAR Market IPO review, becoming the first embodied AI company to do so. The company plans to raise 4.2B RMB, with 2B for embodied AI model R&D. Updated prospectus shows H1 adjusted net profit declining 6-22% YoY, signaling the industry pivot from specs to commercial delivery.",
-          "source": "36氪 / 每日经济新闻",
-          "source_en": "36Kr / National Business Daily",
-          "url": "https://36kr.com/",
-          "image": "https://picsum.photos/400/250?random=307",
-          "category": "投融资",
-          "date": "2026-06-05"
-        },
-        {
-          "id": 8,
-          "title": "人形机器人价格大跳水：松延动力9998元、宇树R1低至2.99万，行业进入白菜价时代",
-          "title_en": "Humanoid Robot Price Crash: Songyan Bumi at 9,998 RMB, Unitree R1 from 29,900 RMB, Industry Enters Mass Market Era",
-          "summary": "2026年中国人形机器人市场迎来价格拐点。松延动力Bumi售价9998元，宇树R1降至2.99万元起，优必选12.8万起。供应链国产化率达90%，核心零部件国产替代率75%-90%，2026年产量预期跨越10-20万台级规模，从奢侈品变为家电级标准品。",
-          "summary_en": "China's humanoid robot market hits a price inflection point in 2026. Songyan Bumi at 9,998 RMB, Unitree R1 from 29,900 RMB, UBTech from 128,000 RMB. Supply chain localization reaches 90%, core component domestic substitution 75-90%. 2026 output expected to reach 100K-200K units.",
-          "source": "环球网 / 广州日报",
-          "source_en": "Huanqiu / Guangzhou Daily",
-          "url": "https://www.huanqiu.com/",
-          "image": "https://picsum.photos/400/250?random=308",
-          "category": "AI应用",
-          "date": "2026-06-05"
-        },
-        {
-          "id": 9,
-          "title": "OpenAI发布前沿AI监管蓝图：呼吁联邦框架，反对各州各自立法",
-          "title_en": "OpenAI Releases Frontier AI Regulation Blueprint: Calls for Federal Framework, Opposes State-Level Laws",
-          "summary": "OpenAI发布《前沿AI民主治理蓝图》，提出三大监管支柱：全国性安全评估与透明度报告制度、以CAISI为中心的专业评估体系、全政府网络安全与公共卫生防御能力建设。OpenAI主张评估不应成为发布门槛，企业自担责任。",
-          "summary_en": "OpenAI releases 'Democratic Governance of Frontier AI: A Blueprint for a Federal Framework,' proposing three pillars: national safety assessment and transparency reporting, professional evaluation via CAISI, and government-wide cybersecurity defense. OpenAI argues evaluations should not be release gates.",
-          "source": "OpenAI Official / Gigazine",
-          "source_en": "OpenAI Official / Gigazine",
-          "url": "https://openai.com/",
-          "image": "https://picsum.photos/400/250?random=309",
-          "category": "政策监管",
-          "date": "2026-06-05"
-        },
-        {
-          "id": 10,
-          "title": "美国众议院提出AI监管框架草案：3年联邦优先权取代州法，投资1亿美元建CAISI",
-          "title_en": "US House Proposes AI Regulation Framework: 3-Year Federal Preemption Over State Laws, $100M for CAISI",
-          "summary": "两党众议员推出《伟大美国AI法案》讨论稿，赋予联邦3年优先权取代各州AI法律，拨款1亿美元/年资助CAISI。要求前沿模型开发者公开合规框架、聘请独立审计机构，同时扩大AI教育和劳动力影响研究。民主党AI委员会认为当前版本力度不足。",
-          "summary_en": "Bipartisan House members introduce the Great American AI Act discussion draft, granting 3-year federal preemption over state AI laws and $100M/year for CAISI. Frontier model developers must disclose compliance frameworks and hire independent auditors. Democratic AI Commission says the draft falls short.",
-          "source": "Nextgov / Roll Call",
-          "source_en": "Nextgov / Roll Call",
-          "url": "https://www.nextgov.com/",
-          "image": "https://picsum.photos/400/250?random=310",
-          "category": "政策监管",
           "date": "2026-06-05"
         }
       ]
