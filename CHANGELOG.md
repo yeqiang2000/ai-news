@@ -127,3 +127,19 @@
 - 侧边栏：热门话题标签云 + 本周必读 + 数据来源
 - 部署到 Netlify，域名 ainewsdaily.asia（阿里云DNS配置A+CNAME记录）
 - GitHub 仓库：yeqiang2000/ai-news
+
+## 2026-06-08 更新
+
+### 新闻更新
+- 新增2026-06-08日期：10条AI新闻 + 头条"历史性IPO浪潮来袭：SpaceX、Anthropic、OpenAI合计融资目标2000亿美元"
+- 涵盖政策监管（Krishnan离职、联邦AI法案、中国AI终端分级标准）、投融资（IPO浪潮、Anthropic与白宫缓和关系）、AI应用（AI设计疫苗、企业AI转向ROI）、大模型（微软-OpenAI关系、英国AI安全红队测试）、芯片算力（AirTrunk印度数据中心投资）
+
+### 深度文章
+- 新增article-8：《AI万亿IPO潮：历史性上市浪潮还是泡沫信号？》（2026-06-09发布）
+- 选题背景：SpaceX IPO 750亿美元+Anthropic+OpenAI合计2000亿美元融资目标，Michael Burry等发出泡沫警告
+
+### 侧边栏推荐更新
+- article-8 🔥 → article-7 📖 → article-6 📖
+
+### i18n更新
+- 深度文章标题：article-8/7/6（中英文）

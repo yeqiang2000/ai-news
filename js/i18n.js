@@ -81,9 +81,9 @@
             tag_compute: '算力',
 
             // 深度文章
-            deep_article_1_title: '当国家成为AI股东：美国政府入股科技公司的战略逻辑与风险',
-            deep_article_2_title: '特斯拉Robotaxi：全城无人驾驶的豪言与20辆车的现实',
-            deep_article_3_title: 'AI递归式自我改进：Anthropic为何呼吁暂停？',
+            deep_article_1_title: 'AI万亿IPO潮：历史性上市浪潮还是泡沫信号？',
+            deep_article_2_title: '当国家成为AI股东：美国政府入股科技公司的战略逻辑与风险',
+            deep_article_3_title: '特斯拉Robotaxi：全城无人驾驶的豪言与20辆车的现实',
 
             // 日期分隔符
             date_today: '今天',
@@ -172,9 +172,9 @@
             tag_compute: 'Compute',
 
             // Deep reads
-            deep_article_1_title: "When the State Becomes an AI Shareholder: US Government Equity Stakes in Tech",
-            deep_article_2_title: "Tesla Robotaxi: City-Wide Driverless Promise vs 20-Car Reality",
-            deep_article_3_title: "Recursive Self-Improvement: Why Anthropic Calls for a Pause",
+            deep_article_1_title: "Trillion-Dollar AI IPO Wave: Historic Listing Surge or Bubble Signal?",
+            deep_article_2_title: "When the State Becomes an AI Shareholder: US Government Equity Stakes in Tech",
+            deep_article_3_title: "Tesla Robotaxi: City-Wide Driverless Promise vs 20-Car Reality",
 
             // Date separators
             date_today: 'Today',
