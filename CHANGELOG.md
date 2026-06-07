@@ -143,3 +143,16 @@
 
 ### i18n更新
 - 深度文章标题：article-8/7/6（中英文）
+
+## 2026-06-08 #2 — 撤回提前发布的article-8
+
+### 修改
+- `data/articles.json`：移除 article-8 元数据（文章已写好，6月9日发布时再加回）
+- `index.html`：侧边栏移除 article-8，推荐区改为 article-7 🔥、article-6 📖
+- `js/i18n.js`：注释 deep_article_1_title（article-8标题翻译），6月9日发布时启用
+
+### 保留（未删除）
+- `articles/article-8.html`：文章文件保留，暂不发布
+- `wechat/article-8-wechat.html`：微信图文版保留，暂不发布
+
+---

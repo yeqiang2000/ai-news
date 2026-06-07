@@ -81,7 +81,7 @@
             tag_compute: '算力',
 
             // 深度文章
-            deep_article_1_title: 'AI万亿IPO潮：历史性上市浪潮还是泡沫信号？',
+            // deep_article_1_title: 'AI万亿IPO潮：历史性上市浪潮还是泡沫信号？', // 6月9日发布时启用
             deep_article_2_title: '当国家成为AI股东：美国政府入股科技公司的战略逻辑与风险',
             deep_article_3_title: '特斯拉Robotaxi：全城无人驾驶的豪言与20辆车的现实',
 
@@ -172,7 +172,7 @@
             tag_compute: 'Compute',
 
             // Deep reads
-            deep_article_1_title: "Trillion-Dollar AI IPO Wave: Historic Listing Surge or Bubble Signal?",
+            // deep_article_1_title: "Trillion-Dollar AI IPO Wave: Historic Listing Surge or Bubble Signal?", // Enable on June 9
             deep_article_2_title: "When the State Becomes an AI Shareholder: US Government Equity Stakes in Tech",
             deep_article_3_title: "Tesla Robotaxi: City-Wide Driverless Promise vs 20-Car Reality",
 
