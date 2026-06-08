@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "id": "article-8",
+      "title": "AI万亿IPO潮：历史性上市浪潮还是泡沫信号？",
+      "title_en": "Trillion-Dollar AI IPO Wave: Historic Listing Surge or Bubble Signal?",
+      "summary": "SpaceX、Anthropic、OpenAI三家合计融资目标2000亿美元，Michael Burry和多位分析师发出泡沫警告。深度解析AI行业历史性IPO浪潮的估值逻辑、市场风险与历史镜鉴。",
+      "summary_en": "SpaceX, Anthropic, and OpenAI target $200B combined. Michael Burry and analysts issue bubble warnings. Deep analysis of valuation logic, market risks, and historical parallels behind the historic AI IPO wave.",
+      "url": "articles/article-8.html",
+      "image": "https://picsum.photos/800/450?random=article8-ipo",
+      "category": "投融资",
+      "date": "2026-06-09",
+      "author": "AI News Daily",
+      "read_time": "10 min"
+    },
+    {
       "id": "article-7",
       "title": "当国家成为AI股东：美国政府入股科技公司的战略逻辑与风险",
       "title_en": "When the State Becomes an AI Shareholder: Strategic Logic and Risks of US Government Equity Stakes",

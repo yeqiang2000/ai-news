@@ -156,3 +156,17 @@
 - `wechat/article-8-wechat.html`：微信图文版保留，暂不发布
 
 ---
+
+## 2026-06-09 #1 — 6月9日每日更新
+
+### 新增
+- 6月9日新闻10条 + 头条（苹果WWDC 2026：Siri重生为AI超级应用）
+- 深度文章 `article-9.html`：《WWDC 2026深度解读：苹果Siri重生，AI超级应用大战开局》（约1500字，6月10日发布，仅存文件）
+
+### 修改
+- `data/news.json`：新增6月9日数据，保留6月5-8日历史（5天）
+- `data/articles.json`：恢复 article-8 元数据（正式发布）
+- `index.html`：侧边栏推荐区更新（article-8 🔥、article-7 📖、article-6 📖）
+- `js/i18n.js`：恢复 deep_article_1_title（article-8标题翻译启用）
+
+---

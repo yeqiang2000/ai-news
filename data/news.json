@@ -2,6 +2,152 @@
   "last_updated": "2026-06-08T06:50:00+08:00",
   "days": [
     {
+      "date": "2026-06-09",
+      "hero": {
+        "id": 0,
+        "title": "苹果WWDC 2026：Siri重生为AI超级应用，ChatGPT时代走向终结",
+        "title_en": "Apple WWDC 2026: Siri Reborn as AI Superapp, ChatGPT Era Comes to an End",
+        "summary": "苹果在WWDC 2026上发布史上最大Siri重构——基于Gemini模型的全新AI助手以独立App形式亮相，支持跨应用操作与屏幕感知。同时OpenAI高管直言「Chat is Dead」，ChatGPT正转型为AI智能体超级应用。两大消费AI巨头同步转向，标志着聊天机器人时代的终结与AI智能体时代的全面开启。",
+        "summary_en": "Apple unveiled the biggest Siri overhaul in history at WWDC 2026 — a Gemini-powered AI assistant launching as a standalone app with cross-app actions and screen awareness. Meanwhile, OpenAI declared 'Chat is Dead,' pivoting ChatGPT into an AI agent superapp. Two consumer AI giants simultaneously shifting signals the end of the chatbot era and the dawn of AI agents.",
+        "source": "Apple WWDC / Financial Times",
+        "source_en": "Apple WWDC / Financial Times",
+        "url": "https://singularity.kiwi/daily-technology-people-june-9-2026/",
+        "image": "https://picsum.photos/800/450?random=hero-jun9-wwdc"
+      },
+      "articles": [
+        {
+          "id": 1,
+          "title": "佛罗里达州起诉OpenAI：AI行业的「大烟草时刻」正式到来",
+          "title_en": "Florida Sues OpenAI: AI's Big Tobacco Moment Has Arrived",
+          "summary": "佛罗里达州成为首个起诉OpenAI的美国州，提交83页诉状指控ChatGPT是危险且令人上瘾的产品，对儿童进行欺骗性营销。州总检察长寻求追究CEO Sam Altman个人责任，罚款可能高达数十亿美元。同一周，加州法院将12起针对OpenAI的产品责任案合并审理。法院已拒绝AI公司的Section 230抗辩——AI输出不是「用户内容」，社交媒体二十年的法律保护伞不适用。",
+          "summary_en": "Florida became the first US state to sue OpenAI, filing an 83-page complaint alleging ChatGPT is a dangerous, addictive product marketed deceptively as safe for children. The AG seeks to hold CEO Sam Altman personally liable, with potential penalties in the billions. Courts rejected Section 230 defenses for chatbots — AI outputs aren't user content, so the legal shield protecting social media for decades doesn't apply.",
+          "source": "Singularity Kiwi",
+          "source_en": "Singularity Kiwi",
+          "url": "https://singularity.kiwi/daily-news-june-9-2026/",
+          "image": "https://picsum.photos/800/450?random=art1-florida-openai",
+          "category": "政策监管",
+          "date": "2026-06-09"
+        },
+        {
+          "id": 2,
+          "title": "谷歌签约SpaceX：每月9.2亿美元租用xAI算力，创科技史上最大基础设施租赁",
+          "title_en": "Google Signs $920M/Month Deal with SpaceX for xAI Compute, Largest Infrastructure Lease in Tech History",
+          "summary": "谷歌与SpaceX签署32个月协议，每月支付9.2亿美元租用xAI约11万块Nvidia GPU，用于Gemini Enterprise的算力需求。Anthropic上月也与SpaceX签署类似协议。两笔交易均在SpaceX IPO前达成，后者目标估值超1.75万亿美元。谷歌同时将年度资本支出预测上调至1800-1900亿美元。",
+          "summary_en": "Google signed a 32-month deal paying SpaceX $920M/month for access to roughly 110,000 Nvidia GPUs in xAI's data centers. Anthropic signed a similar deal last month. Both come ahead of SpaceX's IPO targeting $1.75T+ valuation. Google revised its capex forecast to $180-190B for the year.",
+          "source": "Singularity Kiwi",
+          "source_en": "Singularity Kiwi",
+          "url": "https://singularity.kiwi/daily-news-june-9-2026/",
+          "image": "https://picsum.photos/800/450?random=art2-google-spacex",
+          "category": "芯片算力",
+          "date": "2026-06-09"
+        },
+        {
+          "id": 3,
+          "title": "小米MiMo突破万亿参数千token/秒：速度即智能的新范式",
+          "title_en": "Xiaomi MiMo Breaks 1,000 Tokens/Second on Trillion-Parameter Model: Speed Becomes Intelligence",
+          "summary": "小米发布MiMo-V2.5-Pro-UltraSpeed，在单台8卡通用GPU节点上实现万亿参数MoE模型1000+ token/s解码速度。突破来自FP4量化+DFlash推测解码+TileRT模型系统协同设计。小米提出「速度即智能」论：在1000 tps下可在相同壁钟时间并行运行数十条推理路径，从「想更久」转向「同时想多次」。",
+          "summary_en": "Xiaomi released MiMo-V2.5-Pro-UltraSpeed, achieving 1,000+ tokens/second on a 1-trillion-parameter MoE model using a single 8-GPU commodity node. The breakthrough comes from FP4 quantization + DFlash speculative decoding + TileRT codesign. Xiaomi argues speed becomes intelligence: at 1,000 tps you can run dozens of parallel reasoning paths simultaneously.",
+          "source": "Xiaomi MiMo Blog",
+          "source_en": "Xiaomi MiMo Blog",
+          "url": "https://singularity.kiwi/daily-technology-people-june-9-2026/",
+          "image": "https://picsum.photos/800/450?random=art3-xiaomi-mimo",
+          "category": "大模型",
+          "date": "2026-06-09"
+        },
+        {
+          "id": 4,
+          "title": "OpenAI宣告「Chat已死」：ChatGPT转型AI智能体超级应用",
+          "title_en": "OpenAI Declares Chat is Dead: ChatGPT Overhauls into AI Agent Superapp",
+          "summary": "OpenAI正计划对ChatGPT进行自创办以来最重大改版，从对话助手转型为整合编码工具、AI智能体与第三方应用的综合平台。一名资深员工对金融时报直言「Chat is Dead」。转型由营收压力驱动——ChatGPT超10亿用户中大部分免费使用，OpenAI需在IPO前证明变现能力。企业用户已占营收40%，目标年底达50%。",
+          "summary_en": "OpenAI is planning a major ChatGPT overhaul focused on AI agents and coding tools, redirecting users to higher-value products. A senior employee told the Financial Times: 'Chat is dead.' The pivot is driven by revenue pressure — most of ChatGPT's 1B+ users are free, and OpenAI needs to prove monetisation ahead of IPO. Business users already account for 40% of revenue.",
+          "source": "Financial Times",
+          "source_en": "Financial Times",
+          "url": "https://singularity.kiwi/daily-technology-people-june-9-2026/",
+          "image": "https://picsum.photos/800/450?random=art4-openai-chat-dead",
+          "category": "AI应用",
+          "date": "2026-06-09"
+        },
+        {
+          "id": 5,
+          "title": "欧盟再次推迟AI法案关键义务：高风险系统合规延至2027年底",
+          "title_en": "EU Delays Key AI Act Obligations Again: High-Risk Compliance Pushed to Late 2027",
+          "summary": "布鲁塞尔第二次推迟欧盟AI法案关键义务。高风险系统义务独立设备延至2027年12月，嵌入产品延至2028年8月，作为数字综合简化方案的一部分。原因包括：企业无法清晰分类高风险系统、成员国准备不足、欧洲担忧监管拖慢AI发展。操纵性AI禁令自2025年2月起已生效，风险金字塔结构保持不变。",
+          "summary_en": "Brussels delayed key obligations under the EU AI Act for the second time. High-risk system obligations pushed to December 2027 (stand-alone) and August 2028 (embedded in products). Reasons: businesses can't classify high-risk systems clearly, member states lack readiness, and Europe fears regulation is slowing its AI sector versus the US and China.",
+          "source": "EU Today",
+          "source_en": "EU Today",
+          "url": "https://eutoday.net/eu-delays-key-ai-rules/",
+          "image": "https://picsum.photos/800/450?random=art5-eu-ai-act",
+          "category": "政策监管",
+          "date": "2026-06-09"
+        },
+        {
+          "id": 6,
+          "title": "英国Cosine联合BT、汇丰、BAE等打造首个主权前沿AI模型Lumen",
+          "title_en": "UK's Cosine Builds Britain's First Sovereign Frontier AI Model with BT, HSBC, BAE",
+          "summary": "英国初创公司Cosine组建包括BT、汇丰、劳埃德、BAE系统等在内的联盟，在布里斯托Isambard-AI超算上完全训练Lumen Sovereign模型，目标2026年底部署。其编码模型已连续两年在独立基准测试中超越OpenAI和Anthropic，还支持COBOL、Fortran、Ada等国防和金融系统传统语言。首相斯塔默在伦敦科技周宣布4亿英镑新AI芯片投入。",
+          "summary_en": "UK startup Cosine assembled BT, HSBC, BAE Systems and others to build Lumen Sovereign — trained entirely on the Isambard-AI supercomputer in Bristol, targeting deployment by end of 2026. Its coding models have topped independent benchmarks against OpenAI and Anthropic for two years, including support for COBOL, Fortran, and Ada. PM Starmer announced £400M new AI chip spending at London Tech Week.",
+          "source": "Singularity Kiwi",
+          "source_en": "Singularity Kiwi",
+          "url": "https://singularity.kiwi/daily-technology-people-june-9-2026/",
+          "image": "https://picsum.photos/800/450?random=art6-uk-cosine",
+          "category": "大模型",
+          "date": "2026-06-09"
+        },
+        {
+          "id": 7,
+          "title": "黄仁勋扩大英伟达韩国AI合作：现代、三星、SK加入主权AI阵营",
+          "title_en": "Jensen Huang Expands NVIDIA's Korea AI Partnerships: Hyundai, Samsung, SK Join Sovereign AI Camp",
+          "summary": "英伟达CEO黄仁勋在韩国AI峰会上宣布扩大合作伙伴关系，新增现代、三星、SK、Naver、Doosan。合作涵盖主权AI模型（EXAONE在Blackwell GPU上运行）、人形机器人（Isaac GR00T）、自动驾驶和GPU云服务。现代集团会长郑义宣与黄仁勋两度会面，讨论物理AI合作。英伟达和LG集团还宣布共建AI工厂。",
+          "summary_en": "NVIDIA CEO Jensen Huang announced expanded AI partnerships at Korea's AI summit, adding Hyundai, Samsung, SK, Naver, and Doosan. Deals span sovereign AI models (EXAONE on Blackwell GPUs), humanoid robotics (Isaac GR00T), autonomous driving, and GPU cloud services. NVIDIA and LG Group also announced building an AI factory together.",
+          "source": "Korea Herald / Asianet News",
+          "source_en": "Korea Herald / Asianet News",
+          "url": "https://m.koreaherald.com/article/10766167",
+          "image": "https://picsum.photos/800/450?random=art7-nvidia-korea",
+          "category": "芯片算力",
+          "date": "2026-06-09"
+        },
+        {
+          "id": 8,
+          "title": "月之暗面(Moonshot AI)寻求300亿美元估值：六个月内第三轮融资",
+          "title_en": "Moonshot AI Seeks $30 Billion Valuation in Third Funding Round Within Six Months",
+          "summary": "中国AI初创公司月之暗面(Moonshot AI)启动新一轮融资，计划筹集至多20亿美元，投后估值预计达300亿美元。这是该公司六个月内第三轮融资，估值从2025年12月的40亿美元飙升至当前目标。月之暗面4月年化收入突破2亿美元，正重组离岸架构以筹备港股上市。旗下Kimi智能体产品Kimi Work已上线。",
+          "summary_en": "Chinese AI startup Moonshot AI is seeking up to $2B in new funding at a $30B valuation — its third round in six months, with valuation soaring from just over $4B in December 2025. ARR topped $200M in April. The company is restructuring its offshore governance for a Hong Kong IPO and recently launched the Kimi Work AI agent.",
+          "source": "Bloomberg / Economic Times",
+          "source_en": "Bloomberg / Economic Times",
+          "url": "https://m.economictimes.com/tech/funding/chinas-moonshot-ai-seeks-30-billion-value-in-new-funding-talks/articleshow/131577519.cms",
+          "image": "https://picsum.photos/800/450?random=art8-moonshot",
+          "category": "投融资",
+          "date": "2026-06-09"
+        },
+        {
+          "id": 9,
+          "title": "GitHub Copilot桌面应用发布：AI编码从助手升级为自主智能体",
+          "title_en": "GitHub Copilot Desktop App Launches: AI Coding Upgrades from Assistant to Autonomous Agent",
+          "summary": "GitHub发布Copilot桌面应用技术预览版，作为AI智能体驱动开发的专属工作空间。支持并行工作流、GitHub集成和PR生命周期管理，适用于macOS、Windows和Linux。这标志着AI编码从编辑器内的辅助工具，升级为管理自身工作流的独立智能体，开发者角色从写代码转向监督智能体写代码。",
+          "summary_en": "GitHub launched a desktop Copilot app (technical preview) as a dedicated home for agent-driven development. Supports parallel workstreams, GitHub integration, and PR lifecycle management. Available on macOS, Windows, and Linux. This signals AI coding graduating from assistant to independent agent that manages its own workflows.",
+          "source": "GitHub Blog",
+          "source_en": "GitHub Blog",
+          "url": "https://singularity.kiwi/daily-technology-people-june-9-2026/",
+          "image": "https://picsum.photos/800/450?random=art9-github-copilot",
+          "category": "AI应用",
+          "date": "2026-06-09"
+        },
+        {
+          "id": 10,
+          "title": "AMD砸20亿英镑押注英国AI：苏姿丰在伦敦科技周宣布五年投资计划",
+          "title_en": "AMD Invests £2 Billion in UK AI: Lisa Su Announces Five-Year Plan at London Tech Week",
+          "summary": "AMD CEO苏姿丰在伦敦科技周宣布，计划未来五年在英国增加最高20亿英镑投资，用于扩大AI研发、深化与剑桥大学和帝国理工的合作、推进新工厂建设和现有设施升级。此举正值英国积极推动主权AI发展之际，Cosine等本土公司正崛起。AMD选择在英国加码，既是看准欧洲AI市场机遇，也是对英国AI人才池的认可。",
+          "summary_en": "AMD CEO Lisa Su announced plans to invest up to £2B in the UK over five years for AI R&D expansion, deeper partnerships with Cambridge and Imperial College, and new facilities. The move comes as the UK pushes sovereign AI development, with domestic firms like Cosine rising. AMD's investment signals confidence in the European AI market and UK talent pool.",
+          "source": "Coze News",
+          "source_en": "Coze News",
+          "url": "https://www.coze.cn/share-article/201780908512870464",
+          "image": "https://picsum.photos/800/450?random=art10-amd-uk",
+          "category": "芯片算力",
+          "date": "2026-06-09"
+        }
+      ]
+    },
+    {
       "date": "2026-06-08",
       "hero": {
         "id": 0,
