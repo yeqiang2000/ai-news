@@ -1,6 +1,132 @@
 {
-  "last_updated": "2026-06-09T06:12:00+08:00",
+  "last_updated": "2026-06-10T07:45:00+08:00",
   "days": [
+    {
+      "date": "2026-06-10",
+      "hero": {
+        "title": "Anthropic发布Fable 5与Mythos 5：从「太危险不能公开」到面向所有人",
+        "title_en": "Anthropic Releases Fable 5 and Mythos 5: From 'Too Dangerous to Release' to Available to All",
+        "summary": "Anthropic正式发布Claude Fable 5和Mythos 5，基于同一Mythos级底层模型。Fable 5面向公众开放但配备安全分类器，敏感请求自动降级至Opus 4.8；Mythos 5保留完整能力仅向受信机构开放。Stripe实测：5000万行代码库迁移1天完成。定价10/50美元每百万Token，约为预览版一半。",
+        "summary_en": "Anthropic officially releases Claude Fable 5 and Mythos 5, both built on the same Mythos-tier foundation. Fable 5 is publicly available with safety classifiers that auto-downgrade sensitive queries to Opus 4.8; Mythos 5 retains full capabilities for trusted institutions only. Stripe tested: 50M-line codebase migration completed in 1 day. Pricing at $10/$50 per million tokens, about half of the preview version.",
+        "category": "大模型",
+        "source": "Anthropic官方",
+        "source_en": "Anthropic Official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "date": "2026-06-10"
+      },
+      "articles": [
+        {
+          "title": "OpenAI正式向SEC递交保密IPO申请，估值超8500亿美元",
+          "title_en": "OpenAI Officially Submits Confidential IPO Filing to SEC, Valuation Over $850 Billion",
+          "summary": "OpenAI宣布已向美国SEC秘密递交S-1上市申请文件，估值超8520亿美元，计划最快Q4上市。高盛和摩根士丹利联合承销。一周前Anthropic已保密递表，SpaceX也于上周开启路演。",
+          "summary_en": "OpenAI announced it has submitted a confidential S-1 registration statement to the SEC, with valuation over $852 billion, targeting Q4 listing. Goldman Sachs and Morgan Stanley are joint underwriters. Anthropic filed confidentially a week earlier, and SpaceX started its roadshow last week.",
+          "category": "投融资",
+          "source": "证券时报",
+          "source_en": "Securities Times",
+          "url": "http://m.toutiao.com/group/7649233755202126336/",
+          "date": "2026-06-10"
+        },
+        {
+          "title": "阿里成立Token Foundry事业部，CEO吴泳铭直接负责",
+          "title_en": "Alibaba Establishes Token Foundry Division Under CEO Eddie Wu",
+          "summary": "阿里巴巴合并通义大模型事业部和未来生活实验室，成立Token Foundry事业部，由集团CEO吴泳铭直接负责。周靖人转任首席科学家，牵头成立AI未来研究院。此次调整标志阿里大模型战略从研发走向商业化。",
+          "summary_en": "Alibaba merges Tongyi LLM division and Future Life Lab into Token Foundry, directly under CEO Eddie Wu. Zhou Jingren becomes Chief Scientist, leading the new AI Future Research Institute. This marks Alibaba's shift from R&D to commercialization in LLM strategy.",
+          "category": "大模型",
+          "source": "界面新闻",
+          "source_en": "Jiemian News",
+          "url": "https://m.sohu.com/a/1034036816_313745/",
+          "date": "2026-06-10"
+        },
+        {
+          "title": "英伟达与SK海力士达成多年技术合作，联合开发下一代AI内存",
+          "title_en": "NVIDIA and SK Hynix Announce Multi-Year Tech Partnership for Next-Gen AI Memory",
+          "summary": "英伟达与SK海力士建立多年技术合作伙伴关系，围绕AI工厂所需下一代内存展开联合研发，并将AI技术应用于半导体设计与制造。SK海力士将为Vera Rubin超级计算机协同开发专用内存。",
+          "summary_en": "NVIDIA and SK Hynix establish a multi-year technology partnership for next-gen AI factory memory R&D, and will apply AI to semiconductor design and manufacturing. SK Hynix will co-develop specialized memory for NVIDIA's Vera Rubin supercomputer.",
+          "category": "芯片算力",
+          "source": "界面新闻",
+          "source_en": "Jiemian News",
+          "url": "https://m.sohu.com/a/1034036816_313745/",
+          "date": "2026-06-09"
+        },
+        {
+          "title": "微信面向开发者开放AI生态接入能力，内测阶段",
+          "title_en": "WeChat Opens AI Ecosystem Access to Developers, Currently in Beta",
+          "summary": "微信正式面向开发者提供接入微信AI生态的能力，提供自动模式与开发模式两种选项。自动模式需授权平台读取小程序源码，开发模式支持个性化开发。当前处于内测阶段，用户暂时无法体验。",
+          "summary_en": "WeChat officially provides developers with access to its AI ecosystem, offering automatic and development modes. Auto mode requires authorizing platform to read mini-program source code; dev mode supports customization. Currently in beta, not yet available to end users.",
+          "category": "AI应用",
+          "source": "微信公开课",
+          "source_en": "WeChat Open Class",
+          "url": "https://m.sohu.com/a/1034036816_313745/",
+          "date": "2026-06-09"
+        },
+        {
+          "title": "三星全面启动AI大转型，全业务全层级拥抱人工智能",
+          "title_en": "Samsung Launches Full-Scale AI Transformation Across All Businesses and Levels",
+          "summary": "三星正式官宣推进AI全面转型（AX），解除外部AI服务使用限制，搭建分层培训体系面向2300名高管开展AI集训，要求各子公司CEO将AI融入八大核心业务链条。存储、晶圆代工、先进封装完整产业链协同发力。",
+          "summary_en": "Samsung officially announces AI Transformation (AX), lifting restrictions on external AI services, building tiered training for 2,300 executives, and requiring subsidiary CEOs to integrate AI across eight core business chains. Full value chain from memory to foundry to advanced packaging.",
+          "category": "AI应用",
+          "source": "微博",
+          "source_en": "Weibo",
+          "url": "https://m.weibo.cn/detail/5307931092584607",
+          "date": "2026-06-09"
+        },
+        {
+          "title": "苹果AI落地中国再延期，Siri AI暂不提供",
+          "title_en": "Apple AI Delayed Again in China, Siri AI Not Available",
+          "summary": "WWDC 2026确认Siri AI和Apple Intelligence新功能在中国大陆暂不提供，需配合监管要求推进。华为、小米、vivo等国产品牌加速AI布局，华为Q1以20%份额重回中国第一。苹果封闭生态在AI时代面临挑战。",
+          "summary_en": "WWDC 2026 confirms Siri AI and new Apple Intelligence features not available in mainland China pending regulatory requirements. Huawei, Xiaomi, vivo accelerate AI deployment. Huawei regained #1 in China with 20% market share in Q1. Apple's closed ecosystem faces challenges in the AI era.",
+          "category": "AI应用",
+          "source": "头条",
+          "source_en": "Toutiao",
+          "url": "http://m.toutiao.com/group/7649438438361416198/",
+          "date": "2026-06-10"
+        },
+        {
+          "title": "中国AI企业加速IPO：智谱冲刺科创板募资150亿，MiniMax启动上市辅导",
+          "title_en": "Chinese AI Firms Accelerate IPOs: Zhipu Targets STAR Market for 15B Yuan, MiniMax Starts Listing Counseling",
+          "summary": "智谱华章宣布拟在科创板上市，计划募资不超过150亿元，其中120亿元投入通用基座大模型项目。MiniMax签署辅导协议启动A股IPO。燧原科技科创板IPO和粤芯半导体创业板IPO将于6月15日上会。",
+          "summary_en": "Zhipu AI announces plans to list on STAR Market, raising up to 15 billion yuan with 12 billion for foundation LLM projects. MiniMax signs counseling agreement for A-share IPO. Suiyuan Technology and Yuexin Semiconductor IPO reviews scheduled for June 15.",
+          "category": "投融资",
+          "source": "证券日报",
+          "source_en": "Securities Daily",
+          "url": "http://m.toutiao.com/group/7649436560311566882/",
+          "date": "2026-06-10"
+        },
+        {
+          "title": "京东与腾讯就AI Agent达成深度合作",
+          "title_en": "JD.com and Tencent Announce Deep AI Agent Collaboration",
+          "summary": "京东与腾讯将围绕AI Agent展开深度合作，依托京东商品供应链和履约服务能力及腾讯生态入口优势，共同打造跨场景智能化服务新范式，推动AI Agent从单点应用走向生态协同。",
+          "summary_en": "JD.com and Tencent will collaborate on AI Agents, leveraging JD's supply chain and fulfillment capabilities plus Tencent's ecosystem reach to create cross-scenario intelligent services, pushing AI Agents from point solutions to ecosystem coordination.",
+          "category": "AI应用",
+          "source": "科创板日报",
+          "source_en": "STAR Market Daily",
+          "url": "https://m.sohu.com/a/1034036816_313745/",
+          "date": "2026-06-09"
+        },
+        {
+          "title": "英伟达开始出货与台积电合作的CPO交换机，解决AI数据中心瓶颈",
+          "title_en": "NVIDIA Starts Shipping TSMC-Co-Developed CPO Switches to Tackle AI Data Center Bottlenecks",
+          "summary": "英伟达宣布开始出货与台积电联合开发的下一代共封装光学（CPO）交换机，旨在解决AI数据中心的数据传输和功耗挑战。COMPUTEX 2026标志着CPO从概念验证转向超大规模量产部署。",
+          "summary_en": "NVIDIA announces shipment of next-gen co-packaged optics (CPO) switches co-developed with TSMC, addressing AI data center data transmission and power challenges. COMPUTEX 2026 marks CPO's transition from proof-of-concept to large-scale production deployment.",
+          "category": "芯片算力",
+          "source": "Focus Taiwan",
+          "source_en": "Focus Taiwan",
+          "url": "https://www.digitimes.com/topic/ict/ai/",
+          "date": "2026-06-10"
+        },
+        {
+          "title": "StepFun（阶跃星辰）寻求120亿美元估值赴港IPO",
+          "title_en": "StepFun Seeks $12 Billion Valuation in Hong Kong IPO",
+          "summary": "中国AI创业公司阶跃星辰（StepFun）准备最早于本周一提交香港IPO申请，有望成为近年香港最大的科技上市项目之一。这是中国AI企业密集冲刺资本市场的最新案例。",
+          "summary_en": "Chinese AI startup StepFun is preparing to file for a Hong Kong IPO as early as Monday, potentially becoming one of the city's largest tech listings in recent years, at a targeted $12 billion valuation.",
+          "category": "投融资",
+          "source": "DIGITIMES",
+          "source_en": "DIGITIMES",
+          "url": "https://www.digitimes.com/topic/ict/ai/",
+          "date": "2026-06-10"
+        }
+      ]
+    },
     {
       "date": "2026-06-09",
       "hero": {
@@ -588,89 +714,6 @@
           "image": "https://picsum.photos/400/250?random=410",
           "category": "政策监管",
           "date": "2026-06-06"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-05",
-      "hero": {
-        "id": 0,
-        "title": "英伟达发布Cosmos 3：全球首款全开源全模态物理AI世界模型",
-        "title_en": "NVIDIA Launches Cosmos 3: World First Fully Open-Source Omni-Modal Physical AI World Model",
-        "summary": "英伟达在GTC Taipei 2026发布NVIDIA Cosmos 3，全球首款完全开源的全模态物理AI世界基础模型。原生支持文本、图像、视频、音频、动作五种模态，可理解并模拟真实物理规律，直接输出机器人动作指令。发布48小时全球超1200家企业下载开源权重，中国企业占比37%。",
-        "summary_en": "NVIDIA launches Cosmos 3 at GTC Taipei 2026, the world's first fully open-source omni-modal physical AI foundation model. It natively supports text, image, video, audio, and action modalities, understanding and simulating real-world physics. Over 1,200 companies downloaded the open-source weights within 48 hours, with Chinese firms at 37%.",
-        "source": "英伟达官方 / 新智元",
-        "source_en": "NVIDIA Official / Synced",
-        "url": "https://www.nvidia.com/",
-        "image": "https://picsum.photos/800/400?random=300",
-        "category": "大模型",
-        "date": "2026-06-05"
-      },
-      "articles": [
-        {
-          "id": 1,
-          "title": "谷歌启动800亿美元史上最大融资：伯克希尔百亿定增，押注AI基础设施",
-          "title_en": "Google Launches Record $80B Fundraising: Berkshire $10B Private Placement, Betting on AI Infrastructure",
-          "summary": "谷歌母公司Alphabet宣布800亿美元股权融资计划，包括300亿公开发行、400亿ATM增发和100亿伯克希尔定向配售。公司2026年资本支出指引上调至1800-1900亿美元，几乎全部投入AI算力与数据中心，2027年将进一步加码。",
-          "summary_en": "Alphabet announces an $80B equity financing plan including $30B public offering, $40B ATM program, and $10B Berkshire Hathaway private placement. 2026 capex guidance raised to $180-190B, almost entirely for AI compute and data centers, with further increases in 2027.",
-          "source": "36氪 / Reuters",
-          "source_en": "36Kr / Reuters",
-          "url": "https://36kr.com/",
-          "image": "https://picsum.photos/400/250?random=301",
-          "category": "投融资",
-          "date": "2026-06-05"
-        },
-        {
-          "id": 2,
-          "title": "AI巨头罕见联合：Altman、Amodei、Hassabis联名呼吁立法防止AI生物武器",
-          "title_en": "Rare AI Leaders Unity: Altman, Amodei, Hassabis Jointly Call for Legislation Against AI Bioweapons",
-          "summary": "OpenAI、Anthropic、Google DeepMind和微软AI的CEO联名签署公开信，呼吁美国国会立法要求合成DNA供应商必须筛查客户和订单。信中指出AI已在高度专业技术问题上超越博士级病毒学家，知识壁垒正在被侵蚀，需在供应链端建立安全屏障。",
-          "summary_en": "CEOs of OpenAI, Anthropic, Google DeepMind, and Microsoft AI jointly sign an open letter urging Congress to mandate DNA synthesis screening. The letter warns AI now outperforms PhD-level virologists on technical questions, eroding knowledge barriers that prevent bioweapon development.",
-          "source": "The Independent / Forbes",
-          "source_en": "The Independent / Forbes",
-          "url": "https://www.the-independent.com/",
-          "image": "https://picsum.photos/400/250?random=302",
-          "category": "政策监管",
-          "date": "2026-06-05"
-        },
-        {
-          "id": 3,
-          "title": "微软Build大会：自研推理模型MAI-Thinking-1登场，宣称部分任务超越GPT-5.5且成本降10倍",
-          "title_en": "Microsoft Build: Self-Developed Reasoning Model MAI-Thinking-1 Debuts, Claiming to Beat GPT-5.5 on Some Tasks at 10x Lower Cost",
-          "summary": "微软Build开发者大会发布自研推理模型MAI-Thinking-1和编程模型MAI-Code-1-Flash，AI主管Suleyman称经麦肯锡优化后在特定任务超越GPT-5.5且成本降低十倍。微软明确表态要从OpenAI依赖走向全栈AI竞争，目标成为全球前四AI实验室。",
-          "summary_en": "Microsoft Build unveils self-developed reasoning model MAI-Thinking-1 and coding model MAI-Code-1-Flash. AI chief Suleyman claims it beats GPT-5.5 on certain tasks at 10x lower cost after McKinsey optimization. Microsoft aims to become a top-4 AI lab, moving beyond OpenAI dependence.",
-          "source": "The Verge / 和讯网",
-          "source_en": "The Verge / Hexun",
-          "url": "https://www.theverge.com/",
-          "image": "https://picsum.photos/400/250?random=303",
-          "category": "大模型",
-          "date": "2026-06-05"
-        },
-        {
-          "id": 4,
-          "title": "ChatGPT月活跃用户突破10亿：创互联网产品最快增长纪录",
-          "title_en": "ChatGPT Hits 1 Billion Monthly Active Users: Fastest Growth Record in Internet Products",
-          "summary": "数据显示ChatGPT月活跃用户已突破10亿，创下互联网产品最快增长纪录。这一里程碑正值Anthropic与OpenAI争夺AI市场主导权之际，也标志着AI聊天工具从极客产品进入全民日常使用阶段。",
-          "summary_en": "ChatGPT has surpassed 1 billion monthly active users, setting a new record for the fastest growth of any internet product. This milestone comes amid intensifying competition between Anthropic and OpenAI for AI market dominance.",
-          "source": "Economic Times",
-          "source_en": "Economic Times",
-          "url": "https://economictimes.indiatimes.com/",
-          "image": "https://picsum.photos/400/250?random=304",
-          "category": "AI应用",
-          "date": "2026-06-05"
-        },
-        {
-          "id": 5,
-          "title": "英伟达RTX Spark进军PC：与微软联合重塑Windows，黄仁勋称40年来最大变革",
-          "title_en": "NVIDIA RTX Spark Enters PC Market: Partnering with Microsoft to Reinvent Windows, Huang Calls It Biggest Shift in 40 Years",
-          "summary": "英伟达发布面向Windows PC的RTX Spark超级芯片，集成20核Grace CPU和Blackwell架构GPU，128GB统一内存，AI算力达1 PetaFLOPS。黄仁勋称这是40年来PC首次彻底重新设计，搭载RTX Spark的PC将于今秋由华硕、戴尔、联想等推出。",
-          "summary_en": "NVIDIA unveils RTX Spark SoC for Windows PCs, integrating 20-core Grace CPU and Blackwell GPU with 128GB unified memory and 1 PetaFLOPS AI compute. Huang calls it the first complete PC redesign in 40 years. PCs from ASUS, Dell, Lenovo coming this fall.",
-          "source": "上海证券报 / The Verge",
-          "source_en": "Shanghai Securities News / The Verge",
-          "url": "https://www.stcn.com/",
-          "image": "https://picsum.photos/400/250?random=305",
-          "category": "芯片算力",
-          "date": "2026-06-05"
         }
       ]
     }

@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "id": "article-9",
+      "title": "WWDC 2026深度解读：苹果Siri重生，AI超级应用大战开局",
+      "title_en": "WWDC 2026 Deep Dive: Apple Siri Reborn, AI Super App War Begins",
+      "summary": "苹果WWDC 2026发布史上最大Siri重构，基于Gemini的AI助手以独立App亮相。OpenAI同步宣告Chat已死。深度解读消费AI从聊天机器人到智能体超级应用的范式转移。",
+      "summary_en": "Apple's WWDC 2026 brings the biggest Siri overhaul ever, with Gemini-powered AI assistant launching as a standalone app. OpenAI simultaneously declares 'Chat is Dead.' A deep dive into the paradigm shift from chatbots to agentic super apps in consumer AI.",
+      "category": "AI应用",
+      "date": "2026-06-10",
+      "readTime": "9分钟",
+      "url": "articles/article-9.html"
+    },
+    {
       "id": "article-8",
       "title": "AI万亿IPO潮：历史性上市浪潮还是泡沫信号？",
       "title_en": "Trillion-Dollar AI IPO Wave: Historic Listing Surge or Bubble Signal?",
