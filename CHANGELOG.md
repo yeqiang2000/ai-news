@@ -170,3 +170,14 @@
 - `js/i18n.js`：恢复 deep_article_1_title（article-8标题翻译启用）
 
 ---
+
+## 2026-06-10 更新
+
+- `data/news.json`：添加6月10日新闻数据（10条+头条：Anthropic发布Fable 5/Mythos 5），移除最早一天数据，更新`last_updated`
+- `data/articles.json`：正式发布 article-9（WWDC 2026深度解读）
+- `articles/article-9.html`：正式上线
+- `index.html`：侧边栏推荐区更新（article-9 🔥、article-8 📖、article-7 📖）
+- `js/i18n.js`：深度文章标题更新（中英文）
+- `articles/article-10.html`：提前写好，待6月11日发布（Anthropic Fable 5/Mythos 5深度解读）
+
+---
