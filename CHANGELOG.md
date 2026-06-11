@@ -181,3 +181,14 @@
 - `articles/article-10.html`：提前写好，待6月11日发布（Anthropic Fable 5/Mythos 5深度解读）
 
 ---
+
+## 2026-06-11 更新
+
+- `data/news.json`：添加6月11日新闻数据（10条+头条：AI算力军备竞赛白热化），更新`last_updated`
+- `data/articles.json`：正式发布 article-10（Anthropic Fable 5/Mythos 5深度解读）
+- `articles/article-10.html`：正式上线
+- `index.html`：侧边栏推荐区更新（article-10 🔥、article-9 📖、article-8 📖）
+- `js/i18n.js`：深度文章标题更新（中英文）
+- `articles/article-11.html`：提前写好，待6月12日发布（AI算力军备竞赛深度解读）
+
+---
