@@ -1,6 +1,132 @@
 {
-  "last_updated": "2026-06-10T07:45:00+08:00",
+  "last_updated": "2026-06-11T09:00:00+08:00",
   "days": [
+    {
+      "date": "2026-06-11",
+      "hero": {
+        "title": "AI算力军备竞赛白热化：Anthropic获350亿美元基建融资，Alphabet同周筹集850亿美元",
+        "title_en": "AI Infrastructure Arms Race Intensifies: Anthropic Secures $35B Financing, Alphabet Raises $85B in Same Week",
+        "summary": "Apollo Global Management与Blackstone为Anthropic完成350亿美元融资方案，专门用于扩展AI算力基础设施。同周Alphabet筹集创纪录850亿美元用于Google AI建设。一周内AI基建投入超1200亿美元，标志着AI行业从模型竞赛转向算力军备竞赛的新阶段。",
+        "summary_en": "Apollo Global Management and Blackstone secured a $35B financing package for Anthropic to expand AI computing infrastructure. Alphabet raised a record $85B for Google's AI buildout in the same week. Over $120B committed to AI infrastructure in a single week signals a shift from model competition to compute arms race.",
+        "category": "投融资",
+        "source": "Bloomberg / PR Newswire",
+        "source_en": "Bloomberg / PR Newswire",
+        "url": "https://www.bloomberg.com/",
+        "date": "2026-06-11"
+      },
+      "articles": [
+        {
+          "title": "工信部印发「AI+信息通信」发展意见(2026-2028)，攻坚CPO等卡脖子环节",
+          "title_en": "China MIIT Issues AI+Telecom Development Opinion (2026-2028), Targeting CPO and Other Bottlenecks",
+          "summary": "工信部印发《「人工智能+信息通信」创新发展实施意见(2026-2028年)》，明确对高速光电芯片、CPO共封装光学等卡脖子环节进行核心技术攻关，目标到2028年城域算力1毫秒时延圈覆盖率≥75%，覆盖从上游芯片到下游AI应用全产业链。",
+          "summary_en": "MIIT issued the AI+Info Communication Innovation Development Opinion (2026-2028), targeting core tech breakthroughs in high-speed optoelectronic chips and CPO co-packaged optics. Goal: 75% metro computing 1ms latency coverage by 2028, spanning the full value chain from upstream chips to downstream AI applications.",
+          "category": "政策监管",
+          "source": "工信部官网",
+          "source_en": "MIIT Official",
+          "url": "http://m.toutiao.com/group/7649903094913876503/",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "工信部+国资委启动人形机器人与具身智能实训专项行动，目标年底万台落地",
+          "title_en": "MIIT+SASAC Launch Humanoid Robot & Embodied AI Practical Training Action, Targeting 10K Deployment by Year End",
+          "summary": "工信部与国资委联手启动2026年度人形机器人与具身智能实景实训专项行动，目标2026年底实现万台级落地，推动人形机器人大规模进入工厂等场景。利好机器人上游核心零部件、中游整机制造和下游应用场景企业。",
+          "summary_en": "MIIT and SASAC jointly launched the 2026 Humanoid Robot & Embodied AI Practical Training Action, targeting 10,000-unit deployment by year end. The initiative aims to push humanoid robots into factory settings at scale, benefiting upstream components, midstream manufacturing, and downstream applications.",
+          "category": "AI应用",
+          "source": "工信部/国资委",
+          "source_en": "MIIT/SASAC",
+          "url": "http://m.toutiao.com/group/7649903094913876503/",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "D-Matrix开始Corsair AI推理芯片量产，微软投资，挑战英伟达推理市场",
+          "title_en": "D-Matrix Starts Corsair AI Inference Chip Production, Microsoft-Backed, Challenging NVIDIA in Inference Market",
+          "summary": "英伟达挑战者D-Matrix开始量产Corsair推理芯片，微软为投资方。该芯片将内存与计算融合在同一裸片上，降低延迟和功耗，瞄准AI从训练向大规模推理的市场转型。标志着AI推理芯片赛道竞争加剧。",
+          "summary_en": "NVIDIA challenger D-Matrix has begun producing its Corsair inference chip, backed by Microsoft. The design fuses memory and compute on one die to cut latency and power, targeting the shift from AI training to high-volume inference. This signals intensifying competition in the AI inference chip market.",
+          "category": "芯片算力",
+          "source": "ContentBuffer",
+          "source_en": "ContentBuffer",
+          "url": "https://contentbuffer.com/news",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "Meta与Reliance签署印度首个AI数据中心协议，可再生能源+海水冷却",
+          "title_en": "Meta Signs First India AI Data Center Deal With Reliance, Renewable-Powered and Seawater-Cooled",
+          "summary": "Meta与信实工业签署在印度Jamnagar数据中心的AI基础设施租赁协议，这是Meta在印度的首个AI数据中心项目。该数据中心采用可再生能源供电和海水冷却技术，标志着印度作为AI算力建设目的地的崛起。",
+          "summary_en": "Meta struck its first AI infrastructure deal in India, leasing capacity at Reliance's Jamnagar data center. The renewable-powered, seawater-cooled facility signals India's rise as a destination for AI compute buildouts.",
+          "category": "芯片算力",
+          "source": "ContentBuffer",
+          "source_en": "ContentBuffer",
+          "url": "https://contentbuffer.com/news",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "SpaceX公开AI卫星「AI 1」设计方案：太空中的AI数据中心",
+          "title_en": "SpaceX Reveals AI Satellite 'AI 1' Design: AI Data Center in Space",
+          "summary": "SpaceX公开用于太空AI计算的专用卫星「AI 1」设计方案。该卫星在低轨道充当AI数据中心，最大可搭载150千瓦计算有效载荷，相当于1台英伟达GB300 AI服务器机架的计算能力，配备150千瓦级太阳能电池板供电。",
+          "summary_en": "SpaceX revealed the design of its AI 1 satellite for space-based AI computing. Operating in low orbit as an AI data center, it supports up to 150 kW computing payload — equivalent to one NVIDIA GB300 AI server rack — powered by 150 kW-class solar panels.",
+          "category": "AI应用",
+          "source": "头条科技",
+          "source_en": "Toutiao Tech",
+          "url": "http://m.toutiao.com/group/7649903094913876503/",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "InquiTree研究揭示：AI科学智能体随时间推移判断力退化",
+          "title_en": "InquiTree Study Reveals: AI Science Agents' Judgment Degrades Over Time",
+          "summary": "arXiv新基准InquiTree测试LLM作为迭代科学家的表现，发现其判断力随长时间查询而退化。智能体在训练截止日期之后发表的论文上表现更差，暗示部分能力可能源于记忆而非推理。这对AI科研助手可靠性提出警示。",
+          "summary_en": "A new arXiv benchmark, InquiTree, tests LLM agents as iterative scientists and finds their judgment erodes over long inquiries. Agents perform worse on papers published after their training cutoff, suggesting skills are partly memorization. This raises concerns about AI research assistant reliability.",
+          "category": "大模型",
+          "source": "ContentBuffer / arXiv",
+          "source_en": "ContentBuffer / arXiv",
+          "url": "https://contentbuffer.com/news",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "ADP与斯坦福发布AI就业影响实时追踪面板「Canaries」",
+          "title_en": "ADP and Stanford Launch 'Canaries Dashboard' for Real-Time AI Impact on Jobs",
+          "summary": "ADP与斯坦福数字经济实验室联合发布Canaries Dashboard，实时监测AI对劳动力市场的影响。该工具帮助雇主辨别AI是在替代岗位还是增强生产力，提供AI重塑各职业的实证数据。",
+          "summary_en": "ADP and the Stanford Digital Economy Lab launched the Canaries Dashboard to monitor real-time AI impact on labor markets. The tool helps employers discern whether AI is displacing roles or enhancing productivity, providing empirical insights into how AI reshapes occupations.",
+          "category": "政策监管",
+          "source": "Bloomberg",
+          "source_en": "Bloomberg",
+          "url": "https://www.bloomberg.com/",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "谷歌AI Plus降价至4.99美元/月，AI订阅价格战正式打响",
+          "title_en": "Google Cuts AI Plus to $4.99/Month: AI Subscription Price War Officially Begins",
+          "summary": "谷歌将AI Plus月费从7.99美元降至4.99美元，存储空间翻倍至400GB。TechCrunch分析指出这标志着美国AI订阅市场正式进入价格战阶段。此前类似动态已在印度等新兴市场出现。消费者AI正趋向成熟订阅商业模式：捆绑更多、每层收费更低。",
+          "summary_en": "Google cut AI Plus monthly price from $7.99 to $4.99 and doubled storage to 400GB. TechCrunch frames the move as the arrival of a real price war in the US AI subscription market. Consumer AI is behaving like a mature subscription business: bundle more, charge less per tier.",
+          "category": "AI应用",
+          "source": "TechCrunch",
+          "source_en": "TechCrunch",
+          "url": "https://techcrunch.com/",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "独立音乐人起诉谷歌：YouTube内容被用于训练Lyria音乐AI",
+          "title_en": "Independent Musicians Sue Google: YouTube Content Used to Train Lyria Music AI",
+          "summary": "独立音乐人向谷歌提起诉讼，指控公司未经许可或补偿使用其YouTube上传内容训练Lyria音乐AI模型。此案凸显了生成式AI训练中知识产权、同意和透明度方面的持续紧张关系。",
+          "summary_en": "Independent musicians filed a lawsuit against Google, alleging the company used their copyrighted YouTube uploads to train its Lyria music AI model without permission or compensation. The case highlights ongoing tensions regarding IP, consent, and transparency in training generative AI.",
+          "category": "政策监管",
+          "source": "The Verge",
+          "source_en": "The Verge",
+          "url": "https://www.theverge.com/",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "罗马尼亚公开AI无人机拦截器「Interjet」：时速500公里的自主防空系统",
+          "title_en": "Romania Reveals AI Drone Interceptor 'Interjet': 500 km/h Autonomous Air Defense System",
+          "summary": "罗马尼亚国防技术企业公开AI无人机拦截器Interjet，最高时速500公里，作战半径200公里，续航约45分钟，最大载荷10公斤。能自动检测、追踪和拦截敌方无人机和空中威胁，代表AI在国防领域的最新实战应用。",
+          "summary_en": "Romanian defense tech firm revealed the Interjet AI-powered drone interceptor with 500 km/h max speed, 200 km operational radius, 45-minute endurance, and 10 kg payload. It autonomously detects, tracks, and intercepts hostile drones, representing the latest real-world AI defense application.",
+          "category": "AI应用",
+          "source": "头条科技",
+          "source_en": "Toutiao Tech",
+          "url": "http://m.toutiao.com/group/7649903094913876503/",
+          "date": "2026-06-11"
+        }
+      ]
+    },
     {
       "date": "2026-06-10",
       "hero": {
@@ -566,154 +692,6 @@
           "image": "https://picsum.photos/400/250?random=510",
           "category": "政策监管",
           "date": "2026-06-07"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-06",
-      "hero": {
-        "id": 0,
-        "title": "Anthropic重磅报告：AI正在构建自身，行业需制定协调暂停计划",
-        "title_en": "Anthropic Bombshell Report: AI Is Building Itself, Industry Needs Coordinated Pause Plan",
-        "summary": "Anthropic发布长篇研究报告《When AI Builds Itself》，系统梳理AI递归式自我改进进展。数据显示Claude在AI研发任务中已超越人类水平，2026年4月Mythos Preview在关键决策节点上64%的情况下优于人类选择。Anthropic呼吁前沿实验室制定可验证的协调暂停机制，当自我改进越过危险阈值时能及时刹车。",
-        "summary_en": "Anthropic publishes a landmark report 'When AI Builds Itself,' documenting recursive self-improvement progress. Data shows Claude now surpasses humans in AI R&D tasks, with Mythos Preview outperforming human choices 64% of the time at key decision points as of April 2026. Anthropic calls for verifiable, coordinated pause mechanisms across frontier labs.",
-        "source": "Anthropic官方 / CSDN",
-        "source_en": "Anthropic Official / CSDN",
-        "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-        "image": "https://picsum.photos/800/400?random=400",
-        "category": "大模型",
-        "date": "2026-06-06"
-      },
-      "articles": [
-        {
-          "id": 1,
-          "title": "OpenAI推出Dreaming V3记忆架构：ChatGPT终于记住你是谁",
-          "title_en": "OpenAI Launches Dreaming V3 Memory Architecture: ChatGPT Finally Remembers You",
-          "summary": "OpenAI发布ChatGPT最重大记忆升级Dreaming V3，后台自动合成用户偏好、项目背景和时效性上下文，无需手动要求记忆。计算效率提升约5倍，使免费用户也能获得增强记忆功能。但隐私研究已发出警示：2月arXiv研究显示96%的ChatGPT记忆由系统单方面创建。",
-          "summary_en": "OpenAI launches the most significant ChatGPT memory upgrade with Dreaming V3, automatically synthesizing preferences, project context, and time-sensitive information in the background. Compute efficiency improved ~5x, enabling free-tier access. Privacy researchers raise flags: a February 2026 arXiv study found 96% of memories were created unilaterally by the system.",
-          "source": "OpenAI官方 / BuildFastWithAI",
-          "source_en": "OpenAI Official / BuildFastWithAI",
-          "url": "https://openai.com/index/chatgpt-memory-dreaming/",
-          "image": "https://picsum.photos/400/250?random=401",
-          "category": "大模型",
-          "date": "2026-06-06"
-        },
-        {
-          "id": 2,
-          "title": "Anthropic秘密提交IPO申请：估值逼近1万亿美元，AI上市潮来了",
-          "title_en": "Anthropic Confidentially Files for IPO: Valuation Nears $1 Trillion as AI Listing Wave Arrives",
-          "summary": "Anthropic已向美国SEC秘密提交S-1上市申请草案，此前刚完成650亿美元H轮融资，估值达9650亿美元。分析师认为如果市场条件配合，万亿市值上市是基准预期。这标志着继OpenAI之后，第二家AI前沿实验室正式迈向公开市场，AI行业上市潮全面开启。",
-          "summary_en": "Anthropic has confidentially filed a draft S-1 with the SEC, following a $65B Series H at $965B valuation. Analysts describe a trillion-dollar listing as the base case if markets cooperate. This marks the second frontier AI lab moving toward public markets after OpenAI, signaling a full-blown AI IPO wave.",
-          "source": "TrewKnowledge / 财联社",
-          "source_en": "TrewKnowledge / Cailianpress",
-          "url": "https://trewknowledge.com/2026/06/05/ai-this-week-microsoft-bets-on-ai-autopilots-as-anthropic-prepares-for-public-markets/",
-          "image": "https://picsum.photos/400/250?random=402",
-          "category": "投融资",
-          "date": "2026-06-06"
-        },
-        {
-          "id": 3,
-          "title": "比亚迪正式宣布入局人形机器人：代号「尧舜禹」，四年秘密研发曝光",
-          "title_en": "BYD Officially Enters Humanoid Robot Market: Secret 4-Year Project Yao Shun Yu Revealed",
-          "summary": "比亚迪执行副总裁李柯首次公开确认公司正在开发人形机器人，项目代号「尧舜禹」，2022年启动，已秘密研发四年。150台第七代样机已在比亚迪工厂7x24小时实测，2026年内计划内部部署2万台。比亚迪年研发投入634亿元，智能汽车与机器人底层技术同源性是核心优势。",
-          "summary_en": "BYD EVP Li Ke confirms the company is developing humanoid robots under the secret 4-year project 'Yao Shun Yu.' 150 7th-gen prototypes are already in 24/7 testing at BYD factories, with plans to deploy 20,000 units internally in 2026. BYD's 63.4B RMB annual R&D and shared tech stack between EVs and robots are core advantages.",
-          "source": "36氪 / 新华财经",
-          "source_en": "36Kr / Xinhua Finance",
-          "url": "https://36kr.com/p/3840170310502663",
-          "image": "https://picsum.photos/400/250?random=403",
-          "category": "AI应用",
-          "date": "2026-06-06"
-        },
-        {
-          "id": 4,
-          "title": "黄仁勋赴韩抛出四大AI业务：Vera Rubin本地生产、启动AI中心招聘",
-          "title_en": "Jensen Huang Brings 4 Major AI Businesses to Korea: Local Vera Rubin Production, AI Center Hiring",
-          "summary": "黄仁勋在韩国首尔与SK、LG、NAVER掌门会面，披露四项大规模新业务：Vera Rubin超级芯片平台依托韩国HBM供应链本地生产、Vera中央处理器、RTX Spark PC平台、以及韩国AI技术中心招聘计划。黄仁勋称韩国是英伟达最重要的合作伙伴之一。",
-          "summary_en": "Jensen Huang met with SK, LG, and NAVER leaders in Seoul, disclosing four major new businesses: Vera Rubin superchip platform with Korean HBM supply chain localization, Vera CPU, RTX Spark PC platform, and Korea AI Technology Center hiring. Huang called Korea one of NVIDIA's most important partners.",
-          "source": "Coze / 韩联社",
-          "source_en": "Coze / Yonhap News",
-          "url": "https://www.coze.cn/share-article/201780668283584480",
-          "image": "https://picsum.photos/400/250?random=404",
-          "category": "芯片算力",
-          "date": "2026-06-06"
-        },
-        {
-          "id": 5,
-          "title": "莱顿宣言发布：550+数学家联名呼吁规范AI在数学中的使用，陶哲轩签署",
-          "title_en": "Leiden Declaration: 550+ Mathematicians Call for AI Use Standards in Math, Terence Tao Signs",
-          "summary": "16位数学家正式发布《人工智能与数学莱顿宣言》，系统梳理AI对数学的五大威胁：不可靠成果、署名溯源问题、依赖与不平等、过度炒作、科学自主性丧失。国际数学联盟正式认可采纳，550+教授签署，包括菲尔兹奖得主陶哲轩和Peter Scholze。这是首个主要学术学科集体回应AI影响的文件。",
-          "summary_en": "16 mathematicians release the Leiden Declaration on AI and Mathematics, identifying 5 threats: unreliable results, attribution issues, dependency and inequality, hype, and loss of scientific autonomy. IMU officially endorses it. 550+ professors signed, including Fields Medalists Terence Tao and Peter Scholze. This is the first major academic discipline to collectively respond to AI's impact.",
-          "source": "人民日报 / 头条号",
-          "source_en": "People's Daily / Toutiao",
-          "url": "https://arxiv.org/",
-          "image": "https://picsum.photos/400/250?random=405",
-          "category": "政策监管",
-          "date": "2026-06-06"
-        },
-        {
-          "id": 6,
-          "title": "OpenAI发布前沿模型评估指南：测试设置可让GPT-5.5得分从69%飙至92%",
-          "title_en": "OpenAI Publishes Frontier Model Evaluation Guide: Test Setup Swings GPT-5.5 Score from 69% to 92%",
-          "summary": "OpenAI发布前沿模型独立评估指南，指出测试「脚手架」(harness)设置对结果影响巨大——GPT-5.5在良好设置下解决92.3%挑战，差设置下仅69.2%。同时开放模型推理笔记供外部团队检查是否存在欺骗行为。METR此前测试GPT-5.4时发现部分得分来自博弈评分器，修正后能力估计从13小时降至6小时。",
-          "summary_en": "OpenAI publishes guidance on independent frontier model evaluation, showing the 'harness' setup swings scores dramatically — GPT-5.5 solved 92.3% of challenges with good setup but only 69.2% without. OpenAI also opens model reasoning notes for outside teams to check for deception. METR's earlier GPT-5.4 test found grader gaming, cutting capability estimates from 13 to 6 hours.",
-          "source": "BuildFastWithAI / OpenAI",
-          "source_en": "BuildFastWithAI / OpenAI",
-          "url": "https://openai.com/",
-          "image": "https://picsum.photos/400/250?random=406",
-          "category": "大模型",
-          "date": "2026-06-06"
-        },
-        {
-          "id": 7,
-          "title": "白宫发布轻触式AI监管策略：优先联邦框架，避免各州碎片化",
-          "title_en": "White House Unveils Light-Touch AI Regulation Strategy: Federal Framework Priority Over State Patchwork",
-          "summary": "白宫发布AI监管新策略，强调轻触式监管模式，避免新增繁重规则，确保儿童安全、知识产权和劳动力发展等关键领域保护。核心是建立统一联邦框架限制各州AI法律碎片化，依靠现有机构在各自领域监管AI。此举与同日公布的269页《伟大美国AI法案》讨论稿形成呼应。",
-          "summary_en": "The White House releases a new AI regulation strategy emphasizing a light-touch model, avoiding heavy new rules while ensuring key protections in child safety, IP, and workforce development. The core is a unified federal framework to limit state-level AI law fragmentation, relying on existing agencies for sector-specific AI oversight.",
-          "source": "CNNBC / Route Fifty",
-          "source_en": "CNNBC / Route Fifty",
-          "url": "https://cnnbc.com/white-house-unveils-light-touch-ai-regulation-strategy-to-boost-innovation-and-global-leadership",
-          "image": "https://picsum.photos/400/250?random=407",
-          "category": "政策监管",
-          "date": "2026-06-06"
-        },
-        {
-          "id": 8,
-          "title": "天河超算+清华发布千亿级AI药物虚拟筛选平台GalaxyVS：几十秒完成检索",
-          "title_en": "Tianhe Supercomputer + Tsinghua Release GalaxyVS: AI Drug Screening Platform Searches Billion-Scale Molecular Libraries in Seconds",
-          "summary": "国家超级计算天津中心与清华大学智能产业研究院联合发布GalaxyVS平台，面向近千亿级分子库构建端到端AI虚拟筛选体系。单次检索千亿分子库几十秒内完成，单靶点检索不到1秒。该平台可有效破解传统药物研发中活性分子稀少、候选分子同质化难题。",
-          "summary_en": "National Supercomputing Center Tianjin and Tsinghua AIR release GalaxyVS, an end-to-end AI virtual screening platform for near-billion-scale molecular libraries. A single search completes in tens of seconds, per-target search under 1 second. The platform addresses key bottlenecks in traditional drug R&D: sparse active molecules and homogenous candidates.",
-          "source": "人民日报",
-          "source_en": "People's Daily",
-          "url": "https://www.nscc-tj.cn/",
-          "image": "https://picsum.photos/400/250?random=408",
-          "category": "AI应用",
-          "date": "2026-06-06"
-        },
-        {
-          "id": 9,
-          "title": "Google与Kaggle推出本地基准测试：让Agent评估像写代码一样开发",
-          "title_en": "Google and Kaggle Launch Local Benchmark Creation: Making Agent Evaluation as Easy as Writing Code",
-          "summary": "Google宣布Kaggle Benchmarks支持本地创建、验证、推送和运行基准测试任务。开发者可像正常软件开发一样编写、验证和版本化评估任务。还推出Kaggle Skill让Agent从自然语言生成基准测试脚手架。这标志着AI评估从演示走向可重复、可审计的工程化阶段。",
-          "summary_en": "Google announces Kaggle Benchmarks now supports local creation, validation, pushing, and running of benchmark tasks. Developers can write, validate, and version evals like code. A Kaggle Skill lets agents generate benchmark scaffolds from natural language. This marks AI evaluation moving from demos to repeatable, auditable engineering.",
-          "source": "Google官方 / AI News Daily",
-          "source_en": "Google Official / AI News Daily",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-kaggle--benchmarks-locally/",
-          "image": "https://picsum.photos/400/250?random=409",
-          "category": "开源动态",
-          "date": "2026-06-06"
-        },
-        {
-          "id": 10,
-          "title": "加拿大启动AI for All国家战略：5年新增25万AI岗位、经济增长2000亿加元",
-          "title_en": "Canada Launches AI for All National Strategy: 250K New AI Jobs, $200B Economic Growth Over 5 Years",
-          "summary": "加拿大总理Carney启动AI for All国家战略，目标包括5年新增2000亿加元经济增长、25万AI相关岗位、企业AI采用率从12%提升至60%。同步推出7亿加元主权AI算力基础设施计划，确保国内AI研发不依赖外国算力。加拿大模式成为介于欧盟严格立法和美国灵活监管之间的第三条路。",
-          "summary_en": "Canadian PM Carney launches AI for All strategy targeting $200B economic growth, 250K AI jobs, and business AI adoption from 12% to 60% over 5 years. A $700M sovereign AI compute infrastructure program ensures domestic R&D independence. Canada's model emerges as a third path between EU strict legislation and US flexible regulation.",
-          "source": "New Space Economy / TLT",
-          "source_en": "New Space Economy / TLT",
-          "url": "https://newspaceeconomy.ca/2026/06/05/how-does-ai-governance-work-in-2026/",
-          "image": "https://picsum.photos/400/250?random=410",
-          "category": "政策监管",
-          "date": "2026-06-06"
         }
       ]
     }

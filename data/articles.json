@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "id": "article-10",
+      "title": "Anthropic发布Fable 5与Mythos 5：从「太危险不能公开」到面向所有人",
+      "title_en": "Anthropic Releases Fable 5 and Mythos 5: From 'Too Dangerous to Release' to Available to All",
+      "summary": "Anthropic正式发布Claude Fable 5和Mythos 5，首次披露「分层安全」策略：Fable面向公众但敏感请求自动降级至Opus 4.8，Mythos保留完整能力仅向约200家受信机构开放。Stripe实测5000万行代码迁移1天完成。",
+      "summary_en": "Anthropic officially releases Claude Fable 5 and Mythos 5, debuting a 'tiered safety' strategy: Fable is publicly available with auto-downgrade to Opus 4.8 for sensitive queries, while Mythos retains full capabilities for ~200 trusted institutions. Stripe tested: 50M-line codebase migration in 1 day.",
+      "category": "大模型",
+      "date": "2026-06-11",
+      "readTime": "8分钟",
+      "url": "articles/article-10.html"
+    },
+    {
       "id": "article-9",
       "title": "WWDC 2026深度解读：苹果Siri重生，AI超级应用大战开局",
       "title_en": "WWDC 2026 Deep Dive: Apple Siri Reborn, AI Super App War Begins",
