@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "id": "article-11",
+      "title": "AI算力军备竞赛：一周1200亿美元基础设施投入意味着什么？",
+      "title_en": "AI Infrastructure Arms Race: What Does $120 Billion in One Week Mean?",
+      "summary": "2026年6月第二周，AI行业出现前所未有的基础设施投入浪潮：Apollo/Blackstone为Anthropic设计350亿美元融资方案、Alphabet筹集850亿创纪录资金、Google月均9.2亿美元租用xAI算力。一周内1200亿美元级别的投入，正在重塑全球AI竞争格局。",
+      "summary_en": "In the second week of June 2026, the AI industry saw an unprecedented infrastructure investment wave: Apollo/Blackstone designed a $35B financing package for Anthropic, Alphabet raised a record $85B, and Google pays $920M/month to lease xAI compute. $120B in one week is reshaping the global AI competition landscape.",
+      "category": "产业",
+      "date": "2026-06-12",
+      "readTime": "10分钟",
+      "url": "articles/article-11.html"
+    },
+    {
       "id": "article-10",
       "title": "Anthropic发布Fable 5与Mythos 5：从「太危险不能公开」到面向所有人",
       "title_en": "Anthropic Releases Fable 5 and Mythos 5: From 'Too Dangerous to Release' to Available to All",
