@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-06-12 — 6月12日每日更新
+
+### 新增
+- 6月12日新闻10条 + 头条（OpenAI与Visa达成AI支付合作）
+- 深度文章 `article-11.html`：《AI算力军备竞赛：一周1200亿美元基础设施投入意味着什么？》正式上线
+
+### 修改
+- `data/news.json`：新增6月12日数据，保留6月8-11日历史（5天）
+- `data/articles.json`：新增 article-11 元数据
+- `index.html`：侧边栏推荐区更新（article-11 🔥、article-10 📖、article-9 📖）
+- `js/i18n.js`：深度文章标题更新为 article-11、article-10、article-9
+
+---
+
 ## 2026-06-07 #1 — 6月7日每日更新
 
 ### 新增
