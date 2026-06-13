@@ -81,8 +81,8 @@
             tag_compute: '算力',
 
             // 深度文章
-            deep_article_1_title: 'AI算力军备竞赛：一周1200亿美元基础设施投入意味着什么？',
-            deep_article_2_title: 'Anthropic发布Fable 5与Mythos 5：从「太危险不能公开」到面向所有人',
+            deep_article_1_title: 'AI商业革命：从聊天到购物——当AI智能体走进消费市场',
+            deep_article_2_title: 'AI算力军备竞赛：一周1200亿美元基础设施投入意味着什么？',
             deep_article_3_title: 'WWDC 2026深度解读：苹果Siri重生，AI超级应用大战开局',
 
             // 日期分隔符
@@ -172,8 +172,8 @@
             tag_compute: 'Compute',
 
             // Deep reads
-            deep_article_1_title: "AI Infrastructure Arms Race: What Does $120 Billion in One Week Mean?",
-            deep_article_2_title: "Anthropic Releases Fable 5 and Mythos 5: From 'Too Dangerous to Release' to Available to All",
+            deep_article_1_title: "AI Commerce Revolution: From Chat to Shopping — When AI Agents Enter the Consumer Market",
+            deep_article_2_title: "AI Infrastructure Arms Race: What Does $120 Billion in One Week Mean?",
             deep_article_3_title: "WWDC 2026 Deep Dive: Apple Siri Reborn, AI Super App War Begins",
 
             // Date separators

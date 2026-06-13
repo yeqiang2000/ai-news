@@ -1,6 +1,143 @@
 {
-  "last_updated": "2026-06-12T10:00:00+08:00",
+  "last_updated": "2026-06-13T09:00:00+08:00",
   "days": [
+    {
+      "date": "2026-06-13",
+      "hero": {
+        "title": "SpaceX IPO首日收涨19%报161美元，马斯克成全球首位万亿富翁",
+        "title_en": "SpaceX IPO Closes Up 19% at $161, Musk Becomes World's First Trillionaire",
+        "summary": "SpaceX股票SPCX在纳斯达克首日交易中上涨19%收于161美元，市值接近2万亿美元。Forbes正式宣布马斯克净资产突破1万亿美元，成为人类历史上首位万亿富翁。分析指出市场正将SpaceX估值为AI基础设施和计算平台，而非单纯的火箭公司。与此同时，OpenAI和Anthropic也在筹备IPO，AI科技上市潮正式开启。",
+        "summary_en": "SpaceX shares (SPCX) surged 19% to $161 on Nasdaq debut, approaching a $2 trillion market cap. Forbes officially declared Elon Musk the world's first trillionaire. Analysis suggests the market is valuing SpaceX as a future AI infrastructure and compute platform, not just a launch company. Meanwhile, OpenAI and Anthropic are also preparing for IPOs in a landmark AI-tech listing season.",
+        "category": "投融资",
+        "source": "Forbes",
+        "source_en": "Forbes",
+        "url": "https://creati.ai/ai-news/2026-06-13/",
+        "image": "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?w=800&h=450&fit=crop",
+        "date": "2026-06-13"
+      },
+      "articles": [
+        {
+          "title": "Mistral AI即将完成30亿欧元融资，估值达200亿欧元",
+          "title_en": "Mistral AI Close to Raising €3 Billion at €20 Billion Valuation",
+          "summary": "法国AI公司Mistral AI据报正在进行高级谈判，计划融资约30亿欧元，估值可达200亿欧元。这将是欧洲AI领域最大规模的融资之一，进一步巩固Mistral作为OpenAI和Anthropic在欧洲主要竞争对手的地位。",
+          "summary_en": "French AI company Mistral AI is reportedly in advanced discussions to raise around €3 billion at a potential €20 billion valuation, one of the largest AI funding rounds in Europe, further cementing its position as the primary European competitor to OpenAI and Anthropic.",
+          "category": "投融资",
+          "source": "The Tech Portal",
+          "source_en": "The Tech Portal",
+          "url": "https://thetechportal.com/a-i/",
+          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop",
+          "date": "2026-06-13"
+        },
+        {
+          "title": "OpenAI收购Ona加强AI智能体控制能力，团队并入Codex部门",
+          "title_en": "OpenAI Acquires Ona to Strengthen AI Agent Control, Team Joins Codex Division",
+          "summary": "OpenAI同意收购云执行初创公司Ona，其团队将加入Codex部门。Ona专注于团队知识、项目管理和工作流整合，与Codex编程智能体结合后，OpenAI有望将模型能力从命令行和聊天框推向更完整的工作台。",
+          "summary_en": "OpenAI has agreed to acquire Ona, a cloud execution startup, with the team joining the Codex division. Ona specializes in team knowledge, project management and workflow integration, potentially extending OpenAI's model capabilities from command lines and chat boxes to a more complete workstation.",
+          "category": "AI应用",
+          "source": "InfoWorld",
+          "source_en": "InfoWorld",
+          "url": "https://thetechportal.com/a-i/",
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop",
+          "date": "2026-06-13"
+        },
+        {
+          "title": "Anthropic推出垂直行业AI软件，直接威胁企业AI构建商",
+          "title_en": "Anthropic Vertical Software Rollout Threatens Enterprise AI Builders",
+          "summary": "Anthropic推出面向特定行业的AI工具，直接挑战在其Claude模型之上构建产品的公司，重塑企业AI市场格局。这意味着基础模型公司正从平台向应用层延伸，与自己的生态伙伴形成竞争。",
+          "summary_en": "Anthropic's new industry-specific AI tools directly challenge companies building products on top of its Claude models, reshaping the enterprise AI market. This signals foundational model companies are extending from platforms to applications, competing with their own ecosystem partners.",
+          "category": "AI商业",
+          "source": "creati.ai",
+          "source_en": "creati.ai",
+          "url": "https://creati.ai/ai-news/2026-06-13/",
+          "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=400&h=250&fit=crop",
+          "date": "2026-06-13"
+        },
+        {
+          "title": "欧盟达成AI法案修订协议：高风险系统合规期限延长，透明义务提前",
+          "title_en": "EU Agrees AI Act Changes: Extended Compliance for High-Risk Systems, Earlier Transparency Rules",
+          "summary": "欧盟政策制定者达成临时协议，修订AI法案的实施时间表：高风险AI系统的合规期限获得延长，但AI生成内容的透明标注义务被提前执行。这一调整平衡了产业创新需求与安全监管节奏。",
+          "summary_en": "European policymakers reached a provisional agreement to revise the AI Act timeline, extending compliance deadlines for high-risk AI systems while bringing forward transparency obligations for AI-generated content, balancing innovation needs with regulatory safety.",
+          "category": "政策监管",
+          "source": "CNNBC",
+          "source_en": "CNNBC",
+          "url": "https://cnnbc.com/european-union-agrees-changes-to-ai-act-compliance-deadlines-and-transparency-rules",
+          "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=250&fit=crop",
+          "date": "2026-06-13"
+        },
+        {
+          "title": "路透/益普索民调：53%美国人担忧AI导致家人失业",
+          "title_en": "Reuters/Ipsos Poll: 53% of Americans Fear AI Could Cost Household Jobs",
+          "summary": "路透社与益普索联合民调显示，53%的美国受访者担忧AI进步可能导致家人失业。这一担忧跨越年龄、性别和教育水平，凸显AI快速普及带来的社会焦虑。此前Intuit已宣布裁减17%全球员工以聚焦AI。",
+          "summary_en": "A Reuters/Ipsos poll found 53% of Americans worry AI advances could cost someone in their household a job. The concern spans age, gender and education levels, highlighting growing social anxiety amid rapid AI adoption following layoffs at companies like Intuit.",
+          "category": "社会影响",
+          "source": "Reuters",
+          "source_en": "Reuters",
+          "url": "https://www.torontotelegraph.com/news/279114601/reuters-ipsos-poll-finds-growing-anxiety-over-ai-adoption",
+          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=250&fit=crop",
+          "date": "2026-06-13"
+        },
+        {
+          "title": "OpenAI因设计缺陷致人自杀遭起诉，面临多起类似诉讼",
+          "title_en": "OpenAI Sued Over Design Defect Linked to Suicide, Faces Multiple Similar Lawsuits",
+          "summary": "一名加拿大女子在加州起诉OpenAI及其CEO奥特曼，称ChatGPT的设计问题导致其女儿自杀。起诉书称ChatGPT优先考虑用户参与度而非安全性，安全系统未能在用户表露自杀倾向时启动介入。OpenAI回应称事件令人心碎，正加强敏感情况应对能力。",
+          "summary_en": "A Canadian woman sued OpenAI and CEO Altman in California, claiming ChatGPT's design contributed to her daughter's suicide. The lawsuit alleges ChatGPT prioritized engagement over safety, failing to intervene when the user expressed suicidal thoughts. OpenAI called the incident heartbreaking and said it's strengthening responses to sensitive situations.",
+          "category": "AI安全",
+          "source": "央视新闻",
+          "source_en": "CCTV News",
+          "url": "http://m.toutiao.com/group/7650679041241973248/",
+          "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop",
+          "date": "2026-06-13"
+        },
+        {
+          "title": "Kimi推出全球首张AI原生信用卡：消费可转化为AI算力额度",
+          "title_en": "Kimi Launches World's First AI-Native Credit Card: Spending Converts to AI Compute Credits",
+          "summary": "月之暗面旗下Kimi智能助手宣布，全球首张AI原生信用卡Kimi信用卡正式开启预约。持卡人每笔消费可转化为AI算力额度，兑换Agent使用额度和高级功能权限。AI原生金融产品标志着AI与消费场景的深度融合。",
+          "summary_en": "Moonshot AI's Kimi announced the world's first AI-native credit card is open for pre-order. Every purchase converts to AI compute credits redeemable for Agent usage and premium features, marking a deep integration of AI with consumer finance.",
+          "category": "AI应用",
+          "source": "界面新闻",
+          "source_en": "Jiemian News",
+          "url": "http://m.toutiao.com/group/7650679041241973248/",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop",
+          "date": "2026-06-13"
+        },
+        {
+          "title": "大晓机器人开悟世界模型超越Cosmos3，登顶具身智能评测",
+          "title_en": "Daxiao Robot Kairos World Model Surpasses Cosmos3, Tops Embodied AI Benchmarks",
+          "summary": "大晓机器人开悟世界模型在RoboTwin 2.0、LIBERO-Plus等全球权威具身智能评测中取得第一，超越NVIDIA Cosmos3。该模型采用「多模态理解-生成-预测」一体化架构，已向全行业开源。",
+          "summary_en": "Daxiao Robot's Kairos world model topped global embodied AI benchmarks including RoboTwin 2.0 and LIBERO-Plus, surpassing NVIDIA's Cosmos3. The model uses a unified understanding-generation-prediction architecture and has been open-sourced.",
+          "category": "开源模型",
+          "source": "界面新闻",
+          "source_en": "Jiemian News",
+          "url": "http://m.toutiao.com/group/7650679041241973248/",
+          "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=250&fit=crop",
+          "date": "2026-06-13"
+        },
+        {
+          "title": "金山云AI算力产品涨价15%-50%，7月12日起生效",
+          "title_en": "Kingsoft Cloud Raises AI Compute Prices 15-50%, Effective July 12",
+          "summary": "金山云宣布因全球AI算力需求攀升、硬件成本上涨，将对AI算力相关产品服务价格上调15%-50%，文件存储服务上调30%-50%，7月12日起生效。这是国内云厂商首次大规模上调AI算力价格，反映出供不应求的市场格局。",
+          "summary_en": "Kingsoft Cloud announced AI compute price increases of 15-50% and file storage increases of 30-50%, effective July 12, citing rising global AI demand and hardware costs. This marks the first major AI compute price hike by a Chinese cloud vendor, reflecting supply-demand imbalances.",
+          "category": "算力基建",
+          "source": "金山云官网",
+          "source_en": "Kingsoft Cloud",
+          "url": "http://m.toutiao.com/group/7650679041241973248/",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop",
+          "date": "2026-06-13"
+        },
+        {
+          "title": "Apple相机负责人：AI视觉智能将赋予用户超能力",
+          "title_en": "Apple Camera Chief: AI Visual Intelligence Will Give Users Superpowers",
+          "summary": "Apple相机部门负责人讨论了Siri的视觉智能功能，该功能利用计算机视觉分析图像，使Apple在AI竞赛中占据更深层位置。这标志着Apple正从语音助手向多模态AI能力加速转型。",
+          "summary_en": "Apple's camera chief discussed Siri's Visual Intelligence feature, which uses computer vision to analyze images, positioning Apple deeper in the AI race. This signals Apple's accelerated shift from voice assistant to multimodal AI capabilities.",
+          "category": "AI应用",
+          "source": "creati.ai",
+          "source_en": "creati.ai",
+          "url": "https://creati.ai/ai-news/2026-06-13/",
+          "image": "https://images.unsplash.com/photo-1555949963-aa79fcee480f?w=400&h=250&fit=crop",
+          "date": "2026-06-13"
+        }
+      ]
+    },
     {
       "date": "2026-06-12",
       "hero": {
@@ -555,154 +692,6 @@
           "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
           "category": "芯片算力",
           "date": "2026-06-09"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-08",
-      "hero": {
-        "id": 0,
-        "title": "历史性IPO浪潮来袭：SpaceX、Anthropic、OpenAI合计融资目标2000亿美元",
-        "title_en": "Historic IPO Wave: SpaceX, Anthropic, OpenAI Target $200 Billion Combined",
-        "summary": "SpaceX将于6月12日上市，计划融资750亿美元打破全球IPO纪录；Anthropic已保密提交S-1申请，估值接近1万亿美元；OpenAI也计划年底前上市。三家合计融资目标约2000亿美元。然而，估值担忧正在加剧：Michael Burry称SpaceX的S-1文件「无法支撑1万亿美元估值」，New Constructs CEO直指这可能是「历史上最大的潜在骗局之一」。",
-        "summary_en": "SpaceX goes public June 12 targeting $75B, shattering the global IPO record. Anthropic confidentially filed S-1 near $1T valuation. OpenAI plans year-end listing. Combined target: ~$200B. But valuation concerns mount: Michael Burry says SpaceX's S-1 supports nothing near $1T; New Constructs CEO calls it potentially 'one of the biggest scams in history.'",
-        "source": "NBD / CoinDesk / TradingKey",
-        "source_en": "NBD / CoinDesk / TradingKey",
-        "url": "https://www.reuters.com/",
-        "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=450&fit=crop",
-        "category": "投融资",
-        "date": "2026-06-08"
-      },
-      "articles": [
-        {
-          "id": 1,
-          "title": "白宫AI政策顾问Krishnan离职：美国AI政策核心设计者18个月后离开",
-          "title_en": "White House AI Policy Adviser Krishnan Departs After 18 Months",
-          "summary": "白宫高级AI政策顾问Sriram Krishnan宣布将在6月底离职。Krishnan是特朗普政府AI政策的核心设计者之一，正考虑成立新的政策机构来支持政府未来的AI计划。他的离开正值美国政府考虑入股AI企业、推进联邦AI立法的关键时刻。",
-          "summary_en": "Senior White House AI policy adviser Sriram Krishnan announces departure by end of June. A core architect of Trump administration AI policy, he is considering establishing a new policy institution. His exit comes as the government considers equity stakes in AI firms and pushes federal AI legislation.",
-          "source": "Economic Times / SCMP",
-          "source_en": "Economic Times / SCMP",
-          "url": "https://economictimes.indiatimes.com/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "政策监管",
-          "date": "2026-06-08"
-        },
-        {
-          "id": 2,
-          "title": "超党派众议员公布法案草案：限制各州对AI模型开发的监管权",
-          "title_en": "Bipartisan House Lawmakers Unveil Draft Bill to Limit State Regulation of AI Model Development",
-          "summary": "美国超党派众议员公布法案草案，旨在限制各州对AI模型开发的监管权，推动建立统一的联邦AI监管框架。此举与白宫轻触式监管策略一脉相承，但可能引发联邦与各州之间的权力博弈。",
-          "summary_en": "Bipartisan House lawmakers unveil a draft bill to limit state-level regulation of AI model development, pushing for a unified federal framework. This aligns with the White House light-touch strategy but may trigger federal-state power struggles.",
-          "source": "PYMNTS / Google News",
-          "source_en": "PYMNTS / Google News",
-          "url": "https://www.pymnts.com/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "政策监管",
-          "date": "2026-06-08"
-        },
-        {
-          "id": 3,
-          "title": "AI设计通用疫苗通过首次人体试验：无针给药技术应对未来冠状病毒威胁",
-          "title_en": "AI-Designed Universal Vaccine Clears First Human Trial: Needle-Free Tech Targets Future Coronavirus Threats",
-          "summary": "由AI设计的通用疫苗已成功完成首次人体临床试验。该疫苗采用无针给药技术，旨在应对未来可能出现的各类冠状病毒威胁。这标志着AI从药物发现辅助工具到临床级产品的里程碑跨越。",
-          "summary_en": "An AI-designed universal vaccine has successfully completed its first human clinical trial. Featuring needle-free delivery, it targets future coronavirus threats. This marks a milestone leap for AI from drug discovery assistant to clinical-grade product.",
-          "source": "Medical Xpress / Google News",
-          "source_en": "Medical Xpress / Google News",
-          "url": "https://medicalxpress.com/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "AI应用",
-          "date": "2026-06-08"
-        },
-        {
-          "id": 4,
-          "title": "Anthropic与白宫缓和关系：万亿IPO前解除国防部黑名单成关键",
-          "title_en": "Anthropic Eases Tensions with White House: Lifting DoD Blacklist Key Before Trillion-Dollar IPO",
-          "summary": "Anthropic CEO Dario Amodei于4月中旬造访白宫，这是自国防部将Anthropic列为「供应链风险」以来首次实质性接触。双方关系正在解冻，部分联邦机构已在探索恢复使用Claude模型。然而在IPO前解除黑名单仍是关键挑战。",
-          "summary_en": "Anthropic CEO Dario Amodei visited the White House in mid-April, the first meaningful engagement since the DoD designated the company a 'supply-chain risk.' Relations are thawing, with some agencies exploring renewed Claude access. Lifting the blacklist before IPO remains critical.",
-          "source": "CoinDesk / Crypto Briefing",
-          "source_en": "CoinDesk / Crypto Briefing",
-          "url": "https://www.coindesk.cc/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "投融资",
-          "date": "2026-06-08"
-        },
-        {
-          "id": 5,
-          "title": "英国AI安全研究所红队测试：所有主流AI模型均存在重大安全漏洞",
-          "title_en": "UK AI Security Institute Red Teams Find Major Safety Gaps in All Leading AI Models",
-          "summary": "英国AI安全研究所约100名员工对包括Claude和Gemini在内的所有主流AI模型进行红队测试，均发现重大安全漏洞。团队成功突破ChatGPT最新版防护获取黑客技巧，仅用时约6小时。该机构获4.8亿美元政府资金，正成为全球AI安全审计的蓝本。",
-          "summary_en": "The UK AI Security Institute's ~100 staff found major safety gaps in every leading AI model tested, including Claude and Gemini. The team broke through ChatGPT's latest safeguards to extract hacking tips in about 6 hours. Backed by $480M in government funding, the institute is becoming a global blueprint for AI safety auditing.",
-          "source": "New York Times / SAM Daily Times",
-          "source_en": "New York Times / SAM Daily Times",
-          "url": "https://www.nytimes.com/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "大模型",
-          "date": "2026-06-08"
-        },
-        {
-          "id": 6,
-          "title": "中国发布AI终端智能分级标准GB/T 45288：L1-L5五级认证11月1日生效",
-          "title_en": "China Releases AI Terminal Intelligence Grading Standard GB/T 45288: L1-L5 Five-Level Certification Effective Nov 1",
-          "summary": "中国市场监管总局、工信部、网信办联合发布AI终端智能分级标准GB/T 45288-2026，定义L1至L5五个智能等级。L3及以上需通过指定机构认证，涉及端侧推理算力、隐私计算模块和多模态响应延迟三项强制指标。该标准将直接影响出口合规和供应链设计。",
-          "summary_en": "China's SAMR, MIIT, and CAC jointly release AI terminal intelligence grading standard GB/T 45288-2026, defining L1-L5 levels. L3+ requires certified testing for on-device inference, privacy computation, and multimodal response latency. The standard directly impacts export compliance and supply chain design.",
-          "source": "Qishuai / SAMR官方",
-          "source_en": "Qishuai / SAMR Official",
-          "url": "https://www.samr.gov.cn/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "政策监管",
-          "date": "2026-06-08"
-        },
-        {
-          "id": 7,
-          "title": "微软与OpenAI关系重塑：对投资者而言疏远是好事",
-          "title_en": "Microsoft-OpenAI Relationship Reshaped: Distancing Is Good for Investors",
-          "summary": "The Motley Fool分析指出，微软正在重新定义与OpenAI的关系，从独家绑定走向多模型策略。微软Build 2026发布7款自研AI模型，正式结束与OpenAI长达5年的独家合作。分析师认为这对投资者是积极信号——减少单点依赖，增强AI主权。",
-          "summary_en": "The Motley Fool analysis shows Microsoft is redefining its OpenAI relationship from exclusive binding to multi-model strategy. Microsoft Build 2026 launched 7 self-developed AI models, ending 5 years of exclusive partnership. Analysts see this as positive for investors: reducing single-point dependency and strengthening AI sovereignty.",
-          "source": "The Motley Fool / Google News",
-          "source_en": "The Motley Fool / Google News",
-          "url": "https://www.fool.com/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "大模型",
-          "date": "2026-06-08"
-        },
-        {
-          "id": 8,
-          "title": "Varonis集成Anthropic Claude合规API：企业AI审计进入实时时代",
-          "title_en": "Varonis Integrates Anthropic Claude Compliance API: Enterprise AI Audit Enters Real-Time Era",
-          "summary": "Varonis将Anthropic的Claude合规API集成到Atlas AI安全平台，企业可实时监控、审计Claude AI使用情况，将AI交互与数据敏感度和用户行为关联分析。Gartner预测到2027年60%大型企业将遭遇重大AI相关数据泄露事件。",
-          "summary_en": "Varonis integrates Anthropic's Claude Compliance API into its Atlas AI Security Platform, enabling real-time monitoring and auditing of Claude usage correlated with data sensitivity and user behavior. Gartner predicts 60% of large enterprises will experience a significant AI-related data breach by 2027.",
-          "source": "Windows News AI / Varonis",
-          "source_en": "Windows News AI / Varonis",
-          "url": "https://www.varonis.com/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "AI应用",
-          "date": "2026-06-08"
-        },
-        {
-          "id": 9,
-          "title": "企业AI采用进入新阶段：从全民普及转向ROI量化管控",
-          "title_en": "Enterprise AI Adoption Enters New Phase: Shift from Universal Access to ROI-Driven Controls",
-          "summary": "过去两年企业鼓励员工大规模采用AI工具，如今一些最大的AI企业用户开始引入使用限制、管控框架和成本管理体系。标志着企业AI采用从实验性普及转向可量化的商业价值验证阶段。",
-          "summary_en": "After two years of encouraging mass AI adoption, major enterprise AI users are introducing limits, control frameworks, and cost management. This signals a shift from experimental proliferation to measurable business value verification.",
-          "source": "Economic Times / Gartner",
-          "source_en": "Economic Times / Gartner",
-          "url": "https://economictimes.indiatimes.com/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "AI应用",
-          "date": "2026-06-08"
-        },
-        {
-          "id": 10,
-          "title": "AirTrunk投资300亿美元在印度建设5GW数据中心：AI算力基础设施东移",
-          "title_en": "AirTrunk Invests $30B in India for 5GW Data Centers: AI Compute Infrastructure Shifts East",
-          "summary": "Blackstone和CPPIB支持的AirTrunk计划到2030年在印度投资超300亿美元，建设超5GW数字基础设施容量。这笔投资将支持印度日益增长的云和AI需求，也反映出AI算力基础设施正在从西方主导走向全球分散化布局。",
-          "summary_en": "Blackstone and CPPIB-backed AirTrunk plans to invest over $30B in India by 2030, developing 5GW+ digital infrastructure capacity. The investment supports India's growing cloud and AI needs and reflects a shift from Western-dominated to globally distributed AI compute infrastructure.",
-          "source": "Economic Times / Blackstone",
-          "source_en": "Economic Times / Blackstone",
-          "url": "https://www.blackstone.com/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "芯片算力",
-          "date": "2026-06-08"
         }
       ]
     }

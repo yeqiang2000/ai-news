@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "id": "article-12",
+      "title": "AI商业革命：从聊天到购物——当AI智能体走进消费市场",
+      "title_en": "AI Commerce Revolution: From Chat to Shopping — When AI Agents Enter the Consumer Market",
+      "summary": "OpenAI与Visa达成AI支付合作，ChatGPT智能体可代客购物。德国法院裁定Google对AI Overviews虚假陈述承担法律责任。Coinbase让AI智能体进入交易市场。AI从工具进化为商业参与者，消费市场的游戏规则正在被重写。",
+      "summary_en": "OpenAI and Visa partner on AI payments, enabling ChatGPT agents to shop for users. A German court rules Google liable for false AI Overview statements. Coinbase brings AI agents into trading. AI evolves from tool to commercial participant, rewriting the rules of the consumer market.",
+      "category": "深度解读",
+      "date": "2026-06-13",
+      "url": "articles/article-12.html",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=450&fit=crop"
+    },
+    {
       "id": "article-11",
       "title": "AI算力军备竞赛：一周1200亿美元基础设施投入意味着什么？",
       "title_en": "AI Infrastructure Arms Race: What Does $120 Billion in One Week Mean?",
