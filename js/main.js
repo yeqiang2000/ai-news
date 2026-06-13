@@ -179,7 +179,7 @@
         DOM.heroSource.textContent = getLocalizedField(heroData, 'source');
         DOM.heroDate.textContent = formatDate(heroData.date);
         DOM.heroLink.textContent = getLocalizedField(heroData, 'title');
-        DOM.heroLink.href = heroData.url;
+        DOM.heroLink.href = 'news.html?id=' + (heroData.id || '');
         DOM.heroSummary.textContent = getLocalizedField(heroData, 'summary');
         
         const catZh = heroData.category;
@@ -210,7 +210,7 @@
                         <span class="news-card-date">${getRelativeTime(article.date)}</span>
                     </div>
                     <h3 class="news-card-title">
-                        <a href="${article.url}" target="_blank" rel="noopener noreferrer">${title}</a>
+                        <a href="news.html?id=${article.id}">${title}</a>
                     </h3>
                     <p class="news-card-summary">${summary}</p>
                     <div class="news-card-footer">
@@ -331,7 +331,7 @@
 
         return `
             <article class="deep-article-card" style="animation-delay: ${delay}s">
-                <a href="${article.url}" class="deep-article-link" target="_blank" rel="noopener noreferrer">
+                <a href="${article.url}" class="deep-article-link">
                     <div class="deep-article-image">
                         <img src="${article.image}" alt="${title}" loading="lazy">
                         <span class="deep-article-number">#${index + 1}</span>
@@ -427,7 +427,7 @@
                 const title = getLocalizedField(article, 'title');
                 const source = getLocalizedField(article, 'source');
                 return `
-                    <li class="must-read-item" data-url="${article.url}">
+                    <li class="must-read-item" data-id="${article.id}">
                         <span class="must-read-number">${index + 1}</span>
                         <div class="must-read-content">
                             <h4 class="must-read-title">${title}</h4>
@@ -440,8 +440,8 @@
 
         DOM.mustReadList.querySelectorAll('.must-read-item').forEach(item => {
             item.addEventListener('click', () => {
-                const url = item.dataset.url;
-                if (url) window.open(url, '_blank', 'noopener,noreferrer');
+                const id = item.dataset.id;
+                if (id) window.location.href = 'news.html?id=' + id;
             });
         });
     }

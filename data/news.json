@@ -13,7 +13,8 @@
         "source_en": "Forbes",
         "url": "https://creati.ai/ai-news/2026-06-13/",
         "image": "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?w=800&h=450&fit=crop",
-        "date": "2026-06-13"
+        "date": "2026-06-13",
+        "id": "hero-2026-06-13"
       },
       "articles": [
         {
@@ -26,7 +27,8 @@
           "source_en": "The Tech Portal",
           "url": "https://thetechportal.com/a-i/",
           "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop",
-          "date": "2026-06-13"
+          "date": "2026-06-13",
+          "id": "news-2026-06-13-0"
         },
         {
           "title": "OpenAI收购Ona加强AI智能体控制能力，团队并入Codex部门",
@@ -38,7 +40,8 @@
           "source_en": "InfoWorld",
           "url": "https://thetechportal.com/a-i/",
           "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop",
-          "date": "2026-06-13"
+          "date": "2026-06-13",
+          "id": "news-2026-06-13-1"
         },
         {
           "title": "Anthropic推出垂直行业AI软件，直接威胁企业AI构建商",
@@ -50,7 +53,8 @@
           "source_en": "creati.ai",
           "url": "https://creati.ai/ai-news/2026-06-13/",
           "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=400&h=250&fit=crop",
-          "date": "2026-06-13"
+          "date": "2026-06-13",
+          "id": "news-2026-06-13-2"
         },
         {
           "title": "欧盟达成AI法案修订协议：高风险系统合规期限延长，透明义务提前",
@@ -62,7 +66,8 @@
           "source_en": "CNNBC",
           "url": "https://cnnbc.com/european-union-agrees-changes-to-ai-act-compliance-deadlines-and-transparency-rules",
           "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=250&fit=crop",
-          "date": "2026-06-13"
+          "date": "2026-06-13",
+          "id": "news-2026-06-13-3"
         },
         {
           "title": "路透/益普索民调：53%美国人担忧AI导致家人失业",
@@ -74,7 +79,8 @@
           "source_en": "Reuters",
           "url": "https://www.torontotelegraph.com/news/279114601/reuters-ipsos-poll-finds-growing-anxiety-over-ai-adoption",
           "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=250&fit=crop",
-          "date": "2026-06-13"
+          "date": "2026-06-13",
+          "id": "news-2026-06-13-4"
         },
         {
           "title": "OpenAI因设计缺陷致人自杀遭起诉，面临多起类似诉讼",
@@ -86,7 +92,8 @@
           "source_en": "CCTV News",
           "url": "http://m.toutiao.com/group/7650679041241973248/",
           "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop",
-          "date": "2026-06-13"
+          "date": "2026-06-13",
+          "id": "news-2026-06-13-5"
         },
         {
           "title": "Kimi推出全球首张AI原生信用卡：消费可转化为AI算力额度",
@@ -98,7 +105,8 @@
           "source_en": "Jiemian News",
           "url": "http://m.toutiao.com/group/7650679041241973248/",
           "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop",
-          "date": "2026-06-13"
+          "date": "2026-06-13",
+          "id": "news-2026-06-13-6"
         },
         {
           "title": "大晓机器人开悟世界模型超越Cosmos3，登顶具身智能评测",
@@ -110,7 +118,8 @@
           "source_en": "Jiemian News",
           "url": "http://m.toutiao.com/group/7650679041241973248/",
           "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=250&fit=crop",
-          "date": "2026-06-13"
+          "date": "2026-06-13",
+          "id": "news-2026-06-13-7"
         },
         {
           "title": "金山云AI算力产品涨价15%-50%，7月12日起生效",
@@ -122,7 +131,8 @@
           "source_en": "Kingsoft Cloud",
           "url": "http://m.toutiao.com/group/7650679041241973248/",
           "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop",
-          "date": "2026-06-13"
+          "date": "2026-06-13",
+          "id": "news-2026-06-13-8"
         },
         {
           "title": "Apple相机负责人：AI视觉智能将赋予用户超能力",
@@ -134,7 +144,8 @@
           "source_en": "creati.ai",
           "url": "https://creati.ai/ai-news/2026-06-13/",
           "image": "https://images.unsplash.com/photo-1555949963-aa79fcee480f?w=400&h=250&fit=crop",
-          "date": "2026-06-13"
+          "date": "2026-06-13",
+          "id": "news-2026-06-13-9"
         }
       ]
     },
@@ -150,7 +161,8 @@
         "source_en": "TechFyle / Visa",
         "url": "https://techfyle.com/chatgpt-visa-purchase-ai-overviews-court-diffusiongemma-2026/",
         "date": "2026-06-12",
-        "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=450&fit=crop"
+        "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=450&fit=crop",
+        "id": "hero-2026-06-12"
       },
       "articles": [
         {
@@ -163,7 +175,8 @@
           "source_en": "TechFyle / Reuters",
           "url": "https://techfyle.com/chatgpt-visa-purchase-ai-overviews-court-diffusiongemma-2026/",
           "date": "2026-06-12",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
+          "id": "news-2026-06-12-0"
         },
         {
           "title": "Google DeepMind发布DiffusionGemma：4倍速文本生成，单卡1000 Token/秒",
@@ -175,7 +188,8 @@
           "source_en": "Google Blog / TechFyle",
           "url": "https://techfyle.com/chatgpt-visa-purchase-ai-overviews-court-diffusiongemma-2026/",
           "date": "2026-06-12",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop",
+          "id": "news-2026-06-12-1"
         },
         {
           "title": "ChatGPT突然改版：模型代号消失，全部换成「智力分级」；GPT-5.6本月发布",
@@ -187,7 +201,8 @@
           "source_en": "36Kr / OpenAI",
           "url": "https://36kr.com/p/3848712198902789",
           "date": "2026-06-12",
-          "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=400&h=250&fit=crop",
+          "id": "news-2026-06-12-2"
         },
         {
           "title": "OpenAI考虑大幅降价：Token价格战正式烧到美国",
@@ -199,7 +214,8 @@
           "source_en": "WSJ / Cailian Press",
           "url": "https://www.163.com/dy/article/KV4U41C005198CJN.html",
           "date": "2026-06-12",
-          "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop",
+          "id": "news-2026-06-12-3"
         },
         {
           "title": "Anthropic撤销Fable 5隐藏安全限制：开发者反弹后改为可见模式",
@@ -211,7 +227,8 @@
           "source_en": "WIRED / Business Insider",
           "url": "https://creati.ai/ai-news/2026-06-12/",
           "date": "2026-06-12",
-          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop",
+          "id": "news-2026-06-12-4"
         },
         {
           "title": "KKR联合英伟达、Vistra和科威特基金成立100亿美元AI基础设施公司",
@@ -223,7 +240,8 @@
           "source_en": "The Tech Portal",
           "url": "https://thetechportal.com/latest-gadget-news/",
           "date": "2026-06-12",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop",
+          "id": "news-2026-06-12-5"
         },
         {
           "title": "TCS与Anthropic达成全球顶级合作伙伴关系，5万员工部署Claude",
@@ -235,7 +253,8 @@
           "source_en": "Economic Times",
           "url": "https://economictimes.indiatimes.com/",
           "date": "2026-06-12",
-          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=250&fit=crop",
+          "id": "news-2026-06-12-6"
         },
         {
           "title": "2026北京智源大会开幕：AI智能体「听会伙伴」亮相，实时同步+学者AI分身",
@@ -247,7 +266,8 @@
           "source_en": "China News / Toutiao",
           "url": "http://m.toutiao.com/group/7650063144601043482/",
           "date": "2026-06-12",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop",
+          "id": "news-2026-06-12-7"
         },
         {
           "title": "Coinbase让AI智能体进入交易市场：支持自主买卖和高级分析",
@@ -259,7 +279,8 @@
           "source_en": "3DNews / TechCrunch",
           "url": "https://3dnews.ru/",
           "date": "2026-06-12",
-          "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=250&fit=crop",
+          "id": "news-2026-06-12-8"
         },
         {
           "title": "SK海力士375层3D NAND完成验证：「以钼代钨」技术突破，年底量产",
@@ -271,7 +292,8 @@
           "source_en": "Toutiao Tech",
           "url": "http://m.toutiao.com/group/7650188317098656294/",
           "date": "2026-06-12",
-          "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=250&fit=crop",
+          "id": "news-2026-06-12-9"
         }
       ]
     },
@@ -287,7 +309,8 @@
         "source_en": "Bloomberg / PR Newswire",
         "url": "https://www.bloomberg.com/",
         "date": "2026-06-11",
-        "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=450&fit=crop"
+        "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=450&fit=crop",
+        "id": "hero-2026-06-11"
       },
       "articles": [
         {
@@ -300,7 +323,8 @@
           "source_en": "MIIT Official",
           "url": "http://m.toutiao.com/group/7649903094913876503/",
           "date": "2026-06-11",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
+          "id": "news-2026-06-11-0"
         },
         {
           "title": "工信部+国资委启动人形机器人与具身智能实训专项行动，目标年底万台落地",
@@ -312,7 +336,8 @@
           "source_en": "MIIT/SASAC",
           "url": "http://m.toutiao.com/group/7649903094913876503/",
           "date": "2026-06-11",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop",
+          "id": "news-2026-06-11-1"
         },
         {
           "title": "D-Matrix开始Corsair AI推理芯片量产，微软投资，挑战英伟达推理市场",
@@ -324,7 +349,8 @@
           "source_en": "ContentBuffer",
           "url": "https://contentbuffer.com/news",
           "date": "2026-06-11",
-          "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=400&h=250&fit=crop",
+          "id": "news-2026-06-11-2"
         },
         {
           "title": "Meta与Reliance签署印度首个AI数据中心协议，可再生能源+海水冷却",
@@ -336,7 +362,8 @@
           "source_en": "ContentBuffer",
           "url": "https://contentbuffer.com/news",
           "date": "2026-06-11",
-          "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop",
+          "id": "news-2026-06-11-3"
         },
         {
           "title": "SpaceX公开AI卫星「AI 1」设计方案：太空中的AI数据中心",
@@ -348,7 +375,8 @@
           "source_en": "Toutiao Tech",
           "url": "http://m.toutiao.com/group/7649903094913876503/",
           "date": "2026-06-11",
-          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop",
+          "id": "news-2026-06-11-4"
         },
         {
           "title": "InquiTree研究揭示：AI科学智能体随时间推移判断力退化",
@@ -360,7 +388,8 @@
           "source_en": "ContentBuffer / arXiv",
           "url": "https://contentbuffer.com/news",
           "date": "2026-06-11",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop",
+          "id": "news-2026-06-11-5"
         },
         {
           "title": "ADP与斯坦福发布AI就业影响实时追踪面板「Canaries」",
@@ -372,7 +401,8 @@
           "source_en": "Bloomberg",
           "url": "https://www.bloomberg.com/",
           "date": "2026-06-11",
-          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=250&fit=crop",
+          "id": "news-2026-06-11-6"
         },
         {
           "title": "谷歌AI Plus降价至4.99美元/月，AI订阅价格战正式打响",
@@ -384,7 +414,8 @@
           "source_en": "TechCrunch",
           "url": "https://techcrunch.com/",
           "date": "2026-06-11",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop",
+          "id": "news-2026-06-11-7"
         },
         {
           "title": "独立音乐人起诉谷歌：YouTube内容被用于训练Lyria音乐AI",
@@ -396,7 +427,8 @@
           "source_en": "The Verge",
           "url": "https://www.theverge.com/",
           "date": "2026-06-11",
-          "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=250&fit=crop",
+          "id": "news-2026-06-11-8"
         },
         {
           "title": "罗马尼亚公开AI无人机拦截器「Interjet」：时速500公里的自主防空系统",
@@ -408,7 +440,8 @@
           "source_en": "Toutiao Tech",
           "url": "http://m.toutiao.com/group/7649903094913876503/",
           "date": "2026-06-11",
-          "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=250&fit=crop",
+          "id": "news-2026-06-11-9"
         }
       ]
     },
@@ -424,7 +457,8 @@
         "source_en": "Anthropic Official",
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "date": "2026-06-10",
-        "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=450&fit=crop"
+        "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=450&fit=crop",
+        "id": "hero-2026-06-10"
       },
       "articles": [
         {
@@ -437,7 +471,8 @@
           "source_en": "Securities Times",
           "url": "http://m.toutiao.com/group/7649233755202126336/",
           "date": "2026-06-10",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
+          "id": "news-2026-06-10-0"
         },
         {
           "title": "阿里成立Token Foundry事业部，CEO吴泳铭直接负责",
@@ -449,7 +484,8 @@
           "source_en": "Jiemian News",
           "url": "https://m.sohu.com/a/1034036816_313745/",
           "date": "2026-06-10",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop",
+          "id": "news-2026-06-10-1"
         },
         {
           "title": "英伟达与SK海力士达成多年技术合作，联合开发下一代AI内存",
@@ -461,7 +497,8 @@
           "source_en": "Jiemian News",
           "url": "https://m.sohu.com/a/1034036816_313745/",
           "date": "2026-06-09",
-          "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=400&h=250&fit=crop",
+          "id": "news-2026-06-10-2"
         },
         {
           "title": "微信面向开发者开放AI生态接入能力，内测阶段",
@@ -473,7 +510,8 @@
           "source_en": "WeChat Open Class",
           "url": "https://m.sohu.com/a/1034036816_313745/",
           "date": "2026-06-09",
-          "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop",
+          "id": "news-2026-06-10-3"
         },
         {
           "title": "三星全面启动AI大转型，全业务全层级拥抱人工智能",
@@ -485,7 +523,8 @@
           "source_en": "Weibo",
           "url": "https://m.weibo.cn/detail/5307931092584607",
           "date": "2026-06-09",
-          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop",
+          "id": "news-2026-06-10-4"
         },
         {
           "title": "苹果AI落地中国再延期，Siri AI暂不提供",
@@ -497,7 +536,8 @@
           "source_en": "Toutiao",
           "url": "http://m.toutiao.com/group/7649438438361416198/",
           "date": "2026-06-10",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop",
+          "id": "news-2026-06-10-5"
         },
         {
           "title": "中国AI企业加速IPO：智谱冲刺科创板募资150亿，MiniMax启动上市辅导",
@@ -509,7 +549,8 @@
           "source_en": "Securities Daily",
           "url": "http://m.toutiao.com/group/7649436560311566882/",
           "date": "2026-06-10",
-          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=250&fit=crop",
+          "id": "news-2026-06-10-6"
         },
         {
           "title": "京东与腾讯就AI Agent达成深度合作",
@@ -521,7 +562,8 @@
           "source_en": "STAR Market Daily",
           "url": "https://m.sohu.com/a/1034036816_313745/",
           "date": "2026-06-09",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop",
+          "id": "news-2026-06-10-7"
         },
         {
           "title": "英伟达开始出货与台积电合作的CPO交换机，解决AI数据中心瓶颈",
@@ -533,7 +575,8 @@
           "source_en": "Focus Taiwan",
           "url": "https://www.digitimes.com/topic/ict/ai/",
           "date": "2026-06-10",
-          "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=250&fit=crop",
+          "id": "news-2026-06-10-8"
         },
         {
           "title": "StepFun（阶跃星辰）寻求120亿美元估值赴港IPO",
@@ -545,14 +588,15 @@
           "source_en": "DIGITIMES",
           "url": "https://www.digitimes.com/topic/ict/ai/",
           "date": "2026-06-10",
-          "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=250&fit=crop"
+          "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=250&fit=crop",
+          "id": "news-2026-06-10-9"
         }
       ]
     },
     {
       "date": "2026-06-09",
       "hero": {
-        "id": 0,
+        "id": "hero-2026-06-09",
         "title": "苹果WWDC 2026：Siri重生为AI超级应用，ChatGPT时代走向终结",
         "title_en": "Apple WWDC 2026: Siri Reborn as AI Superapp, ChatGPT Era Comes to an End",
         "summary": "苹果在WWDC 2026上发布史上最大Siri重构——基于Gemini模型的全新AI助手以独立App形式亮相，支持跨应用操作与屏幕感知。同时OpenAI高管直言「Chat is Dead」，ChatGPT正转型为AI智能体超级应用。两大消费AI巨头同步转向，标志着聊天机器人时代的终结与AI智能体时代的全面开启。",
@@ -564,7 +608,7 @@
       },
       "articles": [
         {
-          "id": 1,
+          "id": "news-2026-06-09-0",
           "title": "佛罗里达州起诉OpenAI：AI行业的「大烟草时刻」正式到来",
           "title_en": "Florida Sues OpenAI: AI's Big Tobacco Moment Has Arrived",
           "summary": "佛罗里达州成为首个起诉OpenAI的美国州，提交83页诉状指控ChatGPT是危险且令人上瘾的产品，对儿童进行欺骗性营销。州总检察长寻求追究CEO Sam Altman个人责任，罚款可能高达数十亿美元。同一周，加州法院将12起针对OpenAI的产品责任案合并审理。法院已拒绝AI公司的Section 230抗辩——AI输出不是「用户内容」，社交媒体二十年的法律保护伞不适用。",
@@ -577,7 +621,7 @@
           "date": "2026-06-09"
         },
         {
-          "id": 2,
+          "id": "news-2026-06-09-1",
           "title": "谷歌签约SpaceX：每月9.2亿美元租用xAI算力，创科技史上最大基础设施租赁",
           "title_en": "Google Signs $920M/Month Deal with SpaceX for xAI Compute, Largest Infrastructure Lease in Tech History",
           "summary": "谷歌与SpaceX签署32个月协议，每月支付9.2亿美元租用xAI约11万块Nvidia GPU，用于Gemini Enterprise的算力需求。Anthropic上月也与SpaceX签署类似协议。两笔交易均在SpaceX IPO前达成，后者目标估值超1.75万亿美元。谷歌同时将年度资本支出预测上调至1800-1900亿美元。",
@@ -590,7 +634,7 @@
           "date": "2026-06-09"
         },
         {
-          "id": 3,
+          "id": "news-2026-06-09-2",
           "title": "小米MiMo突破万亿参数千token/秒：速度即智能的新范式",
           "title_en": "Xiaomi MiMo Breaks 1,000 Tokens/Second on Trillion-Parameter Model: Speed Becomes Intelligence",
           "summary": "小米发布MiMo-V2.5-Pro-UltraSpeed，在单台8卡通用GPU节点上实现万亿参数MoE模型1000+ token/s解码速度。突破来自FP4量化+DFlash推测解码+TileRT模型系统协同设计。小米提出「速度即智能」论：在1000 tps下可在相同壁钟时间并行运行数十条推理路径，从「想更久」转向「同时想多次」。",
@@ -603,7 +647,7 @@
           "date": "2026-06-09"
         },
         {
-          "id": 4,
+          "id": "news-2026-06-09-3",
           "title": "OpenAI宣告「Chat已死」：ChatGPT转型AI智能体超级应用",
           "title_en": "OpenAI Declares Chat is Dead: ChatGPT Overhauls into AI Agent Superapp",
           "summary": "OpenAI正计划对ChatGPT进行自创办以来最重大改版，从对话助手转型为整合编码工具、AI智能体与第三方应用的综合平台。一名资深员工对金融时报直言「Chat is Dead」。转型由营收压力驱动——ChatGPT超10亿用户中大部分免费使用，OpenAI需在IPO前证明变现能力。企业用户已占营收40%，目标年底达50%。",
@@ -616,7 +660,7 @@
           "date": "2026-06-09"
         },
         {
-          "id": 5,
+          "id": "news-2026-06-09-4",
           "title": "欧盟再次推迟AI法案关键义务：高风险系统合规延至2027年底",
           "title_en": "EU Delays Key AI Act Obligations Again: High-Risk Compliance Pushed to Late 2027",
           "summary": "布鲁塞尔第二次推迟欧盟AI法案关键义务。高风险系统义务独立设备延至2027年12月，嵌入产品延至2028年8月，作为数字综合简化方案的一部分。原因包括：企业无法清晰分类高风险系统、成员国准备不足、欧洲担忧监管拖慢AI发展。操纵性AI禁令自2025年2月起已生效，风险金字塔结构保持不变。",
@@ -629,7 +673,7 @@
           "date": "2026-06-09"
         },
         {
-          "id": 6,
+          "id": "news-2026-06-09-5",
           "title": "英国Cosine联合BT、汇丰、BAE等打造首个主权前沿AI模型Lumen",
           "title_en": "UK's Cosine Builds Britain's First Sovereign Frontier AI Model with BT, HSBC, BAE",
           "summary": "英国初创公司Cosine组建包括BT、汇丰、劳埃德、BAE系统等在内的联盟，在布里斯托Isambard-AI超算上完全训练Lumen Sovereign模型，目标2026年底部署。其编码模型已连续两年在独立基准测试中超越OpenAI和Anthropic，还支持COBOL、Fortran、Ada等国防和金融系统传统语言。首相斯塔默在伦敦科技周宣布4亿英镑新AI芯片投入。",
@@ -642,7 +686,7 @@
           "date": "2026-06-09"
         },
         {
-          "id": 7,
+          "id": "news-2026-06-09-6",
           "title": "黄仁勋扩大英伟达韩国AI合作：现代、三星、SK加入主权AI阵营",
           "title_en": "Jensen Huang Expands NVIDIA's Korea AI Partnerships: Hyundai, Samsung, SK Join Sovereign AI Camp",
           "summary": "英伟达CEO黄仁勋在韩国AI峰会上宣布扩大合作伙伴关系，新增现代、三星、SK、Naver、Doosan。合作涵盖主权AI模型（EXAONE在Blackwell GPU上运行）、人形机器人（Isaac GR00T）、自动驾驶和GPU云服务。现代集团会长郑义宣与黄仁勋两度会面，讨论物理AI合作。英伟达和LG集团还宣布共建AI工厂。",
@@ -655,7 +699,7 @@
           "date": "2026-06-09"
         },
         {
-          "id": 8,
+          "id": "news-2026-06-09-7",
           "title": "月之暗面(Moonshot AI)寻求300亿美元估值：六个月内第三轮融资",
           "title_en": "Moonshot AI Seeks $30 Billion Valuation in Third Funding Round Within Six Months",
           "summary": "中国AI初创公司月之暗面(Moonshot AI)启动新一轮融资，计划筹集至多20亿美元，投后估值预计达300亿美元。这是该公司六个月内第三轮融资，估值从2025年12月的40亿美元飙升至当前目标。月之暗面4月年化收入突破2亿美元，正重组离岸架构以筹备港股上市。旗下Kimi智能体产品Kimi Work已上线。",
@@ -668,7 +712,7 @@
           "date": "2026-06-09"
         },
         {
-          "id": 9,
+          "id": "news-2026-06-09-8",
           "title": "GitHub Copilot桌面应用发布：AI编码从助手升级为自主智能体",
           "title_en": "GitHub Copilot Desktop App Launches: AI Coding Upgrades from Assistant to Autonomous Agent",
           "summary": "GitHub发布Copilot桌面应用技术预览版，作为AI智能体驱动开发的专属工作空间。支持并行工作流、GitHub集成和PR生命周期管理，适用于macOS、Windows和Linux。这标志着AI编码从编辑器内的辅助工具，升级为管理自身工作流的独立智能体，开发者角色从写代码转向监督智能体写代码。",
@@ -681,7 +725,7 @@
           "date": "2026-06-09"
         },
         {
-          "id": 10,
+          "id": "news-2026-06-09-9",
           "title": "AMD砸20亿英镑押注英国AI：苏姿丰在伦敦科技周宣布五年投资计划",
           "title_en": "AMD Invests £2 Billion in UK AI: Lisa Su Announces Five-Year Plan at London Tech Week",
           "summary": "AMD CEO苏姿丰在伦敦科技周宣布，计划未来五年在英国增加最高20亿英镑投资，用于扩大AI研发、深化与剑桥大学和帝国理工的合作、推进新工厂建设和现有设施升级。此举正值英国积极推动主权AI发展之际，Cosine等本土公司正崛起。AMD选择在英国加码，既是看准欧洲AI市场机遇，也是对英国AI人才池的认可。",

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻详情 | AI News Daily</title>
+    <meta name="description" content="AI News Daily - 每日AI新闻详情">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="AI News Daily">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">🏠 AI News Daily</a>
+            <div class="nav-links">
+                <a href="index.html" id="nav-home">首页</a>
+                <a href="about.html" id="nav-about">关于</a>
+                <a href="contact.html" id="nav-contact">联系</a>
+            </div>
+        </div>
+    </nav>
+
+    <article class="article-container" id="news-detail">
+        <!-- 动态渲染 -->
+    </article>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p>&copy; 2026 AI News Daily. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></p>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script>
+    (function() {
+        'use strict';
+
+        // Get news ID from URL
+        const params = new URLSearchParams(window.location.search);
+        const newsId = params.get('id');
+
+        if (!newsId) {
+            document.getElementById('news-detail').innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:80px 0;">未找到新闻</p>';
+            return;
+        }
+
+        // Fetch news data
+        fetch('data/news.json')
+            .then(r => r.json())
+            .then(data => {
+                let item = null;
+                let isHero = false;
+
+                // Search in hero
+                for (const day of data.days) {
+                    if (day.hero && day.hero.id === newsId) {
+                        item = day.hero;
+                        isHero = true;
+                        break;
+                    }
+                }
+
+                // Search in articles
+                if (!item) {
+                    for (const day of data.days) {
+                        item = day.articles.find(a => a.id === newsId);
+                        if (item) break;
+                    }
+                }
+
+                if (!item) {
+                    document.getElementById('news-detail').innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:80px 0;">未找到新闻</p>';
+                    return;
+                }
+
+                const lang = I18n.getLang();
+                const isZh = lang === 'zh';
+
+                const title = isZh ? item.title : (item.title_en || item.title);
+                const summary = isZh ? item.summary : (item.summary_en || item.summary);
+                const source = isZh ? item.source : (item.source_en || item.source);
+                const categoryMap = {
+                    '大模型': isZh ? '大模型' : 'LLM',
+                    '芯片算力': isZh ? '芯片算力' : 'Chips & Computing',
+                    'AI应用': isZh ? 'AI应用' : 'AI Applications',
+                    '开源动态': isZh ? '开源动态' : 'Open Source',
+                    '投融资': isZh ? '投融资' : 'Investment',
+                    '政策监管': isZh ? '政策监管' : 'Policy & Regulation',
+                    'AI商业': isZh ? 'AI商业' : 'AI Business',
+                    '社会影响': isZh ? '社会影响' : 'Social Impact'
+                };
+                const categoryName = categoryMap[item.category] || item.category;
+                const dateObj = new Date(item.date);
+                const dateStr = isZh
+                    ? dateObj.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' })
+                    : dateObj.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+                // Category color
+                const catColors = {
+                    '大模型': 'var(--cat-大模型)',
+                    '芯片算力': 'var(--cat-芯片算力)',
+                    'AI应用': 'var(--cat-AI应用)',
+                    '开源动态': 'var(--cat-开源动态)',
+                    '投融资': 'var(--cat-投融资)',
+                    '政策监管': 'var(--cat-政策监管)',
+                    'AI商业': 'var(--cat-投融资)',
+                    '社会影响': 'var(--cat-政策监管)'
+                };
+                const catColor = catColors[item.category] || 'var(--accent-primary)';
+
+                // Update page title and meta
+                document.title = title + ' | AI News Daily';
+                const metaDesc = document.querySelector('meta[name="description"]');
+                if (metaDesc) metaDesc.content = summary;
+                const ogTitle = document.querySelector('meta[property="og:title"]');
+                if (ogTitle) ogTitle.content = title;
+                const ogDesc = document.querySelector('meta[property="og:description"]');
+                if (ogDesc) ogDesc.content = summary;
+                const ogImg = document.querySelector('meta[property="og:image"]');
+                if (ogImg && item.image) ogImg.content = item.image;
+                const twTitle = document.querySelector('meta[name="twitter:title"]');
+                if (twTitle) twTitle.content = title;
+                const twDesc = document.querySelector('meta[name="twitter:description"]');
+                if (twDesc) twDesc.content = summary;
+
+                // Related news (same day, same category, exclude current)
+                let related = [];
+                for (const day of data.days) {
+                    const sameCat = day.articles.filter(a => a.id !== newsId && a.category === item.category);
+                    related = related.concat(sameCat);
+                }
+                related = related.slice(0, 4);
+
+                // Build HTML
+                const readOriginal = isZh ? '阅读原文' : 'Read Original';
+                const sourceLabel = isZh ? '来源' : 'Source';
+                const relatedTitle = isZh ? '相关新闻' : 'Related News';
+                const backHome = isZh ? '← 返回首页' : '← Back to Home';
+
+                let html = `
+                    <header class="article-header">
+                        <span class="article-category" style="background: ${catColor};">${categoryName}</span>
+                        <h1>${title}</h1>
+                        <div class="article-meta">
+                            <span>📅 ${dateStr}</span>
+                            <span>📰 ${sourceLabel}: ${source}</span>
+                        </div>
+                        ${item.image ? `<div style="margin-top:24px;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border-color);"><img src="${item.image}" alt="${title}" style="width:100%;display:block;"></div>` : ''}
+                    </header>
+
+                    <section class="article-section">
+                        <p style="font-size:1.15rem;line-height:2;color:var(--text-primary);">${summary}</p>
+                    </section>
+
+                    <section class="article-section" style="background:var(--bg-card);border-radius:var(--radius-md);padding:24px 28px;margin:32px 0;">
+                        <p style="font-size:0.95rem;color:var(--text-secondary);margin-bottom:12px;">
+                            📰 ${sourceLabel}: <strong style="color:var(--text-primary);">${source}</strong>
+                        </p>
+                        ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:var(--accent-gradient);color:white;border-radius:var(--radius-xl);font-weight:600;font-size:0.95rem;text-decoration:none;transition:var(--transition-fast);">${readOriginal} ↗</a>` : ''}
+                    </section>
+
+                    <div style="margin-top:20px;">
+                        <a href="index.html" style="color:var(--accent-primary);font-size:0.95rem;text-decoration:none;transition:var(--transition-fast);">${backHome}</a>
+                    </div>
+                `;
+
+                // Related news
+                if (related.length > 0) {
+                    html += `
+                        <section class="article-section" style="margin-top:48px;padding-top:32px;border-top:1px solid var(--border-color);">
+                            <h2 style="border-left:4px solid var(--accent-secondary);padding-left:16px;font-size:1.3rem;margin-bottom:20px;">${relatedTitle}</h2>
+                    `;
+                    related.forEach(r => {
+                        const rTitle = isZh ? r.title : (r.title_en || r.title);
+                        const rSource = isZh ? r.source : (r.source_en || r.source);
+                        html += `
+                            <a href="news.html?id=${r.id}" style="display:block;padding:16px 20px;background:var(--bg-card);border-radius:var(--radius-md);margin-bottom:12px;border:1px solid var(--border-color);text-decoration:none;transition:var(--transition-fast);">
+                                <div style="font-size:1rem;font-weight:600;color:var(--text-primary);margin-bottom:6px;">${rTitle}</div>
+                                <div style="font-size:0.8rem;color:var(--text-muted);">${rSource} · ${r.date}</div>
+                            </a>
+                        `;
+                    });
+                    html += `</section>`;
+                }
+
+                document.getElementById('news-detail').innerHTML = html;
+
+                // Update nav links for language
+                document.getElementById('nav-home').textContent = isZh ? '首页' : 'Home';
+                document.getElementById('nav-about').textContent = isZh ? '关于' : 'About';
+                document.getElementById('nav-contact').textContent = isZh ? '联系' : 'Contact';
+                document.documentElement.lang = isZh ? 'zh-CN' : 'en';
+            })
+            .catch(err => {
+                console.error('Failed to load news:', err);
+                document.getElementById('news-detail').innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:80px 0;">加载失败，请稍后重试</p>';
+            });
+    })();
+    </script>
+</body>
+</html>
