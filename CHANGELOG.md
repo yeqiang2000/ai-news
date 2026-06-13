@@ -206,3 +206,10 @@
 - `articles/article-11.html`：提前写好，待6月12日发布（AI算力军备竞赛深度解读）
 
 ---
+
+## 2026-06-13
+- 更新6月13日新闻（10条+头条：SpaceX IPO首日收涨19%，马斯克成万亿富翁）
+- 发布article-12《AI商业革命：从聊天到购物——当AI智能体走进消费市场》
+- 部署平台从Netlify迁移到Cloudflare Pages（Netlify额度耗尽）
+- 域名ainewsdaily.asia NS服务器从阿里云切换到Cloudflare
+- 修复所有新闻图片加载失败问题（补充缺失image字段，替换失效picsum.photos）
