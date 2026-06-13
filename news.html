@@ -9,6 +9,165 @@
     <meta property="og:site_name" content="AI News Daily">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .news-key-points {
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            padding: 24px 28px;
+            margin: 28px 0;
+            border-left: 4px solid var(--accent-primary);
+        }
+        .news-key-points h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent-primary);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .news-key-points ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .news-key-points li {
+            position: relative;
+            padding: 8px 0 8px 22px;
+            font-size: 0.98rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+        .news-key-points li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--accent-primary);
+            font-weight: 700;
+        }
+        .news-body p {
+            font-size: 1.05rem;
+            line-height: 2;
+            color: var(--text-secondary);
+            margin-bottom: 18px;
+        }
+        .news-body p strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+        .news-source-card {
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            padding: 24px 28px;
+            margin: 36px 0;
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .news-source-info {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .news-source-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .news-source-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .read-original-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 28px;
+            background: var(--accent-gradient);
+            color: white;
+            border-radius: var(--radius-xl);
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: var(--transition-fast);
+            white-space: nowrap;
+        }
+        .read-original-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-glow);
+        }
+        .related-section {
+            margin-top: 56px;
+            padding-top: 36px;
+            border-top: 1px solid var(--border-color);
+        }
+        .related-section h2 {
+            border-left: 4px solid var(--accent-secondary);
+            padding-left: 16px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+        .related-item {
+            display: block;
+            padding: 18px 20px;
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            margin-bottom: 12px;
+            border: 1px solid var(--border-color);
+            text-decoration: none;
+            transition: var(--transition-fast);
+        }
+        .related-item:hover {
+            border-color: var(--accent-primary);
+            transform: translateX(4px);
+            background: var(--bg-card-hover);
+        }
+        .related-item-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+        .related-item-meta {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--accent-primary);
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: var(--transition-fast);
+            margin-top: 24px;
+        }
+        .back-link:hover {
+            color: var(--accent-secondary);
+            transform: translateX(-4px);
+        }
+        @media (max-width: 768px) {
+            .news-source-card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .news-key-points {
+                padding: 20px;
+            }
+            .news-body p {
+                font-size: 0.98rem;
+                line-height: 1.85;
+            }
+        }
+    </style>
 </head>
 <body>
     <nav class="main-nav">
@@ -38,7 +197,6 @@
     (function() {
         'use strict';
 
-        // Get news ID from URL
         const params = new URLSearchParams(window.location.search);
         const newsId = params.get('id');
 
@@ -47,23 +205,17 @@
             return;
         }
 
-        // Fetch news data
         fetch('data/news.json')
             .then(r => r.json())
             .then(data => {
                 let item = null;
-                let isHero = false;
 
-                // Search in hero
                 for (const day of data.days) {
                     if (day.hero && day.hero.id === newsId) {
                         item = day.hero;
-                        isHero = true;
                         break;
                     }
                 }
-
-                // Search in articles
                 if (!item) {
                     for (const day of data.days) {
                         item = day.articles.find(a => a.id === newsId);
@@ -98,20 +250,20 @@
                     ? dateObj.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' })
                     : dateObj.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
-                // Category color
                 const catColors = {
-                    '大模型': 'var(--cat-大模型)',
-                    '芯片算力': 'var(--cat-芯片算力)',
-                    'AI应用': 'var(--cat-AI应用)',
-                    '开源动态': 'var(--cat-开源动态)',
-                    '投融资': 'var(--cat-投融资)',
-                    '政策监管': 'var(--cat-政策监管)',
-                    'AI商业': 'var(--cat-投融资)',
-                    '社会影响': 'var(--cat-政策监管)'
+                    '大模型': 'var(--cat-大模型)', '芯片算力': 'var(--cat-芯片算力)',
+                    'AI应用': 'var(--cat-AI应用)', '开源动态': 'var(--cat-开源动态)',
+                    '投融资': 'var(--cat-投融资)', '政策监管': 'var(--cat-政策监管)',
+                    'AI商业': 'var(--cat-投融资)', '社会影响': 'var(--cat-政策监管)'
                 };
                 const catColor = catColors[item.category] || 'var(--accent-primary)';
 
-                // Update page title and meta
+                // Content
+                const content = isZh ? (item.content || item.summary) : (item.content_en || item.content || item.summary_en || item.summary);
+                // Key points
+                const keyPoints = isZh ? (item.key_points || []) : (item.key_points_en || item.key_points || []);
+
+                // Update meta
                 document.title = title + ' | AI News Daily';
                 const metaDesc = document.querySelector('meta[name="description"]');
                 if (metaDesc) metaDesc.content = summary;
@@ -126,19 +278,24 @@
                 const twDesc = document.querySelector('meta[name="twitter:description"]');
                 if (twDesc) twDesc.content = summary;
 
-                // Related news (same day, same category, exclude current)
+                // Related news
                 let related = [];
                 for (const day of data.days) {
-                    const sameCat = day.articles.filter(a => a.id !== newsId && a.category === item.category);
-                    related = related.concat(sameCat);
+                    const sameCat = day.articles.filter(a => a.id !== newsId);
+                    // prioritize same category, then same day
+                    const sameCatItems = sameCat.filter(a => a.category === item.category);
+                    const otherItems = sameCat.filter(a => a.category !== item.category);
+                    related = related.concat(sameCatItems.slice(0, 2)).concat(otherItems.slice(0, 2));
                 }
-                related = related.slice(0, 4);
+                // deduplicate and limit
+                const seen = new Set();
+                related = related.filter(r => { if (seen.has(r.id)) return false; seen.add(r.id); return true; }).slice(0, 4);
 
-                // Build HTML
-                const readOriginal = isZh ? '阅读原文' : 'Read Original';
                 const sourceLabel = isZh ? '来源' : 'Source';
+                const readOriginal = isZh ? '阅读原文 ↗' : 'Read Original ↗';
                 const relatedTitle = isZh ? '相关新闻' : 'Related News';
                 const backHome = isZh ? '← 返回首页' : '← Back to Home';
+                const keyPointsTitle = isZh ? '🔑 关键要点' : '🔑 Key Points';
 
                 let html = `
                     <header class="article-header">
@@ -148,38 +305,61 @@
                             <span>📅 ${dateStr}</span>
                             <span>📰 ${sourceLabel}: ${source}</span>
                         </div>
+                        <p class="article-subtitle">${summary}</p>
                         ${item.image ? `<div style="margin-top:24px;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border-color);"><img src="${item.image}" alt="${title}" style="width:100%;display:block;"></div>` : ''}
                     </header>
+                `;
 
-                    <section class="article-section">
-                        <p style="font-size:1.15rem;line-height:2;color:var(--text-primary);">${summary}</p>
-                    </section>
+                // Key Points
+                if (keyPoints.length > 0) {
+                    html += `
+                        <div class="news-key-points">
+                            <h3>${keyPointsTitle}</h3>
+                            <ul>
+                                ${keyPoints.map(p => `<li>${p}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `;
+                }
 
-                    <section class="article-section" style="background:var(--bg-card);border-radius:var(--radius-md);padding:24px 28px;margin:32px 0;">
-                        <p style="font-size:0.95rem;color:var(--text-secondary);margin-bottom:12px;">
-                            📰 ${sourceLabel}: <strong style="color:var(--text-primary);">${source}</strong>
-                        </p>
-                        ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:var(--accent-gradient);color:white;border-radius:var(--radius-xl);font-weight:600;font-size:0.95rem;text-decoration:none;transition:var(--transition-fast);">${readOriginal} ↗</a>` : ''}
-                    </section>
+                // Content body
+                if (content && content !== summary) {
+                    const paragraphs = content.split('\n\n').filter(p => p.trim());
+                    html += `
+                        <div class="news-body">
+                            ${paragraphs.map(p => `<p>${p}</p>`).join('')}
+                        </div>
+                    `;
+                }
 
-                    <div style="margin-top:20px;">
-                        <a href="index.html" style="color:var(--accent-primary);font-size:0.95rem;text-decoration:none;transition:var(--transition-fast);">${backHome}</a>
+                // Source card
+                html += `
+                    <div class="news-source-card">
+                        <div class="news-source-info">
+                            <span class="news-source-label">${sourceLabel}</span>
+                            <span class="news-source-name">${source}</span>
+                        </div>
+                        ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer" class="read-original-btn">${readOriginal}</a>` : ''}
                     </div>
                 `;
+
+                // Back link
+                html += `<a href="index.html" class="back-link">${backHome}</a>`;
 
                 // Related news
                 if (related.length > 0) {
                     html += `
-                        <section class="article-section" style="margin-top:48px;padding-top:32px;border-top:1px solid var(--border-color);">
-                            <h2 style="border-left:4px solid var(--accent-secondary);padding-left:16px;font-size:1.3rem;margin-bottom:20px;">${relatedTitle}</h2>
+                        <section class="related-section">
+                            <h2>${relatedTitle}</h2>
                     `;
                     related.forEach(r => {
                         const rTitle = isZh ? r.title : (r.title_en || r.title);
                         const rSource = isZh ? r.source : (r.source_en || r.source);
+                        const rCat = categoryMap[r.category] || r.category;
                         html += `
-                            <a href="news.html?id=${r.id}" style="display:block;padding:16px 20px;background:var(--bg-card);border-radius:var(--radius-md);margin-bottom:12px;border:1px solid var(--border-color);text-decoration:none;transition:var(--transition-fast);">
-                                <div style="font-size:1rem;font-weight:600;color:var(--text-primary);margin-bottom:6px;">${rTitle}</div>
-                                <div style="font-size:0.8rem;color:var(--text-muted);">${rSource} · ${r.date}</div>
+                            <a href="news.html?id=${r.id}" class="related-item">
+                                <div class="related-item-title">${rTitle}</div>
+                                <div class="related-item-meta">${rSource} · ${rCat} · ${r.date}</div>
                             </a>
                         `;
                     });
@@ -188,7 +368,6 @@
 
                 document.getElementById('news-detail').innerHTML = html;
 
-                // Update nav links for language
                 document.getElementById('nav-home').textContent = isZh ? '首页' : 'Home';
                 document.getElementById('nav-about').textContent = isZh ? '关于' : 'About';
                 document.getElementById('nav-contact').textContent = isZh ? '联系' : 'Contact';
