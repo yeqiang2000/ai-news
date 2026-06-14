@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-06-14 — 6月14日每日更新
+
+### 新增
+- 6月14日新闻10条 + 头条（美国政府强制关停Anthropic Fable 5与Mythos 5）
+- 深度文章 `article-13.html`：《SpaceX上市与AI基础设施帝国——火箭公司的AI估值逻辑》正式上线
+- 新闻包括：DiffusionGemma并行文本生成、OpenAI IPO时间表、中国短视频AI标注新规、通用世界基座模型、1300亿美元数据中心项目被阻、DeepMind多智能体风险警告、OpenAI多州调查、Gemini Deep Research、特斯拉Optimus V3量产、Anthropic 210亿美元TPU订单
+
+### 修改
+- `data/news.json`：新增6月14日数据，移除6月9日（保留5天）
+- `data/articles.json`：article-13日期更新为2026-06-14（正式发布）
+- `index.html`：侧边栏推荐区更新（article-13 🔥、article-12 📖、article-11 📖）
+- `js/i18n.js`：深度文章标题更新为 article-13、article-12、article-11
+
+### 待完成
+- article-14 撰写中（6月15日发布）
+- article-13 微信图文版 + 头条版生成中
+
+---
+
 ## 2026-06-12 — 6月12日每日更新
 
 ### 新增
@@ -213,3 +232,13 @@
 - 部署平台从Netlify迁移到Cloudflare Pages（Netlify额度耗尽）
 - 域名ainewsdaily.asia NS服务器从阿里云切换到Cloudflare
 - 修复所有新闻图片加载失败问题（补充缺失image字段，替换失效picsum.photos）
+
+### 2026-06-13
+- 🔧 部署平台从 Netlify 迁移到 Cloudflare Pages（Netlify额度耗尽）
+- 🌐 域名 ainewsdaily.asia DNS 从阿里云切换到 Cloudflare NS（ines.ns.cloudflare.com / luke.ns.cloudflare.com）
+- 🔒 SSL 证书签发中（预计15-30分钟生效）
+- 🖼️ 修复所有新闻图片加载失败问题（picsum.photos失效，替换为unsplash）
+- 📰 更新6月13日新闻（10条+头条：SpaceX IPO首日收涨19%）
+- 📝 发布 article-12《AI商业革命：从聊天到购物——当AI智能体走进消费市场》
+- 📝 撰写 article-13《SpaceX上市与AI基础设施帝国》（6月14日发布）
+- 📱 生成 article-12 微信图文版 & 头条版
