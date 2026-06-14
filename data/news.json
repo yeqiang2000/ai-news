@@ -1,6 +1,320 @@
 {
-  "last_updated": "2026-06-13T09:00:00+08:00",
+  "last_updated": "2026-06-14T09:00:00+08:00",
   "days": [
+    {
+      "date": "2026-06-14",
+      "hero": {
+        "title": "美国政府强制关停Anthropic Claude Fable 5与Mythos 5，AI模型首次被列为受控技术",
+        "title_en": "US Government Forces Anthropic to Shut Down Claude Fable 5 and Mythos 5, AI Models Treated as Controlled Technology for the First Time",
+        "summary": "美国商务部以国家安全为由，向Anthropic发出出口管制指令，禁止外国公民使用Fable 5和Mythos 5。因无法按国籍实时区分用户，Anthropic被迫全球关停这两款仅发布3天的旗舰模型。亚马逊此前向政府演示了绕过Fable 5安全控制的技术。这是美国政府首次使用出口管制权力强制关停商业AI模型，开创了将AI模型视为「受控技术」的先例。",
+        "summary_en": "The US Commerce Department issued an export control directive to Anthropic on national security grounds, barring foreign nationals from accessing Fable 5 and Mythos 5. Unable to segregate users by nationality, Anthropic was forced to shut down both flagship models worldwide just three days after launch. Amazon demonstrated bypass of Fable 5 safety controls. First US export control shutdown of a commercial AI model.",
+        "category": "政策监管",
+        "source": "Reuters / Axios",
+        "source_en": "Reuters / Axios",
+        "url": "https://www.techtimes.com/articles/318342/20260613/us-government-pulls-anthropics-fable-5-offline-now-come-refunds-vanished-ai.htm",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=450&fit=crop",
+        "date": "2026-06-14",
+        "id": "hero-2026-06-14",
+        "content": "6月12日，美国商务部向Anthropic发出紧急出口管制指令，以国家安全为由禁止任何外国公民使用Claude Fable 5和Mythos 5两款模型。由于指令按国籍而非所在地执行，Anthropic无法在系统中实时区分用户国籍，被迫于当日全面关停这两款仅发布3天的旗舰模型。\n\n这一指令的直接导火索是亚马逊向美国政府演示了一种绕过Fable 5安全控制的技术。亚马逊是Anthropic的最大投资者之一，其向政府展示了该模型在特定代码库审查场景中可发现已知软件漏洞的能力。Anthropic对此强烈反驳，称该技术是「窄范围、非通用的」，发现的安全漏洞均为已知的次要漏洞，且GPT-5.5等竞品在无需越狱的情况下也能展现类似行为。\n\n事件的深层影响远超Anthropic一家公司。这是美国政府首次将出口管制权力用于强制关停商业AI模型，开创了将AI模型视为类似先进芯片和武器组件的「受控技术」的先例。Axios指出，这实质上形成了一套事实上的「模型许可制度」。\n\n限制还波及了美国盟友。欧盟在经过数周谈判后刚于6月初获得Claude Mythos模型的使用权，现在面临再次失去访问权的困境。欧盟委员会发言人表示正在评估影响，并强调这一事件再次凸显欧洲实现「技术主权」的必要性。\n\nAnthropic的Pre-IPO市场也受到冲击。Prestocks ANTHROPIC代币24小时下跌9.11%，Hyperliquid合成永续合约下跌3%。",
+        "content_en": "On June 12, the US Commerce Department issued an emergency export control directive to Anthropic, barring any foreign national from using Claude Fable 5 and Mythos 5. Unable to segregate users by nationality, Anthropic shut down both models worldwide just three days after launch.\n\nAmazon demonstrated a technique for bypassing Fable 5 safety controls to US officials. Anthropic pushed back, calling the technique narrow and non-universal, noting similar behavior appears in GPT-5.5 without jailbreaks.\n\nThis is the first US export control shutdown of a commercial AI model, establishing a precedent for treating AI models as controlled technology. Axios noted this creates a de facto model licensing regime.\n\nThe restrictions affected US allies. The EU had just secured access to Claude Mythos. An EU Commission spokesperson said the incident underscores the necessity of European technological sovereignty.\n\nPre-IPO markets took a hit. Prestocks ANTHROPIC token dropped 9.11%, Hyperliquid synthetic perpetuals fell 3%.",
+        "key_points": [
+          "美国首次以出口管制关停商业AI模型",
+          "亚马逊向政府演示绕过Fable 5安全控制的技术",
+          "Anthropic反驳称技术窄范围且GPT-5.5也存在类似问题",
+          "欧盟等盟友同样受影响，技术主权讨论升温",
+          "Pre-IPO市场受冲击，代币24小时跌9%"
+        ],
+        "key_points_en": [
+          "First US export control shutdown of commercial AI model",
+          "Amazon demonstrated bypass of Fable 5 safety controls",
+          "Anthropic disputes, noting similar issues in GPT-5.5",
+          "EU and allies affected, tech sovereignty debate intensifies",
+          "Pre-IPO markets hit, token down 9% in 24 hours"
+        ]
+      },
+      "articles": [
+        {
+          "title": "Google DeepMind发布DiffusionGemma：文本生成从逐词走向并行",
+          "title_en": "Google DeepMind Releases DiffusionGemma: Parallel Text Generation",
+          "summary": "DeepMind发布实验性开源模型DiffusionGemma，采用扩散模型架构实现整块文本并行生成。基于Gemma 4构建，26B参数MoE架构，每步激活3.8B参数，面向低延迟单用户场景。",
+          "summary_en": "DeepMind released DiffusionGemma, generating text blocks in parallel using diffusion architecture. Built on Gemma 4, 26B MoE model, 3.8B active per step.",
+          "category": "大模型",
+          "source": "ContentBuffer",
+          "source_en": "ContentBuffer",
+          "url": "https://contentbuffer.com/news",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+          "date": "2026-06-14",
+          "id": "news-2026-06-14-1",
+          "content": "Google DeepMind发布了DiffusionGemma实验性开源模型，将扩散模型架构引入文本生成领域，打破了自回归模型逐token生成的传统范式。该模型可以一次性生成整块文本，有望大幅降低生成延迟。\n\nDiffusionGemma基于Gemma 4构建，采用26B参数MoE架构，每步推理仅激活3.8B参数。与传统的Transformer自回归生成不同，扩散模型通过逐步去噪的方式生成文本，天然支持并行计算。\n\n如果扩散文本生成能在保持质量的同时实现真正并行化，当前大模型推理的延迟瓶颈将被根本性突破。不过该模型目前仍处于实验阶段。",
+          "content_en": "DeepMind released DiffusionGemma, bringing diffusion architecture to text generation and breaking the autoregressive token-by-token paradigm. The model generates entire text blocks at once, potentially reducing latency dramatically.\n\nBuilt on Gemma 4 with 26B MoE architecture activating 3.8B per step. Unlike autoregressive generation, diffusion models generate text through iterative denoising, naturally supporting parallel computation.\n\nIf diffusion text generation can maintain quality with true parallelization, the current LLM latency bottleneck could be fundamentally overcome. The model remains experimental.",
+          "key_points": [
+            "DiffusionGemma采用扩散模型架构实现并行文本生成",
+            "基于Gemma 4，26B参数MoE架构",
+            "面向低延迟单用户场景设计",
+            "可能重新定义大模型生成范式"
+          ],
+          "key_points_en": [
+            "Diffusion architecture for parallel text generation",
+            "Built on Gemma 4, 26B MoE model",
+            "Designed for low-latency single-user workloads",
+            "Could redefine LLM generation paradigm"
+          ]
+        },
+        {
+          "title": "OpenAI CEO称一年内完成IPO，GPT-5.6有「实质性提升」或于本月发布",
+          "title_en": "OpenAI CEO Says IPO Within One Year, GPT-5.6 Coming Soon",
+          "summary": "据The Information披露，OpenAI CEO奥特曼在内部邮件中表示公司将在「一年内」完成IPO。GPT-5.6相比GPT-5.5有「实质性提升」，或于本月发布。开发者发现代号iris-alpha的内部模型，上下文窗口约150万token。",
+          "summary_en": "OpenAI CEO Altman told employees IPO within one year. GPT-5.6 has substantial improvements, may launch this month. iris-alpha internal model found with 1.5M token context.",
+          "category": "投融资",
+          "source": "The Information",
+          "source_en": "The Information",
+          "url": "https://theinformation.com",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
+          "date": "2026-06-14",
+          "id": "news-2026-06-14-2",
+          "content": "据The Information报道，OpenAI CEO萨姆·奥特曼在致员工内部邮件中表示，公司将在「一年内」完成IPO。这是OpenAI领导层迄今关于IPO时间表最明确的承诺。\n\n首席科学家Jakub Pachocki告知团队，GPT-5.6相比GPT-5.5有「实质性提升」，可能本月发布。开发者已在Codex后端日志中发现代号iris-alpha的内部模型，上下文窗口约150万token。\n\nOpenAI的IPO计划与Anthropic形成竞争态势。Anthropic此前IPO估值9650亿至9690亿美元，但Fable 5关停事件给其估值蒙上阴影。",
+          "content_en": "OpenAI CEO Sam Altman stated the company will complete its IPO within a year, the most explicit commitment to date.\n\nChief scientist Pachocki said GPT-5.6 has substantial improvements and may launch this month. Developers found iris-alpha internal model with 1.5M token context.\n\nOpenAI's IPO creates competitive dynamics with Anthropic, whose valuation has been clouded by the Fable 5 shutdown.",
+          "key_points": [
+            "奥特曼明确表示一年内完成IPO",
+            "GPT-5.6有实质性提升，或本月发布",
+            "iris-alpha内部模型150万token上下文",
+            "与Anthropic IPO竞争态势升温"
+          ],
+          "key_points_en": [
+            "Altman states IPO within one year",
+            "GPT-5.6 substantial improvements, may launch this month",
+            "iris-alpha with 1.5M token context found",
+            "Anthropic IPO competition heating up"
+          ]
+        },
+        {
+          "title": "中国短视频AI内容强制标注新规正式落地，3秒内须标「AI生成」",
+          "title_en": "China Mandatory AI Content Labeling Rule Takes Effect",
+          "summary": "6月14日零点，短视频AI内容强制标注新规正式全网落地。所有AI创作的短视频须在开头3秒内标注「AI生成」，未标注将被下架，三次违规限流封禁。",
+          "summary_en": "China mandatory AI labeling for short videos took effect June 14. All AI-generated content must display AI Generated label within 3 seconds. Non-compliant content removed; 3 violations lead to suspension.",
+          "category": "政策监管",
+          "source": "中央网信办",
+          "source_en": "Cyberspace Administration of China",
+          "url": "https://www.cac.gov.cn",
+          "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&h=450&fit=crop",
+          "date": "2026-06-14",
+          "id": "news-2026-06-14-3",
+          "content": "6月14日零点，中央网信办出台的短视频AI内容强制标注新规正式全网落地。这是全球首个针对短视频AI内容的强制性标注法规。\n\n新规要求所有AI生成短视频须在开头3秒内标注「AI生成」标识。未标注将被直接下架，账号三次违规将被限流并暂停发布权限。各大平台已连夜完成系统升级适配。",
+          "content_en": "China mandatory AI content labeling for short videos took effect at midnight June 14, the first such regulation globally. All AI-generated content must display AI Generated label within 3 seconds. Non-compliant content removed; 3 violations lead to suspension. Major platforms completed system upgrades.",
+          "key_points": [
+            "全球首个短视频AI内容强制标注法规",
+            "3秒内须标「AI生成」",
+            "未标注下架，三次违规限流封禁",
+            "各大平台已完成系统升级"
+          ],
+          "key_points_en": [
+            "World first mandatory AI labeling for short videos",
+            "Must display AI Generated within 3 seconds",
+            "Non-compliant content removed; 3 violations lead to suspension",
+            "Major platforms completed system upgrades"
+          ]
+        },
+        {
+          "title": "北京智源大会发布全球首个通用世界基座模型",
+          "title_en": "Beijing Zhiyuan Conference Releases First General World Base Model",
+          "summary": "2026北京智源大会发布全球首个通用世界基座模型，突破AI语言理解局限，可识别物理常识，赋能自动驾驶和机器人。同时发布Brainμ 1.0脑信号模型和1万亿Token神经科学数据集。",
+          "summary_en": "Zhiyuan Conference released worlds first general world base model, achieving physical world cognition. Also released Brainmu 1.0 brain signal model and 1T token neuroscience dataset.",
+          "category": "大模型",
+          "source": "央广网",
+          "source_en": "CNR",
+          "url": "http://m.toutiao.com/group/7650881535181898246/",
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop",
+          "date": "2026-06-14",
+          "id": "news-2026-06-14-4",
+          "content": "2026北京智源大会正式发布全球首个通用世界基座模型。智源研究院院长王仲远拆解了从「预测下一个Token」到「预测下一个物理状态」的演进逻辑。\n\n该模型突破传统AI语言理解局限，可精准掌握物体运动规律、重力原理等物理常识。悟界·Physis 0.1正在研发中，完成后将全面开源。大会还发布了Brainμ 1.0脑信号模型和1万亿Token的BrainToken数据集。",
+          "content_en": "The 2026 Beijing Zhiyuan Conference released the worlds first general world base model. Zhiyuan president Wang Zhongyuan outlined the evolution from predicting next token to predicting next physical state.\n\nThe model masters physical common sense. Physis 0.1 under development will be open-sourced. Brainmu 1.0 proves cross-species brain signal representations. BrainToken dataset exceeds 1 trillion tokens.",
+          "key_points": [
+            "全球首个通用世界基座模型发布",
+            "AI从语言理解迈向物理理解",
+            "Physis 0.1研发中，将开源",
+            "Brainμ 1.0跨物种脑信号模型",
+            "BrainToken数据集超1万亿Token"
+          ],
+          "key_points_en": [
+            "Worlds first general world base model",
+            "AI from language to physical understanding",
+            "Physis 0.1 in development, will open-source",
+            "Brainmu 1.0 cross-species brain signal model",
+            "BrainToken dataset exceeds 1T tokens"
+          ]
+        },
+        {
+          "title": "超75个AI数据中心项目被阻，1300亿美元投资搁浅",
+          "title_en": "Over 75 AI Data Center Projects Worth $130B Blocked",
+          "summary": "2026年前4个月超75个AI数据中心项目被阻，1300亿美元追平2025全年。70%美国人反对，69个地方政府颁布禁令。PJM容量价格暴涨833%。",
+          "summary_en": "Over 75 AI data center projects worth $130B blocked in first 4 months of 2026, matching all of 2025. 70% Americans oppose. 69 local bans. PJM capacity prices surged 833%.",
+          "category": "芯片算力",
+          "source": "Data Center Watch",
+          "source_en": "Data Center Watch",
+          "url": "https://logicity.in/en/blog/130b-in-data-center-projects-blocked-in-2026-s-first-four-months",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=450&fit=crop",
+          "date": "2026-06-14",
+          "id": "news-2026-06-14-5",
+          "content": "2026年前4个月超75个AI数据中心项目被阻，涉及1300亿美元，追平2025全年。70%美国人反对社区新建数据中心，69个地方政府已颁布禁令。AI用电需求从23GW翻倍至42GW，PJM容量价格暴涨833%。AMD指出AI基础设施同时面临电力、铜材、变压器和内存四大瓶颈。",
+          "content_en": "Over 75 AI data center projects worth $130B blocked in first 4 months of 2026, matching all of 2025. 70% Americans oppose local data centers. 69 local governments enacted bans. AI electricity demand doubled to 42GW. PJM capacity prices surged 833%. AMD noted four simultaneous bottlenecks: power, copper, transformers, memory.",
+          "key_points": [
+            "1300亿美元项目被阻，追平2025全年",
+            "70%美国人反对新建数据中心",
+            "69个地方政府颁布禁令",
+            "AI用电翻倍至42GW",
+            "PJM容量价格暴涨833%"
+          ],
+          "key_points_en": [
+            "$130B blocked, matching all of 2025",
+            "70% Americans oppose new data centers",
+            "69 local government bans",
+            "AI electricity doubles to 42GW",
+            "PJM capacity prices surge 833%"
+          ]
+        },
+        {
+          "title": "DeepMind警告：数百万AI智能体交互可能引发级联故障",
+          "title_en": "DeepMind Warns: Millions of AI Agents Could Cause Cascading Failures",
+          "summary": "DeepMind警告大规模多智能体交互存在合谋、从众和级联故障三种系统性风险，单智能体评估无法发现。团队发布研究资助计划。",
+          "summary_en": "DeepMind warns multi-agent interactions pose systemic risks: collusion, herding, cascading failures. Undetectable in single-agent evaluations. Research funding announced.",
+          "category": "大模型",
+          "source": "ContentBuffer",
+          "source_en": "ContentBuffer",
+          "url": "https://contentbuffer.com/news",
+          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop",
+          "date": "2026-06-14",
+          "id": "news-2026-06-14-6",
+          "content": "DeepMind研究团队警告当前AI安全研究忽视了大规模多智能体交互的系统性风险。团队指出三种关键风险：合谋、从众行为和级联故障。这些风险在传统单智能体安全评估中完全无法被发现。DeepMind同时宣布将资助多智能体动态安全研究。",
+          "content_en": "DeepMind warns current AI safety research overlooks multi-agent interaction risks. Three key risks identified: collusion, herding behavior, and cascading failures. Undetectable in single-agent evaluations. DeepMind announced funding for multi-agent dynamics research.",
+          "key_points": [
+            "多智能体交互存在系统性风险",
+            "三种风险：合谋、从众、级联故障",
+            "单智能体评估无法发现",
+            "DeepMind资助相关研究"
+          ],
+          "key_points_en": [
+            "Multi-agent interactions pose systemic risks",
+            "Three risks: collusion, herding, cascading failures",
+            "Undetectable in single-agent evaluations",
+            "DeepMind funding research"
+          ]
+        },
+        {
+          "title": "OpenAI遭多州总检察长联合调查",
+          "title_en": "OpenAI Faces Multi-State AG Investigation",
+          "summary": "多个州总检察长对OpenAI发起联合调查，纽约州已发出传票。涉及广告策略、数据处理和未成年人安全保护。发生在IPO准备关键时期。",
+          "summary_en": "Multiple state AGs investigate OpenAI. New York served subpoena. Covers advertising, data handling, and minor protection. Comes during IPO preparation.",
+          "category": "政策监管",
+          "source": "ContentBuffer",
+          "source_en": "ContentBuffer",
+          "url": "https://contentbuffer.com/news",
+          "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=450&fit=crop",
+          "date": "2026-06-14",
+          "id": "news-2026-06-14-7",
+          "content": "多个州总检察长对OpenAI发起联合调查，纽约州已发出传票。调查涵盖ChatGPT广告策略、数据处理方式以及对未成年人和老年人的安全保护措施。此时正值OpenAI IPO准备关键时期，AI行业面临前所未有的监管压力。",
+          "content_en": "Multiple state attorneys general launched a joint investigation into OpenAI, with New York serving a subpoena. The probe covers advertising, data handling, and safety protections for minors and seniors. Comes during OpenAI's IPO preparation period amid unprecedented regulatory pressure.",
+          "key_points": [
+            "多州总检察长联合调查",
+            "纽约州已发传票",
+            "涉及广告、数据和未成年人保护",
+            "正值IPO准备关键期"
+          ],
+          "key_points_en": [
+            "Multi-state AG investigation",
+            "New York subpoena served",
+            "Covers advertising, data, minor protection",
+            "During critical IPO preparation period"
+          ]
+        },
+        {
+          "title": "Google发布Gemini Deep Research智能体",
+          "title_en": "Google Launches Gemini Deep Research Agent",
+          "summary": "Google推出Gemini Deep Research智能体，基于Gemini 3 Pro自动完成多步研究，基准测试超越GPT-5 Pro，将整合至Google Search等产品。纳德拉也展示多模型辩论协作系统。",
+          "summary_en": "Google launched Gemini Deep Research agent powered by Gemini 3 Pro. Outperforms GPT-5 Pro on benchmarks. Integrating into Google Search. Nadella demonstrated multi-model debate system.",
+          "category": "AI应用",
+          "source": "BizzBuzz News",
+          "source_en": "BizzBuzz News",
+          "url": "https://www.bizzbuzz.news/industry/infotech/ai/your-daily-dose-of-ai-stories-that-matter-before-they-make-news-1394229",
+          "image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=450&fit=crop",
+          "date": "2026-06-14",
+          "id": "news-2026-06-14-8",
+          "content": "Google推出Gemini Deep Research自主多步AI智能体，基于Gemini 3 Pro构建，可自主完成信息规划、搜索、阅读和追问的完整研究流程。基准测试超越GPT-5 Pro，将整合至Google Search、NotebookLM和Gemini App。\n\n微软CEO纳德拉也展示了多智能体AI系统LLM Council、DxO和Ensemble，让GPT、Claude、Gemini和Grok辩论并改进答案。",
+          "content_en": "Google launched Gemini Deep Research agent built on Gemini 3 Pro, autonomously completing multi-step research workflows. Outperformed GPT-5 Pro on benchmarks. Will integrate into Google Search, NotebookLM, and Gemini app.\n\nMicrosoft CEO Nadella demonstrated multi-agent systems (LLM Council, DxO, Ensemble) that let multiple models debate and improve answers together.",
+          "key_points": [
+            "Gemini Deep Research基于Gemini 3 Pro",
+            "可自主完成多步研究",
+            "基准超越GPT-5 Pro",
+            "将整合至Google产品",
+            "纳德拉展示多模型辩论系统"
+          ],
+          "key_points_en": [
+            "Built on Gemini 3 Pro",
+            "Autonomous multi-step research",
+            "Outperforms GPT-5 Pro",
+            "Integrating into Google products",
+            "Nadella shows multi-model debate system"
+          ]
+        },
+        {
+          "title": "特斯拉Optimus V3量产加速，宇树创73天过会纪录",
+          "title_en": "Tesla Optimus V3 Mass Production Accelerates, Unitree Record IPO Review",
+          "summary": "Optimus V3预计2026下半年量产，目标每周2万台，超10家中国供应商入链。宇树科技创73天科创板过会纪录，将成为A股首家人形机器人上市公司。",
+          "summary_en": "Optimus V3 mass production H2 2026, 20K per week target. Unitree cleared STAR Market review in record 73 days, first humanoid robot A-share listing.",
+          "category": "AI应用",
+          "source": "Counterpoint Research",
+          "source_en": "Counterpoint Research",
+          "url": "https://contentbuffer.com/news",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
+          "date": "2026-06-14",
+          "id": "news-2026-06-14-9",
+          "content": "特斯拉Optimus V3预计2026下半年量产，目标每周2万台，超10家中国供应商已入链。宇树科技以创纪录73天通过科创板审核，将成为A股首家人形机器人上市公司，募资约42亿元。人形机器人正从概念验证迈入规模化量产阶段。",
+          "content_en": "Tesla Optimus V3 expected in mass production H2 2026, targeting 20K units per week. Over 10 Chinese suppliers in the chain. Unitree cleared STAR Market review in record 73 days, becoming first humanoid robot A-share listing, raising approximately 4.2B yuan. Humanoid robots entering scaled production phase.",
+          "key_points": [
+            "Optimus V3预计2026下半年量产",
+            "每周2万台产能目标",
+            "超10家中国供应商入链",
+            "宇树73天创纪录过会",
+            "人形机器人迈入规模化量产"
+          ],
+          "key_points_en": [
+            "Optimus V3 H2 2026 mass production",
+            "20K units per week target",
+            "Over 10 Chinese suppliers",
+            "Unitree record 73-day review",
+            "Scaled production phase beginning"
+          ]
+        },
+        {
+          "title": "Anthropic订购210亿美元Google TPU，百万级部署计划浮出水面",
+          "title_en": "Anthropic Orders $21B in Google TPUs, Million-TPU Deployment Plan",
+          "summary": "Anthropic已订购210亿美元Google TPU，计划部署100万枚。TPU成为英伟达GPU成本效益替代方案，英伟达积压订单730亿美元。",
+          "summary_en": "Anthropic ordered $21B in Google TPUs, plans to deploy 1 million. TPUs becoming cost-efficient GPU alternative. NVIDIA backlog at $73B.",
+          "category": "芯片算力",
+          "source": "BizzBuzz News",
+          "source_en": "BizzBuzz News",
+          "url": "https://www.bizzbuzz.news/industry/infotech/ai/your-daily-dose-of-ai-stories-that-matter-before-they-make-news-1394229",
+          "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop",
+          "date": "2026-06-14",
+          "id": "news-2026-06-14-10",
+          "content": "Broadcom披露Anthropic已订购210亿美元Google TPU，计划部署100万枚。TPU在特定AI工作负载上性价比更高，Meta和苹果也在加大采用。英伟达积压订单730亿美元，为TPU路线加速崛起创造窗口期。AI算力市场正从英伟达独大走向多元化。",
+          "content_en": "Anthropic ordered $21B in Google-designed TPUs with plans to deploy 1 million. TPUs offer better price-performance for specific AI workloads. Meta and Apple increasing adoption. NVIDIA's $73B backlog creates a window for TPU acceleration. AI compute market diversifying from NVIDIA dominance.",
+          "key_points": [
+            "Anthropic订购210亿美元Google TPU",
+            "计划部署100万枚TPU",
+            "TPU成为GPU成本效益替代",
+            "英伟达积压730亿美元",
+            "AI算力市场走向多元化"
+          ],
+          "key_points_en": [
+            "Anthropic orders $21B in Google TPUs",
+            "Plans to deploy 1 million TPUs",
+            "TPUs becoming GPU alternative",
+            "NVIDIA $73B backlog",
+            "AI compute market diversifying"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-13",
       "hero": {
@@ -1205,306 +1519,6 @@
             "New valuation triples in half a year",
             "Rapid progress in products and commercialization",
             "Releases multimodal and voice models"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-09",
-      "hero": {
-        "id": "hero-2026-06-09",
-        "title": "苹果WWDC 2026：Siri重生为AI超级应用，ChatGPT时代走向终结",
-        "title_en": "Apple WWDC 2026: Siri Reborn as AI Superapp, ChatGPT Era Comes to an End",
-        "summary": "苹果在WWDC 2026上发布史上最大Siri重构——基于Gemini模型的全新AI助手以独立App形式亮相，支持跨应用操作与屏幕感知。同时OpenAI高管直言「Chat is Dead」，ChatGPT正转型为AI智能体超级应用。两大消费AI巨头同步转向，标志着聊天机器人时代的终结与AI智能体时代的全面开启。",
-        "summary_en": "Apple unveiled the biggest Siri overhaul in history at WWDC 2026 — a Gemini-powered AI assistant launching as a standalone app with cross-app actions and screen awareness. Meanwhile, OpenAI declared 'Chat is Dead,' pivoting ChatGPT into an AI agent superapp. Two consumer AI giants simultaneously shifting signals the end of the chatbot era and the dawn of AI agents.",
-        "source": "Apple WWDC / Financial Times",
-        "source_en": "Apple WWDC / Financial Times",
-        "url": "https://singularity.kiwi/daily-technology-people-june-9-2026/",
-        "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=450&fit=crop",
-        "content": "苹果在WWDC 2026上发布了史上最大规模的Siri重构计划。全新的AI助手基于Gemini模型开发，以独立应用的形式推出，支持跨应用操作和屏幕感知等先进功能。\n\n这一战略举措标志着苹果正式从语音助手向多模态AI能力全面转型。Siri不再局限于简单的问答，而是成为能够理解并操作手机界面的智能助手。\n\n与此同时，OpenAI高管公开宣称「Chat is Dead」，表示ChatGPT正在从对话工具向AI Agent超级应用转型。两大消费AI巨头同步转向，昭示着AI行业进入新阶段。\n\n业界分析认为，聊天机器人时代正在终结，AI Agent时代全面开启。未来的AI竞争将围绕智能体执行能力和生态系统整合能力展开。",
-        "content_en": "Apple unveiled the biggest Siri overhaul in history at WWDC 2026. The new AI assistant, built on the Gemini model, launches as a standalone app supporting cross-app actions and screen awareness capabilities.\n\nThis strategic move marks Apple's official transition from voice assistant to comprehensive multimodal AI capabilities. Siri is no longer limited to simple Q&A but becomes an intelligent assistant capable of understanding and operating phone interfaces.\n\nMeanwhile, OpenAI executives publicly declared 'Chat is Dead,' stating ChatGPT is transitioning from conversational tool to AI Agent superapp. Two consumer AI giants simultaneously pivoting signals the AI industry entering a new phase.\n\nIndustry analysis believes the chatbot era is ending and the AI Agent era is fully beginning. Future AI competition will revolve around agent execution capabilities and ecosystem integration capabilities.",
-        "key_points": [
-          "苹果发布史上最大Siri重构",
-          "基于Gemini的独立AI助手应用",
-          "OpenAI宣告Chat已死",
-          "AI Agent时代全面开启"
-        ],
-        "key_points_en": [
-          "Apple unveils biggest Siri overhaul ever",
-          "Gemini-based standalone AI assistant app",
-          "OpenAI declares Chat is Dead",
-          "AI Agent era fully begins"
-        ]
-      },
-      "articles": [
-        {
-          "id": "news-2026-06-09-0",
-          "title": "佛罗里达州起诉OpenAI：AI行业的「大烟草时刻」正式到来",
-          "title_en": "Florida Sues OpenAI: AI's Big Tobacco Moment Has Arrived",
-          "summary": "佛罗里达州成为首个起诉OpenAI的美国州，提交83页诉状指控ChatGPT是危险且令人上瘾的产品，对儿童进行欺骗性营销。州总检察长寻求追究CEO Sam Altman个人责任，罚款可能高达数十亿美元。同一周，加州法院将12起针对OpenAI的产品责任案合并审理。法院已拒绝AI公司的Section 230抗辩——AI输出不是「用户内容」，社交媒体二十年的法律保护伞不适用。",
-          "summary_en": "Florida became the first US state to sue OpenAI, filing an 83-page complaint alleging ChatGPT is a dangerous, addictive product marketed deceptively as safe for children. The AG seeks to hold CEO Sam Altman personally liable, with potential penalties in the billions. Courts rejected Section 230 defenses for chatbots — AI outputs aren't user content, so the legal shield protecting social media for decades doesn't apply.",
-          "source": "Singularity Kiwi",
-          "source_en": "Singularity Kiwi",
-          "url": "https://singularity.kiwi/daily-news-june-9-2026/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "政策监管",
-          "date": "2026-06-09",
-          "content": "佛罗里达州正式对OpenAI提起诉讼，成为美国首个起诉AI公司的州。这份长达83页的诉状指控ChatGPT是危险且令人上瘾的产品，对未成年人进行欺骗性营销。\n\n州总检察长在诉讼中寻求追究CEO奥特曼的个人责任，并要求数十亿美元的罚款和赔偿。诉讼的核心论点是OpenAI明知产品风险却故意隐瞒。\n\n就在同一周，加州法院将12起针对OpenAI的产品责任案件合并审理。法院已驳回AI公司关于Section 230免责保护的抗辩。\n\n法律专家指出，这一裁决确立了重要先例：AI聊天机器人的输出不属于「用户内容」，因此不享受社交媒体二十年来享有的法律保护。AI行业正面临「大烟草时刻」。",
-          "content_en": "Florida officially sued OpenAI, becoming the first US state to sue an AI company. The 83-page complaint alleges ChatGPT is a dangerous, addictive product marketed deceptively to children.\n\nThe state attorney general seeks personal liability for CEO Altman and billions in fines and damages. The core argument is OpenAI knowingly concealed product risks.\n\nIn the same week, California courts consolidated 12 product liability cases against OpenAI. Courts rejected AI companies' Section 230 defense arguments.\n\nLegal experts note this ruling establishes an important precedent: AI chatbot outputs don't constitute 'user content,' so they don't enjoy the legal shield social media has enjoyed for two decades. The AI industry is facing its 'Big Tobacco moment.'",
-          "key_points": [
-            "佛罗里达州起诉OpenAI",
-            "ChatGPT被指危险且令人上瘾",
-            "寻求追究奥特曼个人责任",
-            "Section 230保护不适用AI"
-          ],
-          "key_points_en": [
-            "Florida sues OpenAI",
-            "ChatGPT accused of being dangerous and addictive",
-            "Seeking personal liability for Altman",
-            "Section 230 protection doesn't apply to AI"
-          ]
-        },
-        {
-          "id": "news-2026-06-09-1",
-          "title": "谷歌签约SpaceX：每月9.2亿美元租用xAI算力，创科技史上最大基础设施租赁",
-          "title_en": "Google Signs $920M/Month Deal with SpaceX for xAI Compute, Largest Infrastructure Lease in Tech History",
-          "summary": "谷歌与SpaceX签署32个月协议，每月支付9.2亿美元租用xAI约11万块Nvidia GPU，用于Gemini Enterprise的算力需求。Anthropic上月也与SpaceX签署类似协议。两笔交易均在SpaceX IPO前达成，后者目标估值超1.75万亿美元。谷歌同时将年度资本支出预测上调至1800-1900亿美元。",
-          "summary_en": "Google signed a 32-month deal paying SpaceX $920M/month for access to roughly 110,000 Nvidia GPUs in xAI's data centers. Anthropic signed a similar deal last month. Both come ahead of SpaceX's IPO targeting $1.75T+ valuation. Google revised its capex forecast to $180-190B for the year.",
-          "source": "Singularity Kiwi",
-          "source_en": "Singularity Kiwi",
-          "url": "https://singularity.kiwi/daily-news-june-9-2026/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "芯片算力",
-          "date": "2026-06-09",
-          "content": "谷歌与SpaceX签署了一份史无前例的算力租赁协议。根据协议，谷歌将在32个月内每月支付9.2亿美元，租用xAI约11万块英伟达GPU。\n\n这笔交易的总价值接近300亿美元，成为科技行业有史以来最大的单一基础设施租赁协议。Anthropic上月也与SpaceX签署了类似协议。\n\n这些交易都在SpaceX IPO前达成，后者的目标估值超过1.75万亿美元。市场认为，SpaceX正通过算力租赁锁定大客户，为IPO估值背书。\n\n谷歌同时将全年资本支出预测上调至1800至1900亿美元，反映出科技巨头对AI基础设施的持续投入。",
-          "content_en": "Google signed an unprecedented compute leasing agreement with SpaceX. Under the deal, Google will pay $920 million monthly over 32 months for access to approximately 110,000 Nvidia GPUs in xAI's data centers.\n\nThis deal's total value approaches $30 billion, making it the largest single infrastructure lease in tech history. Anthropic signed a similar agreement with SpaceX last month.\n\nBoth deals were reached ahead of SpaceX's IPO, which targets a valuation exceeding $1.75 trillion. The market believes SpaceX is locking in major clients to endorse its IPO valuation.\n\nGoogle simultaneously revised its full-year capital expenditure forecast to $180-190 billion, reflecting tech giants' continued investment in AI infrastructure.",
-          "key_points": [
-            "谷歌每月9.2亿美元租xAI算力",
-            "32个月近300亿美元总价值",
-            "SpaceX IPO前锁定大客户",
-            "谷歌资本支出预测上调1900亿"
-          ],
-          "key_points_en": [
-            "Google pays $920M/month for xAI compute",
-            "$30B total value over 32 months",
-            "SpaceX locks in clients before IPO",
-            "Google revises capex forecast to $190B"
-          ]
-        },
-        {
-          "id": "news-2026-06-09-2",
-          "title": "小米MiMo突破万亿参数千token/秒：速度即智能的新范式",
-          "title_en": "Xiaomi MiMo Breaks 1,000 Tokens/Second on Trillion-Parameter Model: Speed Becomes Intelligence",
-          "summary": "小米发布MiMo-V2.5-Pro-UltraSpeed，在单台8卡通用GPU节点上实现万亿参数MoE模型1000+ token/s解码速度。突破来自FP4量化+DFlash推测解码+TileRT模型系统协同设计。小米提出「速度即智能」论：在1000 tps下可在相同壁钟时间并行运行数十条推理路径，从「想更久」转向「同时想多次」。",
-          "summary_en": "Xiaomi released MiMo-V2.5-Pro-UltraSpeed, achieving 1,000+ tokens/second on a 1-trillion-parameter MoE model using a single 8-GPU commodity node. The breakthrough comes from FP4 quantization + DFlash speculative decoding + TileRT codesign. Xiaomi argues speed becomes intelligence: at 1,000 tps you can run dozens of parallel reasoning paths simultaneously.",
-          "source": "Xiaomi MiMo Blog",
-          "source_en": "Xiaomi MiMo Blog",
-          "url": "https://singularity.kiwi/daily-technology-people-june-9-2026/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "大模型",
-          "date": "2026-06-09",
-          "content": "小米发布MiMo-V2.5-Pro-UltraSpeed模型，在单台8卡通用GPU节点上实现了万亿参数MoE模型每秒1000 Token以上的解码速度。\n\n这一突破源于FP4量化、DFlash推测解码和TileRT模型系统协同设计等多项技术创新。小米提出的「速度即智能」理念引发业界讨论。\n\n小米认为，在1000 tps的生成速度下，AI可以在相同的壁钟时间内并行运行数十条推理路径，从「想更久」转向「同时想多次」。这一范式转变可能重塑AI应用的可能性边界。\n\n该技术已在小米内部产品中得到应用验证，未来将逐步向外部开发者开放。",
-          "content_en": "Xiaomi released MiMo-V2.5-Pro-UltraSpeed, achieving over 1,000 tokens per second decoding speed for a 1-trillion-parameter MoE model on a single 8-GPU commodity node.\n\nThis breakthrough stems from multiple technological innovations including FP4 quantization, DFlash speculative decoding, and TileRT co-design. Xiaomi's proposed 'speed becomes intelligence' concept sparked industry discussion.\n\nXiaomi argues that at 1,000 tps generation speed, AI can run dozens of parallel reasoning paths within the same wall-clock time, shifting from 'thinking longer' to 'thinking multiple times simultaneously.' This paradigm shift could reshape the possibilities of AI applications.\n\nThe technology has been validated in Xiaomi's internal products and will gradually open to external developers.",
-          "key_points": [
-            "小米MiMo突破1000 token/秒",
-            "万亿参数MoE模型单节点运行",
-            "提出速度即智能新范式",
-            "从想更久转向同时想多次"
-          ],
-          "key_points_en": [
-            "Xiaomi MiMo breaks 1,000 tokens/sec",
-            "Trillion-parameter MoE runs on single node",
-            "Proposes speed becomes intelligence paradigm",
-            "Shifts from thinking longer to multiple thoughts"
-          ]
-        },
-        {
-          "id": "news-2026-06-09-3",
-          "title": "OpenAI宣告「Chat已死」：ChatGPT转型AI智能体超级应用",
-          "title_en": "OpenAI Declares Chat is Dead: ChatGPT Overhauls into AI Agent Superapp",
-          "summary": "OpenAI正计划对ChatGPT进行自创办以来最重大改版，从对话助手转型为整合编码工具、AI智能体与第三方应用的综合平台。一名资深员工对金融时报直言「Chat is Dead」。转型由营收压力驱动——ChatGPT超10亿用户中大部分免费使用，OpenAI需在IPO前证明变现能力。企业用户已占营收40%，目标年底达50%。",
-          "summary_en": "OpenAI is planning a major ChatGPT overhaul focused on AI agents and coding tools, redirecting users to higher-value products. A senior employee told the Financial Times: 'Chat is dead.' The pivot is driven by revenue pressure — most of ChatGPT's 1B+ users are free, and OpenAI needs to prove monetisation ahead of IPO. Business users already account for 40% of revenue.",
-          "source": "Financial Times",
-          "source_en": "Financial Times",
-          "url": "https://singularity.kiwi/daily-technology-people-june-9-2026/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "AI应用",
-          "date": "2026-06-09",
-          "content": "OpenAI正在筹划ChatGPT自创办以来最重大的改版，从对话助手转型为整合编码工具、AI Agent和第三方应用的综合平台。这一战略转型的信号来自公司内部的深度调整。\n\n一位资深员工对金融时报表示：「Chat is Dead」。这句话被业界解读为AI行业从聊天机器人时代向智能体时代转变的宣言。\n\n这一转型由营收压力驱动。ChatGPT拥有超过10亿用户，但大部分是免费用户。OpenAI需要在IPO前证明其变现能力，而企业用户已贡献40%营收。\n\nOpenAI正在将用户引导至高价值产品，包括API服务和Agent平台。这一策略调整反映了AI商业化的核心逻辑：从用户规模转向用户价值。",
-          "content_en": "OpenAI is planning the most significant ChatGPT overhaul since founding, transitioning from conversational assistant to a comprehensive platform integrating coding tools, AI Agents, and third-party applications. This strategic pivot signals internal deep adjustments.\n\nA senior employee told the Financial Times: 'Chat is dead.' The industry interprets this as a declaration of the AI industry's transition from the chatbot era to the Agent era.\n\nThis pivot is driven by revenue pressure. ChatGPT has over 1 billion users, but most are free users. OpenAI needs to prove monetization capability ahead of IPO, while enterprise users already contribute 40% of revenue.\n\nOpenAI is redirecting users toward high-value products including API services and Agent platforms. This strategic adjustment reflects the core logic of AI commercialization: shifting from user scale to user value.",
-          "key_points": [
-            "OpenAI筹划ChatGPT最重大改版",
-            "Chat is Dead宣示新时代",
-            "超10亿用户但大部分免费",
-            "目标年底企业收入占比50%"
-          ],
-          "key_points_en": [
-            "OpenAI planning biggest ChatGPT overhaul",
-            "Chat is Dead declares new era",
-            "Over 1B users but mostly free",
-            "Targeting 50% enterprise revenue by year-end"
-          ]
-        },
-        {
-          "id": "news-2026-06-09-4",
-          "title": "欧盟再次推迟AI法案关键义务：高风险系统合规延至2027年底",
-          "title_en": "EU Delays Key AI Act Obligations Again: High-Risk Compliance Pushed to Late 2027",
-          "summary": "布鲁塞尔第二次推迟欧盟AI法案关键义务。高风险系统义务独立设备延至2027年12月，嵌入产品延至2028年8月，作为数字综合简化方案的一部分。原因包括：企业无法清晰分类高风险系统、成员国准备不足、欧洲担忧监管拖慢AI发展。操纵性AI禁令自2025年2月起已生效，风险金字塔结构保持不变。",
-          "summary_en": "Brussels delayed key obligations under the EU AI Act for the second time. High-risk system obligations pushed to December 2027 (stand-alone) and August 2028 (embedded in products). Reasons: businesses can't classify high-risk systems clearly, member states lack readiness, and Europe fears regulation is slowing its AI sector versus the US and China.",
-          "source": "EU Today",
-          "source_en": "EU Today",
-          "url": "https://eutoday.net/eu-delays-key-ai-rules/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "政策监管",
-          "date": "2026-06-09",
-          "content": "布鲁塞尔第二次推迟欧盟AI法案关键义务的执行期限。高风险AI系统的独立设备合规期限延至2027年12月，嵌入产品中的AI系统延至2028年8月。\n\n监管机构解释称，企业难以清晰界定高风险AI系统的范围，各成员国的执行准备也不充分。欧洲担忧过度监管会拖慢其AI发展相对于美国和中国的步伐。\n\n值得注意的是，操纵性AI禁令自2025年2月起已生效，这一风险金字塔结构保持不变。法案的核心框架并未松动。\n\n批评者认为，反复推迟损害了法案的公信力。支持者则表示，给予企业更多适应时间是务实之举。",
-          "content_en": "Brussels delayed key EU AI Act obligations for the second time. High-risk AI system compliance for stand-alone devices pushed to December 2027, and for embedded systems to August 2028.\n\nRegulators explained businesses struggle to clearly define high-risk AI systems, and member states lack adequate implementation readiness. Europe fears excessive regulation will slow its AI development relative to the US and China.\n\nNotably, the manipulative AI ban effective since February 2025 remains unchanged, with the risk pyramid structure intact. The act's core framework hasn't loosened.\n\nCritics argue repeated delays damage the regulation's credibility. Supporters say giving businesses more adaptation time is pragmatic.",
-          "key_points": [
-            "欧盟第二次推迟AI法案义务",
-            "高风险系统合规延至2027-2028",
-            "企业难以界定高风险范围",
-            "担忧拖慢欧洲AI发展"
-          ],
-          "key_points_en": [
-            "EU delays AI Act obligations for second time",
-            "High-risk compliance pushed to 2027-2028",
-            "Businesses struggle to define high-risk scope",
-            "Concerns over slowing European AI development"
-          ]
-        },
-        {
-          "id": "news-2026-06-09-5",
-          "title": "英国Cosine联合BT、汇丰、BAE等打造首个主权前沿AI模型Lumen",
-          "title_en": "UK's Cosine Builds Britain's First Sovereign Frontier AI Model with BT, HSBC, BAE",
-          "summary": "英国初创公司Cosine组建包括BT、汇丰、劳埃德、BAE系统等在内的联盟，在布里斯托Isambard-AI超算上完全训练Lumen Sovereign模型，目标2026年底部署。其编码模型已连续两年在独立基准测试中超越OpenAI和Anthropic，还支持COBOL、Fortran、Ada等国防和金融系统传统语言。首相斯塔默在伦敦科技周宣布4亿英镑新AI芯片投入。",
-          "summary_en": "UK startup Cosine assembled BT, HSBC, BAE Systems and others to build Lumen Sovereign — trained entirely on the Isambard-AI supercomputer in Bristol, targeting deployment by end of 2026. Its coding models have topped independent benchmarks against OpenAI and Anthropic for two years, including support for COBOL, Fortran, and Ada. PM Starmer announced £400M new AI chip spending at London Tech Week.",
-          "source": "Singularity Kiwi",
-          "source_en": "Singularity Kiwi",
-          "url": "https://singularity.kiwi/daily-technology-people-june-9-2026/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "大模型",
-          "date": "2026-06-09",
-          "content": "英国初创公司Cosine宣布组建包括BT、汇丰、劳埃德银行、BAE系统在内的联盟，在布里斯托Isambard-AI超算上完全训练英国首个主权前沿AI模型Lumen。\n\nCosine此前推出的编码模型已连续两年在独立基准测试中超越OpenAI和Anthropic。该模型还支持COBOL、Fortran、Ada等传统编程语言，这些语言在国防和金融系统中仍有广泛应用。\n\n首相斯塔默在伦敦科技周宣布投入4亿英镑用于AI芯片建设。这笔投资将支持Lumen等主权AI项目的发展。\n\n英国希望通过主权AI战略减少对外国AI技术的依赖，同时确保国家安全和战略自主。这一模式可能为其他国家提供参考。",
-          "content_en": "UK startup Cosine announced assembling a consortium including BT, HSBC, Lloyds, and BAE Systems to train Britain's first sovereign frontier AI model Lumen entirely on the Isambard-AI supercomputer in Bristol.\n\nCosine's coding models have topped independent benchmarks against OpenAI and Anthropic for two years. The model also supports COBOL, Fortran, and Ada — programming languages still widely used in defense and financial systems.\n\nPM Starmer announced £400 million in AI chip investment at London Tech Week. This investment will support sovereign AI projects like Lumen.\n\nBritain hopes its sovereign AI strategy will reduce dependence on foreign AI technology while ensuring national security and strategic autonomy. This model may provide reference for other countries.",
-          "key_points": [
-            "英国组建联盟打造Lumen主权AI模型",
-            "在Isambard-AI超算上完全训练",
-            "Cosine编码模型连续两年超越OpenAI",
-            "4亿英镑AI芯片投资"
-          ],
-          "key_points_en": [
-            "UK builds consortium for Lumen sovereign AI model",
-            "Trained entirely on Isambard-AI supercomputer",
-            "Cosine coding models beat OpenAI for two years",
-            "£400M AI chip investment"
-          ]
-        },
-        {
-          "id": "news-2026-06-09-6",
-          "title": "黄仁勋扩大英伟达韩国AI合作：现代、三星、SK加入主权AI阵营",
-          "title_en": "Jensen Huang Expands NVIDIA's Korea AI Partnerships: Hyundai, Samsung, SK Join Sovereign AI Camp",
-          "summary": "英伟达CEO黄仁勋在韩国AI峰会上宣布扩大合作伙伴关系，新增现代、三星、SK、Naver、Doosan。合作涵盖主权AI模型（EXAONE在Blackwell GPU上运行）、人形机器人（Isaac GR00T）、自动驾驶和GPU云服务。现代集团会长郑义宣与黄仁勋两度会面，讨论物理AI合作。英伟达和LG集团还宣布共建AI工厂。",
-          "summary_en": "NVIDIA CEO Jensen Huang announced expanded AI partnerships at Korea's AI summit, adding Hyundai, Samsung, SK, Naver, and Doosan. Deals span sovereign AI models (EXAONE on Blackwell GPUs), humanoid robotics (Isaac GR00T), autonomous driving, and GPU cloud services. NVIDIA and LG Group also announced building an AI factory together.",
-          "source": "Korea Herald / Asianet News",
-          "source_en": "Korea Herald / Asianet News",
-          "url": "https://m.koreaherald.com/article/10766167",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "芯片算力",
-          "date": "2026-06-09",
-          "content": "英伟达CEO黄仁勋在韩国AI峰会上宣布扩大合作伙伴关系，新增现代、三星、SK、Naver、Doosan等韩国头部企业。合作范围涵盖主权AI模型、人形机器人、自动驾驶和GPU云服务等领域。\n\n在主权AI方面，EXAONE模型将在英伟达Blackwell GPU上运行。人形机器人合作基于Isaac GR00T平台，面向未来工厂和家庭应用场景。\n\n现代集团会长郑义宣与黄仁勋两度会面，讨论物理AI领域的深度合作。此外，英伟达和LG集团还宣布将共建AI工厂。\n\n英伟达正通过与各国头部企业的合作，构建覆盖全球的AI生态系统。这种「合纵连横」策略有助于其在AI时代保持领先地位。",
-          "content_en": "NVIDIA CEO Jensen Huang announced expanded partnerships at Korea's AI summit, adding Hyundai, Samsung, SK, Naver, and Doosan. Collaboration spans sovereign AI models, humanoid robotics, autonomous driving, and GPU cloud services.\n\nIn sovereign AI, EXAONE will run on NVIDIA Blackwell GPUs. Humanoid robotics collaboration uses the Isaac GR00T platform for future factory and home application scenarios.\n\nHyundai Group Chairman Chung Euisun met with Huang twice, discussing deep collaboration in physical AI. Additionally, NVIDIA and LG Group announced plans to jointly build an AI factory.\n\nNVIDIA is building a global AI ecosystem through partnerships with leading enterprises in various countries. This strategy helps maintain its leading position in the AI era.",
-          "key_points": [
-            "英伟达扩大韩国AI合作",
-            "新增现代三星SK等合作伙伴",
-            "主权AI人形机器人和自动驾驶",
-            "与LG共建AI工厂"
-          ],
-          "key_points_en": [
-            "NVIDIA expands Korea AI partnerships",
-            "Adds Hyundai, Samsung, SK partners",
-            "Sovereign AI, humanoid robotics, autonomous driving",
-            "Building AI factory with LG"
-          ]
-        },
-        {
-          "id": "news-2026-06-09-7",
-          "title": "月之暗面(Moonshot AI)寻求300亿美元估值：六个月内第三轮融资",
-          "title_en": "Moonshot AI Seeks $30 Billion Valuation in Third Funding Round Within Six Months",
-          "summary": "中国AI初创公司月之暗面(Moonshot AI)启动新一轮融资，计划筹集至多20亿美元，投后估值预计达300亿美元。这是该公司六个月内第三轮融资，估值从2025年12月的40亿美元飙升至当前目标。月之暗面4月年化收入突破2亿美元，正重组离岸架构以筹备港股上市。旗下Kimi智能体产品Kimi Work已上线。",
-          "summary_en": "Chinese AI startup Moonshot AI is seeking up to $2B in new funding at a $30B valuation — its third round in six months, with valuation soaring from just over $4B in December 2025. ARR topped $200M in April. The company is restructuring its offshore governance for a Hong Kong IPO and recently launched the Kimi Work AI agent.",
-          "source": "Bloomberg / Economic Times",
-          "source_en": "Bloomberg / Economic Times",
-          "url": "https://m.economictimes.com/tech/funding/chinas-moonshot-ai-seeks-30-billion-value-in-new-funding-talks/articleshow/131577519.cms",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "投融资",
-          "date": "2026-06-09",
-          "content": "中国AI初创公司月之暗面启动新一轮融资，计划筹集至多20亿美元，估值预计达到300亿美元。这是该公司六个月内第三轮融资，估值从去年12月的40亿美元飙升至当前目标。\n\n月之暗面旗下Kimi智能助手产品表现强劲，4月年化收入已突破2亿美元。公司近期还推出了Kimi Work AI Agent产品，进一步拓展商业化场景。\n\n消息人士透露，月之暗面正在重组离岸架构，为赴港股上市做准备。快速增长的估值和收入将为其IPO提供有力支撑。\n\n投资者对月之暗面的热情反映了市场对中国AI企业的持续看好。Kimi在中文语境下的优势使其在国际竞争中占据差异化地位。",
-          "content_en": "Chinese AI startup Moonshot AI is seeking up to $2 billion in new funding at an expected valuation of $30 billion. This is the company's third funding round in six months, with valuation soaring from just over $4 billion in December.\n\nMoonshot AI's Kimi assistant product has shown strong performance, with April annual recurring revenue exceeding $200 million. The company recently launched Kimi Work AI Agent product, further expanding commercialization scenarios.\n\nSources say Moonshot AI is restructuring its offshore governance for a Hong Kong listing. Rapidly growing valuation and revenue will provide strong support for its IPO.\n\nInvestor enthusiasm for Moonshot AI reflects continued market optimism about Chinese AI companies. Kimi's advantages in Chinese context give it a differentiated position in international competition.",
-          "key_points": [
-            "月之暗面融资20亿美元估值300亿",
-            "六个月内第三轮融资",
-            "年化收入突破2亿美元",
-            "重组架构筹备港股上市"
-          ],
-          "key_points_en": [
-            "Moonshot AI raises $2B at $30B valuation",
-            "Third funding round in six months",
-            "Annual revenue exceeds $200M",
-            "Restructuring for Hong Kong listing"
-          ]
-        },
-        {
-          "id": "news-2026-06-09-8",
-          "title": "GitHub Copilot桌面应用发布：AI编码从助手升级为自主智能体",
-          "title_en": "GitHub Copilot Desktop App Launches: AI Coding Upgrades from Assistant to Autonomous Agent",
-          "summary": "GitHub发布Copilot桌面应用技术预览版，作为AI智能体驱动开发的专属工作空间。支持并行工作流、GitHub集成和PR生命周期管理，适用于macOS、Windows和Linux。这标志着AI编码从编辑器内的辅助工具，升级为管理自身工作流的独立智能体，开发者角色从写代码转向监督智能体写代码。",
-          "summary_en": "GitHub launched a desktop Copilot app (technical preview) as a dedicated home for agent-driven development. Supports parallel workstreams, GitHub integration, and PR lifecycle management. Available on macOS, Windows, and Linux. This signals AI coding graduating from assistant to independent agent that manages its own workflows.",
-          "source": "GitHub Blog",
-          "source_en": "GitHub Blog",
-          "url": "https://singularity.kiwi/daily-technology-people-june-9-2026/",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "AI应用",
-          "date": "2026-06-09",
-          "content": "GitHub发布Copilot桌面应用技术预览版，这是首个以AI Agent驱动开发为核心的专属工作空间。该应用的发布标志着AI编码工具从编辑器辅助角色升级为独立开发伙伴。\n\n新应用支持并行工作流、深度GitHub集成和完整的PR生命周期管理。开发者可以在一个统一界面内完成从代码编写到PR合并的全部流程。\n\nCopilot桌面应用的核心理念是开发者角色转变：从亲自写代码转向监督AI Agent写代码。人类开发者的价值将更多体现在需求理解、架构设计和质量把控上。\n\n该应用支持macOS、Windows和Linux三大平台，将于今年晚些时候正式发布。",
-          "content_en": "GitHub released the Copilot desktop app technical preview, the first dedicated workspace centered on AI Agent-driven development. This launch signals AI coding tools graduating from editor assistant role to independent development partner.\n\nThe new app supports parallel workflows, deep GitHub integration, and complete PR lifecycle management. Developers can complete the entire process from code writing to PR merging within a unified interface.\n\nThe core concept of Copilot desktop app is developer role transformation: from writing code personally to supervising AI Agents writing code. Human developer value will increasingly manifest in requirement understanding, architecture design, and quality control.\n\nThe app supports macOS, Windows, and Linux, with official release planned for later this year.",
-          "key_points": [
-            "GitHub Copilot桌面应用发布",
-            "首个AI Agent驱动开发工作空间",
-            "支持并行工作流和PR全流程",
-            "开发者角色从写代码转向监督"
-          ],
-          "key_points_en": [
-            "GitHub Copilot desktop app launches",
-            "First AI Agent-driven development workspace",
-            "Supports parallel workflows and full PR lifecycle",
-            "Developer role shifts from writing to supervising code"
-          ]
-        },
-        {
-          "id": "news-2026-06-09-9",
-          "title": "AMD砸20亿英镑押注英国AI：苏姿丰在伦敦科技周宣布五年投资计划",
-          "title_en": "AMD Invests £2 Billion in UK AI: Lisa Su Announces Five-Year Plan at London Tech Week",
-          "summary": "AMD CEO苏姿丰在伦敦科技周宣布，计划未来五年在英国增加最高20亿英镑投资，用于扩大AI研发、深化与剑桥大学和帝国理工的合作、推进新工厂建设和现有设施升级。此举正值英国积极推动主权AI发展之际，Cosine等本土公司正崛起。AMD选择在英国加码，既是看准欧洲AI市场机遇，也是对英国AI人才池的认可。",
-          "summary_en": "AMD CEO Lisa Su announced plans to invest up to £2B in the UK over five years for AI R&D expansion, deeper partnerships with Cambridge and Imperial College, and new facilities. The move comes as the UK pushes sovereign AI development, with domestic firms like Cosine rising. AMD's investment signals confidence in the European AI market and UK talent pool.",
-          "source": "Coze News",
-          "source_en": "Coze News",
-          "url": "https://www.coze.cn/share-article/201780908512870464",
-          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=250&fit=crop",
-          "category": "芯片算力",
-          "date": "2026-06-09",
-          "content": "AMD CEO苏姿丰在伦敦科技周宣布，计划未来五年在英国增加最高20亿英镑投资，用于扩大AI研发、深化与剑桥大学和帝国理工的合作、推进新工厂建设和现有设施升级。\n\n这一投资正值英国积极推动主权AI发展战略之际。Cosine等本土AI公司的崛起展示了英国在AI领域的潜力。\n\nAMD选择在英国加码投资，既是看准欧洲AI市场的广阔机遇，也是对英国AI人才储备和科研实力的认可。伦敦作为全球金融中心的地位也为投资提供了良好环境。\n\n苏姿丰表示，AMD致力于支持英国的AI生态系统建设，期待与本地伙伴开展更深入合作。",
-          "content_en": "AMD CEO Lisa Su announced plans to invest up to £2 billion in the UK over five years for AI R&D expansion, deeper partnerships with Cambridge and Imperial College, and new facility construction and existing facility upgrades.\n\nThis investment comes as the UK actively promotes sovereign AI development strategy. The rise of domestic AI companies like Cosine demonstrates Britain's potential in the AI field.\n\nAMD's decision to increase UK investment reflects confidence in the European AI market and recognition of the UK's AI talent pool and research strength. London's status as a global financial center also provides a favorable environment.\n\nLisa Su stated AMD is committed to supporting the UK's AI ecosystem development and looks forward to deeper collaboration with local partners.",
-          "key_points": [
-            "AMD计划五年在英国投资20亿英镑",
-            "扩大AI研发和大学合作",
-            "支持英国主权AI战略",
-            "投资看准欧洲AI市场机遇"
-          ],
-          "key_points_en": [
-            "AMD plans £2B UK investment over five years",
-            "Expanding AI R&D and university partnerships",
-            "Supporting UK sovereign AI strategy",
-            "Investment targets European AI market opportunity"
           ]
         }
       ]
