@@ -81,9 +81,9 @@
             tag_compute: '算力',
 
             // 深度文章
-            deep_article_1_title: 'SpaceX上市与AI基础设施帝国——火箭公司的AI估值逻辑',
-            deep_article_2_title: 'AI商业革命：从聊天到购物——当AI智能体走进消费市场',
-            deep_article_3_title: 'AI算力军备竞赛：一周1200亿美元基础设施投入意味着什么？',
+            deep_article_1_title: 'AI模型成为「受控技术」：Anthropic被强制关停的历史性事件',
+            deep_article_2_title: 'SpaceX上市与AI基础设施帝国——火箭公司的AI估值逻辑',
+            deep_article_3_title: 'AI商业革命：从聊天到购物——当AI智能体走进消费市场',
 
             // 日期分隔符
             date_today: '今天',
@@ -172,9 +172,9 @@
             tag_compute: 'Compute',
 
             // Deep reads
-            deep_article_1_title: "SpaceX IPO and the AI Infrastructure Empire — The AI Valuation Logic of a Rocket Company",
-            deep_article_2_title: "AI Commerce Revolution: From Chat to Shopping — When AI Agents Enter the Consumer Market",
-            deep_article_3_title: "AI Infrastructure Arms Race: What Does $120 Billion in One Week Mean?",
+            deep_article_1_title: "AI Models as Controlled Technology: The Historic Anthropic Shutdown",
+            deep_article_2_title: "SpaceX IPO and the AI Infrastructure Empire — The AI Valuation Logic of a Rocket Company",
+            deep_article_3_title: "AI Commerce Revolution: From Chat to Shopping — When AI Agents Enter the Consumer Market",
 
             // Date separators
             date_today: 'Today',

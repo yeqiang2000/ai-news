@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "id": "article-14",
+      "title": "AI模型成为「受控技术」：Anthropic被强制关停的历史性事件",
+      "title_en": "AI Models as Controlled Technology: The Historic Anthropic Shutdown",
+      "summary": "美国政府首次使用出口管制权力强制关停Anthropic的Fable 5和Mythos 5模型，开创将AI模型视为「受控技术」的先例。72小时内从发布到关停的极速陨落，亚马逊的安全演示成为导火索，盟友愤怒反应，AI公司面临产品随时被关停的新现实。",
+      "summary_en": "The US government for the first time used export control powers to force Anthropic to shut down Fable 5 and Mythos 5, creating a precedent for treating AI models as 'controlled technology.' From launch to shutdown in 72 hours, Amazon's safety demo as the trigger, allies' anger, and the new reality that AI products can be shut down at any time.",
+      "category": "政策监管",
+      "date": "2026-06-15",
+      "url": "articles/article-14.html",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&h=450&fit=crop"
+    },
+    {
       "id": "article-12",
       "title": "AI商业革命：从聊天到购物——当AI智能体走进消费市场",
       "title_en": "AI Commerce Revolution: From Chat to Shopping — When AI Agents Enter the Consumer Market",
