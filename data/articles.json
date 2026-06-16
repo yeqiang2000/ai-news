@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "id": "article-15",
+      "title": "AI价格战：DeepSeek如何用1/10的成本颠覆AI巨头",
+      "title_en": "AI Price War: How DeepSeek Disrupts AI Giants with 1/10 the Cost",
+      "summary": "开源AI模型正在以摧枯拉朽之势改写企业市场的游戏规则。Vercel最新数据显示，DeepSeek在token处理量占比从4月的不足1%飙升至5月的17%，单月涨幅高达16倍。企业用户发现DeepSeek的API成本仅为Anthropic的十分之一——这不仅是一次技术迭代，更是一场关乎生存的成本革命。",
+      "summary_en": "Open-source AI models are rewriting enterprise market rules. Vercel data shows DeepSeek's token processing share surging from under 1% in April to 17% in May. Enterprise users discovered DeepSeek's API cost is just 1/10 of Anthropic's—a technology iteration and a survival-level cost revolution.",
+      "category": "产业",
+      "date": "2026-06-16",
+      "url": "articles/article-15.html",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop"
+    },
+    {
       "id": "article-14",
       "title": "AI模型成为「受控技术」：Anthropic被强制关停的历史性事件",
       "title_en": "AI Models as Controlled Technology: The Historic Anthropic Shutdown",
