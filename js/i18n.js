@@ -81,9 +81,9 @@
             tag_compute: '算力',
 
             // 深度文章
-            deep_article_1_title: 'AI价格战：DeepSeek如何用1/10的成本颠覆AI巨头',
-            deep_article_2_title: 'AI模型成为「受控技术」：Anthropic被强制关停的历史性事件',
-            deep_article_3_title: 'SpaceX上市与AI基础设施帝国——火箭公司的AI估值逻辑',
+            deep_article_1_title: '资本狂潮：2026年AI融资超万亿美元的冷思考',
+            deep_article_2_title: 'AI价格战：DeepSeek如何用1/10的成本颠覆AI巨头',
+            deep_article_3_title: 'AI模型成为「受控技术」：Anthropic被强制关停的历史性事件',
 
             // 日期分隔符
             date_today: '今天',
@@ -172,9 +172,9 @@
             tag_compute: 'Compute',
 
             // Deep reads
-            deep_article_1_title: "AI Price War: How DeepSeek Disrupts AI Giants with 1/10 the Cost",
-            deep_article_2_title: "AI Models as Controlled Technology: The Historic Anthropic Shutdown",
-            deep_article_3_title: "SpaceX IPO and the AI Infrastructure Empire — The AI Valuation Logic of a Rocket Company",
+            deep_article_1_title: "Capital Frenzy: Cold Analysis of $1 Trillion+ AI Funding in 2026",
+            deep_article_2_title: "AI Price War: How DeepSeek Disrupts AI Giants with 1/10 the Cost",
+            deep_article_3_title: "AI Models as Controlled Technology: The Historic Anthropic Shutdown",
 
             // Date separators
             date_today: 'Today',

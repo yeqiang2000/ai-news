@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "id": "article-16",
+      "title": "资本狂潮：2026年AI融资超万亿美元的冷思考",
+      "title_en": "Capital Frenzy: Cold Analysis of $1 Trillion+ AI Funding in 2026",
+      "summary": "2026年上半年AI行业融资规模已突破万亿美元。Mistral估值200亿欧元、NEURA Robotics融资14亿美元、Prometheus估值410亿美元——资本疯狂涌入背后的逻辑是什么？这场狂潮是泡沫还是革命的前夜？深度分析三大底层逻辑与四大泡沫信号。",
+      "summary_en": "2026 H1 AI financing exceeded $1 trillion. Mistral valued at €20B, NEURA Robotics raised $1.4B, Prometheus valued at $41B — what drives the capital frenzy? Deep analysis of three underlying logics and four bubble signals.",
+      "category": "投融资",
+      "date": "2026-06-17",
+      "url": "articles/article-16.html",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop"
+    },
+    {
       "id": "article-15",
       "title": "AI价格战：DeepSeek如何用1/10的成本颠覆AI巨头",
       "title_en": "AI Price War: How DeepSeek Disrupts AI Giants with 1/10 the Cost",
