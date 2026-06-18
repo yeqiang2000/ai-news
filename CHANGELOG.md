@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-06-18 — 6月18日每日更新
+
+### 新增
+- 6月18日新闻10条 + 头条（Transformer之父Noam Shazeer跳槽OpenAI，大模型架构战再升级）
+- 深度文章 `article-17.html`：《SpaceX 600亿美元收购Cursor：当航天巨头转型AI编程公司》正式上线
+- 新闻包括：OpenAI与Anthropic先后提交IPO申请、Claude Fable 5发布、Google I/O 2026 Gemini 3.5系列、Salesforce 36亿美元收购Fin、科创板第五套标准扩至AI大模型企业、NVIDIA收购Kumo AI、穹彻智能融资、白宫NSPM-11备忘录、Anthropic前沿AI暂停机制报告、学术团队极简数据超越巨头
+- `wechat/wechat-2026-06-18.html`：微信图文版（梁文锋的200亿豪赌：从量化之王到AI国家队）含原创声明
+- `toutiao/toutiao-2026-06-18.md`：头条版（AI公司上市潮来袭）
+
+### 修改
+- `data/news.json`：新增6月18日数据，移除6月13日（保留5天：18/17/16/15/14）
+- `data/articles.json`：新增 article-17 元数据（含image/category/read_time）
+- `index.html`：侧边栏推荐区更新（article-17 🔥、article-16 🔥、article-15 📖）
+- 微信文章边框修复：所有table/td强制border:none+border-collapse:collapse
+- 微信文章新增原创声明模块（晓色原创，未经授权禁止转载）
+- deploy.sh从git追踪中移除（含API密钥），加入.gitignore
+
+---
+
 ## 2026-06-17 — 6月17日每日更新
 
 ### 新增

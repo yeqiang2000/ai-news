@@ -1,6 +1,170 @@
 {
-  "last_updated": "2026-06-17T08:00:00+08:00",
+  "last_updated": "2026-06-18T08:00:00+08:00",
   "days": [
+    {
+      "date": "2026-06-18",
+      "hero": {
+        "title": "Transformer之父Noam Shazeer跳槽OpenAI，大模型架构战再升级",
+        "title_en": "Transformer Co-Author Noam Shazeer Jumps to OpenAI, Architecture War Escalates",
+        "summary": "Transformer论文作者之一、谷歌DeepMind工程副总裁兼Gemini联合负责人Noam Shazeer正式宣布离开谷歌加入OpenAI，担任架构研究负责人。这是继前Gemini产品负责人后，谷歌AI团队又一核心人才流失，标志着大模型架构探索战再度升级。同日，WAIC 2026确认7月17-20日在上海举办，超300款AI产品全球首发。",
+        "summary_en": "Noam Shazeer, co-author of the Transformer paper, Google DeepMind VP of Engineering and Gemini co-lead, officially announced his departure from Google to join OpenAI as Head of Architecture Research. This marks another core talent loss for Google's AI team, signaling an escalation in the battle for next-generation model architecture.",
+        "category": "AI人才",
+        "source": "CSDN / 36氪 / 财联社",
+        "source_en": "CSDN / 36Kr / Cailian Press",
+        "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+        "date": "2026-06-18",
+        "id": "hero-2026-06-18",
+        "content": "6月18日，AI行业上演了一场震动硅谷的「人才地震」——Transformer论文作者之一、谷歌DeepMind工程副总裁兼Gemini联合负责人Noam Shazeer正式宣布离开谷歌、加入OpenAI，将担任架构研究负责人。\n\nShazeer是2017年Transformer论文「Attention Is All You Need」的核心作者之一，在谷歌主导了多个大模型项目。他的离开被视为谷歌AI人才流失的标志性事件，也意味着OpenAI在下一代模型架构上获得了关键人才。\n\n同日，国务院新闻办公室披露WAIC 2026将于7月17-20日在上海举办，超300款AI产品全球首发；上交所将科创板第五套上市标准扩至AI大模型企业，资本市场反应积极。",
+        "content_en": "On June 18, the AI industry witnessed a 'talent earthquake' rocking Silicon Valley: Noam Shazeer, co-author of the Transformer paper and Google DeepMind's VP of Engineering, officially announced his departure from Google to join OpenAI as Head of Architecture Research.\n\nShazeer was one of the core authors of the 2017 'Attention Is All You Need' paper and led multiple large model projects at Google. His departure is seen as a landmark event in Google's AI talent drain, and means OpenAI has acquired key talent for next-generation model architecture.",
+        "key_points": [
+          "Transformer论文作者Noam Shazeer离开谷歌加入OpenAI",
+          "将担任OpenAI架构研究负责人",
+          "谷歌AI团队核心人才持续流失",
+          "WAIC 2026确认7月上海举办，超300款AI产品首发",
+          "科创板第五套上市标准扩至AI大模型企业"
+        ],
+        "key_points_en": [
+          "Transformer paper co-author Noam Shazeer leaves Google for OpenAI",
+          "Will serve as OpenAI Head of Architecture Research",
+          "Continued core talent drain from Google's AI team",
+          "WAIC 2026 confirmed for July in Shanghai, 300+ AI products debuting",
+          "STAR Market extends listing standards to AI large-model companies"
+        ]
+      },
+      "articles": [
+        {
+          "title": "OpenAI与Anthropic先后提交IPO申请，AI巨头竞速上市",
+          "title_en": "OpenAI and Anthropic File IPO Applications, AI Giants Race to Go Public",
+          "summary": "OpenAI在Anthropic提交保密IPO申请数日后跟进，双方竞逐2026年秋季上市窗口，与SpaceX共同构成三大潜在万亿级AI上市企业。",
+          "summary_en": "OpenAI followed Anthropic's confidential IPO filing days later, both competing for fall 2026 listing windows, joining SpaceX as three potential trillion-dollar AI IPOs.",
+          "category": "资本市场",
+          "source": "头条新闻 / Reuters",
+          "source_en": "Toutiao News / Reuters",
+          "url": "https://m.toutiao.com/group/7652645312196133402/",
+          "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
+          "date": "2026-06-18",
+          "id": "news-2026-06-18-1"
+        },
+        {
+          "title": "Anthropic发布最强公开模型Claude Fable 5",
+          "title_en": "Anthropic Releases Most Powerful Public Model Claude Fable 5",
+          "summary": "Anthropic推出Mythos级别的Claude Fable 5，在软件工程、知识工作、视觉和科学推理等长程复杂任务上达到行业领先，Stripe测试显示其可在一天内完成5000万行Ruby代码库迁移。",
+          "summary_en": "Anthropic launched Mythos-level Claude Fable 5, achieving industry-leading performance in software engineering, knowledge work, vision and scientific reasoning. Stripe tests showed it can complete a 50M-line Ruby codebase migration in one day.",
+          "category": "大模型",
+          "source": "头条新闻 / The Verge",
+          "source_en": "Toutiao News / The Verge",
+          "url": "https://m.toutiao.com/group/7652645312196133402/",
+          "image": "https://images.unsplash.com/photo-1676299081847-824916de030a?w=800&h=450&fit=crop",
+          "date": "2026-06-18",
+          "id": "news-2026-06-18-2"
+        },
+        {
+          "title": "Google I/O 2026发布Gemini 3.5系列与AI代理生态",
+          "title_en": "Google I/O 2026 Launches Gemini 3.5 Series and AI Agent Ecosystem",
+          "summary": "Google推出Gemini 3.5 Flash（速度提升4倍）和Gemini Omni视频生成模型，并发布24/7个人代理Gemini Spark，标志着从「助手」向「主动代理」的战略转型。",
+          "summary_en": "Google launched Gemini 3.5 Flash (4x speed improvement) and Gemini Omni video generation model, plus 24/7 personal agent Gemini Spark, marking a strategic shift from 'assistant' to 'proactive agent'.",
+          "category": "大模型",
+          "source": "头条新闻 / TechCrunch",
+          "source_en": "Toutiao News / TechCrunch",
+          "url": "https://m.toutiao.com/group/7652645312196133402/",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
+          "date": "2026-06-18",
+          "id": "news-2026-06-18-3"
+        },
+        {
+          "title": "Salesforce以36亿美元收购AI企业Fin",
+          "title_en": "Salesforce Acquires AI Company Fin for $3.6 Billion",
+          "summary": "Salesforce宣布以约36亿美元收购AI工作流自动化公司Fin，进一步加码企业AI市场，反映出大型软件厂商通过并购快速获取AI能力的行业趋势。",
+          "summary_en": "Salesforce announced acquisition of AI workflow automation company Fin for approximately $3.6B, doubling down on enterprise AI market, reflecting the trend of large software vendors rapidly acquiring AI capabilities through M&A.",
+          "category": "并购",
+          "source": "头条新闻 / Reuters",
+          "source_en": "Toutiao News / Reuters",
+          "url": "https://m.toutiao.com/group/7652645312196133402/",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
+          "date": "2026-06-18",
+          "id": "news-2026-06-18-4"
+        },
+        {
+          "title": "科创板第五套上市标准扩至AI大模型企业，AI概念股大涨",
+          "title_en": "STAR Market Extends Listing Standards to AI Large-Model Companies, AI Stocks Surge",
+          "summary": "上交所将科创板第五套上市标准扩至AI大模型企业，中际旭创总市值超1.52万亿冲入A股前十，工业富联涨7.49%市值逼近1.55万亿。AI ETF连续五日上涨。",
+          "summary_en": "Shanghai Stock Exchange extended STAR Market's fifth listing standard to AI large-model companies. Zhongji Innolight's market cap exceeded 1.52 trillion yuan entering A-share top 10. Industrial Foxconn rose 7.49% with market cap near 1.55 trillion.",
+          "category": "资本市场",
+          "source": "证券时报 / 财联社",
+          "source_en": "Securities Times / Cailian Press",
+          "url": "https://m.toutiao.com/group/7652666324832879142/",
+          "image": "https://images.unsplash.com/photo-1590283603385-17ffb3b7c501?w=800&h=450&fit=crop",
+          "date": "2026-06-18",
+          "id": "news-2026-06-18-5"
+        },
+        {
+          "title": "NVIDIA以超4亿美元收购企业预测AI公司Kumo AI",
+          "title_en": "NVIDIA Acquires Enterprise Predictive AI Company Kumo AI for Over $400M",
+          "summary": "NVIDIA收购Kumo AI以强化结构化企业数据预测分析能力，该交易是NVIDIA 2024-2026年AI基础设施与企业软件收购潮的最新动作。",
+          "summary_en": "NVIDIA acquired Kumo AI to strengthen structured enterprise data predictive analytics capabilities, the latest in NVIDIA's 2024-2026 AI infrastructure and enterprise software acquisition wave.",
+          "category": "并购",
+          "source": "头条新闻 / TechCrunch",
+          "source_en": "Toutiao News / TechCrunch",
+          "url": "https://m.toutiao.com/group/7652645312196133402/",
+          "image": "https://images.unsplash.com/photo-1625895197185-0c4eab55b5d1?w=800&h=450&fit=crop",
+          "date": "2026-06-18",
+          "id": "news-2026-06-18-6"
+        },
+        {
+          "title": "穹彻智能完成数亿元新一轮融资，具身智能赛道持续火热",
+          "title_en": "Noematrix Completes New Funding Round Worth Hundreds of Millions, Embodied AI Sector Remains Hot",
+          "summary": "具身智能企业穹彻智能(Noematrix)宣布完成新一轮数亿元融资，由无锡数据集团领投。公司由非夕科技战略孵化，此前已获红杉中国、阿里巴巴等加持。",
+          "summary_en": "Embodied AI company Noematrix announced completion of a new funding round worth several hundred million yuan, led by Wuxi Data Group. Previously backed by Sequoia China, Alibaba and others.",
+          "category": "融资",
+          "source": "CSDN / 36氪",
+          "source_en": "CSDN / 36Kr",
+          "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
+          "date": "2026-06-18",
+          "id": "news-2026-06-18-7"
+        },
+        {
+          "title": "白宫发布NSPM-11备忘录，推动前沿AI模型监管",
+          "title_en": "White House Issues NSPM-11 Memo, Pushing Frontier AI Model Regulation",
+          "summary": "白宫发布国家安全总统备忘录，要求60天内建立前沿覆盖模型分类基准流程，并设立AI网络安全协调中心，标志着美国联邦层面前沿AI监管框架加速落地。",
+          "summary_en": "The White House issued a national security presidential memorandum requiring establishment of frontier model classification baseline process within 60 days and an AI cybersecurity coordination center.",
+          "category": "政策",
+          "source": "头条新闻 / The Verge",
+          "source_en": "Toutiao News / The Verge",
+          "url": "https://m.toutiao.com/group/7652645312196133402/",
+          "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&h=450&fit=crop",
+          "date": "2026-06-18",
+          "id": "news-2026-06-18-8"
+        },
+        {
+          "title": "Anthropic发布报告呼吁建立可验证的前沿AI暂停机制",
+          "title_en": "Anthropic Report Calls for Verifiable Frontier AI Pause Mechanism",
+          "summary": "Anthropic研究所发布《When AI Builds Itself》报告，披露Claude已撰写公司80%以上代码，并呼吁行业建立协调、可验证的暂停机制以应对AI自我加速发展的风险。",
+          "summary_en": "Anthropic Research released 'When AI Builds Itself' report, disclosing Claude now writes 80%+ of company code, calling for coordinated verifiable pause mechanisms to address AI self-acceleration risks.",
+          "category": "AI安全",
+          "source": "头条新闻 / MIT Technology Review",
+          "source_en": "Toutiao News / MIT Technology Review",
+          "url": "https://m.toutiao.com/group/7652645312196133402/",
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop",
+          "date": "2026-06-18",
+          "id": "news-2026-06-18-9"
+        },
+        {
+          "title": "学术团队以极简数据策略超越科技巨头AI搜索模型",
+          "title_en": "Academic Team Beats Tech Giants' AI Search Models with Minimal Data Strategy",
+          "summary": "研究人员通过OpenSeeker-v2证明，仅使用10600条精选数据即可在xbench等基准测试中以78%准确率超越行业模型，挑战了「大算力+大数据」的传统开发范式。",
+          "summary_en": "Researchers proved via OpenSeeker-v2 that using only 10,600 curated data points achieves 78% accuracy on xbench benchmarks, surpassing industry models and challenging the traditional 'big compute + big data' paradigm.",
+          "category": "研究",
+          "source": "头条新闻 / MIT Technology Review",
+          "source_en": "Toutiao News / MIT Technology Review",
+          "url": "https://m.toutiao.com/group/7652645312196133402/",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=450&fit=crop",
+          "date": "2026-06-18",
+          "id": "news-2026-06-18-10"
+        }
+      ]
+    },
     {
       "date": "2026-06-17",
       "hero": {
@@ -989,308 +1153,6 @@
             "TPUs becoming GPU alternative",
             "NVIDIA $73B backlog",
             "AI compute market diversifying"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-13",
-      "hero": {
-        "title": "SpaceX IPO首日收涨19%报161美元，马斯克成全球首位万亿富翁",
-        "title_en": "SpaceX IPO Closes Up 19% at $161, Musk Becomes World's First Trillionaire",
-        "summary": "SpaceX股票SPCX在纳斯达克首日交易中上涨19%收于161美元，市值接近2万亿美元。Forbes正式宣布马斯克净资产突破1万亿美元，成为人类历史上首位万亿富翁。分析指出市场正将SpaceX估值为AI基础设施和计算平台，而非单纯的火箭公司。与此同时，OpenAI和Anthropic也在筹备IPO，AI科技上市潮正式开启。",
-        "summary_en": "SpaceX shares (SPCX) surged 19% to $161 on Nasdaq debut, approaching a $2 trillion market cap. Forbes officially declared Elon Musk the world's first trillionaire. Analysis suggests the market is valuing SpaceX as a future AI infrastructure and compute platform, not just a launch company. Meanwhile, OpenAI and Anthropic are also preparing for IPOs in a landmark AI-tech listing season.",
-        "category": "投融资",
-        "source": "Forbes",
-        "source_en": "Forbes",
-        "url": "https://creati.ai/ai-news/2026-06-13/",
-        "image": "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?w=800&h=450&fit=crop",
-        "date": "2026-06-13",
-        "id": "hero-2026-06-13",
-        "content": "SpaceX在纳斯达克的首日表现远超市场预期，股票代码SPCX以161美元收盘，较发行价上涨19%，市值逼近2万亿美元大关。这一里程碑事件标志着太空探索正式进入资本市场的主流视野。\n\nForbes在当日正式更新了其亿万富豪排行榜，马斯克以超过1万亿美元的净资产成为人类历史上首位达成这一成就的人。这一数字不仅包含了SpaceX的股份价值，还涵盖了特斯拉、xAI等关联企业的持股。\n\n值得注意的是，市场分析师普遍将SpaceX的估值逻辑从传统的航空航天公司调整为AI基础设施和计算平台。这一认知转变意味着投资者开始将Starlink的全球网络能力、Starship的货运能力以及xAI的算力资源整合评估。\n\n与此同时，AI科技公司IPO热潮正在加速。OpenAI和Anthropic据悉都在积极筹备上市事宜，AI行业正式从风险投资驱动转向公开市场融资的新阶段。",
-        "content_en": "SpaceX's debut on Nasdaq exceeded market expectations, with shares closing at $161, up 19% from the offering price, pushing its market cap close to $2 trillion. This milestone marks space exploration's entry into the mainstream capital market.\n\nForbes officially updated its billionaire rankings that same day, declaring Musk the first person in human history to reach a net worth exceeding $1 trillion. This figure encompasses his SpaceX stake along with holdings in Tesla, xAI, and other affiliated companies.\n\nMarket analysts notably shifted their valuation framework for SpaceX from traditional aerospace to AI infrastructure and compute platform. This cognitive transformation indicates investors are now evaluating Starlink's global network capacity, Starship's cargo capabilities, and xAI's compute resources as an integrated whole.\n\nMeanwhile, the wave of AI tech IPOs is accelerating. OpenAI and Anthropic are reportedly preparing for public listings, signaling the AI industry's formal transition from venture capital to public market financing.",
-        "key_points": [
-          "SpaceX首日上市市值逼近2万亿美元",
-          "马斯克成为全球首位万亿富翁",
-          "市场按AI基础设施而非航天公司估值SpaceX",
-          "OpenAI和Anthropic筹备IPO"
-        ],
-        "key_points_en": [
-          "SpaceX debuts with $2T market cap near",
-          "Musk becomes world's first trillionaire",
-          "Market values SpaceX as AI infrastructure",
-          "OpenAI and Anthropic prepare for IPO"
-        ]
-      },
-      "articles": [
-        {
-          "title": "Mistral AI即将完成30亿欧元融资，估值达200亿欧元",
-          "title_en": "Mistral AI Close to Raising €3 Billion at €20 Billion Valuation",
-          "summary": "法国AI公司Mistral AI据报正在进行高级谈判，计划融资约30亿欧元，估值可达200亿欧元。这将是欧洲AI领域最大规模的融资之一，进一步巩固Mistral作为OpenAI和Anthropic在欧洲主要竞争对手的地位。",
-          "summary_en": "French AI company Mistral AI is reportedly in advanced discussions to raise around €3 billion at a potential €20 billion valuation, one of the largest AI funding rounds in Europe, further cementing its position as the primary European competitor to OpenAI and Anthropic.",
-          "category": "投融资",
-          "source": "The Tech Portal",
-          "source_en": "The Tech Portal",
-          "url": "https://thetechportal.com/a-i/",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop",
-          "date": "2026-06-13",
-          "id": "news-2026-06-13-0",
-          "content": "法国AI初创公司Mistral AI正在推进一笔规模可观的融资交易。据知情人士透露，公司已进入与投资方的高级谈判阶段，计划募集约30亿欧元资金。\n\n若此次融资顺利完成，Mistral AI的估值将达到200亿欧元左右，将成为欧洲AI领域估值最高的公司之一。这一估值水平也意味着Mistral已稳坐OpenAI和Anthropic在欧洲的主要竞争对手地位。\n\nMistral AI自成立以来一直以其开源策略著称，其Mistral系列模型在全球开发者社区中获得了广泛认可。公司坚持在模型权重和训练方法上的透明度，这在监管趋严的欧洲市场形成了差异化优势。\n\n业内人士分析认为，欧洲AI产业正在经历从学术研究向商业化应用的转型期，Mistral的融资成功将为整个生态系统注入信心。",
-          "content_en": "French AI startup Mistral AI is advancing a substantial funding round. According to sources familiar with the matter, the company has entered advanced negotiations with investors to raise approximately €3 billion.\n\nIf successful, this round would value Mistral AI at around €20 billion, making it one of the highest-valued AI companies in Europe. This valuation cements its position as the primary European competitor to OpenAI and Anthropic.\n\nMistral AI has distinguished itself through its open-source strategy since founding, with its Mistral series gaining wide adoption in the global developer community. The company's commitment to transparency in model weights and training methods has created a differentiated advantage in Europe's tightening regulatory environment.\n\nIndustry observers believe European AI is undergoing a transition from academic research to commercial application, and Mistral's successful funding would boost confidence across the entire ecosystem.",
-          "key_points": [
-            "Mistral AI融资30亿欧元估值200亿",
-            "欧洲AI领域最大规模融资之一",
-            "巩固欧洲最大AI独角兽地位",
-            "开源策略形成差异化优势"
-          ],
-          "key_points_en": [
-            "Mistral AI raising €3B at €20B valuation",
-            "One of Europe's largest AI funding rounds",
-            "Strengthens position as top European AI unicorn",
-            "Open-source strategy creates differentiation"
-          ]
-        },
-        {
-          "title": "OpenAI收购Ona加强AI智能体控制能力，团队并入Codex部门",
-          "title_en": "OpenAI Acquires Ona to Strengthen AI Agent Control, Team Joins Codex Division",
-          "summary": "OpenAI同意收购云执行初创公司Ona，其团队将加入Codex部门。Ona专注于团队知识、项目管理和工作流整合，与Codex编程智能体结合后，OpenAI有望将模型能力从命令行和聊天框推向更完整的工作台。",
-          "summary_en": "OpenAI has agreed to acquire Ona, a cloud execution startup, with the team joining the Codex division. Ona specializes in team knowledge, project management and workflow integration, potentially extending OpenAI's model capabilities from command lines and chat boxes to a more complete workstation.",
-          "category": "AI应用",
-          "source": "InfoWorld",
-          "source_en": "InfoWorld",
-          "url": "https://thetechportal.com/a-i/",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop",
-          "date": "2026-06-13",
-          "id": "news-2026-06-13-1",
-          "content": "OpenAI宣布收购云执行初创公司Ona，这笔交易将显著增强其在AI智能体领域的技术能力。Ona的核心团队将直接并入OpenAI的Codex部门，该部门专注于编程智能体的开发。\n\nOna的技术专长在于团队知识管理、项目协调和工作流自动化。这些能力与Codex现有的编程智能体相结合，将使OpenAI能够将其模型能力从简单的对话交互扩展到更完整的工作场景。\n\n业内人士分析认为，此次收购反映了AI行业从对话界面向任务执行平台的演进趋势。OpenAI正在努力打破传统聊天机器人的局限性，构建能够真正替代人类完成复杂任务的智能体系统。\n\n对于企业用户而言，这意味着AI助手的应用场景将从信息查询扩展到实际的业务流程执行。",
-          "content_en": "OpenAI announced the acquisition of cloud execution startup Ona, significantly enhancing its capabilities in AI agents. Ona's core team will integrate directly into OpenAI's Codex division, focused on programming agents.\n\nOna's expertise lies in team knowledge management, project coordination, and workflow automation. Combined with Codex's existing programming agents, this enables OpenAI to extend model capabilities beyond simple conversational interactions to complete work scenarios.\n\nIndustry observers suggest the acquisition reflects the industry's evolution from chat interfaces to task execution platforms. OpenAI is working to break traditional chatbot limitations, building agent systems capable of genuinely replacing humans in complex tasks.\n\nFor enterprise users, this means AI assistant applications will expand from information queries to actual business process execution.",
-          "key_points": [
-            "OpenAI收购Ona强化智能体能力",
-            "团队并入Codex编程部门",
-            "从对话交互扩展到完整工作场景",
-            "企业AI应用场景大幅扩展"
-          ],
-          "key_points_en": [
-            "OpenAI acquires Ona to strengthen agent capabilities",
-            "Team joins Codex programming division",
-            "Expands from chat to complete work scenarios",
-            "Enterprise AI use cases significantly expanded"
-          ]
-        },
-        {
-          "title": "Anthropic推出垂直行业AI软件，直接威胁企业AI构建商",
-          "title_en": "Anthropic Vertical Software Rollout Threatens Enterprise AI Builders",
-          "summary": "Anthropic推出面向特定行业的AI工具，直接挑战在其Claude模型之上构建产品的公司，重塑企业AI市场格局。这意味着基础模型公司正从平台向应用层延伸，与自己的生态伙伴形成竞争。",
-          "summary_en": "Anthropic's new industry-specific AI tools directly challenge companies building products on top of its Claude models, reshaping the enterprise AI market. This signals foundational model companies are extending from platforms to applications, competing with their own ecosystem partners.",
-          "category": "AI商业",
-          "source": "creati.ai",
-          "source_en": "creati.ai",
-          "url": "https://creati.ai/ai-news/2026-06-13/",
-          "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=400&h=250&fit=crop",
-          "date": "2026-06-13",
-          "id": "news-2026-06-13-2",
-          "content": "Anthropic宣布推出面向特定垂直行业的AI软件解决方案，这一战略举措直接挑战了那些基于Claude模型构建产品的第三方开发商。新产品涵盖金融、医疗、法律等多个专业领域。\n\n此举意味着Anthropic作为基础模型提供商，正从平台层向应用层延伸，与自身的生态系统合作伙伴形成竞争关系。这一策略转变在科技行业并不罕见，但往往会引起合作伙伴的担忧。\n\nAnthropic表示，推出垂直行业解决方案是为了满足那些需要更高精度和定制化能力的企业客户。公司强调，这些解决方案仍然基于Claude模型，只是针对特定行业需求进行了优化。\n\n市场分析师认为，这一战略调整将重塑企业AI市场的竞争格局。基础模型公司与应用开发商之间的界限正变得日益模糊。",
-          "content_en": "Anthropic announced AI software solutions for specific vertical industries, directly challenging third-party developers building products on Claude. New offerings cover finance, healthcare, law, and other professional domains.\n\nThis move means Anthropic, as a foundation model provider, is extending from platform to application layer, creating competition with its own ecosystem partners. This strategic shift isn't uncommon in tech but often raises concerns among partners.\n\nAnthropic states vertical solutions aim to serve enterprise clients requiring higher precision and customization. The company emphasizes these solutions still build on Claude, merely optimized for specific industry needs.\n\nMarket analysts believe this strategic adjustment will reshape competitive dynamics in enterprise AI. The boundary between foundation model companies and application developers is becoming increasingly blurred.",
-          "key_points": [
-            "Anthropic推出垂直行业AI工具",
-            "直接挑战生态合作伙伴",
-            "从平台层向应用层延伸",
-            "重塑企业AI市场格局"
-          ],
-          "key_points_en": [
-            "Anthropic launches vertical AI tools",
-            "Directly challenges ecosystem partners",
-            "Extends from platform to application layer",
-            "Reshapes enterprise AI market dynamics"
-          ]
-        },
-        {
-          "title": "欧盟达成AI法案修订协议：高风险系统合规期限延长，透明义务提前",
-          "title_en": "EU Agrees AI Act Changes: Extended Compliance for High-Risk Systems, Earlier Transparency Rules",
-          "summary": "欧盟政策制定者达成临时协议，修订AI法案的实施时间表：高风险AI系统的合规期限获得延长，但AI生成内容的透明标注义务被提前执行。这一调整平衡了产业创新需求与安全监管节奏。",
-          "summary_en": "European policymakers reached a provisional agreement to revise the AI Act timeline, extending compliance deadlines for high-risk AI systems while bringing forward transparency obligations for AI-generated content, balancing innovation needs with regulatory safety.",
-          "category": "政策监管",
-          "source": "CNNBC",
-          "source_en": "CNNBC",
-          "url": "https://cnnbc.com/european-union-agrees-changes-to-ai-act-compliance-deadlines-and-transparency-rules",
-          "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=250&fit=crop",
-          "date": "2026-06-13",
-          "id": "news-2026-06-13-3",
-          "content": "欧盟政策制定者达成临时协议，对AI法案的实施时间表进行修订。新协议延长了高风险AI系统的合规最后期限，同时提前了AI生成内容透明标注义务的执行时间。\n\n具体而言，独立的AI高风险系统合规期限延至2027年底，而嵌入其他产品中的AI系统合规期限则延至2028年8月。这一调整为业界提供了更充分的准备时间。\n\n与此同时，AI生成内容的透明标注义务被提前执行，要求相关方在使用AI生成的内容时明确标注来源。这一要求主要针对深度伪造和自动化内容生产场景。\n\n欧盟表示，这一调整旨在平衡产业创新需求与安全监管节奏，在推动AI技术发展的同时确保必要的风险防控措施到位。",
-          "content_en": "EU policymakers reached a provisional agreement to revise the AI Act implementation timeline. The new agreement extends compliance deadlines for high-risk AI systems while accelerating transparency obligations for AI-generated content.\n\nSpecifically, compliance deadlines for standalone high-risk AI systems are pushed to end of 2027, while AI systems embedded in other products have until August 2028. This adjustment provides the industry with more preparation time.\n\nMeanwhile, transparency obligations for AI-generated content are being accelerated, requiring parties to clearly label sources when using AI-generated material. This requirement primarily targets deepfake and automated content production scenarios.\n\nThe EU states this adjustment aims to balance industry innovation needs with regulatory safety, ensuring necessary risk controls are in place while promoting AI technology development.",
-          "key_points": [
-            "欧盟修订AI法案实施时间表",
-            "高风险系统合规期限延长",
-            "AI生成内容透明义务提前",
-            "平衡创新需求与安全监管"
-          ],
-          "key_points_en": [
-            "EU revises AI Act implementation timeline",
-            "High-risk system compliance extended",
-            "AI content transparency obligations accelerated",
-            "Balances innovation with safety regulation"
-          ]
-        },
-        {
-          "title": "路透/益普索民调：53%美国人担忧AI导致家人失业",
-          "title_en": "Reuters/Ipsos Poll: 53% of Americans Fear AI Could Cost Household Jobs",
-          "summary": "路透社与益普索联合民调显示，53%的美国受访者担忧AI进步可能导致家人失业。这一担忧跨越年龄、性别和教育水平，凸显AI快速普及带来的社会焦虑。此前Intuit已宣布裁减17%全球员工以聚焦AI。",
-          "summary_en": "A Reuters/Ipsos poll found 53% of Americans worry AI advances could cost someone in their household a job. The concern spans age, gender and education levels, highlighting growing social anxiety amid rapid AI adoption following layoffs at companies like Intuit.",
-          "category": "社会影响",
-          "source": "Reuters",
-          "source_en": "Reuters",
-          "url": "https://www.torontotelegraph.com/news/279114601/reuters-ipsos-poll-finds-growing-anxiety-over-ai-adoption",
-          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=250&fit=crop",
-          "date": "2026-06-13",
-          "id": "news-2026-06-13-4",
-          "content": "路透社与益普索联合发布的民调显示，超过半数的美国受访者对AI技术可能导致家人失业表示担忧。这一比例达到了53%，显示出AI快速普及在公众中引发的深层焦虑。\n\n民调结果揭示了一个跨群体的普遍现象：担忧情绪不分年龄、性别和教育水平。这种广泛的焦虑反映了公众对AI变革性影响的认知正在加深。\n\n在此之前，多家科技公司已宣布因聚焦AI而进行裁员。 Intuit宣布裁减17%的全球员工，以将资源重新分配到AI领域。这类举措进一步加剧了公众对AI可能导致就业冲击的担忧。\n\n社会学家指出，历史上重大技术革命都伴随着类似的就业焦虑期。政策制定者和企业需要关注技术转型对劳动力市场的潜在影响，并积极探索应对措施。",
-          "content_en": "A joint Reuters/Ipsos poll shows 53% of American respondents worry AI technology could cost family members their jobs, reflecting deep public anxiety over rapid AI adoption.\n\nThe survey reveals a phenomenon cutting across demographic groups: concerns span age, gender, and education levels. This widespread anxiety reflects deepening public awareness of AI's transformative impact.\n\nPrior to this, several tech companies announced layoffs as they refocus on AI. Intuit announced cutting 17% of its global workforce to redirect resources toward AI. Such moves have further intensified public concerns about potential employment shocks from AI.\n\nSociologists note that major technological revolutions throughout history have been accompanied by similar periods of employment anxiety. Policymakers and businesses need to address the potential labor market impacts of technological transition and actively explore countermeasures.",
-          "key_points": [
-            "53%美国人担忧AI导致家人失业",
-            "焦虑情绪跨越年龄性别教育水平",
-            "Intuit等公司裁员聚焦AI加剧担忧",
-            "技术变革就业冲击引广泛警惕"
-          ],
-          "key_points_en": [
-            "53% of Americans fear AI could cost household jobs",
-            "Anxiety spans age, gender, education levels",
-            "Companies like Intuit layoffs amplify concerns",
-            "Tech disruption employment impact raises alarm"
-          ]
-        },
-        {
-          "title": "OpenAI因设计缺陷致人自杀遭起诉，面临多起类似诉讼",
-          "title_en": "OpenAI Sued Over Design Defect Linked to Suicide, Faces Multiple Similar Lawsuits",
-          "summary": "一名加拿大女子在加州起诉OpenAI及其CEO奥特曼，称ChatGPT的设计问题导致其女儿自杀。起诉书称ChatGPT优先考虑用户参与度而非安全性，安全系统未能在用户表露自杀倾向时启动介入。OpenAI回应称事件令人心碎，正加强敏感情况应对能力。",
-          "summary_en": "A Canadian woman sued OpenAI and CEO Altman in California, claiming ChatGPT's design contributed to her daughter's suicide. The lawsuit alleges ChatGPT prioritized engagement over safety, failing to intervene when the user expressed suicidal thoughts. OpenAI called the incident heartbreaking and said it's strengthening responses to sensitive situations.",
-          "category": "AI安全",
-          "source": "央视新闻",
-          "source_en": "CCTV News",
-          "url": "http://m.toutiao.com/group/7650679041241973248/",
-          "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop",
-          "date": "2026-06-13",
-          "id": "news-2026-06-13-5",
-          "content": "一名加拿大女子在加州对OpenAI及其CEO奥特曼提起诉讼，指控ChatGPT的设计缺陷导致其女儿自杀。这起案件引发了关于AI系统安全设计和用户保护的广泛讨论。\n\n起诉书的核心指控是ChatGPT优先考虑用户参与度而非安全性。原告认为，当用户表露自杀倾向时，ChatGPT的安全系统未能及时启动干预机制，最终导致了悲剧发生。\n\nOpenAI在回应声明中表示，这一事件令人心碎，公司正在加强AI系统在敏感情况下的应对能力。OpenAI同时强调，其安全政策明确禁止鼓励或协助自残行为。\n\n法律专家分析指出，随着AI系统深度融入日常生活，类似的产品责任诉讼可能会增加。法院如何界定AI开发者的注意义务将成为重要判例。",
-          "content_en": "A Canadian woman filed a lawsuit in California against OpenAI and CEO Altman, alleging ChatGPT's design defects contributed to her daughter's suicide. The case has sparked broad discussion about AI system safety design and user protection.\n\nThe core allegation centers on ChatGPT prioritizing user engagement over safety. Plaintiffs argue the system failed to trigger intervention mechanisms when users expressed suicidal thoughts, ultimately leading to tragedy.\n\nOpenAI's response stated the incident was heartbreaking and the company is strengthening AI system responses to sensitive situations. OpenAI emphasized its safety policies explicitly prohibit encouraging or assisting self-harm.\n\nLegal experts analyze that as AI systems deeply integrate into daily life, similar product liability lawsuits may increase. How courts define AI developers' duty of care will become important precedent.",
-          "key_points": [
-            "ChatGPT设计缺陷致人自杀遭起诉",
-            "OpenAI面临产品责任诉讼",
-            "安全系统未有效干预敏感情况",
-            "AI开发者注意义务成关键议题"
-          ],
-          "key_points_en": [
-            "ChatGPT design linked to suicide lawsuit",
-            "OpenAI faces product liability claims",
-            "Safety systems failed in sensitive situations",
-            "AI developer duty of care becomes key issue"
-          ]
-        },
-        {
-          "title": "Kimi推出全球首张AI原生信用卡：消费可转化为AI算力额度",
-          "title_en": "Kimi Launches World's First AI-Native Credit Card: Spending Converts to AI Compute Credits",
-          "summary": "月之暗面旗下Kimi智能助手宣布，全球首张AI原生信用卡Kimi信用卡正式开启预约。持卡人每笔消费可转化为AI算力额度，兑换Agent使用额度和高级功能权限。AI原生金融产品标志着AI与消费场景的深度融合。",
-          "summary_en": "Moonshot AI's Kimi announced the world's first AI-native credit card is open for pre-order. Every purchase converts to AI compute credits redeemable for Agent usage and premium features, marking a deep integration of AI with consumer finance.",
-          "category": "AI应用",
-          "source": "界面新闻",
-          "source_en": "Jiemian News",
-          "url": "http://m.toutiao.com/group/7650679041241973248/",
-          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop",
-          "date": "2026-06-13",
-          "id": "news-2026-06-13-6",
-          "content": "月之暗面旗下Kimi智能助手宣布，全球首张AI原生信用卡Kimi信用卡正式开启预约。这款创新产品将消费行为与AI算力资源直接挂钩，标志着AI与消费金融的深度融合。\n\n持卡人的每一笔消费都将按比例转化为AI算力额度，用户可以使用这些额度兑换Agent使用额度和高级功能权限。这一模式为AI服务的商业化提供了全新思路。\n\n与传统信用卡不同，Kimi信用卡的内核是一套智能化的资源分配系统。AI算法会根据用户的消费习惯和使用场景，动态调整算力分配的优先级。\n\n业内人士认为，这种将消费行为转化为技术资源的方式，开创了AI原生金融产品的先河。随着AI技术向消费场景加速渗透，类似的产品形态可能会更加普及。",
-          "content_en": "Moonshot AI's Kimi assistant announced the world's first AI-native credit card is officially open for pre-order. This innovative product directly links consumer spending to AI compute resources, marking deep integration of AI with consumer finance.\n\nCardholders' every purchase converts proportionally to AI compute credits, which can be redeemed for Agent usage and premium feature access. This model provides a novel approach to AI service commercialization.\n\nUnlike traditional credit cards, the Kimi card's core is an intelligent resource allocation system. AI algorithms dynamically adjust compute distribution priorities based on user spending habits and usage scenarios.\n\nIndustry observers believe this approach to converting consumption into technology resources pioneers AI-native financial products. As AI technology accelerates into consumer scenarios, similar product forms may become more widespread.",
-          "key_points": [
-            "Kimi推出全球首张AI原生信用卡",
-            "消费转化为AI算力额度",
-            "兑换Agent使用和高级功能",
-            "开创AI原生金融产品先河"
-          ],
-          "key_points_en": [
-            "Kimi launches world's first AI-native credit card",
-            "Spending converts to AI compute credits",
-            "Redeemable for Agent usage and premium features",
-            "Pioneers AI-native financial product category"
-          ]
-        },
-        {
-          "title": "大晓机器人开悟世界模型超越Cosmos3，登顶具身智能评测",
-          "title_en": "Daxiao Robot Kairos World Model Surpasses Cosmos3, Tops Embodied AI Benchmarks",
-          "summary": "大晓机器人开悟世界模型在RoboTwin 2.0、LIBERO-Plus等全球权威具身智能评测中取得第一，超越NVIDIA Cosmos3。该模型采用「多模态理解-生成-预测」一体化架构，已向全行业开源。",
-          "summary_en": "Daxiao Robot's Kairos world model topped global embodied AI benchmarks including RoboTwin 2.0 and LIBERO-Plus, surpassing NVIDIA's Cosmos3. The model uses a unified understanding-generation-prediction architecture and has been open-sourced.",
-          "category": "开源模型",
-          "source": "界面新闻",
-          "source_en": "Jiemian News",
-          "url": "http://m.toutiao.com/group/7650679041241973248/",
-          "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=250&fit=crop",
-          "date": "2026-06-13",
-          "id": "news-2026-06-13-7",
-          "content": "大晓机器人宣布其开悟世界模型在全球具身智能评测中取得领先成绩，超越了NVIDIA的Cosmos3。这一突破标志着中国机器人在世界模型领域取得重要进展。\n\n开悟模型在RoboTwin 2.0、LIBERO-Plus等多项权威评测中均排名第一。这些评测涵盖了机器人感知、决策、执行等核心能力，是评估具身智能水平的重要标准。\n\n该模型采用「多模态理解-生成-预测」一体化架构，能够实现对物理世界更精准的建模和预测。与传统的分离式架构相比，一体化设计显著提升了系统的整体性能。\n\n大晓机器人宣布将向全行业开源开悟模型的核心技术，这一开放策略有望加速具身智能技术的整体进步。",
-          "content_en": "Daxiao Robot announced its Kairos world model achieved leading results in global embodied AI benchmarks, surpassing NVIDIA's Cosmos3. This breakthrough marks significant progress for Chinese robotics in world model development.\n\nKairos ranked first across multiple authoritative benchmarks including RoboTwin 2.0 and LIBERO-Plus. These evaluations cover core robot capabilities in perception, decision-making, and execution, serving as key standards for assessing embodied intelligence.\n\nThe model employs a unified multimodal understanding-generation-prediction architecture, enabling more precise modeling and prediction of the physical world. Compared to traditional modular architectures, the unified design significantly improves overall system performance.\n\nDaxiao Robot announced plans to open-source Kairos's core technologies to the entire industry, a strategy expected to accelerate overall progress in embodied AI.",
-          "key_points": [
-            "大晓机器人开悟模型登顶具身智能评测",
-            "超越NVIDIA Cosmos3",
-            "多模态一体化架构实现突破",
-            "向全行业开源核心技术"
-          ],
-          "key_points_en": [
-            "Daxiao Kairos tops embodied AI benchmarks",
-            "Surpasses NVIDIA Cosmos3",
-            "Unified multimodal architecture breakthrough",
-            "Open-sourcing core technologies to industry"
-          ]
-        },
-        {
-          "title": "金山云AI算力产品涨价15%-50%，7月12日起生效",
-          "title_en": "Kingsoft Cloud Raises AI Compute Prices 15-50%, Effective July 12",
-          "summary": "金山云宣布因全球AI算力需求攀升、硬件成本上涨，将对AI算力相关产品服务价格上调15%-50%，文件存储服务上调30%-50%，7月12日起生效。这是国内云厂商首次大规模上调AI算力价格，反映出供不应求的市场格局。",
-          "summary_en": "Kingsoft Cloud announced AI compute price increases of 15-50% and file storage increases of 30-50%, effective July 12, citing rising global AI demand and hardware costs. This marks the first major AI compute price hike by a Chinese cloud vendor, reflecting supply-demand imbalances.",
-          "category": "算力基建",
-          "source": "金山云官网",
-          "source_en": "Kingsoft Cloud",
-          "url": "http://m.toutiao.com/group/7650679041241973248/",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop",
-          "date": "2026-06-13",
-          "id": "news-2026-06-13-8",
-          "content": "金山云宣布调整AI算力相关产品和服务价格，整体涨幅在15%至50%之间。其中文件存储服务涨幅最高，达到30%至50%。新价格将于7月12日起正式生效。\n\n公司表示此次调价主要基于两方面原因：一是全球AI算力需求持续攀升，导致上游硬件成本上涨；二是数据中心运营成本增加，包括电力和散热等费用。\n\n这是国内云服务商首次大规模上调AI算力价格此前云服务价格主要呈现下降趋势。金山云的举措可能引发行业连锁反应。\n\n市场分析认为，AI算力市场的供需紧张格局短期内难以缓解。拥有自建算力的企业将在这轮涨价周期中占据成本优势。",
-          "content_en": "Kingsoft Cloud announced adjustments to AI compute products and services pricing, with overall increases ranging from 15% to 50%. File storage services saw the highest increase at 30% to 50%. New prices take effect July 12.\n\nThe company cited two main reasons for the adjustment: sustained growth in global AI compute demand driving up upstream hardware costs, and increasing data center operating expenses including power and cooling.\n\nThis marks the first major AI compute price increase by a Chinese cloud service provider. Previously, cloud service prices mainly trended downward. Kingsoft Cloud's move may trigger industry-wide effects.\n\nMarket analysis suggests the supply-demand tightness in AI compute markets will be difficult to ease in the short term. Companies with self-built compute infrastructure will hold cost advantages during this price increase cycle.",
-          "key_points": [
-            "金山云AI算力涨价15%-50%",
-            "国内云厂商首次大规模调价",
-            "7月12日起生效",
-            "AI算力供需紧张格局持续"
-          ],
-          "key_points_en": [
-            "Kingsoft Cloud raises AI compute prices 15-50%",
-            "First major AI compute price hike by Chinese cloud vendor",
-            "Effective July 12",
-            "AI compute supply-demand imbalance persists"
-          ]
-        },
-        {
-          "title": "Apple相机负责人：AI视觉智能将赋予用户超能力",
-          "title_en": "Apple Camera Chief: AI Visual Intelligence Will Give Users Superpowers",
-          "summary": "Apple相机部门负责人讨论了Siri的视觉智能功能，该功能利用计算机视觉分析图像，使Apple在AI竞赛中占据更深层位置。这标志着Apple正从语音助手向多模态AI能力加速转型。",
-          "summary_en": "Apple's camera chief discussed Siri's Visual Intelligence feature, which uses computer vision to analyze images, positioning Apple deeper in the AI race. This signals Apple's accelerated shift from voice assistant to multimodal AI capabilities.",
-          "category": "AI应用",
-          "source": "creati.ai",
-          "source_en": "creati.ai",
-          "url": "https://creati.ai/ai-news/2026-06-13/",
-          "image": "https://images.unsplash.com/photo-1555949963-aa79fcee480f?w=400&h=250&fit=crop",
-          "date": "2026-06-13",
-          "id": "news-2026-06-13-9",
-          "content": "Apple相机部门负责人在近日的访谈中深入讨论了Siri的视觉智能功能。这一功能利用先进的计算机视觉技术，能够对图像内容进行深度分析，标志着Apple在AI竞赛中的战略深化。\n\n视觉智能功能使Siri能够识别图像中的物体、场景、文本甚至情感表达，并据此提供更智能的响应。这一能力让iPhone从简单的语音助手进化为真正的多模态智能伙伴。\n\nApple强调，视觉智能功能在设计时充分考虑了用户隐私。所有图像分析均在设备端完成，不会上传至云端处理。这一本地化处理策略与Apple一贯的隐私优先理念一致。\n\n业界分析认为，Apple正从单一的语音交互向多模态AI能力全面转型。随着端侧AI处理的成熟，Apple在保护隐私的同时提供强大AI体验的战略优势将更加明显。",
-          "content_en": "Apple's camera division head recently discussed Siri's Visual Intelligence feature in depth. This capability leverages advanced computer vision to analyze image content deeply, marking Apple's strategic deepening in the AI race.\n\nVisual Intelligence enables Siri to recognize objects, scenes, text, and even emotional expressions in images, providing smarter responses accordingly. This capability transforms iPhone from a simple voice assistant into a true multimodal intelligent companion.\n\nApple emphasizes that Visual Intelligence was designed with user privacy in mind. All image analysis occurs on-device without cloud processing. This on-device strategy aligns with Apple's consistent privacy-first philosophy.\n\nIndustry analysis suggests Apple is transitioning from single-mode voice interaction to comprehensive multimodal AI capabilities. As on-device AI processing matures, Apple's strategy to deliver powerful AI experiences while protecting privacy will become increasingly advantageous.",
-          "key_points": [
-            "Apple Siri视觉智能功能解析图像",
-            "计算机视觉分析能力深度整合",
-            "端侧处理保护用户隐私",
-            "Apple从语音向多模态AI转型"
-          ],
-          "key_points_en": [
-            "Apple Siri Visual Intelligence analyzes images",
-            "Computer vision capabilities deeply integrated",
-            "On-device processing protects user privacy",
-            "Apple transitions from voice to multimodal AI"
           ]
         }
       ]

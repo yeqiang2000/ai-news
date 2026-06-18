@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "id": "article-17",
+      "title": "SpaceX 600亿美元收购Cursor：当航天巨头转型AI编程公司",
+      "title_en": "SpaceX Acquires Cursor for $60B: When a Space Giant Transforms into an AI Coding Company",
+      "summary": "SpaceX以约600亿美元收购AI编程工具公司Cursor，这是AI行业迄今最大的收购案之一。当一家航天公司押注AI编程，背后是马斯克对AI辅助工程的全栈野心——从火箭到代码，一切皆可自动化。",
+      "summary_en": "SpaceX acquired AI coding tool company Cursor for approximately $60 billion, one of the largest AI acquisitions ever. When a space company bets on AI coding, it reflects Musk's full-stack ambition for AI-assisted engineering — from rockets to code, everything can be automated.",
+      "date": "2026-06-18",
+      "url": "articles/article-17.html",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
+      "category": "产业",
+      "read_time": "8分钟"
+    },
+    {
       "id": "article-16",
       "title": "资本狂潮：2026年AI融资超万亿美元的冷思考",
       "title_en": "Capital Frenzy: Cold Analysis of $1 Trillion+ AI Funding in 2026",
