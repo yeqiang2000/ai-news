@@ -10,7 +10,8 @@
       "url": "articles/article-17.html",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
       "category": "产业",
-      "read_time": "8分钟"
+      "read_time": "8分钟",
+      "url_en": "articles/en/article-17.html"
     },
     {
       "id": "article-16",
@@ -21,7 +22,8 @@
       "category": "投融资",
       "date": "2026-06-17",
       "url": "articles/article-16.html",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop"
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
+      "url_en": "articles/en/article-16.html"
     },
     {
       "id": "article-15",
@@ -32,7 +34,8 @@
       "category": "产业",
       "date": "2026-06-16",
       "url": "articles/article-15.html",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop"
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
+      "url_en": "articles/en/article-15.html"
     },
     {
       "id": "article-14",
@@ -43,7 +46,8 @@
       "category": "政策监管",
       "date": "2026-06-15",
       "url": "articles/article-14.html",
-      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&h=450&fit=crop"
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&h=450&fit=crop",
+      "url_en": "articles/en/article-14.html"
     },
     {
       "id": "article-12",
@@ -54,7 +58,8 @@
       "category": "深度解读",
       "date": "2026-06-13",
       "url": "articles/article-12.html",
-      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=450&fit=crop"
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=450&fit=crop",
+      "url_en": "articles/en/article-12.html"
     },
     {
       "id": "article-11",
@@ -65,7 +70,8 @@
       "category": "产业",
       "date": "2026-06-12",
       "readTime": "10分钟",
-      "url": "articles/article-11.html"
+      "url": "articles/article-11.html",
+      "url_en": "articles/en/article-11.html"
     },
     {
       "id": "article-10",
@@ -76,7 +82,8 @@
       "category": "大模型",
       "date": "2026-06-11",
       "readTime": "8分钟",
-      "url": "articles/article-10.html"
+      "url": "articles/article-10.html",
+      "url_en": "articles/en/article-10.html"
     },
     {
       "id": "article-9",
@@ -87,7 +94,8 @@
       "category": "AI应用",
       "date": "2026-06-10",
       "readTime": "9分钟",
-      "url": "articles/article-9.html"
+      "url": "articles/article-9.html",
+      "url_en": "articles/en/article-9.html"
     },
     {
       "id": "article-8",
@@ -100,7 +108,8 @@
       "category": "投融资",
       "date": "2026-06-09",
       "author": "AI News Daily",
-      "read_time": "10 min"
+      "read_time": "10 min",
+      "url_en": "articles/en/article-8.html"
     },
     {
       "id": "article-7",
@@ -113,7 +122,8 @@
       "category": "政策监管",
       "date": "2026-06-08",
       "author": "AI News Daily",
-      "read_time": "9 min"
+      "read_time": "9 min",
+      "url_en": "articles/en/article-7.html"
     },
     {
       "id": "article-6",
@@ -126,7 +136,8 @@
       "category": "AI应用",
       "date": "2026-06-07",
       "author": "AI News Daily",
-      "read_time": "9 min"
+      "read_time": "9 min",
+      "url_en": "articles/en/article-6.html"
     },
     {
       "id": "article-5",
@@ -139,7 +150,8 @@
       "category": "大模型",
       "date": "2026-06-06",
       "author": "AI News Daily",
-      "read_time": "8 min"
+      "read_time": "8 min",
+      "url_en": "articles/en/article-5.html"
     },
     {
       "id": "article-4",
@@ -152,7 +164,8 @@
       "category": "芯片算力",
       "date": "2026-06-05",
       "author": "AI News Daily",
-      "read_time": "7 min"
+      "read_time": "7 min",
+      "url_en": "articles/en/article-4.html"
     },
     {
       "id": "article-3",
@@ -165,7 +178,8 @@
       "category": "投融资",
       "date": "2026-06-04",
       "author": "AI News Daily",
-      "read_time": "8 min"
+      "read_time": "8 min",
+      "url_en": "articles/en/article-3.html"
     },
     {
       "id": "article-2",
@@ -178,7 +192,8 @@
       "category": "大模型",
       "date": "2026-06-03",
       "author": "AI News Daily",
-      "read_time": "7 min"
+      "read_time": "7 min",
+      "url_en": "articles/en/article-2.html"
     },
     {
       "id": "article-1",
@@ -191,7 +206,8 @@
       "category": "芯片算力",
       "date": "2026-06-03",
       "author": "AI News Daily",
-      "read_time": "7 min"
+      "read_time": "7 min",
+      "url_en": "articles/en/article-1.html"
     }
   ]
 }

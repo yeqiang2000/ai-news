@@ -10,6 +10,27 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="css/style.css">
     <style>
+        .nav-lang-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #8b5cf6, #6366f1);
+            color: white !important;
+            font-size: 13px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+            margin-left: 12px;
+        }
+        .nav-lang-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 15px rgba(99,102,241,0.4);
+        }
+
         .news-key-points {
             background: var(--bg-card);
             border-radius: var(--radius-md);
@@ -177,6 +198,7 @@
                 <a href="index.html" id="nav-home">首页</a>
                 <a href="about.html" id="nav-about">关于</a>
                 <a href="contact.html" id="nav-contact">联系</a>
+                <a href="#" id="lang-toggle" class="nav-lang-btn" onclick="event.preventDefault();var l=localStorage.getItem('ai_news_lang')||'zh';localStorage.setItem('ai_news_lang',l==='zh'?'en':'zh');location.reload();">EN</a>
             </div>
         </div>
     </nav>
@@ -371,6 +393,7 @@
                 document.getElementById('nav-home').textContent = isZh ? '首页' : 'Home';
                 document.getElementById('nav-about').textContent = isZh ? '关于' : 'About';
                 document.getElementById('nav-contact').textContent = isZh ? '联系' : 'Contact';
+                document.getElementById('lang-toggle').textContent = isZh ? 'EN' : '中文';
                 document.documentElement.lang = isZh ? 'zh-CN' : 'en';
             })
             .catch(err => {

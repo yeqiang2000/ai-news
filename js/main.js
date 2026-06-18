@@ -328,10 +328,12 @@
         const readMore = I18n.t('articles_read_more');
         const readTime = I18n.t('articles_read_time');
         const delay = 0.1 + index * 0.08;
+        const lang = I18n.getLang();
+        const articleUrl = (lang === 'en' && article.url_en) ? article.url_en : article.url;
 
         return `
             <article class="deep-article-card" style="animation-delay: ${delay}s">
-                <a href="${article.url}" class="deep-article-link">
+                <a href="${articleUrl}" class="deep-article-link">
                     <div class="deep-article-image">
                         <img src="${article.image}" alt="${title}" loading="lazy">
                         <span class="deep-article-number">#${index + 1}</span>
@@ -555,6 +557,17 @@
 
         // 热门标签
         updateTagCloud();
+
+        // 侧边栏深度文章链接 - 英文模式切换到英文版
+        const lang = I18n.getLang();
+        document.querySelectorAll('.article-rec-item').forEach(link => {
+            const href = link.getAttribute('href');
+            if (lang === 'en' && href && !href.includes('/en/')) {
+                link.setAttribute('href', href.replace('articles/', 'articles/en/'));
+            } else if (lang === 'zh' && href && href.includes('/en/')) {
+                link.setAttribute('href', href.replace('articles/en/', 'articles/'));
+            }
+        });
     }
 
     /**
