@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "id": "article-19",
+      "title": "AI产业「双轨并进」：政策红利与IPO狂潮下的万亿新战场",
+      "title_en": "AI Industry's Dual-Track Surge: Policy Dividends & IPO Frenzy",
+      "summary": "2026年6月，中国八部门联合发文推进AI+消费发展，商务部等17项举措直指消费场景；与此同时，Anthropic与OpenAI的IPO竞速进入白热化阶段。",
+      "summary_en": "June 2026 sees China 8 ministries issuing 17 measures for AI+consumption while Anthropic and OpenAI race toward IPO.",
+      "date": "2026-06-20",
+      "url": "articles/article-19.html",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=450&fit=crop",
+      "category": "产业",
+      "read_time": "9分钟",
+      "url_en": "articles/en/article-19.html"
+    },
+    {
       "id": "article-18",
       "title": "AI助手「自选模型」时代：苹果WWDC开启消费AI新纪元",
       "title_en": "Apple WWDC 2026: Siri Gemini Switch Marks New Era of Choose Your Own AI Model",

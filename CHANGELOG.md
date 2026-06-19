@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-20 — 6月20日每日更新
+
+### 新增
+- 6月20日新闻10条 + 头条（八部门联合发文推进「AI+消费」发展，17项举措促进AI走进千家万户）
+- 深度文章 `article-19.html`：《AI产业「双轨并进」：政策红利与IPO狂潮下的万亿新战场》正式上线
+- 新闻包括：马斯克预测中国大模型2027年追上Fable、DeepSeek首轮融资510亿估值4000亿、银河通用AstraBrain-WBC 0.5、亚马逊Trainium AI芯片挑战英伟达、Anthropic vs OpenAI IPO竞速、OpenAI日本推出ChatGPT广告、硅谷FDE岗位暴涨42倍、智谱GLM-5.2开源
+- `articles/en/article-19.html`：英文版同步上线
+- `wechat/wechat-2026-06-20.html`：微信图文版（梁文锋的200亿豪赌）含原创声明
+- `toutiao/toutiao-2026-06-20.md`：头条版（Anthropic vs OpenAI IPO竞速）
+
+### 修改
+- `data/news.json`：新增6月20日数据，移除6月15日（保留5天：20/19/18/17/16）
+- `data/articles.json`：新增 article-19 元数据
+- `index.html`：侧边栏推荐区更新（article-19 🔥、article-18 📖、article-17 📖、article-16 📖）
+- `js/i18n.js`：深度文章标题更新为 article-19、article-18、article-17（中英文）
+
+### 累计进度
+- 深度文章：19篇（article-1至article-19）
+- 距AdSense目标（20-30篇）还需1-11篇
+
+---
+
 ## 2026-06-19 — 6月19日每日更新
 
 ### 新增
