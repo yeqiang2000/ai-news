@@ -559,7 +559,6 @@
         updateTagCloud();
 
         // 侧边栏深度文章链接 - 英文模式切换到英文版
-        const lang = I18n.getLang();
         document.querySelectorAll('.article-rec-item').forEach(link => {
             const href = link.getAttribute('href');
             if (lang === 'en' && href && !href.includes('/en/')) {
