@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "id": "article-18",
+      "title": "AI助手「自选模型」时代：苹果WWDC开启消费AI新纪元",
+      "title_en": "Apple WWDC 2026: Siri Gemini Switch Marks New Era of Choose Your Own AI Model",
+      "summary": "苹果WWDC 2026重磅宣布Siri底层全面切换Gemini，用户可在Gemini/ChatGPT/Claude三选一。苹果成为首个允许用户「自选模型」的消费级平台。这一改变意味着什么？深度解析苹果AI战略转型与消费AI的新格局。",
+      "summary_en": "Apple WWDC 2026 announces Siri complete switch to Google Gemini as default engine, with users able to choose between Gemini, ChatGPT, and Claude. Apple becomes first consumer platform to offer choose your own AI model.",
+      "date": "2026-06-19",
+      "url": "articles/article-18.html",
+      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=450&fit=crop",
+      "category": "产业",
+      "read_time": "9分钟",
+      "url_en": "articles/en/article-18.html"
+    },
+    {
       "id": "article-17",
       "title": "SpaceX 600亿美元收购Cursor：当航天巨头转型AI编程公司",
       "title_en": "SpaceX Acquires Cursor for $60B: When a Space Giant Transforms into an AI Coding Company",

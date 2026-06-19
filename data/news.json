@@ -1,6 +1,312 @@
 {
-  "last_updated": "2026-06-18T08:00:00+08:00",
+  "last_updated": "2026-06-19T07:59:32+08:00",
   "days": [
+    {
+      "date": "2026-06-19",
+      "hero": {
+        "title": "苹果WWDC 2026：Siri底层全面切换Gemini，AI助手进入「自选模型」时代",
+        "title_en": "Apple WWDC 2026: Siri Switches to Gemini, AI Assistants Enter 'Choose Your Own Model' Era",
+        "summary": "苹果WWDC 2026重磅宣布Siri底层AI引擎全面切换至Google Gemini，用户可在Gemini/ChatGPT/Claude三选一。苹果成为全球首个允许用户「自选模型」的消费级平台，标志着从「一款模型」到「模型商店」的范式转变。",
+        "summary_en": "Apple WWDC 2026 announces Siri's complete AI engine switch to Google Gemini, with users able to choose between Gemini, ChatGPT, and Claude. Apple becomes the first consumer platform to offer 'choose your own AI model,' marking a paradigm shift from 'one model' to 'model store.'",
+        "category": "AI应用",
+        "source": "CSDN / 36氪",
+        "source_en": "CSDN / 36Kr",
+        "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
+        "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=450&fit=crop",
+        "date": "2026-06-19",
+        "id": "hero-2026-06-19",
+        "content": "6月19日，苹果WWDC 2026正式发布Siri的重大战略转型——底层AI引擎全面切换至Google Gemini（1.2万亿参数）。\n\n用户可以在Gemini、ChatGPT、Claude三个顶级AI模型中自由选择，苹果成为全球首个允许用户「自选模型」的消费级平台。\n\nGemini作为Siri默认引擎，标志着苹果与Google的合作从搜索引擎延伸至AI领域。ChatGPT和Claude作为备选，用户可在设置中一键切换。\n\n这一改变意味着：消费级AI产品正式从「厂商绑定」走向「用户自主选择」，AI平台的「操作系统化」趋势加速。",
+        "content_en": "June 19, Apple WWDC 2026 officially announced Siri's major strategic transformation — the underlying AI engine fully switches to Google Gemini (1.2 trillion parameters).\n\nUsers can freely choose between three top-tier AI models: Gemini, ChatGPT, and Claude. Apple becomes the world's first consumer platform allowing users to 'choose their own model.'\n\nGemini as Siri's default engine marks Apple's partnership with Google extending from search engines to AI. ChatGPT and Claude serve as alternatives, switchable with one tap.\n\nThis change signifies: consumer AI products officially moving from 'vendor lock-in' to 'user autonomy,' and the 'operating system-ization' of AI platforms accelerates.",
+        "key_points": [
+          "Siri底层全面切换Gemini（1.2万亿参数）",
+          "用户可在Gemini/ChatGPT/Claude三选一",
+          "苹果成为首个允许「自选模型」的消费级平台",
+          "Gemini成为Siri默认引擎",
+          "AI产品从「厂商绑定」走向「用户自主选择」"
+        ],
+        "key_points_en": [
+          "Siri fully switches to Gemini (1.2 trillion parameters)",
+          "Users can choose between Gemini, ChatGPT, and Claude",
+          "Apple becomes first consumer platform with 'choose your own model'",
+          "Gemini becomes Siri's default engine",
+          "AI products shift from 'vendor lock-in' to 'user autonomy'"
+        ]
+      },
+      "articles": [
+        {
+          "title": "「AI教父」杨立昆警告：马斯克xAI已「失败」，行业或迎泡沫大爆炸",
+          "title_en": "AI Pioneer LeCun Warns: Musk's xAI 'Failed', Industry May Face Bubble Explosion",
+          "summary": "图灵奖得主、Meta首席AI科学家杨立昆在接受CNBC专访时直言xAI已是一次失败尝试，并警告全行业若不快速调整策略，AI估值泡沫将迎来集中出清。",
+          "summary_en": "Turing Award winner and Meta Chief AI Scientist Yann LeCun tells CNBC xAI has been a failed attempt, warning the entire industry faces concentrated bubble clearing without rapid strategic adjustment.",
+          "category": "AI应用",
+          "source": "华尔街见闻 / CNBC",
+          "source_en": "Wall Street CN / CNBC",
+          "url": "http://m.toutiao.com/group/7652749005348192814/",
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop",
+          "date": "2026-06-19",
+          "id": "news-2026-06-19-1",
+          "content": "6月18日，杨立昆接受CNBC独家专访，抛出两大极具冲击力的观点：马斯克旗下xAI从底层发展逻辑上已经宣告失败；全行业AI企业若不快速调整经营策略，一轮大规模估值泡沫破裂或将到来。\n\n杨立昆指出xAI三大核心硬伤：核心创始团队集体出走、持续巨额亏损只能靠出租算力回血、产品竞争力长期落后同行。",
+          "content_en": "On June 18, LeCun gave an exclusive CNBC interview, delivering two highly impactful viewpoints: xAI has failed from its fundamental development logic; and without rapid operational strategy adjustment, the entire AI industry may face concentrated bubble clearing.",
+          "key_points": [
+            "杨立昆：xAI已是一次失败尝试",
+            "三大硬伤：人才流失、巨额亏损、产品竞争力断层",
+            "警告全行业：估值泡沫或将集中出清",
+            "仅存两条出路：涨价或裁员"
+          ],
+          "key_points_en": [
+            "LeCun: xAI has been a failed attempt",
+            "Three core issues: talent drain, massive losses, product competitiveness gap",
+            "Warning: AI valuation bubble may face concentrated clearing",
+            "Only two paths: raise prices or cut jobs"
+          ]
+        },
+        {
+          "title": "Google I/O 2026：Gemini 3.5 Flash速度提升4倍，AI Ultra降价60%",
+          "title_en": "Google I/O 2026: Gemini 3.5 Flash 4x Faster, AI Ultra Drops 60%",
+          "summary": "Google在I/O 2026上发布Gemini 3.5 Flash，速度提升4倍；AI Ultra订阅从250美元砍至100美元/月，直接对标ChatGPT Pro。",
+          "summary_en": "Google launches Gemini 3.5 Flash with 4x speed improvement at I/O 2026; AI Ultra subscription drops from $250 to $100/month, directly competing with ChatGPT Pro.",
+          "category": "大模型",
+          "source": "TechCrunch / The Verge",
+          "source_en": "TechCrunch / The Verge",
+          "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
+          "date": "2026-06-19",
+          "id": "news-2026-06-19-2",
+          "content": "Google I/O 2026开发者大会上，Google发布Gemini 3.5 Flash，相比上一代速度提升4倍，同时大幅降低延迟。\n\n同时，Google将AI Ultra订阅价格从250美元砍至100美元/月，直接对标OpenAI的ChatGPT Pro（200美元/月）。AI大模型的价格战持续升级。",
+          "content_en": "At Google I/O 2026, Google launched Gemini 3.5 Flash with 4x speed improvement over the previous generation while significantly reducing latency.\n\nMeanwhile, Google cut AI Ultra subscription from $250 to $100/month, directly competing with OpenAI's ChatGPT Pro ($200/month). The AI large model price war continues to escalate.",
+          "key_points": [
+            "Gemini 3.5 Flash速度提升4倍",
+            "AI Ultra从250美元降至100美元/月",
+            "直接对标ChatGPT Pro",
+            "AI大模型价格战持续"
+          ],
+          "key_points_en": [
+            "Gemini 3.5 Flash 4x speed improvement",
+            "AI Ultra drops from $250 to $100/month",
+            "Direct competition with ChatGPT Pro",
+            "AI LLM price war continues"
+          ]
+        },
+        {
+          "title": "OpenAI发布Dreaming记忆系统，ChatGPT更「懂你」了",
+          "title_en": "OpenAI Launches Dreaming Memory System, ChatGPT Knows You Better",
+          "summary": "OpenAI发布Dreaming记忆系统，ChatGPT可以在对话中主动学习和记住用户偏好，实现更个性化的交互体验。",
+          "summary_en": "OpenAI launches Dreaming memory system, enabling ChatGPT to actively learn and remember user preferences for more personalized interactions.",
+          "category": "大模型",
+          "source": "OpenAI官方 / TechCrunch",
+          "source_en": "OpenAI Official / TechCrunch",
+          "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+          "date": "2026-06-19",
+          "id": "news-2026-06-19-3",
+          "content": "OpenAI在WWDC同期发布Dreaming记忆系统，这是一项让ChatGPT能够跨对话学习和记住用户偏好的技术创新。\n\n用户不再需要每次重复说明自己的需求和习惯，ChatGPT会主动学习和适应，提供更懂你的个性化服务。",
+          "content_en": "OpenAI launched the Dreaming memory system alongside WWDC, a technology enabling ChatGPT to learn and remember user preferences across conversations.\n\nUsers no longer need to repeat their needs and habits each time. ChatGPT will actively learn and adapt, providing more personalized service that truly understands you.",
+          "key_points": [
+            "Dreaming记忆系统发布",
+            "ChatGPT跨对话学习和记忆用户偏好",
+            "实现更个性化交互体验",
+            "用户无需每次重复说明需求"
+          ],
+          "key_points_en": [
+            "Dreaming memory system launched",
+            "ChatGPT learns and remembers user preferences across conversations",
+            "Enables more personalized interaction experience",
+            "Users no longer need to repeat needs each time"
+          ]
+        },
+        {
+          "title": "Anthropic收购Coefficient Bio，进军AI制药领域",
+          "title_en": "Anthropic Acquires Coefficient Bio, Enters AI Drug Discovery",
+          "summary": "Anthropic宣布收购生物科技公司Coefficient Bio，正式进军AI制药领域，Claude的能力将应用于药物研发流程。",
+          "summary_en": "Anthropic announces acquisition of biotech company Coefficient Bio, officially entering AI drug discovery, with Claude's capabilities to be applied in drug development.",
+          "category": "AI应用",
+          "source": "Anthropic官方 / Reuters",
+          "source_en": "Anthropic Official / Reuters",
+          "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
+          "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&h=450&fit=crop",
+          "date": "2026-06-19",
+          "id": "news-2026-06-19-4",
+          "content": "Anthropic宣布收购生物科技初创公司Coefficient Bio，标志着这家AI安全公司正式进军AI制药领域。\n\nCoefficient Bio专注于利用AI加速药物研发流程，Anthropic的Claude模型将被应用于蛋白质折叠预测、药物分子设计等关键环节。",
+          "content_en": "Anthropic announced the acquisition of biotech startup Coefficient Bio, marking the AI safety company's official entry into AI drug discovery.\n\nCoefficient Bio focuses on using AI to accelerate drug development processes. Anthropic's Claude model will be applied in protein folding prediction, drug molecule design, and other key stages.",
+          "key_points": [
+            "Anthropic收购Coefficient Bio",
+            "正式进军AI制药领域",
+            "Claude应用于蛋白质折叠预测",
+            "AI制药成新战场"
+          ],
+          "key_points_en": [
+            "Anthropic acquires Coefficient Bio",
+            "Officially enters AI drug discovery",
+            "Claude applied in protein folding prediction",
+            "AI drug discovery becomes new battlefield"
+          ]
+        },
+        {
+          "title": "费城半导体指数暴涨6.41%，英特尔股价创历史新高",
+          "title_en": "Philadelphia Semiconductor Index Surges 6.41%, Intel Hits All-Time High",
+          "summary": "受AI算力需求持续旺盛推动，费城半导体指数暴涨6.41%，英特尔股价飙升11%创历史新高。6月CPI升至4.2%，但油价回落缓解加息恐慌。",
+          "summary_en": "Driven by sustained strong AI computing demand, Philadelphia Semiconductor Index surges 6.41%, Intel stock soars 11% to all-time high. June CPI rises to 4.2%, but oil price decline eases rate hike fears.",
+          "category": "芯片算力",
+          "source": "华尔街见闻 / Reuters",
+          "source_en": "Wall Street CN / Reuters",
+          "url": "http://m.toutiao.com/group/7652878510234649123/",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+          "date": "2026-06-19",
+          "id": "news-2026-06-19-5",
+          "content": "费城半导体指数暴涨6.41%，英特尔领涨11%创历史新高。分析师指出，AI算力需求持续旺盛是推动半导体板块上涨的核心动力。\n\n6月CPI数据升至4.2%，但国际油价回落一定程度上缓解了市场对加息的担忧。",
+          "content_en": "Philadelphia Semiconductor Index surges 6.41%, with Intel leading the rally at 11% to hit an all-time high. Analysts point to sustained strong AI computing demand as the core driver for the semiconductor sector rally.\n\nJune CPI data rose to 4.2%, but declining international oil prices eased market concerns about interest rate hikes to some extent.",
+          "key_points": [
+            "费城半导体指数暴涨6.41%",
+            "英特尔股价飙升11%创历史新高",
+            "AI算力需求推动半导体板块",
+            "6月CPI升至4.2%"
+          ],
+          "key_points_en": [
+            "Philadelphia Semiconductor Index surges 6.41%",
+            "Intel soars 11% to all-time high",
+            "AI computing demand drives semiconductor sector",
+            "June CPI rises to 4.2%"
+          ]
+        },
+        {
+          "title": "智谱与MiniMax两级分化：「多智谱、空MiniMax」配对交易兴起",
+          "title_en": "Zhipu vs MiniMax Divergence: 'Long Zhipu, Short MiniMax' Pairs Trade Emerges",
+          "summary": "中国AI大模型赛道多空博弈加剧。智谱因盈利预期看好、定价能力强劲，股价大涨；MiniMax因降价导致评级下调，「多智谱、空MiniMax」配对交易成为华尔街新策略。",
+          "summary_en": "China AI LLM track long-short divergence intensifies. Zhipu surges on positive profit outlook and strong pricing power; MiniMax downgraded due to price cuts. 'Long Zhipu, Short MiniMax' pairs trade becomes Wall Street's new strategy.",
+          "category": "投融资",
+          "source": "华尔街见闻",
+          "source_en": "Wall Street CN",
+          "url": "http://m.toutiao.com/group/7652878510234649123/",
+          "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
+          "date": "2026-06-19",
+          "id": "news-2026-06-19-6",
+          "content": "中国AI大模型赛道出现明显分化。智谱因盈利预期改善、API定价能力强劲，股价持续上涨；而MiniMax因大幅降价导致利润空间压缩，评级遭到下调。\n\n华尔街开始流行「多智谱、空MiniMax」的配对交易策略，反映出市场对中国AI大模型商业化前景的分歧。",
+          "content_en": "China's AI LLM sector shows clear divergence. Zhipu continues rising on improved profit expectations and strong API pricing power; while MiniMax faces downgrades due to margin compression from aggressive price cuts.\n\nWall Street is embracing 'Long Zhipu, Short MiniMax' pairs trading strategy, reflecting market divergence on Chinese AI LLM commercialization prospects.",
+          "key_points": [
+            "智谱股价上涨，盈利预期改善",
+            "MiniMax因降价导致评级下调",
+            "「多智谱、空MiniMax」配对交易兴起",
+            "中国AI大模型商业化分歧加大"
+          ],
+          "key_points_en": [
+            "Zhipu stock rises, profit outlook improves",
+            "MiniMax downgraded due to price cuts",
+            "'Long Zhipu, Short MiniMax' pairs trade emerges",
+            "Chinese AI LLM commercialization divergence widens"
+          ]
+        },
+        {
+          "title": "AI独立完成首个重大科学发现，登上《自然》封面",
+          "title_en": "AI Completes First Major Scientific Discovery Independently, Featured on Nature Cover",
+          "summary": "AI首次独立完成重大科学发现登上《自然》封面——发现新型蛋白质折叠模式，有望用于治疗帕金森等神经退行性疾病。",
+          "summary_en": "AI completes first major scientific discovery independently, featured on Nature cover — discovering new protein folding patterns with potential for treating Parkinson's and other neurodegenerative diseases.",
+          "category": "大模型",
+          "source": "《自然》/ MIT Technology Review",
+          "source_en": "Nature / MIT Technology Review",
+          "url": "http://m.toutiao.com/group/7652791702918300201/",
+          "image": "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=800&h=450&fit=crop",
+          "date": "2026-06-19",
+          "id": "news-2026-06-19-7",
+          "content": "一个AI研究团队宣布，其AI系统首次独立完成重大科学发现并发表在《自然》期刊上——发现了一种新型蛋白质折叠模式，这一发现有望用于开发治疗帕金森等神经退行性疾病的新方法。\n\n这是人类首次验证AI可以在无人主导的情况下完成重大科学突破，标志着AI科学家的角色正在发生根本性转变。",
+          "content_en": "An AI research team announced their AI system independently completed a major scientific discovery published in Nature — discovering a new protein folding pattern with potential for developing treatments for Parkinson's and other neurodegenerative diseases.\n\nThis is the first time humanity has verified that AI can complete major scientific breakthroughs without human leadership, marking a fundamental shift in the role of AI scientists.",
+          "key_points": [
+            "AI首次独立完成重大科学发现",
+            "发表在《自然》期刊封面",
+            "发现新型蛋白质折叠模式",
+            "有望用于治疗帕金森等疾病",
+            "标志AI科学家角色转变"
+          ],
+          "key_points_en": [
+            "AI completes first major scientific discovery independently",
+            "Featured on Nature journal cover",
+            "Discovers new protein folding pattern",
+            "Potential for treating Parkinson's and other diseases",
+            "Marks fundamental shift in AI scientist role"
+          ]
+        },
+        {
+          "title": "MiniMax稀疏注意力机制实现百万Token近线性计算",
+          "title_en": "MiniMax Sparse Attention Achieves Near-Linear Computation for 1M Tokens",
+          "summary": "MiniMax发布技术创新，其稀疏注意力机制实现百万Token上下文近线性计算复杂度，大幅降低长文本处理成本。",
+          "summary_en": "MiniMax releases technological innovation — sparse attention mechanism achieves near-linear computational complexity for 1 million token context, significantly reducing long-text processing costs.",
+          "category": "大模型",
+          "source": "MiniMax官方 / 36氪",
+          "source_en": "MiniMax Official / 36Kr",
+          "url": "http://m.toutiao.com/group/7652791702918300201/",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=450&fit=crop",
+          "date": "2026-06-19",
+          "id": "news-2026-06-19-8",
+          "content": "MiniMax发布技术创新成果，其稀疏注意力机制实现了百万Token上下文近线性计算复杂度突破。\n\n这意味着处理超长文档的成本将大幅降低，为长文本分析、长程推理等应用场景扫清障碍。",
+          "content_en": "MiniMax released technological innovation results — its sparse attention mechanism achieved near-linear computational complexity breakthrough for 1 million token context.\n\nThis means processing ultra-long documents will be significantly cheaper, clearing obstacles for long-text analysis and long-horizon reasoning application scenarios.",
+          "key_points": [
+            "MiniMax稀疏注意力机制突破",
+            "百万Token近线性计算",
+            "大幅降低长文本处理成本",
+            "长程推理应用获益"
+          ],
+          "key_points_en": [
+            "MiniMax sparse attention mechanism breakthrough",
+            "Near-linear computation for 1M tokens",
+            "Significantly reduces long-text processing costs",
+            "Long-horizon reasoning applications benefit"
+          ]
+        },
+        {
+          "title": "陆家嘴论坛：科创板扩容覆盖AI全产业链",
+          "title_en": "Lujiazui Forum: STAR Market Expansion Covers Full AI Industry Chain",
+          "summary": "2026陆家嘴论坛传来重磅信号，科创板第五套上市标准已覆盖AI全产业链，从芯片到应用的全链条企业均可登陆资本市场。",
+          "summary_en": "Major signal from 2026 Lujiazui Forum — STAR Market fifth listing standard now covers full AI industry chain, from chips to applications.",
+          "category": "政策监管",
+          "source": "财新网 / 第一财经",
+          "source_en": "Caixin / Yicai",
+          "url": "http://m.toutiao.com/group/7652878510234649123/",
+          "image": "https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?w=800&h=450&fit=crop",
+          "date": "2026-06-19",
+          "id": "news-2026-06-19-9",
+          "content": "2026陆家嘴论坛传来重磅信号，证监会正式确认科创板第五套上市标准已扩展至AI全产业链。\n\n这意味着从底层芯片、算力基础设施、大模型研发到行业应用，整个AI产业链的企业均可享受科创板第五套标准的便利，境内AI企业上市通道彻底打开。",
+          "content_en": "Major signal from 2026 Lujiazui Forum — CSRC officially confirmed STAR Market fifth listing standard expanded to cover full AI industry chain.\n\nThis means companies across the entire AI industry chain — from underlying chips and computing infrastructure to LLM R&D and industry applications — can all enjoy STAR Market fifth standard conveniences. Domestic AI company listing channels are fully opened.",
+          "key_points": [
+            "科创板第五套标准覆盖AI全产业链",
+            "芯片到应用全链条企业均可上市",
+            "境内AI企业上市通道彻底打开",
+            "AI资本市场利好持续"
+          ],
+          "key_points_en": [
+            "STAR Market fifth standard covers full AI industry chain",
+            "Companies from chips to applications can all IPO",
+            "Domestic AI company listing channels fully opened",
+            "AI capital market benefits continue"
+          ]
+        },
+        {
+          "title": "商务部等八部门发文：17项举措推进「人工智能+消费」",
+          "title_en": "8 Ministries Issue 17 Measures to Promote 'AI + Consumption'",
+          "summary": "商务部等八部门发布《关于加快「人工智能+消费」发展的实施意见》，提出17项举措促进AI走进千家万户、进千商万店。",
+          "summary_en": "Ministry of Commerce and 7 other departments issue 'Implementation Opinions on Accelerating AI + Consumption Development,' proposing 17 measures to promote AI into thousands of households and businesses.",
+          "category": "政策监管",
+          "source": "商务部官方网站",
+          "source_en": "Ministry of Commerce Official",
+          "url": "http://m.toutiao.com/group/7652876076078678568/",
+          "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=450&fit=crop",
+          "date": "2026-06-19",
+          "id": "news-2026-06-19-10",
+          "content": "商务部等八部门6月18日发布《关于加快「人工智能+消费」发展的实施意见》，围绕提升AI+商品消费、发展AI+服务消费、培育AI消费新业态等五方面提出17项举措。\n\n政策明确要推动智能终端供给、人形机器人及全场景生态发展，覆盖养老、文旅等五大服务场景。",
+          "content_en": "Ministry of Commerce and 7 other departments issued 'Implementation Opinions on Accelerating AI + Consumption Development' on June 18, proposing 17 measures across five areas including AI+ product consumption, AI+ service consumption, and new AI consumption formats.\n\nThe policy explicitly promotes intelligent terminal supply, humanoid robots and full-scenario ecosystem development, covering elderly care, cultural tourism, and four other service scenarios.",
+          "key_points": [
+            "八部门联合发布17项AI+消费举措",
+            "推动智能终端和人形机器人发展",
+            "覆盖养老、文旅等五大服务场景",
+            "AI走进千家万户政策加码"
+          ],
+          "key_points_en": [
+            "8 departments jointly issue 17 AI + consumption measures",
+            "Promote intelligent terminals and humanoid robots",
+            "Cover elderly care, cultural tourism, four other service scenarios",
+            "Policy intensifies to bring AI into thousands of households"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-18",
       "hero": {
@@ -1000,320 +1306,6 @@
             "Japan focuses on back-end materials and equipment in semiconductor ecosystem",
             "Nikkei questions whether Japan can join AI ecosystem mainstream",
             "Japan promotes semiconductor revitalization to counter marginalization"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-14",
-      "hero": {
-        "title": "美国政府强制关停Anthropic Claude Fable 5与Mythos 5，AI模型首次被列为受控技术",
-        "title_en": "US Government Forces Anthropic to Shut Down Claude Fable 5 and Mythos 5, AI Models Treated as Controlled Technology for the First Time",
-        "summary": "美国商务部以国家安全为由，向Anthropic发出出口管制指令，禁止外国公民使用Fable 5和Mythos 5。因无法按国籍实时区分用户，Anthropic被迫全球关停这两款仅发布3天的旗舰模型。亚马逊此前向政府演示了绕过Fable 5安全控制的技术。这是美国政府首次使用出口管制权力强制关停商业AI模型，开创了将AI模型视为「受控技术」的先例。",
-        "summary_en": "The US Commerce Department issued an export control directive to Anthropic on national security grounds, barring foreign nationals from accessing Fable 5 and Mythos 5. Unable to segregate users by nationality, Anthropic was forced to shut down both flagship models worldwide just three days after launch. Amazon demonstrated bypass of Fable 5 safety controls. First US export control shutdown of a commercial AI model.",
-        "category": "政策监管",
-        "source": "Reuters / Axios",
-        "source_en": "Reuters / Axios",
-        "url": "https://www.techtimes.com/articles/318342/20260613/us-government-pulls-anthropics-fable-5-offline-now-come-refunds-vanished-ai.htm",
-        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=450&fit=crop",
-        "date": "2026-06-14",
-        "id": "hero-2026-06-14",
-        "content": "6月12日，美国商务部向Anthropic发出紧急出口管制指令，以国家安全为由禁止任何外国公民使用Claude Fable 5和Mythos 5两款模型。由于指令按国籍而非所在地执行，Anthropic无法在系统中实时区分用户国籍，被迫于当日全面关停这两款仅发布3天的旗舰模型。\n\n这一指令的直接导火索是亚马逊向美国政府演示了一种绕过Fable 5安全控制的技术。亚马逊是Anthropic的最大投资者之一，其向政府展示了该模型在特定代码库审查场景中可发现已知软件漏洞的能力。Anthropic对此强烈反驳，称该技术是「窄范围、非通用的」，发现的安全漏洞均为已知的次要漏洞，且GPT-5.5等竞品在无需越狱的情况下也能展现类似行为。\n\n事件的深层影响远超Anthropic一家公司。这是美国政府首次将出口管制权力用于强制关停商业AI模型，开创了将AI模型视为类似先进芯片和武器组件的「受控技术」的先例。Axios指出，这实质上形成了一套事实上的「模型许可制度」。\n\n限制还波及了美国盟友。欧盟在经过数周谈判后刚于6月初获得Claude Mythos模型的使用权，现在面临再次失去访问权的困境。欧盟委员会发言人表示正在评估影响，并强调这一事件再次凸显欧洲实现「技术主权」的必要性。\n\nAnthropic的Pre-IPO市场也受到冲击。Prestocks ANTHROPIC代币24小时下跌9.11%，Hyperliquid合成永续合约下跌3%。",
-        "content_en": "On June 12, the US Commerce Department issued an emergency export control directive to Anthropic, barring any foreign national from using Claude Fable 5 and Mythos 5. Unable to segregate users by nationality, Anthropic shut down both models worldwide just three days after launch.\n\nAmazon demonstrated a technique for bypassing Fable 5 safety controls to US officials. Anthropic pushed back, calling the technique narrow and non-universal, noting similar behavior appears in GPT-5.5 without jailbreaks.\n\nThis is the first US export control shutdown of a commercial AI model, establishing a precedent for treating AI models as controlled technology. Axios noted this creates a de facto model licensing regime.\n\nThe restrictions affected US allies. The EU had just secured access to Claude Mythos. An EU Commission spokesperson said the incident underscores the necessity of European technological sovereignty.\n\nPre-IPO markets took a hit. Prestocks ANTHROPIC token dropped 9.11%, Hyperliquid synthetic perpetuals fell 3%.",
-        "key_points": [
-          "美国首次以出口管制关停商业AI模型",
-          "亚马逊向政府演示绕过Fable 5安全控制的技术",
-          "Anthropic反驳称技术窄范围且GPT-5.5也存在类似问题",
-          "欧盟等盟友同样受影响，技术主权讨论升温",
-          "Pre-IPO市场受冲击，代币24小时跌9%"
-        ],
-        "key_points_en": [
-          "First US export control shutdown of commercial AI model",
-          "Amazon demonstrated bypass of Fable 5 safety controls",
-          "Anthropic disputes, noting similar issues in GPT-5.5",
-          "EU and allies affected, tech sovereignty debate intensifies",
-          "Pre-IPO markets hit, token down 9% in 24 hours"
-        ]
-      },
-      "articles": [
-        {
-          "title": "Google DeepMind发布DiffusionGemma：文本生成从逐词走向并行",
-          "title_en": "Google DeepMind Releases DiffusionGemma: Parallel Text Generation",
-          "summary": "DeepMind发布实验性开源模型DiffusionGemma，采用扩散模型架构实现整块文本并行生成。基于Gemma 4构建，26B参数MoE架构，每步激活3.8B参数，面向低延迟单用户场景。",
-          "summary_en": "DeepMind released DiffusionGemma, generating text blocks in parallel using diffusion architecture. Built on Gemma 4, 26B MoE model, 3.8B active per step.",
-          "category": "大模型",
-          "source": "ContentBuffer",
-          "source_en": "ContentBuffer",
-          "url": "https://contentbuffer.com/news",
-          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
-          "date": "2026-06-14",
-          "id": "news-2026-06-14-1",
-          "content": "Google DeepMind发布了DiffusionGemma实验性开源模型，将扩散模型架构引入文本生成领域，打破了自回归模型逐token生成的传统范式。该模型可以一次性生成整块文本，有望大幅降低生成延迟。\n\nDiffusionGemma基于Gemma 4构建，采用26B参数MoE架构，每步推理仅激活3.8B参数。与传统的Transformer自回归生成不同，扩散模型通过逐步去噪的方式生成文本，天然支持并行计算。\n\n如果扩散文本生成能在保持质量的同时实现真正并行化，当前大模型推理的延迟瓶颈将被根本性突破。不过该模型目前仍处于实验阶段。",
-          "content_en": "DeepMind released DiffusionGemma, bringing diffusion architecture to text generation and breaking the autoregressive token-by-token paradigm. The model generates entire text blocks at once, potentially reducing latency dramatically.\n\nBuilt on Gemma 4 with 26B MoE architecture activating 3.8B per step. Unlike autoregressive generation, diffusion models generate text through iterative denoising, naturally supporting parallel computation.\n\nIf diffusion text generation can maintain quality with true parallelization, the current LLM latency bottleneck could be fundamentally overcome. The model remains experimental.",
-          "key_points": [
-            "DiffusionGemma采用扩散模型架构实现并行文本生成",
-            "基于Gemma 4，26B参数MoE架构",
-            "面向低延迟单用户场景设计",
-            "可能重新定义大模型生成范式"
-          ],
-          "key_points_en": [
-            "Diffusion architecture for parallel text generation",
-            "Built on Gemma 4, 26B MoE model",
-            "Designed for low-latency single-user workloads",
-            "Could redefine LLM generation paradigm"
-          ]
-        },
-        {
-          "title": "OpenAI CEO称一年内完成IPO，GPT-5.6有「实质性提升」或于本月发布",
-          "title_en": "OpenAI CEO Says IPO Within One Year, GPT-5.6 Coming Soon",
-          "summary": "据The Information披露，OpenAI CEO奥特曼在内部邮件中表示公司将在「一年内」完成IPO。GPT-5.6相比GPT-5.5有「实质性提升」，或于本月发布。开发者发现代号iris-alpha的内部模型，上下文窗口约150万token。",
-          "summary_en": "OpenAI CEO Altman told employees IPO within one year. GPT-5.6 has substantial improvements, may launch this month. iris-alpha internal model found with 1.5M token context.",
-          "category": "投融资",
-          "source": "The Information",
-          "source_en": "The Information",
-          "url": "https://theinformation.com",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
-          "date": "2026-06-14",
-          "id": "news-2026-06-14-2",
-          "content": "据The Information报道，OpenAI CEO萨姆·奥特曼在致员工内部邮件中表示，公司将在「一年内」完成IPO。这是OpenAI领导层迄今关于IPO时间表最明确的承诺。\n\n首席科学家Jakub Pachocki告知团队，GPT-5.6相比GPT-5.5有「实质性提升」，可能本月发布。开发者已在Codex后端日志中发现代号iris-alpha的内部模型，上下文窗口约150万token。\n\nOpenAI的IPO计划与Anthropic形成竞争态势。Anthropic此前IPO估值9650亿至9690亿美元，但Fable 5关停事件给其估值蒙上阴影。",
-          "content_en": "OpenAI CEO Sam Altman stated the company will complete its IPO within a year, the most explicit commitment to date.\n\nChief scientist Pachocki said GPT-5.6 has substantial improvements and may launch this month. Developers found iris-alpha internal model with 1.5M token context.\n\nOpenAI's IPO creates competitive dynamics with Anthropic, whose valuation has been clouded by the Fable 5 shutdown.",
-          "key_points": [
-            "奥特曼明确表示一年内完成IPO",
-            "GPT-5.6有实质性提升，或本月发布",
-            "iris-alpha内部模型150万token上下文",
-            "与Anthropic IPO竞争态势升温"
-          ],
-          "key_points_en": [
-            "Altman states IPO within one year",
-            "GPT-5.6 substantial improvements, may launch this month",
-            "iris-alpha with 1.5M token context found",
-            "Anthropic IPO competition heating up"
-          ]
-        },
-        {
-          "title": "中国短视频AI内容强制标注新规正式落地，3秒内须标「AI生成」",
-          "title_en": "China Mandatory AI Content Labeling Rule Takes Effect",
-          "summary": "6月14日零点，短视频AI内容强制标注新规正式全网落地。所有AI创作的短视频须在开头3秒内标注「AI生成」，未标注将被下架，三次违规限流封禁。",
-          "summary_en": "China mandatory AI labeling for short videos took effect June 14. All AI-generated content must display AI Generated label within 3 seconds. Non-compliant content removed; 3 violations lead to suspension.",
-          "category": "政策监管",
-          "source": "中央网信办",
-          "source_en": "Cyberspace Administration of China",
-          "url": "https://www.cac.gov.cn",
-          "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&h=450&fit=crop",
-          "date": "2026-06-14",
-          "id": "news-2026-06-14-3",
-          "content": "6月14日零点，中央网信办出台的短视频AI内容强制标注新规正式全网落地。这是全球首个针对短视频AI内容的强制性标注法规。\n\n新规要求所有AI生成短视频须在开头3秒内标注「AI生成」标识。未标注将被直接下架，账号三次违规将被限流并暂停发布权限。各大平台已连夜完成系统升级适配。",
-          "content_en": "China mandatory AI content labeling for short videos took effect at midnight June 14, the first such regulation globally. All AI-generated content must display AI Generated label within 3 seconds. Non-compliant content removed; 3 violations lead to suspension. Major platforms completed system upgrades.",
-          "key_points": [
-            "全球首个短视频AI内容强制标注法规",
-            "3秒内须标「AI生成」",
-            "未标注下架，三次违规限流封禁",
-            "各大平台已完成系统升级"
-          ],
-          "key_points_en": [
-            "World first mandatory AI labeling for short videos",
-            "Must display AI Generated within 3 seconds",
-            "Non-compliant content removed; 3 violations lead to suspension",
-            "Major platforms completed system upgrades"
-          ]
-        },
-        {
-          "title": "北京智源大会发布全球首个通用世界基座模型",
-          "title_en": "Beijing Zhiyuan Conference Releases First General World Base Model",
-          "summary": "2026北京智源大会发布全球首个通用世界基座模型，突破AI语言理解局限，可识别物理常识，赋能自动驾驶和机器人。同时发布Brainμ 1.0脑信号模型和1万亿Token神经科学数据集。",
-          "summary_en": "Zhiyuan Conference released worlds first general world base model, achieving physical world cognition. Also released Brainmu 1.0 brain signal model and 1T token neuroscience dataset.",
-          "category": "大模型",
-          "source": "央广网",
-          "source_en": "CNR",
-          "url": "http://m.toutiao.com/group/7650881535181898246/",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop",
-          "date": "2026-06-14",
-          "id": "news-2026-06-14-4",
-          "content": "2026北京智源大会正式发布全球首个通用世界基座模型。智源研究院院长王仲远拆解了从「预测下一个Token」到「预测下一个物理状态」的演进逻辑。\n\n该模型突破传统AI语言理解局限，可精准掌握物体运动规律、重力原理等物理常识。悟界·Physis 0.1正在研发中，完成后将全面开源。大会还发布了Brainμ 1.0脑信号模型和1万亿Token的BrainToken数据集。",
-          "content_en": "The 2026 Beijing Zhiyuan Conference released the worlds first general world base model. Zhiyuan president Wang Zhongyuan outlined the evolution from predicting next token to predicting next physical state.\n\nThe model masters physical common sense. Physis 0.1 under development will be open-sourced. Brainmu 1.0 proves cross-species brain signal representations. BrainToken dataset exceeds 1 trillion tokens.",
-          "key_points": [
-            "全球首个通用世界基座模型发布",
-            "AI从语言理解迈向物理理解",
-            "Physis 0.1研发中，将开源",
-            "Brainμ 1.0跨物种脑信号模型",
-            "BrainToken数据集超1万亿Token"
-          ],
-          "key_points_en": [
-            "Worlds first general world base model",
-            "AI from language to physical understanding",
-            "Physis 0.1 in development, will open-source",
-            "Brainmu 1.0 cross-species brain signal model",
-            "BrainToken dataset exceeds 1T tokens"
-          ]
-        },
-        {
-          "title": "超75个AI数据中心项目被阻，1300亿美元投资搁浅",
-          "title_en": "Over 75 AI Data Center Projects Worth $130B Blocked",
-          "summary": "2026年前4个月超75个AI数据中心项目被阻，1300亿美元追平2025全年。70%美国人反对，69个地方政府颁布禁令。PJM容量价格暴涨833%。",
-          "summary_en": "Over 75 AI data center projects worth $130B blocked in first 4 months of 2026, matching all of 2025. 70% Americans oppose. 69 local bans. PJM capacity prices surged 833%.",
-          "category": "芯片算力",
-          "source": "Data Center Watch",
-          "source_en": "Data Center Watch",
-          "url": "https://logicity.in/en/blog/130b-in-data-center-projects-blocked-in-2026-s-first-four-months",
-          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=450&fit=crop",
-          "date": "2026-06-14",
-          "id": "news-2026-06-14-5",
-          "content": "2026年前4个月超75个AI数据中心项目被阻，涉及1300亿美元，追平2025全年。70%美国人反对社区新建数据中心，69个地方政府已颁布禁令。AI用电需求从23GW翻倍至42GW，PJM容量价格暴涨833%。AMD指出AI基础设施同时面临电力、铜材、变压器和内存四大瓶颈。",
-          "content_en": "Over 75 AI data center projects worth $130B blocked in first 4 months of 2026, matching all of 2025. 70% Americans oppose local data centers. 69 local governments enacted bans. AI electricity demand doubled to 42GW. PJM capacity prices surged 833%. AMD noted four simultaneous bottlenecks: power, copper, transformers, memory.",
-          "key_points": [
-            "1300亿美元项目被阻，追平2025全年",
-            "70%美国人反对新建数据中心",
-            "69个地方政府颁布禁令",
-            "AI用电翻倍至42GW",
-            "PJM容量价格暴涨833%"
-          ],
-          "key_points_en": [
-            "$130B blocked, matching all of 2025",
-            "70% Americans oppose new data centers",
-            "69 local government bans",
-            "AI electricity doubles to 42GW",
-            "PJM capacity prices surge 833%"
-          ]
-        },
-        {
-          "title": "DeepMind警告：数百万AI智能体交互可能引发级联故障",
-          "title_en": "DeepMind Warns: Millions of AI Agents Could Cause Cascading Failures",
-          "summary": "DeepMind警告大规模多智能体交互存在合谋、从众和级联故障三种系统性风险，单智能体评估无法发现。团队发布研究资助计划。",
-          "summary_en": "DeepMind warns multi-agent interactions pose systemic risks: collusion, herding, cascading failures. Undetectable in single-agent evaluations. Research funding announced.",
-          "category": "大模型",
-          "source": "ContentBuffer",
-          "source_en": "ContentBuffer",
-          "url": "https://contentbuffer.com/news",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop",
-          "date": "2026-06-14",
-          "id": "news-2026-06-14-6",
-          "content": "DeepMind研究团队警告当前AI安全研究忽视了大规模多智能体交互的系统性风险。团队指出三种关键风险：合谋、从众行为和级联故障。这些风险在传统单智能体安全评估中完全无法被发现。DeepMind同时宣布将资助多智能体动态安全研究。",
-          "content_en": "DeepMind warns current AI safety research overlooks multi-agent interaction risks. Three key risks identified: collusion, herding behavior, and cascading failures. Undetectable in single-agent evaluations. DeepMind announced funding for multi-agent dynamics research.",
-          "key_points": [
-            "多智能体交互存在系统性风险",
-            "三种风险：合谋、从众、级联故障",
-            "单智能体评估无法发现",
-            "DeepMind资助相关研究"
-          ],
-          "key_points_en": [
-            "Multi-agent interactions pose systemic risks",
-            "Three risks: collusion, herding, cascading failures",
-            "Undetectable in single-agent evaluations",
-            "DeepMind funding research"
-          ]
-        },
-        {
-          "title": "OpenAI遭多州总检察长联合调查",
-          "title_en": "OpenAI Faces Multi-State AG Investigation",
-          "summary": "多个州总检察长对OpenAI发起联合调查，纽约州已发出传票。涉及广告策略、数据处理和未成年人安全保护。发生在IPO准备关键时期。",
-          "summary_en": "Multiple state AGs investigate OpenAI. New York served subpoena. Covers advertising, data handling, and minor protection. Comes during IPO preparation.",
-          "category": "政策监管",
-          "source": "ContentBuffer",
-          "source_en": "ContentBuffer",
-          "url": "https://contentbuffer.com/news",
-          "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=450&fit=crop",
-          "date": "2026-06-14",
-          "id": "news-2026-06-14-7",
-          "content": "多个州总检察长对OpenAI发起联合调查，纽约州已发出传票。调查涵盖ChatGPT广告策略、数据处理方式以及对未成年人和老年人的安全保护措施。此时正值OpenAI IPO准备关键时期，AI行业面临前所未有的监管压力。",
-          "content_en": "Multiple state attorneys general launched a joint investigation into OpenAI, with New York serving a subpoena. The probe covers advertising, data handling, and safety protections for minors and seniors. Comes during OpenAI's IPO preparation period amid unprecedented regulatory pressure.",
-          "key_points": [
-            "多州总检察长联合调查",
-            "纽约州已发传票",
-            "涉及广告、数据和未成年人保护",
-            "正值IPO准备关键期"
-          ],
-          "key_points_en": [
-            "Multi-state AG investigation",
-            "New York subpoena served",
-            "Covers advertising, data, minor protection",
-            "During critical IPO preparation period"
-          ]
-        },
-        {
-          "title": "Google发布Gemini Deep Research智能体",
-          "title_en": "Google Launches Gemini Deep Research Agent",
-          "summary": "Google推出Gemini Deep Research智能体，基于Gemini 3 Pro自动完成多步研究，基准测试超越GPT-5 Pro，将整合至Google Search等产品。纳德拉也展示多模型辩论协作系统。",
-          "summary_en": "Google launched Gemini Deep Research agent powered by Gemini 3 Pro. Outperforms GPT-5 Pro on benchmarks. Integrating into Google Search. Nadella demonstrated multi-model debate system.",
-          "category": "AI应用",
-          "source": "BizzBuzz News",
-          "source_en": "BizzBuzz News",
-          "url": "https://www.bizzbuzz.news/industry/infotech/ai/your-daily-dose-of-ai-stories-that-matter-before-they-make-news-1394229",
-          "image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=450&fit=crop",
-          "date": "2026-06-14",
-          "id": "news-2026-06-14-8",
-          "content": "Google推出Gemini Deep Research自主多步AI智能体，基于Gemini 3 Pro构建，可自主完成信息规划、搜索、阅读和追问的完整研究流程。基准测试超越GPT-5 Pro，将整合至Google Search、NotebookLM和Gemini App。\n\n微软CEO纳德拉也展示了多智能体AI系统LLM Council、DxO和Ensemble，让GPT、Claude、Gemini和Grok辩论并改进答案。",
-          "content_en": "Google launched Gemini Deep Research agent built on Gemini 3 Pro, autonomously completing multi-step research workflows. Outperformed GPT-5 Pro on benchmarks. Will integrate into Google Search, NotebookLM, and Gemini app.\n\nMicrosoft CEO Nadella demonstrated multi-agent systems (LLM Council, DxO, Ensemble) that let multiple models debate and improve answers together.",
-          "key_points": [
-            "Gemini Deep Research基于Gemini 3 Pro",
-            "可自主完成多步研究",
-            "基准超越GPT-5 Pro",
-            "将整合至Google产品",
-            "纳德拉展示多模型辩论系统"
-          ],
-          "key_points_en": [
-            "Built on Gemini 3 Pro",
-            "Autonomous multi-step research",
-            "Outperforms GPT-5 Pro",
-            "Integrating into Google products",
-            "Nadella shows multi-model debate system"
-          ]
-        },
-        {
-          "title": "特斯拉Optimus V3量产加速，宇树创73天过会纪录",
-          "title_en": "Tesla Optimus V3 Mass Production Accelerates, Unitree Record IPO Review",
-          "summary": "Optimus V3预计2026下半年量产，目标每周2万台，超10家中国供应商入链。宇树科技创73天科创板过会纪录，将成为A股首家人形机器人上市公司。",
-          "summary_en": "Optimus V3 mass production H2 2026, 20K per week target. Unitree cleared STAR Market review in record 73 days, first humanoid robot A-share listing.",
-          "category": "AI应用",
-          "source": "Counterpoint Research",
-          "source_en": "Counterpoint Research",
-          "url": "https://contentbuffer.com/news",
-          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
-          "date": "2026-06-14",
-          "id": "news-2026-06-14-9",
-          "content": "特斯拉Optimus V3预计2026下半年量产，目标每周2万台，超10家中国供应商已入链。宇树科技以创纪录73天通过科创板审核，将成为A股首家人形机器人上市公司，募资约42亿元。人形机器人正从概念验证迈入规模化量产阶段。",
-          "content_en": "Tesla Optimus V3 expected in mass production H2 2026, targeting 20K units per week. Over 10 Chinese suppliers in the chain. Unitree cleared STAR Market review in record 73 days, becoming first humanoid robot A-share listing, raising approximately 4.2B yuan. Humanoid robots entering scaled production phase.",
-          "key_points": [
-            "Optimus V3预计2026下半年量产",
-            "每周2万台产能目标",
-            "超10家中国供应商入链",
-            "宇树73天创纪录过会",
-            "人形机器人迈入规模化量产"
-          ],
-          "key_points_en": [
-            "Optimus V3 H2 2026 mass production",
-            "20K units per week target",
-            "Over 10 Chinese suppliers",
-            "Unitree record 73-day review",
-            "Scaled production phase beginning"
-          ]
-        },
-        {
-          "title": "Anthropic订购210亿美元Google TPU，百万级部署计划浮出水面",
-          "title_en": "Anthropic Orders $21B in Google TPUs, Million-TPU Deployment Plan",
-          "summary": "Anthropic已订购210亿美元Google TPU，计划部署100万枚。TPU成为英伟达GPU成本效益替代方案，英伟达积压订单730亿美元。",
-          "summary_en": "Anthropic ordered $21B in Google TPUs, plans to deploy 1 million. TPUs becoming cost-efficient GPU alternative. NVIDIA backlog at $73B.",
-          "category": "芯片算力",
-          "source": "BizzBuzz News",
-          "source_en": "BizzBuzz News",
-          "url": "https://www.bizzbuzz.news/industry/infotech/ai/your-daily-dose-of-ai-stories-that-matter-before-they-make-news-1394229",
-          "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop",
-          "date": "2026-06-14",
-          "id": "news-2026-06-14-10",
-          "content": "Broadcom披露Anthropic已订购210亿美元Google TPU，计划部署100万枚。TPU在特定AI工作负载上性价比更高，Meta和苹果也在加大采用。英伟达积压订单730亿美元，为TPU路线加速崛起创造窗口期。AI算力市场正从英伟达独大走向多元化。",
-          "content_en": "Anthropic ordered $21B in Google-designed TPUs with plans to deploy 1 million. TPUs offer better price-performance for specific AI workloads. Meta and Apple increasing adoption. NVIDIA's $73B backlog creates a window for TPU acceleration. AI compute market diversifying from NVIDIA dominance.",
-          "key_points": [
-            "Anthropic订购210亿美元Google TPU",
-            "计划部署100万枚TPU",
-            "TPU成为GPU成本效益替代",
-            "英伟达积压730亿美元",
-            "AI算力市场走向多元化"
-          ],
-          "key_points_en": [
-            "Anthropic orders $21B in Google TPUs",
-            "Plans to deploy 1 million TPUs",
-            "TPUs becoming GPU alternative",
-            "NVIDIA $73B backlog",
-            "AI compute market diversifying"
           ]
         }
       ]
