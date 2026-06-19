@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-06-19 — 6月19日每日更新
+
+### 新增
+- 6月19日新闻10条 + 头条（苹果WWDC 2026：Siri底层全面切换Gemini，AI助手进入「自选模型」时代）
+- 深度文章 `article-18.html`：《AI助手「自选模型」时代：苹果WWDC开启消费AI新纪元》正式上线
+- 新闻包括：杨立昆警告xAI已失败/AI泡沫预警、Google I/O 2026 Gemini 3.5 Flash速度提升4倍/AI Ultra降价60%、OpenAI Dreaming记忆系统、Anthropic收购Coefficient Bio进军AI制药、费城半导体指数暴涨6.41%/英特尔创历史新高、智谱vs MiniMax分化、Nature封面AI独立完成科学发现、MiniMax百万Token近线性计算、科创板第五套标准覆盖AI全产业链、八部门17项举措推进AI+消费
+- `articles/en/article-18.html`：英文版同步上线
+- `wechat/wechat-2026-06-19.html`：微信图文版（杨立昆与马斯克：AI教父与硅谷狂人的十年战争）含原创声明
+- `toutiao/toutiao-2026-06-19.md`：头条版（AI行业泡沫预警：LeCun的警告与资本市场的疯狂）
+
+### 修改
+- `data/news.json`：新增6月19日数据，移除6月14日（保留5天：19/18/17/16/15）
+- `data/articles.json`：新增 article-18 元数据
+- `index.html`：侧边栏推荐区更新（article-18 🔥、article-17 📖、article-16 📖、article-15 📖）
+- `js/i18n.js`：深度文章标题更新为 article-18、article-17、article-16（中英文）
+
+### 部署
+- GitHub推送成功
+- Cloudflare Pages部署成功：https://ainewsdaily.pages.dev
+- 正式域名：https://ainewsdaily.asia
+
+### 累计进度
+- 深度文章：18篇（article-1至article-18）
+- 距AdSense目标（20-30篇）还需2-12篇
+
+---
+
 ## 2026-06-18 — 6月18日每日更新
 
 ### 新增
