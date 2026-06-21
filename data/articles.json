@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "id": "article-20",
+      "title": "具身智能落地元年：从VLA技术突破到消费政策的产业共振",
+      "title_en": "Embodied Intelligence Year One: VLA Breakthroughs and Consumer Policy Convergence",
+      "summary": "北京大学MotionVLA技术突破、商务部「AI+消费」政策落地、人形机器人纳入消费新赛道——技术、政策与市场三重信号汇聚，具身智能正从实验室走向千家万户。",
+      "summary_en": "Peking University MotionVLA breakthrough, Ministry of Commerce AI+consumption policy, humanoid robots entering consumer market — technology, policy, and market signals converge as embodied intelligence moves from lab to home.",
+      "date": "2026-06-21",
+      "url": "articles/article-20.html",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
+      "category": "产业",
+      "read_time": "8分钟",
+      "url_en": "articles/en/article-20.html"
+    },
+    {
       "id": "article-19",
       "title": "AI产业「双轨并进」：政策红利与IPO狂潮下的万亿新战场",
       "title_en": "AI Industry's Dual-Track Surge: Policy Dividends & IPO Frenzy",

@@ -172,9 +172,9 @@
             tag_compute: 'Compute',
 
             // Deep reads
-            deep_article_1_title: "AI Industry's Dual-Track Surge: Policy Dividends & IPO Frenzy",
-            deep_article_2_title: "Apple WWDC 2026: Siri Gemini Switch Marks New Era of Choose Your Own AI Model",
-            deep_article_3_title: "SpaceX Acquires Cursor for $60B: When a Space Giant Transforms into an AI Coding Company",
+            deep_article_1_title: "Embodied Intelligence Year One: VLA Breakthroughs and Consumer Policy Convergence",
+            deep_article_2_title: "AI Industry's Dual-Track Surge: Policy Dividends & IPO Frenzy",
+            deep_article_3_title: "Apple WWDC 2026: Siri Gemini Switch Marks New Era of Choose Your Own AI Model",
 
             // Date separators
             date_today: 'Today',

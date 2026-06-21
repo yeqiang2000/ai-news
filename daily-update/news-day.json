@@ -1,0 +1,242 @@
+{
+  "date": "2026-06-21",
+  "total_count": 10,
+  "hero": {
+    "id": "hero-2026-06-21",
+    "title": "DeepSeek完成510亿元A轮融资：中国AI行业创纪录里程碑",
+    "title_en": "DeepSeek Closes Record $51B Series A, Signaling China's AI Ambitions",
+    "summary": "DeepSeek完成超500亿元首轮外部融资，腾讯、宁德时代、京东等参与投资，投后估值近4000亿元。创始人梁文锋出资200亿元把控公司控制权。",
+    "summary_en": "DeepSeek raises over 51 billion yuan in its first external funding round, with investors including Tencent, CATL, and JD.com, valuing the company at nearly 400 billion yuan. Founder Liang Wenfeng invested 20 billion yuan to maintain control.",
+    "source": "券商中国/网易财经",
+    "source_en": "Securities Times/NetEase Finance",
+    "url": "https://money.163.com/keywords/0/6/00618f6e878d8d44/1.html",
+    "category": "投融资",
+    "date": "2026-06-21",
+    "content_en": "DeepSeek, the Chinese AI startup behind the DeepSeek-V4-Pro model, has completed its first external funding round totaling over 510 billion yuan (approximately $74 billion), marking the largest single-round financing in China's AI industry. According to sources cited by The Information, the post-money valuation has exceeded 3.38 trillion yuan (over $500 billion). Founder Liang Wenfeng invested approximately 200 billion yuan personally, making him the largest single investor. Other participants include Tencent (100 billion yuan), CATL (50 billion yuan), JD.com and NetEase (30 billion yuan each), and the National AI Industry Investment Fund (10 billion yuan). Notably, Liang imposed strict terms on outside investors: all capital except state funds must go through a limited partnership he controls, with no voting rights, a five-year lock-up period, and full LP identity verification required. This deal transforms DeepSeek from a pure research lab into a platform-type AI company with strategic industrial partnerships.",
+    "key_points_en": [
+      "DeepSeek raises 510+ billion yuan ($74B) in Series A, China's largest AI funding round ever",
+      "Post-money valuation reaches ~400 billion yuan ($500B+), up 5x from April's rumored 100B valuation",
+      "Founder Liang Wenfeng retains full control with 200 billion yuan personal investment and strict governance terms",
+      "Strategic investors include Tencent, CATL, JD.com, NetEase, creating a comprehensive industrial AI ecosystem"
+    ],
+    "is_hero": true
+  },
+  "news": [
+    {
+      "id": "news-2026-06-21-1",
+      "title": "Anthropic Claude Fable 5发布：编程能力横扫榜单，估值首超OpenAI",
+      "title_en": "Anthropic's Claude Fable 5 Dominates Benchmarks, Surpassing OpenAI's Valuation",
+      "summary": "Anthropic发布Claude Fable 5，SWE-bench Pro得分80.3%领先GPT-5.5达22个百分点。公司估值达9650亿美元，首次超越OpenAI的8520亿美元登顶行业第一。",
+      "summary_en": "Anthropic releases Claude Fable 5, achieving 80.3% on SWE-bench Pro, surpassing GPT-5.5 by 22 percentage points. The company's valuation reaches $965 billion, overtaking OpenAI's $852 billion for the first time.",
+      "source": "AI编程社区/MR_Teen",
+      "source_en": "MR_Teen AI Coding Community",
+      "url": "https://aicoding.csdn.net/6a35f0e1662f9a54cb820bfd.html",
+      "category": "大模型",
+      "date": "2026-06-21",
+      "content_en": "Anthropic officially released Claude Fable 5 and Claude Mythos 5 on June 10, marking the first time the company brought Mythos-class capabilities to broader users. Fable 5 achieved unprecedented benchmark results: 80.3% on SWE-bench Pro versus GPT-5.5's 58.6%, a gap of 22 percentage points. The Artificial Analysis general intelligence index scored 64.9 points, ranking first among all models, with Fable 5 winning 5 out of 10 individual benchmarks. This performance has driven Anthropic's valuation to $965 billion, surpassing OpenAI's $852 billion valuation for the first time. The Claude series now spans four tiers: Haiku, Sonnet, Opus, and Mythos, with Fable 5 belonging to the Opus tier while Mythos 5 targets specific professional domains with advanced capabilities.",
+      "key_points_en": [
+        "Claude Fable 5 scores 80.3% on SWE-bench Pro, exceeding GPT-5.5 by 22 percentage points",
+        "Anthropic's valuation reaches $965B, surpassing OpenAI ($852B) for the first time",
+        "The model achieves top scores on 5 out of 10 individual benchmarks and 64.9 on the Artificial Analysis general intelligence index",
+        "Claude Mythos 5, with fewer safety restrictions, is only available to trusted cybersecurity partners through Project Glasswing"
+      ],
+      "is_hero": false
+    },
+    {
+      "id": "news-2026-06-21-2",
+      "title": "七部门联合印发AI平台经济行动方案：明确三大核心扶持赛道",
+      "title_en": "Seven Chinese Ministries Jointly Issue AI Platform Economy Action Plan",
+      "summary": "工信部等七部门联合印发《促进平台经济大中小企业协同发展行动方案》，首次将通用大模型、行业大模型、AI智能体列为三大核心扶持赛道，推动AI从概念走向实体产业生产力。",
+      "summary_en": "Seven Chinese ministries jointly issue the Platform Economy Coordinated Development Action Plan, designating general AI models, industry-specific models, and AI agents as three core supported tracks, pushing AI from concept to real industrial productivity.",
+      "source": "人民网/人民日报",
+      "source_en": "People's Daily/People's Daily Online",
+      "url": "http://m.toutiao.com/group/7653459323863810614/",
+      "category": "政策监管",
+      "date": "2026-06-21",
+      "content_en": "China's Ministry of Industry and Information Technology, along with six other ministries, jointly issued the Action Plan for Promoting Coordinated Development of Large, Medium, and Small Enterprises in the Platform Economy (2026-2028). For the first time, the policy explicitly designates three core supported tracks: general-purpose foundation models, industry-specific vertical models, and task-oriented AI agents. The policy aims to shift AI development from parameter racing and conceptual炒作 to practical value delivery. The core logic centers on large enterprises opening up computing power and models while small and medium enterprises focus on industry-specific application scenarios, unified by industrial standards. This approach is designed to transform AI from a chat-based conceptual tool into a productive carrier capable of independently completing cross-system tasks.",
+      "key_points_en": [
+        "Seven ministries designate general AI models, industry vertical models, and AI agents as three core supported tracks",
+        "Policy aims to break resource fragmentation between tech giants and SMEs in AI development",
+        "Industry standards for AI agents will require genuine cross-system capability, eliminating fake agents",
+        "Short-term benefits favor computing hardware and general model leaders; long-term growth in industry-specific models and agent solutions"
+      ],
+      "is_hero": false
+    },
+    {
+      "id": "news-2026-06-21-3",
+      "title": "谷歌微软联合发布ARD标准：传统科技巨头围堵AI新贵",
+      "title_en": "Google and Microsoft Form ARD Alliance to Counter OpenAI and Anthropic",
+      "summary": "谷歌、微软联合Salesforce、Snowflake等数十家企业发布ARD（代理资源发现）AI智能体行业标准，形成传统企业软件阵营统一联盟。OpenAI、Anthropic全程未参与，标志行业标准壁垒战正式开启。",
+      "summary_en": "Google, Microsoft, and dozens of enterprise software providers jointly release the ARD (Agentic Resource Discovery) standard for AI agents, forming a unified alliance of traditional enterprise software. OpenAI and Anthropic were excluded, signaling the start of industry standard warfare.",
+      "source": "折耳根联盟/The Information",
+      "source_en": "The Information/Cooperation Alliance",
+      "url": "http://m.toutiao.com/group/7653113730565177866/",
+      "category": "政策监管",
+      "date": "2026-06-20",
+      "content_en": "Google and Microsoft, leading cloud providers, have jointly released the Agentic Resource Discovery (ARD) standard with Salesforce, Snowflake, ServiceNow, and dozens of other enterprise software companies. The new standard is explicitly designed to exclude OpenAI and Anthropic, who were not involved in drafting, did not sign the supporting agreement, and have no plans for adaptation. The ARD protocol establishes traditional cloud vendors as the primary gateway for enterprise AI, with third-party models like Claude and ChatGPT only allowed as underlying plugins. This directly counters Anthropic's MCP (Model Context Protocol) approach, which positions large models as the central nervous system with autonomous data access. The ARD alliance controls identity verification, data masking, permission approval, and operational auditing through Google Cloud, Azure, and Salesforce platforms.",
+      "key_points_en": [
+        "Google and Microsoft lead ARD standard formation, explicitly excluding OpenAI and Anthropic from enterprise AI gateway",
+        "ARD protocol positions traditional cloud vendors as the primary AI entry point, reducing third-party models to plugins",
+        "Enterprise AI market expected to bifurcate: traditional enterprises using ARD ecosystem vs. innovative companies using independent AI models",
+        "ARD native compatibility with GCP and Azure creates significant deployment cost advantages over third-party model providers"
+      ],
+      "is_hero": false
+    },
+    {
+      "id": "news-2026-06-21-4",
+      "title": "谷歌痛失两大顶尖科学家：Transformer之父与诺奖得主同日跳槽",
+      "title_en": "Google Loses Two Top Scientists: Transformer Inventor and Nobel Laureate Join Rivals",
+      "summary": "短短48小时内，谷歌接连流失两大基石级科学家：Transformer核心发明人Noam Shazeer重返OpenAI，诺贝尔化学奖得主John Jumper加盟Anthropic。预示全球AI生命科学万亿赛道争夺战全面开打。",
+      "summary_en": "Within 48 hours, Google lost two cornerstone scientists: Transformer co-inventor Noam Shazeer rejoined OpenAI, and Nobel Chemistry laureate John Jumper joined Anthropic, signaling an intensifying global battle for the trillion-dollar AI life sciences market.",
+      "source": "产品小龙哥",
+      "source_en": "Product Dragon",
+      "url": "http://m.toutiao.com/group/7653481648943612425/",
+      "category": "大模型",
+      "date": "2026-06-21",
+      "content_en": "Google DeepMind experienced its most significant talent exodus within 48 hours. Noam Shazeer, co-author of the groundbreaking 'Attention Is All You Need' paper and architect of multi-head attention mechanisms, has officially rejoined OpenAI as head of architecture research. He previously returned to Google in 2024 after his company Character.AI was acquired for $2.7 billion. Simultaneously, John Jumper—Nobel Chemistry laureate and creator of AlphaFold—announced his departure from Google DeepMind after nine years, saying he will rest before joining Anthropic full-time. Jumper's AlphaFold has predicted structures for nearly 200 million proteins, a thousand-fold increase over traditional experimental methods, and has been used by over 2 million researchers across 190 countries. Anthropic has been aggressively building its life sciences capabilities, including a $400 million acquisition of Coefficient Bio and plans to leverage Jumper's expertise to compress biological R&D cycles tenfold.",
+      "key_points_en": [
+        "Transformer inventor Noam Shazeer returns to OpenAI as head of architecture research, strengthening its LLM foundation capabilities",
+        "Nobel laureate John Jumper, AlphaFold creator, leaves DeepMind for Anthropic, targeting AI-driven pharmaceutical revolution",
+        "Over 20 milestone paper authors have departed DeepMind in 8 years; 11 executives left in 2025 alone",
+        "Anthropic acquires Coefficient Bio for $400M and establishes wet lab facilities to pursue full-cycle AI biology R&D"
+      ],
+      "is_hero": false
+    },
+    {
+      "id": "news-2026-06-21-5",
+      "title": "中国短视频AI内容标注新规落地：9.8万个账号被处置",
+      "title_en": "China's Short Video AI Content Labeling Rules Take Effect: 98,000 Accounts Sanctioned",
+      "summary": "中央网信办6月12日上线「涉AI应用乱象举报专区」，全面受理14类AI违规行为举报。配合5月短视频6类必选标签强制落地，已处置违规账号9.8万余个，AI内容全生命周期治理闭环形成。",
+      "summary_en": "China's Cyberspace Administration launched the 'AI Application Chaos Reporting Zone' on June 12, accepting 14 categories of AI violations. Combined with mandatory short video labeling rules from May, over 98,000 accounts have been sanctioned, completing the full lifecycle governance of AI content.",
+      "source": "中国经营报",
+      "source_en": "China Business Journal",
+      "url": "http://m.toutiao.com/group/7653187690719904310/",
+      "category": "政策监管",
+      "date": "2026-06-20",
+      "content_en": "China's Cyberspace Administration (CAC) officially launched the 'AI Application Chaos Reporting Zone' on June 12, accepting reports across 14 categories of AI violations including unregistered large models, training data security issues, inadequate implementation of synthetic content identification, use of AI to distort classic works, release of false information, and infringement of minors' rights. This follows the mandatory short video labeling policy implemented on May 12, which requires publishers to select from six mandatory labels: 'contains fictional content,' 'contains AI-generated content,' 'contains marketing information,' 'reposted content,' 'personal opinions,' or 'no labeling required.' As of now, internet regulation departments have instructed platforms to sanction over 98,000 accounts for failing to properly label short video content. The 'substance over form' principle governs labeling decisions: AI rewriting, style transfer, and cross-modal generation require full labeling, while AI proofreading and formatting do not.",
+      "key_points_en": [
+        "CAC launches AI Application Chaos Reporting Zone accepting 14 violation categories including unregistered models and AI content misuse",
+        "Mandatory six-category labeling for short videos requires creators to select appropriate labels before publishing",
+        "Over 98,000 accounts sanctioned for non-compliant AI content labeling, indicating strict enforcement",
+        "Three-tier liability system established: creators bear terminal responsibility, tech providers bear source responsibility, platforms bear ultimate responsibility"
+      ],
+      "is_hero": false
+    },
+    {
+      "id": "news-2026-06-21-6",
+      "title": "HBM存储涨价50%：AI芯片成本飙升倒逼国产替代加速",
+      "title_en": "HBM Storage Prices Surge 50%, AI Chip Costs Spike: Domestic Alternatives Accelerate",
+      "summary": "华泰证券研报显示，HBM存储采购成本下半年涨幅超50%，AI芯片综合制造成本将飙升30-50%。豆包大模型日均Token调用突破120万亿，需求井喷与成本海啸形成黄金布局窗口。",
+      "summary_en": "Huatai Securities reports HBM storage procurement costs will surge over 50% in the second half of 2026, with comprehensive AI chip manufacturing costs expected to spike 30-50%. Meanwhile, Doubao model's daily token usage exceeds 12 trillion, creating a golden window for domestic alternatives.",
+      "source": "与非网/华泰证券",
+      "source_en": "Eefocus/Huatai Securities",
+      "url": "https://m.eefocus.com/article/2035371.html",
+      "category": "芯片算力",
+      "date": "2026-06-19",
+      "content_en": "Huatai Securities released a research report titled 'AI+ Inflation Series: AI Chips May Usher in a Price Increase Window,' revealing that HBM storage procurement costs will surge over 50% in the second half of 2026, with comprehensive AI chip manufacturing costs expected to rise 30-50%. The report uses NVIDIA's B200 as an example: the total chip manufacturing cost is approximately $6,400, with HBM storage accounting for 45% ($2,900), advanced packaging CoWoS-L at 17% ($1,100), and the computing logic die only 15% ($900). Doubao model has seen its daily token calls exceed 120 trillion, doubling in just three months. The report highlights Cambricon, Hygon Information, Biren Technology, and Moore Threads as primary beneficiaries of domestic substitution, with Cambricon's new generation Deep Computing DCU products showing steady progress.",
+      "key_points_en": [
+        "HBM storage costs expected to rise 50%+ in H2 2026, driving AI chip manufacturing costs up 30-50%",
+        "NVIDIA B200 chip example shows HBM accounts for 45% of total cost ($2,900), exceeding logic die costs",
+        "Cambricon, Hygon, Biren Technology, and Moore Threads positioned as beneficiaries of domestic chip substitution",
+        "Doubao model's daily token usage exceeds 120 trillion tokens, tripling demand within three months"
+      ],
+      "is_hero": false
+    },
+    {
+      "id": "news-2026-06-21-7",
+      "title": "Anthropic IPO定档7月9日，OpenAI同步冲刺资本市场",
+      "title_en": "Anthropic IPO Set for July 9, OpenAI Races to Complete Public Offering",
+      "summary": "Anthropic将于7月9日举行IPO前财务研讨会，Q2收入预计超109亿美元同比翻倍。OpenAI已向SEC秘密递交IPO申请，两家AI巨头几乎同时冲刺上市，创科技史先例。",
+      "summary_en": "Anthropic schedules IPO pre-IPO financial seminar for July 9, with Q2 revenue projected to exceed $10.9 billion, doubling year-over-year. OpenAI has secretly filed IPO application with SEC, with both AI giants racing toward public markets simultaneously.",
+      "source": "A8ai AI Agent社区",
+      "source_en": "A8ai AI Agent Community",
+      "url": "https://agent.csdn.net/6a35f578662f9a54cb81ee9b.html",
+      "category": "投融资",
+      "date": "2026-06-19",
+      "content_en": "Anthropic has scheduled its pre-IPO investor seminar for July 9 in Florida, hosted by CFO Krishna Rao, focusing on financial trajectory, capital structure expansion, revenue growth forecasts, and enterprise market penetration strategy. According to the Wall Street Journal, Anthropic's Q2 revenue is expected to exceed $10.9 billion, compared to $4.8 billion in Q1, representing over 100% growth. The company's annualized revenue trajectory shows $9 billion in January, $19 billion in March, and $45 billion in May—a truly extraordinary growth curve. Simultaneously, OpenAI confirmed on June 10 that it has secretly filed an IPO application with the SEC. The company also launched interest-based in-chat advertising in Japan on June 19, its first overseas expansion of the ad model following the US pilot in February. Anthropic's valuation reportedly stands at $965 billion, while OpenAI's valuation is approximately $852 billion.",
+      "key_points_en": [
+        "Anthropic's IPO pre-presentation scheduled for July 9, with Q2 revenue projected at $10.9B, doubling from Q1",
+        "Anthropic's annualized revenue grew from $9B (January) to $45B (May) in just five months",
+        "OpenAI secretly files IPO application with SEC while launching ad-supported ChatGPT in Japan",
+        "First time in tech history two AI giants race toward IPO simultaneously; Anthropic surpasses OpenAI in valuation"
+      ],
+      "is_hero": false
+    },
+    {
+      "id": "news-2026-06-21-8",
+      "title": "智谱GLM-5.2开源：Code Arena全球第二，100万Token无损上下文",
+      "title_en": "Zhipu AI Open-Sources GLM-5.2: Code Arena Global #2, 1M Token Lossless Context",
+      "summary": "智谱AI正式开源GLM-5.2模型，Code Arena盲测位列全球可用模型第二、开源模型第一，支持100万无损上下文，能单次处理88万Tokens自主跑完全端全链路开发。",
+      "summary_en": "Zhipu AI officially open-sources GLM-5.2 model, ranking #2 globally and #1 among open-source models in Code Arena blind tests, supporting 1M token lossless context and processing 880K tokens per session for full-stack development.",
+      "source": "MR_Teen AI编程社区",
+      "source_en": "MR_Teen AI Coding Community",
+      "url": "https://aicoding.csdn.net/6a35f0e1662f9a54cb820bfd.html",
+      "category": "开源动态",
+      "date": "2026-06-17",
+      "content_en": "Zhipu AI officially released and open-sourced the GLM-5.2 model on June 17. Key highlights include: 1M lossless context supported through extended Coding Agent training environment optimization addressing long-text degradation; ranking second globally and first among open-source models in Code Arena blind tests; performance between Claude Opus 4.7 and 4.8 on FrontierSWE and other long-task benchmarks; ability to process up to 880,000 tokens in a single session and autonomously complete full-end full-chain development for web, mobile, and mini-programs. Released under the MIT open-source license, GLM-5.2 achieved Day-0 adaptation with Huawei Ascend, T-Head, and Moore Threads domestic computing platforms on its first day. The underlying architecture reduces unit token FLOPs to 2.9x at 1M context through IndexShare architecture and improves speculative decoding efficiency with modified MTP layers.",
+      "key_points_en": [
+        "GLM-5.2 ranks #2 globally and #1 among open-source models in Code Arena blind tests",
+        "Supports 1M token lossless context with ability to process 880K tokens per session for autonomous full-stack development",
+        "MIT license enables broad commercial use; Day-0 adaptation completed with Huawei Ascend, T-Head, and Moore Threads platforms",
+        "IndexShare architecture reduces unit token FLOPs to 2.9x at 1M context, significantly improving computational efficiency"
+      ],
+      "is_hero": false
+    },
+    {
+      "id": "news-2026-06-21-9",
+      "title": "特斯拉AI6芯片完成工程评审：三星2nm GAA工艺，2028年投产",
+      "title_en": "Tesla AI6 Chip Completes Engineering Review: Samsung 2nm GAA Process, Production in 2028",
+      "summary": "特斯拉第六代自研AI芯片AI6已完成全部工程评审，进入流片前定型阶段。采用三星2nm GAA工艺，算力在AI5基础上翻倍，等效10块当前车载AI4芯片，计划2028年下半年投产。",
+      "summary_en": "Tesla's sixth-generation AI chip AI6 has completed all engineering reviews, entering the pre-tapeout finalization stage. Using Samsung 2nm GAA process, computing power doubles compared to AI5, equivalent to 10 current AI4 chips, with production scheduled for H2 2028.",
+      "source": "市井杂谈",
+      "source_en": "Street Talk",
+      "url": "http://m.toutiao.com/group/7653388914119606824/",
+      "category": "芯片算力",
+      "date": "2026-06-20",
+      "content_en": "Tesla CEO Elon Musk confirmed on social media that the company's sixth-generation AI chip AI6 has successfully completed all engineering reviews, with chip design, power architecture, memory solution, and foundry adaptation all passing internal expert panel verification. AI6 will use Samsung's 2nm GAA (Gate-All-Around) process with a long-term exclusive supply contract worth $16.5 billion through 2033. The chip doubles computing power compared to AI5, equivalent to 10 current on-board AI4 chips per single chip. The power consumption is only one-third of comparable NVIDIA AI accelerators at equivalent computing output, due to optimized transistor layout and AI accelerator unit arrangement. AI6 will be manufactured at Samsung's Taylor, Texas fab with planned initial monthly capacity of 16,000 wafers, scalable to 40,000. The chip targets a unified hardware foundation connecting passenger vehicles, robotaxi services, humanoid robots, and AI training supercomputing clusters.",
+      "key_points_en": [
+        "AI6 chip uses Samsung 2nm GAA process with $16.5B exclusive supply contract through 2033",
+        "Computing power doubles compared to AI5, equivalent to 10 current AI4 chips; power consumption only 1/3 of comparable NVIDIA chips",
+        "Production timeline: humanoid robots and Dojo supercomputer first (2028 H2), Cybercab fleet second, consumer vehicles post-2030",
+        "AI6.5 iteration planned for TSMC Arizona factory, establishing dual advanced process supply chain"
+      ],
+      "is_hero": false
+    },
+    {
+      "id": "news-2026-06-21-10",
+      "title": "谷歌TPU硬刚英伟达GPU：50亿美元合作打造AI云第二条路",
+      "title_en": "Google TPU Challenges NVIDIA GPU: $5B Partnership to Build AI Cloud Alternative",
+      "summary": "谷歌与黑石集团达成50亿美元合作，计划基于TPU打造新型AI数据中心和算力服务，目标与CoreWeave、Nebius等英伟达核心新云厂商竞争。TPU正从内部武器转向外部商业化。",
+      "summary_en": "Google and Blackstone partner on $5 billion to build TPU-based AI data centers and computing services, competing with NVIDIA-centric new cloud providers like CoreWeave and Nebius. TPU is transforming from internal asset to external commercial product.",
+      "source": "腾讯新闻/WSJ",
+      "source_en": "Tencent News/Wall Street Journal",
+      "url": "http://news.qq.com/rain/a/20260619A0351G00",
+      "category": "芯片算力",
+      "date": "2026-06-19",
+      "content_en": "Google and Blackstone announced a $5 billion partnership to develop TPU-based AI data centers and computing services, marking Google's most aggressive move to commercialize its custom AI chips. Under the partnership, Google's parent company has provided approximately $3.2 billion in financial guarantees for an AI data center project in Lake Mariner, New York, with computing power to be rented to Anthropic. Similar guarantees include $7 billion for the River Bend project in Louisiana and $1.4 billion for Colorado City in Texas. Citadel Securities has already begun using TPUs for some research software workloads, reporting significant cost reductions and speed improvements. Google's latest TPU generation is clearly divided into two lines: TPU 8t for training and TPU 8i for inference, reflecting the industry's shift from training-first to inference-intensive AI workloads. This move follows NVIDIA's playbook of using financial guarantees to amplify demand and lock in customers.",
+      "key_points_en": [
+        "Google-Blackstone $5B partnership to build TPU-based AI data centers, competing directly with NVIDIA-centric cloud providers",
+        "Google provides $3.2B financial guarantee for New York data center with computing rented to Anthropic",
+        "Google's TPU strategy splits into TPU 8t (training) and TPU 8i (inference), targeting the inference-intensive AI market",
+        "Citadel Securities reports significant cost reductions and speed improvements using TPU for research workloads"
+      ],
+      "is_hero": false
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-06-21T12:00:00+08:00",
+    "data_sources": [
+      "CSDN AI编程社区",
+      "MR_Teen",
+      "券商中国",
+      "网易财经",
+      "与非网",
+      "华泰证券研报",
+      "中国经营报",
+      "A8ai AI Agent社区",
+      "腾讯新闻/Wall Street Journal",
+      "产品小龙哥"
+    ],
+    "categories_covered": ["大模型", "芯片算力", "AI应用", "开源动态", "投融资", "政策监管"]
+  }
+}
