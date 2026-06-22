@@ -9,7 +9,7 @@
       "hero": {
         "id": "hero-20260622",
         "title": "DeepSeek完成74亿美元A轮融资：史上最大中国AI单轮融资诞生",
-        "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&h=450&fit=crop"
+        "image": "img/pool/startup-team.jpg"
       },
       "articles": [
         {
@@ -28,7 +28,7 @@
             "资金用途指向算力基础设施建设和人才招募",
             "梁文锋跟投28亿美元彰显信心"
           ],
-          "image": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop"
+          "image": "img/pool/ai-healthcare.jpg"
         },
         {
           "id": "news-20260622-1",
@@ -45,7 +45,7 @@
             "Gemini同期增长近10个百分点",
             "用户开始在不同场景使用不同模型"
           ],
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop"
+          "image": "img/pool/quantum-computing.jpg"
         },
         {
           "id": "news-20260622-2",
@@ -63,7 +63,7 @@
             "100万Token无损上下文",
             "开源阵营首次超越同级闭源模型"
           ],
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop"
+          "image": "img/pool/autonomous-vehicle.jpg"
         },
         {
           "id": "news-20260622-3",
@@ -80,7 +80,7 @@
             "AlphaFold已预测超2亿种蛋白质结构",
             "与Noam Shazeer两天内相继离职"
           ],
-          "image": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop"
+          "image": "img/pool/vr-technology.jpg"
         },
         {
           "id": "news-20260622-4",
@@ -98,7 +98,7 @@
             "谷歌2024年27亿美元回购",
             "Sam Altman表示等了10年"
           ],
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop"
+          "image": "img/pool/green-energy.jpg"
         },
         {
           "id": "news-20260622-5",
@@ -116,7 +116,7 @@
             "国产芯片占比持续提升",
             "算力自主可控成战略重点"
           ],
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop"
+          "image": "img/pool/5g-tower.jpg"
         },
         {
           "id": "news-20260622-6",
@@ -134,7 +134,7 @@
             "需求先于供给是最大区别",
             "AI应用商业化速度成关键变量"
           ],
-          "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop"
+          "image": "img/pool/factory-automation.jpg"
         },
         {
           "id": "news-20260622-7",
@@ -152,7 +152,7 @@
             "底层WeLM大模型+DeepSeek",
             "预计Q3向更多用户开放"
           ],
-          "image": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop"
+          "image": "img/pool/ai-education.jpg"
         },
         {
           "id": "news-20260622-8",
@@ -170,7 +170,7 @@
             "全球四足机器人市占率第一",
             "73.6%收入来自高校科研客户"
           ],
-          "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop"
+          "image": "img/pool/chip-closeup.jpg"
         },
         {
           "id": "news-20260622-9",
@@ -188,7 +188,7 @@
             "一个产品经理即可配置AI流水线",
             "瞄准企业数字化转型痛点"
           ],
-          "image": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop"
+          "image": "img/pool/ai-ethics.jpg"
         },
         {
           "id": "news-20260622-10",
@@ -206,7 +206,7 @@
             "引导资本向技术型企业集中",
             "淘汰缺乏核心技术的套壳公司"
           ],
-          "image": "https://images.unsplash.com/photo-1618411106982-cf6e3bd0a05a?w=800&h=450&fit=crop"
+          "image": "img/pool/open-source-code.jpg"
         }
       ]
     },
@@ -221,7 +221,7 @@
         "source": "券商中国/网易财经",
         "source_en": "Securities Times/NetEase Finance",
         "url": "https://money.163.com/keywords/0/6/00618f6e878d8d44/1.html",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
+        "image": "img/pool/ai-assistant.jpg",
         "date": "2026-06-21",
         "id": "hero-2026-06-21",
         "content": "DeepSeek完成超500亿元首轮外部融资，腾讯、宁德时代、京东等参与投资，投后估值近4000亿元。创始人梁文锋出资200亿元把控公司控制权。",
@@ -246,7 +246,7 @@
           "source": "AI编程社区/MR_Teen",
           "source_en": "MR_Teen AI Coding Community",
           "url": "https://aicoding.csdn.net/6a35f0e1662f9a54cb820bfd.html",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop",
+          "image": "img/pool/ai-creative.jpg",
           "date": "2026-06-21",
           "id": "news-2026-06-21-1",
           "content": "Anthropic发布Claude Fable 5，SWE-bench Pro得分80.3%领先GPT-5.5达22个百分点。公司估值达9650亿美元，首次超越OpenAI的8520亿美元登顶行业第一。",
@@ -294,7 +294,7 @@
           "source": "折耳根联盟/The Information",
           "source_en": "The Information/Cooperation Alliance",
           "url": "http://m.toutiao.com/group/7653113730565177866/",
-          "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop",
           "date": "2026-06-20",
           "id": "news-2026-06-21-3",
           "content": "谷歌、微软联合Salesforce、Snowflake等数十家企业发布ARD（代理资源发现）AI智能体行业标准，形成传统企业软件阵营统一联盟。OpenAI、Anthropic全程未参与，标志行业标准壁垒战正式开启。",
@@ -318,7 +318,7 @@
           "source": "产品小龙哥",
           "source_en": "Product Dragon",
           "url": "http://m.toutiao.com/group/7653481648943612425/",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=450&fit=crop",
           "date": "2026-06-21",
           "id": "news-2026-06-21-4",
           "content": "短短48小时内，谷歌接连流失两大基石级科学家：Transformer核心发明人Noam Shazeer重返OpenAI，诺贝尔化学奖得主John Jumper加盟Anthropic。预示全球AI生命科学万亿赛道争夺战全面开打。",
@@ -342,7 +342,7 @@
           "source": "中国经营报",
           "source_en": "China Business Journal",
           "url": "http://m.toutiao.com/group/7653187690719904310/",
-          "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=450&fit=crop",
+          "image": "img/pool/cybersecurity.jpg",
           "date": "2026-06-20",
           "id": "news-2026-06-21-5",
           "content": "中央网信办6月12日上线「涉AI应用乱象举报专区」，全面受理14类AI违规行为举报。配合5月短视频6类必选标签强制落地，已处置违规账号9.8万余个，AI内容全生命周期治理闭环形成。",
@@ -366,7 +366,7 @@
           "source": "与非网/华泰证券",
           "source_en": "Eefocus/Huatai Securities",
           "url": "https://m.eefocus.com/article/2035371.html",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=450&fit=crop",
           "date": "2026-06-19",
           "id": "news-2026-06-21-6",
           "content": "华泰证券研报显示，HBM存储采购成本下半年涨幅超50%，AI芯片综合制造成本将飙升30-50%。豆包大模型日均Token调用突破120万亿，需求井喷与成本海啸形成黄金布局窗口。",
@@ -390,7 +390,7 @@
           "source": "A8ai AI Agent社区",
           "source_en": "A8ai AI Agent Community",
           "url": "https://agent.csdn.net/6a35f578662f9a54cb81ee9b.html",
-          "image": "https://images.unsplash.com/photo-1553729459-6726b3ff858f?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=450&fit=crop",
           "date": "2026-06-19",
           "id": "news-2026-06-21-7",
           "content": "Anthropic将于7月9日举行IPO前财务研讨会，Q2收入预计超109亿美元同比翻倍。OpenAI已向SEC秘密递交IPO申请，两家AI巨头几乎同时冲刺上市，创科技史先例。",
@@ -414,7 +414,7 @@
           "source": "MR_Teen AI编程社区",
           "source_en": "MR_Teen AI Coding Community",
           "url": "https://aicoding.csdn.net/6a35f0e1662f9a54cb820bfd.html",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=450&fit=crop",
           "date": "2026-06-17",
           "id": "news-2026-06-21-8",
           "content": "智谱AI正式开源GLM-5.2模型，Code Arena盲测位列全球可用模型第二、开源模型第一，支持100万无损上下文，能单次处理88万Tokens自主跑完全端全链路开发。",
@@ -438,7 +438,7 @@
           "source": "市井杂谈",
           "source_en": "Street Talk",
           "url": "http://m.toutiao.com/group/7653388914119606824/",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=450&fit=crop",
           "date": "2026-06-20",
           "id": "news-2026-06-21-9",
           "content": "特斯拉第六代自研AI芯片AI6已完成全部工程评审，进入流片前定型阶段。采用三星2nm GAA工艺，算力在AI5基础上翻倍，等效10块当前车载AI4芯片，计划2028年下半年投产。",
@@ -462,7 +462,7 @@
           "source": "腾讯新闻/WSJ",
           "source_en": "Tencent News/Wall Street Journal",
           "url": "http://news.qq.com/rain/a/20260619A0351G00",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=800&h=450&fit=crop",
           "date": "2026-06-19",
           "id": "news-2026-06-21-10",
           "content": "谷歌与黑石集团达成50亿美元合作，计划基于TPU打造新型AI数据中心和算力服务，目标与CoreWeave、Nebius等英伟达核心新云厂商竞争。TPU正从内部武器转向外部商业化。",
@@ -490,7 +490,7 @@
         "source": "商务部官方网站 / 光明日报",
         "source_en": "Ministry of Commerce Official / Guangming Daily",
         "url": "http://m.toutiao.com/group/7653241897980297738/",
-        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=450&fit=crop",
+        "image": "https://images.unsplash.com/photo-1618411106982-cf6e3bd0a05a?w=800&h=450&fit=crop",
         "date": "2026-06-20",
         "id": "hero-2026-06-20",
         "content": "商务部等八部门近日联合印发《关于加快「人工智能+消费」发展的实施意见》，以推动人工智能与消费深度融合为主线，以扩大智能商品消费、赋能服务消费、创新消费场景为重点，提出五大方面17条举措。",
@@ -518,7 +518,7 @@
           "source": "IT之家 / 新浪科技",
           "source_en": "ITHome / Sina Tech",
           "url": "http://m.toutiao.com/group/7653107806492492298/",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=450&fit=crop",
           "date": "2026-06-20",
           "id": "news-2026-06-20-1",
           "content": "马斯克在X平台回应网友提问时称，中国大模型预计2027年一季度达到Anthropic Fable水平。智谱创始人唐杰隔空喊话：中国模型达到Fable水平，不用等到2027年Q1。",
@@ -543,7 +543,7 @@
           "source": "快科技 / 36氪",
           "source_en": "Fast Technology / 36Kr",
           "url": "http://m.toutiao.com/group/7653107806492492298/",
-          "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1553729459-uj8bt915e604?w=800&h=450&fit=crop",
           "date": "2026-06-20",
           "id": "news-2026-06-20-2",
           "content": "DeepSeek首轮融资落地，融资金额约510亿元，企业估值接近4000亿元。创始人梁文锋自掏约200亿元锁定绝对控制权。",
@@ -570,7 +570,7 @@
           "source": "IT之家",
           "source_en": "ITHome",
           "url": "http://m.toutiao.com/group/7653107806492492298/",
-          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=450&fit=crop",
           "date": "2026-06-20",
           "id": "news-2026-06-20-3",
           "content": "银河通用发布全球首个人形机器人通用小脑GPT模型AstraBrain-WBC 0.5，旨在让人形机器人拥有更接近人类的运动协调与平衡能力。",
@@ -595,7 +595,7 @@
           "source": "CSDN",
           "source_en": "CSDN",
           "url": "http://m.toutiao.com/group/7653107806492492298/",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop",
           "date": "2026-06-20",
           "id": "news-2026-06-20-4",
           "content": "亚马逊AWS正洽谈向外部企业出售自研Trainium系列AI芯片，已有OpenAI、Uber等大客户采购。",
@@ -620,7 +620,7 @@
           "source": "CSDN / 36氪",
           "source_en": "CSDN / 36Kr",
           "url": "https://agent.csdn.net/6a355578662f9a54cb81ee9b.html",
-          "image": "https://images.unsplash.com/photo-1553729459-6726b3ff858f?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800&h=450&fit=crop",
           "date": "2026-06-20",
           "id": "news-2026-06-20-5",
           "content": "Anthropic将于7月9日举行IPO前研讨会，OpenAI已秘密向SEC递交IPO申请。两家AI巨头几乎同时冲刺IPO。",
@@ -645,7 +645,7 @@
           "source": "CSDN",
           "source_en": "CSDN",
           "url": "https://agent.csdn.net/6a355578662f9a54cb81ee9b.html",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&h=450&fit=crop",
           "date": "2026-06-20",
           "id": "news-2026-06-20-6",
           "content": "OpenAI宣布在日本推出基于兴趣的对话内展示广告，定价约每1000次展示5000日元。",
@@ -695,7 +695,7 @@
           "source": "今日头条",
           "source_en": "Toutiao",
           "url": "http://m.toutiao.com/group/7653239879677035017/",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop",
+          "image": "img/pool/ai-brain.jpg",
           "date": "2026-06-20",
           "id": "news-2026-06-20-8",
           "content": "智谱AI正式开源GLM-5.2新版大模型，编程赛道得分刷新国内开源模型纪录。",
@@ -720,7 +720,7 @@
           "source": "微博",
           "source_en": "Weibo",
           "url": "https://m.weibo.cn/detail/5311727568158820",
-          "image": "https://images.unsplash.com/photo-1553729459-uj8bt915e604?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=450&fit=crop",
           "date": "2026-06-20",
           "id": "news-2026-06-20-9",
           "content": "36氪报告显示2026年全球25家A轮融资超5000万美元的AI独角兽公司总融资超60亿美元，投资焦点从通用大模型转向具身智能。",
@@ -745,7 +745,7 @@
           "source": "CSDN / 36氪",
           "source_en": "CSDN / 36Kr",
           "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
-          "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=450&fit=crop",
+          "image": "img/pool/robot-modern.jpg",
           "date": "2026-06-20",
           "id": "news-2026-06-20-10",
           "content": "苹果WWDC 2026正式发布Siri重大战略转型，底层AI引擎全面切换至Google Gemini，用户可在Gemini、ChatGPT、Claude三选一。",
@@ -804,7 +804,7 @@
           "source": "华尔街见闻 / CNBC",
           "source_en": "Wall Street CN / CNBC",
           "url": "http://m.toutiao.com/group/7652749005348192814/",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=800&h=450&fit=crop",
           "date": "2026-06-19",
           "id": "news-2026-06-19-1",
           "content": "6月18日，杨立昆接受CNBC独家专访，抛出两大极具冲击力的观点：马斯克旗下xAI从底层发展逻辑上已经宣告失败；全行业AI企业若不快速调整经营策略，一轮大规模估值泡沫破裂或将到来。\n\n杨立昆指出xAI三大核心硬伤：核心创始团队集体出走、持续巨额亏损只能靠出租算力回血、产品竞争力长期落后同行。",
@@ -831,7 +831,7 @@
           "source": "TechCrunch / The Verge",
           "source_en": "TechCrunch / The Verge",
           "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
           "date": "2026-06-19",
           "id": "news-2026-06-19-2",
           "content": "Google I/O 2026开发者大会上，Google发布Gemini 3.5 Flash，相比上一代速度提升4倍，同时大幅降低延迟。\n\n同时，Google将AI Ultra订阅价格从250美元砍至100美元/月，直接对标OpenAI的ChatGPT Pro（200美元/月）。AI大模型的价格战持续升级。",
@@ -858,7 +858,7 @@
           "source": "OpenAI官方 / TechCrunch",
           "source_en": "OpenAI Official / TechCrunch",
           "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
-          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop",
           "date": "2026-06-19",
           "id": "news-2026-06-19-3",
           "content": "OpenAI在WWDC同期发布Dreaming记忆系统，这是一项让ChatGPT能够跨对话学习和记住用户偏好的技术创新。\n\n用户不再需要每次重复说明自己的需求和习惯，ChatGPT会主动学习和适应，提供更懂你的个性化服务。",
@@ -912,7 +912,7 @@
           "source": "华尔街见闻 / Reuters",
           "source_en": "Wall Street CN / Reuters",
           "url": "http://m.toutiao.com/group/7652878510234649123/",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop",
           "date": "2026-06-19",
           "id": "news-2026-06-19-5",
           "content": "费城半导体指数暴涨6.41%，英特尔领涨11%创历史新高。分析师指出，AI算力需求持续旺盛是推动半导体板块上涨的核心动力。\n\n6月CPI数据升至4.2%，但国际油价回落一定程度上缓解了市场对加息的担忧。",
@@ -939,7 +939,7 @@
           "source": "华尔街见闻",
           "source_en": "Wall Street CN",
           "url": "http://m.toutiao.com/group/7652878510234649123/",
-          "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1553729459-6726b3ff858f?w=800&h=450&fit=crop",
           "date": "2026-06-19",
           "id": "news-2026-06-19-6",
           "content": "中国AI大模型赛道出现明显分化。智谱因盈利预期改善、API定价能力强劲，股价持续上涨；而MiniMax因大幅降价导致利润空间压缩，评级遭到下调。\n\n华尔街开始流行「多智谱、空MiniMax」的配对交易策略，反映出市场对中国AI大模型商业化前景的分歧。",
@@ -966,7 +966,7 @@
           "source": "《自然》/ MIT Technology Review",
           "source_en": "Nature / MIT Technology Review",
           "url": "http://m.toutiao.com/group/7652791702918300201/",
-          "image": "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=800&h=450&fit=crop",
+          "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&h=450&fit=crop",
           "date": "2026-06-19",
           "id": "news-2026-06-19-7",
           "content": "一个AI研究团队宣布，其AI系统首次独立完成重大科学发现并发表在《自然》期刊上——发现了一种新型蛋白质折叠模式，这一发现有望用于开发治疗帕金森等神经退行性疾病的新方法。\n\n这是人类首次验证AI可以在无人主导的情况下完成重大科学突破，标志着AI科学家的角色正在发生根本性转变。",

@@ -12,7 +12,7 @@
       "url_en": "articles/en/article-21.html",
       "summary": "2026年6月第三周，全球AI行业见证人才地震：Transformer之父Noam Shazeer加入OpenAI，诺奖得主John Jumper加入Anthropic。本文深度解析顶尖人才为何离开Google，探讨AI行业从技术竞赛向商业化竞赛的范式转移。",
       "summary_en": "In the third week of June 2026, the global AI industry witnessed an unprecedented talent earthquake. This article analyzes why top talents are leaving Google, exploring the paradigm shift from technology race to commercialization race.",
-      "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&h=450&fit=crop",
+      "image": "img/pool/ai-research.jpg",
       "tags": [
         "AI人才",
         "谷歌",
@@ -38,7 +38,7 @@
       "summary_en": "Peking University MotionVLA breakthrough, Ministry of Commerce AI+consumption policy, humanoid robots entering consumer market — technology, policy, and market signals converge as embodied intelligence moves from lab to home.",
       "date": "2026-06-21",
       "url": "articles/article-20.html",
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
+      "image": "img/pool/cloud-computing.jpg",
       "category": "产业",
       "read_time": "8分钟",
       "url_en": "articles/en/article-20.html"
@@ -51,7 +51,7 @@
       "summary_en": "June 2026 sees China 8 ministries issuing 17 measures for AI+consumption while Anthropic and OpenAI race toward IPO.",
       "date": "2026-06-20",
       "url": "articles/article-19.html",
-      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=450&fit=crop",
+      "image": "img/pool/network-infrastructure.jpg",
       "category": "产业",
       "read_time": "9分钟",
       "url_en": "articles/en/article-19.html"
@@ -64,7 +64,7 @@
       "summary_en": "Apple WWDC 2026 announces Siri complete switch to Google Gemini as default engine, with users able to choose between Gemini, ChatGPT, and Claude. Apple becomes first consumer platform to offer choose your own AI model.",
       "date": "2026-06-19",
       "url": "articles/article-18.html",
-      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=450&fit=crop",
+      "image": "img/pool/gpu-cluster.jpg",
       "category": "产业",
       "read_time": "9分钟",
       "url_en": "articles/en/article-18.html"
@@ -77,7 +77,7 @@
       "summary_en": "SpaceX acquired AI coding tool company Cursor for approximately $60 billion, one of the largest AI acquisitions ever. When a space company bets on AI coding, it reflects Musk's full-stack ambition for AI-assisted engineering — from rockets to code, everything can be automated.",
       "date": "2026-06-18",
       "url": "articles/article-17.html",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
+      "image": "img/pool/data-visualization.jpg",
       "category": "产业",
       "read_time": "8分钟",
       "url_en": "articles/en/article-17.html"
@@ -91,7 +91,7 @@
       "category": "投融资",
       "date": "2026-06-17",
       "url": "articles/article-16.html",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
+      "image": "img/pool/investment-finance.jpg",
       "url_en": "articles/en/article-16.html"
     },
     {
@@ -103,7 +103,7 @@
       "category": "产业",
       "date": "2026-06-16",
       "url": "articles/article-15.html",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
+      "image": "img/pool/blockchain.jpg",
       "url_en": "articles/en/article-15.html"
     },
     {
@@ -115,7 +115,7 @@
       "category": "政策监管",
       "date": "2026-06-15",
       "url": "articles/article-14.html",
-      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&h=450&fit=crop",
+      "image": "img/pool/legal-regulation.jpg",
       "url_en": "articles/en/article-14.html"
     },
     {
@@ -127,7 +127,7 @@
       "category": "深度解读",
       "date": "2026-06-13",
       "url": "articles/article-12.html",
-      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=450&fit=crop",
+      "image": "img/pool/tech-innovation.jpg",
       "url_en": "articles/en/article-12.html"
     },
     {
@@ -140,7 +140,8 @@
       "date": "2026-06-12",
       "readTime": "10分钟",
       "url": "articles/article-11.html",
-      "url_en": "articles/en/article-11.html"
+      "url_en": "articles/en/article-11.html",
+      "image": "img/pool/ai-governance.jpg"
     },
     {
       "id": "article-10",
@@ -152,7 +153,8 @@
       "date": "2026-06-11",
       "readTime": "8分钟",
       "url": "articles/article-10.html",
-      "url_en": "articles/en/article-10.html"
+      "url_en": "articles/en/article-10.html",
+      "image": "img/pool/smart-city.jpg"
     },
     {
       "id": "article-9",
@@ -164,7 +166,8 @@
       "date": "2026-06-10",
       "readTime": "9分钟",
       "url": "articles/article-9.html",
-      "url_en": "articles/en/article-9.html"
+      "url_en": "articles/en/article-9.html",
+      "image": "img/pool/digital-economy.jpg"
     },
     {
       "id": "article-8",

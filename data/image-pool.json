@@ -1,0 +1,679 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-22",
+  "images": [
+    {
+      "id": "unsplash-1451187580459-43490279c0fa",
+      "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "deep_analysis",
+        "network"
+      ],
+      "desc": "earth from space"
+    },
+    {
+      "id": "unsplash-1460925895917-afdab827c52f",
+      "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "deep_analysis",
+        "investment"
+      ],
+      "desc": "business analytics dashboard"
+    },
+    {
+      "id": "unsplash-1485827404703-89b55fcc595e",
+      "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "robotics",
+        "AI_applications"
+      ],
+      "desc": "robot"
+    },
+    {
+      "id": "unsplash-1504868584819-f8e8b4b6d7e3",
+      "url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "data_center",
+        "policy"
+      ],
+      "desc": "city night lights"
+    },
+    {
+      "id": "unsplash-1507003211169-0a1dd7228f2d",
+      "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "portrait face"
+    },
+    {
+      "id": "unsplash-1518770660439-4636190af475",
+      "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "chips",
+        "LLM"
+      ],
+      "desc": "circuit board"
+    },
+    {
+      "id": "unsplash-1529107386315-e1a2ed48a620",
+      "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "server room"
+    },
+    {
+      "id": "unsplash-1531746790095-e5995aba4f58",
+      "url": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "LLM",
+        "network"
+      ],
+      "desc": "tech network connections"
+    },
+    {
+      "id": "unsplash-1532187863486-abf9dbad1b69",
+      "url": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "LLM",
+        "deep_analysis"
+      ],
+      "desc": "AI brain visualization"
+    },
+    {
+      "id": "unsplash-1551288049-bebda4e38f71",
+      "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "deep_analysis",
+        "investment"
+      ],
+      "desc": "data dashboard"
+    },
+    {
+      "id": "unsplash-1553729459-6726b3ff858f",
+      "url": "https://images.unsplash.com/photo-1553729459-6726b3ff858f?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "investment",
+        "industry"
+      ],
+      "desc": "business chart"
+    },
+    {
+      "id": "unsplash-1555949963-ff9fe0c870eb",
+      "url": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "open_source",
+        "chips"
+      ],
+      "desc": "code technology"
+    },
+    {
+      "id": "unsplash-1556742049-0cfed4f6a45d",
+      "url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "investment",
+        "startup"
+      ],
+      "desc": "startup team"
+    },
+    {
+      "id": "unsplash-1558494949-ef010cbdcc31",
+      "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "data center servers"
+    },
+    {
+      "id": "unsplash-1559526324-4b87b5e36e44",
+      "url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "LLM",
+        "investment"
+      ],
+      "desc": "AI technology"
+    },
+    {
+      "id": "unsplash-1569025690938-a00729c9e1f9",
+      "url": "https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "policy",
+        "network"
+      ],
+      "desc": "tech globe"
+    },
+    {
+      "id": "unsplash-1589829545856-d10d557cf95f",
+      "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "policy"
+      ],
+      "desc": "law legal scales"
+    },
+    {
+      "id": "unsplash-1590283603385-17ffb3b7c501",
+      "url": "https://images.unsplash.com/photo-1590283603385-17ffb3b7c501?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "investment"
+      ],
+      "desc": "stock market chart"
+    },
+    {
+      "id": "unsplash-1611532736597-de2d4265fba3",
+      "url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "data analysis screen"
+    },
+    {
+      "id": "unsplash-1611974789855-9c2a0a7236a3",
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "LLM",
+        "chips"
+      ],
+      "desc": "technology blue abstract"
+    },
+    {
+      "id": "unsplash-1618411106982-cf6e3bd0a05a",
+      "url": "https://images.unsplash.com/photo-1618411106982-cf6e3bd0a05a?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "LLM",
+        "deep_analysis"
+      ],
+      "desc": "neural network"
+    },
+    {
+      "id": "unsplash-1620712943543-bcc4688e7485",
+      "url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "LLM",
+        "AI_applications"
+      ],
+      "desc": "AI brain digital"
+    },
+    {
+      "id": "unsplash-1625895197185-0c4eab55b5d1",
+      "url": "https://images.unsplash.com/photo-1625895197185-0c4eab55b5d1?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "network",
+        "data_center"
+      ],
+      "desc": "network connections"
+    },
+    {
+      "id": "unsplash-1628595351029-c2bf17511435",
+      "url": "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "AI_applications",
+        "LLM"
+      ],
+      "desc": "AI futuristic"
+    },
+    {
+      "id": "unsplash-1676299081847-824916de030a",
+      "url": "https://images.unsplash.com/photo-1676299081847-824916de030a?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "data_center",
+        "chips"
+      ],
+      "desc": "server room blue"
+    },
+    {
+      "id": "unsplash-1677442136019-21780ecad995",
+      "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "ChatGPT AI interface"
+    },
+    {
+      "id": "unsplash-1553729459-uj8bt915e604",
+      "url": "https://images.unsplash.com/photo-1553729459-uj8bt915e604?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "investment",
+        "industry"
+      ],
+      "desc": "business"
+    },
+    {
+      "id": "unsplash-1498050108023-c5249f4df085",
+      "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "open_source",
+        "chips"
+      ],
+      "desc": "coding laptop"
+    },
+    {
+      "id": "unsplash-1504639725590-34d0984388bd",
+      "url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "investment",
+        "AI_applications"
+      ],
+      "desc": "startup team meeting"
+    },
+    {
+      "id": "unsplash-1522071820081-009f0129c71c",
+      "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "open_source",
+        "industry"
+      ],
+      "desc": "team working"
+    },
+    {
+      "id": "unsplash-1497215842964-222b430dc094",
+      "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "industry",
+        "investment"
+      ],
+      "desc": "office workspace"
+    },
+    {
+      "id": "unsplash-1497366216548-37526070297c",
+      "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "industry",
+        "investment"
+      ],
+      "desc": "modern office"
+    },
+    {
+      "id": "unsplash-1497366811353-6870744d04b2",
+      "url": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "industry",
+        "investment"
+      ],
+      "desc": "office interior"
+    },
+    {
+      "id": "unsplash-1522202176988-66273c2fd55f",
+      "url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "open_source",
+        "industry"
+      ],
+      "desc": "team discussion"
+    },
+    {
+      "id": "unsplash-1555066931-4365d14bab8c",
+      "url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "open_source",
+        "chips"
+      ],
+      "desc": "code on screen"
+    },
+    {
+      "id": "unsplash-1550745165-9bc0b252726f",
+      "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "chips",
+        "industry"
+      ],
+      "desc": "retro technology"
+    },
+    {
+      "id": "unsplash-1581092334651-ddf26d9a09d0",
+      "url": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "AI_applications",
+        "robotics"
+      ],
+      "desc": "technology future"
+    },
+    {
+      "id": "unsplash-1590012314607-cda9d9b699ae",
+      "url": "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "chips",
+        "robotics"
+      ],
+      "desc": "robot technology"
+    },
+    {
+      "id": "unsplash-1511512578047-dfb367046420",
+      "url": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=450&fit=crop",
+      "source": "unsplash",
+      "category": [
+        "AI_applications",
+        "LLM"
+      ],
+      "desc": "gaming technology"
+    },
+    {
+      "id": "gen-startup-team",
+      "url": "img/pool/startup-team.jpg",
+      "source": "generated",
+      "category": [
+        "investment",
+        "startup"
+      ],
+      "desc": "startup team collaboration"
+    },
+    {
+      "id": "gen-robot-modern",
+      "url": "img/pool/robot-modern.jpg",
+      "source": "generated",
+      "category": [
+        "robotics",
+        "AI_applications"
+      ],
+      "desc": "modern humanoid robot"
+    },
+    {
+      "id": "gen-cybersecurity",
+      "url": "img/pool/cybersecurity.jpg",
+      "source": "generated",
+      "category": [
+        "policy",
+        "network"
+      ],
+      "desc": "cybersecurity digital lock"
+    },
+    {
+      "id": "gen-quantum-computing",
+      "url": "img/pool/quantum-computing.jpg",
+      "source": "generated",
+      "category": [
+        "chips",
+        "deep_analysis"
+      ],
+      "desc": "quantum computing lab"
+    },
+    {
+      "id": "gen-ai-healthcare",
+      "url": "img/pool/ai-healthcare.jpg",
+      "source": "generated",
+      "category": [
+        "AI_applications",
+        "healthcare"
+      ],
+      "desc": "AI in healthcare"
+    },
+    {
+      "id": "gen-autonomous-vehicle",
+      "url": "img/pool/autonomous-vehicle.jpg",
+      "source": "generated",
+      "category": [
+        "AI_applications",
+        "autonomous"
+      ],
+      "desc": "autonomous vehicle"
+    },
+    {
+      "id": "gen-vr-technology",
+      "url": "img/pool/vr-technology.jpg",
+      "source": "generated",
+      "category": [
+        "AI_applications",
+        "vr_ar"
+      ],
+      "desc": "virtual reality headset"
+    },
+    {
+      "id": "gen-green-energy",
+      "url": "img/pool/green-energy.jpg",
+      "source": "generated",
+      "category": [
+        "energy",
+        "industry"
+      ],
+      "desc": "renewable green energy"
+    },
+    {
+      "id": "gen-5g-tower",
+      "url": "img/pool/5g-tower.jpg",
+      "source": "generated",
+      "category": [
+        "network",
+        "chips"
+      ],
+      "desc": "5G network tower"
+    },
+    {
+      "id": "gen-chip-closeup",
+      "url": "img/pool/chip-closeup.jpg",
+      "source": "generated",
+      "category": [
+        "chips",
+        "data_center"
+      ],
+      "desc": "semiconductor chip closeup"
+    },
+    {
+      "id": "gen-ai-education",
+      "url": "img/pool/ai-education.jpg",
+      "source": "generated",
+      "category": [
+        "AI_applications",
+        "education"
+      ],
+      "desc": "AI in education"
+    },
+    {
+      "id": "gen-blockchain",
+      "url": "img/pool/blockchain.jpg",
+      "source": "generated",
+      "category": [
+        "blockchain",
+        "investment"
+      ],
+      "desc": "blockchain technology"
+    },
+    {
+      "id": "gen-data-visualization",
+      "url": "img/pool/data-visualization.jpg",
+      "source": "generated",
+      "category": [
+        "deep_analysis",
+        "data_center"
+      ],
+      "desc": "data visualization dashboard"
+    },
+    {
+      "id": "gen-ai-ethics",
+      "url": "img/pool/ai-ethics.jpg",
+      "source": "generated",
+      "category": [
+        "policy",
+        "AI_applications"
+      ],
+      "desc": "AI ethics balance"
+    },
+    {
+      "id": "gen-cloud-computing",
+      "url": "img/pool/cloud-computing.jpg",
+      "source": "generated",
+      "category": [
+        "data_center",
+        "network"
+      ],
+      "desc": "cloud computing servers"
+    },
+    {
+      "id": "gen-ai-brain",
+      "url": "img/pool/ai-brain.jpg",
+      "source": "generated",
+      "category": [
+        "LLM",
+        "deep_analysis"
+      ],
+      "desc": "AI neural brain"
+    },
+    {
+      "id": "gen-factory-automation",
+      "url": "img/pool/factory-automation.jpg",
+      "source": "generated",
+      "category": [
+        "industry",
+        "robotics"
+      ],
+      "desc": "factory automation robot"
+    },
+    {
+      "id": "gen-investment-finance",
+      "url": "img/pool/investment-finance.jpg",
+      "source": "generated",
+      "category": [
+        "investment",
+        "deep_analysis"
+      ],
+      "desc": "investment finance screens"
+    },
+    {
+      "id": "gen-open-source-code",
+      "url": "img/pool/open-source-code.jpg",
+      "source": "generated",
+      "category": [
+        "open_source",
+        "chips"
+      ],
+      "desc": "developer coding screen"
+    },
+    {
+      "id": "gen-ai-assistant",
+      "url": "img/pool/ai-assistant.jpg",
+      "source": "generated",
+      "category": [
+        "AI_applications",
+        "LLM"
+      ],
+      "desc": "AI virtual assistant"
+    },
+    {
+      "id": "gen-legal-regulation",
+      "url": "img/pool/legal-regulation.jpg",
+      "source": "generated",
+      "category": [
+        "policy",
+        "investment"
+      ],
+      "desc": "AI legal regulation"
+    },
+    {
+      "id": "gen-gpu-cluster",
+      "url": "img/pool/gpu-cluster.jpg",
+      "source": "generated",
+      "category": [
+        "chips",
+        "data_center"
+      ],
+      "desc": "GPU computing cluster"
+    },
+    {
+      "id": "gen-ai-creative",
+      "url": "img/pool/ai-creative.jpg",
+      "source": "generated",
+      "category": [
+        "AI_applications",
+        "LLM"
+      ],
+      "desc": "AI creative generation"
+    },
+    {
+      "id": "gen-network-infrastructure",
+      "url": "img/pool/network-infrastructure.jpg",
+      "source": "generated",
+      "category": [
+        "network",
+        "data_center"
+      ],
+      "desc": "network fiber optics"
+    },
+    {
+      "id": "gen-ai-research",
+      "url": "img/pool/ai-research.jpg",
+      "source": "generated",
+      "category": [
+        "deep_analysis",
+        "LLM"
+      ],
+      "desc": "AI research lab"
+    },
+    {
+      "id": "gen-digital-economy",
+      "url": "img/pool/digital-economy.jpg",
+      "source": "generated",
+      "category": [
+        "investment",
+        "blockchain"
+      ],
+      "desc": "digital economy fintech"
+    },
+    {
+      "id": "gen-smart-city",
+      "url": "img/pool/smart-city.jpg",
+      "source": "generated",
+      "category": [
+        "industry",
+        "network"
+      ],
+      "desc": "smart city IoT"
+    },
+    {
+      "id": "gen-ai-governance",
+      "url": "img/pool/ai-governance.jpg",
+      "source": "generated",
+      "category": [
+        "policy",
+        "LLM"
+      ],
+      "desc": "AI governance regulation"
+    },
+    {
+      "id": "gen-tech-innovation",
+      "url": "img/pool/tech-innovation.jpg",
+      "source": "generated",
+      "category": [
+        "AI_applications",
+        "industry"
+      ],
+      "desc": "technology innovation"
+    }
+  ]
+}
