@@ -1,6 +1,215 @@
 {
-  "last_updated": "2026-06-21T08:00:00+08:00",
+  "last_updated": "2026-06-22T08:00:00+08:00",
   "days": [
+    {
+      "date": "2026-06-22",
+      "date_cn": "2026年6月22日",
+      "date_short": "6月22日",
+      "day_name": "星期一",
+      "hero": {
+        "id": "hero-20260622",
+        "title": "DeepSeek完成74亿美元A轮融资：史上最大中国AI单轮融资诞生",
+        "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&h=450&fit=crop"
+      },
+      "articles": [
+        {
+          "id": "hero-20260622",
+          "type": "hero",
+          "category": "AI应用",
+          "title": "DeepSeek完成74亿美元A轮融资：史上最大中国AI单轮融资诞生",
+          "summary": "DeepSeek完成成立以来首轮外部融资，总金额超过74亿美元，投后估值520-590亿美元，创始人梁文锋个人出资28亿美元跟投，保持绝对控制权。这是中国AI行业迄今为止最大的单轮融资。",
+          "source": "36氪/钛媒体",
+          "title_en": "DeepSeek Raises $7.4B in Largest Ever Chinese AI Funding Round",
+          "summary_en": "DeepSeek completed its first external funding round of over $7.4 billion, with a post-money valuation of $520-590 billion. Founder Liang Wenfeng personally invested $2.8 billion to maintain control. This is the largest single funding round in China's AI industry history.",
+          "source_en": "36Kr / Ti Media",
+          "key_points": [
+            "创始人绝对控制权设计：外部投资者仅获经济权益、无投票权",
+            "估值对标Anthropic，达国际一线水平",
+            "资金用途指向算力基础设施建设和人才招募",
+            "梁文锋跟投28亿美元彰显信心"
+          ],
+          "image": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop"
+        },
+        {
+          "id": "news-20260622-1",
+          "type": "normal",
+          "category": "大模型",
+          "title": "ChatGPT市场份额首次跌破50%，多强格局正式成型",
+          "summary": "第三方数据显示，ChatGPT全球用户市场份额降至46.4%，为2023年1月上线以来首次跌破50%。谷歌Gemini占比升至27.7%，Anthropic Claude占10.3%，行业从一家独大转向多强竞争。",
+          "source": "Sensor Tower",
+          "title_en": "ChatGPT Market Share Drops Below 50% for First Time, Multi-Player Era Begins",
+          "summary_en": "ChatGPT's global user market share dropped to 46.4%, the first time below 50% since its launch in January 2023. Google Gemini reached 27.7%, Anthropic Claude held 10.3%, marking a shift from monopoly to multi-player competition.",
+          "source_en": "Sensor Tower",
+          "key_points": [
+            "ChatGPT份额从近60%降至46.4%，6个月下滑约2个百分点/月",
+            "Gemini同期增长近10个百分点",
+            "用户开始在不同场景使用不同模型"
+          ],
+          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop"
+        },
+        {
+          "id": "news-20260622-2",
+          "type": "normal",
+          "category": "大模型",
+          "title": "智谱AI开源GLM-5.2：MIT许可+超越GPT-5.5的编程能力",
+          "summary": "智谱AI发布GLM-5.2，采用MIT极宽松许可证，在编程效率测评中以62.1%超越GPT-5.5的58.6%。具备100万Token上下文处理能力，成为全球开源权重模型新标杆。",
+          "source": "Artificial Analysis",
+          "title_en": "Zhipu AI Open-Sources GLM-5.2: MIT License + Beats GPT-5.5 in Coding",
+          "summary_en": "Zhipu AI released GLM-5.2 under MIT license, scoring 62.1% on SWE-bench Pro vs GPT-5.5's 58.6%. With 1M token context window, it becomes the new benchmark for open-weight models globally.",
+          "source_en": "Artificial Analysis",
+          "key_points": [
+            "MIT许可完全免费商用",
+            "编程能力SWE-bench Pro 62.1% vs GPT-5.5 58.6%",
+            "100万Token无损上下文",
+            "开源阵营首次超越同级闭源模型"
+          ],
+          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop"
+        },
+        {
+          "id": "news-20260622-3",
+          "type": "normal",
+          "category": "AI应用",
+          "title": "诺奖得主John Jumper从谷歌DeepMind离职，加入Anthropic",
+          "summary": "2024年诺贝尔化学奖得主、AlphaFold核心领导者John Jumper宣布离开谷歌DeepMind，加入Anthropic。48小时内，谷歌先后失去基础架构和AI for Science领域最具标杆性的两位科学家。",
+          "source": "红星新闻/The Decoder",
+          "title_en": "Nobel Laureate John Jumper Leaves Google DeepMind for Anthropic",
+          "summary_en": "2024 Nobel Chemistry laureate and AlphaFold co-creator John Jumper announced his departure from Google DeepMind to join Anthropic. Within 48 hours, Google lost two of its most iconic scientists.",
+          "source_en": "Red Star News / The Decoder",
+          "key_points": [
+            "John Jumper因AlphaFold获2024年诺贝尔化学奖",
+            "AlphaFold已预测超2亿种蛋白质结构",
+            "与Noam Shazeer两天内相继离职"
+          ],
+          "image": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop"
+        },
+        {
+          "id": "news-20260622-4",
+          "type": "normal",
+          "category": "大模型",
+          "title": "Transformer之父Noam Shazeer加入OpenAI，担任架构研究负责人",
+          "summary": "2017年《Attention Is All You Need》核心作者、谷歌Gemini联合负责人Noam Shazeer宣布加入OpenAI，出任架构研究负责人。OpenAI现集结两位Transformer原始作者。",
+          "source": "36氪",
+          "title_en": "Transformer Co-Creator Noam Shazeer Joins OpenAI as Head of Architecture Research",
+          "summary_en": "Noam Shazeer, co-author of the seminal 'Attention Is All You Need' paper and Google Gemini co-lead, announced joining OpenAI as Head of Architecture Research. OpenAI now has two original Transformer authors on board.",
+          "source_en": "36Kr",
+          "key_points": [
+            "Transformer论文8位作者之一",
+            "曾在2021年创办Character.AI",
+            "谷歌2024年27亿美元回购",
+            "Sam Altman表示等了10年"
+          ],
+          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop"
+        },
+        {
+          "id": "news-20260622-5",
+          "type": "normal",
+          "category": "芯片算力",
+          "title": "字节跳动拟采购5万颗国产AI芯片，算力自主化提速",
+          "summary": "字节跳动与天数智芯讨论采购至少5万颗AI推理芯片，同时与寒武纪等国产芯片厂商合作。科创芯片设计指数应声涨超4%，国产算力产业链全面受益。",
+          "source": "36氪/港交所",
+          "title_en": "ByteDance Plans to Purchase 50,000 Domestic AI Chips, Accelerating Self-Sufficiency",
+          "summary_en": "ByteDance is negotiating to purchase at least 50,000 AI inference chips from天数智芯 while partnering with Cambricon and other domestic chip makers. The STAR Chip Design Index rose over 4%.",
+          "source_en": "36Kr / HKEX",
+          "key_points": [
+            "采购天数智芯5万颗推理GPU",
+            "字节跳动发布自建数据中心综合测试服务供应商征询",
+            "国产芯片占比持续提升",
+            "算力自主可控成战略重点"
+          ],
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop"
+        },
+        {
+          "id": "news-20260622-6",
+          "type": "normal",
+          "category": "产业",
+          "title": "摩根大通上调2030年AI基建预测至5.5万亿美元",
+          "summary": "摩根大通最新报告将2030年全球AI基础设施建设总投入预测上调至5.5万亿美元，较去年增加4000亿美元。其中约4.1万亿美元将来自债务融资，科技公司资产负债表将被AI基建深刻改变。",
+          "source": "摩根大通研究",
+          "title_en": "JPMorgan Raises 2030 AI Infrastructure Forecast to $5.5 Trillion",
+          "summary_en": "JPMorgan raised its 2030 global AI infrastructure investment forecast to $5.5 trillion, up $400 billion from last year. About $4.1 trillion will come from debt financing, profoundly reshaping tech balance sheets.",
+          "source_en": "JPMorgan Research",
+          "key_points": [
+            "5.5万亿美元相当于2025年德国全年GDP",
+            "约4.1万亿来自债务融资",
+            "需求先于供给是最大区别",
+            "AI应用商业化速度成关键变量"
+          ],
+          "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop"
+        },
+        {
+          "id": "news-20260622-7",
+          "type": "normal",
+          "category": "AI应用",
+          "title": "微信灰度测试AI助手「小微」，一句话可生成小程序",
+          "summary": "微信开始扩大内置AI助手「小微」的灰度测试范围，用户可进行多轮对话交互、文件总结、提醒设置等。核心亮点是「一句话生成小程序」功能，底层主要调用腾讯自研WeLM大模型。",
+          "source": "IT之家",
+          "title_en": "WeChat Pilots AI Assistant 'XiaoWei' with One-Command Mini Program Generation",
+          "summary_en": "WeChat is expanding beta testing of its built-in AI assistant 'XiaoWei' for multi-turn conversations, file summarization, and reminders. The highlight feature allows generating mini programs via natural language commands.",
+          "source_en": "ITHomes",
+          "key_points": [
+            "绿色标识进入AI助手界面",
+            "一句话生成可运行小程序雏形",
+            "底层WeLM大模型+DeepSeek",
+            "预计Q3向更多用户开放"
+          ],
+          "image": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop"
+        },
+        {
+          "id": "news-20260622-8",
+          "type": "normal",
+          "category": "产业",
+          "title": "宇树科技73天过会，科创板「人形机器人第一股」即将挂牌",
+          "summary": "宇树科技科创板IPO注册生效，从过会到注册仅用73天创下审核速度新高。公司发行估值约420亿元，募资42亿元主要用于机器人本体研发。但招股书显示73.6%收入来自高校科研客户，工业场景占比仅约9%。",
+          "source": "多家科技媒体",
+          "title_en": "Unitree Robotics Fast-Tracked for STAR Market Listing as First Humanoid Robot IPO",
+          "summary_en": "Unitree Robotics received registration approval for its STAR Market IPO in just 73 days. With a ~42 billion yuan valuation and 4.2 billion yuan fundraising target, 73.6% of revenue still comes from academic customers.",
+          "source_en": "Multiple Tech Media",
+          "key_points": [
+            "发行估值约420亿元",
+            "73天过会创审核速度纪录",
+            "全球四足机器人市占率第一",
+            "73.6%收入来自高校科研客户"
+          ],
+          "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop"
+        },
+        {
+          "id": "news-20260622-9",
+          "type": "normal",
+          "category": "AI应用",
+          "title": "Anthropic发布Opus 4.8动态工作流工具，企业AI再升级",
+          "summary": "Anthropic发布Claude Opus 4.8动态工作流工具，将AI Agent从「被动响应」升级为「主动编排」。内置动态工作流引擎，可根据任务复杂度自动调整执行路径，企业用户可自主配置AI自动化流水线。",
+          "source": "The Verge",
+          "title_en": "Anthropic Releases Claude Opus 4.8 with Dynamic Workflow Engine",
+          "summary_en": "Anthropic released Claude Opus 4.8 with dynamic workflow capabilities, upgrading AI agents from 'passive response' to 'proactive orchestration' with automatic path adjustment based on task complexity.",
+          "source_en": "The Verge",
+          "key_points": [
+            "从被动响应升级为主动编排",
+            "理解业务目标后自动拆解任务",
+            "一个产品经理即可配置AI流水线",
+            "瞄准企业数字化转型痛点"
+          ],
+          "image": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop"
+        },
+        {
+          "id": "news-20260622-10",
+          "type": "normal",
+          "category": "开源动态",
+          "title": "上交所明确科创板第五套上市标准，AI大模型企业IPO门槛确立",
+          "summary": "上海证券交易所针对科创板第五套上市标准发布最新适用要求，为AI大模型企业IPO设立清晰门槛，要求发行人在AI大模型领域拥有突出行业地位并占据产业链核心环节。",
+          "source": "上交所",
+          "title_en": "Shanghai Stock Exchange Sets IPO Standards for AI Foundation Model Companies",
+          "summary_en": "The Shanghai Stock Exchange released new requirements for STAR Market's fifth listing standard, establishing clear thresholds for AI foundation model companies including industry leadership and core supply chain position.",
+          "source_en": "SSE",
+          "key_points": [
+            "明确行业地位和技术指标要求",
+            "AI大模型企业资本化通道正式制度化",
+            "引导资本向技术型企业集中",
+            "淘汰缺乏核心技术的套壳公司"
+          ],
+          "image": "https://images.unsplash.com/photo-1618411106982-cf6e3bd0a05a?w=800&h=450&fit=crop"
+        }
+      ]
+    },
     {
       "date": "2026-06-21",
       "hero": {
@@ -1080,243 +1289,6 @@
             "OpenSeeker-v2 achieves 78% accuracy with only 10,600 data points",
             "Challenges 'big compute + big data' AI development paradigm",
             "Efficient data strategies outperform massive-scale approaches"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-17",
-      "hero": {
-        "title": "FF发布全尺寸人形机器人Futurist 2，贾跃亭跨界入局具身智能",
-        "title_en": "FF Unveils Full-Size Humanoid Robot Futurist 2, Jia Yueting Embarks on Embodied AI",
-        "summary": "贾跃亭于6月17日正式发布FF Futurist 2全尺寸人形机器人，标志着电动汽车厂商全面进入人形机器人赛道。Futurist 2采用自研「神经元控制引擎」，支持双足直立行走与全地形适应。同时，智源大会共识显示未来2-3年是具身智能商用关键窗口，资本端白热化——百亿估值已成为新常态，400亿估值也浮出水面。",
-        "summary_en": "Jia Yueting officially released FF Futurist 2 full-size humanoid robot on June 17, marking EV manufacturers' full entry into humanoid robotics. Futurist 2 features self-developed 'Neural Control Engine' supporting bipedal upright walking and all-terrain adaptation. Meanwhile, Zhiyuan Conference consensus shows 2-3 years as key window for embodied AI commercialization, with capital heating up — $10B+ valuations becoming new normal and $40B valuations emerging.",
-        "category": "AI应用",
-        "source": "财新网 / 钛媒体 / 凤凰科技",
-        "source_en": "Caixin / Titanium Media / Phoenix Tech",
-        "url": "https://www.toutiao.com/group/7651796415789810239/",
-        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
-        "date": "2026-06-17",
-        "id": "hero-2026-06-17",
-        "content": "6月17日，FF（Faraday Future）正式发布Futurist 2全尺寸人形机器人，标志着这家电动汽车厂商正式跨界进入人形机器人赛道。\n\nFuturist 2采用FF自研的「神经元控制引擎」，支持双足直立行走与全地形适应，可实现复杂动作的自主规划与执行。贾跃亭在发布会上表示：「人形机器人是下一个万亿级赛道，FF不仅要造车，更要造人。」\n\n这一发布紧随行业共识。在北京智源大会上，银河通用创始人王鹤、星海图等头部创业者一致判断：未来2-3年是具身智能走向规模化商用的关键期。产业端「窗口期」共识正在形成，技术突破和商业落地的时间差越来越短。\n\n资本层面同样白热化。据财新报道：千寻智能2个月内完成三轮融资，估值超百亿元；灵心巧手近期寻求400亿元估值新一轮融资。创业密度在「上桌or出局」的紧迫感下急剧攀升。\n\nFF等跨界入局者的出现进一步验证了赛道热度已从垂直领域扩散到全科技行业。人形机器人正从实验室走向真实场景，从技术demo走向生产环境验证。",
-        "content_en": "On June 17, FF (Faraday Future) officially released Futurist 2 full-size humanoid robot, marking the EV manufacturer's formal entry into the humanoid robotics sector.\n\nFuturist 2 features FF's self-developed 'Neural Control Engine' supporting bipedal upright walking and all-terrain adaptation, enabling autonomous planning and execution of complex actions. Jia Yueting stated at the launch: 'Humanoid robots are the next trillion-dollar track. FF not only builds cars, but also builds humans.'\n\nThis release follows industry consensus. At the Beijing Zhiyuan Conference, founders of leading companies like Galaxy General and Xinghaitu agreed: the next 2-3 years are the critical window for embodied AI commercialization. Industry consensus on the 'window period' is forming, with the time gap between technological breakthroughs and commercial deployment shrinking.\n\nThe capital side is equally heating up. According to Caixin: Qianxun Intelligence completed three financing rounds in two months with valuation over 10 billion RMB; Lingxinqiaoshou is seeking new funding at 40 billion RMB valuation. Startup density is climbing sharply under the urgency of 'get to the table or exit'.\n\nThe emergence of cross-border entrants like FF further validates that track popularity has spread from vertical sectors to the entire tech industry. Humanoid robots are moving from labs to real scenes, from technical demos to production environment validation.",
-        "key_points": [
-          "FF发布Futurist 2全尺寸人形机器人",
-          "贾跃亭跨界入局具身智能赛道",
-          "智源大会共识2-3年为商用关键窗口",
-          "千寻智能估值超百亿",
-          "灵心巧手寻求400亿估值融资",
-          "创业密度急剧攀升"
-        ],
-        "key_points_en": [
-          "FF releases Futurist 2 full-size humanoid robot",
-          "Jia Yueting enters embodied AI sector",
-          "Zhiyuan Conference: 2-3 years as commercialization window",
-          "Qianxun Intelligence valuation over 10B RMB",
-          "Lingxinqiaoshou seeking 40B RMB valuation funding",
-          "Startup density climbing sharply"
-        ]
-      },
-      "articles": [
-        {
-          "title": "OpenAI收购Ona，AI编程智能体跨入「持久自主工作」时代",
-          "title_en": "OpenAI Acquires Ona, AI Coding Agents Enter 'Persistent Autonomous Work' Era",
-          "summary": "OpenAI于6月11日宣布收购云开发环境公司Ona，为Codex智能体提供安全、持久的云工作空间，支持跨小时甚至跨天持续运行。这是AI编程从「瞬时代码补全」向「长期自主智能体」转变的标志性事件。同期，OpenAI于6月8日向SEC秘密提交S-1上市申请，IPO进程提速。",
-          "summary_en": "OpenAI announced acquisition of cloud development environment company Ona on June 11, providing safe, persistent cloud workspaces for Codex agents, supporting continuous operation across hours or even days. This is a landmark event marking AI programming's shift from 'instant code completion' to 'long-term autonomous agents.' Simultaneously, OpenAI submitted confidential S-1 IPO filing to SEC on June 8, accelerating IPO timeline.",
-          "category": "AI应用",
-          "source": "OpenAI官方公告 / SEC文件",
-          "source_en": "OpenAI Official / SEC filing",
-          "url": "https://openai.com/blog/",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop",
-          "date": "2026-06-17",
-          "id": "news-2026-06-17-1",
-          "content": "OpenAI正在重新定义AI编程智能体的边界。\n\n6月11日，OpenAI宣布收购云开发环境公司Ona，为Codex智能体提供安全、持久的云工作空间。这意味着Codex不再只是帮你写几行代码，而是可以在企业环境中持续运行数天、访问内部系统、完成完整开发任务。\n\n这一收购标志着AI编程从「瞬时代码补全」向「长期自主智能体」转变的标志性事件。Codex将能够跨小时甚至跨天持续运行，真正实现「持久自主工作」。\n\n与此同时，OpenAI的商业化进程也在加速。6月8日，OpenAI向SEC秘密提交S-1上市申请，IPO进程提速。6月10日，OpenAI与Oracle达成合作，企业可通过Oracle Universal Credits直接采购Codex和模型服务，大幅降低了企业客户的使用门槛。\n\n对于企业而言，这意味着AI编程智能体正在从实验性工具转变为生产级基础设施。当智能体可以持续运行数天完成完整开发任务时，软件开发的工作流程将发生根本性改变。",
-          "content_en": "OpenAI is redefining the boundaries of AI coding agents.\n\nOn June 11, OpenAI announced the acquisition of cloud development environment company Ona, providing safe, persistent cloud workspaces for Codex agents. This means Codex is no longer just helping you write a few lines of code, but can run continuously for days in enterprise environments, access internal systems, and complete full development tasks.\n\nThis acquisition marks a landmark event in the transition from 'instant code completion' to 'long-term autonomous agents' in AI programming. Codex will be able to run continuously across hours or even days, truly achieving 'persistent autonomous work'.\n\nSimultaneously, OpenAI's commercialization process is accelerating. On June 8, OpenAI submitted a confidential S-1 IPO filing to SEC, accelerating the IPO timeline. On June 10, OpenAI partnered with Oracle, enabling enterprises to purchase Codex and model services directly through Oracle Universal Credits, significantly lowering barriers for enterprise customers.\n\nFor enterprises, this means AI coding agents are transitioning from experimental tools to production-grade infrastructure. When agents can run continuously for days completing full development tasks, software development workflows will undergo fundamental change.",
-          "key_points_en": [
-            "OpenAI acquires Ona for persistent cloud workspaces",
-            "Codex agents can now run continuously across hours or days",
-            "Shift from instant code completion to long-term autonomous agents",
-            "OpenAI submitted S-1 IPO filing to SEC on June 8"
-          ]
-        },
-        {
-          "title": "Anthropic Agent SDK计费独立，JFrog集成供应链安全",
-          "title_en": "Anthropic Agent SDK Billing Separates, JFrog Integrates Supply Chain Security",
-          "summary": "6月15日起，Anthropic正式将程序化智能体使用从交互订阅中独立出来，Pro用户每月获20美元Agent SDK额度，Max 5x获100美元/月，超额按API费率计费。JFrog同期发布Claude Code插件，将软件供应链安全治理直接嵌入AI编程智能体的执行流程。",
-          "summary_en": "Starting June 15, Anthropic officially separated programmatic agent usage from interactive subscriptions, with Pro users receiving $20 Agent SDK monthly allowance and Max 5x receiving $100/month, with overage billed at API rates. JFrog simultaneously released Claude Code plugin, embedding software supply chain security governance directly into AI coding agent execution workflows.",
-          "category": "AI应用",
-          "source": "Anthropic Help Center / JFrog新闻稿",
-          "source_en": "Anthropic Help Center / JFrog press release",
-          "url": "https://www.anthropic.com/",
-          "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=450&fit=crop",
-          "date": "2026-06-17",
-          "id": "news-2026-06-17-2",
-          "content": "Anthropic正在推动AI编程智能体从「实验性尝鲜」进入「生产级工程化」阶段。\n\n6月15日起，Anthropic正式将程序化智能体使用从交互订阅中独立出来。Pro用户每月获20美元Agent SDK额度，Max 5x获100美元/月，超额按API费率计费。\n\n这一计费独立标志着企业必须区分实验预算和生产预算。当智能体在生产环境中持续运行时，其成本模型与普通对话完全不同，企业需要建立新的预算管理体系。\n\n与此同时，JFrog发布Claude Code插件，将软件供应链安全治理（构件扫描、依赖白名单、MCP注册审批）直接嵌入AI编程智能体的执行流程。\n\n这代表了安全基础设施与AI编程智能体深度绑定的趋势。任何涉及构建和部署的AI智能体都必须通过合规检查，这将成为企业级标配。\n\n对于企业而言，这意味着AI编程智能体不再是独立的工具，而是整个DevSecOps流程的一部分。安全、合规、质量管控将成为智能体开发流程的内置环节。",
-          "content_en": "Anthropic is driving AI coding agents from 'experimental trials' into 'production-grade engineering' stage.\n\nStarting June 15, Anthropic officially separated programmatic agent usage from interactive subscriptions. Pro users receive $20 Agent SDK monthly allowance, Max 5x receives $100/month, with overage billed at API rates.\n\nThis billing independence marks that enterprises must distinguish between experimental and production budgets. When agents run continuously in production environments, their cost model is completely different from ordinary conversations, requiring enterprises to establish new budget management systems.\n\nSimultaneously, JFrog released Claude Code plugin, embedding software supply chain security governance (artifact scanning, dependency whitelisting, MCP registration approval) directly into AI coding agent execution workflows.\n\nThis represents the trend of deep binding between security infrastructure and AI coding agents. Any agent involving build and deployment must pass compliance checks, which will become enterprise-grade standard.\n\nFor enterprises, this means AI coding agents are no longer independent tools, but part of the entire DevSecOps process. Security, compliance, and quality control will become built-in elements of the agent development process.",
-          "key_points_en": [
-            "Anthropic separates Agent SDK billing from interactive subscriptions",
-            "Pro users get $20/month, Max 5x gets $100/month agent allowance",
-            "JFrog releases Claude Code plugin for supply chain security"
-          ]
-        },
-        {
-          "title": "MiniMax M3开源，高速版Kimi K2.7 Code提升5-6倍输出速度",
-          "title_en": "MiniMax M3 Open Source, Kimi K2.7 Code High-Speed Version Boosts Output 5-6x",
-          "summary": "Moonshot AI发布了Kimi K2.7 Code高速版，面向开发者和企业API用户。该版本在标准版基础上通过技术优化实现5-6倍的输出速度提升，短任务可达260 tokens/秒，平均编程任务达180 tokens/秒。定价为标准版的两倍。招商银行同期推出「运通工程师信用卡」，新用户单月可享18亿Token M3用量。",
-          "summary_en": "Moonshot AI released Kimi K2.7 Code High-Speed version for developers and enterprise API users. Through technical optimizations on the standard version, it achieves 5-6x output speed improvement, reaching 260 tokens/sec for short tasks and 180 tokens/sec for average coding tasks. Priced at double the standard version. China Merchants Bank simultaneously launched 'American Express Engineer Credit Card' with new users enjoying 1.8 billion tokens/month M3 usage.",
-          "category": "大模型",
-          "source": "AIbase / 招商银行公告",
-          "source_en": "AIbase / China Merchants Bank announcement",
-          "url": "https://www.aibase.com/",
-          "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=450&fit=crop",
-          "date": "2026-06-17",
-          "id": "news-2026-06-17-3",
-          "content": "AI编程模型的速度竞赛正在白热化。\n\nMoonshot AI发布了Kimi K2.7 Code高速版，这是面向开发者和企业API用户的专业版本。该版本在标准版基础上通过技术优化实现了5-6倍的输出速度提升。\n\n具体性能数据：短任务可达260 tokens/秒，平均编程任务达180 tokens/秒。这一性能提升将显著改善开发者的工作流程，特别是在需要快速迭代的场景中。\n\n当然，性能提升也是有代价的。Kimi K2.7 Code高速版的定价为标准版的两倍，这反映了高性能计算的成本压力。\n\n与此同时，招商银行推出「运通工程师信用卡」，新用户办卡可提供「专属AI权益」，单月可享18亿Token的M3用量。这标志着金融机构正在将AI服务权益融入金融产品，开辟了AI商业化新模式。\n\n新用户根据开发需求获得不同层级的AI算力额度，从专业级并发智能体支持到标准使用，不一而足。这种将AI算力权益融入金融产品的趋势，正在成为AI商业化的新路径。",
-          "content_en": "The speed race in AI coding models is heating up.\n\nMoonshot AI released Kimi K2.7 Code High-Speed version, a professional version for developers and enterprise API users. Through technical optimizations on the standard version, it achieves 5-6x output speed improvement.\n\nSpecific performance data: short tasks reach 260 tokens/sec, average coding tasks reach 180 tokens/sec. This performance improvement will significantly enhance developer workflows, especially in scenarios requiring rapid iteration.\n\nOf course, performance improvements come at a cost. Kimi K2.7 Code High-Speed is priced at double the standard version, reflecting the cost pressures of high-performance computing.\n\nSimultaneously, China Merchants Bank launched 'American Express Engineer Credit Card' providing 'exclusive AI benefits' for new users, with single-month M3 usage of 1.8 billion tokens. This marks financial institutions integrating AI service benefits into financial products, opening new AI monetization models.\n\nNew users receive different tiers of AI compute quotas based on development needs, from professional-grade concurrent agent support to standard usage. This trend of integrating AI compute benefits into financial products is becoming a new path for AI commercialization.",
-          "key_points_en": [
-            "Kimi K2.7 Code High-Speed achieves 5-6x output speed improvement",
-            "Reaches 260 tokens/sec for short tasks, 180 tokens/sec for coding",
-            "Priced at double the standard version"
-          ]
-        },
-        {
-          "title": "苹果探索AI智能体让Siri自主操作iPhone和Mac软件",
-          "title_en": "Apple Explores AI Agents for Siri to Autonomously Control iPhone and Mac Software",
-          "summary": "Bloomberg记者Mark Gurman报道，苹果正在探索AI智能体技术，让Siri能够自主控制iPhone、iPad和Mac上的软件。虽然目前仍处于推测阶段，但苹果现代化Siri底层架构以及高管对未来能力扩展的评论支持了这一潜在转变。苹果目前专注于基于LLM的Siri重构，但已暗示未来可能转向智能体工作流。",
-          "summary_en": "Bloomberg reporter Mark Gurman reports Apple is exploring AI agent technology to enable Siri to autonomously control software across iPhone, iPad, and Mac. While currently speculative, the potential shift is supported by Apple's modernization of Siri's underlying architecture and executive comments about future capability expansion. Apple currently focuses on LLM-based Siri reconstruction but has hinted at potential future move toward agentic workflows.",
-          "category": "AI应用",
-          "source": "Bloomberg / IT之家",
-          "source_en": "Bloomberg / IT Home",
-          "url": "https://www.bloomberg.com/",
-          "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800&h=450&fit=crop",
-          "date": "2026-06-17",
-          "id": "news-2026-06-17-4",
-          "content": "苹果正在探索Siri的下一个重大进化。\n\nBloomberg记者Mark Gurman报道，苹果正在探索AI智能体技术，让Siri能够自主控制iPhone、iPad和Mac上的软件。这将标志着Siri从被动响应转向主动执行。\n\n虽然目前仍处于推测阶段，但苹果现代化Siri底层架构以及高管对未来能力扩展的评论支持了这一潜在转变。苹果目前专注于基于LLM的Siri重构，但已暗示未来可能转向智能体工作流。\n\n这一探索紧随WWDC 2026上苹果发布的Foundation Models框架，该框架允许iOS应用在设备上直接运行AI模型，无需将数据发送到云端。\n\nAI智能体时代的到来意味着Siri将不再只是一个语音助手，而是一个能够理解用户意图、自主执行复杂任务的智能代理。这可能涉及跨应用的自动化操作、复杂的任务规划和执行，以及更加自然的交互体验。\n\n对于苹果而言，这是其AI战略的重要一步。设备端AI优先、隐私保护与强大智能体能力的结合，将使苹果在AI竞争中占据独特优势。",
-          "content_en": "Apple is exploring Siri's next major evolution.\n\nBloomberg reporter Mark Gurman reports Apple is exploring AI agent technology to enable Siri to autonomously control software across iPhone, iPad, and Mac. This marks Siri's shift from passive response to active execution.\n\nWhile currently speculative, Apple's modernization of Siri's underlying architecture and executive comments about future capability expansion support this potential shift. Apple currently focuses on LLM-based Siri reconstruction but has hinted at potential future move toward agentic workflows.\n\nThis exploration follows Apple's Foundation Models framework released at WWDC 2026, which allows iOS apps to run AI models directly on device without sending data to the cloud.\n\nThe arrival of the AI agent era means Siri will no longer be just a voice assistant, but an intelligent agent capable of understanding user intent and autonomously executing complex tasks. This may involve cross-app automation, complex task planning and execution, and more natural interaction experiences.\n\nFor Apple, this is an important step in its AI strategy. The combination of on-device AI priority, privacy protection, and powerful agent capabilities will give Apple unique advantages in AI competition.",
-          "key_points_en": [
-            "Apple exploring AI agent technology for Siri to autonomously control software",
-            "Potential shift affects iPhone, iPad, and Mac",
-            "Part of Apple's broader LLM-based Siri reconstruction effort"
-          ]
-        },
-        {
-          "title": "亚马逊拟投资数十亿美元建密苏里州数据中心",
-          "title_en": "Amazon Plans Multi-Billion Dollar Investment in Missouri Data Center",
-          "summary": "亚马逊宣布将在密苏里州蒙哥马利县投资「数十亿美元」建设新的数据中心园区，推进AI与云计算扩张布局。预计将创造400多个全职岗位及数千个施工岗位，涵盖道路、供水与数字化通信设施。这是2026年以来美国头部云厂「千亿级算力重资产」周期的延续。",
-          "summary_en": "Amazon announced plans to invest 'multi-billion dollars' in a new data-center campus in Montgomery County, Missouri, advancing AI and cloud expansion. Expected to create over 400 full-time jobs and thousands of construction jobs, covering roads, water supply, and digital communications facilities. This extends the 2026 cycle of 'hundred-billion-dollar compute capex' by US hyperscalers.",
-          "category": "投融资",
-          "source": "钛媒体 / Reuters",
-          "source_en": "Titanium Media / Reuters",
-          "url": "https://www.reuters.com/",
-          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=450&fit=crop",
-          "date": "2026-06-17",
-          "id": "news-2026-06-17-5",
-          "content": "美国AI基础设施投资正在加速。\n\n6月16日，亚马逊宣布将在密苏里州蒙哥马利县投资「数十亿美元」建设新的数据中心园区，推进AI与云计算扩张布局。\n\n该项目预计将创造400多个全职岗位及数千个施工岗位，涵盖道路、供水与数字化通信设施。这是2026年以来美国头部云厂「千亿级算力重资产」周期的延续。\n\n此前，Google月均支付9.2亿美元租用xAI算力，Apollo/Blackstone为Anthropic设计350亿美元融资方案，Alphabet筹集850亿美元创纪录资金。这些巨额投资正在重塑全球AI竞争格局。\n\nAI算力需求正在以前所未有的速度增长。随着大模型规模不断扩大、AI应用场景持续扩展，数据中心成为AI竞争的核心基础设施。\n\n对于亚马逊而言，这笔投资不仅是扩大云服务产能，更是为未来的AI需求储备算力。在AI军备竞赛中，谁拥有足够的算力基础设施，谁就拥有了更大的战略主动权。",
-          "content_en": "US AI infrastructure investment is accelerating.\n\nOn June 16, Amazon announced plans to invest 'multi-billion dollars' in a new data-center campus in Montgomery County, Missouri, advancing AI and cloud expansion.\n\nThe project is expected to create over 400 full-time jobs and thousands of construction jobs, covering roads, water supply, and digital communications facilities. This extends the 2026 cycle of 'hundred-billion-dollar compute capex' by US hyperscalers.\n\nPreviously, Google paid $920M/month on average to lease xAI compute, Apollo/Blackstone designed a $35B financing package for Anthropic, and Alphabet raised a record $85B. These massive investments are reshaping the global AI competition landscape.\n\nAI compute demand is growing at unprecedented speed. With large model scale continuously expanding and AI application scenarios persistently growing, data centers have become the core infrastructure of AI competition.\n\nFor Amazon, this investment is not only expanding cloud service capacity, but also reserving compute for future AI demand. In the AI arms race, whoever possesses sufficient compute infrastructure possesses greater strategic initiative.",
-          "key_points_en": [
-            "Amazon investing multi-billion dollars in Missouri data center campus",
-            "Expected to create over 400 full-time jobs",
-            "Extends 2026 cycle of hundred-billion-dollar compute capex by US hyperscalers"
-          ]
-        },
-        {
-          "title": "OpenAI承诺2026年向AI非营利问题投资5000万美元",
-          "title_en": "OpenAI Pledges $50M for AI Non-Profit Issues in 2026",
-          "summary": "OpenAI于6月15日承诺在2026年对与AI相关的非营利问题投入5000万美元，覆盖AI安全、滥用治理、AI for Good等领域。这被视为头部模型公司在监管收紧背景下的「社会契约」加码。AI公司正在通过主动履行社会责任来回应监管关切，建立与政府和公众的信任。",
-          "summary_en": "OpenAI pledged $50 million in 2026 for AI-related non-profit work on June 15, covering AI safety, misuse governance, and AI for Good. This is viewed as leading model companies' 'social contract' deepening amid tightening regulation. AI companies are responding to regulatory concerns and building trust with governments and the public through proactive fulfillment of social responsibilities.",
-          "category": "政策监管",
-          "source": "财联社 / Wired",
-          "source_en": "Cailian Press / Wired",
-          "url": "https://openai.com/blog/",
-          "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=800&h=450&fit=crop",
-          "date": "2026-06-17",
-          "id": "news-2026-06-17-6",
-          "content": "AI公司正在主动承担社会责任。\n\nOpenAI于6月15日承诺在2026年对与AI相关的非营利问题投入5000万美元，覆盖AI安全、滥用治理、AI for Good等领域。\n\n这一承诺被视为头部模型公司在监管收紧背景下的「社会契约」加码。随着AI监管在全球范围内不断收紧，AI公司正在通过主动履行社会责任来回应监管关切，建立与政府和公众的信任。\n\n5000万美元的投入虽然相对于OpenAI的融资规模不算巨大，但其象征意义重大。这表明OpenAI认识到AI技术的社会影响已经超出了纯商业范畴，需要更多关注公共利益。\n\nAI安全问题、滥用治理、AI for Good——这些领域虽然短期商业回报有限，但对于AI行业的长期健康发展至关重要。OpenAI的承诺为行业树立了一个标杆。\n\n其他AI公司很可能跟进，形成一种行业共识：在追求商业成功的同时，也要关注技术的社会影响，承担相应的社会责任。这将有助于缓解监管压力，赢得公众信任。",
-          "content_en": "AI companies are proactively taking on social responsibilities.\n\nOpenAI pledged $50 million in 2026 for AI-related non-profit work on June 15, covering AI safety, misuse governance, and AI for Good.\n\nThis commitment is viewed as leading model companies' 'social contract' deepening amid tightening regulation. With AI regulation continuously tightening globally, AI companies are responding to regulatory concerns and building trust with governments and the public through proactive fulfillment of social responsibilities.\n\nWhile the $50 million investment is not massive relative to OpenAI's financing scale, its symbolic significance is significant. This shows OpenAI recognizes that AI's social impact has gone beyond pure commercial scope and requires more attention to public interests.\n\nAI safety, misuse governance, AI for Good — while these areas may have limited short-term commercial returns, they are crucial for the long-term healthy development of the AI industry. OpenAI's commitment sets a benchmark for the industry.\n\nOther AI companies will likely follow, forming an industry consensus: while pursuing commercial success, we must also focus on technology's social impact and assume corresponding social responsibilities. This will help alleviate regulatory pressure and win public trust.",
-          "key_points_en": [
-            "OpenAI pledges $50 million in 2026 for AI non-profit work",
-            "Covers AI safety, misuse governance, and AI for Good",
-            "Viewed as leading model companies' 'social contract' deepening"
-          ]
-        },
-        {
-          "title": "智谱GLM-5.2全量用户开放，港股两日累涨超35%",
-          "title_en": "Zhipu GLM-5.2 Fully Open to Users, Hong Kong Stock Up 35% in Two Days",
-          "summary": "智谱AI宣布GLM-5.2全量用户开放，即将开源API。这一消息触发资本市场强烈反应，智谱港股在两个交易日内累计涨幅超过35%。GLM-5.2提供了更大的上下文窗口和更强的推理能力，被视为中国大模型领域的重大突破。",
-          "summary_en": "Zhipu AI announced GLM-5.2 fully open to all users, with open-source API coming soon. This news triggered strong market reaction, with Zhipu's Hong Kong stock rising over 35% in two trading days. GLM-5.2 provides larger context window and stronger reasoning capabilities, viewed as a major breakthrough in China's LLM field.",
-          "category": "大模型",
-          "source": "财新网 / 证券时报",
-          "source_en": "Caixin / Securities Times",
-          "url": "https://www.zhipuai.cn/",
-          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
-          "date": "2026-06-17",
-          "id": "news-2026-06-17-7",
-          "content": "中国大模型领域迎来重大突破。\n\n智谱AI宣布GLM-5.2全量用户开放，即将开源API。这一消息触发资本市场强烈反应，智谱港股在两个交易日内累计涨幅超过35%。\n\nGLM-5.2是智谱AI的最新一代大模型，提供了更大的上下文窗口和更强的推理能力。用户反馈显示，该模型在代码生成、数学推理、长文本处理等关键任务上表现优异。\n\n即将开源API的决定更是引发行业关注。开源将大大降低开发者的使用门槛，加速AI应用的普及。对于中国AI生态而言，这是一个重要的里程碑。\n\n资本市场的热烈反应反映了投资者对中国大模型产业的信心。在全球AI竞争格局中，中国公司正在快速追赶，GLM-5.2的表现是一个有力证明。\n\n随着更多中国大模型的成熟和开源，全球AI生态正在变得更加多元化。这对整个行业来说是一个积极信号，将促进技术创新和竞争。",
-          "content_en": "China's LLM field welcomes a major breakthrough.\n\nZhipu AI announced GLM-5.2 fully open to all users, with open-source API coming soon. This news triggered strong market reaction, with Zhipu's Hong Kong stock rising over 35% in two trading days.\n\nGLM-5.2 is Zhipu AI's latest generation large model, providing larger context window and stronger reasoning capabilities. User feedback shows the model performs excellently on key tasks like code generation, mathematical reasoning, and long-text processing.\n\nThe upcoming open-source API decision attracts industry attention. Open sourcing will significantly lower barriers for developers and accelerate AI application adoption. For China's AI ecosystem, this is an important milestone.\n\nThe capital market's enthusiastic reaction reflects investor confidence in China's LLM industry. In the global AI competitive landscape, Chinese companies are rapidly catching up, and GLM-5.2's performance is strong proof.\n\nWith more Chinese large models maturing and open-sourcing, the global AI ecosystem is becoming more diverse. This is a positive signal for the entire industry, promoting technological innovation and competition.",
-          "key_points_en": [
-            "GLM-5.2 fully open to all users with open-source API coming soon",
-            "Zhipu's Hong Kong stock rises over 35% in two trading days",
-            "Major breakthrough in China's LLM field"
-          ]
-        },
-        {
-          "title": "燧原科技科创板IPO过会，拟募资60亿元投向AI芯片研发",
-          "title_en": "Suiyuan Technology Passes STAR Market IPO Review, Raising 6 Billion RMB for AI Chip R&D",
-          "summary": "国产AI芯片厂商燧原科技科创板IPO过会，拟募资60亿元，投向第五代、第六代AI芯片研发及产业化。这是中国AI芯片产业的重要里程碑。随着AI算力需求爆发式增长，国产AI芯片正在加速追赶国际领先水平。",
-          "summary_en": "Domestic AI chip vendor Suiyuan Technology passed STAR Market IPO review, planning to raise 6 billion RMB for 5th and 6th generation AI chip R&D and industrialization. This is an important milestone for China's AI chip industry. With explosive growth in AI compute demand, domestic AI chips are accelerating to catch up with international leading levels.",
-          "category": "芯片算力",
-          "source": "证券时报 / 财联社",
-          "source_en": "Securities Times / Cailian Press",
-          "url": "https://www.suiyuan.com.cn/",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
-          "date": "2026-06-17",
-          "id": "news-2026-06-17-8",
-          "content": "中国AI芯片产业迎来重要突破。\n\n国产AI芯片厂商燧原科技科创板IPO过会，拟募资60亿元，投向第五代、第六代AI芯片研发及产业化。这是中国AI芯片产业的重要里程碑。\n\n燧原科技是中国AI芯片领域的领军企业之一，其产品已在多个数据中心和AI应用场景中部署。此次IPO过会意味着公司即将获得更多资金支持，加速技术研发和产业化进程。\n\n60亿元的募资金额将主要用于第五代、第六代AI芯片的研发。随着AI算力需求爆发式增长，新一代AI芯片需要提供更高的性能、更低的功耗和更好的成本效益。\n\n这一IPO也反映了中国资本对AI芯片产业的信心。在全球AI竞争格局中，算力基础设施是核心竞争力之一。中国正在通过资本市场加速本土AI芯片产业发展，减少对进口芯片的依赖。\n\n随着更多中国AI芯片公司走向资本市场，整个产业链将获得更多资源支持，加速技术创新和产业升级。",
-          "content_en": "China's AI chip industry welcomes an important breakthrough.\n\nDomestic AI chip vendor Suiyuan Technology passed STAR Market IPO review, planning to raise 6 billion RMB for 5th and 6th generation AI chip R&D and industrialization. This is an important milestone for China's AI chip industry.\n\nSuiyuan Technology is one of the leading companies in China's AI chip field, with products already deployed in multiple data centers and AI application scenarios. This IPO review means the company will soon obtain more financial support to accelerate technology R&D and industrialization.\n\nThe 6 billion RMB fundraising will mainly be used for 5th and 6th generation AI chip R&D. With explosive growth in AI compute demand, new generation AI chips need to provide higher performance, lower power consumption, and better cost-effectiveness.\n\nThis IPO also reflects Chinese capital's confidence in the AI chip industry. In the global AI competitive landscape, compute infrastructure is one of the core competitiveness. China is accelerating本土 AI chip industry development through capital markets, reducing dependence on imported chips.\n\nWith more Chinese AI chip companies going to capital markets, the entire industry chain will receive more resource support, accelerating technological innovation and industrial upgrading.",
-          "key_points_en": [
-            "Suiyuan Technology passes STAR Market IPO review",
-            "Planning to raise 6 billion RMB for AI chip R&D",
-            "Important milestone for China's AI chip industry"
-          ]
-        },
-        {
-          "title": "微纳核芯完成超10亿元人民币B轮系列融资",
-          "title_en": "Weina Core Completes Over 1 Billion RMB Series B Funding",
-          "summary": "国产AI芯片公司微纳核芯完成超10亿元人民币B轮系列融资，本轮融资由中国移动链长基金等领投。微纳核芯的3D-CIM架构为全球首创，在存算一体领域具有领先优势。这是中国存算一体芯片领域的重要融资案例。",
-          "summary_en": "Domestic AI chip company Weina Core completed over 1 billion RMB Series B financing, led by China Mobile Chain Leader Fund. Weina Core's 3D-CIM architecture is globally pioneering, with leading advantages in compute-in-memory field. This is an important financing case in China's compute-in-memory chip field.",
-          "category": "投融资",
-          "source": "证券时报 / 钛媒体",
-          "source_en": "Securities Times / Titanium Media",
-          "url": "https://www.weinacore.com/",
-          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=450&fit=crop",
-          "date": "2026-06-17",
-          "id": "news-2026-06-17-9",
-          "content": "存算一体芯片领域迎来重要融资。\n\n国产AI芯片公司微纳核芯完成超10亿元人民币B轮系列融资，本轮融资由中国移动链长基金等领投。\n\n微纳核芯的3D-CIM（Compute-In-Memory）架构为全球首创，在存算一体领域具有领先优势。存算一体技术通过将计算和存储融合，大幅提升了AI计算效率，降低了功耗和延迟。\n\n这轮融资反映了中国资本对存算一体芯片领域的重视。随着AI算力需求持续增长，传统的冯·诺依曼架构已经难以满足需求，存算一体等新型计算架构正在成为重要方向。\n\n中国移动链长基金的参与具有战略意义。作为通信基础设施运营商，中国移动对AI算力的需求巨大，投资存算一体芯片有助于其构建自主可控的AI基础设施。\n\n随着更多资本涌入存算一体芯片领域，这一技术路线有望加速成熟，为AI算力瓶颈提供解决方案。",
-          "content_en": "Compute-in-memory chip field welcomes important financing.\n\nDomestic AI chip company Weina Core completed over 1 billion RMB Series B financing, led by China Mobile Chain Leader Fund.\n\nWeina Core's 3D-CIM (Compute-In-Memory) architecture is globally pioneering, with leading advantages in compute-in-memory field. Compute-in-memory technology integrates computation and storage, significantly improving AI computing efficiency while reducing power consumption and latency.\n\nThis financing reflects Chinese capital's emphasis on compute-in-memory chip field. With AI compute demand continuously growing, traditional von Neumann architecture struggles to meet requirements, and new computing architectures like compute-in-memory are becoming important directions.\n\nChina Mobile Chain Leader Fund's participation has strategic significance. As a communications infrastructure operator, China Mobile has enormous AI compute needs, and investing in compute-in-memory chips helps build autonomous AI infrastructure.\n\nWith more capital flowing into compute-in-memory chip field, this technology route is expected to accelerate maturation, providing solutions for AI compute bottlenecks.",
-          "key_points_en": [
-            "Weina Core completes over 1 billion RMB Series B financing",
-            "Led by China Mobile Chain Leader Fund",
-            "3D-CIM architecture is globally pioneering in compute-in-memory field"
-          ]
-        },
-        {
-          "title": "工信部+国资委联合启动人形机器人实景实训专项行动",
-          "title_en": "MIIT & SASAC Jointly Launch Humanoid Robot Practical Training Initiative",
-          "summary": "工信部与国资委联合印发通知，正式启动2026年度人形机器人与具身智能实景实训专项行动。聚焦工业、服务、特种三大场景，部署打造实景实训空间、组建创新应用联合体、攻关实用化作业技能等六大任务。目标到2026年底，人形机器人在代表性场景完成应用验证和常态部署。",
-          "summary_en": "MIIT and SASAC jointly issued a notice officially launching the 2026 Humanoid Robot and Embodied Intelligence Practical Training Initiative. Focusing on industrial, service, and special scenarios, deploying six tasks including building practical training spaces, forming innovation application consortiums, and tackling practical skills. Goal: by end of 2026, humanoid robots complete application verification and normal deployment in representative scenarios.",
-          "category": "政策监管",
-          "source": "工信部通知 / 中国新闻网",
-          "source_en": "MIIT Notice / China News",
-          "url": "https://www.miit.gov.cn/",
-          "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800&h=450&fit=crop",
-          "date": "2026-06-17",
-          "id": "news-2026-06-17-10",
-          "content": "国家层面首次系统推动人形机器人从实验室走向真实场景。\n\n6月9日，工信部与国资委联合印发通知，正式启动2026年度人形机器人与具身智能实景实训专项行动。\n\n专项行动聚焦工业、服务、特种三大场景，部署打造实景实训空间、组建创新应用联合体、攻关实用化作业技能等六大任务。\n\n目标到2026年底，人形机器人在代表性场景完成应用验证和常态部署，凝练百个以上高价值应用案例，构建「实景实训—数据沉淀—产品迭代—规模部署」产业闭环。\n\n这是国家层面首次以如此高规格（工信部+国资委双部委）系统性推动人形机器人从实验室走向真实场景。政策明确「以场景牵引产业」，意味着不再停留在技术demo阶段，而是进入真刀真枪的生产环境验证。\n\n资本市场已快速反应——6月15日科创机械指数单日暴涨5.36%。这表明市场对人形机器人产业化的信心正在增强。\n\n对于中国而言，人形机器人是具身智能的重要载体，也是未来制造业和服务业转型升级的关键技术。政府的高规格推动将为产业发展提供强大的政策支持和资源保障。",
-          "content_en": "First national-level systematic push for humanoid robots from labs to real scenarios.\n\nOn June 9, MIIT and SASAC jointly issued a notice officially launching the 2026 Humanoid Robot and Embodied Intelligence Practical Training Initiative.\n\nThe initiative focuses on industrial, service, and special scenarios, deploying six tasks including building practical training spaces, forming innovation application consortiums, and tackling practical skills.\n\nGoal: by end of 2026, humanoid robots complete application verification and normal deployment in representative scenarios, condense over 100 high-value application cases, and build 'practical training—data accumulation—product iteration—scale deployment' industry loop.\n\nThis is the first time the state has systematically promoted humanoid robots from labs to real scenarios at such high specifications (dual ministries of MIIT and SASAC). Policy clearly states 'scenario-driven industry', meaning no longer staying at technical demo stage, but entering real production environment verification.\n\nCapital markets have reacted quickly — sci-tech machinery index surged 5.36% on June 15. This shows market confidence in humanoid robot industrialization is strengthening.\n\nFor China, humanoid robots are important carriers of embodied intelligence and key technologies for future manufacturing and service industry transformation and upgrading. High-level government push will provide strong policy support and resource guarantees for industrial development.",
-          "key_points_en": [
-            "MIIT and SASAC launch 2026 Humanoid Robot Practical Training Initiative",
-            "Focuses on industrial, service, and special scenarios",
-            "Goal: humanoid robots complete application verification by end of 2026"
           ]
         }
       ]

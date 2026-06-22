@@ -81,9 +81,9 @@
             tag_compute: '算力',
 
             // 深度文章
-            deep_article_1_title: 'AI产业「双轨并进」：政策红利与IPO狂潮下的万亿新战场',
-            deep_article_2_title: 'AI助手「自选模型」时代：苹果WWDC开启消费AI新纪元',
-            deep_article_3_title: 'SpaceX 600亿美元收购Cursor：当航天巨头转型AI编程公司',
+            deep_article_1_title: 'AI人才版图重构：谷歌为何成为全球AI「黄埔军校」？',
+            deep_article_2_title: '具身智能落地元年：从VLA技术突破到消费政策的产业共振',
+            deep_article_3_title: 'AI产业「双轨并进」：政策红利与IPO狂潮下的万亿新战场',
 
             // 日期分隔符
             date_today: '今天',
@@ -172,9 +172,9 @@
             tag_compute: 'Compute',
 
             // Deep reads
-            deep_article_1_title: "Embodied Intelligence Year One: VLA Breakthroughs and Consumer Policy Convergence",
-            deep_article_2_title: "AI Industry's Dual-Track Surge: Policy Dividends & IPO Frenzy",
-            deep_article_3_title: "Apple WWDC 2026: Siri Gemini Switch Marks New Era of Choose Your Own AI Model",
+            deep_article_1_title: "The Great AI Brain Drain: Why Google Became the World's Top AI 'Whipping Boy'",
+            deep_article_2_title: "Embodied Intelligence Year One: VLA Breakthroughs and Consumer Policy Convergence",
+            deep_article_3_title: "AI Industry's Dual-Track Surge: Policy Dividends & IPO Frenzy",
 
             // Date separators
             date_today: 'Today',

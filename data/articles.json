@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "id": "article-21",
+      "title": "AI人才版图重构：谷歌为何成为全球AI「黄埔军校」？",
+      "title_en": "The Great AI Brain Drain: Why Google Became the World's Top AI 'Whipping Boy'",
+      "date": "2026-06-22",
+      "date_cn": "2026年6月22日",
+      "category": "产业分析",
+      "category_en": "Industry Analysis",
+      "url": "articles/article-21.html",
+      "url_en": "articles/en/article-21.html",
+      "summary": "2026年6月第三周，全球AI行业见证人才地震：Transformer之父Noam Shazeer加入OpenAI，诺奖得主John Jumper加入Anthropic。本文深度解析顶尖人才为何离开Google，探讨AI行业从技术竞赛向商业化竞赛的范式转移。",
+      "summary_en": "In the third week of June 2026, the global AI industry witnessed an unprecedented talent earthquake. This article analyzes why top talents are leaving Google, exploring the paradigm shift from technology race to commercialization race.",
+      "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&h=450&fit=crop",
+      "tags": [
+        "AI人才",
+        "谷歌",
+        "OpenAI",
+        "Anthropic",
+        "人才竞争"
+      ],
+      "tags_en": [
+        "AI Talent",
+        "Google",
+        "OpenAI",
+        "Anthropic",
+        "Talent Competition"
+      ],
+      "reading_time": 8,
+      "is_featured": true
+    },
+    {
       "id": "article-20",
       "title": "具身智能落地元年：从VLA技术突破到消费政策的产业共振",
       "title_en": "Embodied Intelligence Year One: VLA Breakthroughs and Consumer Policy Convergence",
