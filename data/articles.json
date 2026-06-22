@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "article-22",
+      "date": "2026-06-23",
+      "title": "AI算力变局：从GPU独大到CPU回归",
+      "title_en": "AI Compute Revolution: From GPU Dominance to CPU Return",
+      "category": "产业分析",
+      "category_en": "Industry Analysis",
+      "summary": "智能体时代正在重塑AI算力市场格局。传统训练阶段1:8的CPU/GPU配比正迅速趋向1:1，英特尔至强服务器CPU供不应求，AMD将服务器CPU市场规模预测翻倍。这场算力配置的质变，不仅是芯片巨头的机遇，更是整个AI产业从生成式向自主智能体演进的技术标志。",
+      "summary_en": "The Agent era is reshaping the AI compute landscape. The traditional 1:8 CPU/GPU ratio from training is rapidly converging to 1:1, with Intel Xeon server CPUs in short supply and AMD doubling its server CPU market forecast. This qualitative shift in compute configuration marks not just an opportunity for chip giants, but a technological milestone for the entire AI industry as it evolves from generative to autonomous agents.",
+      "image": "img/pool/education-campus.jpg",
+      "tags": [
+        "AI算力",
+        "智能体",
+        "CPU",
+        "GPU",
+        "芯片产业"
+      ],
+      "tags_en": [
+        "AI Compute",
+        "AI Agent",
+        "CPU",
+        "GPU",
+        "Semiconductor Industry"
+      ],
+      "read_time": 8,
+      "read_time_en": 8
+    },
+    {
       "id": "article-21",
       "title": "AI人才版图重构：谷歌为何成为全球AI「黄埔军校」？",
       "title_en": "The Great AI Brain Drain: Why Google Became the World's Top AI 'Whipping Boy'",

@@ -1,0 +1,125 @@
+{
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "id": "news-1",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "Flourish获5亿美元融资：贝佐斯谷歌VC押注大脑计算新范式",
+      "title_en": "Flourish Raises $500M: Bezos and Google GV Bet on Brain Computing Paradigm",
+      "summary": "无产品、无营收、无论文，仅凭\"逆向工程人脑\"的前沿叙事，美国初创公司Flourish获得5亿美元融资，估值达25亿美元。投资方包括贝佐斯个人重仓、谷歌GV等顶级机构。",
+      "summary_en": "With no product, revenue, or published papers, US startup Flourish raised $500M at $2.5B valuation with backing from Jeff Bezos, Google GV, and other top VCs for its brain-computing research.",
+      "source": "钛媒体",
+      "source_en": "TMTPost",
+      "image": "img/pool/blockchain-defi.jpg"
+    },
+    {
+      "id": "news-2",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "智谱GLM-5.2登顶全球开源：7440亿参数、百万字上下文",
+      "title_en": "Zhipu's GLM-5.2 Tops Global Open-Source: 744B Parameters, 1M Context",
+      "summary": "智谱AI发布GLM-5.2大模型，7440亿参数规模位居全球开源第一，支持百万字超长上下文，在Code Arena盲测中位列全球可用模型第一。",
+      "summary_en": "Zhipu AI released GLM-5.2 with 744B parameters, ranking first globally in open-source LLMs with 1M token context window, topping Code Arena rankings.",
+      "source": "光明网",
+      "source_en": "Guangming Online",
+      "image": "img/pool/llm-chatbot.jpg"
+    },
+    {
+      "id": "news-3",
+      "category": "产业分析",
+      "category_en": "Industry Analysis",
+      "title": "AI算力新变局：CPU与GPU配比从1:8趋向1:1",
+      "title_en": "AI Compute Shift: CPU-GPU Ratio Evolves from 1:8 to 1:1",
+      "summary": "智能体时代推动算力配比发生质变。英特尔至强服务器CPU供不应求，AMD将服务器CPU市场规模预测翻倍上调至1200亿美元，黄仁勋称\"CPU是指挥家，GPU是乐团\"。",
+      "summary_en": "The Agent era is reshaping compute ratios. Intel Xeon server CPUs are in short supply, AMD doubled its server CPU market forecast to $120B, as Jensen Huang calls 'CPU the conductor, GPU the orchestra'.",
+      "source": "澎湃新闻",
+      "source_en": "The Paper",
+      "image": "img/pool/vr-ar-retail.jpg"
+    },
+    {
+      "id": "news-4",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "title": "八部门力推AI+消费：AI手机、AIPC、人形机器人纳入以旧换新",
+      "title_en": "8 Departments Push AI+Consumption: AI Phones, AIPC, Humanoid Robots in Trade-In",
+      "summary": "八部门联合推动\"人工智能+消费\"，AI手机、AIPC、人形机器人纳入以旧换新补贴，最高补贴1500元。工信部同步公开征求AI终端产品通用规范。",
+      "summary_en": "Eight government departments jointly promote AI+consumption with trade-in subsidies up to 1500 yuan for AI phones, AIPC, and humanoid robots. MIIT seeks public input on AI terminal standards.",
+      "source": "微博",
+      "source_en": "Weibo",
+      "image": "img/pool/policy-summit.jpg"
+    },
+    {
+      "id": "news-5",
+      "category": "AI应用",
+      "category_en": "AI Applications",
+      "title": "支付宝AI钱包正式推出：构建全栈AI支付解决方案",
+      "title_en": "Alipay AI Wallet Launches: Building Full-Stack AI Payment Solution",
+      "summary": "支付宝正式推出AI钱包，整合AI帮抢、AI付、AI收等功能，用户可对智能体任务进行实时管理。新发布ACT协议2.0打造智能体商业信任底座。",
+      "summary_en": "Alipay officially launched its AI wallet with AI task management, combining AI Pay, AI Collect, and smart agent capabilities. The new ACT protocol 2.0 establishes the trust foundation for AI commerce.",
+      "source": "人民日报",
+      "source_en": "People's Daily",
+      "image": "img/pool/healthcare-wearable.jpg"
+    },
+    {
+      "id": "news-6",
+      "category": "AI应用",
+      "category_en": "AI Applications",
+      "title": "工商银行AI数字员工承担工作量达5.5万人年",
+      "title_en": "ICBC AI Digital Employees Handle 55,000 Person-Years of Work",
+      "summary": "金融监管总局发布银行业首份AI安全开发应用指导意见，工商银行AI数字员工已承担工作量达5.5万人年，AI应用正在重塑金融业劳动力结构。",
+      "summary_en": "Following China's first AI security guidance for banking, ICBC's AI digital employees now handle 55,000 person-years of workload, reshaping the financial sector workforce.",
+      "source": "微博",
+      "source_en": "Weibo",
+      "image": "img/pool/autonomous-delivery.jpg"
+    },
+    {
+      "id": "news-7",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "OpenAI GPT-5.6下周发布：150万token上下文、三项Agent能力",
+      "title_en": "OpenAI GPT-5.6 Coming Next Week: 1.5M Context, Three Agent Capabilities",
+      "summary": "OpenAI确认GPT-5.6系列将于6月22-28日发布，包含mini、标准版、Pro三档，上下文窗口扩展至150万token，新增视觉复刻代码、SVG 3D生成、Playwright自动化三项Agent能力。",
+      "summary_en": "OpenAI confirms GPT-5.6 series launching June 22-28 with mini, standard, and Pro tiers. Context window expands to 1.5M tokens with three new Agent capabilities: visual code replication, SVG 3D generation, and Playwright automation.",
+      "source": "华尔街见闻",
+      "source_en": "WallstreetCN",
+      "image": "img/pool/llm-training.jpg"
+    },
+    {
+      "id": "news-8",
+      "category": "产业分析",
+      "category_en": "Industry Analysis",
+      "title": "北京241款大模型居全国第一：AI+黑灯实验室落地",
+      "title_en": "Beijing Leads China with 241 LLMs: AI Dark Labs Deploy",
+      "summary": "北京累计备案上线大模型241款，数量居全国首位。戴纳科技落地全国首个\"AI+黑灯实验室\"，每天最高可完成1万个实验的检测任务。",
+      "summary_en": "Beijing leads China with 241 registered LLMs. Dana Technologies deployed the nation's first 'AI Dark Lab' capable of conducting 10,000 experiments daily.",
+      "source": "光明网",
+      "source_en": "Guangming Online",
+      "image": "img/pool/energy-solar-ai.jpg"
+    },
+    {
+      "id": "news-9",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "AI大模型企业冲刺科创板：估值逻辑从参数转向营收",
+      "title_en": "AI LLM Firms Sprint to STAR Market: Valuation Shifts from Parameters to Revenue",
+      "summary": "证监会正式将AI大模型企业纳入科创板第五套上市标准。摩根大通预测2026年中国主要LLM年度经常性收入将增长4-7倍，估值逻辑正从\"比拼参数\"转向\"营收客户\"。",
+      "summary_en": "China's CSRC officially included AI LLM firms in STAR Market's fifth listing standard. JPM predicts China's major LLMs will see 4-7x ARR growth in 2026, as valuation logic shifts from parameters to revenue.",
+      "source": "51CTO",
+      "source_en": "51CTO",
+      "image": "img/pool/investment-ai-fund.jpg"
+    },
+    {
+      "id": "news-10",
+      "category": "AI应用",
+      "category_en": "AI Applications",
+      "title": "英矽智能AI驱动创新药进入III期临床：仅耗时18个月",
+      "title_en": "Insilico AI Drug Enters Phase III: Achieved in Just 18 Months",
+      "summary": "英矽智能宣布其全球首个AI驱动创新药进入III期临床试验，从靶点发现到临床仅耗时18个月，标志着AI药物研发进入新纪元。",
+      "summary_en": "Insilico Medicine announced its globally first AI-driven innovative drug entered Phase III clinical trials, achieving the milestone from target discovery to clinic in just 18 months.",
+      "source": "微博",
+      "source_en": "Weibo",
+      "image": "img/pool/autonomous-drone.jpg"
+    }
+  ]
+}

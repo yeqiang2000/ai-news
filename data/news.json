@@ -2,6 +2,131 @@
   "last_updated": "2026-06-22T08:00:00+08:00",
   "days": [
     {
+      "date": "2026-06-23",
+      "articles": [
+        {
+          "id": "news-1",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "Flourish获5亿美元融资：贝佐斯谷歌VC押注大脑计算新范式",
+          "title_en": "Flourish Raises $500M: Bezos and Google GV Bet on Brain Computing Paradigm",
+          "summary": "无产品、无营收、无论文，仅凭\"逆向工程人脑\"的前沿叙事，美国初创公司Flourish获得5亿美元融资，估值达25亿美元。投资方包括贝佐斯个人重仓、谷歌GV等顶级机构。",
+          "summary_en": "With no product, revenue, or published papers, US startup Flourish raised $500M at $2.5B valuation with backing from Jeff Bezos, Google GV, and other top VCs for its brain-computing research.",
+          "source": "钛媒体",
+          "source_en": "TMTPost",
+          "image": "img/pool/blockchain-defi.jpg"
+        },
+        {
+          "id": "news-2",
+          "category": "大模型",
+          "category_en": "LLM",
+          "title": "智谱GLM-5.2登顶全球开源：7440亿参数、百万字上下文",
+          "title_en": "Zhipu's GLM-5.2 Tops Global Open-Source: 744B Parameters, 1M Context",
+          "summary": "智谱AI发布GLM-5.2大模型，7440亿参数规模位居全球开源第一，支持百万字超长上下文，在Code Arena盲测中位列全球可用模型第一。",
+          "summary_en": "Zhipu AI released GLM-5.2 with 744B parameters, ranking first globally in open-source LLMs with 1M token context window, topping Code Arena rankings.",
+          "source": "光明网",
+          "source_en": "Guangming Online",
+          "image": "img/pool/llm-chatbot.jpg"
+        },
+        {
+          "id": "news-3",
+          "category": "产业分析",
+          "category_en": "Industry Analysis",
+          "title": "AI算力新变局：CPU与GPU配比从1:8趋向1:1",
+          "title_en": "AI Compute Shift: CPU-GPU Ratio Evolves from 1:8 to 1:1",
+          "summary": "智能体时代推动算力配比发生质变。英特尔至强服务器CPU供不应求，AMD将服务器CPU市场规模预测翻倍上调至1200亿美元，黄仁勋称\"CPU是指挥家，GPU是乐团\"。",
+          "summary_en": "The Agent era is reshaping compute ratios. Intel Xeon server CPUs are in short supply, AMD doubled its server CPU market forecast to $120B, as Jensen Huang calls 'CPU the conductor, GPU the orchestra'.",
+          "source": "澎湃新闻",
+          "source_en": "The Paper",
+          "image": "img/pool/vr-ar-retail.jpg"
+        },
+        {
+          "id": "news-4",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "八部门力推AI+消费：AI手机、AIPC、人形机器人纳入以旧换新",
+          "title_en": "8 Departments Push AI+Consumption: AI Phones, AIPC, Humanoid Robots in Trade-In",
+          "summary": "八部门联合推动\"人工智能+消费\"，AI手机、AIPC、人形机器人纳入以旧换新补贴，最高补贴1500元。工信部同步公开征求AI终端产品通用规范。",
+          "summary_en": "Eight government departments jointly promote AI+consumption with trade-in subsidies up to 1500 yuan for AI phones, AIPC, and humanoid robots. MIIT seeks public input on AI terminal standards.",
+          "source": "微博",
+          "source_en": "Weibo",
+          "image": "img/pool/policy-summit.jpg"
+        },
+        {
+          "id": "news-5",
+          "category": "AI应用",
+          "category_en": "AI Applications",
+          "title": "支付宝AI钱包正式推出：构建全栈AI支付解决方案",
+          "title_en": "Alipay AI Wallet Launches: Building Full-Stack AI Payment Solution",
+          "summary": "支付宝正式推出AI钱包，整合AI帮抢、AI付、AI收等功能，用户可对智能体任务进行实时管理。新发布ACT协议2.0打造智能体商业信任底座。",
+          "summary_en": "Alipay officially launched its AI wallet with AI task management, combining AI Pay, AI Collect, and smart agent capabilities. The new ACT protocol 2.0 establishes the trust foundation for AI commerce.",
+          "source": "人民日报",
+          "source_en": "People's Daily",
+          "image": "img/pool/healthcare-wearable.jpg"
+        },
+        {
+          "id": "news-6",
+          "category": "AI应用",
+          "category_en": "AI Applications",
+          "title": "工商银行AI数字员工承担工作量达5.5万人年",
+          "title_en": "ICBC AI Digital Employees Handle 55,000 Person-Years of Work",
+          "summary": "金融监管总局发布银行业首份AI安全开发应用指导意见，工商银行AI数字员工已承担工作量达5.5万人年，AI应用正在重塑金融业劳动力结构。",
+          "summary_en": "Following China's first AI security guidance for banking, ICBC's AI digital employees now handle 55,000 person-years of workload, reshaping the financial sector workforce.",
+          "source": "微博",
+          "source_en": "Weibo",
+          "image": "img/pool/autonomous-delivery.jpg"
+        },
+        {
+          "id": "news-7",
+          "category": "大模型",
+          "category_en": "LLM",
+          "title": "OpenAI GPT-5.6下周发布：150万token上下文、三项Agent能力",
+          "title_en": "OpenAI GPT-5.6 Coming Next Week: 1.5M Context, Three Agent Capabilities",
+          "summary": "OpenAI确认GPT-5.6系列将于6月22-28日发布，包含mini、标准版、Pro三档，上下文窗口扩展至150万token，新增视觉复刻代码、SVG 3D生成、Playwright自动化三项Agent能力。",
+          "summary_en": "OpenAI confirms GPT-5.6 series launching June 22-28 with mini, standard, and Pro tiers. Context window expands to 1.5M tokens with three new Agent capabilities: visual code replication, SVG 3D generation, and Playwright automation.",
+          "source": "华尔街见闻",
+          "source_en": "WallstreetCN",
+          "image": "img/pool/llm-training.jpg"
+        },
+        {
+          "id": "news-8",
+          "category": "产业分析",
+          "category_en": "Industry Analysis",
+          "title": "北京241款大模型居全国第一：AI+黑灯实验室落地",
+          "title_en": "Beijing Leads China with 241 LLMs: AI Dark Labs Deploy",
+          "summary": "北京累计备案上线大模型241款，数量居全国首位。戴纳科技落地全国首个\"AI+黑灯实验室\"，每天最高可完成1万个实验的检测任务。",
+          "summary_en": "Beijing leads China with 241 registered LLMs. Dana Technologies deployed the nation's first 'AI Dark Lab' capable of conducting 10,000 experiments daily.",
+          "source": "光明网",
+          "source_en": "Guangming Online",
+          "image": "img/pool/energy-solar-ai.jpg"
+        },
+        {
+          "id": "news-9",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "AI大模型企业冲刺科创板：估值逻辑从参数转向营收",
+          "title_en": "AI LLM Firms Sprint to STAR Market: Valuation Shifts from Parameters to Revenue",
+          "summary": "证监会正式将AI大模型企业纳入科创板第五套上市标准。摩根大通预测2026年中国主要LLM年度经常性收入将增长4-7倍，估值逻辑正从\"比拼参数\"转向\"营收客户\"。",
+          "summary_en": "China's CSRC officially included AI LLM firms in STAR Market's fifth listing standard. JPM predicts China's major LLMs will see 4-7x ARR growth in 2026, as valuation logic shifts from parameters to revenue.",
+          "source": "51CTO",
+          "source_en": "51CTO",
+          "image": "img/pool/investment-ai-fund.jpg"
+        },
+        {
+          "id": "news-10",
+          "category": "AI应用",
+          "category_en": "AI Applications",
+          "title": "英矽智能AI驱动创新药进入III期临床：仅耗时18个月",
+          "title_en": "Insilico AI Drug Enters Phase III: Achieved in Just 18 Months",
+          "summary": "英矽智能宣布其全球首个AI驱动创新药进入III期临床试验，从靶点发现到临床仅耗时18个月，标志着AI药物研发进入新纪元。",
+          "summary_en": "Insilico Medicine announced its globally first AI-driven innovative drug entered Phase III clinical trials, achieving the milestone from target discovery to clinic in just 18 months.",
+          "source": "微博",
+          "source_en": "Weibo",
+          "image": "img/pool/autonomous-drone.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-06-22",
       "date_cn": "2026年6月22日",
       "date_short": "6月22日",
@@ -1065,230 +1190,6 @@
             "Promote intelligent terminals and humanoid robots",
             "Cover elderly care, cultural tourism, four other service scenarios",
             "Policy intensifies to bring AI into thousands of households"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-18",
-      "hero": {
-        "title": "Transformer之父Noam Shazeer跳槽OpenAI，大模型架构战再升级",
-        "title_en": "Transformer Co-Author Noam Shazeer Jumps to OpenAI, Architecture War Escalates",
-        "summary": "Transformer论文作者之一、谷歌DeepMind工程副总裁兼Gemini联合负责人Noam Shazeer正式宣布离开谷歌加入OpenAI，担任架构研究负责人。这是继前Gemini产品负责人后，谷歌AI团队又一核心人才流失，标志着大模型架构探索战再度升级。同日，WAIC 2026确认7月17-20日在上海举办，超300款AI产品全球首发。",
-        "summary_en": "Noam Shazeer, co-author of the Transformer paper, Google DeepMind VP of Engineering and Gemini co-lead, officially announced his departure from Google to join OpenAI as Head of Architecture Research. This marks another core talent loss for Google's AI team, signaling an escalation in the battle for next-generation model architecture.",
-        "category": "AI人才",
-        "source": "CSDN / 36氪 / 财联社",
-        "source_en": "CSDN / 36Kr / Cailian Press",
-        "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
-        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
-        "date": "2026-06-18",
-        "id": "hero-2026-06-18",
-        "content": "6月18日，AI行业上演了一场震动硅谷的「人才地震」——Transformer论文作者之一、谷歌DeepMind工程副总裁兼Gemini联合负责人Noam Shazeer正式宣布离开谷歌、加入OpenAI，将担任架构研究负责人。\n\nShazeer是2017年Transformer论文「Attention Is All You Need」的核心作者之一，在谷歌主导了多个大模型项目。他的离开被视为谷歌AI人才流失的标志性事件，也意味着OpenAI在下一代模型架构上获得了关键人才。\n\n同日，国务院新闻办公室披露WAIC 2026将于7月17-20日在上海举办，超300款AI产品全球首发；上交所将科创板第五套上市标准扩至AI大模型企业，资本市场反应积极。",
-        "content_en": "On June 18, the AI industry witnessed a 'talent earthquake' rocking Silicon Valley: Noam Shazeer, co-author of the Transformer paper and Google DeepMind's VP of Engineering, officially announced his departure from Google to join OpenAI as Head of Architecture Research.\n\nShazeer was one of the core authors of the 2017 'Attention Is All You Need' paper and led multiple large model projects at Google. His departure is seen as a landmark event in Google's AI talent drain, and means OpenAI has acquired key talent for next-generation model architecture.",
-        "key_points": [
-          "Transformer论文作者Noam Shazeer离开谷歌加入OpenAI",
-          "将担任OpenAI架构研究负责人",
-          "谷歌AI团队核心人才持续流失",
-          "WAIC 2026确认7月上海举办，超300款AI产品首发",
-          "科创板第五套上市标准扩至AI大模型企业"
-        ],
-        "key_points_en": [
-          "Transformer paper co-author Noam Shazeer leaves Google for OpenAI",
-          "Will serve as OpenAI Head of Architecture Research",
-          "Continued core talent drain from Google's AI team",
-          "WAIC 2026 confirmed for July in Shanghai, 300+ AI products debuting",
-          "STAR Market extends listing standards to AI large-model companies"
-        ]
-      },
-      "articles": [
-        {
-          "title": "OpenAI与Anthropic先后提交IPO申请，AI巨头竞速上市",
-          "title_en": "OpenAI and Anthropic File IPO Applications, AI Giants Race to Go Public",
-          "summary": "OpenAI在Anthropic提交保密IPO申请数日后跟进，双方竞逐2026年秋季上市窗口，与SpaceX共同构成三大潜在万亿级AI上市企业。",
-          "summary_en": "OpenAI followed Anthropic's confidential IPO filing days later, both competing for fall 2026 listing windows, joining SpaceX as three potential trillion-dollar AI IPOs.",
-          "category": "资本市场",
-          "source": "头条新闻 / Reuters",
-          "source_en": "Toutiao News / Reuters",
-          "url": "https://m.toutiao.com/group/7652645312196133402/",
-          "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=450&fit=crop",
-          "date": "2026-06-18",
-          "id": "news-2026-06-18-1",
-          "content_en": "OpenAI and Anthropic have both filed IPO applications, competing for the fall 2026 listing window alongside SpaceX as three potential trillion-dollar AI public offerings. This marks a significant milestone in the AI industry's transition from private venture-backed companies to publicly traded giants.",
-          "key_points_en": [
-            "OpenAI and Anthropic file IPO applications, competing for fall 2026 listing windows",
-            "SpaceX joins as third potential trillion-dollar AI IPO",
-            "AI giants transitioning from private venture-backed to publicly traded companies"
-          ]
-        },
-        {
-          "title": "Anthropic发布最强公开模型Claude Fable 5",
-          "title_en": "Anthropic Releases Most Powerful Public Model Claude Fable 5",
-          "summary": "Anthropic推出Mythos级别的Claude Fable 5，在软件工程、知识工作、视觉和科学推理等长程复杂任务上达到行业领先，Stripe测试显示其可在一天内完成5000万行Ruby代码库迁移。",
-          "summary_en": "Anthropic launched Mythos-level Claude Fable 5, achieving industry-leading performance in software engineering, knowledge work, vision and scientific reasoning. Stripe tests showed it can complete a 50M-line Ruby codebase migration in one day.",
-          "category": "大模型",
-          "source": "头条新闻 / The Verge",
-          "source_en": "Toutiao News / The Verge",
-          "url": "https://m.toutiao.com/group/7652645312196133402/",
-          "image": "https://images.unsplash.com/photo-1676299081847-824916de030a?w=800&h=450&fit=crop",
-          "date": "2026-06-18",
-          "id": "news-2026-06-18-2",
-          "content_en": "Anthropic launched Claude Fable 5, achieving industry-leading performance in software engineering, knowledge work, vision, and scientific reasoning on long-horizon complex tasks. Stripe tests demonstrated that Claude Fable 5 can complete a 50 million-line Ruby codebase migration within a single day.",
-          "key_points_en": [
-            "Claude Fable 5 achieves industry-leading performance in software engineering and scientific reasoning",
-            "Stripe tests show 50 million-line Ruby codebase migration in one day",
-            "Marks Anthropic's most powerful public model release"
-          ]
-        },
-        {
-          "title": "Google I/O 2026发布Gemini 3.5系列与AI代理生态",
-          "title_en": "Google I/O 2026 Launches Gemini 3.5 Series and AI Agent Ecosystem",
-          "summary": "Google推出Gemini 3.5 Flash（速度提升4倍）和Gemini Omni视频生成模型，并发布24/7个人代理Gemini Spark，标志着从「助手」向「主动代理」的战略转型。",
-          "summary_en": "Google launched Gemini 3.5 Flash (4x speed improvement) and Gemini Omni video generation model, plus 24/7 personal agent Gemini Spark, marking a strategic shift from 'assistant' to 'proactive agent'.",
-          "category": "大模型",
-          "source": "头条新闻 / TechCrunch",
-          "source_en": "Toutiao News / TechCrunch",
-          "url": "https://m.toutiao.com/group/7652645312196133402/",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
-          "date": "2026-06-18",
-          "id": "news-2026-06-18-3",
-          "content_en": "Google launched Gemini 3.5 Flash with 4x speed improvement and Gemini Omni video generation model at Google I/O 2026. The company also introduced Gemini Spark, a 24/7 personal agent, marking a strategic shift from 'assistant' to 'proactive agent.'",
-          "key_points_en": [
-            "Gemini 3.5 Flash delivers 4x speed improvement over previous version",
-            "Gemini Omni video generation model introduced",
-            "Gemini Spark represents shift from assistant to proactive 24/7 agent"
-          ]
-        },
-        {
-          "title": "Salesforce以36亿美元收购AI企业Fin",
-          "title_en": "Salesforce Acquires AI Company Fin for $3.6 Billion",
-          "summary": "Salesforce宣布以约36亿美元收购AI工作流自动化公司Fin，进一步加码企业AI市场，反映出大型软件厂商通过并购快速获取AI能力的行业趋势。",
-          "summary_en": "Salesforce announced acquisition of AI workflow automation company Fin for approximately $3.6B, doubling down on enterprise AI market, reflecting the trend of large software vendors rapidly acquiring AI capabilities through M&A.",
-          "category": "并购",
-          "source": "头条新闻 / Reuters",
-          "source_en": "Toutiao News / Reuters",
-          "url": "https://m.toutiao.com/group/7652645312196133402/",
-          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
-          "date": "2026-06-18",
-          "id": "news-2026-06-18-4",
-          "content_en": "Salesforce announced the acquisition of AI workflow automation company Fin for approximately $3.6 billion, further expanding its presence in the enterprise AI market. This acquisition reflects the industry trend of large software vendors rapidly acquiring AI capabilities through mergers and acquisitions.",
-          "key_points_en": [
-            "Salesforce acquires AI workflow automation company Fin for $3.6 billion",
-            "Reflects trend of large software vendors acquiring AI capabilities through M&A",
-            "Further expansion into enterprise AI market"
-          ]
-        },
-        {
-          "title": "科创板第五套上市标准扩至AI大模型企业，AI概念股大涨",
-          "title_en": "STAR Market Extends Listing Standards to AI Large-Model Companies, AI Stocks Surge",
-          "summary": "上交所将科创板第五套上市标准扩至AI大模型企业，中际旭创总市值超1.52万亿冲入A股前十，工业富联涨7.49%市值逼近1.55万亿。AI ETF连续五日上涨。",
-          "summary_en": "Shanghai Stock Exchange extended STAR Market's fifth listing standard to AI large-model companies. Zhongji Innolight's market cap exceeded 1.52 trillion yuan entering A-share top 10. Industrial Foxconn rose 7.49% with market cap near 1.55 trillion.",
-          "category": "资本市场",
-          "source": "证券时报 / 财联社",
-          "source_en": "Securities Times / Cailian Press",
-          "url": "https://m.toutiao.com/group/7652666324832879142/",
-          "image": "https://images.unsplash.com/photo-1590283603385-17ffb3b7c501?w=800&h=450&fit=crop",
-          "date": "2026-06-18",
-          "id": "news-2026-06-18-5",
-          "content_en": "The Shanghai Stock Exchange extended STAR Market's fifth listing standard to AI large-model companies, triggering a surge in AI-related stocks. Zhongji Innolight's market cap exceeded 1.52 trillion yuan, entering the A-share top 10, while Industrial Foxconn rose 7.49% with market cap approaching 1.55 trillion yuan.",
-          "key_points_en": [
-            "STAR Market extends fifth listing standard to AI large-model companies",
-            "Zhongji Innolight market cap exceeds 1.52 trillion yuan",
-            "AI ETF rises for fifth consecutive day"
-          ]
-        },
-        {
-          "title": "NVIDIA以超4亿美元收购企业预测AI公司Kumo AI",
-          "title_en": "NVIDIA Acquires Enterprise Predictive AI Company Kumo AI for Over $400M",
-          "summary": "NVIDIA收购Kumo AI以强化结构化企业数据预测分析能力，该交易是NVIDIA 2024-2026年AI基础设施与企业软件收购潮的最新动作。",
-          "summary_en": "NVIDIA acquired Kumo AI to strengthen structured enterprise data predictive analytics capabilities, the latest in NVIDIA's 2024-2026 AI infrastructure and enterprise software acquisition wave.",
-          "category": "并购",
-          "source": "头条新闻 / TechCrunch",
-          "source_en": "Toutiao News / TechCrunch",
-          "url": "https://m.toutiao.com/group/7652645312196133402/",
-          "image": "https://images.unsplash.com/photo-1625895197185-0c4eab55b5d1?w=800&h=450&fit=crop",
-          "date": "2026-06-18",
-          "id": "news-2026-06-18-6",
-          "content_en": "NVIDIA acquired enterprise predictive AI company Kumo AI for over $400 million to strengthen its structured enterprise data predictive analytics capabilities. This represents the latest move in NVIDIA's AI infrastructure and enterprise software acquisition wave from 2024 to 2026.",
-          "key_points_en": [
-            "NVIDIA acquires Kumo AI for over $400 million",
-            "Strengthens structured enterprise data predictive analytics",
-            "Part of NVIDIA's 2024-2026 AI infrastructure acquisition wave"
-          ]
-        },
-        {
-          "title": "穹彻智能完成数亿元新一轮融资，具身智能赛道持续火热",
-          "title_en": "Noematrix Completes New Funding Round Worth Hundreds of Millions, Embodied AI Sector Remains Hot",
-          "summary": "具身智能企业穹彻智能(Noematrix)宣布完成新一轮数亿元融资，由无锡数据集团领投。公司由非夕科技战略孵化，此前已获红杉中国、阿里巴巴等加持。",
-          "summary_en": "Embodied AI company Noematrix announced completion of a new funding round worth several hundred million yuan, led by Wuxi Data Group. Previously backed by Sequoia China, Alibaba and others.",
-          "category": "融资",
-          "source": "CSDN / 36氪",
-          "source_en": "CSDN / 36Kr",
-          "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
-          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
-          "date": "2026-06-18",
-          "id": "news-2026-06-18-7",
-          "content_en": "Embodied AI company Noematrix announced completion of a new funding round worth several hundred million yuan, led by Wuxi Data Group. The company was strategically incubated by Flexiv and has previously received backing from Sequoia China and Alibaba.",
-          "key_points_en": [
-            "Noematrix completes new funding round worth hundreds of millions yuan",
-            "Led by Wuxi Data Group",
-            "Previously backed by Sequoia China and Alibaba"
-          ]
-        },
-        {
-          "title": "白宫发布NSPM-11备忘录，推动前沿AI模型监管",
-          "title_en": "White House Issues NSPM-11 Memo, Pushing Frontier AI Model Regulation",
-          "summary": "白宫发布国家安全总统备忘录，要求60天内建立前沿覆盖模型分类基准流程，并设立AI网络安全协调中心，标志着美国联邦层面前沿AI监管框架加速落地。",
-          "summary_en": "The White House issued a national security presidential memorandum requiring establishment of frontier model classification baseline process within 60 days and an AI cybersecurity coordination center.",
-          "category": "政策",
-          "source": "头条新闻 / The Verge",
-          "source_en": "Toutiao News / The Verge",
-          "url": "https://m.toutiao.com/group/7652645312196133402/",
-          "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&h=450&fit=crop",
-          "date": "2026-06-18",
-          "id": "news-2026-06-18-8",
-          "content_en": "The White House issued a National Security Presidential Memorandum requiring the establishment of frontier model classification baseline processes within 60 days and the creation of an AI Cybersecurity Coordination Center. This marks the acceleration of US federal frontier AI regulatory framework implementation.",
-          "key_points_en": [
-            "White House issues NSPM-11 requiring frontier model classification within 60 days",
-            "AI Cybersecurity Coordination Center to be established",
-            "US federal frontier AI regulatory framework accelerating"
-          ]
-        },
-        {
-          "title": "Anthropic发布报告呼吁建立可验证的前沿AI暂停机制",
-          "title_en": "Anthropic Report Calls for Verifiable Frontier AI Pause Mechanism",
-          "summary": "Anthropic研究所发布《When AI Builds Itself》报告，披露Claude已撰写公司80%以上代码，并呼吁行业建立协调、可验证的暂停机制以应对AI自我加速发展的风险。",
-          "summary_en": "Anthropic Research released 'When AI Builds Itself' report, disclosing Claude now writes 80%+ of company code, calling for coordinated verifiable pause mechanisms to address AI self-acceleration risks.",
-          "category": "AI安全",
-          "source": "头条新闻 / MIT Technology Review",
-          "source_en": "Toutiao News / MIT Technology Review",
-          "url": "https://m.toutiao.com/group/7652645312196133402/",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=450&fit=crop",
-          "date": "2026-06-18",
-          "id": "news-2026-06-18-9",
-          "content_en": "Anthropic Research released the 'When AI Builds Itself' report, disclosing that Claude now writes over 80% of the company's code. The report calls for coordinated, verifiable pause mechanisms to address AI self-acceleration risks as the technology continues to advance rapidly.",
-          "key_points_en": [
-            "Claude now writes over 80% of Anthropic's company code",
-            "Anthropic calls for coordinated verifiable AI pause mechanisms",
-            "Report addresses AI self-acceleration risks"
-          ]
-        },
-        {
-          "title": "学术团队以极简数据策略超越科技巨头AI搜索模型",
-          "title_en": "Academic Team Beats Tech Giants' AI Search Models with Minimal Data Strategy",
-          "summary": "研究人员通过OpenSeeker-v2证明，仅使用10600条精选数据即可在xbench等基准测试中以78%准确率超越行业模型，挑战了「大算力+大数据」的传统开发范式。",
-          "summary_en": "Researchers proved via OpenSeeker-v2 that using only 10,600 curated data points achieves 78% accuracy on xbench benchmarks, surpassing industry models and challenging the traditional 'big compute + big data' paradigm.",
-          "category": "研究",
-          "source": "头条新闻 / MIT Technology Review",
-          "source_en": "Toutiao News / MIT Technology Review",
-          "url": "https://m.toutiao.com/group/7652645312196133402/",
-          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=450&fit=crop",
-          "date": "2026-06-18",
-          "id": "news-2026-06-18-10",
-          "content_en": "Researchers demonstrated via OpenSeeker-v2 that using only 10,600 curated data points can achieve 78% accuracy on xbench benchmarks, surpassing industry models. This challenges the traditional 'big compute + big data' paradigm in AI development and suggests efficient data strategies can outperform massive-scale approaches.",
-          "key_points_en": [
-            "OpenSeeker-v2 achieves 78% accuracy with only 10,600 data points",
-            "Challenges 'big compute + big data' AI development paradigm",
-            "Efficient data strategies outperform massive-scale approaches"
           ]
         }
       ]

@@ -1011,6 +1011,16 @@
       "desc": "Large language model training visualization on data center screens, AI compute, professional photogr"
     },
     {
+      "id": "agnes-llm-multimodal",
+      "url": "img/pool/llm-multimodal.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "AI_applications"
+      ],
+      "desc": "Multimodal AI processing text image and audio, next-gen language model, professional tech photo"
+    },
+    {
       "id": "agnes-ai-creative-art",
       "url": "img/pool/ai-creative-art.jpg",
       "source": "agnes-image-2.1-flash",
@@ -1071,6 +1081,17 @@
       "desc": "Advanced chip packaging with multiple die stacks, semiconductor technology, professional macro photo"
     },
     {
+      "id": "agnes-industry-smart-city",
+      "url": "img/pool/industry-smart-city.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry",
+        "network",
+        "AI_applications"
+      ],
+      "desc": "Smart city aerial view with IoT sensors and AI traffic management, urban technology, professional ph"
+    },
+    {
       "id": "agnes-industry-digital-twin",
       "url": "img/pool/industry-digital-twin.jpg",
       "source": "agnes-image-2.1-flash",
@@ -1099,37 +1120,6 @@
         "LLM"
       ],
       "desc": "AI research paper analysis on dual monitor setup, automated literature review, professional stock ph"
-    },
-    {
-      "id": "agnes-energy-wind-ai",
-      "url": "img/pool/energy-wind-ai.jpg",
-      "source": "agnes-image-2.1-flash",
-      "category": [
-        "energy",
-        "industry"
-      ],
-      "desc": "Wind turbines with AI-optimized blade design"
-    },
-    {
-      "id": "agnes-llm-multimodal",
-      "url": "img/pool/llm-multimodal.jpg",
-      "source": "agnes-image-2.1-flash",
-      "category": [
-        "LLM",
-        "AI_applications"
-      ],
-      "desc": "Multimodal AI processing text image and audio"
-    },
-    {
-      "id": "agnes-industry-smart-city",
-      "url": "img/pool/industry-smart-city.jpg",
-      "source": "agnes-image-2.1-flash",
-      "category": [
-        "industry",
-        "network",
-        "AI_applications"
-      ],
-      "desc": "Smart city aerial view with IoT sensors"
     }
   ]
 }
