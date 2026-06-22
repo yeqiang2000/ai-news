@@ -674,6 +674,462 @@
         "industry"
       ],
       "desc": "technology innovation"
+    },
+    {
+      "id": "agnes-healthcare-ai-diagnosis",
+      "url": "img/pool/healthcare-ai-diagnosis.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare",
+        "AI_applications"
+      ],
+      "desc": "AI doctor analyzing patient scans on holographic display, modern hospital room, professional photogr"
+    },
+    {
+      "id": "agnes-healthcare-robotics-surgery",
+      "url": "img/pool/healthcare-robotics-surgery.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare",
+        "robotics"
+      ],
+      "desc": "Surgical robot arm in operating room with AI monitoring screens, medical technology, cinematic photo"
+    },
+    {
+      "id": "agnes-healthcare-wearable",
+      "url": "img/pool/healthcare-wearable.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare",
+        "AI_applications"
+      ],
+      "desc": "Person wearing smart health monitoring watch with AI dashboard display, modern wellness, stock photo"
+    },
+    {
+      "id": "agnes-autonomous-delivery",
+      "url": "img/pool/autonomous-delivery.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous",
+        "AI_applications"
+      ],
+      "desc": "Autonomous delivery robot navigating city sidewalk, urban technology, daytime professional photo"
+    },
+    {
+      "id": "agnes-autonomous-drone",
+      "url": "img/pool/autonomous-drone.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous",
+        "AI_applications"
+      ],
+      "desc": "Autonomous drone fleet delivering packages over modern city skyline, aerial technology, professional"
+    },
+    {
+      "id": "agnes-autonomous-warehouse",
+      "url": "img/pool/autonomous-warehouse.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous",
+        "robotics",
+        "industry"
+      ],
+      "desc": "Autonomous warehouse robots sorting packages, logistics automation, professional stock photo"
+    },
+    {
+      "id": "agnes-vr-ar-meeting",
+      "url": "img/pool/vr-ar-meeting.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar",
+        "AI_applications"
+      ],
+      "desc": "Business team in VR AR mixed reality meeting with holographic data, corporate technology, profession"
+    },
+    {
+      "id": "agnes-vr-ar-training",
+      "url": "img/pool/vr-ar-training.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar",
+        "education"
+      ],
+      "desc": "Trainee using VR headset for industrial training simulation, professional photography, clean backgro"
+    },
+    {
+      "id": "agnes-vr-ar-retail",
+      "url": "img/pool/vr-ar-retail.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar",
+        "AI_applications",
+        "industry"
+      ],
+      "desc": "Customer using AR glasses to visualize furniture in modern showroom, retail technology, stock photo"
+    },
+    {
+      "id": "agnes-energy-solar-ai",
+      "url": "img/pool/energy-solar-ai.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy",
+        "industry"
+      ],
+      "desc": "Solar panel farm with AI monitoring control center, green energy technology, aerial professional pho"
+    },
+    {
+      "id": "agnes-energy-smart-grid",
+      "url": "img/pool/energy-smart-grid.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy",
+        "data_center",
+        "network"
+      ],
+      "desc": "Smart grid control room with AI energy management dashboard, utility technology, professional photog"
+    },
+    {
+      "id": "agnes-education-tutoring",
+      "url": "img/pool/education-tutoring.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education",
+        "AI_applications"
+      ],
+      "desc": "Student learning with AI tutor on tablet in modern classroom, educational technology, warm lighting "
+    },
+    {
+      "id": "agnes-education-campus",
+      "url": "img/pool/education-campus.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education",
+        "industry"
+      ],
+      "desc": "University campus with AI-powered interactive learning displays, modern education, professional phot"
+    },
+    {
+      "id": "agnes-education-lab",
+      "url": "img/pool/education-lab.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education",
+        "AI_applications"
+      ],
+      "desc": "Research lab with AI-assisted experiment analysis on screens, scientific education, professional pho"
+    },
+    {
+      "id": "agnes-startup-pitch",
+      "url": "img/pool/startup-pitch.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup",
+        "investment"
+      ],
+      "desc": "Startup founder pitching to investors with AI data on screen, venture capital, professional corporat"
+    },
+    {
+      "id": "agnes-startup-coworking",
+      "url": "img/pool/startup-coworking.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup",
+        "industry"
+      ],
+      "desc": "AI startup team brainstorming in modern coworking space, entrepreneurship, professional stock photo"
+    },
+    {
+      "id": "agnes-blockchain-defi",
+      "url": "img/pool/blockchain-defi.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain",
+        "investment"
+      ],
+      "desc": "Decentralized finance dashboard with blockchain visualization, fintech, professional dark theme phot"
+    },
+    {
+      "id": "agnes-blockchain-supply",
+      "url": "img/pool/blockchain-supply.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain",
+        "industry"
+      ],
+      "desc": "Blockchain supply chain tracking on global map display, logistics technology, professional photograp"
+    },
+    {
+      "id": "agnes-robotics-humanoid",
+      "url": "img/pool/robotics-humanoid.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics",
+        "AI_applications"
+      ],
+      "desc": "Humanoid robot greeting person in modern office lobby, friendly AI, professional photography"
+    },
+    {
+      "id": "agnes-robotics-factory",
+      "url": "img/pool/robotics-factory.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics",
+        "industry"
+      ],
+      "desc": "Industrial robot arms assembling products on smart factory line, manufacturing automation, professio"
+    },
+    {
+      "id": "agnes-policy-summit",
+      "url": "img/pool/policy-summit.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy",
+        "industry"
+      ],
+      "desc": "International AI policy summit with world leaders at conference table, governance, professional pres"
+    },
+    {
+      "id": "agnes-policy-regulation",
+      "url": "img/pool/policy-regulation.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy",
+        "deep_analysis"
+      ],
+      "desc": "AI regulation document with digital compliance checklist on desk, legal technology, professional sto"
+    },
+    {
+      "id": "agnes-opensource-collab",
+      "url": "img/pool/opensource-collab.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source",
+        "industry"
+      ],
+      "desc": "Global open source developer collaboration dashboard on screen, community coding, professional photo"
+    },
+    {
+      "id": "agnes-opensource-workshop",
+      "url": "img/pool/opensource-workshop.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source",
+        "education"
+      ],
+      "desc": "Developer workshop with participants coding on laptops, open source community, professional stock ph"
+    },
+    {
+      "id": "agnes-network-5g-tower",
+      "url": "img/pool/network-5g-tower.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network",
+        "data_center"
+      ],
+      "desc": "5G network tower with fiber optic connections at sunset, telecommunications infrastructure, professi"
+    },
+    {
+      "id": "agnes-network-edge",
+      "url": "img/pool/network-edge.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network",
+        "data_center",
+        "chips"
+      ],
+      "desc": "Edge computing server rack in modern data center, network infrastructure, professional photography"
+    },
+    {
+      "id": "agnes-datacenter-cooling",
+      "url": "img/pool/datacenter-cooling.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center",
+        "energy"
+      ],
+      "desc": "Data center liquid cooling system with blue lighting, green computing, professional photography"
+    },
+    {
+      "id": "agnes-datacenter-ai-chip",
+      "url": "img/pool/datacenter-ai-chip.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center",
+        "chips"
+      ],
+      "desc": "Close-up of AI accelerator chips in server rack with LED indicators, high-performance computing, pro"
+    },
+    {
+      "id": "agnes-investment-ai-fund",
+      "url": "img/pool/investment-ai-fund.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment",
+        "AI_applications"
+      ],
+      "desc": "AI-powered investment fund analysis on multiple screens, quantitative finance, professional corporat"
+    },
+    {
+      "id": "agnes-investment-ipo",
+      "url": "img/pool/investment-ipo.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment",
+        "startup"
+      ],
+      "desc": "Tech company IPO celebration with stock ticker display, venture capital success, professional press "
+    },
+    {
+      "id": "agnes-investment-market",
+      "url": "img/pool/investment-market.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment",
+        "deep_analysis"
+      ],
+      "desc": "AI market prediction dashboard with trend lines and analytics, financial technology, professional st"
+    },
+    {
+      "id": "agnes-llm-chatbot",
+      "url": "img/pool/llm-chatbot.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "AI_applications"
+      ],
+      "desc": "AI chatbot interface on smartphone and laptop, conversational AI, professional lifestyle photo"
+    },
+    {
+      "id": "agnes-llm-training",
+      "url": "img/pool/llm-training.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "data_center",
+        "chips"
+      ],
+      "desc": "Large language model training visualization on data center screens, AI compute, professional photogr"
+    },
+    {
+      "id": "agnes-ai-creative-art",
+      "url": "img/pool/ai-creative-art.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications",
+        "deep_analysis"
+      ],
+      "desc": "AI generating digital art on large display, creative AI tools, professional photography"
+    },
+    {
+      "id": "agnes-ai-code-assist",
+      "url": "img/pool/ai-code-assist.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications",
+        "open_source"
+      ],
+      "desc": "Developer using AI code assistant in modern IDE, programming productivity, professional stock photo"
+    },
+    {
+      "id": "agnes-ai-customer-service",
+      "url": "img/pool/ai-customer-service.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications",
+        "industry"
+      ],
+      "desc": "AI customer service avatar on digital kiosk in retail store, automated support, professional photo"
+    },
+    {
+      "id": "agnes-chip-wafer",
+      "url": "img/pool/chip-wafer.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips",
+        "industry"
+      ],
+      "desc": "Semiconductor wafer with nanoscale circuit patterns under clean room lighting, chip manufacturing, p"
+    },
+    {
+      "id": "agnes-chip-design",
+      "url": "img/pool/chip-design.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips",
+        "AI_applications"
+      ],
+      "desc": "AI-assisted chip design layout on engineer workstation, semiconductor EDA, professional photography"
+    },
+    {
+      "id": "agnes-chip-packaging",
+      "url": "img/pool/chip-packaging.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips",
+        "data_center"
+      ],
+      "desc": "Advanced chip packaging with multiple die stacks, semiconductor technology, professional macro photo"
+    },
+    {
+      "id": "agnes-industry-digital-twin",
+      "url": "img/pool/industry-digital-twin.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry",
+        "data_center"
+      ],
+      "desc": "Digital twin factory simulation on large display screen, industrial AI, professional photography"
+    },
+    {
+      "id": "agnes-deep-analysis-forecast",
+      "url": "img/pool/deep-analysis-forecast.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis",
+        "investment"
+      ],
+      "desc": "AI forecasting model with multiple scenario projections on screen, predictive analytics, professiona"
+    },
+    {
+      "id": "agnes-deep-analysis-research",
+      "url": "img/pool/deep-analysis-research.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis",
+        "LLM"
+      ],
+      "desc": "AI research paper analysis on dual monitor setup, automated literature review, professional stock ph"
+    },
+    {
+      "id": "agnes-energy-wind-ai",
+      "url": "img/pool/energy-wind-ai.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy",
+        "industry"
+      ],
+      "desc": "Wind turbines with AI-optimized blade design"
+    },
+    {
+      "id": "agnes-llm-multimodal",
+      "url": "img/pool/llm-multimodal.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "AI_applications"
+      ],
+      "desc": "Multimodal AI processing text image and audio"
+    },
+    {
+      "id": "agnes-industry-smart-city",
+      "url": "img/pool/industry-smart-city.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry",
+        "network",
+        "AI_applications"
+      ],
+      "desc": "Smart city aerial view with IoT sensors"
     }
   ]
 }
