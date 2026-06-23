@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T08:00:00+08:00",
+  "last_updated": "2026-06-23T08:00:00+08:00",
   "days": [
     {
       "date": "2026-06-23",
@@ -124,7 +124,12 @@
           "source_en": "Weibo",
           "image": "img/pool/autonomous-drone.jpg"
         }
-      ]
+      ],
+      "hero": {
+        "id": "hero-20260623",
+        "title": "Flourish获5亿美元融资：贝佐斯谷歌VC押注大脑计算新范式",
+        "image": "img/pool/blockchain-defi.jpg"
+      }
     },
     {
       "date": "2026-06-22",
