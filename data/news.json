@@ -128,7 +128,15 @@
       "hero": {
         "id": "hero-20260623",
         "title": "Flourish获5亿美元融资：贝佐斯谷歌VC押注大脑计算新范式",
-        "image": "img/pool/blockchain-defi.jpg"
+        "image": "img/pool/blockchain-defi.jpg",
+        "source": "钛媒体",
+        "source_en": "TMTPost",
+        "summary": "无产品、无营收、无论文，仅凭\"逆向工程人脑\"的前沿叙事，美国初创公司Flourish获得5亿美元融资，估值达25亿美元。投资方包括贝佐斯个人重仓、谷歌GV等顶级机构。",
+        "summary_en": "With no product, revenue, or published papers, US startup Flourish raised $500M at $2.5B valuation with backing from Jeff Bezos, Google GV, and other top VCs for its brain-computing research.",
+        "category": "投融资",
+        "category_en": "Investment",
+        "title_en": "Flourish Raises $500M: Bezos and Google GV Bet on Brain Computing Paradigm",
+        "date": "2026-06-23"
       }
     },
     {
@@ -139,7 +147,20 @@
       "hero": {
         "id": "hero-20260622",
         "title": "DeepSeek完成74亿美元A轮融资：史上最大中国AI单轮融资诞生",
-        "image": "img/pool/startup-team.jpg"
+        "image": "img/pool/startup-team.jpg",
+        "source": "36氪/钛媒体",
+        "source_en": "36Kr / Ti Media",
+        "summary": "DeepSeek完成成立以来首轮外部融资，总金额超过74亿美元，投后估值520-590亿美元，创始人梁文锋个人出资28亿美元跟投，保持绝对控制权。这是中国AI行业迄今为止最大的单轮融资。",
+        "summary_en": "DeepSeek completed its first external funding round of over $7.4 billion, with a post-money valuation of $520-590 billion. Founder Liang Wenfeng personally invested $2.8 billion to maintain control. This is the largest single funding round in China's AI industry history.",
+        "category": "AI应用",
+        "title_en": "DeepSeek Raises $7.4B in Largest Ever Chinese AI Funding Round",
+        "key_points": [
+          "创始人绝对控制权设计：外部投资者仅获经济权益、无投票权",
+          "估值对标Anthropic，达国际一线水平",
+          "资金用途指向算力基础设施建设和人才招募",
+          "梁文锋跟投28亿美元彰显信心"
+        ],
+        "date": "2026-06-22"
       },
       "articles": [
         {

@@ -237,7 +237,9 @@
 
                 for (const day of data.days) {
                     if (day.hero && day.hero.id === newsId) {
-                        item = day.hero;
+                        // Hero is a sparse object; find the full article with same title
+                        const fullArticle = day.articles.find(a => a.title === day.hero.title);
+                        item = fullArticle || day.hero;
                         break;
                     }
                 }
