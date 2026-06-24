@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "id": "article-24",
+      "title": "Agentic AI元年：从对话框到行动端，AI产业范式转移深度解析",
+      "title_en": "The Agentic AI Era: A Comprehensive Look at the Industrial Paradigm Shift",
+      "date": "2026-06-25",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "summary": "2026年AI产业范式转移：从Chatbot到Agentic AI，Anthropic 9650亿美元估值超越OpenAI，资本全面转向智能体赛道",
+      "summary_en": "2026 AI industry paradigm shift: from Chatbot to Agentic AI, Anthropic's $965B valuation surpasses OpenAI, capital pivots to agent track",
+      "image": "img/pool/llm-agentic-ai.jpg",
+      "url": "articles/article-24.html",
+      "url_en": "articles/en/article-24-en.html"
+    },
+    {
       "id": "article-23",
       "date": "2026-06-24",
       "title": "从「百模大战」到价值兑现：中国AI大模型规模化应用领跑全球",
