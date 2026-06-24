@@ -1,0 +1,43 @@
+{
+  "articles": [
+    {
+      "id": "article-23",
+      "date": "2026-06-24",
+      "title": "从「百模大战」到价值兑现：中国AI大模型规模化应用领跑全球",
+      "title_en": "From Model Wars to Value Delivery: China's AI LLM Scale Application Leads the World",
+      "category": "industry_analysis",
+      "category_en": "Industry Analysis",
+      "image": "img/pool/legal-regulation.jpg",
+      "image_desc": "AI legal regulation",
+      "reading_time": 8,
+      "tags": ["大模型", "产业分析", "规模化应用", "OpenRouter", "词元调用量"],
+      "tags_en": ["LLM", "Industry Analysis", "Scale Application", "OpenRouter", "Token Usage"]
+    },
+    {
+      "id": "article-23-wechat",
+      "date": "2026-06-24",
+      "title": "梁文锋：不需要投资人的创业者，如何拿下中国AI史上最大融资",
+      "title_en": "Liang Wenfeng: How an Entrepreneur Who Didn't Need Investors Secured China's Largest AI Funding",
+      "category": "character_story",
+      "category_en": "Character Story",
+      "image": "img/pool/startup-pitch.jpg",
+      "image_desc": "Startup founder pitching to investors",
+      "reading_time": 7,
+      "tags": ["DeepSeek", "梁文锋", "人物故事", "融资", "投资"],
+      "tags_en": ["DeepSeek", "Liang Wenfeng", "Character Story", "Funding", "Investment"]
+    },
+    {
+      "id": "article-23-toutiao",
+      "date": "2026-06-24",
+      "title": "豆包日均180万亿token背后：国产大模型如何跨越「生产级质变点」",
+      "title_en": "Behind Doubao's 180 Trillion Daily Tokens: How Chinese LLMs Cross the Production Tipping Point",
+      "category": "hot_trend",
+      "category_en": "Hot Trend",
+      "image": "img/pool/llm-chatbot.jpg",
+      "image_desc": "AI chatbot interface",
+      "reading_time": 6,
+      "tags": ["豆包", "火山引擎", "生产级", "质变点", "大模型"],
+      "tags_en": ["Doubao", "Volcano Engine", "Production Grade", "Tipping Point", "LLM"]
+    }
+  ]
+}

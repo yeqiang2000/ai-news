@@ -1,0 +1,295 @@
+{
+  "date": "2026-06-24",
+  "articles": [
+    {
+      "id": "news-1",
+      "title": "中国AI大模型词元调用量连续八周稳居全球首位",
+      "title_en": "China's AI LLM Token Usage Ranks First Globally for 8 Consecutive Weeks",
+      "category": "产业分析",
+      "category_en": "Industry Analysis",
+      "summary": "OpenRouter数据显示，6月15日至21日当周，中国AI大模型周调用量达18.81万亿词元，环比增长2.12%，连续四周环比增长。",
+      "summary_en": "OpenRouter data shows China's AI LLM weekly token usage reached 18.81 trillion tokens for the week of June 15-21, ranking first globally for eight consecutive weeks.",
+      "source": "证券日报",
+      "source_en": "Securities Daily",
+      "content": "全球最大AI模型API聚合平台OpenRouter最新监测数据显示，6月15日至21日当周，全球AI大模型总调用量达46.7万亿词元，连续九周保持上涨态势。其中，中国AI大模型周调用量达18.81万亿词元，环比增长2.12%，连续四周环比增长，连续八周稳居全球首位，同期美国周调用量为5.76万亿词元。\n\n国内AI大模型市场竞争呈现头部集中、梯队分化、新旧迭代的鲜明特征，主流模型综合实力持续提升。具体数据来看，DeepSeek-V4-Flash凭借稳定的性能与极致的性价比，连续五周蝉联国内调用量榜首，6月15日至21日单周调用量达4.94万亿词元，环比增长12%。小米MiMo-V2.5实现大幅跃升，从上期第四位攀升至第二位，单周调用量3.94万亿词元，环比增长10%。MiniMax M3以3.77万亿词元的调用量位列第三。腾讯Hy3preview排名回落至第四，近两个月首次跌出前三，单周调用量3.63万亿词元，环比下滑12%。\n\n有行业分析师对《证券日报》记者表示，这一数据不仅标志着中国AI在应用规模上确立了全球领先优势，更折射出国内AI大模型产业正从初期的「百模大战」、参数规模比拼，全面迈入以「价值兑现」为核心的规模化应用深水区。",
+      "content_en": "Latest monitoring data from OpenRouter, the world's largest AI model API aggregation platform, shows that global AI LLM total token usage reached 46.7 trillion tokens during June 15-21, maintaining an upward trend for nine consecutive weeks. China's AI LLM weekly token usage reached 18.81 trillion tokens, up 2.12% week-over-week, growing for four consecutive weeks and ranking first globally for eight consecutive weeks, while the US weekly usage stood at 5.76 trillion tokens.\n\nChina's domestic AI LLM market shows distinct characteristics of head concentration, tier differentiation, and new-old iteration. DeepSeek-V4-Flash topped domestic usage for five consecutive weeks with 4.94 trillion tokens, up 12% week-over-week. Xiaomi MiMo-V2.5 surged from fourth to second place with 3.94 trillion tokens, up 10%, while MiniMax M3 ranked third with 3.77 trillion tokens. Tencent Hy3preview fell back to fourth place with 3.63 trillion tokens, down 12%, exiting the top three for the first time in nearly two months.\n\nAnalysts noted that this data not only marks China's global leadership in AI application scale but also reflects the industry's transition from the early 'Hundred-Model Wars' and parameter scale competition toward a deep-water zone of large-scale application focused on 'value delivery'.",
+      "key_points": [
+        "中国AI大模型周调用量18.81万亿词元，连续八周稳居全球首位",
+        "DeepSeek-V4-Flash连续五周蝉联榜首，周调用量4.94万亿词元",
+        "小米MiMo-V2.5升至第二，MiniMax M3位列第三",
+        "全球AI大模型总调用量46.7万亿词元，连续九周上涨",
+        "中国AI产业从「百模大战」全面迈入规模化应用深水区"
+      ],
+      "key_points_en": [
+        "China's AI LLM weekly token usage reached 18.81 trillion, ranking first globally for 8 consecutive weeks",
+        "DeepSeek-V4-Flash topped domestic rankings for 5 consecutive weeks with 4.94 trillion tokens weekly",
+        "Xiaomi MiMo-V2.5 rose to second place; MiniMax M3 ranked third",
+        "Global AI LLM total token usage reached 46.7 trillion, rising for 9 consecutive weeks",
+        "China's AI industry has fully entered the deep-water zone of large-scale application"
+      ],
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
+      "url": "https://www.toutiao.com/article/7654631187897401882/"
+    },
+    {
+      "id": "news-2",
+      "title": "火山引擎发布豆包大模型2.1 Pro，日均Tokens突破180万亿",
+      "title_en": "Volcano Engine Launches Doubao LLM 2.1 Pro with 180 Trillion Daily Tokens",
+      "category": "大模型",
+      "category_en": "LLM",
+      "summary": "豆包大模型日均Token使用量突破180万亿，两年间涨幅达1500倍。豆包2.1 Pro在编程、智能Agent、多模态处理三大核心能力上完成强化。",
+      "summary_en": "Doubao LLM daily token usage exceeded 180 trillion, a 1500x increase over two years. Doubao 2.1 Pro strengthened capabilities in coding, AI agents, and multimodal processing.",
+      "source": "每日经济新闻",
+      "source_en": "Economic Daily News",
+      "content": "6月23日，火山引擎2026夏季FORCE原动力大会在北京举行，重点发布了豆包大模型2.1系列等产品。会上，火山引擎总裁谭待披露，豆包大模型日均Tokens使用量已突破180万亿，相较2024年5月1200亿的初始规模，两年间涨幅达1500倍，过去一年增长超10倍，且增长势头未见放缓。\n\nIDC数据显示，在中国公有云MaaS服务市场，火山引擎以49.5%的市场份额位居第一。「也就是说，中国企业每两个Token的消耗，就有一个是火山引擎提供的。」谭待称。他透露，去年12月年累计Token消耗超过1万亿的企业在火山引擎上有100家，目前这一数字已超过200家。\n\n作为本次大会发布的主力模型，豆包大模型2.1 Pro在Coding、Agent（智能体）、VLM（视觉语言模型）三大核心方向实现能力跃升。在Coding维度，豆包2.1 Pro已可落地芯片RTL开发等真实工业代码迭代任务；在Agent维度，依托该模型搭建3D虚拟城市场景，可实现500余个智能Agent同步协作，完成上千轮工具调用。火山引擎表示，豆包2.1 Pro综合使用成本较Claude Opus 4.6降低近80%。\n\n豆包2.1提供Pro和Turbo两个版本，分别面向高复杂度任务探索和规模化生产场景，相较上一代版本在Coding工程交付、Agent长链路任务执行和多模态理解方面实现全面升级。谭待表示，「只有当模型能力跨越『质变点』，才能真正满足企业与个人在生产场景中的使用需求」，而豆包2.1 Pro在编程与Agent领域首次跨越该质变点，标志着国产大模型正式进入生产环境替代阶段。",
+      "content_en": "At the Volcano Engine 2026 Summer FORCE conference in Beijing on June 23, Volcano Engine President Tan Dai disclosed that Doubao LLM's daily token usage has exceeded 180 trillion, a 1500x increase from the initial 120 billion tokens in May 2024, growing over 10x in the past year with no signs of slowdown.\n\nIDC data shows Volcano Engine leads China's public cloud MaaS service market with a 49.5% share. Tan noted that over 200 companies now consume more than 1 trillion annual tokens on Volcano Engine, up from 100 in December last year.\n\nAs the main model released at the conference, Doubao LLM 2.1 Pro achieved capability leaps in three core areas: Coding, Agent, and VLM (Vision Language Model). In coding, it can handle real industrial code iteration tasks such as chip RTL development; in agents, it enables 500+ simultaneous AI agents collaborating in 3D virtual city scenarios. Volcano Engine stated Doubao 2.1 Pro's comprehensive cost is nearly 80% lower than Claude Opus 4.6.\n\nDoubao 2.1 offers Pro and Turbo versions for high-complexity exploration and large-scale production respectively, with comprehensive upgrades in coding delivery, long-chain agent execution, and multimodal understanding. Tan stated that only when model capabilities cross the 'tipping point' can they truly meet enterprise and individual production needs — and Doubao 2.1 Pro has crossed this tipping point in coding and agents for the first time, marking Chinese LLMs officially entering the production replacement era.",
+      "key_points": [
+        "豆包大模型日均Tokens突破180万亿，两年涨幅达1500倍",
+        "豆包2.1 Pro在Coding、Agent、VLM三大方向实现能力跃升",
+        "编程与Agent能力首次跨越「质变点」，进入生产环境替代阶段",
+        "豆包2.1 Pro综合使用成本较Claude Opus 4.6降低近80%",
+        "火山引擎MaaS市场份额达49.5%，年Token消耗超万亿企业超200家"
+      ],
+      "key_points_en": [
+        "Doubao LLM daily tokens exceeded 180 trillion, a 1500x increase over two years",
+        "Doubao 2.1 Pro achieved capability leaps in Coding, Agent, and VLM",
+        "Coding and Agent capabilities crossed the 'tipping point' for the first time, entering the production replacement era",
+        "Doubao 2.1 Pro comprehensive cost is nearly 80% lower than Claude Opus 4.6",
+        "Volcano Engine holds 49.5% MaaS market share with over 200 enterprises exceeding 1 trillion annual tokens"
+      ],
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
+      "url": "https://www.toutiao.com/article/7654415807677579812/"
+    },
+    {
+      "id": "news-3",
+      "title": "DeepSeek完成510亿元首轮融资，估值逼近4000亿",
+      "title_en": "DeepSeek Completes 51 Billion Yuan First Round, Valuation Approaches 400 Billion",
+      "category": "投融资",
+      "category_en": "Investment",
+      "summary": "DeepSeek完成成立三年来的首轮外部融资，规模约510亿元人民币，投后估值逼近4000亿元，成为中国估值最高的AI初创企业。",
+      "summary_en": "DeepSeek completed its first external funding of approximately 51 billion yuan after three years, with post-money valuation approaching 400 billion yuan, becoming China's highest-valued AI startup.",
+      "source": "甜茶ovo",
+      "source_en": "Tianchaovo",
+      "content": "2026年6月16日，DeepSeek正式宣布完成成立三年来的首轮外部融资，募资规模超510亿元人民币（约74亿美元），投后估值逼近4000亿元，创下中国AI行业单轮融资规模最高纪录。\n\n本轮融资的投资方阵容横跨产业资本、互联网巨头与国家级基金：创始人梁文锋个人出资200亿元，占融资总额约40%，为最大单一出资方；腾讯出资约100亿元；宁德时代体系出资约50亿元（含宁德时代及溥泉资本）；京东、网易、Monolith砺思资本、IDG资本各出资约30亿元；正心谷投资、拾象科技各出资约15亿元；国家人工智能产业投资基金出资约9.8亿元。\n\n此次融资采用了极为特殊的治理架构。除国家人工智能产业投资基金直接注资DeepSeek主体、保留投票权且不受锁定期限制外，其余所有市场化投资方的资金均注入由梁文锋个人管理的有限合伙企业，不直接持有DeepSeek主体股权，不享有任何公司投票权，且全部设置五年股权锁定期，期间不得转让退出。\n\nDeepSeek创始人梁文锋是量化私募巨头幻方量化（High-Flyer）创始人，幻方巅峰期管理规模突破千亿。正是凭借量化业务积累的利润，DeepSeek才得以维持多年「不融资、不商业化、不路演」的极简运营模式。本轮融资所得将主要用于扩充算力基础设施、稳固核心研发团队、支撑长期通用人工智能（AGI）技术研发，而非优先追求短期商业化盈利。",
+      "content_en": "On June 16, 2026, DeepSeek officially announced the completion of its first external funding since its establishment three years ago, raising over 510 billion yuan (approximately $7.4 billion) at a post-money valuation approaching 400 billion yuan, setting a record for the largest single-round financing in China's AI industry.\n\nThe investor lineup spans industrial capital, internet giants, and national funds: founder Liang Wenfeng personally invested 200 billion yuan, accounting for approximately 40% of total financing and becoming the largest single investor; Tencent invested approximately 100 billion yuan; CATL's ecosystem invested approximately 50 billion yuan; JD.com, NetEase, Monolith, and IDG Capital each invested approximately 30 billion yuan; Zhengxin Valley Investment and Shixiang Technology each invested approximately 15 billion yuan; and the National AI Industry Investment Fund invested approximately 9.8 billion yuan.\n\nThe financing adopted an extremely special governance structure. Except for the National AI Industry Investment Fund, which directly invested in DeepSeek's main body and retains voting rights without lock-up restrictions, all other market investors' funds were injected into a limited partnership managed personally by Liang Wenfeng, without directly holding DeepSeek's main equity and without any company voting rights, with all subject to a five-year equity lock-up period.\n\nDeepSeek founder Liang Wenfeng is also the founder of quantitative hedge fund High-Flyer, which peaked at over 100 billion yuan in management scale. It was precisely relying on profits accumulated from the quantitative business that DeepSeek maintained its minimalist operating model of 'no financing, no commercialization, no roadshows' for years. The proceeds will mainly be used to expand AI infrastructure, consolidate core R&D teams, and support long-term AGI technology research, rather than prioritizing short-term commercial profitability.",
+      "key_points": [
+        "DeepSeek完成510亿元首轮融资，估值逼近4000亿元，创中国AI行业单轮融资纪录",
+        "梁文锋个人出资200亿元占比40%，为最大单一出资方并保留绝对控制权",
+        "腾讯、宁德时代、京东、网易、IDG资本等参与投资，全部接受无投票权+五年锁定期条款",
+        "DeepSeek成立七年来首轮融资，此前坚持「不融资、不商业化、不路演」的极简运营模式",
+        "融资将主要用于扩充算力基础设施和AGI长期研发"
+      ],
+      "key_points_en": [
+        "DeepSeek completed 51 billion yuan first-round funding at a valuation approaching 400 billion yuan, setting China's AI single-round financing record",
+        "Founder Liang Wenfeng invested 20 billion yuan (40%) as the largest single investor, retaining absolute control",
+        "Tencent, CATL, JD.com, NetEase, and IDG Capital participated, all accepting no-voting rights and five-year lock-up terms",
+        "DeepSeek's first external financing after seven years, previously maintaining a minimalist 'no financing, no commercialization, no roadshows' model",
+        "Proceeds will mainly fund AI infrastructure expansion and long-term AGI R&D"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
+      "url": "https://www.163.com/dy/article/L03HMTP30531CXC9.html"
+    },
+    {
+      "id": "news-4",
+      "title": "影眸科技完成数亿元新一轮融资",
+      "title_en": "Hyper3D.AI Completes Hundreds of Millions Yuan New Funding Round",
+      "category": "投融资",
+      "category_en": "Investment",
+      "summary": "3D生成大模型公司影眸科技宣布完成新一轮数亿元融资，将用于推进3D大模型前沿探索和Hyper3DRodin产品在全球市场的商业化。",
+      "summary_en": "3D generation AI company Hyper3D.AI announced completing a new round of hundreds of millions yuan in financing to advance 3D LLM exploration and commercialize Hyper3DRodin globally.",
+      "source": "每日经济新闻",
+      "source_en": "Economic Daily News",
+      "content": "6月23日，3D生成大模型公司影眸科技（Hyper3D.AI）宣布完成新一轮数亿元人民币融资。本轮融资由凯辉基金、上海国投先导领投，老股东持续跟投，光源资本担任独家财务顾问。影眸科技成立于2020年，是全球最早定义3D生成底层框架的团队，此前曾在7个月内连续获得两轮融资，投资方包括美团龙珠、字节跳动、红杉、蓝驰等机构。\n\n公司方面表示，此次融资将用于进一步推进3D大模型前沿探索，加速核心产品Hyper3D Rodin在全球市场的商业化拓展，并发力深耕游戏、电商、3D打印、工业设计、具身智能等垂直行业场景。伴随本轮融资，影眸科技同步发布最新一代模型Hyper3D Rodin Gen-2.5——这是全球首个具备千万面级生成能力的3D大模型，首次将类大语言模型的「先思考、再生成」运行逻辑引入3D生成领域，并同步推出全球首个12K精度的原生3D贴图模型，最快4秒可生成百万面级模型。\n\n公司披露，Rodin Gen-2.5上线首月，订阅用户与ARR环比增速均超400%。在B端市场，影眸的客户包括字节跳动、Unity、Figma、Canva等企业，海外收入占总收入约80%，已实现数千万美金的年度经常性收入（ARR）。英伟达CEO黄仁勋在CES 2026展示机器人时所呈现的3D画面，其生成任务也由Hyper3D完成。",
+      "content_en": "On June 23, 3D generation AI company Hyper3D.AI announced completing a new round of financing worth hundreds of millions of yuan. This round was co-led by Cathay Capital and Shanghai Guotou Pioneer Fund, with existing shareholders following suit and Glory Tide Capital serving as the exclusive financial advisor. Founded in 2020, Hyper3D.AI is the world's first team to define the 3D generation underlying framework, previously raising two consecutive rounds within 7 months with investors including Meituan Longfor, ByteDance, Sequoia, and BlueRun.\n\nThe company stated the funds will advance frontier exploration of 3D LLMs and accelerate commercialization of the core product Hyper3D Rodin globally, while deepening presence in vertical industries including gaming, e-commerce, 3D printing, industrial design, and embodied AI. Alongside this financing, Hyper3D released the latest generation model Hyper3D Rodin Gen-2.5 — the world's first 3D LLM with 10-million-polygon-level generation capability, first to introduce LLM-style 'think before generate' logic into 3D generation, and simultaneously launching the world's first 12K native 3D texture model, generating million-polygon models in as fast as 4 seconds.\n\nThe company disclosed that in the first month after Gen-2.5's launch, subscriber count and ARR both grew over 400% month-over-month. In the B-end market, Hyper3D's clients include ByteDance, Unity, Figma, and Canva, with overseas revenue accounting for approximately 80% of total revenue and ARR reaching tens of millions of USD. The 3D visuals presented by NVIDIA CEO Jensen Huang at CES 2026 were also generated by Hyper3D.",
+      "key_points": [
+        "影眸科技完成数亿元新一轮融资，凯辉基金、上海国投先导领投",
+        "同步发布Hyper3D Rodin Gen-2.5，全球首个千万面级3D生成模型",
+        "新模型上线首月订阅用户与ARR环比增速均超400%",
+        "海外收入占比约80%，客户包括字节跳动、Unity、Figma、Canva等",
+        "英伟达CEO黄仁勋CES 2026展示的3D画面由Hyper3D完成"
+      ],
+      "key_points_en": [
+        "Hyper3D.AI completed a new financing round of hundreds of millions yuan, co-led by Cathay Capital and Shanghai Guotou Pioneer Fund",
+        "Released Hyper3D Rodin Gen-2.5, world's first 3D model with 10-million-polygon-level generation",
+        "New model saw subscriber count and ARR both grow over 400% month-over-month in its first month",
+        "Overseas revenue accounts for approximately 80%, with clients including ByteDance, Unity, Figma, and Canva",
+        "NVIDIA CEO Jensen Huang's CES 2026 3D visuals were generated by Hyper3D"
+      ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+      "url": "https://finance.eastmoney.com/a/202606233779784853.html"
+    },
+    {
+      "id": "news-5",
+      "title": "正行创新完成近亿美元天使轮系列融资",
+      "title_en": "Striding AI Completes Nearly 100 Million USD Angel Round",
+      "category": "投融资",
+      "category_en": "Investment",
+      "summary": "面向物理智能的具身智能企业正行创新宣布完成近亿美元天使轮系列融资，投资方包括正大集团、华勤技术、九安医疗等。",
+      "summary_en": "Embodied AI company Striding AI announced completing nearly 100 million USD angel series funding, with investors including Charoen Pokphand Group, Huaqin Technology, and Joomag.",
+      "source": "每日经济新闻",
+      "source_en": "Economic Daily News",
+      "content": "6月23日，面向物理智能的具身智能企业正行创新（Striding AI）宣布已完成近亿美元天使轮系列融资。投资方包括正大集团、华勤技术、九安医疗等多家上市企业，多位国内外知名企业家，以及多家一线投资机构。本轮募集的资金将主要投入三大方向：一是持续引进全球顶尖算法、工程与商业化人才；二是加大世界动作模型、强化学习等核心技术的迭代与应用；三是加速零售、工业等场景的落地验证与产品化。\n\n正行创新成立于2026年初，由连续创业者姚颂、跨国产业集团正大集团、清华知名青年学者于超联合发起，以「用物理智能给世界带来便利」为使命。创始人兼CEO姚颂是国内硬科技领域少有的连续跨行业创业者，曾联合创立AI芯片公司深鉴科技并出任CEO，此后以联合创始人兼联席CEO身份创立东方空间，带队创造了全球最大固体运载火箭等多项商业航天行业纪录。联合发起人于超博士现任清华大学深圳国际研究生院助理教授、博士生导师，师从清华大学汪玉教授，其主导提出的多智能体强化学习算法MAPPO已成为领域基准方法。\n\n正行创新提出了「数据—模型—基础设施」协同进化的技术路线，以真实产业需求为研发起点，构建系统性的技术竞争壁垒。目前已与正大集团、华勤技术等跨国企业建立深度合作，同时布局消费零售与工业制造两大赛道，同步研发轮臂机器人与人形机器人本体及解决方案。首批自研本体与解决方案将于今年下半年亮相，并将重点布局出海业务，打造全新具身劳动力。",
+      "content_en": "On June 23, embodied AI company Striding AI announced completing a nearly 100 million USD angel series round. Investors include listed companies such as Charoen Pokphand Group, Huaqin Technology, and Joomag, along with multiple renowned entrepreneurs and first-tier investment institutions. Proceeds will mainly fund three directions: recruiting top algorithm, engineering and commercialization talent; intensifying core technology iteration in world action models and reinforcement learning; and accelerating product validation and commercialization in retail and industrial scenarios.\n\nStriding AI was founded in early 2026 by serial entrepreneur Yao Song, multinational industrial group Charoen Pokphand Group, and renowned Tsinghua young scholar Yu Chao. Founder and CEO Yao Song is a rare cross-industry serial entrepreneur in China's hard tech sector, having co-founded AI chip company Dianjiang Technology as CEO, then co-founded Oriental Space as co-founder and co-CEO, setting multiple commercial aerospace records including the world's largest solid rocket. Co-founder Dr. Yu Chao is an assistant professor at Tsinghua University's Shenzhen International Graduate School, whose proposed multi-agent reinforcement learning algorithm MAPPO has become a benchmark method in the field.\n\nStriding AI proposed a 'data-model-infrastructure' co-evolution technical route, building systematic technological competitive barriers starting from real industry needs. The company has established deep partnerships with Charoen Pokphand Group and Huaqin Technology, while simultaneously developing wheel-arm robots and humanoid robot bodies and solutions for consumer retail and industrial manufacturing. First self-developed products and solutions will debut in the second half of this year, with a key focus on overseas expansion to build new embodied AI workforce.",
+      "key_points": [
+        "正行创新完成近亿美元天使轮系列融资，正大集团、华勤技术、九安医疗等参与投资",
+        "创始人姚颂为连续创业者，曾创立深鉴科技和东方空间",
+        "提出「数据—模型—基础设施」协同进化技术路线，构建具身智能竞争壁垒",
+        "同步研发轮臂机器人和人形机器人，首批产品今年下半年亮相",
+        "重点布局出海业务，打造面向全球市场的具身劳动力解决方案"
+      ],
+      "key_points_en": [
+        "Striding AI completed nearly 100 million USD angel series funding with investors including Charoen Pokphand Group, Huaqin Technology, and Joomag",
+        "Founder Yao Song is a serial entrepreneur who previously founded Dianjiang Technology and Oriental Space",
+        "Proposed 'data-model-infrastructure' co-evolution technical route to build embodied AI competitive barriers",
+        "Simultaneously developing wheel-arm robots and humanoid robots; first products to debut in second half of this year",
+        "Key focus on overseas expansion to build globally competitive embodied AI workforce solutions"
+      ],
+      "image": "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=800&h=450&fit=crop",
+      "url": "https://m.pedaily.cn/news/565442"
+    },
+    {
+      "id": "news-6",
+      "title": "OpenAI发布GPT-5.5-Cyber满血版，强化网络安全能力",
+      "title_en": "OpenAI Launches Full GPT-5.5-Cyber, Strengthening Cybersecurity",
+      "category": "大模型",
+      "category_en": "LLM",
+      "summary": "OpenAI发布更新版GPT-5.5-Cyber模型，在CyberGym基准测试中达85.6%，为目前漏洞发现与修复辅助方面最强模型。",
+      "summary_en": "OpenAI launched the updated GPT-5.5-Cyber model, achieving 85.6% on CyberGym benchmark, the strongest model for vulnerability discovery and repair assistance.",
+      "source": "CSDN",
+      "source_en": "CSDN",
+      "content": "6月22日，OpenAI正式发布更新版GPT-5.5-Cyber「满血版」模型，同步扩展Daybreak网络安全计划。这是OpenAI迄今在漏洞发现与修复辅助方面最强的模型，同时保留了GPT-5.5的通用智能，能够处理长链条、复杂任务。在权威CyberGym基准测试中，更新后的GPT-5.5-Cyber在单模型评测中达到85.6%，高于GPT-5.5的81.8%，超越了Anthropic Claude Mythos 5的83.8%，创下该测试系列最高单模型成绩。\n\n在实际能力上，该模型可对大型代码库进行更深入分析，包括识别安全相关组件、追踪存在漏洞的代码是否可达、在受控环境中验证安全问题、开发并测试补丁方案，并整理相关证据供人工审查。其目标被描述为帮助防御方完成从漏洞发现到修复验证的完整流程，而不只是产生更多漏洞告警。在另外两项安全基准测试中，该模型同样优于前代版本：在ExploitGym中得分39.5%（GPT-5.5为25.95%），在SEC-bench Pro中得分69.8%（GPT-5.5为63.1%）。\n\nOpenAI同步更新了Codex Security插件，将其直接集成进Codex工作流，实现开箱即用的漏洞扫描、威胁建模、攻击路径追踪和补丁自动生成。同时，OpenAI宣布启动Daybreak Cyber Partner Program，将最强模型能力通过Cisco、Cloudflare等合作伙伴向安全生态延伸，并推出面向开源社区的Patch the Planet计划。",
+      "content_en": "On June 22, OpenAI officially released the updated 'full' GPT-5.5-Cyber model, simultaneously expanding the Daybreak cybersecurity initiative. This is OpenAI's strongest model to date for vulnerability discovery and repair assistance, while retaining GPT-5.5's general intelligence and ability to handle long-chain, complex tasks. On the authoritative CyberGym benchmark, the updated GPT-5.5-Cyber achieved 85.6% in single-model evaluation, higher than GPT-5.5's 81.8%, surpassing Anthropic Claude Mythos 5's 83.8% and setting the highest single-model score in the test series.\n\nIn actual capabilities, the model can perform deeper analysis on large codebases, including identifying security-related components, checking whether vulnerable code is reachable, verifying security issues in controlled environments, developing and testing patch solutions, and organizing evidence for human review. Its goal is to help defenders complete the entire cycle from vulnerability discovery to repair verification, rather than just generating more vulnerability alerts. In two other security benchmarks, the model also outperformed its predecessor: scoring 39.5% on ExploitGym (vs GPT-5.5's 25.95%) and 69.8% on SEC-bench Pro (vs GPT-5.5's 63.1%).\n\nOpenAI simultaneously updated the Codex Security plugin, integrating it directly into the Codex workflow for out-of-the-box vulnerability scanning, threat modeling, attack path tracking, and automatic patch generation. It also launched the Daybreak Cyber Partner Program, extending its strongest model capabilities through partners like Cisco and Cloudflare, and introduced the Patch the Planet initiative for the open-source community.",
+      "key_points": [
+        "GPT-5.5-Cyber「满血版」在CyberGym基准测试中达85.6%，超越Claude Mythos 5（83.8%）",
+        "可完成从漏洞发现到修复验证的完整流程，不只是生成漏洞告警",
+        "ExploitGym得分39.5%（vs普通版25.95%），SEC-bench Pro得分69.8%（vs普通版63.1%）",
+        "Codex Security插件同步发布，实现开箱即用的漏洞扫描与补丁自动生成",
+        "Daybreak Cyber Partner Program启动，Cisco、Cloudflare等加入安全生态"
+      ],
+      "key_points_en": [
+        "GPT-5.5-Cyber 'full version' achieved 85.6% on CyberGym benchmark, surpassing Claude Mythos 5 (83.8%)",
+        "Can complete the full cycle from vulnerability discovery to repair verification, not just generating alerts",
+        "Scored 39.5% on ExploitGym (vs standard 25.95%), 69.8% on SEC-bench Pro (vs standard 63.1%)",
+        "Codex Security plugin released simultaneously, enabling out-of-the-box vulnerability scanning and automatic patch generation",
+        "Daybreak Cyber Partner Program launched with Cisco, Cloudflare and others joining the security ecosystem"
+      ],
+      "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop",
+      "url": "https://www.ithome.com/0/958/090.htm"
+    },
+    {
+      "id": "news-7",
+      "title": "Anthropic秘密提交IPO，估值达9650亿美元",
+      "title_en": "Anthropic Secretly Files for IPO at 965 Billion USD Valuation",
+      "category": "投融资",
+      "category_en": "Investment",
+      "summary": "AI安全公司Anthropic已秘密提交IPO文件，估值达9650亿美元，创下AI行业最大私募融资纪录。",
+      "summary_en": "AI safety company Anthropic has secretly filed for IPO at a valuation of 965 billion USD, setting a record for the largest private AI funding.",
+      "source": "小猪爱上牛",
+      "source_en": "Xiaozhu Aishangniu",
+      "content": "2026年6月1日，Anthropic正式向美国证券交易委员会（SEC）秘密提交S-1注册声明草案，正式启动IPO程序，最早可能于2026年秋季正式挂牌。Anthropic以9650亿美元的投后估值超越OpenAI的8520亿美元，登顶全球估值最高的AI公司，同时也在收入上实现了对OpenAI的反超——年化营收运转率达470亿美元，企业市场采用率达34.4%（OpenAI为32.3%）。\n\n就在提交IPO申请的4天前，Anthropic刚刚完成了650亿美元H轮融资，创下AI行业私募融资规模最高纪录，估值从2月的3800亿美元飙升至9650亿美元，仅三个月便实现翻倍式增长。Anthropic的估值曲线极为陡峭：2023年41亿美元，2024年180亿，2025年1200亿，2026年2月3800亿，5月9650亿——三年涨幅达234倍。\n\nAnthropic获得亚马逊和谷歌的战略性支持：亚马逊承诺投资250亿美元（50亿美元立即注资，200亿美元视业绩而定），承诺未来十年在AWS支出超1000亿美元；谷歌持有其约14%股份。公司预计将于2028年才能实现现金流收支平衡，因其承诺投入500亿美元建设数据中心。此轮IPO被业界视为AI行业从一级市场走向二级市场的成人礼，公开市场将审查其收入质量、毛利率、客户集中度、算力负债与监管风险。摩根士丹利和高盛担任IPO主承销商。",
+      "content_en": "On June 1, 2026, Anthropic officially submitted a confidential S-1 registration statement draft to the SEC, formally launching its IPO process, with a potential listing as early as autumn 2026. Anthropic's post-IPO valuation of $965 billion surpassed OpenAI's $852 billion, making it the world's highest-valued AI company, while also overtaking OpenAI in revenue with an annualized run-rate of $47 billion and enterprise market adoption rate of 34.4% (vs OpenAI's 32.3%).\n\nJust four days before submitting the IPO application, Anthropic had just completed a $65 billion Series H financing round, setting a record for the largest AI industry private financing, with valuation soaring from $380 billion in February to $965 billion in just three months. Anthropic's valuation trajectory is extremely steep: $4.1 billion in 2023, $18 billion in 2024, $120 billion in 2025, $380 billion in February 2026, and $965 billion in May — a 234-fold increase in three years.\n\nAnthropic has strategic backing from Amazon and Google: Amazon committed $25 billion in investment ($5 billion immediately, $20 billion contingent on performance), with a commitment to spend over $100 billion on AWS over the next decade; Google holds approximately 14% of its shares. The company expects to achieve cash flow breakeven by 2028 due to its commitment to invest $50 billion in data center construction. This IPO is widely seen as the AI industry's coming-of-age ceremony from primary to secondary markets, where public markets will scrutinize its revenue quality, gross margins, customer concentration, computing power liabilities, and regulatory risks. Morgan Stanley and Goldman Sachs serve as lead underwriters.",
+      "key_points": [
+        "Anthropic向SEC秘密提交S-1草案，估值9650亿美元超越OpenAI登顶全球AI公司",
+        "年化营收运转率达470亿美元，企业市场采用率34.4%首次超过OpenAI（32.3%）",
+        "H轮融资650亿美元创AI私募融资纪录，估值三个月从3800亿飙至9650亿美元",
+        "三年估值从41亿美元涨至9650亿美元，涨幅达234倍",
+        "亚马逊承诺投资250亿美元、谷歌持股约14%，最快2026年秋季挂牌"
+      ],
+      "key_points_en": [
+        "Anthropic submitted confidential S-1 draft to SEC at $965 billion valuation, surpassing OpenAI as world's highest-valued AI company",
+        "Annualized revenue run-rate reached $47 billion; enterprise market adoption rate of 34.4% surpassed OpenAI (32.3%) for the first time",
+        "Series H financing of $65 billion set AI private financing record; valuation surged from $380B to $965B in three months",
+        "Valuation grew from $4.1 billion to $965 billion in three years, a 234-fold increase",
+        "Amazon committed $25 billion investment, Google holds ~14% stake; earliest listing expected autumn 2026"
+      ],
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=450&fit=crop",
+      "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-02/doc-inhzxvtx8125422.shtml"
+    },
+    {
+      "id": "news-8",
+      "title": "NVIDIA发布Nemotron 3 Ultra，5500亿参数最强美国开源模型",
+      "title_en": "NVIDIA Launches Nemotron 3 Ultra, 550B Strongest US Open-Source Model",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "summary": "NVIDIA在Computex 2026发布Nemotron 3 Ultra，5500亿参数开源模型，成为美国组织发布的最佳开源模型，标志着NVIDIA向AI模型生态战略延伸。",
+      "summary_en": "NVIDIA launched Nemotron 3 Ultra at Computex 2026, a 550 billion parameter open-source model, becoming the best open-source model released by a US organization.",
+      "source": "小猪爱上牛",
+      "source_en": "Xiaozhu Aishangniu",
+      "content": "6月1日，英伟达CEO黄仁勋在台北Computex 2026大会上发布了5500亿参数的开源混合专家模型Nemotron 3 Ultra，这是英伟达史上规模最大的开源模型发布。该模型采用LatentMoE（潜在混合专家）架构，总参数5500亿，激活参数550亿（每次推理仅激活1/10参数），支持最长100万Token上下文窗口，结合Mamba 2状态空间模型与标准Transformer注意力的混合架构。\n\nNemotron 3 Ultra已上线Hugging Face、ModelScope、OpenRouter及build.nvidia.com等平台。在Artificial Analysis Intelligence Index基准测试中，该模型得分48，成为排名第一的美国开源权重模型，超越谷歌Gemma 4 31B（39分）、英伟达自家Nemotron 3 Super（36分）及OpenAI gpt-oss-120b（33分）。在实测中，Nemotron 3 Ultra输出速度达300+ tokens/秒，而同级别的DeepSeek V4 Pro和Kimi K2.6仅为50-100 tokens/秒。英伟达宣称，相比同等性能水平的模型，Nemotron 3 Ultra可帮助用户节省最多30%的使用成本。\n\n不过，该模型专为英伟达CUDA生态（Blackwell、Hopper架构GPU）深度优化，在AMD MI300X或华为昇腾等第三方芯片上性价比大幅降低。在智能指数上，Nemotron 3 Ultra（48分）仍略低于中国竞品Kimi K2.6（54分），体现「速度快、智商略低」的特征。英伟达将此次发布定位为驱动企业级长时智能体应用的关键布局。",
+      "content_en": "On June 1, NVIDIA CEO Jensen Huang unveiled the 550 billion parameter open-source Mixture-of-Experts model Nemotron 3 Ultra at Computex 2026 in Taipei — NVIDIA's largest open-source model release to date. The model uses LatentMoE architecture with 550 billion total parameters and 55 billion active parameters (activating only 1/10 of parameters per inference), supporting up to 1 million token context windows, combining Mamba 2 state-space model with standard Transformer attention in a hybrid architecture.\n\nNemotron 3 Ultra is now available on Hugging Face, ModelScope, OpenRouter, and build.nvidia.com. On the Artificial Analysis Intelligence Index benchmark, it scored 48, becoming the #1 US open-source weight model, surpassing Google Gemma 4 31B (39), NVIDIA's own Nemotron 3 Super (36), and OpenAI gpt-oss-120b (33). In real-world testing, Nemotron 3 Ultra achieved output speeds of 300+ tokens/second, while comparable models like DeepSeek V4 Pro and Kimi K2.6 only reached 50-100 tokens/second. NVIDIA claims users can save up to 30% on costs compared to models of comparable performance.\n\nHowever, the model is deeply optimized for NVIDIA CUDA ecosystem (Blackwell and Hopper architecture GPUs), with significantly reduced cost-performance on third-party chips like AMD MI300X or Huawei Ascend. On the Intelligence Index, Nemotron 3 Ultra (48) still slightly trails Chinese competitor Kimi K2.6 (54), reflecting a 'fast speed, slightly lower intelligence' characteristic. NVIDIA positions this release as a key move to drive enterprise-level long-running agent applications.",
+      "key_points": [
+        "英伟达发布Nemotron 3 Ultra：5500亿总参数/550亿激活参数MoE架构，支持100万Token上下文",
+        "Artificial Analysis Intelligence Index得分48，成排名第一的美国开源模型",
+        "推理速度300+ tokens/秒，比同类开源模型快5倍，成本降低30%",
+        "专为英伟达CUDA生态深度优化，第三方芯片性能大幅降低",
+        "智能指数（48分）仍略低于中国竞品Kimi K2.6（54分）"
+      ],
+      "key_points_en": [
+        "NVIDIA released Nemotron 3 Ultra: 550B total / 55B active MoE parameters, supporting 1M token context",
+        "Scored 48 on Artificial Analysis Intelligence Index, ranking #1 among US open-source models",
+        "Inference speed 300+ tokens/sec, 5x faster than comparable open-source models with 30% lower cost",
+        "Deeply optimized for NVIDIA CUDA ecosystem; performance significantly reduced on third-party chips",
+        "Intelligence Index (48) still slightly trails Chinese competitor Kimi K2.6 (54)"
+      ],
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop",
+      "url": "https://www.ithome.com/0/958/090.htm"
+    },
+    {
+      "id": "news-9",
+      "title": "微软CEO警告AI巨头权力过度集中",
+      "title_en": "Microsoft CEO Warns Against Excessive AI Power Concentration",
+      "category": "产业分析",
+      "category_en": "Industry Analysis",
+      "summary": "微软CEO纳德拉警告公众不会接受少数公司掌控最重要AI模型，称部分AI领袖一边渲染风险一边要求大规模扩建数据中心的做法自相矛盾。",
+      "summary_en": "Microsoft CEO Satya Nadella warned that the public won't accept a few companies controlling the most important AI models, calling out the contradiction of warning about risks while demanding massive data center expansion.",
+      "source": "界面新闻",
+      "source_en": "Jiemian News",
+      "content": "微软CEO萨蒂亚·纳德拉（Satya Nadella）近日在多次公开场合和社交媒体X上发出警告，指出公众不会接受少数几家公司掌控最重要AI模型、「垄断全球学习」的AI经济格局。他明确批评部分AI领袖一边渲染AI安全风险和失业危机，一边要求大规模扩建数据中心的做法自相矛盾：「你不能既说白领工作都没了、这东西可能是武器，又要用尽一切资源建数据中心。」\n\n纳德拉进一步阐述了他提出的「人类资本」与「token资本」双重框架，认为两者并非对立关系：人力资本（知识、判断力、创造力）不会因AI能力增长而贬值，反而会变得更加重要。他指出，AI的真正价值在于重构工作流程、优化岗位分工，而非单纯裁员降本；企业必须同时拥有「token资本」和人力资本，才能实现持续增长。\n\n在战略层面，微软正将自身定位为企业级中立AI操作层，计划推出更低成本的AI模型及Copilot工具，支持用户在不同模型间灵活切换。纳德拉还透露，微软正在评估是否引入DeepSeek等中国AI公司的模型。此番表态意味着微软正对OpenAI、Anthropic及谷歌等押注高端专有模型的前沿AI厂商形成竞争压力，同时也在推动AI从「拼参数」转向「拼效用」、从寡头垄断走向普惠多元。",
+      "content_en": "Microsoft CEO Satya Nadella has warned on multiple public occasions and on social media X that the public will not accept an AI economic landscape where a few companies control the most important AI models and 'monopolize global learning.' He explicitly criticized some AI leaders for hyping AI safety risks and unemployment concerns while demanding massive data center expansion: 'You can't say all white-collar jobs will disappear, that this could be a weapon, and then use every resource to build data centers.'\n\nNadella further elaborated his proposed dual framework of 'human capital' and 'token capital,' arguing the two are not opposed: human capital (knowledge, judgment, creativity) will not be devalued by growing AI capabilities — it will become even more important. He pointed out that AI's true value lies in restructuring workflows and optimizing job division, not simply cutting costs and jobs; enterprises must possess both 'token capital' and human capital to achieve sustainable growth.\n\nStrategically, Microsoft is positioning itself as an enterprise-level neutral AI operating layer, planning to launch lower-cost AI models and Copilot tools supporting users in flexibly switching between different models. Nadella also revealed Microsoft is evaluating whether to introduce Chinese AI company models such as DeepSeek. This positions Microsoft as competitive pressure against frontier AI companies betting on high-end proprietary models like OpenAI, Anthropic, and Google, while also driving AI from 'racing parameters' to 'racing utility' and from oligarchic monopoly toward inclusive diversity.",
+      "key_points": [
+        "纳德拉警告：公众不会接受少数公司掌控最重要AI模型，批评部分领袖「言行不一」",
+        "提出「人类资本」与「token资本」双重框架：两者并非对立，AI使人力资本更有价值",
+        "AI真正价值在于重构工作流程而非裁员，企业需同时拥有两种资本才能持续增长",
+        "微软正推动Copilot Cowork支持多模型切换，评估引入DeepSeek等低成本替代方案",
+        "批评OpenAI/Anthropic/谷歌等高端专有模型策略，推动AI从「拼参数」转向「拼效用」"
+      ],
+      "key_points_en": [
+        "Nadella warned the public won't accept a few companies controlling the most important AI models, criticizing leaders for 'saying one thing, doing another'",
+        "Proposed 'human capital' and 'token capital' dual framework: the two are not opposed — AI makes human capital more valuable",
+        "AI's true value is restructuring workflows, not job cuts; enterprises need both capitals for sustainable growth",
+        "Microsoft is promoting Copilot Cowork with multi-model switching, evaluating lower-cost alternatives like DeepSeek",
+        "Criticized OpenAI/Anthropic/Google's high-end proprietary model strategies, pushing AI from 'racing parameters' to 'racing utility'"
+      ],
+      "image": "https://images.unsplash.com/photo-1625895197185-0c4eab55b5d1?w=800&h=450&fit=crop",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-06-22/doc-iniehmvv9345047.shtml"
+    },
+    {
+      "id": "news-10",
+      "title": "31个省份差异化推进人工智能发展布局",
+      "title_en": "31 Provinces Advance Differentiated AI Development Strategies",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "summary": "记者梳理31份省级「十五五」规划纲要发现，「人工智能」一词累计出现超1400次，23个省份提出加强算力基础设施建设，27个省份部署高质量数据集建设。",
+      "summary_en": "Reviewing 31 provincial '15th Five-Year' plans reveals 'AI' appears over 1,400 times, with 23 provinces proposing strengthened computing infrastructure and 27 deploying high-quality dataset construction.",
+      "source": "金台资讯",
+      "source_en": "Jintai News",
+      "content": "记者梳理31份省级「十五五」规划纲要发现，「人工智能」一词累计出现超1400次，各地立足自身资源禀赋，坚持技术创新与应用赋能双向发力，走出「强基础」与「扩应用」并进的差异化发展道路。在筑牢数智化发展底座上，各地将围绕「算力、算法、数据」三大核心能力建设开展系统布局：有23个省份提出加强算力基础设施建设或布局优化，17个省份聚焦模型算法创新，27个省份部署高质量数据集建设。\n\n算力是人工智能的底座。安徽、吉林等10个省份提出深入实施或主动融入国家「东数西算」战略布局，其中17个省份将绿色低碳作为算力设施建设的基本原则，宁夏、重庆等地直接提出新建算力设施绿电占比不低于80%的硬性目标。算法模型方面，安徽、广东、江苏等9个省份在支持通用大模型研发的同时，聚焦本地优势产业打造垂直大模型。数据层面，有27个省份将高质量数据集建设作为模型研发和产业数智化转型的基础。\n\n围绕深入实施「人工智能+」行动，有18个省份的「十五五」规划纲要作出进一步部署，以科学技术、产业发展、消费提质、民生福祉、治理能力、全球合作等六大重点领域为核心。目前已形成「一超、多圈、多点」格局：北京以31家公司领先成为AI重镇；沿海城市群偏应用和芯片；长三角在算力基建和AI芯片封装测试上有产业链纵深；合肥-武汉-成都这条中部产业带凭借光电、存储优势走出错位发展的差异化路线。各地AI布局从「撒胡椒面」转向围绕自身禀赋精准卡位，「全国一盘棋」雏形初具。",
+      "content_en": "Reviewing 31 provincial '15th Five-Year' plan outlines reveals 'artificial intelligence' appears over 1,400 times, with all regions leveraging their own resource endowments and pursuing differentiated development paths that balance 'strengthening foundations' with 'expanding applications.' For building the digital-intelligent development base, regions are deploying systematic layouts around three core capabilities: 23 provinces propose strengthening or optimizing computing infrastructure; 17 focus on model algorithm innovation; and 27 are deploying high-quality dataset construction.\n\nComputing power is the foundation of AI. Ten provinces including Anhui and Jilin propose deepening or actively integrating into the national 'East-Data-West-Compute' strategic layout, with 17 provinces adopting green and low-carbon principles as basic requirements for computing facility construction. Ningxia and Chongqing have set hard targets requiring new computing facilities to use at least 80% green electricity. In algorithms and models, 9 provinces including Anhui, Guangdong, and Jiangsu support general LLM R&D while focusing on vertical LLMs for local advantageous industries. On the data front, 27 provinces treat high-quality dataset construction as the foundation for model R&D and industrial digital transformation.\n\nRegarding the deep implementation of the 'AI+' initiative, 18 provinces have made further deployments in their '15th Five-Year' outlines, centered on six key areas: science and technology, industrial development, consumption upgrading, people's livelihood, governance capacity, and global cooperation. A 'one superpower, multiple clusters, multiple points' pattern has formed: Beijing leads with 31 AI companies as an AI stronghold; coastal city clusters focus on applications and chips; the Yangtze River Delta has industrial chain depth in computing infrastructure and AI chip packaging and testing; the central industrial belt of Hefei-Wuhan-Chengdu has taken a differentiated route leveraging optoelectronics and storage advantages. AI layouts have shifted from 'scattered efforts' to precise positioning based on local endowments, with the outline of a 'national chess game' taking shape.",
+      "key_points": [
+        "31份省级「十五五」规划中「人工智能」出现超1400次，形成差异化布局格局",
+        "23个省份聚焦算力建设，宁夏/重庆要求新建算力设施绿电占比不低于80%",
+        "27个省份部署高质量数据集，9个省份打造「通用大模型+行业垂直大模型」双轮驱动",
+        "18个省份围绕「AI+」六大重点领域部署产业发展",
+        "全国AI格局初具：「一超（北京）—三圈（沿海/长三角/中部）—多点」"
+      ],
+      "key_points_en": [
+        "'Artificial intelligence' appears over 1,400 times across 31 provincial '15th Five-Year' plans, forming a differentiated layout pattern",
+        "23 provinces focus on computing power construction; Ningxia/Chongqing require new facilities to use at least 80% green electricity",
+        "27 provinces deploying high-quality datasets; 9 provinces building 'general LLM + industry vertical LLM' dual-wheel drive",
+        "18 provinces deploying industrial development around six key 'AI+' areas",
+        "National AI pattern taking shape: 'one superpower (Beijing) — three clusters (coastal/Yangtze Delta/central) — multiple points'"
+      ],
+      "image": "https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?w=800&h=450&fit=crop",
+      "url": "https://www.toutiao.com/article/7654717902264549897/"
+    }
+  ]
+}

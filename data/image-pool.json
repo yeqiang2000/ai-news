@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-24",
   "images": [
     {
       "id": "unsplash-1451187580459-43490279c0fa",
@@ -1120,6 +1120,386 @@
         "LLM"
       ],
       "desc": "AI research paper analysis on dual monitor setup, automated literature review, professional stock ph"
+    },
+    {
+      "id": "agnes-deep-analysis-ai-ethics",
+      "url": "img/pool/deep-analysis-ai-ethics.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis",
+        "policy"
+      ],
+      "desc": "AI ethics evaluation framework on dual monitors, responsible AI audit, professional tech photography"
+    },
+    {
+      "id": "agnes-deep-analysis-market-trend",
+      "url": "img/pool/deep-analysis-market-trend.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis",
+        "investment"
+      ],
+      "desc": "AI market trend deep analysis with candlestick charts and sentiment overlay, financial research, pro"
+    },
+    {
+      "id": "agnes-deep-analysis-benchmark",
+      "url": "img/pool/deep-analysis-benchmark.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis",
+        "LLM"
+      ],
+      "desc": "AI model benchmark comparison dashboard with performance metrics, research analysis, professional ph"
+    },
+    {
+      "id": "agnes-energy-battery-ai",
+      "url": "img/pool/energy-battery-ai.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy",
+        "industry"
+      ],
+      "desc": "AI-optimized battery storage facility with smart grid connections, green technology, professional ph"
+    },
+    {
+      "id": "agnes-energy-carbon",
+      "url": "img/pool/energy-carbon.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy",
+        "policy"
+      ],
+      "desc": "Carbon footprint AI monitoring dashboard in corporate office, sustainability tech, professional phot"
+    },
+    {
+      "id": "agnes-opensource-ai-framework",
+      "url": "img/pool/opensource-ai-framework.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source",
+        "LLM"
+      ],
+      "desc": "Open source AI framework logo wall with code on screen, community development, professional tech pho"
+    },
+    {
+      "id": "agnes-robotics-logistics",
+      "url": "img/pool/robotics-logistics.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics",
+        "industry"
+      ],
+      "desc": "Autonomous mobile robot in smart warehouse navigating between shelves, logistics automation, profess"
+    },
+    {
+      "id": "agnes-robotics-agriculture",
+      "url": "img/pool/robotics-agriculture.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics",
+        "AI_applications"
+      ],
+      "desc": "Agricultural robot harvesting crops in smart farm field, agri-tech, professional aerial photo"
+    },
+    {
+      "id": "agnes-healthcare-telemedicine",
+      "url": "img/pool/healthcare-telemedicine.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare",
+        "AI_applications"
+      ],
+      "desc": "Doctor conducting AI-assisted telemedicine consultation on large screen, remote healthcare, professi"
+    },
+    {
+      "id": "agnes-healthcare-drug-discovery",
+      "url": "img/pool/healthcare-drug-discovery.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare",
+        "data_center"
+      ],
+      "desc": "AI drug discovery molecular simulation on research screen, pharmaceutical tech, professional photogr"
+    },
+    {
+      "id": "agnes-autonomous-vehicle-city",
+      "url": "img/pool/autonomous-vehicle-city.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous",
+        "AI_applications"
+      ],
+      "desc": "Autonomous vehicle with LIDAR sensors driving on modern city road, self-driving technology, professi"
+    },
+    {
+      "id": "agnes-autonomous-ship",
+      "url": "img/pool/autonomous-ship.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous",
+        "industry"
+      ],
+      "desc": "Autonomous cargo ship with AI navigation system at sea, maritime technology, professional aerial pho"
+    },
+    {
+      "id": "agnes-vr-ar-surgery",
+      "url": "img/pool/vr-ar-surgery.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar",
+        "healthcare"
+      ],
+      "desc": "Surgeon using AR glasses during operation with overlay data, medical mixed reality, professional pho"
+    },
+    {
+      "id": "agnes-vr-ar-gaming",
+      "url": "img/pool/vr-ar-gaming.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar",
+        "AI_applications"
+      ],
+      "desc": "Person in immersive VR gaming with haptic gloves, entertainment technology, professional lifestyle p"
+    },
+    {
+      "id": "agnes-blockchain-ai-contract",
+      "url": "img/pool/blockchain-ai-contract.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain",
+        "AI_applications"
+      ],
+      "desc": "AI smart contract code on screen with blockchain nodes visualization, legal tech, professional photo"
+    },
+    {
+      "id": "agnes-blockchain-carbon",
+      "url": "img/pool/blockchain-carbon.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain",
+        "energy"
+      ],
+      "desc": "Blockchain carbon credit trading platform on display, green fintech, professional stock photo"
+    },
+    {
+      "id": "agnes-startup-ai-demo",
+      "url": "img/pool/startup-ai-demo.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup",
+        "AI_applications"
+      ],
+      "desc": "AI startup team demoing product to investors in modern office, pitch presentation, professional phot"
+    },
+    {
+      "id": "agnes-startup-accelerator",
+      "url": "img/pool/startup-accelerator.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup",
+        "education"
+      ],
+      "desc": "Startup accelerator cohort working on AI prototypes, tech incubator, professional lifestyle photo"
+    },
+    {
+      "id": "agnes-policy-ai-safety",
+      "url": "img/pool/policy-ai-safety.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy",
+        "deep_analysis"
+      ],
+      "desc": "AI safety testing lab with red team evaluation screens, responsible AI, professional photography"
+    },
+    {
+      "id": "agnes-policy-data-privacy",
+      "url": "img/pool/policy-data-privacy.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy",
+        "data_center"
+      ],
+      "desc": "Data privacy compliance dashboard with GDPR indicators, regulatory tech, professional stock photo"
+    },
+    {
+      "id": "agnes-llm-agentic-ai",
+      "url": "img/pool/llm-agentic-ai.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "AI_applications"
+      ],
+      "desc": "Agentic AI workflow diagram on large display, autonomous agents, professional tech photography"
+    },
+    {
+      "id": "agnes-llm-reasoning",
+      "url": "img/pool/llm-reasoning.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "deep_analysis"
+      ],
+      "desc": "AI chain-of-thought reasoning visualization on research monitor, cognitive AI, professional photo"
+    },
+    {
+      "id": "agnes-llm-code-gen",
+      "url": "img/pool/llm-code-gen.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "open_source"
+      ],
+      "desc": "AI code generation interface writing software in real-time, developer tools, professional tech photo"
+    },
+    {
+      "id": "agnes-investment-vc-ai",
+      "url": "img/pool/investment-vc-ai.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment",
+        "startup"
+      ],
+      "desc": "VC firm meeting with AI portfolio analytics on screen, venture capital, professional corporate photo"
+    },
+    {
+      "id": "agnes-investment-acquisition",
+      "url": "img/pool/investment-acquisition.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment",
+        "industry"
+      ],
+      "desc": "Tech company acquisition signing ceremony with AI valuation report, M&A deal, professional press pho"
+    },
+    {
+      "id": "agnes-network-satellite",
+      "url": "img/pool/network-satellite.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network",
+        "data_center"
+      ],
+      "desc": "Low-earth orbit satellite constellation with AI network routing, space communications, professional "
+    },
+    {
+      "id": "agnes-network-quantum",
+      "url": "img/pool/network-quantum.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network",
+        "chips"
+      ],
+      "desc": "Quantum network node in research laboratory, quantum computing, professional photography"
+    },
+    {
+      "id": "agnes-education-vr-classroom",
+      "url": "img/pool/education-vr-classroom.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education",
+        "vr_ar"
+      ],
+      "desc": "Students in VR-enhanced AI classroom with immersive displays, future education, professional photo"
+    },
+    {
+      "id": "agnes-education-adaptive",
+      "url": "img/pool/education-adaptive.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education",
+        "AI_applications"
+      ],
+      "desc": "Adaptive AI learning platform on tablet showing personalized curriculum, edtech, professional stock "
+    },
+    {
+      "id": "agnes-datacenter-green",
+      "url": "img/pool/datacenter-green.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center",
+        "energy"
+      ],
+      "desc": "Green data center with solar panels on roof, sustainable computing, professional aerial photo"
+    },
+    {
+      "id": "agnes-datacenter-security",
+      "url": "img/pool/datacenter-security.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center",
+        "policy"
+      ],
+      "desc": "Data center biometric security entrance with AI surveillance, infrastructure security, professional "
+    },
+    {
+      "id": "agnes-chip-ai-accelerator",
+      "url": "img/pool/chip-ai-accelerator.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips",
+        "AI_applications"
+      ],
+      "desc": "Custom AI accelerator chip on evaluation board with cooling, edge AI hardware, professional macro ph"
+    },
+    {
+      "id": "agnes-chip-photonic",
+      "url": "img/pool/chip-photonic.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips",
+        "data_center"
+      ],
+      "desc": "Photonic computing chip with optical interconnects, next-gen processor, professional photography"
+    },
+    {
+      "id": "agnes-industry-robot-arm",
+      "url": "img/pool/industry-robot-arm.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry",
+        "robotics"
+      ],
+      "desc": "Collaborative robot arm working alongside human in smart factory, cobot, professional photography"
+    },
+    {
+      "id": "agnes-industry-predictive",
+      "url": "img/pool/industry-predictive.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry",
+        "AI_applications"
+      ],
+      "desc": "Predictive maintenance AI dashboard showing equipment health scores, industrial IoT, professional ph"
+    },
+    {
+      "id": "agnes-ai-legal-assistant",
+      "url": "img/pool/ai-legal-assistant.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications",
+        "policy"
+      ],
+      "desc": "AI legal research assistant on laptop showing case law analysis, legaltech, professional stock photo"
+    },
+    {
+      "id": "agnes-ai-fintech",
+      "url": "img/pool/ai-fintech.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications",
+        "investment"
+      ],
+      "desc": "AI fintech dashboard with real-time fraud detection alerts, financial security, professional photo"
+    },
+    {
+      "id": "agnes-opensource-hackathon",
+      "url": "img/pool/opensource-hackathon.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source",
+        "education"
+      ],
+      "desc": "opensource hackathon"
     }
   ]
 }

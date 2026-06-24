@@ -95,9 +95,6 @@
     "img/pool/investment-ai-fund.jpg",
     "img/pool/autonomous-drone.jpg",
     "img/pool/education-campus.jpg",
-    "img/pool/legal-regulation.jpg",
-    "img/pool/startup-pitch.jpg",
-    "img/pool/llm-chatbot.jpg",
     "img/pool/startup-coworking.jpg",
     "img/pool/llm-multimodal.jpg",
     "img/pool/investment-ipo.jpg",
@@ -107,16 +104,6 @@
     "img/pool/vr-ar-meeting.jpg",
     "img/pool/opensource-collab.jpg",
     "img/pool/blockchain-supply.jpg",
-    "img/pool/vr-ar-training.jpg",
-    "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
-    "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=450&fit=crop",
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
-    "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
-    "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=800&h=450&fit=crop",
-    "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop",
-    "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=450&fit=crop",
-    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop",
-    "https://images.unsplash.com/photo-1625895197185-0c4eab55b5d1?w=800&h=450&fit=crop",
-    "https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?w=800&h=450&fit=crop"
+    "img/pool/vr-ar-training.jpg"
   ]
 }
