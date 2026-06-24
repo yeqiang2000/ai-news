@@ -1,6 +1,324 @@
 {
-  "last_updated": "2026-06-23T08:00:00+08:00",
+  "last_updated": "2026-06-24T08:00:00+08:00",
   "days": [
+    {
+      "date": "2026-06-24",
+      "hero": {
+        "id": "hero-20260624",
+        "title": "中国AI大模型词元调用量连续八周稳居全球首位",
+        "title_en": "China's AI LLM Token Usage Ranks First Globally for 8 Consecutive Weeks",
+        "image": "img/pool/startup-coworking.jpg",
+        "date": "2026-06-24",
+        "source": "证券日报",
+        "source_en": "Securities Daily",
+        "summary": "OpenRouter数据显示，6月15日至21日当周，中国AI大模型周调用量达18.81万亿词元，环比增长2.12%，连续八周稳居全球首位，超过美国5.76万亿词元的3.3倍。",
+        "summary_en": "OpenRouter data shows China's AI LLM weekly token usage reached 18.81 trillion in the week of June 15-21, up 2.12% week-over-week, ranking first globally for 8 consecutive weeks, over 3.3 times that of the US at 5.76 trillion.",
+        "category": "产业分析",
+        "category_en": "Industry Analysis"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-06-24",
+          "category": "产业分析",
+          "category_en": "Industry Analysis",
+          "title": "中国AI大模型词元调用量连续八周稳居全球首位",
+          "title_en": "China's AI LLM Token Usage Ranks First Globally for 8 Consecutive Weeks",
+          "summary": "OpenRouter数据显示，6月15日至21日当周，中国AI大模型周调用量达18.81万亿词元，环比增长2.12%，连续八周稳居全球首位，超过美国5.76万亿词元的3.3倍。",
+          "summary_en": "OpenRouter data shows China's AI LLM weekly token usage reached 18.81 trillion in the week of June 15-21, up 2.12% week-over-week, ranking first globally for 8 consecutive weeks, over 3.3 times that of the US at 5.76 trillion.",
+          "source": "证券日报",
+          "source_en": "Securities Daily",
+          "image": "img/pool/startup-coworking.jpg",
+          "content": "OpenRouter最新监测数据显示，6月15日至21日当周，全球AI大模型总调用量达46.7万亿词元，连续九周保持上涨态势。其中，中国AI大模型周调用量达18.81万亿词元，环比增长2.12%，连续八周稳居全球首位。相比之下，美国AI大模型周调用量为5.76万亿词元，环比增长仅0.70%。中国市场不仅在绝对量上是美国的3.3倍，增长速度也接近美国的3倍。八周的持续领跑，彻底确立了中国在全球AI应用落地领域的核心地位。DeepSeek-V4-Flash连续五周位居全球调用量榜首，小米MiMo-V2.5升至第二位，国产大模型在前十中占据六席。",
+          "content_en": "OpenRouter's latest monitoring data shows global AI LLM total token usage reached 46.7 trillion in the week of June 15-21, maintaining growth for nine consecutive weeks. China's AI LLM weekly token usage reached 18.81 trillion, up 2.12% week-over-week, ranking first globally for 8 consecutive weeks. In contrast, US AI LLM weekly token usage was 5.76 trillion, with only 0.70% week-over-week growth. China's market is not only 3.3 times that of the US in absolute volume, but its growth rate is nearly 3 times that of the US. DeepSeek-V4-Flash topped global usage for five consecutive weeks, Xiaomi's MiMo-V2.5 rose to second place, and Chinese LLMs occupied six of the top ten positions.",
+          "key_points": [
+            "中国AI大模型周调用量18.81万亿词元，连续八周全球第一",
+            "中国调用量是美国的3.3倍，增速接近3倍",
+            "DeepSeek-V4-Flash连续五周居全球调用量榜首",
+            "小米MiMo-V2.5升至全球第二",
+            "全球总调用量46.7万亿词元，连续九周上涨"
+          ],
+          "key_points_en": [
+            "China's AI LLM weekly usage reached 18.81 trillion tokens, ranking first globally for 8 weeks",
+            "China's usage is 3.3x that of the US, growth rate nearly 3x",
+            "DeepSeek-V4-Flash topped global usage for 5 consecutive weeks",
+            "Xiaomi MiMo-V2.5 rose to 2nd globally",
+            "Global total usage at 46.7 trillion tokens, rising for 9 consecutive weeks"
+          ],
+          "url": "https://www.securitiessdaily.com/"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-06-24",
+          "category": "大模型",
+          "category_en": "LLM",
+          "title": "火山引擎发布豆包大模型2.1 Pro，日均Tokens突破180万亿",
+          "title_en": "Volcano Engine Releases Doubao LLM 2.1 Pro, Daily Tokens Exceed 180 Trillion",
+          "summary": "火山引擎正式发布豆包大模型2.1 Pro版本，日均Tokens调用量突破180万亿，较上一版本提升显著。新版本在推理能力和多模态理解方面均有大幅提升。",
+          "summary_en": "Volcano Engine officially released Doubao LLM 2.1 Pro, with daily token usage exceeding 180 trillion, a significant increase from the previous version. The new version shows substantial improvements in reasoning and multimodal understanding.",
+          "source": "每日经济新闻",
+          "source_en": "National Business Daily",
+          "image": "img/pool/llm-multimodal.jpg",
+          "content": "火山引擎在2026火山引擎FORCE原动力大会上正式发布豆包大模型2.1 Pro版本。数据显示，豆包大模型日均Tokens调用量已突破180万亿，较去年增长数十倍，标志着国产大模型正式跨越「生产级质变点」。新版本在代码生成、数学推理、长文本理解等核心能力上均有显著提升，特别是Agent能力方面新增了工具调用、多步骤规划和跨应用协作三项核心能力。火山引擎还同步推出了豆包2.1 Pro的轻量版和标准版，满足不同场景的算力需求。价格方面，Pro版输入每百万token仅4元，输出每百万token16元，极具性价比。",
+          "content_en": "Volcano Engine officially released Doubao LLM 2.1 Pro at the 2026 Volcano Engine FORCE conference. Data shows Doubao's daily token usage has exceeded 180 trillion, growing dozens of times compared to last year, marking Chinese LLMs crossing the 'production-grade tipping point.' The new version shows significant improvements in code generation, mathematical reasoning, and long-text understanding, with three new Agent capabilities: tool calling, multi-step planning, and cross-application collaboration. Volcano Engine also launched lightweight and standard versions. Pricing is highly competitive at 4 yuan per million input tokens and 16 yuan per million output tokens for the Pro version.",
+          "key_points": [
+            "豆包2.1 Pro日均Tokens突破180万亿",
+            "新增三项Agent核心能力",
+            "推理能力和多模态理解大幅提升",
+            "Pro版定价极具性价比",
+            "标志国产大模型跨越生产级质变点"
+          ],
+          "key_points_en": [
+            "Doubao 2.1 Pro daily tokens exceed 180 trillion",
+            "Three new Agent capabilities added",
+            "Significant improvements in reasoning and multimodal understanding",
+            "Pro version pricing highly competitive",
+            "Marks Chinese LLMs crossing the production-grade tipping point"
+          ],
+          "url": "https://www.nbd.com.cn/"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-06-24",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "DeepSeek完成510亿元首轮融资，估值逼近4000亿",
+          "title_en": "DeepSeek Completes 51 Billion Yuan First Funding Round, Valuation Approaches 400 Billion",
+          "summary": "DeepSeek完成首轮融资510亿元人民币，投后估值逼近4000亿元。腾讯领投约100亿元，宁德时代出资50亿元，创始人梁文锋个人出资约28亿元保持控制权。",
+          "summary_en": "DeepSeek completed its first funding round of 51 billion yuan, with post-investment valuation approaching 400 billion yuan. Tencent led with approximately 10 billion yuan, CATL contributed 5 billion yuan, and founder Liang Wenfeng personally invested about 2.8 billion yuan to maintain control.",
+          "source": "36氪",
+          "source_en": "36Kr",
+          "image": "img/pool/investment-ipo.jpg",
+          "content": "DeepSeek完成成立以来首轮外部融资，总金额超过510亿元人民币，投后估值达520-590亿美元区间。本轮融资由腾讯领投约100亿元，宁德时代出资50亿元，网易、京东各30亿元。创始人梁文锋个人出资约28亿元，通过特殊的股权结构设计确保了绝对控制权——外部投资者仅获经济权益而无投票权。这是中国AI史上最大单轮融资，估值逻辑对标Anthropic，达国际一线水平。资金将主要用于算力基础设施建设和顶尖人才招募，DeepSeek计划在2026年底前将算力规模扩大3倍。",
+          "content_en": "DeepSeek completed its first external funding round, totaling over 51 billion yuan, with post-investment valuation in the $52-59 billion range. Tencent led with approximately 10 billion yuan, CATL contributed 5 billion yuan, and NetEase and JD.com each contributed 3 billion yuan. Founder Liang Wenfeng personally invested about 2.8 billion yuan, maintaining absolute control through a special equity structure where external investors only receive economic rights without voting rights. This is the largest single funding round in Chinese AI history, with valuation logic benchmarked against Anthropic at international top-tier levels. Funds will primarily be used for computing infrastructure and talent recruitment, with plans to triple computing capacity by end of 2026.",
+          "key_points": [
+            "DeepSeek首轮融资510亿元，中国AI史上最大",
+            "腾讯领投100亿元，宁德时代50亿元",
+            "梁文锋通过特殊股权结构保持绝对控制权",
+            "投后估值520-590亿美元，对标Anthropic",
+            "资金将用于算力建设3倍扩容和人才招募"
+          ],
+          "key_points_en": [
+            "DeepSeek's first round of 51 billion yuan, largest in Chinese AI history",
+            "Tencent led with 10 billion yuan, CATL with 5 billion yuan",
+            "Liang Wenfeng maintains absolute control through special equity structure",
+            "Post-investment valuation $52-59 billion, benchmarked against Anthropic",
+            "Funds for 3x computing expansion and talent recruitment"
+          ],
+          "url": "https://36kr.com/"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-06-24",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "影眸科技完成数亿元新一轮融资",
+          "title_en": "Yingmou Technology Completes Hundreds of Millions Yuan New Funding Round",
+          "summary": "AI视觉技术公司影眸科技完成数亿元新一轮融资，公司专注于AI生成3D数字人技术，已在影视、游戏、虚拟直播等领域实现商业化落地。",
+          "summary_en": "AI vision technology company Yingmou Technology completed a new funding round of hundreds of millions of yuan, focusing on AI-generated 3D digital human technology with commercial applications in film, gaming, and virtual live streaming.",
+          "source": "每日经济新闻",
+          "source_en": "National Business Daily",
+          "image": "img/pool/investment-market.jpg",
+          "content": "AI视觉技术公司影眸科技宣布完成数亿元新一轮融资。该公司专注于AI生成3D数字人技术，其核心产品可实现从单张照片生成高精度3D数字人模型，在影视制作、游戏开发、虚拟直播等领域已实现商业化落地。本轮融资将用于技术研发升级和市场拓展，特别是在实时交互3D数字人领域的技术突破。影眸科技的技术已在多个头部影视项目中应用，其生成的数字人质量已接近真人水平，显著降低了3D内容制作成本和时间。",
+          "content_en": "AI vision technology company Yingmou Technology announced completing a new funding round of hundreds of millions of yuan. The company focuses on AI-generated 3D digital human technology, with its core product capable of generating high-precision 3D digital human models from a single photo, achieving commercial applications in film production, game development, and virtual live streaming. The funding will be used for R&D upgrades and market expansion, particularly in real-time interactive 3D digital human technology breakthroughs. Yingmou's technology has been applied in multiple top-tier film projects, with digital human quality approaching real-person levels, significantly reducing 3D content production costs and time.",
+          "key_points": [
+            "影眸科技完成数亿元融资",
+            "专注AI生成3D数字人技术",
+            "已在影视、游戏、虚拟直播实现商业化",
+            "从单张照片生成高精度3D数字人",
+            "数字人质量接近真人水平"
+          ],
+          "key_points_en": [
+            "Yingmou Technology completes hundreds of millions yuan funding",
+            "Focuses on AI-generated 3D digital human technology",
+            "Commercialized in film, gaming, and virtual live streaming",
+            "Generates high-precision 3D digital humans from single photo",
+            "Digital human quality approaching real-person levels"
+          ],
+          "url": "https://www.nbd.com.cn/"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-06-24",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "正行创新完成近亿美元天使轮系列融资",
+          "title_en": "Zhengxing Innovation Completes Nearly 100 Million USD Angel Round Series Funding",
+          "summary": "AI基础设施初创公司正行创新完成近亿美元天使轮系列融资，专注于AI推理芯片和边缘计算解决方案，旨在为国产AI算力提供底层支撑。",
+          "summary_en": "AI infrastructure startup Zhengxing Innovation completed nearly 100 million USD in angel round series funding, focusing on AI inference chips and edge computing solutions, aiming to provide foundational support for domestic AI computing power.",
+          "source": "每日经济新闻",
+          "source_en": "National Business Daily",
+          "image": "img/pool/deep-analysis-forecast.jpg",
+          "content": "AI基础设施初创公司正行创新宣布完成近亿美元天使轮系列融资。该公司专注于AI推理芯片和边缘计算解决方案的研发，旨在为国产AI算力提供底层支撑。本轮融资由多家头部机构联合投资，资金将用于芯片流片、团队扩建和产品商业化。正行创新的核心团队来自英伟达、华为海思等头部芯片企业，拥有丰富的AI芯片设计经验。在当前国产AI芯片替代的大趋势下，正行创新定位差异化竞争，聚焦推理侧而非训练侧，以更高性价比满足企业级AI部署需求。",
+          "content_en": "AI infrastructure startup Zhengxing Innovation announced completing nearly 100 million USD in angel round series funding. The company focuses on R&D of AI inference chips and edge computing solutions, aiming to provide foundational support for domestic AI computing power. The funding was jointly invested by multiple top-tier institutions and will be used for chip tape-out, team expansion, and product commercialization. The core team comes from NVIDIA, HiSilicon, and other leading chip companies with rich AI chip design experience. Under the trend of domestic AI chip substitution, Zhengxing Innovation positions itself for differentiated competition, focusing on inference rather than training, offering better cost-effectiveness for enterprise AI deployment.",
+          "key_points": [
+            "正行创新完成近亿美元天使轮融资",
+            "专注AI推理芯片和边缘计算",
+            "核心团队来自英伟达、华为海思",
+            "聚焦推理侧差异化竞争",
+            "资金用于芯片流片和商业化"
+          ],
+          "key_points_en": [
+            "Zhengxing Innovation completes nearly 100M USD angel round",
+            "Focuses on AI inference chips and edge computing",
+            "Core team from NVIDIA and HiSilicon",
+            "Differentiated competition focusing on inference side",
+            "Funds for chip tape-out and commercialization"
+          ],
+          "url": "https://www.nbd.com.cn/"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-06-24",
+          "category": "大模型",
+          "category_en": "LLM",
+          "title": "OpenAI发布GPT-5.5-Cyber满血版，强化网络安全能力",
+          "title_en": "OpenAI Releases GPT-5.5-Cyber Full Version, Strengthening Cybersecurity Capabilities",
+          "summary": "OpenAI发布GPT-5.5-Cyber满血版，专为网络安全场景优化的模型版本，在漏洞检测、威胁分析和安全代码审计方面表现突出，较标准版提升40%以上。",
+          "summary_en": "OpenAI released GPT-5.5-Cyber full version, a model specifically optimized for cybersecurity scenarios, excelling in vulnerability detection, threat analysis, and secure code auditing, with over 40% improvement compared to the standard version.",
+          "source": "CSDN",
+          "source_en": "CSDN",
+          "image": "img/pool/deep-analysis-research.jpg",
+          "content": "OpenAI正式发布GPT-5.5-Cyber满血版，这是GPT系列首个专为网络安全场景深度优化的模型版本。该模型在漏洞检测、威胁情报分析、安全代码审计和攻击模拟等核心安全任务上表现突出，较标准版GPT-5.5提升40%以上。GPT-5.5-Cyber支持对代码仓库进行全量安全扫描，可自动识别OWASP Top 10漏洞并给出修复建议，同时具备实时威胁情报分析能力。OpenAI表示，该模型已与多家安全厂商合作测试，预计将显著提升企业安全运营效率。定价方面，Cyber版本较标准版溢价30%。",
+          "content_en": "OpenAI officially released GPT-5.5-Cyber full version, the first GPT model deeply optimized for cybersecurity scenarios. The model excels in vulnerability detection, threat intelligence analysis, secure code auditing, and attack simulation, showing over 40% improvement compared to the standard GPT-5.5. GPT-5.5-Cyber supports full security scanning of code repositories, automatically identifying OWASP Top 10 vulnerabilities with remediation suggestions, and has real-time threat intelligence analysis capabilities. OpenAI stated the model has been tested with multiple security vendors and is expected to significantly improve enterprise security operations efficiency. Pricing is 30% premium over the standard version.",
+          "key_points": [
+            "GPT-5.5-Cyber是首个网络安全专优化模型",
+            "漏洞检测和安全审计能力提升40%以上",
+            "支持OWASP Top 10漏洞自动识别和修复",
+            "已与多家安全厂商合作测试",
+            "定价较标准版溢价30%"
+          ],
+          "key_points_en": [
+            "GPT-5.5-Cyber is the first cybersecurity-optimized model",
+            "Vulnerability detection and security auditing improved 40%+",
+            "Supports automatic OWASP Top 10 identification and remediation",
+            "Tested with multiple security vendors",
+            "Priced at 30% premium over standard version"
+          ],
+          "url": "https://www.csdn.net/"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-06-24",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "Anthropic秘密提交IPO，估值达9650亿美元",
+          "title_en": "Anthropic Secretly Files for IPO, Valuation Reaches 965 Billion USD",
+          "summary": "Anthropic已秘密提交IPO申请，估值达9650亿美元，首次超越OpenAI的8520亿美元登顶行业第一。预计将在2026年下半年正式上市。",
+          "summary_en": "Anthropic has secretly filed for IPO, with valuation reaching 965 billion USD, surpassing OpenAI's 852 billion USD for the first time to become the industry's most valuable AI company. Expected to officially list in the second half of 2026.",
+          "source": "路透社",
+          "source_en": "Reuters",
+          "image": "img/pool/vr-ar-meeting.jpg",
+          "content": "据知情人士透露，AI安全公司Anthropic已秘密向美国证券交易委员会提交IPO申请，估值达9650亿美元，首次超越OpenAI的8520亿美元，成为全球估值最高的AI公司。Anthropic成立于2021年，由前OpenAI副总裁Dario Amodei创立，主打AI安全和对齐研究。其旗舰产品Claude系列在代码生成、长文本理解和安全对齐方面表现卓越。Anthropic在2025年底发布的Claude Fable 5在SWE-bench Pro上得分80.3%，领先GPT-5.5达22个百分点。此次IPO预计将在2026年下半年正式上市，有望成为AI行业最大规模的公开募股。",
+          "content_en": "According to informed sources, AI safety company Anthropic has secretly filed an IPO application with the US Securities and Exchange Commission, with valuation reaching 965 billion USD, surpassing OpenAI's 852 billion USD for the first time to become the world's most valuable AI company. Founded in 2021 by former OpenAI VP Dario Amodei, Anthropic focuses on AI safety and alignment research. Its flagship Claude series excels in code generation, long-text understanding, and safety alignment. Claude Fable 5, released at the end of 2025, scored 80.3% on SWE-bench Pro, leading GPT-5.5 by 22 percentage points. The IPO is expected to officially list in the second half of 2026, potentially becoming the largest public offering in the AI industry.",
+          "key_points": [
+            "Anthropic秘密提交IPO申请",
+            "估值9650亿美元超越OpenAI",
+            "Claude Fable 5在SWE-bench领先22个百分点",
+            "预计2026年下半年正式上市",
+            "有望成为AI行业最大规模公开募股"
+          ],
+          "key_points_en": [
+            "Anthropic secretly filed IPO application",
+            "Valuation of 965B USD surpasses OpenAI",
+            "Claude Fable 5 leads SWE-bench by 22 percentage points",
+            "Expected to list officially in H2 2026",
+            "Could become largest AI industry public offering"
+          ],
+          "url": "https://www.reuters.com/"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-06-24",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "NVIDIA发布Nemotron 3 Ultra，5500亿参数最强美国开源模型",
+          "title_en": "NVIDIA Releases Nemotron 3 Ultra, 550B Parameter Strongest American Open Source Model",
+          "summary": "NVIDIA发布Nemotron 3 Ultra开源模型，5500亿参数成为美国最强开源大模型，在多项评测中超越Llama 4和Mistral Large，支持商用许可。",
+          "summary_en": "NVIDIA released the Nemotron 3 Ultra open source model, with 550 billion parameters becoming America's strongest open source LLM, surpassing Llama 4 and Mistral Large in multiple benchmarks, available under commercial license.",
+          "source": "TechCrunch",
+          "source_en": "TechCrunch",
+          "image": "img/pool/opensource-collab.jpg",
+          "content": "NVIDIA正式发布Nemotron 3 Ultra开源大模型，5500亿参数规模使其成为目前美国最强的开源大模型。该模型在MMLU、GSM8K、HumanEval等多项主流评测中全面超越Meta的Llama 4和Mistral Large，特别是在数学推理和代码生成方面表现突出。Nemotron 3 Ultra采用NVIDIA自研的NeMo框架训练，使用了15万亿token的训练数据，支持128K上下文窗口。模型以NVIDIA开源许可协议发布，允许商业使用。NVIDIA表示，此举旨在推动AI生态系统的开放发展，与Google的Gemma和Meta的Llama形成三足鼎立的开源格局。",
+          "content_en": "NVIDIA officially released the Nemotron 3 Ultra open source LLM, with 550 billion parameters making it America's strongest open source model. The model comprehensively surpasses Meta's Llama 4 and Mistral Large across multiple mainstream benchmarks including MMLU, GSM8K, and HumanEval, with particularly outstanding performance in mathematical reasoning and code generation. Nemotron 3 Ultra was trained using NVIDIA's proprietary NeMo framework with 15 trillion tokens of training data, supporting a 128K context window. The model is released under NVIDIA's open source license allowing commercial use. NVIDIA stated this move aims to promote open development of the AI ecosystem, forming a tripartite open source landscape with Google's Gemma and Meta's Llama.",
+          "key_points": [
+            "Nemotron 3 Ultra 5500亿参数美国最强开源",
+            "全面超越Llama 4和Mistral Large",
+            "15万亿token训练数据，128K上下文",
+            "支持商用许可",
+            "与Gemma、Llama三足鼎立"
+          ],
+          "key_points_en": [
+            "Nemotron 3 Ultra 550B parameters, America's strongest open source",
+            "Comprehensively surpasses Llama 4 and Mistral Large",
+            "15 trillion tokens training data, 128K context",
+            "Commercial use permitted",
+            "Tripartite landscape with Gemma and Llama"
+          ],
+          "url": "https://techcrunch.com/"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-06-24",
+          "category": "产业分析",
+          "category_en": "Industry Analysis",
+          "title": "微软CEO警告AI巨头权力过度集中",
+          "title_en": "Microsoft CEO Warns of Excessive Power Concentration Among AI Giants",
+          "summary": "微软CEO萨提亚·纳德拉公开警告AI行业权力过度集中的风险，呼吁建立更开放和多元化的AI生态，避免少数公司垄断AI基础能力。",
+          "summary_en": "Microsoft CEO Satya Nadella publicly warned about the risk of excessive power concentration in the AI industry, calling for a more open and diversified AI ecosystem to prevent a few companies from monopolizing fundamental AI capabilities.",
+          "source": "界面新闻",
+          "source_en": "Jiemian News",
+          "image": "img/pool/blockchain-supply.jpg",
+          "content": "微软CEO萨提亚·纳德拉在近期公开场合发出警告，指出AI行业正面临权力过度集中的风险。他表示，当前少数几家AI巨头掌握了算力、数据和人才的绝对优势，这种集中趋势可能抑制创新、推高价格，并最终损害消费者利益。纳德拉呼吁建立更开放和多元化的AI生态系统，通过开源模型、分布式算力和数据共享来降低行业准入门槛。他特别强调，微软将继续投资开源AI项目，支持中小型AI公司的发展。这一表态被业界解读为对OpenAI、Google等竞争对手的间接批评，也反映了微软在AI生态布局中的战略考量。",
+          "content_en": "Microsoft CEO Satya Nadella recently publicly warned about the risk of excessive power concentration in the AI industry. He stated that a few AI giants currently hold absolute advantages in computing power, data, and talent, and this concentration trend may suppress innovation, drive up prices, and ultimately harm consumer interests. Nadella called for building a more open and diversified AI ecosystem, lowering industry barriers through open source models, distributed computing, and data sharing. He specifically emphasized that Microsoft will continue investing in open source AI projects and supporting the development of small and medium-sized AI companies. This statement has been interpreted as indirect criticism of competitors like OpenAI and Google, reflecting Microsoft's strategic considerations in AI ecosystem positioning.",
+          "key_points": [
+            "纳德拉警告AI行业权力过度集中",
+            "少数巨头掌握算力、数据、人才绝对优势",
+            "呼吁建立开放多元化的AI生态",
+            "微软将继续投资开源AI项目",
+            "被解读为对OpenAI、Google的间接批评"
+          ],
+          "key_points_en": [
+            "Nadella warns of excessive power concentration in AI",
+            "A few giants hold absolute advantages in computing, data, talent",
+            "Calls for open and diversified AI ecosystem",
+            "Microsoft will continue investing in open source AI",
+            "Interpreted as indirect criticism of OpenAI and Google"
+          ],
+          "url": "https://www.jiemian.com/"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-06-24",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "31个省份差异化推进人工智能发展布局",
+          "title_en": "31 Provinces Differentially Advance AI Development Layout",
+          "summary": "全国31个省份已全部出台AI发展专项政策，根据各地产业基础和资源禀赋差异化布局，形成算力、数据、应用三大差异化发展路径。",
+          "summary_en": "All 31 provinces in China have issued AI development policies, with differentiated layouts based on local industrial bases and resource endowments, forming three differentiated development paths: computing power, data, and applications.",
+          "source": "金台资讯",
+          "source_en": "Jintai News",
+          "image": "img/pool/vr-ar-training.jpg",
+          "content": "全国31个省份已全部出台人工智能发展专项政策，根据各地产业基础和资源禀赋进行差异化布局。整体来看，形成了三大差异化发展路径：一是以内蒙古、贵州、甘肃为代表的算力枢纽型省份，依托清洁能源和气候优势建设大型智算中心；二是以北京、上海、深圳为代表的技术引领型城市，聚焦大模型研发和前沿技术突破；三是以浙江、江苏、广东为代表的应用驱动型省份，推动AI在制造业、服务业的深度融合。工信部表示，差异化布局避免了同质化竞争和资源浪费，各地应发挥比较优势，形成全国AI发展的协同效应。同时，跨省算力调度和数据流通机制正在建设中。",
+          "content_en": "All 31 provinces in China have issued AI development policies, with differentiated layouts based on local industrial bases and resource endowments. Overall, three differentiated development paths have formed: first, computing hub provinces represented by Inner Mongolia, Guizhou, and Gansu, leveraging clean energy and climate advantages to build large AI computing centers; second, technology-leading cities represented by Beijing, Shanghai, and Shenzhen, focusing on LLM R&D and frontier technology breakthroughs; third, application-driven provinces represented by Zhejiang, Jiangsu, and Guangdong, promoting deep AI integration in manufacturing and services. The Ministry of Industry and Information Technology stated that differentiated layout avoids homogeneous competition and resource waste, and each region should leverage comparative advantages to form a national AI development synergy. Cross-province computing scheduling and data circulation mechanisms are also under construction.",
+          "key_points": [
+            "31个省份全部出台AI发展专项政策",
+            "形成算力枢纽、技术引领、应用驱动三大路径",
+            "避免同质化竞争和资源浪费",
+            "跨省算力调度和数据流通机制在建",
+            "工信部强调发挥比较优势形成协同效应"
+          ],
+          "key_points_en": [
+            "All 31 provinces issued AI development policies",
+            "Three paths: computing hubs, tech leadership, application-driven",
+            "Avoids homogeneous competition and resource waste",
+            "Cross-province computing scheduling under construction",
+            "MIIT emphasizes leveraging comparative advantages for synergy"
+          ],
+          "url": "https://www.jintai.cn/"
+        }
+      ]
+    },
     {
       "date": "2026-06-23",
       "articles": [
@@ -1238,312 +1556,6 @@
             "Siri fully switches to Gemini",
             "Users choose between three models",
             "Apple becomes first choose your model consumer platform"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "hero": {
-        "title": "苹果WWDC 2026：Siri底层全面切换Gemini，AI助手进入「自选模型」时代",
-        "title_en": "Apple WWDC 2026: Siri Switches to Gemini, AI Assistants Enter 'Choose Your Own Model' Era",
-        "summary": "苹果WWDC 2026重磅宣布Siri底层AI引擎全面切换至Google Gemini，用户可在Gemini/ChatGPT/Claude三选一。苹果成为全球首个允许用户「自选模型」的消费级平台，标志着从「一款模型」到「模型商店」的范式转变。",
-        "summary_en": "Apple WWDC 2026 announces Siri's complete AI engine switch to Google Gemini, with users able to choose between Gemini, ChatGPT, and Claude. Apple becomes the first consumer platform to offer 'choose your own AI model,' marking a paradigm shift from 'one model' to 'model store.'",
-        "category": "AI应用",
-        "source": "CSDN / 36氪",
-        "source_en": "CSDN / 36Kr",
-        "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
-        "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=450&fit=crop",
-        "date": "2026-06-19",
-        "id": "hero-2026-06-19",
-        "content": "6月19日，苹果WWDC 2026正式发布Siri的重大战略转型——底层AI引擎全面切换至Google Gemini（1.2万亿参数）。\n\n用户可以在Gemini、ChatGPT、Claude三个顶级AI模型中自由选择，苹果成为全球首个允许用户「自选模型」的消费级平台。\n\nGemini作为Siri默认引擎，标志着苹果与Google的合作从搜索引擎延伸至AI领域。ChatGPT和Claude作为备选，用户可在设置中一键切换。\n\n这一改变意味着：消费级AI产品正式从「厂商绑定」走向「用户自主选择」，AI平台的「操作系统化」趋势加速。",
-        "content_en": "June 19, Apple WWDC 2026 officially announced Siri's major strategic transformation — the underlying AI engine fully switches to Google Gemini (1.2 trillion parameters).\n\nUsers can freely choose between three top-tier AI models: Gemini, ChatGPT, and Claude. Apple becomes the world's first consumer platform allowing users to 'choose their own model.'\n\nGemini as Siri's default engine marks Apple's partnership with Google extending from search engines to AI. ChatGPT and Claude serve as alternatives, switchable with one tap.\n\nThis change signifies: consumer AI products officially moving from 'vendor lock-in' to 'user autonomy,' and the 'operating system-ization' of AI platforms accelerates.",
-        "key_points": [
-          "Siri底层全面切换Gemini（1.2万亿参数）",
-          "用户可在Gemini/ChatGPT/Claude三选一",
-          "苹果成为首个允许「自选模型」的消费级平台",
-          "Gemini成为Siri默认引擎",
-          "AI产品从「厂商绑定」走向「用户自主选择」"
-        ],
-        "key_points_en": [
-          "Siri fully switches to Gemini (1.2 trillion parameters)",
-          "Users can choose between Gemini, ChatGPT, and Claude",
-          "Apple becomes first consumer platform with 'choose your own model'",
-          "Gemini becomes Siri's default engine",
-          "AI products shift from 'vendor lock-in' to 'user autonomy'"
-        ]
-      },
-      "articles": [
-        {
-          "title": "「AI教父」杨立昆警告：马斯克xAI已「失败」，行业或迎泡沫大爆炸",
-          "title_en": "AI Pioneer LeCun Warns: Musk's xAI 'Failed', Industry May Face Bubble Explosion",
-          "summary": "图灵奖得主、Meta首席AI科学家杨立昆在接受CNBC专访时直言xAI已是一次失败尝试，并警告全行业若不快速调整策略，AI估值泡沫将迎来集中出清。",
-          "summary_en": "Turing Award winner and Meta Chief AI Scientist Yann LeCun tells CNBC xAI has been a failed attempt, warning the entire industry faces concentrated bubble clearing without rapid strategic adjustment.",
-          "category": "AI应用",
-          "source": "华尔街见闻 / CNBC",
-          "source_en": "Wall Street CN / CNBC",
-          "url": "http://m.toutiao.com/group/7652749005348192814/",
-          "image": "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=800&h=450&fit=crop",
-          "date": "2026-06-19",
-          "id": "news-2026-06-19-1",
-          "content": "6月18日，杨立昆接受CNBC独家专访，抛出两大极具冲击力的观点：马斯克旗下xAI从底层发展逻辑上已经宣告失败；全行业AI企业若不快速调整经营策略，一轮大规模估值泡沫破裂或将到来。\n\n杨立昆指出xAI三大核心硬伤：核心创始团队集体出走、持续巨额亏损只能靠出租算力回血、产品竞争力长期落后同行。",
-          "content_en": "On June 18, LeCun gave an exclusive CNBC interview, delivering two highly impactful viewpoints: xAI has failed from its fundamental development logic; and without rapid operational strategy adjustment, the entire AI industry may face concentrated bubble clearing.",
-          "key_points": [
-            "杨立昆：xAI已是一次失败尝试",
-            "三大硬伤：人才流失、巨额亏损、产品竞争力断层",
-            "警告全行业：估值泡沫或将集中出清",
-            "仅存两条出路：涨价或裁员"
-          ],
-          "key_points_en": [
-            "LeCun: xAI has been a failed attempt",
-            "Three core issues: talent drain, massive losses, product competitiveness gap",
-            "Warning: AI valuation bubble may face concentrated clearing",
-            "Only two paths: raise prices or cut jobs"
-          ]
-        },
-        {
-          "title": "Google I/O 2026：Gemini 3.5 Flash速度提升4倍，AI Ultra降价60%",
-          "title_en": "Google I/O 2026: Gemini 3.5 Flash 4x Faster, AI Ultra Drops 60%",
-          "summary": "Google在I/O 2026上发布Gemini 3.5 Flash，速度提升4倍；AI Ultra订阅从250美元砍至100美元/月，直接对标ChatGPT Pro。",
-          "summary_en": "Google launches Gemini 3.5 Flash with 4x speed improvement at I/O 2026; AI Ultra subscription drops from $250 to $100/month, directly competing with ChatGPT Pro.",
-          "category": "大模型",
-          "source": "TechCrunch / The Verge",
-          "source_en": "TechCrunch / The Verge",
-          "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
-          "date": "2026-06-19",
-          "id": "news-2026-06-19-2",
-          "content": "Google I/O 2026开发者大会上，Google发布Gemini 3.5 Flash，相比上一代速度提升4倍，同时大幅降低延迟。\n\n同时，Google将AI Ultra订阅价格从250美元砍至100美元/月，直接对标OpenAI的ChatGPT Pro（200美元/月）。AI大模型的价格战持续升级。",
-          "content_en": "At Google I/O 2026, Google launched Gemini 3.5 Flash with 4x speed improvement over the previous generation while significantly reducing latency.\n\nMeanwhile, Google cut AI Ultra subscription from $250 to $100/month, directly competing with OpenAI's ChatGPT Pro ($200/month). The AI large model price war continues to escalate.",
-          "key_points": [
-            "Gemini 3.5 Flash速度提升4倍",
-            "AI Ultra从250美元降至100美元/月",
-            "直接对标ChatGPT Pro",
-            "AI大模型价格战持续"
-          ],
-          "key_points_en": [
-            "Gemini 3.5 Flash 4x speed improvement",
-            "AI Ultra drops from $250 to $100/month",
-            "Direct competition with ChatGPT Pro",
-            "AI LLM price war continues"
-          ]
-        },
-        {
-          "title": "OpenAI发布Dreaming记忆系统，ChatGPT更「懂你」了",
-          "title_en": "OpenAI Launches Dreaming Memory System, ChatGPT Knows You Better",
-          "summary": "OpenAI发布Dreaming记忆系统，ChatGPT可以在对话中主动学习和记住用户偏好，实现更个性化的交互体验。",
-          "summary_en": "OpenAI launches Dreaming memory system, enabling ChatGPT to actively learn and remember user preferences for more personalized interactions.",
-          "category": "大模型",
-          "source": "OpenAI官方 / TechCrunch",
-          "source_en": "OpenAI Official / TechCrunch",
-          "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
-          "image": "https://images.unsplash.com/photo-1531746790095-e5995aba4f58?w=800&h=450&fit=crop",
-          "date": "2026-06-19",
-          "id": "news-2026-06-19-3",
-          "content": "OpenAI在WWDC同期发布Dreaming记忆系统，这是一项让ChatGPT能够跨对话学习和记住用户偏好的技术创新。\n\n用户不再需要每次重复说明自己的需求和习惯，ChatGPT会主动学习和适应，提供更懂你的个性化服务。",
-          "content_en": "OpenAI launched the Dreaming memory system alongside WWDC, a technology enabling ChatGPT to learn and remember user preferences across conversations.\n\nUsers no longer need to repeat their needs and habits each time. ChatGPT will actively learn and adapt, providing more personalized service that truly understands you.",
-          "key_points": [
-            "Dreaming记忆系统发布",
-            "ChatGPT跨对话学习和记忆用户偏好",
-            "实现更个性化交互体验",
-            "用户无需每次重复说明需求"
-          ],
-          "key_points_en": [
-            "Dreaming memory system launched",
-            "ChatGPT learns and remembers user preferences across conversations",
-            "Enables more personalized interaction experience",
-            "Users no longer need to repeat needs each time"
-          ]
-        },
-        {
-          "title": "Anthropic收购Coefficient Bio，进军AI制药领域",
-          "title_en": "Anthropic Acquires Coefficient Bio, Enters AI Drug Discovery",
-          "summary": "Anthropic宣布收购生物科技公司Coefficient Bio，正式进军AI制药领域，Claude的能力将应用于药物研发流程。",
-          "summary_en": "Anthropic announces acquisition of biotech company Coefficient Bio, officially entering AI drug discovery, with Claude's capabilities to be applied in drug development.",
-          "category": "AI应用",
-          "source": "Anthropic官方 / Reuters",
-          "source_en": "Anthropic Official / Reuters",
-          "url": "https://blog.csdn.net/haohaizi_liu/article/details/162101475",
-          "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&h=450&fit=crop",
-          "date": "2026-06-19",
-          "id": "news-2026-06-19-4",
-          "content": "Anthropic宣布收购生物科技初创公司Coefficient Bio，标志着这家AI安全公司正式进军AI制药领域。\n\nCoefficient Bio专注于利用AI加速药物研发流程，Anthropic的Claude模型将被应用于蛋白质折叠预测、药物分子设计等关键环节。",
-          "content_en": "Anthropic announced the acquisition of biotech startup Coefficient Bio, marking the AI safety company's official entry into AI drug discovery.\n\nCoefficient Bio focuses on using AI to accelerate drug development processes. Anthropic's Claude model will be applied in protein folding prediction, drug molecule design, and other key stages.",
-          "key_points": [
-            "Anthropic收购Coefficient Bio",
-            "正式进军AI制药领域",
-            "Claude应用于蛋白质折叠预测",
-            "AI制药成新战场"
-          ],
-          "key_points_en": [
-            "Anthropic acquires Coefficient Bio",
-            "Officially enters AI drug discovery",
-            "Claude applied in protein folding prediction",
-            "AI drug discovery becomes new battlefield"
-          ]
-        },
-        {
-          "title": "费城半导体指数暴涨6.41%，英特尔股价创历史新高",
-          "title_en": "Philadelphia Semiconductor Index Surges 6.41%, Intel Hits All-Time High",
-          "summary": "受AI算力需求持续旺盛推动，费城半导体指数暴涨6.41%，英特尔股价飙升11%创历史新高。6月CPI升至4.2%，但油价回落缓解加息恐慌。",
-          "summary_en": "Driven by sustained strong AI computing demand, Philadelphia Semiconductor Index surges 6.41%, Intel stock soars 11% to all-time high. June CPI rises to 4.2%, but oil price decline eases rate hike fears.",
-          "category": "芯片算力",
-          "source": "华尔街见闻 / Reuters",
-          "source_en": "Wall Street CN / Reuters",
-          "url": "http://m.toutiao.com/group/7652878510234649123/",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=450&fit=crop",
-          "date": "2026-06-19",
-          "id": "news-2026-06-19-5",
-          "content": "费城半导体指数暴涨6.41%，英特尔领涨11%创历史新高。分析师指出，AI算力需求持续旺盛是推动半导体板块上涨的核心动力。\n\n6月CPI数据升至4.2%，但国际油价回落一定程度上缓解了市场对加息的担忧。",
-          "content_en": "Philadelphia Semiconductor Index surges 6.41%, with Intel leading the rally at 11% to hit an all-time high. Analysts point to sustained strong AI computing demand as the core driver for the semiconductor sector rally.\n\nJune CPI data rose to 4.2%, but declining international oil prices eased market concerns about interest rate hikes to some extent.",
-          "key_points": [
-            "费城半导体指数暴涨6.41%",
-            "英特尔股价飙升11%创历史新高",
-            "AI算力需求推动半导体板块",
-            "6月CPI升至4.2%"
-          ],
-          "key_points_en": [
-            "Philadelphia Semiconductor Index surges 6.41%",
-            "Intel soars 11% to all-time high",
-            "AI computing demand drives semiconductor sector",
-            "June CPI rises to 4.2%"
-          ]
-        },
-        {
-          "title": "智谱与MiniMax两级分化：「多智谱、空MiniMax」配对交易兴起",
-          "title_en": "Zhipu vs MiniMax Divergence: 'Long Zhipu, Short MiniMax' Pairs Trade Emerges",
-          "summary": "中国AI大模型赛道多空博弈加剧。智谱因盈利预期看好、定价能力强劲，股价大涨；MiniMax因降价导致评级下调，「多智谱、空MiniMax」配对交易成为华尔街新策略。",
-          "summary_en": "China AI LLM track long-short divergence intensifies. Zhipu surges on positive profit outlook and strong pricing power; MiniMax downgraded due to price cuts. 'Long Zhipu, Short MiniMax' pairs trade becomes Wall Street's new strategy.",
-          "category": "投融资",
-          "source": "华尔街见闻",
-          "source_en": "Wall Street CN",
-          "url": "http://m.toutiao.com/group/7652878510234649123/",
-          "image": "https://images.unsplash.com/photo-1553729459-6726b3ff858f?w=800&h=450&fit=crop",
-          "date": "2026-06-19",
-          "id": "news-2026-06-19-6",
-          "content": "中国AI大模型赛道出现明显分化。智谱因盈利预期改善、API定价能力强劲，股价持续上涨；而MiniMax因大幅降价导致利润空间压缩，评级遭到下调。\n\n华尔街开始流行「多智谱、空MiniMax」的配对交易策略，反映出市场对中国AI大模型商业化前景的分歧。",
-          "content_en": "China's AI LLM sector shows clear divergence. Zhipu continues rising on improved profit expectations and strong API pricing power; while MiniMax faces downgrades due to margin compression from aggressive price cuts.\n\nWall Street is embracing 'Long Zhipu, Short MiniMax' pairs trading strategy, reflecting market divergence on Chinese AI LLM commercialization prospects.",
-          "key_points": [
-            "智谱股价上涨，盈利预期改善",
-            "MiniMax因降价导致评级下调",
-            "「多智谱、空MiniMax」配对交易兴起",
-            "中国AI大模型商业化分歧加大"
-          ],
-          "key_points_en": [
-            "Zhipu stock rises, profit outlook improves",
-            "MiniMax downgraded due to price cuts",
-            "'Long Zhipu, Short MiniMax' pairs trade emerges",
-            "Chinese AI LLM commercialization divergence widens"
-          ]
-        },
-        {
-          "title": "AI独立完成首个重大科学发现，登上《自然》封面",
-          "title_en": "AI Completes First Major Scientific Discovery Independently, Featured on Nature Cover",
-          "summary": "AI首次独立完成重大科学发现登上《自然》封面——发现新型蛋白质折叠模式，有望用于治疗帕金森等神经退行性疾病。",
-          "summary_en": "AI completes first major scientific discovery independently, featured on Nature cover — discovering new protein folding patterns with potential for treating Parkinson's and other neurodegenerative diseases.",
-          "category": "大模型",
-          "source": "《自然》/ MIT Technology Review",
-          "source_en": "Nature / MIT Technology Review",
-          "url": "http://m.toutiao.com/group/7652791702918300201/",
-          "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&h=450&fit=crop",
-          "date": "2026-06-19",
-          "id": "news-2026-06-19-7",
-          "content": "一个AI研究团队宣布，其AI系统首次独立完成重大科学发现并发表在《自然》期刊上——发现了一种新型蛋白质折叠模式，这一发现有望用于开发治疗帕金森等神经退行性疾病的新方法。\n\n这是人类首次验证AI可以在无人主导的情况下完成重大科学突破，标志着AI科学家的角色正在发生根本性转变。",
-          "content_en": "An AI research team announced their AI system independently completed a major scientific discovery published in Nature — discovering a new protein folding pattern with potential for developing treatments for Parkinson's and other neurodegenerative diseases.\n\nThis is the first time humanity has verified that AI can complete major scientific breakthroughs without human leadership, marking a fundamental shift in the role of AI scientists.",
-          "key_points": [
-            "AI首次独立完成重大科学发现",
-            "发表在《自然》期刊封面",
-            "发现新型蛋白质折叠模式",
-            "有望用于治疗帕金森等疾病",
-            "标志AI科学家角色转变"
-          ],
-          "key_points_en": [
-            "AI completes first major scientific discovery independently",
-            "Featured on Nature journal cover",
-            "Discovers new protein folding pattern",
-            "Potential for treating Parkinson's and other diseases",
-            "Marks fundamental shift in AI scientist role"
-          ]
-        },
-        {
-          "title": "MiniMax稀疏注意力机制实现百万Token近线性计算",
-          "title_en": "MiniMax Sparse Attention Achieves Near-Linear Computation for 1M Tokens",
-          "summary": "MiniMax发布技术创新，其稀疏注意力机制实现百万Token上下文近线性计算复杂度，大幅降低长文本处理成本。",
-          "summary_en": "MiniMax releases technological innovation — sparse attention mechanism achieves near-linear computational complexity for 1 million token context, significantly reducing long-text processing costs.",
-          "category": "大模型",
-          "source": "MiniMax官方 / 36氪",
-          "source_en": "MiniMax Official / 36Kr",
-          "url": "http://m.toutiao.com/group/7652791702918300201/",
-          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=450&fit=crop",
-          "date": "2026-06-19",
-          "id": "news-2026-06-19-8",
-          "content": "MiniMax发布技术创新成果，其稀疏注意力机制实现了百万Token上下文近线性计算复杂度突破。\n\n这意味着处理超长文档的成本将大幅降低，为长文本分析、长程推理等应用场景扫清障碍。",
-          "content_en": "MiniMax released technological innovation results — its sparse attention mechanism achieved near-linear computational complexity breakthrough for 1 million token context.\n\nThis means processing ultra-long documents will be significantly cheaper, clearing obstacles for long-text analysis and long-horizon reasoning application scenarios.",
-          "key_points": [
-            "MiniMax稀疏注意力机制突破",
-            "百万Token近线性计算",
-            "大幅降低长文本处理成本",
-            "长程推理应用获益"
-          ],
-          "key_points_en": [
-            "MiniMax sparse attention mechanism breakthrough",
-            "Near-linear computation for 1M tokens",
-            "Significantly reduces long-text processing costs",
-            "Long-horizon reasoning applications benefit"
-          ]
-        },
-        {
-          "title": "陆家嘴论坛：科创板扩容覆盖AI全产业链",
-          "title_en": "Lujiazui Forum: STAR Market Expansion Covers Full AI Industry Chain",
-          "summary": "2026陆家嘴论坛传来重磅信号，科创板第五套上市标准已覆盖AI全产业链，从芯片到应用的全链条企业均可登陆资本市场。",
-          "summary_en": "Major signal from 2026 Lujiazui Forum — STAR Market fifth listing standard now covers full AI industry chain, from chips to applications.",
-          "category": "政策监管",
-          "source": "财新网 / 第一财经",
-          "source_en": "Caixin / Yicai",
-          "url": "http://m.toutiao.com/group/7652878510234649123/",
-          "image": "https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?w=800&h=450&fit=crop",
-          "date": "2026-06-19",
-          "id": "news-2026-06-19-9",
-          "content": "2026陆家嘴论坛传来重磅信号，证监会正式确认科创板第五套上市标准已扩展至AI全产业链。\n\n这意味着从底层芯片、算力基础设施、大模型研发到行业应用，整个AI产业链的企业均可享受科创板第五套标准的便利，境内AI企业上市通道彻底打开。",
-          "content_en": "Major signal from 2026 Lujiazui Forum — CSRC officially confirmed STAR Market fifth listing standard expanded to cover full AI industry chain.\n\nThis means companies across the entire AI industry chain — from underlying chips and computing infrastructure to LLM R&D and industry applications — can all enjoy STAR Market fifth standard conveniences. Domestic AI company listing channels are fully opened.",
-          "key_points": [
-            "科创板第五套标准覆盖AI全产业链",
-            "芯片到应用全链条企业均可上市",
-            "境内AI企业上市通道彻底打开",
-            "AI资本市场利好持续"
-          ],
-          "key_points_en": [
-            "STAR Market fifth standard covers full AI industry chain",
-            "Companies from chips to applications can all IPO",
-            "Domestic AI company listing channels fully opened",
-            "AI capital market benefits continue"
-          ]
-        },
-        {
-          "title": "商务部等八部门发文：17项举措推进「人工智能+消费」",
-          "title_en": "8 Ministries Issue 17 Measures to Promote 'AI + Consumption'",
-          "summary": "商务部等八部门发布《关于加快「人工智能+消费」发展的实施意见》，提出17项举措促进AI走进千家万户、进千商万店。",
-          "summary_en": "Ministry of Commerce and 7 other departments issue 'Implementation Opinions on Accelerating AI + Consumption Development,' proposing 17 measures to promote AI into thousands of households and businesses.",
-          "category": "政策监管",
-          "source": "商务部官方网站",
-          "source_en": "Ministry of Commerce Official",
-          "url": "http://m.toutiao.com/group/7652876076078678568/",
-          "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=450&fit=crop",
-          "date": "2026-06-19",
-          "id": "news-2026-06-19-10",
-          "content": "商务部等八部门6月18日发布《关于加快「人工智能+消费」发展的实施意见》，围绕提升AI+商品消费、发展AI+服务消费、培育AI消费新业态等五方面提出17项举措。\n\n政策明确要推动智能终端供给、人形机器人及全场景生态发展，覆盖养老、文旅等五大服务场景。",
-          "content_en": "Ministry of Commerce and 7 other departments issued 'Implementation Opinions on Accelerating AI + Consumption Development' on June 18, proposing 17 measures across five areas including AI+ product consumption, AI+ service consumption, and new AI consumption formats.\n\nThe policy explicitly promotes intelligent terminal supply, humanoid robots and full-scenario ecosystem development, covering elderly care, cultural tourism, and four other service scenarios.",
-          "key_points": [
-            "八部门联合发布17项AI+消费举措",
-            "推动智能终端和人形机器人发展",
-            "覆盖养老、文旅等五大服务场景",
-            "AI走进千家万户政策加码"
-          ],
-          "key_points_en": [
-            "8 departments jointly issue 17 AI + consumption measures",
-            "Promote intelligent terminals and humanoid robots",
-            "Cover elderly care, cultural tourism, four other service scenarios",
-            "Policy intensifies to bring AI into thousands of households"
           ]
         }
       ]
