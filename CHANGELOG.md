@@ -4,6 +4,66 @@
 
 ---
 
+## 2026-06-26 06:35 — 图片池 batch3 补图
+
+### 新增
+- `data/image-pool.json`：池容量 150 → 184（+34 张 Agnes v3 图片）
+- `img/pool/*-v3.jpg`：34 张新图，覆盖弱类别
+  - startup ×5（pitch/yc-batch/unicorn/product-launch/cofounders）
+  - llm ×5（multimodal/finetune/context-window/rag/evaluation）
+  - investment ×4（ai-fund/ipo/mergers/portfolio）
+  - opensource ×4（github-stars/huggingface/contribution/foundation）
+  - robotics ×3（humanoid/factory/surgery）
+  - autonomous ×3（robotaxi/truck/drone）
+  - blockchain ×3（defi/nft-ai/zk-proof）
+  - chips ×2（tpu/edge-ai，wafer 失败待重跑）
+  - policy ×1（eu-ai-act，export-control 失败待重跑）
+  - healthcare ×2（imaging/genomics）
+  - education ×2（ai-tutor/coding-camp）
+
+### 失败 / 待办
+- 2 张图生成失败（HTTP 返回空内容，0 字节文件已清理）：
+  - `chips-wafer-v3.jpg`
+  - `policy-export-control-v3.jpg`
+- 失败率 5.6%（≤ 15% 阈值），下次补图时重跑失败项即可
+
+### 部署
+- Git commit: `749958c`
+- Cloudflare 部署：`https://36e2de39.ainewsdaily.pages.dev` → ainewsdaily.asia
+
+### 当前余量
+- 池总量 184 张，已用 121 张，**可用余量 63 张**（其中 v3 新批次 34 张全部未使用）
+
+---
+
+## 2026-06-27 — 6月27日每日更新（预写）
+
+### 新增
+- 6月27日新闻10条 + hero（开源大模型中国新平衡为主题）
+- 深度文章 `article-26.html`：《开源大模型的中国新平衡：GLM-5.2登顶与DeepSeek 510亿的产业共振》（产业分析方向）
+- `articles/en/article-26.html`：英文版同步上线
+- `articles/en/article-24.html`：补 article-24 标准命名英文版（Agentic AI Era）
+- `wechat/wechat-2026-06-27.html`：微信图文版《梁文锋的「扩招」：DeepSeek 融资 72 小时后，一封「全员招聘」邮件砸向中国 AI 圈》（人物故事方向，含原创声明，9 table/50 td 全 border:none）
+- `toutiao/toutiao-2026-06-27.md`：头条版《AI Agent 走入深水区：40% 企业应用即将嵌入智能体，你的岗位还剩几年？》（热点趋势方向）
+- 新闻覆盖：Jalapeño 后续报道 / 黄仁勋股东大会 / DeepSeek 扩招 / GLM-5.2 登顶 / 招商银行 330 亿 Token / Gemini 与 GPT-5.6 推迟 / 豆包专业版定价 / Anthropic Tom Brown / 美团 VitaBench 2.0 / MWC 与链博会具身智能
+
+### 修改
+- `data/news.json`：新增6月27日，保留最近5天（27/26/25/24/23）
+- `data/articles.json`：新增 article-26 元数据，修复 article-24 url_en 路径（article-24-en.html → article-24.html）
+- `index.html`：侧边栏 sidebar-article-link 更新为 26/25/24，article-23 下沉到 rec-item
+- `data/used-images.json`：追加 12 张本次使用图片，总已用 129 张
+
+### 部署
+- Git commit: `440f700`
+- Cloudflare 部署：`https://99ddb355.ainewsdaily.pages.dev` → ainewsdaily.asia
+
+### 累计进度
+- 深度文章：26 篇（article-1 至 article-26，article-13 跳号，实际 25 条记录），全部已有中英文双语版本
+- AdSense 门槛已达标
+- 图片池余量：29 张 ⚠️（已低于 40 张告警线，建议尽快补充）
+
+---
+
 ## 2026-06-20 — 6月20日每日更新
 
 ### 新增
@@ -389,3 +449,9 @@
 - 网站深度文章：16篇（含article-16待发布）
 - 微信公众号：10篇（含待发布）
 - 头条文章：7篇（含待发布）
+
+## 2026-06-26 06:05 - 修复侧边栏深度好文样式
+- 补充 css/style.css 中 .sidebar-article-link / .sidebar-article-date / .sidebar-article-title 三个类的样式定义（此前漏写导致三条标题挤在一起）
+- 卡片式布局：日期色块徽章 + 标题2行截断，hover 时左边线变紫、整卡右移
+- Commit: 6e4e38c
+- 预览: https://f9cd5190.ainewsdaily.pages.dev
