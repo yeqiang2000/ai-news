@@ -770,6 +770,59 @@ button {
     transform: translateX(4px);
 }
 
+/* 深度好文 - 侧边栏文章链接 */
+.sidebar-article-link {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 14px;
+    background: var(--bg-card);
+    border-radius: var(--radius-md);
+    transition: var(--transition-fast);
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-article-link:last-of-type {
+    margin-bottom: 16px;
+}
+
+.sidebar-article-link:hover {
+    background: var(--bg-card-hover);
+    transform: translateX(4px);
+    border-left-color: var(--accent-primary);
+}
+
+.sidebar-article-date {
+    flex-shrink: 0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--accent-primary);
+    background: rgba(99, 102, 241, 0.1);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    line-height: 1.2;
+    min-width: 38px;
+    text-align: center;
+}
+
+.sidebar-article-title {
+    flex: 1;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.sidebar-article-link:hover .sidebar-article-title {
+    color: var(--accent-primary);
+}
+
 .rec-icon {
     font-size: 1.25rem;
     flex-shrink: 0;
