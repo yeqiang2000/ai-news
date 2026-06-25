@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-06-26",
+  "last_updated": "2026-06-27",
   "used_urls": [
     "img/pool/robotics-factory.jpg",
     "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop",
@@ -118,6 +118,18 @@
     "img/pool/datacenter-ai-chip.jpg",
     "img/pool/chip-wafer.jpg",
     "img/pool/investment-vc-ai.jpg",
-    "img/pool/ai-customer-service.jpg"
+    "img/pool/ai-customer-service.jpg",
+    "img/pool/chip-design.jpg",
+    "img/pool/chip-ai-accelerator.jpg",
+    "img/pool/chip-packaging.jpg",
+    "img/pool/startup-ai-demo.jpg",
+    "img/pool/opensource-ai-framework.jpg",
+    "img/pool/ai-fintech.jpg",
+    "img/pool/llm-reasoning.jpg",
+    "img/pool/ai-code-assist.jpg",
+    "img/pool/policy-ai-safety.jpg",
+    "img/pool/ai-legal-assistant.jpg",
+    "img/pool/robotics-logistics.jpg",
+    "img/pool/llm-code-gen.jpg"
   ]
 }

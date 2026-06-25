@@ -1,6 +1,304 @@
 {
-  "last_updated": "2026-06-26T08:00:00+08:00",
+  "last_updated": "2026-06-27",
   "days": [
+    {
+      "date": "2026-06-27",
+      "hero": {
+        "id": "hero-2026-06-27",
+        "title": "自研芯片浪潮重塑 AI 算力版图：从 OpenAI Jalapeño 到全球 ASIC 战国时代",
+        "title_en": "Custom Silicon Wave Reshapes AI Compute: From OpenAI Jalapeño to a Global ASIC Era",
+        "image": "img/pool/chip-design.jpg",
+        "date": "2026-06-27",
+        "source": "综合编译",
+        "source_en": "AI News Daily Editorial",
+        "summary": "OpenAI 联手博通发布首颗自研推理芯片 Jalapeño，叠加黄仁勋在年度股东大会上对 Vera Rubin 与 Blackwell 路线的全新表态，标志着头部模型公司与超算厂商之间的「算力议价权」正在重新分配。一边是云厂商和模型公司加速 ASIC 化，一边是英伟达坚守 CUDA 生态护城河，AI 行业进入一个由「定制 + 通用」并存的新基础设施时代。",
+        "summary_en": "OpenAI's Jalapeño inference ASIC—co-designed with Broadcom—and Jensen Huang's annual shareholder remarks on Vera Rubin and Blackwell signal a redistribution of compute pricing power between top model labs and supercomputing vendors. Model companies and hyperscalers are accelerating ASIC adoption while NVIDIA defends its CUDA moat, ushering AI into a new dual-track infrastructure era of custom and general-purpose silicon.",
+        "category": "芯片算力",
+        "category_en": "Chips & Computing"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-06-27",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing",
+          "title": "OpenAI 与博通联合发布首颗自研 AI 推理芯片 Jalapeño，9 个月完成流片",
+          "title_en": "OpenAI and Broadcom Unveil Jalapeño, First Custom Inference Chip Taped Out in 9 Months",
+          "summary": "当地时间 6 月 24 日，OpenAI 与博通正式发布定制 ASIC「Jalapeño」，专为大模型推理设计；OpenAI 负责架构，博通负责流片与网络硬件，Celestica 提供板卡与机架，工程样片已运行 GPT-5.3、Codex 和 Spark，2026 年底前进入首次部署。",
+          "summary_en": "OpenAI and Broadcom officially announced Jalapeño on June 24, a custom ASIC purpose-built for LLM inference. OpenAI led architecture, Broadcom handled silicon implementation and networking hardware, while Celestica integrated boards and racks. Engineering samples are already running GPT-5.3, Codex and Spark, with first deployment slated before end of 2026.",
+          "source": "OpenAI 官网 / 第一财经",
+          "source_en": "OpenAI Newsroom / Yicai",
+          "image": "img/pool/chip-ai-accelerator.jpg",
+          "content": "OpenAI 与博通联合宣布推出 Jalapeño 芯片，这是 OpenAI 历史上首款定制 AI 推理 ASIC，从设计到流片仅用 9 个月。OpenAI 在公告中强调，Jalapeño 是其「多代计算平台」的第一步，2026 年底前完成首次部署，并将在未来几年持续扩展。早期实验室测试显示，Jalapeño 在量产目标频率与功耗下，每瓦性能将「优于当前最先进水平」。OpenAI 与博通的分工是：OpenAI 主导底层架构，博通负责硅片实现与网络硬件，加拿大电子制造商 Celestica 完成板卡和机架集成。值得一提的是，OpenAI 在芯片设计过程中复用了自家大模型进行 EDA 加速，被业内形容为「用 AI 来设计跑 AI 的芯片」。",
+          "content_en": "OpenAI and Broadcom jointly announced Jalapeño, OpenAI's first custom AI inference ASIC, taken from concept to tape-out in just 9 months. OpenAI calls Jalapeño the first step of its multi-generation compute platform, with initial deployment scheduled before the end of 2026 and continued expansion in the years to come. Early lab tests indicate Jalapeño's per-watt performance, at target production frequency and power, will exceed today's state of the art. OpenAI led architecture design, Broadcom handled silicon implementation and networking hardware, and Canadian electronics manufacturer Celestica integrated boards and racks. Notably, OpenAI used its own models to accelerate EDA workflows during chip design—an approach the industry calls 'using AI to design chips that run AI.'",
+          "key_points": [
+            "Jalapeño 是 OpenAI 历史上首颗自研推理 ASIC",
+            "从立项到流片仅 9 个月，已运行 GPT-5.3、Codex 与 Spark",
+            "2026 年底前完成首次部署，未来多代持续扩展",
+            "每瓦性能官方称「优于当前最先进水平」"
+          ],
+          "key_points_en": [
+            "Jalapeño is OpenAI's first in-house inference ASIC",
+            "Only 9 months from concept to tape-out, already running GPT-5.3, Codex and Spark",
+            "First deployment before end of 2026, multi-generation roadmap",
+            "Per-watt performance claimed to exceed current state of the art"
+          ],
+          "url": "https://openai.com/zh-Hans-CN/news/?display=list"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-06-27",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing",
+          "title": "黄仁勋股东大会：Blackwell 是「推理之王」，Vera CPU 专属智能体",
+          "title_en": "Jensen Huang at Annual Meeting: Blackwell Is the King of Inference, Vera CPU Built for Agents",
+          "summary": "6 月 24 日英伟达召开年度股东大会，黄仁勋全面阐述 AI 基础设施扩张蓝图：2026 财年营收 2160 亿美元、增长 65%，数据中心收入 1940 亿美元、增长 68%；计划未来将 50% 或更多自由现金流返还股东，并宣称智能体时代将带来 60 年来最大规模的行业重置。",
+          "summary_en": "At NVIDIA's annual shareholder meeting on June 24, Jensen Huang detailed his AI infrastructure thesis: FY2026 revenue $216B (up 65%), data center revenue $194B (up 68%). NVIDIA plans to return 50% or more of free cash flow to shareholders and frames the coming agent era as the biggest industry reset in 60 years.",
+          "source": "凤凰网科技 / 第一财经",
+          "source_en": "Ifeng Tech / Yicai",
+          "image": "img/pool/chip-packaging.jpg",
+          "content": "黄仁勋在英伟达年度股东大会上「自夸」三大产品：Blackwell 是「推理之王」、Vera CPU 是智能体专属、CUDA 是不可逾越的生态护城河。他披露 2026 财年营收 2160 亿美元（同比 +65%）、数据中心收入 1940 亿美元（+68%），经营现金流 1030 亿美元，向股东返还 410 亿美元；同时承诺未来将 50% 或更多自由现金流通过回购与股息返还股东。面对市场对 AI 资本开支可持续性的疑虑，他表示「有用的 AI」已经到来、能赚钱，市场对投资回报率「已有答案」，并预测智能体时代将引发 60 年来规模最大的计算范式转移。",
+          "content_en": "At NVIDIA's annual shareholder meeting, Jensen Huang spotlighted three pillars: Blackwell as 'king of inference,' Vera CPU as the dedicated agent silicon, and CUDA as the unbreachable ecosystem moat. He disclosed FY2026 revenue of $216B (up 65% YoY), data center revenue of $194B (up 68%), $103B in operating cash flow and $41B returned to shareholders. NVIDIA plans to return at least 50% of future free cash flow via buybacks and dividends. Addressing concerns about the sustainability of AI capex, Huang argued that 'useful AI' has arrived and is already monetizing, calling the agent era the largest computing paradigm shift in 60 years.",
+          "key_points": [
+            "FY2026 营收 2160 亿美元、同比增长 65%",
+            "数据中心收入 1940 亿美元、占比超 80%",
+            "承诺返还 50%+ 自由现金流给股东",
+            "认为智能体时代将是 60 年最大计算范式转移"
+          ],
+          "key_points_en": [
+            "FY2026 revenue $216B, up 65% YoY",
+            "Data center revenue $194B, over 80% of total",
+            "Pledges 50%+ free cash flow return to shareholders",
+            "Calls the agent era the biggest compute paradigm shift in 60 years"
+          ],
+          "url": "https://tech.ifeng.com/c/8uF8cXv4qZd"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-06-27",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "DeepSeek 完成 510 亿元 A 轮融资后官宣全员扩招，所有部门规模翻倍",
+          "title_en": "DeepSeek Launches Company-Wide Doubling After 51 Billion Yuan Series A",
+          "summary": "6 月 25 日晚 9:35，DeepSeek 在官方公众号发布历年最大规模的招聘公告，覆盖算法、AI 核心系统、运维、产品、模型数据策略、深度学习研究员、职能等 7 大类、33 个岗位，所有部门规模至少扩大一倍，工作地点为北京、杭州。",
+          "summary_en": "On June 25 at 9:35 PM, DeepSeek published its largest hiring announcement ever, covering 33 roles across 7 categories—algorithms, AI core systems, ops, product, model data strategy, deep learning research, and corporate functions. All departments will at least double, with offices in Beijing and Hangzhou.",
+          "source": "新京报 / 财联社",
+          "source_en": "Beijing News / CLS",
+          "image": "img/pool/startup-ai-demo.jpg",
+          "content": "DeepSeek 于 6 月 25 日晚发布历年最大规模招聘信息，宣布「寻找闪亮发光的你」，将所有部门规模扩大至少一倍。这是继其 6 月初完成约 510 亿元人民币 A 轮融资、估值突破 520 亿美元之后的最重要动作。招聘覆盖 7 大类、33 个岗位，包含算法、AI 核心系统研发、运维、产品、模型数据策略、深度学习研究员（含 Frontier 持续学习 / 自进化 / 新范式方向），以及 HR、行政等职能团队，所有岗位均接受实习。「我们从来不寻找天才。只要你有自身闪亮发光的地方，你就是我们要寻找的人。」公告中的这句话短时间内引爆社交网络，半小时阅读量近 10 万。",
+          "content_en": "DeepSeek released its largest-ever hiring drive on the evening of June 25, declaring it is 'looking for those who shine.' All departments will at least double—the most significant move since its roughly 51 billion yuan Series A round in early June, which valued the company above $52B. The recruitment spans 7 categories and 33 roles, covering algorithms, AI core systems, ops, product, model data strategy, deep learning researchers (including Frontier directions—continual learning, self-evolution, new paradigms), plus HR and corporate functions. Every role accepts interns. Its tagline 'We don't look for geniuses—if you shine in your own way, we want you' went viral within minutes.",
+          "key_points": [
+            "所有部门规模至少扩大一倍",
+            "覆盖 7 大类、33 个岗位，含 Frontier 研究员",
+            "工作地点北京、杭州，所有岗位接受实习",
+            "继 510 亿元 A 轮融资后最重要动作"
+          ],
+          "key_points_en": [
+            "Every department to at least double in size",
+            "33 roles across 7 categories, including Frontier researchers",
+            "Beijing and Hangzhou offices, all roles open to interns",
+            "Most significant move since the 51 billion yuan Series A"
+          ],
+          "url": "https://m.bjnews.com.cn/detail/1782401607129154.html"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-06-27",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "Z.ai 发布 GLM-5.2 登顶开源模型榜首，IndexShare 架构让百万上下文成本下降 2.9 倍",
+          "title_en": "Z.ai's GLM-5.2 Tops Open-Source Ranking; IndexShare Cuts Million-Token Compute 2.9×",
+          "summary": "Z.ai 推出 7530 亿参数 MoE 模型 GLM-5.2，激活约 400 亿参数，原生百万 token 上下文，在 Artificial Analysis Intelligence Index v4.1 上以 51 分位列全球第一开源模型，6 月 16 日已在 Hugging Face 以 MIT 协议开源。",
+          "summary_en": "Z.ai unveiled GLM-5.2, a 753-billion-parameter MoE model with ~40B active parameters and a native 1M token context. It ranked #1 among open-weight models on Artificial Analysis Intelligence Index v4.1 with a score of 51. Open weights are available on Hugging Face under the MIT license since June 16.",
+          "source": "Toutiao 阿尔法智能",
+          "source_en": "Toutiao Alpha Intelligence",
+          "image": "img/pool/opensource-ai-framework.jpg",
+          "content": "GLM-5.2 是 Z.ai 推出的混合专家模型，总参数 7530 亿、每 token 激活约 400 亿，上下文窗口从 GLM-5.1 的 20 万扩展到 100 万。在独立评测 Artificial Analysis Intelligence Index v4.1 中以 51 分登顶开源榜，领先 MiniMax-M3、DeepSeek V4 Pro（均 44 分）与 Kimi K2.6（43 分）。架构创新「IndexShare」让稀疏注意力四层共享一个轻量级索引器，把百万上下文的 FLOPs 减少 2.9 倍，配合 MTP 投机解码可再提高约 20% 接受长度。Z.ai 将其定位为代理式编程工具，并在 Code Arena WebDev 上紧追 Claude Fable 5 位列第二。完整权重 1.51 TB，本地部署需要约 256 GB 内存，硬件门槛仍然偏高。",
+          "content_en": "GLM-5.2 is Z.ai's Mixture-of-Experts flagship, with 753B total parameters and roughly 40B active per token, expanding context from GLM-5.1's 200K to 1M tokens. In the independent Artificial Analysis Intelligence Index v4.1 it leads all open-weight models with a score of 51, ahead of MiniMax-M3, DeepSeek V4 Pro (both 44) and Kimi K2.6 (43). Its IndexShare innovation shares one lightweight indexer across four sparse attention layers, cutting per-token FLOPs at 1M context by 2.9×, while MTP speculative decoding boosts acceptance length by up to 20%. Z.ai positions GLM-5.2 as an agentic coding tool; on Code Arena WebDev it ranks second, trailing only Claude Fable 5. Full weights are 1.51 TB and local deployment still requires roughly 256 GB of memory.",
+          "key_points": [
+            "MoE 总参数 7530 亿，激活约 400 亿",
+            "原生百万 token 上下文，AAI v4.1 开源第一",
+            "IndexShare 把百万上下文 FLOPs 降 2.9×",
+            "MIT 协议开源，部署门槛 256 GB 内存"
+          ],
+          "key_points_en": [
+            "753B-parameter MoE with ~40B active per token",
+            "Native 1M-token context, #1 open-weight on AAI v4.1",
+            "IndexShare cuts FLOPs at 1M context by 2.9×",
+            "MIT-licensed weights, ~256GB RAM to run locally"
+          ],
+          "url": "http://m.toutiao.com/group/7655388229390123535/"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-06-27",
+          "category": "AI 应用",
+          "category_en": "AI Applications",
+          "title": "招商银行股东大会披露大模型账本：日均 330 亿 Token，AI 与人力工时比逼近 1:9",
+          "title_en": "China Merchants Bank Reveals 33 Billion Daily Tokens, AI-to-Human Hours Ratio Nears 1:9",
+          "summary": "招商银行 6 月 25 日股东大会上，副行长周天虹披露：截至 2026 年 5 月底，AI 处理业务与人工实际投入工时比从 2025 年底的 1:13 提升到接近 1:9；日均 Token 消耗 330 亿，零售场景的 AI 投入产出比达到 1:5（投入 20 赚 100）。",
+          "summary_en": "At China Merchants Bank's annual meeting on June 25, EVP Zhou Tianhong disclosed that as of end-May 2026 the bank's AI-to-human work-hour ratio improved to nearly 1:9 (from 1:13 at end-2025), with 33 billion daily token consumption and an ROI of roughly 1:5 in retail scenarios.",
+          "source": "招商银行 / 扣子新闻",
+          "source_en": "CMB Disclosure / Coze News",
+          "image": "img/pool/ai-fintech.jpg",
+          "content": "在国内银行业最早系统披露大模型成本与收益的招商银行 6 月 25 日股东大会上，副行长周天虹给出一份「大模型账本」：AI 处理业务对应的工时与人类员工实际投入工时的比值，已从 2025 年底的 1:13 提升至 2026 年 5 月底的接近 1:9，其中零售领域改善尤为显著。在成本侧，招行已在科技条线建立成本核算体系，全行大模型日均消耗 Token 约 330 亿；测算显示典型场景下 AI 投入与产出比约 1:5——「投 20 赚 100」。「我们不追求最炫的模型，追求能够稳定承载真实业务流的模型组合。」周天虹强调，招行将继续在零售、风控与运营三大场景深化大模型应用，并稳步扩展到对公领域。",
+          "content_en": "At the June 25 annual meeting, CMB EVP Zhou Tianhong shared one of the first detailed LLM cost-benefit disclosures from a Chinese bank. The AI-to-human work-hour ratio rose from 1:13 at end-2025 to nearly 1:9 by end-May 2026, with retail seeing the biggest gain. On cost, CMB now consumes about 33 billion tokens per day across the bank, and typical scenarios show roughly a 1:5 ROI—'put in 20, earn 100.' 'We don't chase the flashiest model; we chase the model mix that can reliably carry real business flows,' Zhou said, signaling continued depth in retail, risk control and operations, with a measured expansion to corporate banking.",
+          "key_points": [
+            "AI 与人力工时比从 1:13 升至 1:9",
+            "全行日均消耗 Token 约 330 亿",
+            "典型场景 AI 投入产出比 1:5",
+            "零售场景效果最显著，继续向对公扩展"
+          ],
+          "key_points_en": [
+            "AI-to-human hours ratio improves from 1:13 to ~1:9",
+            "Bank-wide daily token usage ~33 billion",
+            "Typical scenario AI ROI ~1:5",
+            "Retail leads gains, expansion into corporate banking next"
+          ],
+          "url": "https://www.coze.cn/share-article/201782408599498080"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-06-27",
+          "category": "大模型",
+          "category_en": "LLM",
+          "title": "谷歌 Gemini 3.5 Pro 推迟至 7 月，OpenAI GPT-5.6 同步延期",
+          "title_en": "Google Delays Gemini 3.5 Pro to July, OpenAI's GPT-5.6 Slips Too",
+          "summary": "谷歌 DeepMind 因对模型现状不满，取消了 Gemini 3.5 Pro 原定 6 月底发布计划，推迟至 7 月；几乎同期，OpenAI 也将 GPT-5.6 正式版推迟至 7 月中旬，但新一代双向语音模型 Bidi 的内测准备仍在 ChatGPT 平台推进。",
+          "summary_en": "Google DeepMind pulled the planned end-of-June launch of Gemini 3.5 Pro, citing dissatisfaction with the current model and pushing it to July. Around the same time, OpenAI delayed GPT-5.6's general release to mid-July, while its new bi-directional voice model Bidi continues internal testing in ChatGPT.",
+          "source": "扣子新闻",
+          "source_en": "Coze News",
+          "image": "img/pool/llm-reasoning.jpg",
+          "content": "原定 6 月底的两大旗舰模型「双线发布周」被同步推迟。谷歌 DeepMind 取消了 Gemini 3.5 Pro 的 6 月发布计划，将其推后至 7 月——内部对模型表现尚不满意，仍需进一步打磨；几乎同期，知名科技博主爆料 OpenAI 将 GPT-5.6 推迟至 7 月中旬。此前 OpenAI 曾确认 GPT-5.6 的发布窗口在 6 月 22-28 日，更曾以 150 万 token 上下文、Playwright 浏览器自动化、SVG 3D 生成等能力为卖点。同期，OpenAI 在 ChatGPT 内推进新一代双向语音模型 Bidi 的内测准备，最快 7 月可见雏形。两家头部模型公司的延期，使智谱 GLM-5.2、Anthropic Claude Sonnet-5 等开源/闭源新选手获得更多舆论空间。",
+          "content_en": "What was supposed to be a frontier-model double-launch in late June has been pushed out. Google DeepMind canceled Gemini 3.5 Pro's June release, deferring it to July—internally the team is not satisfied with current performance. Almost simultaneously, prominent tech bloggers report that OpenAI has delayed GPT-5.6's launch to mid-July; the model had previously been positioned with a 1.5M-token context, native Playwright browser automation and SVG 3D generation. OpenAI is meanwhile preparing internal testing of Bidi, its next-generation bi-directional voice model in ChatGPT, with an early build potentially visible in July. The dual delay leaves more oxygen for open and closed-weight challengers including Zhipu's GLM-5.2 and Anthropic's Claude Sonnet-5.",
+          "key_points": [
+            "Gemini 3.5 Pro 从 6 月推迟至 7 月",
+            "GPT-5.6 推迟至 7 月中旬",
+            "OpenAI 同步内测双向语音模型 Bidi",
+            "为 GLM-5.2、Claude Sonnet-5 等留出窗口"
+          ],
+          "key_points_en": [
+            "Gemini 3.5 Pro slips from June to July",
+            "GPT-5.6 delayed to mid-July",
+            "OpenAI internally testing Bidi voice model",
+            "Opens room for GLM-5.2 and Claude Sonnet-5"
+          ],
+          "url": "https://www.coze.cn/share-article/201782327126300544"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-06-27",
+          "category": "AI 应用",
+          "category_en": "AI Applications",
+          "title": "字节豆包专业版正式上线，三级订阅最高 5088 元/年",
+          "title_en": "ByteDance's Doubao Pro Goes Live with Three-Tier Pricing Up to 5,088 Yuan/Year",
+          "summary": "字节跳动 6 月 24 日正式上线豆包专业版，采用三级订阅：标准版 68 元/月、加强版 200 元/月、高级版 500 元/月，对应年度最高 5088 元；底层依托新一代豆包 2.1 系列大模型，主打复杂办公与生产力场景。",
+          "summary_en": "ByteDance officially launched Doubao Pro on June 24 with a three-tier subscription: Standard 68 yuan/month, Plus 200, Premium 500—up to 5,088 yuan annually. It is powered by the new Doubao 2.1 model family and targets complex productivity workloads.",
+          "source": "每日经济新闻",
+          "source_en": "National Business Daily",
+          "image": "img/pool/ai-code-assist.jpg",
+          "content": "字节跳动 6 月 24 日正式发布豆包专业版，让此前喧嚣多日的豆包付费靴子终于落地。专业版基于刚刚发布的豆包 2.1 系列大模型（含 Pro、Turbo、Seedance 2.5 视频生成等），面向复杂办公和生产力场景：复杂分析、长文档处理、办公任务模式等。三级订阅价格分别为 68 元、200 元、500 元/月，连续包年最高 5088 元，对应额度依次翻倍；免费用户也能体验由豆包 2.1 Turbo 驱动的办公任务模式。同期火山引擎宣布豆包大模型 2.1 Pro 每百万 Token 输入价格 6 元，正面对标 DeepSeek V4-Pro 与 GLM-5.2，掀开中国大模型 To C 与 To B 价格战的新一幕。",
+          "content_en": "ByteDance officially launched Doubao Pro on June 24, ending months of speculation about its consumer paywall. The Pro tier sits on the freshly released Doubao 2.1 model family (Pro, Turbo, Seedance 2.5 video, etc.) and targets complex office and productivity workloads—analysis, long-document reasoning and an office task mode. Subscriptions are tiered at 68, 200 and 500 yuan/month (up to 5,088 yuan/year), with quotas doubling at each tier. Free users still get the office task mode powered by Doubao 2.1 Turbo. Volcano Engine also priced Doubao 2.1 Pro at 6 yuan per million input tokens, taking direct aim at DeepSeek V4-Pro and GLM-5.2 and lighting up a new front in China's LLM price war across both consumer and enterprise.",
+          "key_points": [
+            "三级订阅 68/200/500 元/月，年度最高 5088 元",
+            "底层为豆包 2.1 系列含 Seedance 2.5 视频生成",
+            "免费用户保留豆包 2.1 Turbo 办公任务模式",
+            "API 每百万输入 6 元，加码大模型价格战"
+          ],
+          "key_points_en": [
+            "Three tiers at 68/200/500 yuan/month, up to 5,088 yuan/year",
+            "Powered by Doubao 2.1 family incl. Seedance 2.5 video",
+            "Free users keep Doubao 2.1 Turbo office task mode",
+            "API at 6 yuan per million input tokens, escalating price war"
+          ],
+          "url": "http://m.toutiao.com/group/7654809762516714026/"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-06-27",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "Anthropic 换联合创始人 Tom Brown 对接美政府，Fable 5 解禁谈判重启",
+          "title_en": "Anthropic Swaps in Co-Founder Tom Brown to Talk to Washington, Fable 5 Re-Approval Restarts",
+          "summary": "Wired 6 月 25 日报道，Anthropic 已让联合创始人 Tom Brown 取代 CEO Dario Amodei 与白宫对接，双方就 Claude Fable 5 解禁重启谈判；美国此前以「越狱风险」为由于 6 月 12 日强制下线 Fable 5 与 Mythos 5。",
+          "summary_en": "Wired reported on June 25 that Anthropic has replaced CEO Dario Amodei with co-founder Tom Brown as the company's main interface with the White House. Talks on lifting the ban of Claude Fable 5 have restarted after the U.S. forced the model offline on June 12 over jailbreak risks.",
+          "source": "Wired / IT之家",
+          "source_en": "Wired / IThome",
+          "image": "img/pool/policy-ai-safety.jpg",
+          "content": "Wired 6 月 25 日援引多位知情人士报道，特朗普政府近期与 Anthropic 的沟通顺畅了不少：双方已重启 Claude Fable 5 大模型重新上线的会谈，由 Anthropic 联合创始人 Tom Brown 取代 CEO Dario Amodei 出席。「Tom 不像 Dario 那样难以沟通，能真正坐下来务实交流。」一位直接参与通话的知情人士称。美方此前以「存在绕过模型安全护栏、解锁 Mythos 高阶能力的破解手段」为由，于 6 月 12 日强制下线 Fable 5 与 Mythos 5；直到今日，出口管制仍未解除。双方会谈分为高层会晤与工作组技术对接两层，部分议题聚焦 Anthropic 需要提交何种等级的安全验证材料，才能打消政府对越狱风险的担忧。重新上线的具体时间尚未确定。",
+          "content_en": "Citing multiple insiders, Wired reported on June 25 that the Trump administration's dialogue with Anthropic has become 'noticeably smoother' after co-founder Tom Brown replaced CEO Dario Amodei as the company's lead interlocutor on Claude Fable 5's re-approval. 'Tom is not as hard to talk to as Dario—he actually sits down for pragmatic conversation,' said one source. Washington had forced Fable 5 and Mythos 5 offline on June 12, citing techniques that could bypass safety guardrails and unlock Mythos's higher-tier capabilities; export controls remain in place. Talks are now split between executive sessions and working-group technical exchanges, focused in part on the level of safety evidence Anthropic must provide to ease jailbreak concerns. A re-launch date has not yet been set.",
+          "key_points": [
+            "联合创始人 Tom Brown 取代 CEO 对接美政府",
+            "Fable 5 与 Mythos 5 自 6 月 12 日被强制下线",
+            "工作组聚焦安全验证材料等级",
+            "重新上线时间仍未确定"
+          ],
+          "key_points_en": [
+            "Co-founder Tom Brown replaces CEO in Washington talks",
+            "Fable 5 and Mythos 5 offline since June 12",
+            "Working groups focus on level of safety evidence required",
+            "Re-launch date still undecided"
+          ],
+          "url": "https://tech.ifeng.com/c/8uF8cXv4qZd"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-06-27",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "美团开源 VitaBench 2.0：首个面向长期动态用户建模的智能体评测基准",
+          "title_en": "Meituan Open-Sources VitaBench 2.0, First Benchmark for Long-Horizon Dynamic Agents",
+          "summary": "美团 LongCat 团队 6 月 25 日开源 VitaBench 2.0，以外卖点餐、餐厅就餐、旅游出行三大高频场景为载体，构建 66 个工具的交互式评测环境，系统性评测大模型在长期、真实、动态用户互动中的个性化与主动性能力。",
+          "summary_en": "Meituan's LongCat team open-sourced VitaBench 2.0 on June 25—a benchmark that uses three high-frequency life scenarios (food delivery, dine-in and travel) to build an interactive environment with 66 tools, systematically evaluating LLMs on personalization and initiative across long-running, real-world user interactions.",
+          "source": "美团 LongCat / 扣子新闻",
+          "source_en": "Meituan LongCat / Coze News",
+          "image": "img/pool/ai-legal-assistant.jpg",
+          "content": "美团 LongCat 团队 6 月 25 日发布并开源 VitaBench 2.0，这是首个面向长期动态用户建模、基于真实生活场景的智能体评测基准。VitaBench 2.0 以外卖点餐、餐厅就餐、旅游出行三大高频生活场景为载体，构建了一个包含 66 个工具的交互式评测环境，覆盖商品检索、菜单查询、预订、点餐、行程规划等典型动作。基准聚焦三类能力：长期记忆与偏好建模、主动性（在用户尚未表达需求时给出合理推荐）、以及在动态变化（库存、价格、天气等）下的稳健决策。美团方面表示，未来将把更多本地生活场景纳入基准，并与社区共建标准化的智能体落地评估方法论。",
+          "content_en": "Meituan's LongCat team released and open-sourced VitaBench 2.0 on June 25—the first benchmark explicitly designed for long-horizon dynamic user modeling in real-life scenarios. VitaBench 2.0 uses three high-frequency settings—food delivery, dine-in and travel—to build an interactive evaluation environment with 66 tools spanning product search, menus, reservations, ordering and itinerary planning. It evaluates three capabilities: long-term memory and preference modeling, initiative (offering reasonable recommendations before users articulate them), and robust decision-making under dynamic changes such as stock, price and weather. Meituan plans to add more local-service scenarios and co-develop a standardized methodology for evaluating production-grade agents with the community.",
+          "key_points": [
+            "首个面向长期动态用户建模的智能体基准",
+            "覆盖外卖、餐厅、旅游 3 大高频生活场景",
+            "构建 66 个工具的交互式评测环境",
+            "聚焦长期记忆、主动性与动态决策"
+          ],
+          "key_points_en": [
+            "First benchmark for long-horizon dynamic user modeling",
+            "Covers food delivery, dine-in and travel scenarios",
+            "Interactive environment with 66 tools",
+            "Focuses on memory, initiative and dynamic decision making"
+          ],
+          "url": "https://www.coze.cn/share-article/201782389126677408"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-06-27",
+          "category": "AI 应用",
+          "category_en": "AI Applications",
+          "title": "链博会与 MWC 上海同台亮相具身智能：2026 年国内人形机器人交付目标 5 万台",
+          "title_en": "China Supply Chain Expo and MWC Shanghai Showcase Embodied AI; Domestic Humanoid Target Hits 50K Units in 2026",
+          "summary": "6 月 24-26 日的 MWC 上海 2026 与链博会同步开张，具身智能成为最高曝光赛道：摩根士丹利上调国内人形机器人 2026 年交付目标至 5 万台，IDC 上调全球出货预期至 4.2 万台、同比 +133%；电子皮肤、视触觉传感器等核心部件首次实现万套级量产。",
+          "summary_en": "MWC Shanghai 2026 and the China Supply Chain Expo, running June 24-26, both spotlight embodied AI. Morgan Stanley raised its 2026 humanoid robot delivery target in China to 50,000 units, while IDC lifted global shipments to 42,000 (up 133% YoY). Core parts such as e-skin and visuo-tactile sensors crossed the 10,000-unit mark for the first time.",
+          "source": "新华网 / 央视财经",
+          "source_en": "Xinhuanet / CCTV Finance",
+          "image": "img/pool/robotics-logistics.jpg",
+          "content": "6 月 24-26 日，MWC 上海 2026 与第三届链博会同步开幕，具身智能成为最高密度赛道。MWC 现场首次举行「人形机器人点球大战」，8 组机器人完成两天淘汰赛；链博会则展出从核心零部件、整机系统到场景应用的完整产业闭环。摩根士丹利在 5 月发布的报告中将国内 2026 年人形机器人交付目标上调至 5 万台，IDC 同步将全球出货预期上调至 4.2 万台、同比 +133%。在国内市场，电子皮肤、视触觉传感器等关键部件正在跨过万套级量产门槛——华威科 6 月披露电子皮肤累计发货突破 1 万套，年内有望进入 5 万台年级别交付。云深处科技、特斯拉 Optimus、优必选 Walker、小米 CyberOne、波士顿动力 Atlas 等四巨头同台亮相，分别从工业、物流、特种场景切入，预示具身智能从「实验室演示」全面切换到「商用部署」。",
+          "content_en": "From June 24 to 26, MWC Shanghai 2026 and the third China Supply Chain Expo opened in parallel, with embodied AI taking center stage. MWC hosted its first 'humanoid robot penalty shootout' with eight teams competing over two days, while the supply chain expo presented a full loop from core components and integrated robots to real-world applications. Morgan Stanley raised its 2026 China humanoid delivery target to 50,000 units in May; IDC lifted its global shipment outlook to 42,000 units, up 133% YoY. Domestically, key parts—e-skin, visuo-tactile sensors—are crossing the 10,000-unit threshold for the first time; Wahweo disclosed cumulative e-skin shipments past 10,000 in June, on track for an annualized 50,000-unit run rate. Four leaders—Tesla Optimus, UBTech Walker, Xiaomi CyberOne, Boston Dynamics Atlas—plus China's DeepRobotics shared the stage, each targeting industrial, logistics or specialty deployments. The industry is shifting decisively from lab demos to commercial deployment.",
+          "key_points": [
+            "MWC 与链博会双展同步开张",
+            "国内 2026 年交付目标上调至 5 万台",
+            "全球出货预期 4.2 万台、同比 +133%",
+            "电子皮肤等核心部件跨过万套级量产门槛"
+          ],
+          "key_points_en": [
+            "MWC Shanghai and China Supply Chain Expo opened in parallel",
+            "China 2026 delivery target lifted to 50,000 units",
+            "Global shipments expected at 42,000, up 133% YoY",
+            "Core parts like e-skin cross 10,000-unit mass-production threshold"
+          ],
+          "url": "http://www.xinhuanet.com/tech/20260625/7817b117e0cc43b7a6e221410e554fcd/c.html"
+        }
+      ]
+    },
     {
       "date": "2026-06-26",
       "articles": [
@@ -1287,359 +1585,6 @@
         ],
         "url": "https://36kr.com/p/3858456995452167"
       }
-    },
-    {
-      "date": "2026-06-22",
-      "date_cn": "2026年6月22日",
-      "date_short": "6月22日",
-      "day_name": "星期一",
-      "hero": {
-        "id": "hero-20260622",
-        "title": "DeepSeek完成74亿美元A轮融资：史上最大中国AI单轮融资诞生",
-        "image": "img/pool/startup-team.jpg",
-        "source": "36氪/钛媒体",
-        "source_en": "36Kr / Ti Media",
-        "summary": "DeepSeek完成成立以来首轮外部融资，总金额超过74亿美元，投后估值520-590亿美元，创始人梁文锋个人出资28亿美元跟投，保持绝对控制权。这是中国AI行业迄今为止最大的单轮融资。",
-        "summary_en": "DeepSeek completed its first external funding round of over $7.4 billion, with a post-money valuation of $520-590 billion. Founder Liang Wenfeng personally invested $2.8 billion to maintain control. This is the largest single funding round in China's AI industry history.",
-        "category": "AI应用",
-        "title_en": "DeepSeek Raises $7.4B in Largest Ever Chinese AI Funding Round",
-        "key_points": [
-          "创始人绝对控制权设计：外部投资者仅获经济权益、无投票权",
-          "估值对标Anthropic，达国际一线水平",
-          "资金用途指向算力基础设施建设和人才招募",
-          "梁文锋跟投28亿美元彰显信心"
-        ],
-        "date": "2026-06-22",
-        "url": "https://finance.sina.com.cn/roll/2026-06-17/doc-inicuuqc2283796.shtml",
-        "content": "DeepSeek完成成立以来首轮外部融资，总金额超过74亿美元，投后估值达520-590亿美元。本轮融资由腾讯领投约100亿元，宁德时代出资50亿元，网易、京东各30亿元。创始人梁文锋个人出资约28亿美元跟投，外部投资者仅获经济权益、不享有投票权。这一融资规模创下中国AI行业史上最大单轮融资纪录，估值已接近国际一线AI公司水平。\n\n本轮融资采用独特的「有限合伙控制结构」：投资者资金注入梁文锋管理的有限合伙平台，股权设有五年锁定期。这一架构设计确保创始团队保持绝对控制权，体现了资本市场对DeepSeek技术路线的高度认可。\n\n融资资金将主要用于算力基础设施建设和大模型人才招募。DeepSeek此前以「价格屠夫」著称，API价格比OpenAI便宜一半还多。完成融资后，如何平衡投资人回报预期与低价策略将是一大看点。",
-        "content_en": "DeepSeek completed its first external funding round of over $7.4 billion, reaching a post-money valuation of $520-590 billion. This round was led by Tencent (~10B yuan), with CATL investing ~5B yuan, and NetEase and JD.com each investing ~3B yuan. Founder Liang Wenfeng personally invested ~2.8 billion to maintain absolute control, as external investors received economic rights only without voting rights.\n\nThis funding sets a record for the largest single funding round in China's AI industry, with valuation approaching international top-tier AI companies. The funding will primarily be used for computing infrastructure and talent recruitment.",
-        "key_points_en": [
-          "Record $7.4B funding round, largest in China AI history",
-          "Tencent leads, CATL and NetEase among major investors",
-          "Founder maintains absolute control through unique structure",
-          "Valuation approaches international AI leaders like Anthropic",
-          "Funds targeting computing infrastructure and talent"
-        ]
-      },
-      "articles": [
-        {
-          "id": "hero-20260622",
-          "type": "hero",
-          "category": "AI应用",
-          "title": "DeepSeek完成74亿美元A轮融资：史上最大中国AI单轮融资诞生",
-          "summary": "DeepSeek完成成立以来首轮外部融资，总金额超过74亿美元，投后估值520-590亿美元，创始人梁文锋个人出资28亿美元跟投，保持绝对控制权。这是中国AI行业迄今为止最大的单轮融资。",
-          "source": "36氪/钛媒体",
-          "title_en": "DeepSeek Raises $7.4B in Largest Ever Chinese AI Funding Round",
-          "summary_en": "DeepSeek completed its first external funding round of over $7.4 billion, with a post-money valuation of $520-590 billion. Founder Liang Wenfeng personally invested $2.8 billion to maintain control. This is the largest single funding round in China's AI industry history.",
-          "source_en": "36Kr / Ti Media",
-          "key_points": [
-            "创始人绝对控制权设计：外部投资者仅获经济权益、无投票权",
-            "估值对标Anthropic，达国际一线水平",
-            "资金用途指向算力基础设施建设和人才招募",
-            "梁文锋跟投28亿美元彰显信心"
-          ],
-          "image": "img/pool/ai-healthcare.jpg",
-          "url": "https://finance.sina.com.cn/roll/2026-06-17/doc-inicuuqc2283796.shtml",
-          "date": "2026-06-22",
-          "content": "DeepSeek完成成立以来首轮外部融资，总金额超过74亿美元，投后估值达520-590亿美元。本轮融资由腾讯领投约100亿元，宁德时代出资50亿元，网易、京东各30亿元。创始人梁文锋个人出资约28亿美元跟投，外部投资者仅获经济权益、不享有投票权。这一融资规模创下中国AI行业史上最大单轮融资纪录，估值已接近国际一线AI公司水平。\n\n本轮融资采用独特的「有限合伙控制结构」：投资者资金注入梁文锋管理的有限合伙平台，股权设有五年锁定期。这一架构设计确保创始团队保持绝对控制权，体现了资本市场对DeepSeek技术路线的高度认可。\n\n融资资金将主要用于算力基础设施建设和大模型人才招募。DeepSeek此前以「价格屠夫」著称，API价格比OpenAI便宜一半还多。完成融资后，如何平衡投资人回报预期与低价策略将是一大看点。",
-          "content_en": "DeepSeek completed its first external funding round of over $7.4 billion, reaching a post-money valuation of $520-590 billion. This round was led by Tencent (~10B yuan), with CATL investing ~5B yuan, and NetEase and JD.com each investing ~3B yuan. Founder Liang Wenfeng personally invested ~2.8 billion to maintain absolute control, as external investors received economic rights only without voting rights.\n\nThis funding sets a record for the largest single funding round in China's AI industry, with valuation approaching international top-tier AI companies. The funding will primarily be used for computing infrastructure and talent recruitment.",
-          "key_points_en": [
-            "Record $7.4B funding round, largest in China AI history",
-            "Tencent leads, CATL and NetEase among major investors",
-            "Founder maintains absolute control through unique structure",
-            "Valuation approaches international AI leaders like Anthropic",
-            "Funds targeting computing infrastructure and talent"
-          ]
-        },
-        {
-          "id": "news-20260622-1",
-          "type": "normal",
-          "category": "大模型",
-          "title": "ChatGPT市场份额首次跌破50%，多强格局正式成型",
-          "summary": "第三方数据显示，ChatGPT全球用户市场份额降至46.4%，为2023年1月上线以来首次跌破50%。谷歌Gemini占比升至27.7%，Anthropic Claude占10.3%，行业从一家独大转向多强竞争。",
-          "source": "Sensor Tower",
-          "title_en": "ChatGPT Market Share Drops Below 50% for First Time, Multi-Player Era Begins",
-          "summary_en": "ChatGPT's global user market share dropped to 46.4%, the first time below 50% since its launch in January 2023. Google Gemini reached 27.7%, Anthropic Claude held 10.3%, marking a shift from monopoly to multi-player competition.",
-          "source_en": "Sensor Tower",
-          "key_points": [
-            "ChatGPT份额从近60%降至46.4%，6个月下滑约2个百分点/月",
-            "Gemini同期增长近10个百分点",
-            "用户开始在不同场景使用不同模型"
-          ],
-          "image": "img/pool/quantum-computing.jpg",
-          "url": "https://www.sensorTower.com",
-          "date": "2026-06-22",
-          "content": "第三方数据显示，ChatGPT全球用户市场份额首次跌破50%关口，降至46.4%。这是自2023年1月ChatGPT上线以来的首次跌破50%大关。与此同时，谷歌Gemini市场份额快速攀升至27.7%，Anthropic Claude占据10.3%，其他AI产品合计占15.6%。\n\n市场格局正从「一家独大」转向「多强竞争」。过去6个月，ChatGPT份额每月下滑约2个百分点，而Gemini同期增长近10个百分点。用户开始根据不同场景选择不同模型：日常对话偏好ChatGPT，编程任务倾向Claude，复杂推理则选择Gemini。\n\n分析认为，多模型竞争格局将成常态，AI平台的用户粘性将更多取决于生态丰富度和垂直场景的深耕程度。",
-          "content_en": "Third-party data shows ChatGPT's global user market share dropped below 50% for the first time since its January 2023 launch, falling to 46.4%. Meanwhile, Google Gemini rapidly grew to 27.7%, with Anthropic Claude holding 10.3%. The market is shifting from 'one dominant player' to 'multi-player competition'.\n\nOver the past six months, ChatGPT lost approximately 2 percentage points monthly while Gemini gained nearly 10 points. Users are increasingly choosing different models for different scenarios, with AI platforms focusing on ecosystem richness and vertical depth.",
-          "key_points_en": [
-            "ChatGPT market share drops to 46.4%, first time below 50%",
-            "Gemini surges to 27.7% market share",
-            "Claude holds 10.3% in third place",
-            "Market shifts from monopoly to multi-player era",
-            "Users increasingly use different models for different scenarios"
-          ]
-        },
-        {
-          "id": "news-20260622-2",
-          "type": "normal",
-          "category": "大模型",
-          "title": "智谱AI开源GLM-5.2：MIT许可+超越GPT-5.5的编程能力",
-          "summary": "智谱AI发布GLM-5.2，采用MIT极宽松许可证，在编程效率测评中以62.1%超越GPT-5.5的58.6%。具备100万Token上下文处理能力，成为全球开源权重模型新标杆。",
-          "source": "Artificial Analysis",
-          "title_en": "Zhipu AI Open-Sources GLM-5.2: MIT License + Beats GPT-5.5 in Coding",
-          "summary_en": "Zhipu AI released GLM-5.2 under MIT license, scoring 62.1% on SWE-bench Pro vs GPT-5.5's 58.6%. With 1M token context window, it becomes the new benchmark for open-weight models globally.",
-          "source_en": "Artificial Analysis",
-          "key_points": [
-            "MIT许可完全免费商用",
-            "编程能力SWE-bench Pro 62.1% vs GPT-5.5 58.6%",
-            "100万Token无损上下文",
-            "开源阵营首次超越同级闭源模型"
-          ],
-          "image": "img/pool/autonomous-vehicle.jpg",
-          "url": "https://www.zhipuai.cn/zh/research/161",
-          "date": "2026-06-22",
-          "content": "智谱AI发布并开源GLM-5.2大模型，采用MIT极宽松许可证，完全免费商用。在Artificial Analysis综合榜单上取得51分，与Anthropic、OpenAI共同位居前三，成为开源模型新标杆。在全球百万用户盲测的Code Arena评测中，GLM-5.2位列全球可用模型第一。\n\nGLM-5.2核心突破在于实现真正可用的100万Token无损上下文，可自主完成从开发、联调、测试到打包上线的完整软件交付流程，数小时产出一个覆盖网页端、移动端与小程序的多端应用。在编程能力测评SWE-bench Pro中以62.1%超越GPT-5.5的58.6%，在长程任务基准FrontierSWE上与Claude Opus 4.8差距缩窄至1%。\n\n发布当日即完成与华为昇腾、平头哥、摩尔线程、寒武纪、昆仑芯、沐曦、海光、壁仞等8个国产算力平台的Day0适配。开源策略和国产算力协同，使GLM-5.2成为国产大模型追赶国际前沿的里程碑。",
-          "content_en": "Zhipu AI released and open-sourced GLM-5.2 under MIT license, completely free for commercial use. Scoring 51 points on Artificial Analysis comprehensive ranking, it ranks among the top three globally alongside Anthropic and OpenAI, becoming the new benchmark for open-source models. In Code Arena blind testing, GLM-5.2 ranked first among all available models globally.\n\nThe core breakthrough is its truly usable 1 million token lossless context window, enabling autonomous completion of full software delivery from development to deployment. It scored 62.1% on SWE-bench Pro, surpassing GPT-5.5's 58.6%.",
-          "key_points_en": [
-            "MIT license for completely free commercial use",
-            "Ranks among top 3 globally on Artificial Analysis",
-            "1M token lossless context for long-horizon tasks",
-            "Coding ability 62.1% on SWE-bench Pro, beats GPT-5.5",
-            "Day 0 adaptation with 8 domestic AI chip platforms"
-          ]
-        },
-        {
-          "id": "news-20260622-3",
-          "type": "normal",
-          "category": "AI应用",
-          "title": "诺奖得主John Jumper从谷歌DeepMind离职，加入Anthropic",
-          "summary": "2024年诺贝尔化学奖得主、AlphaFold核心领导者John Jumper宣布离开谷歌DeepMind，加入Anthropic。48小时内，谷歌先后失去基础架构和AI for Science领域最具标杆性的两位科学家。",
-          "source": "红星新闻/The Decoder",
-          "title_en": "Nobel Laureate John Jumper Leaves Google DeepMind for Anthropic",
-          "summary_en": "2024 Nobel Chemistry laureate and AlphaFold co-creator John Jumper announced his departure from Google DeepMind to join Anthropic. Within 48 hours, Google lost two of its most iconic scientists.",
-          "source_en": "Red Star News / The Decoder",
-          "key_points": [
-            "John Jumper因AlphaFold获2024年诺贝尔化学奖",
-            "AlphaFold已预测超2亿种蛋白质结构",
-            "与Noam Shazeer两天内相继离职"
-          ],
-          "image": "img/pool/vr-technology.jpg",
-          "url": "https://36kr.com/p/3860814933660674",
-          "date": "2026-06-22",
-          "content": "2024年诺贝尔化学奖得主、AlphaFold核心缔造者John Jumper宣布离开谷歌DeepMind，加入Anthropic。Jumper与DeepMind首席执行官Demis Hassabis共同创建了AlphaFold系统，将蛋白质结构预测准确率提升至平均90%，攻克了困扰生物学界50年的难题。\n\nAlphaFold目前已预测超过2亿种蛋白质结构，被190多个国家的超过200万名科研人员使用，在疟疾疫苗、癌症治疗、抗药菌研究等领域发挥重要作用。Jumper也因此成为70年来最年轻的化学诺奖得主之一。\n\n值得注意的是，就在两天前，Transformer核心作者、谷歌Gemini联合负责人Noam Shazeer也已宣布离开谷歌加入OpenAI。短短48小时内，谷歌AI连续失去两位核心科学家，引发业界对谷歌AI战略的广泛讨论。",
-          "content_en": "2024 Nobel Chemistry laureate and AlphaFold co-creator John Jumper announced his departure from Google DeepMind to join Anthropic. Jumper and DeepMind CEO Demis Hassabis created AlphaFold, which achieved average 90% accuracy in protein structure prediction, solving a 50-year biology challenge.\n\nAlphaFold has predicted over 200 million protein structures, used by over 2 million researchers in 190+ countries. Notably, just two days earlier, Transformer co-author and Gemini co-lead Noam Shazeer also left Google for OpenAI. Within 48 hours, Google lost two core scientists, sparking industry-wide discussions about Google's AI strategy.",
-          "key_points_en": [
-            "John Jumper won 2024 Nobel Chemistry for AlphaFold",
-            "AlphaFold predicted over 200 million protein structures",
-            "Jumper becomes 70-year youngest chemistry laureate",
-            "Google loses two top scientists in 48 hours",
-            "Jumper joins Anthropic, Shazeer joins OpenAI"
-          ]
-        },
-        {
-          "id": "news-20260622-4",
-          "type": "normal",
-          "category": "大模型",
-          "title": "Transformer之父Noam Shazeer加入OpenAI，担任架构研究负责人",
-          "summary": "2017年《Attention Is All You Need》核心作者、谷歌Gemini联合负责人Noam Shazeer宣布加入OpenAI，出任架构研究负责人。OpenAI现集结两位Transformer原始作者。",
-          "source": "36氪",
-          "title_en": "Transformer Co-Creator Noam Shazeer Joins OpenAI as Head of Architecture Research",
-          "summary_en": "Noam Shazeer, co-author of the seminal 'Attention Is All You Need' paper and Google Gemini co-lead, announced joining OpenAI as Head of Architecture Research. OpenAI now has two original Transformer authors on board.",
-          "source_en": "36Kr",
-          "key_points": [
-            "Transformer论文8位作者之一",
-            "曾在2021年创办Character.AI",
-            "谷歌2024年27亿美元回购",
-            "Sam Altman表示等了10年"
-          ],
-          "image": "img/pool/green-energy.jpg",
-          "url": "https://blog.csdn.net/techforward/article/details/162104715",
-          "date": "2026-06-22",
-          "content": "Transformer核心作者、谷歌Gemini联合负责人Noam Shazeer宣布加入OpenAI，担任架构研究负责人。Shazeer是2017年经典论文《Attention Is All You Need》的核心作者之一，该论文首次提出Transformer架构，奠定了GPT系列、Gemini、Claude等现代大模型的技术基础。\n\nShazeer此前于2021年离开谷歌创办Character.AI，2024年谷歌以27亿美元技术许可协议将其请回。回归后他出任Gemini技术掌舵人，推动Gemini 3登顶多项排行榜。但不到两年，Shazeer再次选择离开。\n\nOpenAI首席执行官Sam Altman表示，Shazeer是他从OpenAI创立之初就最想合作的研究员之一。OpenAI现已汇聚两位Transformer原始作者——Lukasz Kaiser五年前已加入，此次Shazeer的加入将使OpenAI在下一代AI架构研究上具备独特优势。",
-          "content_en": "Transformer co-author and Google Gemini co-lead Noam Shazeer announced joining OpenAI as Head of Architecture Research. Shazeer was a core author of the seminal 2017 paper 'Attention Is All You Need' that introduced the Transformer architecture, which underlies all modern LLMs.\n\nShazeer previously left Google in 2021 to found Character.AI, which Google brought him back for $2.7 billion in 2024. After leading Gemini's technical direction and pushing Gemini 3 to top rankings, he chose to leave again within two years.",
-          "key_points_en": [
-            "Shazeer co-authored original Transformer paper in 2017",
-            "Founded Character.AI in 2021, Google bought back for $2.7B in 2024",
-            "Led Gemini technical direction, helped achieve top rankings",
-            "OpenAI CEO Altman: 'Most wanted to work with since founding'",
-            "OpenAI now has two original Transformer authors on board"
-          ]
-        },
-        {
-          "id": "news-20260622-5",
-          "type": "normal",
-          "category": "芯片算力",
-          "title": "字节跳动拟采购5万颗国产AI芯片，算力自主化提速",
-          "summary": "字节跳动与天数智芯讨论采购至少5万颗AI推理芯片，同时与寒武纪等国产芯片厂商合作。科创芯片设计指数应声涨超4%，国产算力产业链全面受益。",
-          "source": "36氪/港交所",
-          "title_en": "ByteDance Plans to Purchase 50,000 Domestic AI Chips, Accelerating Self-Sufficiency",
-          "summary_en": "ByteDance is negotiating to purchase at least 50,000 AI inference chips from天数智芯 while partnering with Cambricon and other domestic chip makers. The STAR Chip Design Index rose over 4%.",
-          "source_en": "36Kr / HKEX",
-          "key_points": [
-            "采购天数智芯5万颗推理GPU",
-            "字节跳动发布自建数据中心综合测试服务供应商征询",
-            "国产芯片占比持续提升",
-            "算力自主可控成战略重点"
-          ],
-          "image": "img/pool/5g-tower.jpg",
-          "url": "http://m.toutiao.com/group/7652334642468635172/",
-          "date": "2026-06-22",
-          "content": "据行业消息，字节跳动正与天数智芯讨论采购至少5万颗AI芯片，主要用于大模型推理负载。若交易达成，天数智芯将成为华为和寒武纪之后，字节跳动的第三家GPU供应商。\n\n字节跳动明确采用「训练+推理」双轨芯片供应链：大模型预训练采用华为昇腾、寒武纪高端训练卡；海量C端推理则引入天数智芯智铠系列等专用推理GPU。这一策略旨在分散供应风险、获取更优采购价格，并满足不同业务场景的算力需求。\n\n科创芯片设计指数应声涨超4%，寒武纪股价创历史新高。分析认为，在AI推理需求爆发的背景下，国产推理芯片正迎来规模化部署窗口，互联网大厂的多供应商策略将加速这一进程。",
-          "content_en": "According to industry sources, ByteDance is negotiating with天数智芯 to purchase at least 50,000 AI chips, primarily for LLM inference workloads. If the deal closes,天数智芯 will become ByteDance's third GPU supplier after Huawei and Cambricon.\n\nByteDance has adopted a dual-track chip supply strategy: large model pre-training uses Huawei Ascend and Cambricon high-end training chips, while massive C-end inference introduces天数智芯's 智铠 series specialized inference GPUs. The STAR Chip Design Index rose over 4%, with Cambricon hitting record highs.",
-          "key_points_en": [
-            "ByteDance negotiating to purchase 50,000 AI chips from天数智芯",
-            "Daysi Zhixin becomes third GPU supplier after Huawei and Cambricon",
-            "Dual-track strategy: training vs inference chip supply chains",
-            "STAR Chip Design Index rises over 4% on news",
-            "Domestic inference chips entering large-scale deployment window"
-          ]
-        },
-        {
-          "id": "news-20260622-6",
-          "type": "normal",
-          "category": "产业",
-          "title": "摩根大通上调2030年AI基建预测至5.5万亿美元",
-          "summary": "摩根大通最新报告将2030年全球AI基础设施建设总投入预测上调至5.5万亿美元，较去年增加4000亿美元。其中约4.1万亿美元将来自债务融资，科技公司资产负债表将被AI基建深刻改变。",
-          "source": "摩根大通研究",
-          "title_en": "JPMorgan Raises 2030 AI Infrastructure Forecast to $5.5 Trillion",
-          "summary_en": "JPMorgan raised its 2030 global AI infrastructure investment forecast to $5.5 trillion, up $400 billion from last year. About $4.1 trillion will come from debt financing, profoundly reshaping tech balance sheets.",
-          "source_en": "JPMorgan Research",
-          "key_points": [
-            "5.5万亿美元相当于2025年德国全年GDP",
-            "约4.1万亿来自债务融资",
-            "需求先于供给是最大区别",
-            "AI应用商业化速度成关键变量"
-          ],
-          "image": "img/pool/factory-automation.jpg",
-          "url": "http://m.toutiao.com/group/7652280625231921679/",
-          "date": "2026-06-22",
-          "content": "摩根大通最新报告将2030年全球AI基础设施建设总投入预测上调至5.5万亿美元，较去年11月的预测增加4000亿美元。报告指出，其中约4.1万亿美元将来自债务融资，占比约74%，反映出市场预期科技公司将以更大比例的借入资金覆盖支出。\n\n报告分析，AI基础设施投资竞赛已推动企业债发行热潮，自去年11月以来与AI和数据中心相关的债券发行规模已超过3000亿美元。芯片巨头英伟达本周也加入发债行列，发行250亿美元高评级债券，吸引了高达850亿美元的认购。\n\n摩根大通预计，高评级债券市场未来五年将为数据中心提供2.1万亿美元融资，杠杆融资市场提供3500亿美元，其余来自内部现金流、股权融资和结构化产品。",
-          "content_en": "JPMorgan raised its 2030 global AI infrastructure investment forecast to $5.5 trillion, up $400 billion from its November prediction. The report notes approximately $4.1 trillion (74%) will come from debt financing, reflecting market expectations that tech companies will use more borrowed funds to cover expenditures.\n\nThe AI infrastructure investment race has already driven corporate bond issuance surge, with AI and data center-related bond issuance exceeding $300 billion since last November. Chip giant NVIDIA also joined the bond issuance wave this week, raising $25 billion in high-grade bonds attracting $85 billion in subscriptions.",
-          "key_points_en": [
-            "JPMorgan raises 2030 AI infrastructure forecast to $5.5 trillion",
-            "$4.1 trillion (74%) expected from debt financing",
-            "AI/data center bond issuance exceeds $300B since November",
-            "NVIDIA raises $25B in bonds, attracting $85B subscriptions",
-            "High-yield bonds market to provide $2.1T for data centers"
-          ]
-        },
-        {
-          "id": "news-20260622-7",
-          "type": "normal",
-          "category": "AI应用",
-          "title": "微信灰度测试AI助手「小微」，一句话可生成小程序",
-          "summary": "微信开始扩大内置AI助手「小微」的灰度测试范围，用户可进行多轮对话交互、文件总结、提醒设置等。核心亮点是「一句话生成小程序」功能，底层主要调用腾讯自研WeLM大模型。",
-          "source": "IT之家",
-          "title_en": "WeChat Pilots AI Assistant 'XiaoWei' with One-Command Mini Program Generation",
-          "summary_en": "WeChat is expanding beta testing of its built-in AI assistant 'XiaoWei' for multi-turn conversations, file summarization, and reminders. The highlight feature allows generating mini programs via natural language commands.",
-          "source_en": "ITHomes",
-          "key_points": [
-            "绿色标识进入AI助手界面",
-            "一句话生成可运行小程序雏形",
-            "底层WeLM大模型+DeepSeek",
-            "预计Q3向更多用户开放"
-          ],
-          "image": "img/pool/ai-education.jpg",
-          "url": "https://www.ithome.com",
-          "date": "2026-06-22",
-          "content": "微信正在扩大内置AI助手「小微」的灰度测试范围。用户可通过绿色标识进入AI助手界面，进行多轮对话交互、文件总结、提醒设置等基础功能。更受关注的是其「一句话生成小程序」功能：用户只需用自然语言描述需求，AI即可生成可运行的小程序雏形。\n\n「小微」底层主要调用腾讯自研WeLM大模型，并整合DeepSeek能力。腾讯希望通过微信这一超级入口，将AI能力直接触达13亿用户，快速积累AI原生场景数据。\n\n分析认为，微信入局AI助手赛道，将与支付宝AI钱包、百度小度等形成直接竞争，AI Native应用的入口之争愈演愈烈。预计「小微」将于第三季度向更多用户开放。",
-          "content_en": "WeChat is expanding beta testing of its built-in AI assistant '小微'. Users can access the AI assistant interface via a green icon, engaging in multi-turn conversations, file summarization, and reminder settings. The highlight is the 'one-command mini program generation' feature: users describe needs in natural language, and AI generates a runnable mini program prototype.\n\n'小微' primarily runs on Tencent's self-developed WeLM LLM, integrated with DeepSeek capabilities. Tencent aims to leverage WeChat's 1.3 billion users to quickly accumulate AI-native scenario data. The feature is expected to open to more users in Q3.",
-          "key_points_en": [
-            "WeChat expands AI assistant '小微' beta testing",
-            "Green icon to access AI assistant interface",
-            "'One-command' generates runnable mini programs",
-            "Powered by WeLM and DeepSeek models",
-            "Expected to open to more users in Q3"
-          ]
-        },
-        {
-          "id": "news-20260622-8",
-          "type": "normal",
-          "category": "产业",
-          "title": "宇树科技73天过会，科创板「人形机器人第一股」即将挂牌",
-          "summary": "宇树科技科创板IPO注册生效，从过会到注册仅用73天创下审核速度新高。公司发行估值约420亿元，募资42亿元主要用于机器人本体研发。但招股书显示73.6%收入来自高校科研客户，工业场景占比仅约9%。",
-          "source": "多家科技媒体",
-          "title_en": "Unitree Robotics Fast-Tracked for STAR Market Listing as First Humanoid Robot IPO",
-          "summary_en": "Unitree Robotics received registration approval for its STAR Market IPO in just 73 days. With a ~42 billion yuan valuation and 4.2 billion yuan fundraising target, 73.6% of revenue still comes from academic customers.",
-          "source_en": "Multiple Tech Media",
-          "key_points": [
-            "发行估值约420亿元",
-            "73天过会创审核速度纪录",
-            "全球四足机器人市占率第一",
-            "73.6%收入来自高校科研客户"
-          ],
-          "image": "img/pool/chip-closeup.jpg",
-          "url": "https://www.scst.com.cn",
-          "date": "2026-06-22",
-          "content": "宇树科技科创板IPO注册生效，从过会到注册仅用73天，创下科创板审核速度新纪录。公司发行估值约420亿元，计划募资42亿元主要用于人形机器人本体研发。\n\n宇树科技是全球四足机器人市场占有率第一的企业，其Unitree H1人形机器人已完成多次迭代，具备全尺寸人形运动能力。公司产品覆盖科研教育、电力巡检、消防救援等场景。\n\n不过，招股书显示其收入结构仍以科研客户为主：约73.6%的收入来自高校和科研机构，工业场景占比仅约9%。市场关注其工业场景商业化落地进度。人形机器人被认为是具身智能的重要载体，宇树科技上市将为首个人形机器人概念股。",
-          "content_en": "Unitree Robotics' STAR Market IPO registration became effective, taking only 73 days from approval to registration, setting a new record for STAR Market review speed. The company has an issuance valuation of approximately 42 billion yuan, planning to raise 4.2 billion yuan primarily for humanoid robot R&D.\n\nUnitree Robotics is the world's leading quadruped robot company, with its Unitree H1 humanoid robot completing multiple iterations. However, 73.6% of revenue comes from academic and research institutions, with industrial scenarios accounting for only about 9%.",
-          "key_points_en": [
-            "Unitree Robotics IPO registration effective in 73 days",
-            "Issuance valuation ~42 billion yuan, targeting 4.2B fundraising",
-            "World's leading quadruped robot company",
-            "73.6% revenue from academic, only 9% from industrial",
-            "First humanoid robot IPO on STAR Market"
-          ]
-        },
-        {
-          "id": "news-20260622-9",
-          "type": "normal",
-          "category": "AI应用",
-          "title": "Anthropic发布Opus 4.8动态工作流工具，企业AI再升级",
-          "summary": "Anthropic发布Claude Opus 4.8动态工作流工具，将AI Agent从「被动响应」升级为「主动编排」。内置动态工作流引擎，可根据任务复杂度自动调整执行路径，企业用户可自主配置AI自动化流水线。",
-          "source": "The Verge",
-          "title_en": "Anthropic Releases Claude Opus 4.8 with Dynamic Workflow Engine",
-          "summary_en": "Anthropic released Claude Opus 4.8 with dynamic workflow capabilities, upgrading AI agents from 'passive response' to 'proactive orchestration' with automatic path adjustment based on task complexity.",
-          "source_en": "The Verge",
-          "key_points": [
-            "从被动响应升级为主动编排",
-            "理解业务目标后自动拆解任务",
-            "一个产品经理即可配置AI流水线",
-            "瞄准企业数字化转型痛点"
-          ],
-          "image": "img/pool/ai-ethics.jpg",
-          "url": "https://www.anthropic.com/news",
-          "date": "2026-06-22",
-          "content": "Anthropic发布Claude Opus 4.8动态工作流工具，将AI Agent从「被动响应」升级为「主动编排」。新功能允许Claude在单次会话中并行调度数百个子智能体，完成跨数十万行代码的代码库级迁移任务。\n\n动态工作流的核心创新在于把协调逻辑从对话上下文移入可执行的JavaScript脚本。Claude自动生成编排脚本，后台执行时支持单次运行启动最多1000个子智能体。实际案例显示，有工程师使用该功能在11天内完成了Bun运行时从Zig到Rust的迁移，生成约75万行Rust代码，测试通过率99.8%。\n\n企业用户可自主配置AI自动化流水线，无需专业工程师介入。Anthropic表示，这一能力将把以往按季度规划的工作压缩到数天完成，瞄准企业数字化转型的核心痛点。",
-          "content_en": "Anthropic released Claude Opus 4.8 with dynamic workflow capabilities, upgrading AI agents from 'passive response' to 'proactive orchestration'. The new feature allows Claude to parallel dispatch hundreds of sub-agents in a single session to complete code base-level migration tasks spanning hundreds of thousands of lines.\n\nThe core innovation moves coordination logic from conversation context into executable JavaScript scripts. Claude auto-generates orchestration scripts, supporting up to 1,000 parallel sub-agents per run. One case showed an engineer completing Bun runtime migration from Zig to Rust in 11 days, generating ~750K lines of Rust code with 99.8% test pass rate.",
-          "key_points_en": [
-            "Claude Opus 4.8 launches Dynamic Workflows feature",
-            "Upgrades AI agents from passive to proactive orchestration",
-            "Supports up to 1,000 parallel sub-agents per run",
-            "One engineer completed 750K lines code migration in 11 days",
-            "Enterprise users can configure AI automation without engineers"
-          ]
-        },
-        {
-          "id": "news-20260622-10",
-          "type": "normal",
-          "category": "开源动态",
-          "title": "上交所明确科创板第五套上市标准，AI大模型企业IPO门槛确立",
-          "summary": "上海证券交易所针对科创板第五套上市标准发布最新适用要求，为AI大模型企业IPO设立清晰门槛，要求发行人在AI大模型领域拥有突出行业地位并占据产业链核心环节。",
-          "source": "上交所",
-          "title_en": "Shanghai Stock Exchange Sets IPO Standards for AI Foundation Model Companies",
-          "summary_en": "The Shanghai Stock Exchange released new requirements for STAR Market's fifth listing standard, establishing clear thresholds for AI foundation model companies including industry leadership and core supply chain position.",
-          "source_en": "SSE",
-          "key_points": [
-            "明确行业地位和技术指标要求",
-            "AI大模型企业资本化通道正式制度化",
-            "引导资本向技术型企业集中",
-            "淘汰缺乏核心技术的套壳公司"
-          ],
-          "image": "img/pool/open-source-code.jpg",
-          "url": "http://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/review/firstepisode/c/c_20260617_10822578.shtml",
-          "date": "2026-06-22",
-          "content": "上海证券交易所正式发布《发行上市审核规则适用指引第10号——人工智能大模型企业适用科创板第五套上市标准》，为AI大模型企业IPO设立清晰门槛。该指引明确：发行人主营业务应为人工智能大模型的自主研发、模型服务或模型应用；需突破底层算法、算力调度、数据治理等核心关键技术；在主流行业评测中排名靠前；申报时至少有一个大模型产品已完成上线发布并实现规模化应用。\n\n核心门槛为预计市值不低于40亿元，完全不设置盈利、营收底线要求。这一制度安排精准匹配大模型行业「高研发投入、算力消耗巨大、商业化周期漫长、阶段性亏损」的行业特征，打通本土AI核心资产境内上市融资通道。\n\n分析认为，此举将引导资本向技术型企业集中，加速淘汰缺乏核心技术的套壳公司，推动AI产业从概念炒作回归技术创新本质。",
-          "content_en": "The Shanghai Stock Exchange officially released guidelines for AI foundation model companies to list under STAR Market's fifth listing standard. The guidelines specify: issuers should focus on self-developed AI foundation models; need breakthroughs in core technologies like algorithms and computing scheduling; rank favorably in mainstream industry evaluations; and have at least one model product launched and achieving scale application.\n\nThe core threshold is expected market cap of at least 4 billion yuan, with no profit or revenue requirements. This targets the AI industry's characteristics of high R&D investment and long commercialization cycles, opening domestic AI capital market channels.",
-          "key_points_en": [
-            "SSE releases AI LLM STAR Market listing guidelines",
-            "No profit or revenue requirements, 4B yuan market cap threshold",
-            "Requires self-developed foundation models, not just API proxy",
-            "Must have at least one model product with scale application",
-            "Aims to guide capital to technology-focused companies"
-          ]
-        }
-      ]
     }
   ]
 }
