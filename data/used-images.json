@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-06-25",
+  "last_updated": "2026-06-26",
   "used_urls": [
     "img/pool/robotics-factory.jpg",
     "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop",
@@ -114,6 +114,10 @@
     "img/pool/digital-economy.jpg",
     "https://images.unsplash.com/photo-1553729459-uj8bt915e604?w=800&h=450&fit=crop",
     "img/pool/policy-regulation.jpg",
-    "img/pool/ai-creative.jpg"
+    "img/pool/ai-creative.jpg",
+    "img/pool/datacenter-ai-chip.jpg",
+    "img/pool/chip-wafer.jpg",
+    "img/pool/investment-vc-ai.jpg",
+    "img/pool/ai-customer-service.jpg"
   ]
 }

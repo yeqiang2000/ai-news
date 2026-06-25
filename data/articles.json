@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "id": "article-25",
+      "title": "OpenAI自研芯片Jalapeño发布：天下苦英伟达久矣，推理芯片战争开打",
+      "title_en": "OpenAI Jalapeño Chip Launch: The War on NVIDIA Dominance Begins",
+      "date": "2026-06-26",
+      "category": "产业分析",
+      "category_en": "Industry Analysis",
+      "summary": "OpenAI正式发布首颗自研AI芯片Jalapeño，与博通合作9个月完成，专为推理设计。天下苦英伟达久矣，谷歌TPU、亚马逊Trainium、微软Maia、自研芯片浪潮全面袭来。",
+      "summary_en": "OpenAI officially launches first self-developed AI chip Jalapeño with Broadcom in 9 months, inference-only design. Everyone suffers from NVIDIA dominance, Google TPU Amazon Trainium Microsoft Maia self-developed chip wave arrives.",
+      "image": "img/pool/datacenter-ai-chip.jpg",
+      "url": "articles/article-25.html",
+      "url_en": "articles/en/article-25.html"
+    },
+    {
       "id": "article-24",
       "title": "Agentic AI元年：从对话框到行动端，AI产业范式转移深度解析",
       "title_en": "The Agentic AI Era: A Comprehensive Look at the Industrial Paradigm Shift",

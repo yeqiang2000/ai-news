@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-26",
+  "articles": [
+    {
+      "id": "article-25",
+      "title": "OpenAI自研芯片Jalapeño发布：天下苦英伟达久矣，推理芯片战争开打",
+      "title_en": "OpenAI Jalapeño Chip Launch: The War on NVIDIA Dominance Begins",
+      "date": "2026-06-26",
+      "category": "产业分析",
+      "category_en": "Industry Analysis",
+      "summary": "OpenAI正式发布首颗自研AI芯片Jalapeño，与博通合作9个月完成，专为推理设计。天下苦英伟达久矣，谷歌TPU、亚马逊Trainium、微软Maia、自研芯片浪潮全面袭来。",
+      "summary_en": "OpenAI officially launches first self-developed AI chip Jalapeño with Broadcom in 9 months, inference-only design. Everyone suffers from NVIDIA dominance, Google TPU Amazon Trainium Microsoft Maia self-developed chip wave arrives.",
+      "image": "img/pool/datacenter-ai-chip.jpg",
+      "tags": ["芯片", "OpenAI", "Jalapeño", "博通", "推理芯片", "英伟达", "AI基础设施"],
+      "tags_en": ["Chips", "OpenAI", "Jalapeño", "Broadcom", "Inference Chip", "NVIDIA", "AI Infrastructure"],
+      "read_time": 8,
+      "read_time_en": 8
+    }
+  ],
+  "hero": {
+    "id": "news-1",
+    "title": "OpenAI发布首颗自研芯片Jalapeño：推理专用，与博通9个月完成，年底规模部署",
+    "title_en": "OpenAI Launches First Custom Chip Jalapeño: Inference-Only, Built with Broadcom in 9 Months",
+    "image": "img/pool/datacenter-ai-chip.jpg",
+    "date": "2026-06-26",
+    "category": "芯片算力",
+    "category_en": "Chips & Computing"
+  }
+}
