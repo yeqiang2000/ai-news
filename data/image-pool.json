@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-06-24",
+  "last_updated": "2026-06-26",
   "images": [
     {
       "id": "unsplash-1451187580459-43490279c0fa",
@@ -1500,6 +1500,346 @@
         "education"
       ],
       "desc": "opensource hackathon"
+    },
+    {
+      "id": "agnes-startup-pitch-v3",
+      "url": "img/pool/startup-pitch-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup",
+        "investment"
+      ],
+      "desc": "AI startup founder pitching to VC panel in modern conference room with metrics on screen, venture ca"
+    },
+    {
+      "id": "agnes-startup-yc-batch-v3",
+      "url": "img/pool/startup-yc-batch-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup",
+        "education"
+      ],
+      "desc": "Y Combinator style startup batch demo day with founders networking, accelerator program, professiona"
+    },
+    {
+      "id": "agnes-startup-unicorn-v3",
+      "url": "img/pool/startup-unicorn-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup",
+        "investment"
+      ],
+      "desc": "AI unicorn company headquarters interior with team coding, billion-dollar valuation tech startup, pr"
+    },
+    {
+      "id": "agnes-startup-product-launch-v3",
+      "url": "img/pool/startup-product-launch-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup",
+        "AI_applications"
+      ],
+      "desc": "Tech startup product launch event with audience watching demo on stage, AI product reveal, professio"
+    },
+    {
+      "id": "agnes-startup-cofounders-v3",
+      "url": "img/pool/startup-cofounders-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup",
+        "open_source"
+      ],
+      "desc": "Two startup cofounders whiteboarding AI architecture diagram, early stage tech company, professional"
+    },
+    {
+      "id": "agnes-llm-multimodal-v3",
+      "url": "img/pool/llm-multimodal-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "AI_applications"
+      ],
+      "desc": "Multimodal AI processing text image audio simultaneously on screens, vision language model, professi"
+    },
+    {
+      "id": "agnes-llm-finetune-v3",
+      "url": "img/pool/llm-finetune-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "deep_analysis"
+      ],
+      "desc": "AI engineer fine-tuning large language model on GPU cluster dashboard, model training visualization,"
+    },
+    {
+      "id": "agnes-llm-context-window-v3",
+      "url": "img/pool/llm-context-window-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "data_center"
+      ],
+      "desc": "Long context window AI processing massive document corpus visualization, million-token LLM, professi"
+    },
+    {
+      "id": "agnes-llm-rag-v3",
+      "url": "img/pool/llm-rag-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "AI_applications"
+      ],
+      "desc": "Retrieval augmented generation RAG architecture diagram on engineer screen, knowledge base AI, profe"
+    },
+    {
+      "id": "agnes-llm-evaluation-v3",
+      "url": "img/pool/llm-evaluation-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "deep_analysis"
+      ],
+      "desc": "LLM benchmark evaluation leaderboard with multiple models compared, AI research analysis, profession"
+    },
+    {
+      "id": "agnes-investment-ai-fund-v3",
+      "url": "img/pool/investment-ai-fund-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment",
+        "deep_analysis"
+      ],
+      "desc": "AI focused venture fund partners reviewing pitch decks in boardroom, VC investment meeting, professi"
+    },
+    {
+      "id": "agnes-investment-ipo-v3",
+      "url": "img/pool/investment-ipo-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment",
+        "startup"
+      ],
+      "desc": "AI company IPO bell ringing ceremony at stock exchange floor, tech listing event, professional press"
+    },
+    {
+      "id": "agnes-investment-mergers-v3",
+      "url": "img/pool/investment-mergers-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment",
+        "industry"
+      ],
+      "desc": "AI tech merger acquisition deal signing with executives, corporate strategic acquisition, profession"
+    },
+    {
+      "id": "agnes-investment-portfolio-v3",
+      "url": "img/pool/investment-portfolio-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment",
+        "data_center"
+      ],
+      "desc": "AI portfolio analytics dashboard with returns and allocation charts, fund management screens, profes"
+    },
+    {
+      "id": "agnes-opensource-github-stars-v3",
+      "url": "img/pool/opensource-github-stars-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source",
+        "LLM"
+      ],
+      "desc": "GitHub repository trending page with AI project stars, open source community contributions, professi"
+    },
+    {
+      "id": "agnes-opensource-huggingface-v3",
+      "url": "img/pool/opensource-huggingface-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source",
+        "LLM"
+      ],
+      "desc": "HuggingFace style open source model hub interface on display, AI model sharing community, profession"
+    },
+    {
+      "id": "agnes-opensource-contribution-v3",
+      "url": "img/pool/opensource-contribution-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source",
+        "education"
+      ],
+      "desc": "Developer making pull request to open source AI repository, code review process, professional coding"
+    },
+    {
+      "id": "agnes-opensource-foundation-v3",
+      "url": "img/pool/opensource-foundation-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source",
+        "policy"
+      ],
+      "desc": "Linux Foundation style open source AI governance meeting, foundation board discussion, professional "
+    },
+    {
+      "id": "agnes-robotics-humanoid-v3",
+      "url": "img/pool/robotics-humanoid-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics",
+        "AI_applications"
+      ],
+      "desc": "Humanoid robot performing daily tasks in modern home environment, embodied AI assistant, professiona"
+    },
+    {
+      "id": "agnes-robotics-factory-v3",
+      "url": "img/pool/robotics-factory-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics",
+        "industry"
+      ],
+      "desc": "Industrial robot arms assembling electronics on automated production line, smart manufacturing, prof"
+    },
+    {
+      "id": "agnes-robotics-surgery-v3",
+      "url": "img/pool/robotics-surgery-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics",
+        "healthcare"
+      ],
+      "desc": "Surgical robot performing minimally invasive procedure with AI guidance, medical robotics, professio"
+    },
+    {
+      "id": "agnes-autonomous-robotaxi-v3",
+      "url": "img/pool/autonomous-robotaxi-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous",
+        "AI_applications"
+      ],
+      "desc": "Robotaxi without driver picking up passenger on city street, self-driving service, professional urba"
+    },
+    {
+      "id": "agnes-autonomous-truck-v3",
+      "url": "img/pool/autonomous-truck-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous",
+        "industry"
+      ],
+      "desc": "Autonomous semi truck on highway with LIDAR sensor array, freight automation, professional aerial ph"
+    },
+    {
+      "id": "agnes-autonomous-drone-v3",
+      "url": "img/pool/autonomous-drone-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous",
+        "AI_applications"
+      ],
+      "desc": "Autonomous delivery drone navigating urban airspace with packages, last mile automation, professiona"
+    },
+    {
+      "id": "agnes-blockchain-defi-v3",
+      "url": "img/pool/blockchain-defi-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain",
+        "investment"
+      ],
+      "desc": "DeFi protocol dashboard with AI risk analysis on trader screen, decentralized finance, professional "
+    },
+    {
+      "id": "agnes-blockchain-nft-ai-v3",
+      "url": "img/pool/blockchain-nft-ai-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain",
+        "AI_applications"
+      ],
+      "desc": "AI generated NFT art gallery on digital displays, generative art blockchain, professional exhibition"
+    },
+    {
+      "id": "agnes-blockchain-zk-proof-v3",
+      "url": "img/pool/blockchain-zk-proof-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain",
+        "policy"
+      ],
+      "desc": "Zero knowledge proof cryptography visualization on research screen, privacy preserving tech, profess"
+    },
+    {
+      "id": "agnes-chips-tpu-v3",
+      "url": "img/pool/chips-tpu-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips",
+        "data_center"
+      ],
+      "desc": "Google TPU style AI accelerator chip on motherboard close-up macro photo, machine learning hardware,"
+    },
+    {
+      "id": "agnes-chips-edge-ai-v3",
+      "url": "img/pool/chips-edge-ai-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips",
+        "AI_applications"
+      ],
+      "desc": "Edge AI chip in IoT device PCB closeup, embedded machine learning, professional macro photography"
+    },
+    {
+      "id": "agnes-policy-eu-ai-act-v3",
+      "url": "img/pool/policy-eu-ai-act-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy",
+        "deep_analysis"
+      ],
+      "desc": "European Parliament chamber discussing EU AI Act legislation, regulatory hearing, professional press"
+    },
+    {
+      "id": "agnes-healthcare-imaging-v3",
+      "url": "img/pool/healthcare-imaging-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare",
+        "AI_applications"
+      ],
+      "desc": "Radiologist reviewing AI annotated MRI scans on medical workstation, diagnostic imaging AI, professi"
+    },
+    {
+      "id": "agnes-healthcare-genomics-v3",
+      "url": "img/pool/healthcare-genomics-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare",
+        "deep_analysis"
+      ],
+      "desc": "AI genomics analysis pipeline visualization on lab screen, precision medicine, professional research"
+    },
+    {
+      "id": "agnes-education-ai-tutor-v3",
+      "url": "img/pool/education-ai-tutor-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education",
+        "AI_applications"
+      ],
+      "desc": "Student learning with AI personal tutor on tablet at home, adaptive education, professional lifestyl"
+    },
+    {
+      "id": "agnes-education-coding-camp-v3",
+      "url": "img/pool/education-coding-camp-v3.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education",
+        "open_source"
+      ],
+      "desc": "Kids learning to code AI at programming summer camp, computational thinking education, professional "
     }
   ]
 }
