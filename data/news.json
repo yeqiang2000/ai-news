@@ -284,7 +284,20 @@
           ],
           "url": "http://www.xinhuanet.com/tech/20260625/7817b117e0cc43b7a6e221410e554fcd/c.html"
         }
-      ]
+      ],
+      "hero": {
+        "id": "hero-2026-06-27",
+        "title": "GPT-5.5 Instant 全量推送：OpenAI 把「准旗舰」能力下沉到 9 亿免费用户",
+        "title_en": "GPT-5.5 Instant Rolls Out Free: OpenAI Pushes Near-Flagship Capabilities to 900M Users",
+        "image": "img/pool/llm-context-window-v3.jpg",
+        "date": "2026-06-27",
+        "source": "OpenAI / 凤凰网 / 智东西",
+        "source_en": "OpenAI / Ifeng / Zhidx",
+        "summary": "OpenAI 于 6 月 25 日宣布 GPT-5.5 Instant 完成升级，付费用户当日开放、免费用户 6 月 26 日全面开放，直接取代 GPT-5.3 Instant 成为 ChatGPT 全平台默认模型。新版幻觉率较上代下降 52.5%、AIME 数学准确率从 65.4% 跃升至 81.2%，输出字数减少约 30%；上下文窗口按层级分层（免费 16K / Plus 32K / Pro 128K），内置智能路由自动切换 Thinking 深度推理。在 Claude、Gemini、Polaris 三面夹击下，这次默认模型大换血被视为 OpenAI 的「体验防守牌」。",
+        "summary_en": "On June 25, OpenAI announced the GPT-5.5 Instant upgrade—available to paid users that day and rolling out to free users on June 26—directly replacing GPT-5.3 Instant as the default model across ChatGPT. Hallucination rate dropped 52.5% vs. the prior version, AIME math accuracy jumped from 65.4% to 81.2%, and average reply length shrank ~30%. Context window is now tiered (16K free / 32K Plus / 128K Pro) with an intelligent router that silently escalates complex queries to Thinking mode. Under pressure from Claude, Gemini and Microsoft's in-house Polaris, this default-model swap is widely read as OpenAI's experience-defense play.",
+        "category": "大模型",
+        "category_en": "LLM"
+      }
     },
     {
       "date": "2026-06-26",
