@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-06-27",
+  "last_updated": "2026-06-28",
   "used_urls": [
     "img/pool/robotics-factory.jpg",
     "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop",
@@ -131,6 +131,17 @@
     "img/pool/ai-legal-assistant.jpg",
     "img/pool/robotics-logistics.jpg",
     "img/pool/llm-code-gen.jpg",
-    "img/pool/llm-context-window-v3.jpg"
+    "img/pool/llm-context-window-v3.jpg",
+    "img/pool/industry-smart-city.jpg",
+    "img/pool/policy-data-privacy.jpg",
+    "img/pool/llm-multimodal-v3.jpg",
+    "img/pool/opensource-github-stars-v3.jpg",
+    "img/pool/autonomous-vehicle-city.jpg",
+    "img/pool/investment-ipo-v3.jpg",
+    "img/pool/autonomous-truck-v3.jpg",
+    "img/pool/llm-rag-v3.jpg",
+    "img/pool/llm-evaluation-v3.jpg",
+    "img/pool/chips-edge-ai-v3.jpg",
+    "img/pool/robotics-humanoid-v3.jpg"
   ]
 }

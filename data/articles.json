@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "article-27",
+      "slug": "china-ai-governance-framework-takes-shape",
+      "date": "2026-06-28",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title_zh": "中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标，从底层算力到智能体协同的全栈规范化",
+      "title_en": "China's AI Governance Framework Takes Shape: 40+ National Standards plus 7 Agent Interconnection Standards",
+      "subtitle_zh": "2026-06-26 国家标准委一次性披露 40+ 项 AI 国标与智能体互联 7 项国标，标志中国 AI 产业从「野蛮生长」迈入「规范化深耕」的分水岭",
+      "subtitle_en": "Marking the watershed from 'unbridled growth' to 'regulated deep cultivation'",
+      "image": "img/pool/industry-smart-city.jpg",
+      "read_time": "12 分钟",
+      "read_time_en": "12 min",
+      "url_zh": "articles/article-27.html",
+      "url_en": "articles/en/article-27.html",
+      "summary_zh": "40+ 项 AI 国标 + 智能体互联 7 项国标同步落地，标志中国 AI 治理框架成型。本文从国标全栈意义、智能体互联深层逻辑、产业链三梯队受益、全球治理范式四个维度拆解。",
+      "summary_en": "40+ AI national standards plus 7 Agent Interconnection standards land simultaneously, marking the formation of China's AI governance framework."
+    },
+    {
       "id": "article-26",
       "title": "开源大模型的中国新平衡：GLM-5.2登顶与DeepSeek 510亿的产业共振",
       "title_en": "China's New Equilibrium in Open-Source LLMs: GLM-5.2 Tops Charts as DeepSeek Closes $51B Round",
