@@ -483,3 +483,12 @@
 - 卡片式布局：日期色块徽章 + 标题2行截断，hover 时左边线变紫、整卡右移
 - Commit: 6e4e38c
 - 预览: https://f9cd5190.ainewsdaily.pages.dev
+
+## 2026-06-28
+- **重磅 hero**：中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标同步落地（来源：国家标准委 / 中国政府网）
+- **新增深度文章**：article-27《中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标，从底层算力到智能体协同的全栈规范化》中英双语
+- **news 10 条**：国标双发、GPT-5.6 Sol/Terra/Luna 三梯队、DeepSeek DSpark 开源、特斯拉接入豆包+DeepSeek、DeepSeek 胡润独角兽 3400 亿、工信部 L3/L4 强制性国标、阿里千问输入法 macOS、Anthropic Mythos 5、Marvell CXL 3.64x 压缩、RoboScience Visics 具身大模型
+- **侧边栏**：article-27 进首位，挤掉 article-16
+- **图片**：本次新增 11 张图标记 used（含 industry-smart-city.jpg / policy-data-privacy.jpg / llm-multimodal-v3.jpg / opensource-github-stars-v3.jpg / autonomous-vehicle-city.jpg / investment-ipo-v3.jpg / autonomous-truck-v3.jpg / llm-rag-v3.jpg / llm-evaluation-v3.jpg / chips-edge-ai-v3.jpg / robotics-humanoid-v3.jpg），used 总数 141，本地可用 63 张
+- **commit**: `75c0fb3` (feat(daily): 2026-06-28 update)
+- **部署**: https://5cd4b8a8.ainewsdaily.pages.dev
