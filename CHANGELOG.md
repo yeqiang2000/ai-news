@@ -4,6 +4,51 @@
 
 ---
 
+## 2026-06-29 05:02 — 修复主页图片大量未加载（紧急修复）
+
+### 背景
+主人反馈「主页大量图片未能加载」。排查发现：
+- **news.json 8 张缺失**：6/29 build 脚本配图时写入了图片池中并不存在的文件名（chips-foundry / chips-packaging / chips-manufacturing / autonomous-driving / data-center-space / data-center-cluster / industry-statistics / ai-models-update）
+- **articles.json 8 张外链**：article-1 ~ article-8 历史老文章一直在用 `picsum.photos/800/450?random=...` 占位图，国内访问加载缓慢甚至失败
+
+### 修复方案
+全部 16 张图替换为图片池中真实存在的本地资源（按主题匹配）：
+
+**news.json（6/29 当日 10 条 news，8 张）**
+| idx | 原图（缺失）| 新图 |
+|---|---|---|
+| [1] | chips-foundry | industry-robot-arm |
+| [2] | data-center-space | network-satellite |
+| [3] | chips-packaging | chip-photonic |
+| [4] | chips-manufacturing | investment-mergers-v3 |
+| [5] | autonomous-driving | autonomous-drone-v3 |
+| [7] | data-center-cluster | datacenter-cooling |
+| [8] | industry-statistics | industry-predictive |
+| [9] | ai-models-update | llm-finetune-v3 |
+
+**articles.json（历史老文章 article-1~8，8 张）**
+| id | 主题 | 新图 |
+|---|---|---|
+| article-1 | 英伟达 GTC AI 芯片 | datacenter-green |
+| article-2 | LLM 竞赛 | llm-agentic-ai |
+| article-3 | DeepSeek 融资 | investment-portfolio-v3 |
+| article-4 | Cosmos 3 物理 AI | robotics-factory-v3 |
+| article-5 | Anthropic 自我改进 | policy-eu-ai-act-v3 |
+| article-6 | 特斯拉 Robotaxi | autonomous-robotaxi-v3 |
+| article-7 | 国家入股 AI | blockchain-ai-contract |
+| article-8 | AI 万亿 IPO | investment-ai-fund-v3 |
+
+### 部署
+- Commit: `72e0fb6` (fix: 修复主页图片加载)
+- Preview: https://f4c112cf.ainewsdaily.pages.dev
+- 线上验证：12 张抽测图全部 200 ✓ / news.json CDN 旧路径 0 残留 ✓ / articles.json picsum 0 残留 ✓
+
+### 经验沉淀（已写入 TOOLS.md）
+- **edit_file 并发写同一文件存在竞态**：多个 edit_file 在同一 tool block 并行调用同一文件时，只有首个能成功落盘，其他虽返回 "Replaced occurrences: 1" 但实际未写入。同文件多处修改必须串行调用。
+- **build 脚本配图必须先校验图存在**：build-{date}.py 写 image 字段前应 `os.path.exists(img)` 兜底，未来加入 SOP 校验。
+
+---
+
 ## 2026-06-29 04:45 — 6/29 当日更新（三件套：网站 + 微信 + 头条）
 
 ### Hero
