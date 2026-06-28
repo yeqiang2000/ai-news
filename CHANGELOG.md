@@ -4,6 +4,54 @@
 
 ---
 
+## 2026-06-29 04:45 — 6/29 当日更新（三件套：网站 + 微信 + 头条）
+
+### Hero
+- 先进封装产业链全面爆发：日月光净利 +58%、CoWoS 缺口 20%、长电科技 4 天 3 涨停（产业）
+
+### News（10 条）
+1. 高通 39 亿美元收购 Modular，Chris Lattner 领衔挑战 CUDA 护城河（投融资）
+2. 三星 1000 万亿韩元押注半导体：HBM 与代工三线同推（投融资）
+3. 北京太空算力大会启幕：把数据中心搬上轨道（产业）
+4. 日月光 Q2 净利同比 +58%，CoWoS 仍缺口 20-25%（产业）
+5. 长电科技获 78 亿元临港新厂投资，4 天 3 个涨停（产业）
+6. 比亚迪发布璇玑 A3 智驾平台：单芯片 1024 TOPS、L4 城区上路（自动驾驶）
+7. Momenta 通过港交所聆讯，预计 7 月 IPO 融资 12 亿美元（投融资）
+8. 国内首个 1000P 智算中心在合肥点亮：单集群 5 万张昇腾 910C（算力）
+9. 中国电子行业 1-5 月利润同比 +103.9%，半导体设备贡献近半增量（产业）
+10. Anthropic 内部预告 Claude 4.5 三模型矩阵：Opus/Sonnet/Haiku 月内更新（大模型）
+
+### 深度文章（article-28）
+- **中文**：《先进封装的逆袭：从产业链末端到 AI 芯片核心价值层》（12 分钟）
+- **英文**：《The Packaging Renaissance: From Backend Support to AI Chip Core Value Layer》(12 min)
+- 主题：日月光净利 +58% / CoWoS 缺口 20% / 长电科技 78 亿临港 / HBM 三年翻三倍 / 台陆日韩三梯队扩产
+- 六节结构：技术升维 / 财务质变 / 三梯队扩产 / 供需缺口 / 产业链全景 / 风险与下半场观察
+
+### 微信公众号（不上传 Git，本地交付）
+- **wechat-2026-06-29.html**：高通 39 亿押注 Lattner / Mojo（Chris Lattner 履历叙事 + Zuckerberg 站台）
+- 677px table 布局，所有 table/td 显式 border:none 通过合规验证
+- 含数据卡片三列 + 引用块 + 晓色原创声明模块
+
+### 头条（不上传 Git，本地交付）
+- **toutiao-2026-06-29.md**：三星 1000 万亿韩元 + 北京太空算力大会同步开幕，一日双事件趋势解读
+
+### SEO 同步动作
+- sitemap.xml: 58 → 60 URL（+article-28 zh+en，hreflang 三向互链）
+- index.html 侧边栏：article-28 进首位，挤掉 article-17
+- used-images.json: 141 → 143（+chips-tpu-v3.jpg / industry-digital-twin.jpg）
+- articles.json: 26 → 27 篇元数据
+- Yandex ping HTTP 200 ✓
+- GSC 待主人手动提交：article-28 中英版 + sitemap
+
+### 工程债还
+- 新写 `scripts/update-sitemap.py`（46 行，articles.json 单一事实源全量重建，已 .gitignore）
+- 新写 `scripts/build-2026-06-29.py`（当日数据构造脚本，已 .gitignore）
+
+### Commit
+- `417acb1` feat: daily update 2026-06-29 + article-28 advanced packaging
+
+---
+
 ## 2026-06-27 07:00 — 6/27 当日更新
 
 ### Hero
@@ -484,7 +532,16 @@
 - Commit: 6e4e38c
 - 预览: https://f9cd5190.ainewsdaily.pages.dev
 
-## 2026-06-28
+## 2026-06-28（追加）
+- 微信版：《DeepSeek的「3400亿信仰」：一个杭州人，把中国AI送进了全球前12》（wechat-2026-06-28.html, 16143字节，677px table 布局，border 全合规）
+- 头条版：《自动驾驶L3/L4强制国标定档2027年7月：中国AI正式进入「合规元年」》（toutiao-2026-06-28.md, 7530字节）
+- 三平台主题独立：网站=国标双发产业分析 / 微信=DeepSeek人物事件 / 头条=合规元年热点趋势
+- 新规：自 6/28 起，「开始更新」指令默认产出当天三件套，主 Agent 不再分步等待
+- **sitemap.xml 全量重建**：从 6/3 的 2 篇升级到 60 URL（6 静态 + 27 中文 + 27 英文），含 hreflang 中英文互链 + x-default，commit e4da2c0
+- 修复：article-22 英文版命名从旧的 `article-22-en.html` 补齐 `article-22.html` 标准命名
+- robots.txt 校验：Sitemap 指令已正确指向 https://ainewsdaily.asia/sitemap.xml
+- Yandex ping 成功（HTTP 200）；Google/Bing ping endpoint 均已废弃（HTTP 410），改由主人手动 GSC 提交
+- 预览：https://31f45f82.ainewsdaily.pages.dev/sitemap.xml
 - **重磅 hero**：中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标同步落地（来源：国家标准委 / 中国政府网）
 - **新增深度文章**：article-27《中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标，从底层算力到智能体协同的全栈规范化》中英双语
 - **news 10 条**：国标双发、GPT-5.6 Sol/Terra/Luna 三梯队、DeepSeek DSpark 开源、特斯拉接入豆包+DeepSeek、DeepSeek 胡润独角兽 3400 亿、工信部 L3/L4 强制性国标、阿里千问输入法 macOS、Anthropic Mythos 5、Marvell CXL 3.64x 压缩、RoboScience Visics 具身大模型
