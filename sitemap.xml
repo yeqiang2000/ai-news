@@ -1,270 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <!-- ===== Main Site Pages ===== -->
   <url>
     <loc>https://ainewsdaily.asia/</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://ainewsdaily.asia/news.html</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ainewsdaily.asia/about.html</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://ainewsdaily.asia/contact.html</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://ainewsdaily.asia/privacy.html</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://ainewsdaily.asia/disclaimer.html</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
-
-  <!-- ===== Deep Articles (Chinese, 27 articles) ===== -->
   <url>
-    <loc>https://ainewsdaily.asia/articles/article-1.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-1.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-1.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-1.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-2.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-2.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-2.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-2.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-3.html</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-3.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-3.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-3.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-4.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-4.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-4.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-4.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-5.html</loc>
-    <lastmod>2026-06-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-5.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-5.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-5.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-6.html</loc>
-    <lastmod>2026-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-6.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-6.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-6.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-7.html</loc>
-    <lastmod>2026-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-7.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-7.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-7.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-8.html</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-8.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-8.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-8.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-9.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-9.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-9.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-9.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-10.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-10.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-10.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-10.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-11.html</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-11.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-11.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-11.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-12.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-12.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-12.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-12.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-13.html</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-13.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-13.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-13.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-14.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-14.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-14.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-14.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-15.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-15.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-15.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-15.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-16.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-16.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-16.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-16.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-17.html</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-17.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-17.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-17.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-18.html</loc>
-    <lastmod>2026-06-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-18.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-18.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-18.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-19.html</loc>
-    <lastmod>2026-06-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-19.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-19.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-19.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-20.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <loc>https://ainewsdaily.asia/articles/article-28.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-20.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-20.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-20.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-28.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-28.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-28.html"/>
   </url>
   <url>
-    <loc>https://ainewsdaily.asia/articles/article-21.html</loc>
-    <lastmod>2026-06-22</lastmod>
+    <loc>https://ainewsdaily.asia/articles/en/article-28.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-21.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-21.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-21.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-28.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-28.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-28.html"/>
   </url>
   <url>
-    <loc>https://ainewsdaily.asia/articles/article-22.html</loc>
-    <lastmod>2026-06-23</lastmod>
+    <loc>https://ainewsdaily.asia/articles/article-27.html</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-22.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-22.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-22.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-27.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-27.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-27.html"/>
   </url>
   <url>
-    <loc>https://ainewsdaily.asia/articles/article-23.html</loc>
-    <lastmod>2026-06-24</lastmod>
+    <loc>https://ainewsdaily.asia/articles/en/article-27.html</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-23.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-23.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-23.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-24.html</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-24.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-24.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-24.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/article-25.html</loc>
-    <lastmod>2026-06-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-25.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-25.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-25.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-27.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-27.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-27.html"/>
   </url>
   <url>
     <loc>https://ainewsdaily.asia/articles/article-26.html</loc>
@@ -276,258 +83,444 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-26.html"/>
   </url>
   <url>
-    <loc>https://ainewsdaily.asia/articles/article-27.html</loc>
-    <lastmod>2026-06-28</lastmod>
+    <loc>https://ainewsdaily.asia/articles/en/article-26.html</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-27.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-27.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-27.html"/>
-  </url>
-
-  <!-- ===== Deep Articles (English) ===== -->
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-1.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-1.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-1.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-1.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-26.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-26.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-26.html"/>
   </url>
   <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-2.html</loc>
-    <lastmod>2026-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-2.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-2.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-2.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-3.html</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-3.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-3.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-3.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-4.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-4.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-4.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-4.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-5.html</loc>
-    <lastmod>2026-06-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-5.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-5.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-5.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-6.html</loc>
-    <lastmod>2026-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-6.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-6.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-6.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-7.html</loc>
-    <lastmod>2026-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-7.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-7.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-7.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-8.html</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-8.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-8.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-8.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-9.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-9.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-9.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-9.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-10.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-10.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-10.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-10.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-11.html</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-11.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-11.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-11.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-12.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-12.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-12.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-12.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-13.html</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-13.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-13.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-13.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-14.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-14.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-14.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-14.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-15.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-15.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-15.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-15.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-16.html</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-16.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-16.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-16.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-17.html</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-17.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-17.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-17.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-18.html</loc>
-    <lastmod>2026-06-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-18.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-18.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-18.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-19.html</loc>
-    <lastmod>2026-06-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-19.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-19.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-19.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-20.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <loc>https://ainewsdaily.asia/articles/article-25.html</loc>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-20.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-20.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-20.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-21.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-21.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-21.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-21.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-22.html</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-22.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-22.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-22.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-23.html</loc>
-    <lastmod>2026-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-23.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-23.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-23.html"/>
-  </url>
-  <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-24.html</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-24.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-24.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-24.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-25.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-25.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-25.html"/>
   </url>
   <url>
     <loc>https://ainewsdaily.asia/articles/en/article-25.html</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-25.html"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-25.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-25.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-25.html"/>
   </url>
   <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-26.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <loc>https://ainewsdaily.asia/articles/article-24.html</loc>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-26.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-26.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-26.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-24.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-24.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-24.html"/>
   </url>
   <url>
-    <loc>https://ainewsdaily.asia/articles/en/article-27.html</loc>
-    <lastmod>2026-06-28</lastmod>
+    <loc>https://ainewsdaily.asia/articles/en/article-24.html</loc>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-27.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-27.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-27.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-24.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-24.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-24.html"/>
   </url>
-
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-23.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-23.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-23.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-23.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-23.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-23.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-23.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-23.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-22.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-22.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-22.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-22.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-22.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-22.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-22.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-22.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-21.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-21.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-21.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-21.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-21.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-21.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-21.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-21.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-20.html</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-20.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-20.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-20.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-20.html</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-20.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-20.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-20.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-19.html</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-19.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-19.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-19.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-19.html</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-19.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-19.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-19.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-18.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-18.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-18.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-18.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-18.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-18.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-18.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-18.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-17.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-17.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-17.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-17.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-17.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-17.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-17.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-17.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-16.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-16.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-16.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-16.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-16.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-16.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-16.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-16.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-15.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-15.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-15.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-15.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-15.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-15.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-15.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-15.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-14.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-14.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-14.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-14.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-14.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-14.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-14.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-14.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-12.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-12.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-12.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-12.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-12.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-12.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-11.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-11.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-11.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-11.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-11.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-11.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-11.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-11.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-10.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-10.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-10.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-10.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-10.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-10.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-10.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-10.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-9.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-9.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-9.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-9.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-9.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-9.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-9.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-9.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-8.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-8.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-8.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-8.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-8.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-8.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-8.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-8.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-7.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-7.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-7.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-7.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-7.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-7.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-6.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-6.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-6.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-6.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-6.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-6.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-6.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-6.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-5.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-5.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-5.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-5.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-5.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-5.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-5.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-5.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-4.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-4.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-4.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-4.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-4.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-4.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-3.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-3.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-3.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-3.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-3.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-3.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-2.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-2.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-2.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-2.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-2.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-2.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-1.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-1.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-1.html"/>
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-1.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-1.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-1.html"/>
+  </url>
 </urlset>

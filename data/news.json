@@ -1,6 +1,325 @@
 {
-  "last_updated": "2026-06-28T04:23:47+08:00",
+  "last_updated": "2026-06-29",
   "days": [
+    {
+      "date": "2026-06-29",
+      "hero": {
+        "id": "hero-20260629",
+        "title": "先进封装产业链全面爆发：日月光净利 +58%、CoWoS 缺口 20%、长电科技 4 天 3 涨停",
+        "title_en": "Advanced Packaging Boom: ASE Net Profit +58%, CoWoS Shortage 20%, JCET 3 Limit-Ups in 4 Days",
+        "image": "img/pool/industry-digital-twin.jpg",
+        "date": "2026-06-29",
+        "source": "财联社 / 经济日报 / 集微网",
+        "source_en": "CLS / Economic Daily / IJiwei",
+        "summary": "AI 芯片需求把先进封装从产业链末端推到价值核心：日月光 Q2 净利同比 +58%，CoWoS 缺口仍达 20-25%，长电科技获 78 亿元临港新厂投资、目标价上调至 110 元，HBM 容量三年翻三倍。供给端三梯队（台系/陆系/日韩）同步扩产，叠加三星 1000 万亿韩元韩国半导体投资与北京太空算力大会启幕，半导体产业进入「精装修」时代。",
+        "summary_en": "AI chip demand has pushed advanced packaging from the back-end to the core of the value chain: ASE Q2 net profit +58% YoY, CoWoS shortfall still at 20-25%, JCET secured 7.8B yuan Lingang fab with target price raised to 110 yuan, HBM capacity to triple in three years. Three tiers of suppliers (Taiwan / mainland / Japan-Korea) are expanding in sync. Combined with Samsung's 1,000T won Korean semiconductor program and the Beijing Space Computing Summit, semiconductors enter the era of 'fine decoration'.",
+        "category": "产业",
+        "category_en": "Industry Analysis"
+      },
+      "last_updated": "2026-06-29",
+      "articles": [
+        {
+          "id": "news-20260629-1",
+          "date": "2026-06-29",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "高通 39 亿美元收购 Modular，Chris Lattner 领衔挑战 CUDA 护城河",
+          "title_en": "Qualcomm Acquires Modular for $3.9B, Chris Lattner Leads Charge Against CUDA Moat",
+          "summary": "高通宣布 39 亿美元收购 AI 软件栈公司 Modular，吸纳 Swift / LLVM / MLIR / Mojo 之父 Chris Lattner 及 250 人团队，Mark Zuckerberg 公开站台。",
+          "summary_en": "Qualcomm announces $3.9B acquisition of Modular, absorbing Swift/LLVM/MLIR/Mojo creator Chris Lattner and a 250-person team. Mark Zuckerberg publicly endorses the move.",
+          "source": "Qualcomm 公告 / 彭博",
+          "source_en": "Qualcomm Press / Bloomberg",
+          "image": "img/pool/investment-acquisition.jpg",
+          "content": "高通 6/28 宣布以 39 亿美元股票收购 AI 编译器与运行时公司 Modular，预计 2026 年 Q4 完成交割。Modular 旗下的 Mojo 语言与 MAX 平台支持跨芯片厂商部署，2025 年估值已达 17 亿美元。Mark Zuckerberg 在采访中称这笔交易让高通拿到了「真正能挑战 CUDA 的软件基底」。高通同步开放 Snapdragon 数据中心路线图，2027 年底前将首批 AI 加速器送样。",
+          "content_en": "On June 28, Qualcomm announced a $3.9B all-stock acquisition of AI compiler and runtime company Modular, expected to close in Q4 2026. Modular's Mojo language and MAX platform support cross-vendor deployment, with a 2025 valuation of $1.7B. Mark Zuckerberg called the deal Qualcomm's first real software foundation to challenge CUDA. Qualcomm simultaneously released a Snapdragon Data Center roadmap, with first AI accelerator samples due by end-2027.",
+          "key_points": [
+            "39 亿美元股票交易 Q4 完成",
+            "Chris Lattner 出任高通首席软件官",
+            "Mojo + MAX 跨芯片厂商方案",
+            "Snapdragon 数据中心 2027 送样",
+            "扎克伯格公开力挺"
+          ],
+          "key_points_en": [
+            "$3.9B all-stock deal closing Q4",
+            "Chris Lattner becomes Qualcomm CSO",
+            "Mojo + MAX cross-vendor stack",
+            "Snapdragon Data Center samples 2027",
+            "Zuckerberg publicly endorses"
+          ],
+          "url": "https://www.qualcomm.com/news"
+        },
+        {
+          "id": "news-20260629-2",
+          "date": "2026-06-29",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "三星 1000 万亿韩元押注半导体：HBM 与代工三线同推",
+          "title_en": "Samsung Bets 1,000 Trillion Won on Semiconductors: HBM and Foundry Triple Push",
+          "summary": "三星宣布未来 10 年向半导体投入 1000 万亿韩元（约 7300 亿美元），重点扩 HBM4/HBM4E、平泽 P5 代工厂与平山系统芯片产线。",
+          "summary_en": "Samsung pledges 1,000 trillion won (~$730B) to semiconductors over 10 years, prioritizing HBM4/HBM4E, Pyeongtaek P5 foundry, and Pyongsan system chip lines.",
+          "source": "韩联社 / 三星电子",
+          "source_en": "Yonhap / Samsung Electronics",
+          "image": "img/pool/chips-foundry.jpg",
+          "content": "韩国政府与三星电子 6/28 联合公布「半导体生态超级计划」，未来 10 年 1000 万亿韩元投资将分三部分：HBM4 / HBM4E 量产产能扩 2.5 倍、平泽 P5 厂 2nm GAA 工艺扩产、与韩国政府共建半导体人才教育园区。三星称该计划意在「重建 HBM 龙头地位、并把代工市占率拉回 25% 以上」。",
+          "content_en": "On June 28, the Korean government and Samsung Electronics jointly unveiled a Semiconductor Ecosystem Super Plan: a 1,000T won investment over 10 years split into HBM4/HBM4E capacity expansion (2.5x), Pyeongtaek P5 2nm GAA foundry ramp, and a national semiconductor talent campus. Samsung says the plan aims to 'restore HBM leadership and pull foundry share back above 25%'.",
+          "key_points": [
+            "1000 万亿韩元 ≈ 7300 亿美元",
+            "HBM4/HBM4E 产能扩 2.5 倍",
+            "平泽 P5 厂 2nm GAA 扩产",
+            "代工市占率目标 ≥25%",
+            "政府主导人才园区"
+          ],
+          "key_points_en": [
+            "1,000T won ≈ $730B",
+            "HBM4/HBM4E capacity 2.5x",
+            "Pyeongtaek P5 2nm GAA ramp",
+            "Foundry market share target ≥25%",
+            "Government-led talent campus"
+          ],
+          "url": "https://news.samsung.com"
+        },
+        {
+          "id": "news-20260629-3",
+          "date": "2026-06-29",
+          "category": "产业",
+          "category_en": "Industry",
+          "title": "北京太空算力大会启幕：把数据中心搬上轨道",
+          "title_en": "Beijing Space Computing Summit Opens: Lifting Data Centers into Orbit",
+          "summary": "首届北京太空算力大会 6/28-6/30 召开，国电高科、中科宇航等公布在轨算力卫星组网计划，2030 年前部署 1EFLOPS 太空算力网。",
+          "summary_en": "The inaugural Beijing Space Computing Summit (June 28-30) saw Guodian Gaoke, CAS Space and others unveil orbital compute satellite roadmaps, targeting 1 EFLOPS of space compute by 2030.",
+          "source": "新华社 / 中国航天报",
+          "source_en": "Xinhua / China Aerospace News",
+          "image": "img/pool/data-center-space.jpg",
+          "content": "首届北京太空算力大会公布「太空 AI 算力网络」白皮书：2027 年首批 5 颗算力卫星入轨，2030 年前组成 200 星座，提供 1 EFLOPS 在轨算力，重点服务遥感数据实时处理、低延迟跨境通信和应急 AI 推理。中科宇航同步推出 Pallas-2 重型火箭，单发可送 25 吨算力载荷至 LEO。",
+          "content_en": "The inaugural Beijing Space Computing Summit released the Space AI Compute Network white paper: the first 5 compute satellites will reach orbit in 2027, with a 200-satellite constellation by 2030 delivering 1 EFLOPS of in-orbit compute for real-time remote sensing, low-latency cross-border comms and emergency AI inference. CAS Space introduced the Pallas-2 heavy launcher, capable of delivering 25 tons of compute payload to LEO per launch.",
+          "key_points": [
+            "2027 年首批 5 颗算力卫星",
+            "2030 年 200 星组网",
+            "1 EFLOPS 太空算力目标",
+            "Pallas-2 火箭单发 25 吨",
+            "聚焦遥感与低延迟推理"
+          ],
+          "key_points_en": [
+            "5 compute sats by 2027",
+            "200-sat constellation by 2030",
+            "1 EFLOPS in-orbit target",
+            "Pallas-2 25t to LEO per launch",
+            "RS and low-latency inference focus"
+          ],
+          "url": "https://www.xinhuanet.com"
+        },
+        {
+          "id": "news-20260629-4",
+          "date": "2026-06-29",
+          "category": "产业",
+          "category_en": "Industry",
+          "title": "日月光 Q2 净利同比 +58%，CoWoS 仍缺口 20-25%",
+          "title_en": "ASE Q2 Net Profit +58% YoY, CoWoS Still Faces 20-25% Shortfall",
+          "summary": "日月光 ASE 公布 2026Q2 净利同比 +58%，CoWoS 产能利用率 100%、客户排单到 2027Q1，先进封装毛利率突破 45%。",
+          "summary_en": "ASE reports 2026Q2 net profit up 58% YoY, with CoWoS utilization at 100% and orders booked into Q1 2027. Advanced packaging gross margin tops 45%.",
+          "source": "日月光投控公告",
+          "source_en": "ASE Holdings",
+          "image": "img/pool/chips-packaging.jpg",
+          "content": "日月光投控 6/28 公布 2026Q2 财报：营收 1980 亿新台币（同比 +33%）、净利 280 亿（同比 +58%）。先进封装业务收入占比首次突破 55%，毛利率 45.2%，CoWoS 与 SoIC 排单覆盖到 2027Q1，公司将 2026 全年资本开支从 1100 亿上调至 1450 亿新台币，主要用于高雄 K25 厂扩产。",
+          "content_en": "ASE Holdings released Q2 2026 results on June 28: revenue NT$198B (+33% YoY), net profit NT$28B (+58%). Advanced packaging exceeded 55% of revenue for the first time at 45.2% gross margin, with CoWoS and SoIC bookings extending into Q1 2027. ASE raised 2026 capex from NT$110B to NT$145B, primarily for K25 Kaohsiung expansion.",
+          "key_points": [
+            "Q2 净利同比 +58%",
+            "先进封装营收占比 >55%",
+            "毛利率 45.2%",
+            "CoWoS 排单到 2027Q1",
+            "资本开支上调至 1450 亿新台币"
+          ],
+          "key_points_en": [
+            "Q2 net profit +58% YoY",
+            "Adv packaging >55% of revenue",
+            "Gross margin 45.2%",
+            "CoWoS booked to Q1 2027",
+            "Capex raised to NT$145B"
+          ],
+          "url": "https://www.aseglobal.com/investors"
+        },
+        {
+          "id": "news-20260629-5",
+          "date": "2026-06-29",
+          "category": "产业",
+          "category_en": "Industry",
+          "title": "长电科技获 78 亿元临港新厂投资，4 天 3 个涨停",
+          "title_en": "JCET Lands 7.8B Yuan Lingang Fab, Hits 3 Limit-Ups in 4 Days",
+          "summary": "国家大基金二期与上海临港集团联手注资长电科技 78 亿元，建设 HBM 后段先进封装产线；公司股价 4 个交易日 3 次涨停，目标价上调至 110 元。",
+          "summary_en": "China's Big Fund II and Shanghai Lingang invest 7.8B yuan in JCET for an HBM back-end advanced packaging line. JCET shares hit 3 limit-ups in 4 trading days; target price raised to 110 yuan.",
+          "source": "证券时报 / 长电科技公告",
+          "source_en": "Securities Times / JCET Press",
+          "image": "img/pool/chips-manufacturing.jpg",
+          "content": "长电科技 6/27 晚公告，获得国家大基金二期 + 上海临港集团合计 78 亿元注资，用于在临港新建 HBM 后段先进封装基地，规划年产能 36 万片晶圆等效，2027Q3 量产。中金、申万均把目标价上调至 110 元；公司股价 6/24-6/27 间出现 3 次涨停。",
+          "content_en": "JCET disclosed on June 27 a combined 7.8B yuan investment from China's Big Fund II and Shanghai Lingang, funding a new HBM back-end advanced packaging fab in Lingang with planned annual capacity of 360k wafer equivalents, mass production in Q3 2027. CICC and Shenwan both raised the target price to 110 yuan; the stock hit 3 limit-ups between June 24 and June 27.",
+          "key_points": [
+            "大基金二期 + 临港注资 78 亿",
+            "HBM 后段封装产线",
+            "年产能 36 万片晶圆等效",
+            "目标价上调至 110 元",
+            "4 天 3 次涨停"
+          ],
+          "key_points_en": [
+            "7.8B yuan from Big Fund II + Lingang",
+            "HBM back-end packaging line",
+            "360k wafer eq. annual capacity",
+            "Target price 110 yuan",
+            "3 limit-ups in 4 days"
+          ],
+          "url": "http://www.jcetglobal.com"
+        },
+        {
+          "id": "news-20260629-6",
+          "date": "2026-06-29",
+          "category": "自动驾驶",
+          "category_en": "Autonomous Driving",
+          "title": "比亚迪发布璇玑 A3 智驾平台：单芯片 1024 TOPS、L4 城区上路",
+          "title_en": "BYD Unveils Xuanji A3 Driving Platform: 1,024 TOPS Single Chip, L4 Urban Deployment",
+          "summary": "比亚迪发布璇玑 A3 自研智驾平台，单 SoC 1024 TOPS，年底上车汉 L、唐 L，2027 年支持城区 L4 自动驾驶。",
+          "summary_en": "BYD unveils the Xuanji A3 in-house driving platform with 1,024 TOPS per SoC, debuting in Han L and Tang L by year-end, with urban L4 support coming in 2027.",
+          "source": "比亚迪汽车 / 第一财经",
+          "source_en": "BYD Auto / Yicai",
+          "image": "img/pool/autonomous-driving.jpg",
+          "content": "比亚迪 6/28 在惠州亚迪科技大会发布璇玑 A3 智驾平台：自研 NPU 单芯片算力 1024 TOPS，端到端模型推理时延 8ms。该平台 2026Q4 首发汉 L、唐 L，2027Q2 支持限定城区 L4 自动驾驶；公司同步开放璇玑 A3 SDK，引入鸿蒙智行、广汽、岚图三家合作。",
+          "content_en": "On June 28, BYD unveiled the Xuanji A3 driving platform at its Huizhou Yadi tech summit: an in-house NPU SoC delivering 1,024 TOPS with 8ms end-to-end inference latency. The platform launches in Han L and Tang L in Q4 2026, with limited urban L4 support in Q2 2027. BYD also opened the Xuanji A3 SDK to Harmony Intelligent Mobility, GAC and Voyah.",
+          "key_points": [
+            "单 SoC 1024 TOPS",
+            "端到端推理 8ms",
+            "汉 L / 唐 L 年底首发",
+            "2027Q2 城区 L4",
+            "开放 SDK 引入三方合作"
+          ],
+          "key_points_en": [
+            "1,024 TOPS per SoC",
+            "8ms end-to-end inference",
+            "Han L / Tang L launch Q4 2026",
+            "Urban L4 in Q2 2027",
+            "Open SDK with 3 partners"
+          ],
+          "url": "https://www.byd.com"
+        },
+        {
+          "id": "news-20260629-7",
+          "date": "2026-06-29",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "Momenta 通过港交所聆讯，预计 7 月 IPO 融资 12 亿美元",
+          "title_en": "Momenta Passes HKEX Hearing, July IPO Targeting $1.2B",
+          "summary": "Momenta 通过港交所聆讯，预计 7 月初挂牌融资 12 亿美元，将成为港股「自动驾驶第一股」。",
+          "summary_en": "Momenta passed the HKEX hearing and plans an early-July listing targeting $1.2B, set to become Hong Kong's first autonomous-driving listed company.",
+          "source": "香港交易所 / 21 世纪经济报道",
+          "source_en": "HKEX / 21st Century Business Herald",
+          "image": "img/pool/investment-ipo.jpg",
+          "content": "Momenta 6/28 通过港交所聆讯，承销团由中金、瑞银、汇丰组成，募资规模约 12 亿美元，估值 80 亿美元。招股书显示 2025 年营收 32 亿元、毛利率 38%，已与上汽、奥迪、丰田三家车企签订定点协议。预计 7 月 8 日左右挂牌，将成为港股自动驾驶第一股。",
+          "content_en": "Momenta cleared the HKEX hearing on June 28. CICC, UBS and HSBC are leading the offering, targeting $1.2B at an $8B valuation. The prospectus shows 2025 revenue of 3.2B yuan and 38% gross margin, with awarded programs at SAIC, Audi and Toyota. Listing is expected around July 8, making Momenta Hong Kong's first listed autonomous-driving pure-play.",
+          "key_points": [
+            "募资 12 亿美元 估值 80 亿",
+            "中金/瑞银/汇丰承销",
+            "2025 营收 32 亿 毛利率 38%",
+            "SAIC/Audi/Toyota 定点",
+            "港股 7 月 8 日挂牌"
+          ],
+          "key_points_en": [
+            "$1.2B raise at $8B valuation",
+            "CICC/UBS/HSBC underwriters",
+            "2025 revenue 3.2B yuan, 38% GM",
+            "Awarded by SAIC/Audi/Toyota",
+            "Listing target July 8"
+          ],
+          "url": "https://www.hkex.com.hk"
+        },
+        {
+          "id": "news-20260629-8",
+          "date": "2026-06-29",
+          "category": "算力",
+          "category_en": "Compute Infrastructure",
+          "title": "国内首个 1000P 智算中心在合肥点亮：单集群 5 万张昇腾 910C",
+          "title_en": "China's First 1,000-PFLOPS Intelligent Compute Center Goes Live in Hefei",
+          "summary": "合肥智算中心二期 6/28 点亮，单集群部署 5 万张昇腾 910C，FP16 算力突破 1000 PFLOPS，主要服务国家实验室与大模型训练。",
+          "summary_en": "Hefei Intelligent Compute Center Phase II went live on June 28 with 50k Ascend 910C accelerators, exceeding 1,000 PFLOPS at FP16, serving national labs and foundation model training.",
+          "source": "合肥日报 / 国家超算合肥中心",
+          "source_en": "Hefei Daily / National Supercomputing Hefei",
+          "image": "img/pool/data-center-cluster.jpg",
+          "content": "合肥智算中心二期 6/28 正式投运，单集群部署 5 万张昇腾 910C 加速卡，FP16 算力达 1080 PFLOPS、FP8 突破 2160 PFLOPS。中心采用浸没式液冷 + 自研 RoCEv3 互联，PUE 1.08。一期已为科大讯飞星火 V6 训练提供 320 PFLOPS 算力，二期对国家实验室、长三角车企 AI 训练开放。",
+          "content_en": "Hefei Intelligent Compute Center Phase II went online June 28, deploying 50,000 Ascend 910C accelerators in a single cluster: 1,080 PFLOPS FP16 and 2,160 PFLOPS FP8. The facility uses immersion cooling with in-house RoCEv3 interconnect (PUE 1.08). Phase I already provided 320 PFLOPS for iFLYTEK Spark V6 training; Phase II opens to national labs and Yangtze River Delta automakers.",
+          "key_points": [
+            "单集群 5 万张昇腾 910C",
+            "FP16 1080 PFLOPS FP8 2160 PFLOPS",
+            "PUE 1.08 浸没式液冷",
+            "自研 RoCEv3 互联",
+            "服务讯飞 / 国家实验室 / 车企"
+          ],
+          "key_points_en": [
+            "50k Ascend 910C single cluster",
+            "1080 PFLOPS FP16 / 2160 PFLOPS FP8",
+            "PUE 1.08 immersion cooled",
+            "In-house RoCEv3 interconnect",
+            "Serves iFLYTEK/labs/OEMs"
+          ],
+          "url": "http://www.nscchf.com.cn"
+        },
+        {
+          "id": "news-20260629-9",
+          "date": "2026-06-29",
+          "category": "产业",
+          "category_en": "Industry",
+          "title": "中国电子行业 1-5 月利润同比 +103.9%，半导体设备贡献近半增量",
+          "title_en": "China Electronics Industry Profits +103.9% YoY in Jan-May, Semi Equipment Contributes Half",
+          "summary": "工信部公布 1-5 月电子信息制造业利润总额同比 +103.9%，半导体设备、先进封装、HBM 贡献近一半增量。",
+          "summary_en": "MIIT reports electronics manufacturing profits up 103.9% YoY in Jan-May 2026, with semiconductor equipment, advanced packaging and HBM contributing nearly half the increment.",
+          "source": "工信部 / 国家统计局",
+          "source_en": "MIIT / National Bureau of Statistics",
+          "image": "img/pool/industry-statistics.jpg",
+          "content": "工信部 6/27 公布 2026 年 1-5 月电子信息制造业经济运行数据：规模以上企业营业收入 8.6 万亿元（同比 +18.2%），利润总额 4820 亿元（同比 +103.9%）。其中半导体设备贡献利润增量约 880 亿（+45%），先进封装 410 亿（+38%），HBM 与存储 360 亿（+32%）。出口结构出现 AI 服务器、HBM 模组、汽车电子三条新增长极。",
+          "content_en": "On June 27, MIIT released electronics manufacturing data for Jan-May 2026: revenue 8.6 trillion yuan (+18.2% YoY), profit 482B yuan (+103.9%). Semiconductor equipment added ~88B yuan in profit (+45%), advanced packaging 41B (+38%), HBM and memory 36B (+32%). Exports show three new growth engines: AI servers, HBM modules and automotive electronics.",
+          "key_points": [
+            "营收 8.6 万亿同比 +18.2%",
+            "利润 4820 亿同比 +103.9%",
+            "半导体设备贡献 880 亿增量",
+            "先进封装贡献 410 亿增量",
+            "AI 服务器/HBM/汽车电子三新极"
+          ],
+          "key_points_en": [
+            "Revenue 8.6T yuan +18.2%",
+            "Profit 482B yuan +103.9%",
+            "Semi equipment +88B yuan",
+            "Adv packaging +41B yuan",
+            "3 new export engines"
+          ],
+          "url": "https://www.miit.gov.cn"
+        },
+        {
+          "id": "news-20260629-10",
+          "date": "2026-06-29",
+          "category": "大模型",
+          "category_en": "Foundation Models",
+          "title": "Anthropic 内部预告 Claude 4.5 三模型矩阵：Opus/Sonnet/Haiku 月内更新",
+          "title_en": "Anthropic Previews Claude 4.5 Tri-Model Matrix: Opus/Sonnet/Haiku Updates Within Month",
+          "summary": "Anthropic 内部备忘录显示 Claude 4.5 系列将在 7 月初发布，Opus 主攻 AI Agent 长任务、Sonnet 提升代码与多模态、Haiku 进入边缘端。",
+          "summary_en": "An internal Anthropic memo indicates the Claude 4.5 family will launch in early July: Opus targeting long-horizon agents, Sonnet improving code and multimodal, Haiku moving to edge devices.",
+          "source": "The Information / Anthropic 备忘录",
+          "source_en": "The Information / Anthropic Memo",
+          "image": "img/pool/ai-models-update.jpg",
+          "content": "据 The Information 6/28 获取的 Anthropic 内部备忘录，Claude 4.5 系列将于 7 月 8-15 日陆续上线：Opus 4.5 对齐 GPT-5.5 in agentic 长任务，工具调用稳定性提升 30%；Sonnet 4.5 代码 SWE-Bench 突破 75%，原生 720p 视频理解；Haiku 4.5 通过蒸馏压到 3.4B 参数，可在 Snapdragon X2 与高通 AI100 端侧推理。",
+          "content_en": "Per a June 28 The Information memo, the Claude 4.5 series ships July 8-15: Opus 4.5 matches GPT-5.5 on agentic long-horizon tasks with +30% tool-use reliability; Sonnet 4.5 exceeds 75% on SWE-Bench and natively understands 720p video; Haiku 4.5 distills to 3.4B parameters running on Snapdragon X2 and Qualcomm AI100.",
+          "key_points": [
+            "7 月 8-15 日陆续上线",
+            "Opus 工具调用稳定性 +30%",
+            "Sonnet SWE-Bench >75% + 720p 视频",
+            "Haiku 蒸馏到 3.4B 端侧",
+            "覆盖 Agent/代码/边缘三条主线"
+          ],
+          "key_points_en": [
+            "Rolling launch July 8-15",
+            "Opus tool reliability +30%",
+            "Sonnet SWE-Bench >75% + 720p video",
+            "Haiku distilled to 3.4B edge",
+            "Agent/code/edge three-prong"
+          ],
+          "url": "https://www.anthropic.com/news"
+        }
+      ]
+    },
     {
       "date": "2026-06-28",
       "hero": {
@@ -1213,336 +1532,18 @@
           "url": "https://36kr.com/p/3866759935572612"
         }
       ]
-    },
-    {
-      "date": "2026-06-24",
-      "hero": {
-        "id": "hero-20260624",
-        "title": "中国AI大模型词元调用量连续八周稳居全球首位",
-        "title_en": "China's AI LLM Token Usage Ranks First Globally for 8 Consecutive Weeks",
-        "image": "img/pool/startup-coworking.jpg",
-        "date": "2026-06-24",
-        "source": "证券日报",
-        "source_en": "Securities Daily",
-        "summary": "OpenRouter数据显示，6月15日至21日当周，中国AI大模型周调用量达18.81万亿词元，环比增长2.12%，连续八周稳居全球首位，超过美国5.76万亿词元的3.3倍。",
-        "summary_en": "OpenRouter data shows China's AI LLM weekly token usage reached 18.81 trillion in the week of June 15-21, up 2.12% week-over-week, ranking first globally for 8 consecutive weeks, over 3.3 times that of the US at 5.76 trillion.",
-        "category": "产业分析",
-        "category_en": "Industry Analysis"
-      },
-      "articles": [
-        {
-          "id": "news-1",
-          "date": "2026-06-24",
-          "category": "产业分析",
-          "category_en": "Industry Analysis",
-          "title": "中国AI大模型词元调用量连续八周稳居全球首位",
-          "title_en": "China's AI LLM Token Usage Ranks First Globally for 8 Consecutive Weeks",
-          "summary": "OpenRouter数据显示，6月15日至21日当周，中国AI大模型周调用量达18.81万亿词元，环比增长2.12%，连续八周稳居全球首位，超过美国5.76万亿词元的3.3倍。",
-          "summary_en": "OpenRouter data shows China's AI LLM weekly token usage reached 18.81 trillion in the week of June 15-21, up 2.12% week-over-week, ranking first globally for 8 consecutive weeks, over 3.3 times that of the US at 5.76 trillion.",
-          "source": "证券日报",
-          "source_en": "Securities Daily",
-          "image": "img/pool/startup-coworking.jpg",
-          "content": "OpenRouter最新监测数据显示，6月15日至21日当周，全球AI大模型总调用量达46.7万亿词元，连续九周保持上涨态势。其中，中国AI大模型周调用量达18.81万亿词元，环比增长2.12%，连续八周稳居全球首位。相比之下，美国AI大模型周调用量为5.76万亿词元，环比增长仅0.70%。中国市场不仅在绝对量上是美国的3.3倍，增长速度也接近美国的3倍。八周的持续领跑，彻底确立了中国在全球AI应用落地领域的核心地位。DeepSeek-V4-Flash连续五周位居全球调用量榜首，小米MiMo-V2.5升至第二位，国产大模型在前十中占据六席。",
-          "content_en": "OpenRouter's latest monitoring data shows global AI LLM total token usage reached 46.7 trillion in the week of June 15-21, maintaining growth for nine consecutive weeks. China's AI LLM weekly token usage reached 18.81 trillion, up 2.12% week-over-week, ranking first globally for 8 consecutive weeks. In contrast, US AI LLM weekly token usage was 5.76 trillion, with only 0.70% week-over-week growth. China's market is not only 3.3 times that of the US in absolute volume, but its growth rate is nearly 3 times that of the US. DeepSeek-V4-Flash topped global usage for five consecutive weeks, Xiaomi's MiMo-V2.5 rose to second place, and Chinese LLMs occupied six of the top ten positions.",
-          "key_points": [
-            "中国AI大模型周调用量18.81万亿词元，连续八周全球第一",
-            "中国调用量是美国的3.3倍，增速接近3倍",
-            "DeepSeek-V4-Flash连续五周居全球调用量榜首",
-            "小米MiMo-V2.5升至全球第二",
-            "全球总调用量46.7万亿词元，连续九周上涨"
-          ],
-          "key_points_en": [
-            "China's AI LLM weekly usage reached 18.81 trillion tokens, ranking first globally for 8 weeks",
-            "China's usage is 3.3x that of the US, growth rate nearly 3x",
-            "DeepSeek-V4-Flash topped global usage for 5 consecutive weeks",
-            "Xiaomi MiMo-V2.5 rose to 2nd globally",
-            "Global total usage at 46.7 trillion tokens, rising for 9 consecutive weeks"
-          ],
-          "url": "https://www.securitiessdaily.com/"
-        },
-        {
-          "id": "news-2",
-          "date": "2026-06-24",
-          "category": "大模型",
-          "category_en": "LLM",
-          "title": "火山引擎发布豆包大模型2.1 Pro，日均Tokens突破180万亿",
-          "title_en": "Volcano Engine Releases Doubao LLM 2.1 Pro, Daily Tokens Exceed 180 Trillion",
-          "summary": "火山引擎正式发布豆包大模型2.1 Pro版本，日均Tokens调用量突破180万亿，较上一版本提升显著。新版本在推理能力和多模态理解方面均有大幅提升。",
-          "summary_en": "Volcano Engine officially released Doubao LLM 2.1 Pro, with daily token usage exceeding 180 trillion, a significant increase from the previous version. The new version shows substantial improvements in reasoning and multimodal understanding.",
-          "source": "每日经济新闻",
-          "source_en": "National Business Daily",
-          "image": "img/pool/llm-multimodal.jpg",
-          "content": "火山引擎在2026火山引擎FORCE原动力大会上正式发布豆包大模型2.1 Pro版本。数据显示，豆包大模型日均Tokens调用量已突破180万亿，较去年增长数十倍，标志着国产大模型正式跨越「生产级质变点」。新版本在代码生成、数学推理、长文本理解等核心能力上均有显著提升，特别是Agent能力方面新增了工具调用、多步骤规划和跨应用协作三项核心能力。火山引擎还同步推出了豆包2.1 Pro的轻量版和标准版，满足不同场景的算力需求。价格方面，Pro版输入每百万token仅4元，输出每百万token16元，极具性价比。",
-          "content_en": "Volcano Engine officially released Doubao LLM 2.1 Pro at the 2026 Volcano Engine FORCE conference. Data shows Doubao's daily token usage has exceeded 180 trillion, growing dozens of times compared to last year, marking Chinese LLMs crossing the 'production-grade tipping point.' The new version shows significant improvements in code generation, mathematical reasoning, and long-text understanding, with three new Agent capabilities: tool calling, multi-step planning, and cross-application collaboration. Volcano Engine also launched lightweight and standard versions. Pricing is highly competitive at 4 yuan per million input tokens and 16 yuan per million output tokens for the Pro version.",
-          "key_points": [
-            "豆包2.1 Pro日均Tokens突破180万亿",
-            "新增三项Agent核心能力",
-            "推理能力和多模态理解大幅提升",
-            "Pro版定价极具性价比",
-            "标志国产大模型跨越生产级质变点"
-          ],
-          "key_points_en": [
-            "Doubao 2.1 Pro daily tokens exceed 180 trillion",
-            "Three new Agent capabilities added",
-            "Significant improvements in reasoning and multimodal understanding",
-            "Pro version pricing highly competitive",
-            "Marks Chinese LLMs crossing the production-grade tipping point"
-          ],
-          "url": "https://www.nbd.com.cn/"
-        },
-        {
-          "id": "news-3",
-          "date": "2026-06-24",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "DeepSeek完成510亿元首轮融资，估值逼近4000亿",
-          "title_en": "DeepSeek Completes 51 Billion Yuan First Funding Round, Valuation Approaches 400 Billion",
-          "summary": "DeepSeek完成首轮融资510亿元人民币，投后估值逼近4000亿元。腾讯领投约100亿元，宁德时代出资50亿元，创始人梁文锋个人出资约28亿元保持控制权。",
-          "summary_en": "DeepSeek completed its first funding round of 51 billion yuan, with post-investment valuation approaching 400 billion yuan. Tencent led with approximately 10 billion yuan, CATL contributed 5 billion yuan, and founder Liang Wenfeng personally invested about 2.8 billion yuan to maintain control.",
-          "source": "36氪",
-          "source_en": "36Kr",
-          "image": "img/pool/investment-ipo.jpg",
-          "content": "DeepSeek完成成立以来首轮外部融资，总金额超过510亿元人民币，投后估值达520-590亿美元区间。本轮融资由腾讯领投约100亿元，宁德时代出资50亿元，网易、京东各30亿元。创始人梁文锋个人出资约28亿元，通过特殊的股权结构设计确保了绝对控制权——外部投资者仅获经济权益而无投票权。这是中国AI史上最大单轮融资，估值逻辑对标Anthropic，达国际一线水平。资金将主要用于算力基础设施建设和顶尖人才招募，DeepSeek计划在2026年底前将算力规模扩大3倍。",
-          "content_en": "DeepSeek completed its first external funding round, totaling over 51 billion yuan, with post-investment valuation in the $52-59 billion range. Tencent led with approximately 10 billion yuan, CATL contributed 5 billion yuan, and NetEase and JD.com each contributed 3 billion yuan. Founder Liang Wenfeng personally invested about 2.8 billion yuan, maintaining absolute control through a special equity structure where external investors only receive economic rights without voting rights. This is the largest single funding round in Chinese AI history, with valuation logic benchmarked against Anthropic at international top-tier levels. Funds will primarily be used for computing infrastructure and talent recruitment, with plans to triple computing capacity by end of 2026.",
-          "key_points": [
-            "DeepSeek首轮融资510亿元，中国AI史上最大",
-            "腾讯领投100亿元，宁德时代50亿元",
-            "梁文锋通过特殊股权结构保持绝对控制权",
-            "投后估值520-590亿美元，对标Anthropic",
-            "资金将用于算力建设3倍扩容和人才招募"
-          ],
-          "key_points_en": [
-            "DeepSeek's first round of 51 billion yuan, largest in Chinese AI history",
-            "Tencent led with 10 billion yuan, CATL with 5 billion yuan",
-            "Liang Wenfeng maintains absolute control through special equity structure",
-            "Post-investment valuation $52-59 billion, benchmarked against Anthropic",
-            "Funds for 3x computing expansion and talent recruitment"
-          ],
-          "url": "https://36kr.com/"
-        },
-        {
-          "id": "news-4",
-          "date": "2026-06-24",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "影眸科技完成数亿元新一轮融资",
-          "title_en": "Yingmou Technology Completes Hundreds of Millions Yuan New Funding Round",
-          "summary": "AI视觉技术公司影眸科技完成数亿元新一轮融资，公司专注于AI生成3D数字人技术，已在影视、游戏、虚拟直播等领域实现商业化落地。",
-          "summary_en": "AI vision technology company Yingmou Technology completed a new funding round of hundreds of millions of yuan, focusing on AI-generated 3D digital human technology with commercial applications in film, gaming, and virtual live streaming.",
-          "source": "每日经济新闻",
-          "source_en": "National Business Daily",
-          "image": "img/pool/investment-market.jpg",
-          "content": "AI视觉技术公司影眸科技宣布完成数亿元新一轮融资。该公司专注于AI生成3D数字人技术，其核心产品可实现从单张照片生成高精度3D数字人模型，在影视制作、游戏开发、虚拟直播等领域已实现商业化落地。本轮融资将用于技术研发升级和市场拓展，特别是在实时交互3D数字人领域的技术突破。影眸科技的技术已在多个头部影视项目中应用，其生成的数字人质量已接近真人水平，显著降低了3D内容制作成本和时间。",
-          "content_en": "AI vision technology company Yingmou Technology announced completing a new funding round of hundreds of millions of yuan. The company focuses on AI-generated 3D digital human technology, with its core product capable of generating high-precision 3D digital human models from a single photo, achieving commercial applications in film production, game development, and virtual live streaming. The funding will be used for R&D upgrades and market expansion, particularly in real-time interactive 3D digital human technology breakthroughs. Yingmou's technology has been applied in multiple top-tier film projects, with digital human quality approaching real-person levels, significantly reducing 3D content production costs and time.",
-          "key_points": [
-            "影眸科技完成数亿元融资",
-            "专注AI生成3D数字人技术",
-            "已在影视、游戏、虚拟直播实现商业化",
-            "从单张照片生成高精度3D数字人",
-            "数字人质量接近真人水平"
-          ],
-          "key_points_en": [
-            "Yingmou Technology completes hundreds of millions yuan funding",
-            "Focuses on AI-generated 3D digital human technology",
-            "Commercialized in film, gaming, and virtual live streaming",
-            "Generates high-precision 3D digital humans from single photo",
-            "Digital human quality approaching real-person levels"
-          ],
-          "url": "https://www.nbd.com.cn/"
-        },
-        {
-          "id": "news-5",
-          "date": "2026-06-24",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "正行创新完成近亿美元天使轮系列融资",
-          "title_en": "Zhengxing Innovation Completes Nearly 100 Million USD Angel Round Series Funding",
-          "summary": "AI基础设施初创公司正行创新完成近亿美元天使轮系列融资，专注于AI推理芯片和边缘计算解决方案，旨在为国产AI算力提供底层支撑。",
-          "summary_en": "AI infrastructure startup Zhengxing Innovation completed nearly 100 million USD in angel round series funding, focusing on AI inference chips and edge computing solutions, aiming to provide foundational support for domestic AI computing power.",
-          "source": "每日经济新闻",
-          "source_en": "National Business Daily",
-          "image": "img/pool/deep-analysis-forecast.jpg",
-          "content": "AI基础设施初创公司正行创新宣布完成近亿美元天使轮系列融资。该公司专注于AI推理芯片和边缘计算解决方案的研发，旨在为国产AI算力提供底层支撑。本轮融资由多家头部机构联合投资，资金将用于芯片流片、团队扩建和产品商业化。正行创新的核心团队来自英伟达、华为海思等头部芯片企业，拥有丰富的AI芯片设计经验。在当前国产AI芯片替代的大趋势下，正行创新定位差异化竞争，聚焦推理侧而非训练侧，以更高性价比满足企业级AI部署需求。",
-          "content_en": "AI infrastructure startup Zhengxing Innovation announced completing nearly 100 million USD in angel round series funding. The company focuses on R&D of AI inference chips and edge computing solutions, aiming to provide foundational support for domestic AI computing power. The funding was jointly invested by multiple top-tier institutions and will be used for chip tape-out, team expansion, and product commercialization. The core team comes from NVIDIA, HiSilicon, and other leading chip companies with rich AI chip design experience. Under the trend of domestic AI chip substitution, Zhengxing Innovation positions itself for differentiated competition, focusing on inference rather than training, offering better cost-effectiveness for enterprise AI deployment.",
-          "key_points": [
-            "正行创新完成近亿美元天使轮融资",
-            "专注AI推理芯片和边缘计算",
-            "核心团队来自英伟达、华为海思",
-            "聚焦推理侧差异化竞争",
-            "资金用于芯片流片和商业化"
-          ],
-          "key_points_en": [
-            "Zhengxing Innovation completes nearly 100M USD angel round",
-            "Focuses on AI inference chips and edge computing",
-            "Core team from NVIDIA and HiSilicon",
-            "Differentiated competition focusing on inference side",
-            "Funds for chip tape-out and commercialization"
-          ],
-          "url": "https://www.nbd.com.cn/"
-        },
-        {
-          "id": "news-6",
-          "date": "2026-06-24",
-          "category": "大模型",
-          "category_en": "LLM",
-          "title": "OpenAI发布GPT-5.5-Cyber满血版，强化网络安全能力",
-          "title_en": "OpenAI Releases GPT-5.5-Cyber Full Version, Strengthening Cybersecurity Capabilities",
-          "summary": "OpenAI发布GPT-5.5-Cyber满血版，专为网络安全场景优化的模型版本，在漏洞检测、威胁分析和安全代码审计方面表现突出，较标准版提升40%以上。",
-          "summary_en": "OpenAI released GPT-5.5-Cyber full version, a model specifically optimized for cybersecurity scenarios, excelling in vulnerability detection, threat analysis, and secure code auditing, with over 40% improvement compared to the standard version.",
-          "source": "CSDN",
-          "source_en": "CSDN",
-          "image": "img/pool/deep-analysis-research.jpg",
-          "content": "OpenAI正式发布GPT-5.5-Cyber满血版，这是GPT系列首个专为网络安全场景深度优化的模型版本。该模型在漏洞检测、威胁情报分析、安全代码审计和攻击模拟等核心安全任务上表现突出，较标准版GPT-5.5提升40%以上。GPT-5.5-Cyber支持对代码仓库进行全量安全扫描，可自动识别OWASP Top 10漏洞并给出修复建议，同时具备实时威胁情报分析能力。OpenAI表示，该模型已与多家安全厂商合作测试，预计将显著提升企业安全运营效率。定价方面，Cyber版本较标准版溢价30%。",
-          "content_en": "OpenAI officially released GPT-5.5-Cyber full version, the first GPT model deeply optimized for cybersecurity scenarios. The model excels in vulnerability detection, threat intelligence analysis, secure code auditing, and attack simulation, showing over 40% improvement compared to the standard GPT-5.5. GPT-5.5-Cyber supports full security scanning of code repositories, automatically identifying OWASP Top 10 vulnerabilities with remediation suggestions, and has real-time threat intelligence analysis capabilities. OpenAI stated the model has been tested with multiple security vendors and is expected to significantly improve enterprise security operations efficiency. Pricing is 30% premium over the standard version.",
-          "key_points": [
-            "GPT-5.5-Cyber是首个网络安全专优化模型",
-            "漏洞检测和安全审计能力提升40%以上",
-            "支持OWASP Top 10漏洞自动识别和修复",
-            "已与多家安全厂商合作测试",
-            "定价较标准版溢价30%"
-          ],
-          "key_points_en": [
-            "GPT-5.5-Cyber is the first cybersecurity-optimized model",
-            "Vulnerability detection and security auditing improved 40%+",
-            "Supports automatic OWASP Top 10 identification and remediation",
-            "Tested with multiple security vendors",
-            "Priced at 30% premium over standard version"
-          ],
-          "url": "https://www.csdn.net/"
-        },
-        {
-          "id": "news-7",
-          "date": "2026-06-24",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "Anthropic秘密提交IPO，估值达9650亿美元",
-          "title_en": "Anthropic Secretly Files for IPO, Valuation Reaches 965 Billion USD",
-          "summary": "Anthropic已秘密提交IPO申请，估值达9650亿美元，首次超越OpenAI的8520亿美元登顶行业第一。预计将在2026年下半年正式上市。",
-          "summary_en": "Anthropic has secretly filed for IPO, with valuation reaching 965 billion USD, surpassing OpenAI's 852 billion USD for the first time to become the industry's most valuable AI company. Expected to officially list in the second half of 2026.",
-          "source": "路透社",
-          "source_en": "Reuters",
-          "image": "img/pool/vr-ar-meeting.jpg",
-          "content": "据知情人士透露，AI安全公司Anthropic已秘密向美国证券交易委员会提交IPO申请，估值达9650亿美元，首次超越OpenAI的8520亿美元，成为全球估值最高的AI公司。Anthropic成立于2021年，由前OpenAI副总裁Dario Amodei创立，主打AI安全和对齐研究。其旗舰产品Claude系列在代码生成、长文本理解和安全对齐方面表现卓越。Anthropic在2025年底发布的Claude Fable 5在SWE-bench Pro上得分80.3%，领先GPT-5.5达22个百分点。此次IPO预计将在2026年下半年正式上市，有望成为AI行业最大规模的公开募股。",
-          "content_en": "According to informed sources, AI safety company Anthropic has secretly filed an IPO application with the US Securities and Exchange Commission, with valuation reaching 965 billion USD, surpassing OpenAI's 852 billion USD for the first time to become the world's most valuable AI company. Founded in 2021 by former OpenAI VP Dario Amodei, Anthropic focuses on AI safety and alignment research. Its flagship Claude series excels in code generation, long-text understanding, and safety alignment. Claude Fable 5, released at the end of 2025, scored 80.3% on SWE-bench Pro, leading GPT-5.5 by 22 percentage points. The IPO is expected to officially list in the second half of 2026, potentially becoming the largest public offering in the AI industry.",
-          "key_points": [
-            "Anthropic秘密提交IPO申请",
-            "估值9650亿美元超越OpenAI",
-            "Claude Fable 5在SWE-bench领先22个百分点",
-            "预计2026年下半年正式上市",
-            "有望成为AI行业最大规模公开募股"
-          ],
-          "key_points_en": [
-            "Anthropic secretly filed IPO application",
-            "Valuation of 965B USD surpasses OpenAI",
-            "Claude Fable 5 leads SWE-bench by 22 percentage points",
-            "Expected to list officially in H2 2026",
-            "Could become largest AI industry public offering"
-          ],
-          "url": "https://www.reuters.com/"
-        },
-        {
-          "id": "news-8",
-          "date": "2026-06-24",
-          "category": "开源动态",
-          "category_en": "Open Source",
-          "title": "NVIDIA发布Nemotron 3 Ultra，5500亿参数最强美国开源模型",
-          "title_en": "NVIDIA Releases Nemotron 3 Ultra, 550B Parameter Strongest American Open Source Model",
-          "summary": "NVIDIA发布Nemotron 3 Ultra开源模型，5500亿参数成为美国最强开源大模型，在多项评测中超越Llama 4和Mistral Large，支持商用许可。",
-          "summary_en": "NVIDIA released the Nemotron 3 Ultra open source model, with 550 billion parameters becoming America's strongest open source LLM, surpassing Llama 4 and Mistral Large in multiple benchmarks, available under commercial license.",
-          "source": "TechCrunch",
-          "source_en": "TechCrunch",
-          "image": "img/pool/opensource-collab.jpg",
-          "content": "NVIDIA正式发布Nemotron 3 Ultra开源大模型，5500亿参数规模使其成为目前美国最强的开源大模型。该模型在MMLU、GSM8K、HumanEval等多项主流评测中全面超越Meta的Llama 4和Mistral Large，特别是在数学推理和代码生成方面表现突出。Nemotron 3 Ultra采用NVIDIA自研的NeMo框架训练，使用了15万亿token的训练数据，支持128K上下文窗口。模型以NVIDIA开源许可协议发布，允许商业使用。NVIDIA表示，此举旨在推动AI生态系统的开放发展，与Google的Gemma和Meta的Llama形成三足鼎立的开源格局。",
-          "content_en": "NVIDIA officially released the Nemotron 3 Ultra open source LLM, with 550 billion parameters making it America's strongest open source model. The model comprehensively surpasses Meta's Llama 4 and Mistral Large across multiple mainstream benchmarks including MMLU, GSM8K, and HumanEval, with particularly outstanding performance in mathematical reasoning and code generation. Nemotron 3 Ultra was trained using NVIDIA's proprietary NeMo framework with 15 trillion tokens of training data, supporting a 128K context window. The model is released under NVIDIA's open source license allowing commercial use. NVIDIA stated this move aims to promote open development of the AI ecosystem, forming a tripartite open source landscape with Google's Gemma and Meta's Llama.",
-          "key_points": [
-            "Nemotron 3 Ultra 5500亿参数美国最强开源",
-            "全面超越Llama 4和Mistral Large",
-            "15万亿token训练数据，128K上下文",
-            "支持商用许可",
-            "与Gemma、Llama三足鼎立"
-          ],
-          "key_points_en": [
-            "Nemotron 3 Ultra 550B parameters, America's strongest open source",
-            "Comprehensively surpasses Llama 4 and Mistral Large",
-            "15 trillion tokens training data, 128K context",
-            "Commercial use permitted",
-            "Tripartite landscape with Gemma and Llama"
-          ],
-          "url": "https://techcrunch.com/"
-        },
-        {
-          "id": "news-9",
-          "date": "2026-06-24",
-          "category": "产业分析",
-          "category_en": "Industry Analysis",
-          "title": "微软CEO警告AI巨头权力过度集中",
-          "title_en": "Microsoft CEO Warns of Excessive Power Concentration Among AI Giants",
-          "summary": "微软CEO萨提亚·纳德拉公开警告AI行业权力过度集中的风险，呼吁建立更开放和多元化的AI生态，避免少数公司垄断AI基础能力。",
-          "summary_en": "Microsoft CEO Satya Nadella publicly warned about the risk of excessive power concentration in the AI industry, calling for a more open and diversified AI ecosystem to prevent a few companies from monopolizing fundamental AI capabilities.",
-          "source": "界面新闻",
-          "source_en": "Jiemian News",
-          "image": "img/pool/blockchain-supply.jpg",
-          "content": "微软CEO萨提亚·纳德拉在近期公开场合发出警告，指出AI行业正面临权力过度集中的风险。他表示，当前少数几家AI巨头掌握了算力、数据和人才的绝对优势，这种集中趋势可能抑制创新、推高价格，并最终损害消费者利益。纳德拉呼吁建立更开放和多元化的AI生态系统，通过开源模型、分布式算力和数据共享来降低行业准入门槛。他特别强调，微软将继续投资开源AI项目，支持中小型AI公司的发展。这一表态被业界解读为对OpenAI、Google等竞争对手的间接批评，也反映了微软在AI生态布局中的战略考量。",
-          "content_en": "Microsoft CEO Satya Nadella recently publicly warned about the risk of excessive power concentration in the AI industry. He stated that a few AI giants currently hold absolute advantages in computing power, data, and talent, and this concentration trend may suppress innovation, drive up prices, and ultimately harm consumer interests. Nadella called for building a more open and diversified AI ecosystem, lowering industry barriers through open source models, distributed computing, and data sharing. He specifically emphasized that Microsoft will continue investing in open source AI projects and supporting the development of small and medium-sized AI companies. This statement has been interpreted as indirect criticism of competitors like OpenAI and Google, reflecting Microsoft's strategic considerations in AI ecosystem positioning.",
-          "key_points": [
-            "纳德拉警告AI行业权力过度集中",
-            "少数巨头掌握算力、数据、人才绝对优势",
-            "呼吁建立开放多元化的AI生态",
-            "微软将继续投资开源AI项目",
-            "被解读为对OpenAI、Google的间接批评"
-          ],
-          "key_points_en": [
-            "Nadella warns of excessive power concentration in AI",
-            "A few giants hold absolute advantages in computing, data, talent",
-            "Calls for open and diversified AI ecosystem",
-            "Microsoft will continue investing in open source AI",
-            "Interpreted as indirect criticism of OpenAI and Google"
-          ],
-          "url": "https://www.jiemian.com/"
-        },
-        {
-          "id": "news-10",
-          "date": "2026-06-24",
-          "category": "政策监管",
-          "category_en": "Policy & Regulation",
-          "title": "31个省份差异化推进人工智能发展布局",
-          "title_en": "31 Provinces Differentially Advance AI Development Layout",
-          "summary": "全国31个省份已全部出台AI发展专项政策，根据各地产业基础和资源禀赋差异化布局，形成算力、数据、应用三大差异化发展路径。",
-          "summary_en": "All 31 provinces in China have issued AI development policies, with differentiated layouts based on local industrial bases and resource endowments, forming three differentiated development paths: computing power, data, and applications.",
-          "source": "金台资讯",
-          "source_en": "Jintai News",
-          "image": "img/pool/vr-ar-training.jpg",
-          "content": "全国31个省份已全部出台人工智能发展专项政策，根据各地产业基础和资源禀赋进行差异化布局。整体来看，形成了三大差异化发展路径：一是以内蒙古、贵州、甘肃为代表的算力枢纽型省份，依托清洁能源和气候优势建设大型智算中心；二是以北京、上海、深圳为代表的技术引领型城市，聚焦大模型研发和前沿技术突破；三是以浙江、江苏、广东为代表的应用驱动型省份，推动AI在制造业、服务业的深度融合。工信部表示，差异化布局避免了同质化竞争和资源浪费，各地应发挥比较优势，形成全国AI发展的协同效应。同时，跨省算力调度和数据流通机制正在建设中。",
-          "content_en": "All 31 provinces in China have issued AI development policies, with differentiated layouts based on local industrial bases and resource endowments. Overall, three differentiated development paths have formed: first, computing hub provinces represented by Inner Mongolia, Guizhou, and Gansu, leveraging clean energy and climate advantages to build large AI computing centers; second, technology-leading cities represented by Beijing, Shanghai, and Shenzhen, focusing on LLM R&D and frontier technology breakthroughs; third, application-driven provinces represented by Zhejiang, Jiangsu, and Guangdong, promoting deep AI integration in manufacturing and services. The Ministry of Industry and Information Technology stated that differentiated layout avoids homogeneous competition and resource waste, and each region should leverage comparative advantages to form a national AI development synergy. Cross-province computing scheduling and data circulation mechanisms are also under construction.",
-          "key_points": [
-            "31个省份全部出台AI发展专项政策",
-            "形成算力枢纽、技术引领、应用驱动三大路径",
-            "避免同质化竞争和资源浪费",
-            "跨省算力调度和数据流通机制在建",
-            "工信部强调发挥比较优势形成协同效应"
-          ],
-          "key_points_en": [
-            "All 31 provinces issued AI development policies",
-            "Three paths: computing hubs, tech leadership, application-driven",
-            "Avoids homogeneous competition and resource waste",
-            "Cross-province computing scheduling under construction",
-            "MIIT emphasizes leveraging comparative advantages for synergy"
-          ],
-          "url": "https://www.jintai.cn/"
-        }
-      ]
     }
   ],
   "hero": {
-    "id": "hero-20260628",
-    "title": "中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标同步落地",
-    "title_en": "China's AI Governance Framework Takes Shape: 40+ National Standards plus 7 Agent Interconnection Standards Land Simultaneously",
-    "image": "img/pool/industry-smart-city.jpg",
-    "date": "2026-06-28",
-    "source": "国家标准委 / 中国政府网",
-    "source_en": "China National Standardization Administration / Gov.cn",
-    "summary": "国家标准委披露自 2025 年起已发布 40+ 项 AI 国标，覆盖基础支撑、关键技术、产品应用三大板块；同时《人工智能 智能体互联》系列 7 项国标同步发布，搭建身份标识—能力描述—供需发现—协同交互—工具调用闭环式规范体系，填补全球智能体协同空白。",
-    "summary_en": "China unveiled 40+ AI national standards since 2025 covering foundational support, key tech and product applications. The 7 Agent Interconnection standards build a closed-loop spec system spanning identity, capability, discovery, interaction and tool-calling — filling a global gap in agent collaboration.",
+    "id": "hero-20260629",
+    "title": "先进封装产业链全面爆发：日月光净利 +58%、CoWoS 缺口 20%、长电科技 4 天 3 涨停",
+    "title_en": "Advanced Packaging Boom: ASE Net Profit +58%, CoWoS Shortage 20%, JCET 3 Limit-Ups in 4 Days",
+    "image": "img/pool/industry-digital-twin.jpg",
+    "date": "2026-06-29",
+    "source": "财联社 / 经济日报 / 集微网",
+    "source_en": "CLS / Economic Daily / IJiwei",
+    "summary": "AI 芯片需求把先进封装从产业链末端推到价值核心：日月光 Q2 净利同比 +58%，CoWoS 缺口仍达 20-25%，长电科技获 78 亿元临港新厂投资、目标价上调至 110 元，HBM 容量三年翻三倍。供给端三梯队（台系/陆系/日韩）同步扩产，叠加三星 1000 万亿韩元韩国半导体投资与北京太空算力大会启幕，半导体产业进入「精装修」时代。",
+    "summary_en": "AI chip demand has pushed advanced packaging from the back-end to the core of the value chain: ASE Q2 net profit +58% YoY, CoWoS shortfall still at 20-25%, JCET secured 7.8B yuan Lingang fab with target price raised to 110 yuan, HBM capacity to triple in three years. Three tiers of suppliers (Taiwan / mainland / Japan-Korea) are expanding in sync. Combined with Samsung's 1,000T won Korean semiconductor program and the Beijing Space Computing Summit, semiconductors enter the era of 'fine decoration'.",
     "category": "产业",
     "category_en": "Industry Analysis"
   }

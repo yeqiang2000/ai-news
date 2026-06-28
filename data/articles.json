@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "article-28",
+      "slug": "advanced-packaging-renaissance",
+      "date": "2026-06-29",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title_zh": "先进封装的逆袭：从产业链末端到 AI 芯片核心价值层",
+      "title_en": "The Packaging Renaissance: From Backend Support to AI Chip Core Value Layer",
+      "subtitle_zh": "日月光净利 +58%、CoWoS 缺口 20%、长电科技 4 天 3 涨停——AI 时代封装为何从「装水电」升级为「精装修」？",
+      "subtitle_en": "ASE Profit +58%, CoWoS Gap 20%, JCET Limit-Up 3 of 4 Days — How AI Promoted Packaging from 'Plumbing' to 'Fine Decoration'",
+      "image": "img/pool/chips-tpu-v3.jpg",
+      "read_time": "12 分钟",
+      "read_time_en": "12 min read",
+      "url_zh": "articles/article-28.html",
+      "url_en": "articles/en/article-28.html",
+      "summary_zh": "AI 算力革命把先进封装从产业链末端推到价值核心：日月光净利同比 +58%，CoWoS 缺口仍达 20-25%，长电科技 4 天 3 涨停，目标价上调至 110 元。本文复盘技术升维、财务质变、三梯队扩产、供需缺口、产业链全景五条主线，并给出下半场的三大风险和两大机会。",
+      "summary_en": "The AI compute revolution has lifted advanced packaging from the end of the value chain to its core. ASE's net profit jumped 58% YoY, CoWoS shortages persist at 20-25%, and JCET hit limit-ups in 3 of 4 sessions with target prices raised to 110 yuan. This article walks through technology, financials, capacity tiers, supply-demand and ecosystem mapping, then identifies 3 risks and 2 opportunities for the second half."
+    },
+    {
       "id": "article-27",
       "slug": "china-ai-governance-framework-takes-shape",
       "date": "2026-06-28",

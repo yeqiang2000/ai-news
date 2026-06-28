@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ASE Q4 net profit up 58%, CoWoS now accounts for 21-25% of chip cost, JCET target price raised from 42 to 110 yuan — this article unpacks the structural transformation of advanced packaging from financial, technical and supply-chain angles.">
+    <meta name="keywords" content="advanced packaging, CoWoS, ASE, JCET, HBM, AI chip, industry analysis, Chiplet">
+    <meta property="og:title" content="The Packaging Renaissance: From Backend Support to AI Chip Core Value Layer">
+    <meta property="og:description" content="ASE net profit +58%, CoWoS supply gap 20%, JCET hits 3 daily limits in 4 days — why advanced packaging is being upgraded from 'plumbing' to 'finished interior design' in the AI era">
+    <meta property="og:image" content="../img/pool/chips-tpu-v3.jpg">
+    <title>The Packaging Renaissance: From Backend Support to AI Chip Core Value Layer | AI News Daily</title>
+    <link rel="canonical" href="articles/en/article-28.html">
+    <link rel="alternate" hreflang="zh-CN" href="../article-28.html">
+    <link rel="alternate" hreflang="en" href="article-28.html">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6fa;
+            color: #2c3e50;
+        }
+        .deep-article {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 50px 56px;
+            box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+        }
+        .article-header { margin-bottom: 30px; }
+        .article-meta-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 22px;
+            font-size: 0.92em;
+            color: #7f8c9b;
+        }
+        .article-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.88em;
+            font-weight: 500;
+        }
+        .article-date, .article-read-time { color: #95a5a6; }
+        .article-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.35;
+            margin: 0 0 16px 0;
+        }
+        .article-subtitle {
+            font-size: 1.08em;
+            color: #5a6c7d;
+            line-height: 1.7;
+            margin: 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-hero-image {
+            margin: 30px 0 36px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            max-height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+        .article-content { font-size: 1.05em; color: #2c3e50; }
+        .article-content p { margin: 0 0 22px 0; text-align: justify; }
+        .article-content p.lead {
+            font-size: 1.18em;
+            color: #34495e;
+            font-weight: 500;
+            line-height: 1.75;
+            margin-bottom: 30px;
+            padding: 22px 26px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #fdf7ff 100%);
+            border-left: 4px solid #667eea;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-content h2 {
+            font-size: 1.45em;
+            color: #1a1a2e;
+            margin: 44px 0 20px 0;
+            padding-left: 16px;
+            border-left: 4px solid #667eea;
+            line-height: 1.4;
+        }
+        .article-content h3 {
+            font-size: 1.18em;
+            color: #2c3e50;
+            margin: 30px 0 14px 0;
+        }
+        .article-content strong { color: #1a1a2e; font-weight: 600; }
+        .article-content em { color: #667eea; font-style: italic; }
+        .article-content a { color: #667eea; text-decoration: none; border-bottom: 1px solid #667eea; }
+        .article-content a:hover { color: #764ba2; border-bottom-color: #764ba2; }
+        .article-content ul, .article-content ol { margin: 0 0 22px 0; padding-left: 28px; }
+        .article-content li { margin-bottom: 10px; line-height: 1.75; }
+        .article-quote {
+            background: #fdf2f2;
+            border-left: 4px solid #e74c3c;
+            padding: 22px 28px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-quote p {
+            margin: 0;
+            font-style: italic;
+            color: #555;
+            font-size: 1.05em;
+        }
+        .article-quote .quote-author, .article-quote cite {
+            display: block;
+            text-align: right;
+            margin-top: 12px;
+            color: #888;
+            font-style: normal;
+            font-size: 0.9em;
+        }
+        .article-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 28px 0;
+            font-size: 0.96em;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .article-content th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .article-content td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #eef1f5;
+            background: #fff;
+        }
+        .article-content tr:nth-child(even) td { background: #fafbfd; }
+        .article-content tr:hover td { background: #f4f6ff; }
+        .article-highlight, .article-conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 32px;
+            border-radius: 12px;
+            margin: 36px 0;
+        }
+        .article-highlight h2, .article-highlight h3,
+        .article-conclusion h2, .article-conclusion h3 {
+            color: white;
+            margin-top: 0;
+            border: none;
+            padding: 0;
+        }
+        .article-highlight p, .article-conclusion p { color: rgba(255,255,255,0.95); }
+        .article-footer {
+            margin-top: 50px;
+            padding-top: 24px;
+            border-top: 1px solid #eef1f5;
+            color: #95a5a6;
+            font-size: 0.92em;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            body { padding: 16px 8px; }
+            .deep-article { padding: 28px 20px; }
+            .article-title { font-size: 1.55em; }
+            .article-subtitle { font-size: 1em; }
+            .article-content { font-size: 1em; }
+            .article-content h2 { font-size: 1.25em; }
+            .article-content p.lead { font-size: 1.08em; padding: 18px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="deep-article">
+        <header class="article-header">
+            <div class="article-meta-top">
+                <span class="article-category">Industry Analysis</span>
+                <span class="article-date">2026-06-29</span>
+                <span class="article-read-time">12 min read</span>
+            </div>
+            <h1 class="article-title">The Packaging Renaissance: From Backend Support to AI Chip Core Value Layer</h1>
+            <p class="article-subtitle">ASE net profit +58%, CoWoS supply gap 20%, JCET hits 3 daily limits in 4 days — why advanced packaging is being upgraded from 'plumbing' to 'finished interior design' in the AI era</p>
+        </header>
+        <div class="article-hero-image">
+            <img src="../../img/pool/chips-tpu-v3.jpg" alt="Advanced Packaging AI Chip">
+        </div>
+        <article class="article-content">
+<p class="lead">In Q4 2025, global packaging leader ASE Technology reported a stunning <strong>58% year-on-year net profit surge</strong>, while committing to double its advanced packaging revenue from $1.6B to $3.2B in 2026. The same week, JCET (Changdian Technology) announced an <strong>$1.08 billion (RMB 7.8B)</strong> investment in a new high-end packaging plant in Shanghai's Lingang Free Trade Zone — the stock hit three daily limits in four days, with Citigroup raising its target price from 42 to 110 yuan.</p>
+
+<p>These are not ordinary cyclical fluctuations. When <strong>NVIDIA B200's advanced node cost ($1,500) is nearly matched by its CoWoS packaging cost ($1,367)</strong>, when SEMI forecasts that advanced packaging will exceed <strong>54%</strong> of total packaging market in 2026 for the first time, the entire semiconductor value chain is undergoing a structural reshuffle — the once-overlooked back-end process is being upgraded into the very ceiling of AI compute.</p>
+
+<h2>1. Technical Leap: From "Single Chip" to "System-Level Integration"</h2>
+
+<p>For decades, the semiconductor improvement formula has been brutally simple: shrink the transistor. But as 3nm tape-out costs grow exponentially, transistor density approaches physical limits, and single-die areas are capped by reticle size (~858mm²), <strong>pure process scaling has reached its endgame</strong>.</p>
+
+<p>The arrival of large language models pushed this contradiction to a breaking point. Industry data shows the compute demand growth rate has jumped from "8× every two years" to <strong>"275× every two years"</strong>. To continue performance scaling within physical limits, the only remaining path is systems-level integration — and that is exactly the role advanced packaging plays.</p>
+
+<p class="lead">Three core technical paths are redefining the packaging frontier:</p>
+
+<ul>
+<li><strong>Chiplet heterogeneous integration</strong>: Disaggregate large monolithic chips into multiple functional dies, each on optimal process nodes. NVIDIA B200 is built exactly this way.</li>
+<li><strong>2.5D/3D vertical stacking</strong>: Silicon interposers, TSVs, and hybrid bonding enable ultra-dense vertical interconnects. TSMC's 5.5× reticle CoWoS is now in mass production with <strong>over 98% yield</strong>; the 14× reticle CoWoS (integrating 20 HBMs) is slated for 2028.</li>
+<li><strong>HBM-compute heterogeneous packaging</strong>: Stack HBM DRAM vertically and co-package with GPU compute dies on a single substrate — solving the "memory wall" bottleneck head-on.</li>
+</ul>
+
+<div class="article-quote">
+<p>"In mainstream high-compute chips, CoWoS and its supporting testing now represent value approaching that of advanced process manufacturing, accounting for 21-25% of chip cost structure — fundamentally reshaping IC supply chain value distribution."</p>
+<cite class="quote-author">— Morgan Stanley, Greater China Semiconductor Report</cite>
+</div>
+
+<h2>2. Financial Transformation: From "Cyclical" to "Growth" Valuation</h2>
+
+<p>Financial data is the most honest reflection of structural industry change. Historically, packaging firms were viewed as low-margin, highly cyclical foundry services. Today, packaging leaders' gross margins and R&D intensity are quietly catching up with — and in some cases exceeding — chip designers.</p>
+
+<table>
+<thead>
+<tr><th>Key Metric</th><th>Old (Traditional)</th><th>New (Advanced Packaging)</th></tr>
+</thead>
+<tbody>
+<tr><td>Gross Margin Range</td><td>12-18% (leadframe)</td><td>35-50% (HBM/AI bonding)</td></tr>
+<tr><td>Valuation Framework</td><td>Asset-heavy cyclical</td><td>Compute infra growth</td></tr>
+<tr><td>CapEx Cadence</td><td>Follows consumer cycle</td><td>Follows hyperscaler capex</td></tr>
+<tr><td>Customer Mix</td><td>Consumer brands</td><td>Deep AI silicon partnerships</td></tr>
+<tr><td>Pricing Model</td><td>Per-pin</td><td>Per-solution</td></tr>
+</tbody>
+</table>
+
+<p>This valuation shift has played out vividly in equity markets. <strong>ASE Technology stock has gained over 159% in 2025</strong>, market cap reaching $93.2B; ASE's advanced packaging segment trades at a 6× P/B multiple — a reference for domestic peers. JCET's 2025 advanced packaging revenue hit <strong>RMB 27B, an all-time high</strong>; Q1 2026 net profit grew 42.74% year-on-year with utilization at peak levels.</p>
+
+<p>CapEx "arms race" is also accelerating. ASE raised 2026 CapEx guidance to <strong>$8.5 billion</strong>, with COO Tien Wu noting "further upward revisions are not ruled out." TSMC plans 80%+ CAGR for CoWoS/SoIC capacity from 2022 to 2027.</p>
+
+<h2>3. China Capacity Push: RMB 15+ Billion of Capital Commitments</h2>
+
+<p>A-share packaging stocks saw a coordinated expansion wave in H1 2026, with the top three OSAT players committing over <strong>RMB 15 billion combined</strong>:</p>
+
+<div class="article-highlight">
+<p><strong>JCET</strong>: $1.08B Lingang advanced packaging fab announced June 24; Phase 1 completes H2 2028. 2026 CapEx budget ~$1.4B. China's only OSAT with HBM3E 8-stack and 2.5D wafer-level mass production capability; proprietary XDFOI™ Chiplet integration platform.</p>
+<p><strong>Tianshui Huatian Technology</strong>: $420M Nanjing Phase 2 announced May 22, targeting 430M units of memory IC packaging annually. Ramp begins Q3 2026. Glass substrate packaging on roadmap.</p>
+<p><strong>Tongfu Microelectronics</strong>: $610M secondary offering, deeply tied to AMD; carries the vast majority of AMD's CPU/GPU FC-BGA orders, with mature 5nm/7nm/3nm packaging.</p>
+<p><strong>Yongsi Electronics</strong>: $1.4B Ningbo Yuyao Phase 3 announced June 26 — its second expansion in six months.</p>
+</div>
+
+<p>The market logic is clear: <strong>advanced packaging is seeing "spillover demand"</strong>. Against an AI chip demand boom, overseas chip designers are progressively qualifying Chinese OSAT vendors — domestic substitution is shifting from policy-driven to order-driven.</p>
+
+<h2>4. Supply Gap: Repricing Scarce Assets</h2>
+
+<p>CoWoS is the single most direct bottleneck constraining AI compute expansion. TSMC plans to reach 115-140K wafers/month CoWoS capacity by end-2026, scaling to 200K/month by end-2027 — a 10× expansion in four years — and it is still oversold.</p>
+
+<p>Hard numbers:</p>
+<ul>
+<li>2026 CoWoS full-year demand ~1M wafers vs. effective capacity ~900K, <strong>shortfall ~100K wafers</strong>.</li>
+<li>2027 global demand forecast: 2.694M wafers, <strong>+93% year-on-year</strong>.</li>
+<li>NVIDIA takes 55-63% of 2026 CoWoS capacity, but AMD, Google TPU, AWS ASIC demand is exploding.</li>
+<li>TrendForce: <strong>severe global 2.5D capacity tightness will not ease until 2027</strong>.</li>
+</ul>
+
+<p>This structural scarcity translates directly into pricing power. Goldman Sachs forecasts the HBM market will grow from <strong>$56B in 2026</strong> to $116B in 2027 and <strong>$168B in 2028</strong> — tripling in three years. Every HBM chip placed next to a GPU must pass through CoWoS packaging.</p>
+
+<div class="article-quote">
+<p>"Advanced node remains the highest-barrier link in the supply chain; advanced packaging now occupies an equally strategic position as core compute infrastructure."</p>
+<cite class="quote-author">— Bank of America, Greater China Semiconductor Upgrade Report</cite>
+</div>
+
+<h2>5. Full Supply Chain View: Non-Linear Differentiation</h2>
+
+<p>The full advanced packaging supply chain splits into three layers, but cyclicality, earnings cadence, and valuation logic differ massively across them:</p>
+
+<h3>Upstream (Specialty Equipment + Core Consumables): Biggest Domestic Substitution Opportunity</h3>
+<p>Advanced packaging is not legacy equipment reuse. 2.5D/3D, HBM stacking, hybrid bonding, ABF substrates all require dedicated tools. Shennan Circuits is China's scarce ABF substrate player; glass substrates, per Guosheng Securities, are "the next-gen core material for advanced packaging" — also the critical carrier for CPO scaling.</p>
+
+<h3>Midstream (OSAT): Highest Earnings Certainty, Current Market Leader</h3>
+<p>JCET, Tongfu, Huatian directly absorb AI chip and HBM orders. Per estimates, <strong>JCET's advanced packaging revenue share now exceeds 45%</strong>; valuation logic is shifting from cyclical packaging to compute infrastructure platform.</p>
+
+<h3>Downstream (Compute End-User): Demand Origin, Not Beneficiary of Packaging Premium</h3>
+<p>Cambricon, Hygon, Montage Technology are demand-side players. Their correlation with packaging stocks is weaker than upstream/midstream — for them, advanced packaging is a cost line, not a profit line.</p>
+
+<h2>6. Risk Map and Second-Half Watchpoints</h2>
+
+<p>Three risks that cannot be ignored:</p>
+<ul>
+<li><strong>HBM technology iteration</strong>: HBM4 is replacing HBM3E; HBM5 pre-research for 2027 has begun. Roadmap shifts could devalue current capacity.</li>
+<li><strong>Geopolitical supply chain risk</strong>: US export controls on China are tightening; despite policy backing, foreign equipment and materials remain a hard constraint on capacity expansion.</li>
+<li><strong>CapEx-to-earnings translation lag</strong>: JCET's Phase 1 only completes in 2028, Huatian Nanjing ramps Q3 — 18-36 months of lag means severe stock volatility along the way.</li>
+</ul>
+
+<p class="lead">Three signals to watch in the second half: (1) TSMC's 2027 CoWoS capacity ramp cadence, (2) domestic HBM stacking yield breakthroughs, (3) customer qualification progress on glass substrate CPO. Together they decide whether advanced packaging completes its second-stage transition — from "capacity-shortage-driven" to "technology-moat-driven."</p>
+
+<div class="article-conclusion">
+<h3>Core Takeaway</h3>
+<p>In the AI era, packaging is no longer "plumbing" — it is "finished interior design": no longer a yield insurance for the chip, but the hard constraint on chip performance, the bottleneck for capacity expansion, and the new pivot of value distribution along the chain. What ASE, JCET, and TSMC are simultaneously expanding isn't just capacity — it is a reordering of industrial pricing power.</p>
+<p>For developers and investors, understanding the new definition "advanced packaging IS compute infrastructure" is the only way to make sense of why JCET's target price jumped from 42 to 110 yuan — and to anticipate where the next real bottleneck in AI compute will appear.</p>
+</div>
+</article>
+    </div>
+</body>
+</html>
