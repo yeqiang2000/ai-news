@@ -59,7 +59,7 @@
           "summary_en": "Samsung pledges 1,000 trillion won (~$730B) to semiconductors over 10 years, prioritizing HBM4/HBM4E, Pyeongtaek P5 foundry, and Pyongsan system chip lines.",
           "source": "韩联社 / 三星电子",
           "source_en": "Yonhap / Samsung Electronics",
-          "image": "img/pool/chips-foundry.jpg",
+          "image": "img/pool/industry-robot-arm.jpg",
           "content": "韩国政府与三星电子 6/28 联合公布「半导体生态超级计划」，未来 10 年 1000 万亿韩元投资将分三部分：HBM4 / HBM4E 量产产能扩 2.5 倍、平泽 P5 厂 2nm GAA 工艺扩产、与韩国政府共建半导体人才教育园区。三星称该计划意在「重建 HBM 龙头地位、并把代工市占率拉回 25% 以上」。",
           "content_en": "On June 28, the Korean government and Samsung Electronics jointly unveiled a Semiconductor Ecosystem Super Plan: a 1,000T won investment over 10 years split into HBM4/HBM4E capacity expansion (2.5x), Pyeongtaek P5 2nm GAA foundry ramp, and a national semiconductor talent campus. Samsung says the plan aims to 'restore HBM leadership and pull foundry share back above 25%'.",
           "key_points": [
@@ -89,7 +89,7 @@
           "summary_en": "The inaugural Beijing Space Computing Summit (June 28-30) saw Guodian Gaoke, CAS Space and others unveil orbital compute satellite roadmaps, targeting 1 EFLOPS of space compute by 2030.",
           "source": "新华社 / 中国航天报",
           "source_en": "Xinhua / China Aerospace News",
-          "image": "img/pool/data-center-space.jpg",
+          "image": "img/pool/network-satellite.jpg",
           "content": "首届北京太空算力大会公布「太空 AI 算力网络」白皮书：2027 年首批 5 颗算力卫星入轨，2030 年前组成 200 星座，提供 1 EFLOPS 在轨算力，重点服务遥感数据实时处理、低延迟跨境通信和应急 AI 推理。中科宇航同步推出 Pallas-2 重型火箭，单发可送 25 吨算力载荷至 LEO。",
           "content_en": "The inaugural Beijing Space Computing Summit released the Space AI Compute Network white paper: the first 5 compute satellites will reach orbit in 2027, with a 200-satellite constellation by 2030 delivering 1 EFLOPS of in-orbit compute for real-time remote sensing, low-latency cross-border comms and emergency AI inference. CAS Space introduced the Pallas-2 heavy launcher, capable of delivering 25 tons of compute payload to LEO per launch.",
           "key_points": [
@@ -119,7 +119,7 @@
           "summary_en": "ASE reports 2026Q2 net profit up 58% YoY, with CoWoS utilization at 100% and orders booked into Q1 2027. Advanced packaging gross margin tops 45%.",
           "source": "日月光投控公告",
           "source_en": "ASE Holdings",
-          "image": "img/pool/chips-packaging.jpg",
+          "image": "img/pool/chip-photonic.jpg",
           "content": "日月光投控 6/28 公布 2026Q2 财报：营收 1980 亿新台币（同比 +33%）、净利 280 亿（同比 +58%）。先进封装业务收入占比首次突破 55%，毛利率 45.2%，CoWoS 与 SoIC 排单覆盖到 2027Q1，公司将 2026 全年资本开支从 1100 亿上调至 1450 亿新台币，主要用于高雄 K25 厂扩产。",
           "content_en": "ASE Holdings released Q2 2026 results on June 28: revenue NT$198B (+33% YoY), net profit NT$28B (+58%). Advanced packaging exceeded 55% of revenue for the first time at 45.2% gross margin, with CoWoS and SoIC bookings extending into Q1 2027. ASE raised 2026 capex from NT$110B to NT$145B, primarily for K25 Kaohsiung expansion.",
           "key_points": [
@@ -149,7 +149,7 @@
           "summary_en": "China's Big Fund II and Shanghai Lingang invest 7.8B yuan in JCET for an HBM back-end advanced packaging line. JCET shares hit 3 limit-ups in 4 trading days; target price raised to 110 yuan.",
           "source": "证券时报 / 长电科技公告",
           "source_en": "Securities Times / JCET Press",
-          "image": "img/pool/chips-manufacturing.jpg",
+          "image": "img/pool/investment-mergers-v3.jpg",
           "content": "长电科技 6/27 晚公告，获得国家大基金二期 + 上海临港集团合计 78 亿元注资，用于在临港新建 HBM 后段先进封装基地，规划年产能 36 万片晶圆等效，2027Q3 量产。中金、申万均把目标价上调至 110 元；公司股价 6/24-6/27 间出现 3 次涨停。",
           "content_en": "JCET disclosed on June 27 a combined 7.8B yuan investment from China's Big Fund II and Shanghai Lingang, funding a new HBM back-end advanced packaging fab in Lingang with planned annual capacity of 360k wafer equivalents, mass production in Q3 2027. CICC and Shenwan both raised the target price to 110 yuan; the stock hit 3 limit-ups between June 24 and June 27.",
           "key_points": [
@@ -179,7 +179,7 @@
           "summary_en": "BYD unveils the Xuanji A3 in-house driving platform with 1,024 TOPS per SoC, debuting in Han L and Tang L by year-end, with urban L4 support coming in 2027.",
           "source": "比亚迪汽车 / 第一财经",
           "source_en": "BYD Auto / Yicai",
-          "image": "img/pool/autonomous-driving.jpg",
+          "image": "img/pool/autonomous-drone-v3.jpg",
           "content": "比亚迪 6/28 在惠州亚迪科技大会发布璇玑 A3 智驾平台：自研 NPU 单芯片算力 1024 TOPS，端到端模型推理时延 8ms。该平台 2026Q4 首发汉 L、唐 L，2027Q2 支持限定城区 L4 自动驾驶；公司同步开放璇玑 A3 SDK，引入鸿蒙智行、广汽、岚图三家合作。",
           "content_en": "On June 28, BYD unveiled the Xuanji A3 driving platform at its Huizhou Yadi tech summit: an in-house NPU SoC delivering 1,024 TOPS with 8ms end-to-end inference latency. The platform launches in Han L and Tang L in Q4 2026, with limited urban L4 support in Q2 2027. BYD also opened the Xuanji A3 SDK to Harmony Intelligent Mobility, GAC and Voyah.",
           "key_points": [
@@ -239,7 +239,7 @@
           "summary_en": "Hefei Intelligent Compute Center Phase II went live on June 28 with 50k Ascend 910C accelerators, exceeding 1,000 PFLOPS at FP16, serving national labs and foundation model training.",
           "source": "合肥日报 / 国家超算合肥中心",
           "source_en": "Hefei Daily / National Supercomputing Hefei",
-          "image": "img/pool/data-center-cluster.jpg",
+          "image": "img/pool/datacenter-cooling.jpg",
           "content": "合肥智算中心二期 6/28 正式投运，单集群部署 5 万张昇腾 910C 加速卡，FP16 算力达 1080 PFLOPS、FP8 突破 2160 PFLOPS。中心采用浸没式液冷 + 自研 RoCEv3 互联，PUE 1.08。一期已为科大讯飞星火 V6 训练提供 320 PFLOPS 算力，二期对国家实验室、长三角车企 AI 训练开放。",
           "content_en": "Hefei Intelligent Compute Center Phase II went online June 28, deploying 50,000 Ascend 910C accelerators in a single cluster: 1,080 PFLOPS FP16 and 2,160 PFLOPS FP8. The facility uses immersion cooling with in-house RoCEv3 interconnect (PUE 1.08). Phase I already provided 320 PFLOPS for iFLYTEK Spark V6 training; Phase II opens to national labs and Yangtze River Delta automakers.",
           "key_points": [
@@ -269,7 +269,7 @@
           "summary_en": "MIIT reports electronics manufacturing profits up 103.9% YoY in Jan-May 2026, with semiconductor equipment, advanced packaging and HBM contributing nearly half the increment.",
           "source": "工信部 / 国家统计局",
           "source_en": "MIIT / National Bureau of Statistics",
-          "image": "img/pool/industry-statistics.jpg",
+          "image": "img/pool/industry-predictive.jpg",
           "content": "工信部 6/27 公布 2026 年 1-5 月电子信息制造业经济运行数据：规模以上企业营业收入 8.6 万亿元（同比 +18.2%），利润总额 4820 亿元（同比 +103.9%）。其中半导体设备贡献利润增量约 880 亿（+45%），先进封装 410 亿（+38%），HBM 与存储 360 亿（+32%）。出口结构出现 AI 服务器、HBM 模组、汽车电子三条新增长极。",
           "content_en": "On June 27, MIIT released electronics manufacturing data for Jan-May 2026: revenue 8.6 trillion yuan (+18.2% YoY), profit 482B yuan (+103.9%). Semiconductor equipment added ~88B yuan in profit (+45%), advanced packaging 41B (+38%), HBM and memory 36B (+32%). Exports show three new growth engines: AI servers, HBM modules and automotive electronics.",
           "key_points": [
@@ -299,7 +299,7 @@
           "summary_en": "An internal Anthropic memo indicates the Claude 4.5 family will launch in early July: Opus targeting long-horizon agents, Sonnet improving code and multimodal, Haiku moving to edge devices.",
           "source": "The Information / Anthropic 备忘录",
           "source_en": "The Information / Anthropic Memo",
-          "image": "img/pool/ai-models-update.jpg",
+          "image": "img/pool/llm-finetune-v3.jpg",
           "content": "据 The Information 6/28 获取的 Anthropic 内部备忘录，Claude 4.5 系列将于 7 月 8-15 日陆续上线：Opus 4.5 对齐 GPT-5.5 in agentic 长任务，工具调用稳定性提升 30%；Sonnet 4.5 代码 SWE-Bench 突破 75%，原生 720p 视频理解；Haiku 4.5 通过蒸馏压到 3.4B 参数，可在 Snapdragon X2 与高通 AI100 端侧推理。",
           "content_en": "Per a June 28 The Information memo, the Claude 4.5 series ships July 8-15: Opus 4.5 matches GPT-5.5 on agentic long-horizon tasks with +30% tool-use reliability; Sonnet 4.5 exceeds 75% on SWE-Bench and natively understands 720p video; Haiku 4.5 distills to 3.4B parameters running on Snapdragon X2 and Qualcomm AI100.",
           "key_points": [
