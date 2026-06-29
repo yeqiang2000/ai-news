@@ -4,6 +4,51 @@
 
 ---
 
+## 2026-06-30 06:25 — 日更三件套（article-29 + 微信 + 头条）
+
+### 网站版（产业分析）
+- **新增 article-29**：《推理效率革命：从堆算力到拼算法，AI 产业的范式拐点》中英双语
+  - 中文 20KB / 英文 22KB，含完整 deep-article 内联 style 块
+  - 切角：DSpark 单用户提速 85% + Coinbase 切换国产开源 AI 支出砍半 → AI 产业从「堆算力」转向「拼算法」的范式拐点
+  - hero：news.json days[0]，标题「推理效率革命：DSpark 单用户提速 85%，AI 产业从堆算力转向拼算法」
+- **news.json days[0] 推 6/30**：10 条新闻覆盖大模型/芯片算力/产业/开源/投融资/Robotaxi/量子等方向，保留最近 5 天
+- **sidebar**：article-29 进首位（6/30）挤掉 article-18（6/19）
+- **sitemap.xml 全量重建至 62 URL**：6 静态 + 28 article × 2 语言，近 7 天 priority=0.9（含 6/24~6/30 共 7 天 14 条 article），更旧 priority=0.8
+
+### 微信版（人物 / 事件叙事）
+- `wechat/wechat-2026-06-30.html`（17KB，677px table 布局）
+- 标题：《8 台机器人在工厂打工 6 天，没人请假没人翘班——智元精灵 G2 的「上岗体检」》
+- 关键数据：54h 累计作业 / 14925 件订单 / 55107 次抓取 / 99.987% 成功率
+- 人物：智元副总裁彭思崴 + 龙旗智能制造负责人李龙
+- 合规：52 处 border:none / 5 处 border-collapse / 6 处紫色左边框 / 含晓色原创声明
+
+### 头条版（热点趋势）
+- `toutiao/toutiao-2026-06-30.md`（7KB Markdown）
+- 标题：《谷歌都缺算力了：AI 算力饥荒下，硅谷正在给客户「发配额」》
+- 切角：Google 限 Meta 算力为引爆点，硅谷算力配额制趋势
+
+### 三主题互不重复
+- 网站（产业）：推理效率范式拐点
+- 微信（人物事件）：智元机器人产线上岗体检
+- 头条（趋势）：硅谷算力配额制饥荒
+- 三主题全部规避近 7 天的网站/微信/头条已写主题
+
+### 图片管理
+- 13 张全部使用 `img/pool/` 本地图（子 agent 执行 os.path.exists 校验 0 失败）
+- 落实 6/29 紧急修复经验：build 脚本配图前必须本地存在性校验
+
+### Git + 部署
+- commit `20fa342`（feat: daily update 2026-06-30 + article-29）
+- 7 个文件变更：index.html / data/news.json / data/articles.json / data/used-images.json / sitemap.xml / articles/article-29.html / articles/en/article-29.html
+- Cloudflare wrangler 部署：preview `https://5b36e33e.ainewsdaily.pages.dev`
+- 线上验证全 PASS：sitemap 62 URL ✓ / article-29 中英 200 ✓ / articles.json CDN total 28 ✓ / news.json CDN days[0] 6/30 ✓ / 6 张图抽测 200 ✓ / Yandex ping 200 ✓
+
+### 主人后续手动操作
+- GSC 提交 article-29 中英文 URL 索引（zh + en 两条）
+- GSC 重新提交 sitemap.xml（已包含 article-29）
+
+---
+
 ## 2026-06-29 05:02 — 修复主页图片大量未加载（紧急修复）
 
 ### 背景
