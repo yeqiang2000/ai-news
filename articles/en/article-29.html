@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DSpark boosts single-user generation by 85%, total throughput by 4x, and Coinbase cuts AI spend in half — this article decodes why AI competition is shifting from stacking compute to squeezing inference efficiency.">
+    <meta name="keywords" content="DeepSeek, DSpark, inference acceleration, speculative decoding, semi-autoregressive, compute efficiency, open-source LLM, AI industry">
+    <meta property="og:title" content="The Inference Efficiency Revolution: From Stacking Compute to Squeezing Algorithms">
+    <meta property="og:description" content="DSpark cuts inference latency by 85%, Coinbase halves AI spend after switching to GLM 5.2 — an underrated software-layer counterattack is reshaping the AI value chain.">
+    <meta property="og:image" content="../../img/pool/industry-predictive.jpg">
+    <title>The Inference Efficiency Revolution: From Stacking Compute to Squeezing Algorithms | AI News Daily</title>
+    <link rel="canonical" href="articles/en/article-29.html">
+    <link rel="alternate" hreflang="zh-CN" href="../article-29.html">
+    <link rel="alternate" hreflang="en" href="article-29.html">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6fa;
+            color: #2c3e50;
+        }
+        .deep-article {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 50px 56px;
+            box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+        }
+        .article-header { margin-bottom: 30px; }
+        .article-meta-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 22px;
+            font-size: 0.92em;
+            color: #7f8c9b;
+        }
+        .article-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.88em;
+            font-weight: 500;
+        }
+        .article-date, .article-read-time { color: #95a5a6; }
+        .article-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.35;
+            margin: 0 0 16px 0;
+        }
+        .article-subtitle {
+            font-size: 1.08em;
+            color: #5a6c7d;
+            line-height: 1.7;
+            margin: 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-hero-image {
+            margin: 30px 0 36px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            max-height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+        .article-content { font-size: 1.05em; color: #2c3e50; }
+        .article-content p { margin: 0 0 22px 0; text-align: justify; }
+        .article-content p.lead {
+            font-size: 1.18em;
+            color: #34495e;
+            font-weight: 500;
+            line-height: 1.75;
+            margin-bottom: 30px;
+            padding: 22px 26px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #fdf7ff 100%);
+            border-left: 4px solid #667eea;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-content h2 {
+            font-size: 1.45em;
+            color: #1a1a2e;
+            margin: 44px 0 20px 0;
+            padding-left: 16px;
+            border-left: 4px solid #667eea;
+            line-height: 1.4;
+        }
+        .article-content h3 {
+            font-size: 1.18em;
+            color: #2c3e50;
+            margin: 30px 0 14px 0;
+        }
+        .article-content strong { color: #1a1a2e; font-weight: 600; }
+        .article-content em { color: #667eea; font-style: italic; }
+        .article-content a { color: #667eea; text-decoration: none; border-bottom: 1px solid #667eea; }
+        .article-content a:hover { color: #764ba2; border-bottom-color: #764ba2; }
+        .article-content ul, .article-content ol { margin: 0 0 22px 0; padding-left: 28px; }
+        .article-content li { margin-bottom: 10px; line-height: 1.75; }
+        .article-quote {
+            background: #fdf2f2;
+            border-left: 4px solid #e74c3c;
+            padding: 22px 28px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-quote p {
+            margin: 0;
+            font-style: italic;
+            color: #555;
+            font-size: 1.05em;
+        }
+        .article-quote .quote-author, .article-quote cite {
+            display: block;
+            text-align: right;
+            margin-top: 12px;
+            color: #888;
+            font-style: normal;
+            font-size: 0.9em;
+        }
+        .article-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 28px 0;
+            font-size: 0.96em;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .article-content th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .article-content td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #eef1f5;
+            background: #fff;
+        }
+        .article-content tr:nth-child(even) td { background: #fafbfd; }
+        .article-content tr:hover td { background: #f4f6ff; }
+        .article-highlight, .article-conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 32px;
+            border-radius: 12px;
+            margin: 36px 0;
+        }
+        .article-highlight h2, .article-highlight h3,
+        .article-conclusion h2, .article-conclusion h3 {
+            color: white;
+            margin-top: 0;
+            border: none;
+            padding: 0;
+        }
+        .article-highlight p, .article-conclusion p { color: rgba(255,255,255,0.95); }
+        .article-footer {
+            margin-top: 50px;
+            padding-top: 24px;
+            border-top: 1px solid #eef1f5;
+            color: #95a5a6;
+            font-size: 0.92em;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            body { padding: 16px 8px; }
+            .deep-article { padding: 28px 20px; }
+            .article-title { font-size: 1.55em; }
+            .article-subtitle { font-size: 1em; }
+            .article-content { font-size: 1em; }
+            .article-content h2 { font-size: 1.25em; }
+            .article-content p.lead { font-size: 1.08em; padding: 18px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="deep-article">
+        <header class="article-header">
+            <div class="article-meta-top">
+                <span class="article-category">Industry Analysis</span>
+                <span class="article-date">2026-06-30</span>
+                <span class="article-read-time">10 min read</span>
+            </div>
+            <h1 class="article-title">The Inference Efficiency Revolution: From Stacking Compute to Squeezing Algorithms</h1>
+            <p class="article-subtitle">DSpark boosts single-user speed by 85%, total throughput by 4x, and Coinbase halves AI spend after defaulting to Chinese open-source models — an underrated software-layer counterattack is rewriting the AI value chain.</p>
+        </header>
+        <div class="article-hero-image">
+            <img src="../../img/pool/industry-predictive.jpg" alt="AI inference acceleration and compute efficiency">
+        </div>
+        <article class="article-content">
+
+<p class="lead">On June 27, 2026, DeepSeek and Peking University jointly open-sourced an inference acceleration framework called <strong>DSpark</strong>. Without adding a single GPU or sacrificing any output quality, it lifts single-user generation speed of V4-Flash by <strong>60% to 85%</strong>, and pushes total inference throughput up by as much as <strong>4x</strong>. Three days later, Coinbase CEO Brian Armstrong publicly disclosed that after switching the company default model to Zhipu's GLM 5.2 and Moonshot's Kimi K2.7, AI spending has been <strong>cut nearly in half</strong> — even as token consumption keeps growing exponentially.</p>
+
+<p>Put these two stories in the same week and what surfaces is not the victory of any single company, but a quiet pivot of an entire industry. When the four North American hyperscalers are about to spend <strong>USD 700 to 725 billion</strong> on AI capex in 2026 — more than double any previous year — the industry is finally waking up to an uncomfortable truth: cramming more GPUs into data centers is no longer the highest-ROI move. The next moat is hidden in the microsecond gaps between every generated token.</p>
+
+<h2>1. Why Inference, Not Training, Becomes the Battleground</h2>
+
+<p>For three years, the AI story has been almost entirely about training: bigger models, more parameters, longer pre-training token budgets. GPT-5.6, Claude Fable 5, Grok 4.5 at 1.5 trillion parameters, DeepSeek V4-Pro at 1.6 trillion — everyone was stacking. But the 2026 reality is that the capability gap between frontier models has compressed into a remarkably narrow band. On the public Terminal-Bench 2.1 leaderboard, GPT-5.6 Sol scores 88.8, Claude Mythos 5 hits 88, and Grok 4.5 sits roughly tied with Opus. When the ceiling becomes this crowded, the market starts caring about one thing: <strong>same output, who delivers it cheaper and faster</strong>.</p>
+
+<p>Even more decisively, user-side workload structure has shifted. Two years ago LLM calls were dominated by ChatGPT-style conversations, a few thousand tokens per session. In 2026 the main battlefield is Agent — long-running, multi-turn, with massive tool calls. Doubao Agent Pro just ran an 18-hour RTL chip-design test producing 1,303 lines of code in one shot. A joint Anthropic-Material survey found <strong>57% of enterprises now deploy Agents in multi-stage workflows</strong>, and 77% of commercial AI calls follow a full delegation pattern. Once Agents go live, token consumption is tens or even hundreds of times that of chat — a single user burning millions of tokens per day is no longer science fiction.</p>
+
+<p>NVIDIA's Jensen Huang made the call as early as late 2025: <em>inference demand will eventually surpass training demand.</em> Thirty-plus months later, that curve has triggered an industry-level inflection. Training is a one-time investment; inference is an unbounded operating cost. When token usage for a single enterprise grows exponentially every day, whoever can drive per-token cost the lowest will be the one still standing in the Agent era.</p>
+
+<h2>2. How DSpark Delivers 85% Speedup Without Quality Loss</h2>
+
+<p>To grasp the industry significance of DSpark, start with the tech. LLMs generate text autoregressively — each new token requires a full forward pass, and latency scales linearly with output length. This is the root cause of every "spinning circle" we have stared at in the past few years.</p>
+
+<p><strong>Speculative decoding</strong> offers an escape route: use a lightweight draft model to generate multiple candidate tokens at once, then let the full model verify them in parallel in one shot. The idea isn't DeepSeek's invention, but engineering attempts in the past two years have been stuck on two bottlenecks:</p>
+
+<p>The first is <strong>suffix decay</strong>. Early parallel draft models guess 10 tokens at once, but because each position guesses independently — no contextual dependency — the further along the sequence, the more wildly wrong they get. "of course" gets turned into "of problem" kind of nonsense. Acceptance rates collapse, and verification compute is burned for nothing.</p>
+
+<p>The second is <strong>full-batch verification waste</strong>. Traditional pipelines send every candidate token to the full model regardless of how low draft confidence is. In high-concurrency production systems, this "just a little wasted compute" turns into a system-level catastrophe.</p>
+
+<p>DSpark's two core designs target exactly these two pain points:</p>
+
+<ul>
+<li><strong>Semi-autoregressive generation architecture</strong> — keep the speed advantage of parallel drafting, then bolt on a minimal sequential module (a Markov head) to inject prefix dependency at every position. The result: a 2-layer DSpark beats a 5-layer pure-parallel DFlash on effective accepted length. On Qwen3, average accepted length improves <strong>26.7%-30.9%</strong> over autoregressive Eagle3 and 16.3%-18.4% over parallel DFlash.</li>
+<li><strong>Confidence-aware scheduling for verification</strong> — attach a confidence head to the draft model, predict the acceptance probability of each candidate token in real time, and use sequential temperature scaling to compress calibration error from 3%-8% down to roughly 1%. Under low load, max out verification length to squeeze every last bit of throughput; under high load, aggressively prune low-value tokens to prevent contention.</li>
+</ul>
+
+<p>From a deployment standpoint, DSpark already runs in production on DeepSeek-V4-Flash and V4-Pro real traffic. From an ecosystem standpoint, the full-stack speculative decoding toolkit DeepSpec ships under MIT license and has been verified to work with Qwen3, Gemma and other mainstream open-source models. A small developer team doesn't need to swap a single GPU — just code-layer optimization can multiply their concurrent capacity several times over.</p>
+
+<h2>3. The Coinbase Case: When Efficiency Becomes a CFO Agenda Item</h2>
+
+<p>When does technical optimization make it onto the CFO's agenda? Answer: when it can cut a line item in half.</p>
+
+<p>Brian Armstrong's disclosure on June 30 was specific. Through its internal LLM gateway, Coinbase switched the default model for all engineers from the previous setup to GLM 5.2 + Kimi K2.7. With token usage still growing exponentially, AI spend was compressed by close to 50%. The more revealing detail: <strong>91% of engineers have never even hit the original usage cap</strong>. Translation: usage caps were never the real efficiency bottleneck — what mattered was the price-to-performance differential behind the model choice.</p>
+
+<p>The industry significance is that this happened at Coinbase — a U.S.-listed, compliance-heavy customer, the canonical "U.S.-first" buyer. Building on the earlier disclosure from a16z partner Martin Casado that roughly 80% of U.S. AI startups use Chinese open-source models during fundraising pitches, Coinbase has pushed the story from the startup circuit into mainstream public markets.</p>
+
+<table>
+<tr><th>Typical Customer</th><th>Switch Decision</th><th>Key Outcome</th></tr>
+<tr><td>Coinbase (listed, compliance)</td><td>GLM 5.2 + Kimi K2.7 as default</td><td>AI spend halved, token caps removed</td></tr>
+<tr><td>Pinterest / Airbnb</td><td>Regular use of Chinese open-source</td><td>Lower R&D cost</td></tr>
+<tr><td>Siemens Industrial Automation</td><td>Fine-tuning on Chinese open-source base</td><td>"No downsides" (CEO on record)</td></tr>
+<tr><td>African localization deployments</td><td>Training in 20 local languages on Chinese OSS</td><td>Solves "price inaccessibility" of mainstream commercial models</td></tr>
+</table>
+
+<p>The Hugging Face 2026 Spring Global Open-Source AI Ecosystem Report shows that over the past year, <strong>41%</strong> of all LLM downloads on the platform came from Chinese-developed models. Premier Li Qiang disclosed at the Dalian Davos forum this month that cumulative downloads have hit <strong>10 billion</strong> globally.</p>
+
+<h2>4. Supply Chain: How Inference Efficiency Rewrites the Compute Ledger</h2>
+
+<p>When inference efficiency goes up 4x, the chain reaction is far more complex than "use fewer GPUs." It is a structural reshuffle of compute supply and software value.</p>
+
+<h3>1) Data centers: from HBM shortage to smarter scheduling</h3>
+
+<p>The defining property of solutions like DSpark is that they squeeze existing compute without touching hardware. That shifts the data center bottleneck from "not enough cards" to "not smart enough scheduling." In the same week, Google started restricting Meta's access to Gemini, citing compute demand that outstrips Google's own capacity even as Google keeps doubling down on AI infrastructure. In that context, every 10% throughput gain at the software layer is effectively another data center built at the physical layer.</p>
+
+<h3>2) Inference chips: customization bonded to open-source ecosystems</h3>
+
+<p>The fact that DSpark works with Qwen3, Gemma and other open-source models is underrated. It means inference acceleration frameworks are turning into "shared infrastructure" across open-source model families — and that "ready on day one" capability of domestic AI ASIC players like Cambricon, Hygon, and Huawei Ascend binds tightly to this software layer. Yu Jian, vice chair of the China Information Association, said publicly on June 26 at the Domestic AI ASIC Customization Forum that custom chip innovation and supply-chain collaboration are accelerating. The compound effect: a domestic open-source model + domestic inference framework + domestic ASIC full stack is quietly taking shape.</p>
+
+<h3>3) Business model: the arrival of peak-valley pricing</h3>
+
+<p>DeepSeek announced on June 29 that V4 GA will launch in mid-July, with <strong>peak-valley pricing</strong> built in — API price during peak hours (9-12 AM and 2-6 PM daily) will be double the off-peak rate. This is the first time the LLM API industry has rolled out time-based differential pricing, essentially porting the mature electricity-market pricing mechanism into token economics. Once a top-tier model does this, the entire inference service market enters a three-dimensional game of dynamic pricing, software acceleration, and hardware amortization.</p>
+
+<div class="article-quote">
+<p>「In Q2 2026, open-source model competition shifted from 'who scores highest on benchmarks' to 'who is most useful in a specific scenario.' Qwen3.5 focuses on local coding, GLM 5.2 emphasizes reliable tool calling, Mistral pushes hard on document processing — differentiation is replacing all-rounder competition.」</p>
+<cite>— A long-time AI industry researcher</cite>
+</div>
+
+<h2>5. The Underrated Risk: Algorithmic Power Migration</h2>
+
+<p>As inference efficiency becomes the new battlefield, an implicit consequence is surfacing: core algorithmic power is quietly migrating from model providers to inference framework developers.</p>
+
+<p>Historically, model vendors defined everything — price, speed, tokenization, context length. But once open-source tools like DSpark, which "accelerate on top of any model," become widespread, model vendors' grip on their own token economics weakens. Any developer willing to swap frameworks can step outside the vendor pricing system. The pressure is much heavier on closed-source incumbents (OpenAI, Anthropic) than on open-source players — because open-source vendors can fold efficiency improvements directly into their own base model, while closed APIs can only watch users "free-ride" half the compute dividend via third-party frameworks.</p>
+
+<p>A second-order risk is <strong>benchmark lag</strong>. Mainstream LLM benchmarks still revolve around capability scores (MMLU, Terminal-Bench, HumanEval), but in an era where inference efficiency is becoming a decisive metric, the industry lacks a standardized "inference price-performance" score. Anthropic's 14-step "Loop Engineering" framework lays out the canon for Agent engineering, but it doesn't touch the cost baseline at the inference layer. In other words, the market is still rating a car on "driving feel" when buyers mostly care about fuel economy.</p>
+
+<div class="article-conclusion">
+<h2>Conclusion: The Second Half of the Compute Era</h2>
+<p>2026's AI industry has two narrative arcs. One is the "closed-source capital race" — GPT-5.6 under White House export controls, Grok 4.5 shipping monthly, SpaceX acquiring Cursor for USD 60 billion. The other is the "open-source efficiency revolution" — DSpark open-sourced, Qwen-AgentWorld 397B sweeping closed-source benchmarks, Coinbase switching default models. The first is loud but trapped in policy and capital silos. The second moves silently, but is compressing AI's marginal cost to a level that forces everyone to rerun the math.</p>
+<p>From stacking parameters to stacking compute, from stacking compute to squeezing efficiency — the AI industry's inflection point is not in any one launch event. It is in the microsecond gaps between every generated token. In the next decade, the winner won't necessarily be the company with the biggest model; it will be the company that gets 4x more tokens out of every GPU it already owns.</p>
+</div>
+
+        </article>
+        <footer class="article-footer">
+            AI News Daily · Daily AI Deep Dive · 2026-06-30
+        </footer>
+    </div>
+</body>
+</html>

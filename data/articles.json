@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "article-29",
+      "date": "2026-06-30",
+      "title_zh": "推理效率革命：从堆算力到拼算法，AI 产业的范式拐点",
+      "title_en": "The Inference Efficiency Revolution: From Stacking Compute to Squeezing Algorithms",
+      "subtitle_zh": "DSpark 单用户提速 85%、整体吞吐 +400%、Coinbase 切换国产开源后 AI 支出砍半——一场被低估的「软件层逆袭」正在重构 AI 价值链。",
+      "subtitle_en": "DSpark boosts single-user speed by 85%, total throughput by 4x, and Coinbase halves AI spend after defaulting to Chinese open-source models — an underrated software-layer counterattack is rewriting the AI value chain.",
+      "url_zh": "articles/article-29.html",
+      "url_en": "articles/en/article-29.html",
+      "summary_zh": "DSpark 单用户提速 60%–85%、整体吞吐量 +400%、Coinbase 切换 GLM 5.2 + Kimi K2.7 后 AI 支出砍半——本文从产业主线、技术原理、商业案例与产业链影响四个层面，拆解 AI 产业为何从「堆算力」彻底转向「拼推理效率」。",
+      "summary_en": "DSpark delivers 60-85% single-user speedup and 4x total throughput, while Coinbase halves AI spend by switching to GLM 5.2 + Kimi K2.7. This article unpacks why AI competition has pivoted from stacking compute to squeezing inference efficiency, through industry trends, technical principles, business cases and supply-chain implications.",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "image": "img/pool/industry-predictive.jpg",
+      "read_time": "10 min read"
+    },
+    {
       "id": "article-28",
       "slug": "advanced-packaging-renaissance",
       "date": "2026-06-29",
