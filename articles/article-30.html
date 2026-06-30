@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="美团开源 1.6 万亿参数 LongCat-2.0、5 万张国产卡训练、OpenRouter 调用量全球前三，叠加同日寒武纪市值破万亿——本文从训练栈、推理性能、生态格局、产业链联动四层拆解中国 AI 算力闭环时刻。">
+    <meta name="keywords" content="LongCat-2.0, 美团大模型, 寒武纪, 国产AI算力, MoE, 万亿参数, 国产芯片, 开源大模型, OpenRouter">
+    <meta property="og:title" content="国产 AI 算力闭环时刻：美团 1.6 万亿 LongCat-2.0 全栈国产芯片训练 + 寒武纪同日万亿市值">
+    <meta property="og:description" content="1.6 万亿 MoE、5 万张国产卡、35T token、OpenRouter 全球前三、寒武纪同日万亿市值——硬件、模型、生态三层国产化齐声落地。">
+    <meta property="og:image" content="img/pool/chip-photonic.jpg">
+    <title>国产 AI 算力闭环时刻：美团 1.6 万亿 LongCat-2.0 全栈国产芯片训练 + 寒武纪同日万亿市值 | AI News Daily</title>
+    <link rel="canonical" href="articles/article-30.html">
+    <link rel="alternate" hreflang="en" href="articles/en/article-30.html">
+    <link rel="alternate" hreflang="zh-CN" href="articles/article-30.html">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6fa;
+            color: #2c3e50;
+        }
+        .deep-article {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 50px 56px;
+            box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+        }
+        .article-header { margin-bottom: 30px; }
+        .article-meta-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 22px;
+            font-size: 0.92em;
+            color: #7f8c9b;
+        }
+        .article-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.88em;
+            font-weight: 500;
+        }
+        .article-date, .article-read-time { color: #95a5a6; }
+        .article-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.35;
+            margin: 0 0 16px 0;
+        }
+        .article-subtitle {
+            font-size: 1.08em;
+            color: #5a6c7d;
+            line-height: 1.7;
+            margin: 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-hero-image {
+            margin: 30px 0 36px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            max-height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+        .article-content { font-size: 1.05em; color: #2c3e50; }
+        .article-content p { margin: 0 0 22px 0; text-align: justify; }
+        .article-content p.lead {
+            font-size: 1.18em;
+            color: #34495e;
+            font-weight: 500;
+            line-height: 1.75;
+            margin-bottom: 30px;
+            padding: 22px 26px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #fdf7ff 100%);
+            border-left: 4px solid #667eea;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-content h2 {
+            font-size: 1.45em;
+            color: #1a1a2e;
+            margin: 44px 0 20px 0;
+            padding-left: 16px;
+            border-left: 4px solid #667eea;
+            line-height: 1.4;
+        }
+        .article-content h3 {
+            font-size: 1.18em;
+            color: #2c3e50;
+            margin: 30px 0 14px 0;
+        }
+        .article-content strong { color: #1a1a2e; font-weight: 600; }
+        .article-content em { color: #667eea; font-style: italic; }
+        .article-content a { color: #667eea; text-decoration: none; border-bottom: 1px solid #667eea; }
+        .article-content a:hover { color: #764ba2; border-bottom-color: #764ba2; }
+        .article-content ul, .article-content ol { margin: 0 0 22px 0; padding-left: 28px; }
+        .article-content li { margin-bottom: 10px; line-height: 1.75; }
+        .article-quote {
+            background: #fdf2f2;
+            border-left: 4px solid #e74c3c;
+            padding: 22px 28px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-quote p {
+            margin: 0;
+            font-style: italic;
+            color: #555;
+            font-size: 1.05em;
+        }
+        .article-quote .quote-author, .article-quote cite {
+            display: block;
+            text-align: right;
+            margin-top: 12px;
+            color: #888;
+            font-style: normal;
+            font-size: 0.9em;
+        }
+        .article-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 28px 0;
+            font-size: 0.96em;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .article-content th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .article-content td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #eef1f5;
+            background: #fff;
+        }
+        .article-content tr:nth-child(even) td { background: #fafbfd; }
+        .article-content tr:hover td { background: #f4f6ff; }
+        .article-highlight, .article-conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 32px;
+            border-radius: 12px;
+            margin: 36px 0;
+        }
+        .article-highlight h2, .article-highlight h3,
+        .article-conclusion h2, .article-conclusion h3 {
+            color: white;
+            margin-top: 0;
+            border: none;
+            padding: 0;
+        }
+        .article-highlight p, .article-conclusion p { color: rgba(255,255,255,0.95); }
+        .article-footer {
+            margin-top: 50px;
+            padding-top: 24px;
+            border-top: 1px solid #eef1f5;
+            color: #95a5a6;
+            font-size: 0.92em;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            body { padding: 16px 8px; }
+            .deep-article { padding: 28px 20px; }
+            .article-title { font-size: 1.55em; }
+            .article-subtitle { font-size: 1em; }
+            .article-content { font-size: 1em; }
+            .article-content h2 { font-size: 1.25em; }
+            .article-content p.lead { font-size: 1.08em; padding: 18px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="deep-article">
+        <header class="article-header">
+            <div class="article-meta-top">
+                <span class="article-category">产业</span>
+                <span class="article-date">2026-07-01</span>
+                <span class="article-read-time">阅读约 11 分钟</span>
+            </div>
+            <h1 class="article-title">国产 AI 算力闭环时刻：美团 1.6 万亿 LongCat-2.0 全栈国产芯片训练 + 寒武纪同日万亿市值</h1>
+            <p class="article-subtitle">1.6 万亿总参 MoE、5 万张国产卡 35T token 训练、OpenRouter 调用量挤进全球前三、寒武纪市值同日突破万亿——硬件、模型、生态三层国产化齐声落地，AI 算力闭环的「7-1 时刻」正在被记入产业史。</p>
+        </header>
+        <div class="article-hero-image">
+            <img src="../img/pool/chip-photonic.jpg" alt="国产 AI 算力闭环：国产芯片与万亿大模型">
+        </div>
+        <article class="article-content">
+
+<p class="lead">2026 年 7 月 1 日，美团 LongCat 团队在 Hugging Face 与官方技术博客同步开源 <strong>LongCat-2.0</strong>——总参数 <strong>1.6 万亿</strong> 的 MoE 大模型，激活参数约 <strong>50B</strong>，上下文长度拉到 <strong>100 万 token</strong>。技术报告里有一句不起眼但极具分量的描述：「<em>本次训练全程使用约 5 万张国产 AI 加速卡完成，消化 35T token</em>」。几乎在同一时段，国产 AI ASIC 龙头寒武纪股价当日收涨 1.46% 报 2412.85 元，<strong>总市值首次突破 1 万亿元人民币</strong>，A 股科技板块单日新增万亿龙头。两条消息背靠背落地，让 2026-07-01 成为业内人士心照不宣的「国产 AI 算力闭环时刻」。</p>
+
+<p>过去两年，国产 AI 的故事一直被切成三块讲——芯片厂商讲算力、模型厂商讲跑分、应用厂商讲落地，三块之间总有「这边的芯片跑不动那边的模型」「这边的模型上不了那边的硬件」的折扣。今天这两条消息合在一起的产业含义，就是这条「软硬解耦」的鸿沟第一次被一家应用公司亲手填平：美团不只是一个外卖巨头，它把自己变成了「全栈国产 AI 算力的第一个真实终端用户」，并把这条技术栈推到了开源社区面前。</p>
+
+<h2>一、为什么 2026-07-01 是「闭环时刻」</h2>
+
+<p>判断一个产业是否完成「闭环」，要看三件事是不是能在同一天同一种产品上同时成立——<strong>底层算力国产、中间模型国产、上层生态国际化</strong>。过去这三件事在国产 AI 路径里一直是「单点开花」：DeepSeek V3 用了国产卡但只是部分；Qwen 系列在 HuggingFace 拿了排名但训练栈是英伟达；昇腾、寒武纪有客户但模型规模上不了万亿级。LongCat-2.0 与寒武纪 7 月 1 日的同步事件，恰好把这三件事一次性凑齐。</p>
+
+<p>从模型侧看，LongCat-2.0 是公开披露的国内首个全程国产卡训练的万亿级 MoE，且开源协议宽松——直接放在 Hugging Face、GitHub、ModelScope 三大平台首页推荐位。从硬件侧看，寒武纪万亿市值不是单纯的资本市场认证，而是国产 ASIC 路线第一次在主板上被「同价位段对标 NVIDIA H100 国内替代」的市场情绪定价。从生态侧看，LongCat 系列在 <strong>OpenRouter 全球开源模型调用量上排进前三</strong>，仅次于 DeepSeek 与 Qwen——这意味着海外开发者已经开始把它视为「可以替代闭源 API 的认真选项」。</p>
+
+<p>这三个事实同时为真的那一天，就是中国 AI 行业真正具备「自主可控完整产业链」的第一天。在此之前，这条路线是规划；在此之后，它是现实。</p>
+
+<h2>二、LongCat-2.0 的训练栈拆解：5 万张国产卡如何吃下 35T token</h2>
+
+<p>美团 LongCat 团队公开的技术细节是这次事件最值得拆的部分。一台典型 NVIDIA H100 训练集群，要把一个 1.6 万亿 MoE 跑到 35T token 通常需要 6–9 万张 H100 跑数月。LongCat-2.0 改成国产卡之后，工程团队披露的关键参数是 <strong>5 万张国产加速卡 / 35T 训练 token</strong>，并且在精度损失 &lt; 0.3% 的前提下完成混合精度对齐。要让国产卡在这个量级跑稳，团队同时做了三件事。</p>
+
+<h3>1. MoE 路由器换成「带路由稳定项」的新版</h3>
+
+<p>万亿 MoE 的训练最痛苦的不是参数量，而是路由不均衡——少数专家被过度激活，大部分专家长期闲置，导致部分卡空转。LongCat 团队在路由器损失函数里加入了一个稳定化辅助项，把「被路由到的次数」做差分约束，让每个专家在每个训练 step 都拿到接近的样本量。这件事在 NVIDIA 卡上是性能优化，在国产卡上是必须项——因为国产卡之间的通信延迟更高，路由不均的代价被放大 2–3 倍。</p>
+
+<h3>2. 通信库重写成「层内对齐 + 层间异步」</h3>
+
+<p>国产卡集群最大的工程瓶颈在 NCCL 等价物的延迟与吞吐。LongCat 团队把跨节点的张量并行通信改造为「层内严格对齐 + 层间异步流水」，专家并行（EP）的 all-to-all 阶段用了一种针对国产互联拓扑特调的分块策略。结果是大集群下的训练吞吐损失从典型的 <strong>30–40%</strong> 压缩到 <strong>不到 10%</strong>。</p>
+
+<h3>3. 长上下文 1M token 用 RingAttention 变体落地</h3>
+
+<p>LongCat-2.0 把上下文窗口直接拉到 100 万 token，工程上用的是 RingAttention 的国产卡优化变体，把 K/V Cache 沿着环状拓扑分布到不同卡上，避免单卡显存被长上下文撑爆。在 1M 上下文下的 RULER 长文档基准上，模型 retrieval 准确率 90% 以上，已经追平闭源旗舰。</p>
+
+<table>
+<tr><th>核心指标</th><th>LongCat-2.0 公开数据</th><th>同价位对标（DeepSeek V4-Pro）</th></tr>
+<tr><td>总参数 / 激活参数</td><td>1.6 万亿 / 约 50B</td><td>1.6 万亿 / 32B</td></tr>
+<tr><td>训练硬件</td><td>约 5 万张国产 AI 加速卡</td><td>主要 H100 / H800 混合集群</td></tr>
+<tr><td>训练 token 数</td><td>35T token</td><td>15T+ token（V4-Pro 阶段）</td></tr>
+<tr><td>上下文窗口</td><td>100 万 token</td><td>128K（V4-Pro 默认）</td></tr>
+<tr><td>OpenRouter 全球调用量</td><td>开源模型排名前三</td><td>开源模型排名第一</td></tr>
+<tr><td>开源协议</td><td>商用友好（类 MIT）</td><td>MIT</td></tr>
+</table>
+
+<h2>三、寒武纪万亿市值：不是一家公司的胜利，是一个曲线的拐点</h2>
+
+<p>同一天寒武纪市值破万亿，乍看是个孤立的资本事件，但放在 LongCat-2.0 的上下文里看，它代表的是一条更长的产业曲线。</p>
+
+<p>过去三年，国产 AI ASIC 厂商一直在两条曲线上挣扎：左边是「跑分曲线」——能不能在主流 benchmark 上达到 H100 的某个百分比；右边是「订单曲线」——能不能拿到云厂商和应用大厂的实质大单。两条曲线长期不同步：跑分上来了订单不一定来（客户怕踩坑），订单来了跑分不一定追得上（场景适配复杂）。寒武纪万亿市值的真正含义，是市场第一次开始把这两条曲线「合并定价」——既愿意承认它的技术路线可行，也愿意承认它的客户结构进入良性循环。</p>
+
+<p>支撑这种定价转变的，是过去半年密集出现的几个事件信号：</p>
+
+<ul>
+<li>中国信息协会 6 月 26 日组织的国产 AI ASIC 定制产业研讨会，把寒武纪、海光、华为昇腾、燧原、壁仞等厂商放到「定制化协同」的同一桌；</li>
+<li>多家头部互联网公司开始公开披露「国产卡份额从 5% 升至 20–30%」的内部规划，包括美团、京东、字节、百度系统；</li>
+<li>金融机构对国产 AI ASIC 厂商的覆盖从「行业观察」升级为「专项跟踪」，订单可见性被纳入业绩预测核心变量；</li>
+<li>LongCat-2.0 这类「已在万亿 MoE 上跑通」的公开技术报告，给所有还在观望的潜在买家提供了「别人已经趟过坑」的确定性证据。</li>
+</ul>
+
+<p>万亿市值不是终点，而是「国产 ASIC 进入主流采购清单」这件事被资本市场正式承认的标志。一旦这种承认成立，它就会反过来加速订单流入——这是所有硬科技曲线的经典正反馈。</p>
+
+<h2>四、全栈国产化的产业链联动：三层都在重排</h2>
+
+<h3>1. 硬件层：ASIC + 国产 HBM + 国产互联</h3>
+
+<p>过去国产 AI 算力的瓶颈，不止是 ASIC 本身，还有 HBM 显存和 NVLink 等价物互联。LongCat-2.0 的训练栈披露中，工程团队特别提到「内存带宽优化」与「互联协议替代」两条线索。这意味着国产 HBM 与互联芯片厂商，在这条曲线上和 ASIC 厂商是同一个上升节奏的受益者。寒武纪市值破万亿之后，整个国产 HPC 上下游会出现一轮新的「高估值锚定」——因为闭环一旦成立，从前算 PE 的逻辑会被换成算「未来 3 年订单可见度」的逻辑。</p>
+
+<h3>2. 模型层：从「跑分领先」转向「场景领先」</h3>
+
+<p>LongCat-2.0 在 OpenRouter 海外调用量进前三这件事，揭示了 2026 年下半年开源模型竞争的新主线——不再单纯比 MMLU 总分，而是比「在长上下文/Agent/工具调用」这些具体场景的稳定性。DeepSeek 在通用、Qwen 在编码、LongCat 在长文档与 Agent，正在形成一个国产开源模型的「分工矩阵」。这种分工本身就是生态成熟的标志——单点冠军靠堆参数，矩阵冠军靠场景细分。</p>
+
+<h3>3. 生态层：HuggingFace 下载量与商业部署同步走</h3>
+
+<p>HuggingFace 2026 春季全球开源 AI 生态报告披露过一个关键数字：过去一年该平台 <strong>41%</strong> 的大模型下载量来自中国研发的模型。国务院总理李强本月在达沃斯论坛上披露的中国开源大模型全球累计下载量是 <strong>100 亿次</strong>。LongCat-2.0 进入 OpenRouter 调用量前三，说明这种「下载量」已经开始转化为「真实推理调用量」——这两个指标的同步，意味着国产开源模型从「试用品」变成「生产工具」。</p>
+
+<div class="article-quote">
+<p>「2026 年下半年的产业主线，不再是中美 AI 模型谁更强，而是同一个能力区间内，谁的全栈算力账本算得更清。LongCat-2.0 的 5 万张国产卡披露，第一次让算力账本里多了一行『不依赖 H100 的真实成本』。」</p>
+<cite>—— 一位长期跟踪国产 AI 算力链的硬件分析师</cite>
+</div>
+
+<h2>五、被低估的风险：闭环成立 ≠ 短期替代</h2>
+
+<p>闭环时刻不等于明天就能甩开海外算力。三条结构性约束依然存在。</p>
+
+<p><strong>第一是国产卡产能。</strong>寒武纪、海光、华为昇腾的合计年产能距离主流大厂 2026 年下半年公布的算力规划仍有显著缺口。资本市场万亿市值意味着对未来订单的定价，但短期内大厂依然要靠英伟达 H100/H800/B200 满足实际产能需求。LongCat-2.0 的 5 万张国产卡是一个量级标杆，但要复制这条路径，行业需要至少 18–24 个月的国产产能爬坡。</p>
+
+<p><strong>第二是软件生态成熟度。</strong>NCCL/cuDNN/CUDA 这套软件栈不是一年能复刻的。LongCat 团队公开的「通信库重写」，本质上是大厂砸资源做的「私有解」，要变成所有人都能用的「公共解」需要持续开源共建。寒武纪等厂商的官方软件栈，仍需要更多大模型团队亲身踩坑后的反馈。</p>
+
+<p><strong>第三是国际化合规变量。</strong>LongCat-2.0 进入 OpenRouter 前三这件事在海外开发者社区是利好，但在主权 AI 议题被反复提上桌面的 2026 年，国产开源模型出海仍要面对部分国家的合规审视。一个产业链是否真正闭环，最终还要看它的成果能否在国际市场顺畅交易，而不仅仅是「我自己能用」。</p>
+
+<div class="article-highlight">
+<h3>关键数据卡片：「7-1 时刻」核心数字</h3>
+<p><strong>1.6 万亿</strong>：LongCat-2.0 总参数 · <strong>约 50B</strong>：激活参数 · <strong>5 万张</strong>：国产 AI 加速卡训练规模 · <strong>35T token</strong>：训练数据量 · <strong>100 万</strong>：上下文窗口 token 数 · <strong>OpenRouter 全球前三</strong>：海外调用量排名 · <strong>1 万亿元</strong>：寒武纪同日市值 · <strong>2412.85 元</strong>：寒武纪当日收盘价</p>
+</div>
+
+<h2>六、从「能跑通」到「能赢」：闭环之后还要做什么</h2>
+
+<p>闭环时刻只是产业里程碑，不是产业终点。复盘 2010 年代智能手机产业从「能用国产芯片」到「国产芯片成为主流」的演进路径，国产 AI 算力闭环之后还需要至少三件事来实现真正的产业主导权。</p>
+
+<p>一是<strong>训练大模型的工程经验被沉淀成行业方法论</strong>。LongCat 团队的通信库与路由器改造，目前还停留在内部技术博客和论文级别。下一步要走到「类似 Megatron-LM 的开源项目」级别，让其他公司能直接复用而不是自己从头造轮子。</p>
+
+<p>二是<strong>国产卡的功耗-性能曲线进一步靠近 H100/B200</strong>。万亿模型训练对单卡 FLOPs 与显存带宽要求只会越来越高。寒武纪、华为昇腾下一代制程与封装的路径，决定了 2027 年能不能在 10 万亿参数级别再次复刻这种「闭环」。</p>
+
+<p>三是<strong>开源治理与商业回报机制的成熟</strong>。LongCat-2.0 选择商用友好协议是个聪明决策，但开源模型的盈利模型至今没有清晰路径——美团靠业务反哺研发，对没有业务现金流的纯模型公司不可复制。这条路要怎么走，决定了「国产开源」是只剩几家大厂的盆景，还是真正繁荣的森林。</p>
+
+<div class="article-conclusion">
+<h2>结语：闭环之后，是新一轮长跑</h2>
+<p>2026-07-01 这一天会留在国产 AI 的产业史里——不是因为某一个模型多强、某一家公司多大，而是因为「硬件、模型、生态」三件事第一次在同一个二十四小时里完成对齐。在此之前，国产 AI 是一条由许多单点拼起来的路；在此之后，它是一条第一次被走通的全栈线路。</p>
+<p>但闭环不等于胜利。它只意味着比赛的「资格赛」结束，正赛刚刚开始。下一程要比的，不再是「能不能跑通」，而是「能不能跑得更快、更便宜、更稳、更国际」。下半年的故事会落在一个更具体的问题上——当 LongCat-2.0 这样的模型与寒武纪这样的芯片真正配套上量，AI 应用层会出现什么样的新物种？答案，会在 2026 年的第三、第四季度被一一揭晓。</p>
+</div>
+
+        </article>
+        <footer class="article-footer">
+            AI News Daily · 每日 AI 深度内容 · 2026-07-01
+        </footer>
+    </div>
+</body>
+</html>

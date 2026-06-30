@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meituan open-sources 1.6T LongCat-2.0 trained on ~50,000 domestic chips with 35T tokens, ranks top-3 globally on OpenRouter; same day Cambricon's market cap breaks 1T RMB. A four-layer breakdown of China's AI compute loop closure.">
+    <meta name="keywords" content="LongCat-2.0, Meituan, Cambricon, domestic AI chips, MoE, trillion parameters, open-source LLM, OpenRouter, Chinese AI">
+    <meta property="og:title" content="The Domestic AI Compute Loop Closes: Meituan's 1.6T LongCat-2.0 + Cambricon's $1T Cap">
+    <meta property="og:description" content="A 1.6T MoE trained on 50,000 domestic accelerators ranks top-3 on OpenRouter; Cambricon hits 1T RMB cap same day. Three layers of localization snap into place.">
+    <meta property="og:image" content="../img/pool/chip-photonic.jpg">
+    <title>The Domestic AI Compute Loop Closes: Meituan's 1.6T LongCat-2.0 + Cambricon's $1T Cap | AI News Daily</title>
+    <link rel="canonical" href="articles/en/article-30.html">
+    <link rel="alternate" hreflang="zh-CN" href="articles/article-30.html">
+    <link rel="alternate" hreflang="en" href="articles/en/article-30.html">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6fa;
+            color: #2c3e50;
+        }
+        .deep-article {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 50px 56px;
+            box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+        }
+        .article-header { margin-bottom: 30px; }
+        .article-meta-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 22px;
+            font-size: 0.92em;
+            color: #7f8c9b;
+        }
+        .article-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.88em;
+            font-weight: 500;
+        }
+        .article-date, .article-read-time { color: #95a5a6; }
+        .article-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.35;
+            margin: 0 0 16px 0;
+        }
+        .article-subtitle {
+            font-size: 1.08em;
+            color: #5a6c7d;
+            line-height: 1.7;
+            margin: 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-hero-image {
+            margin: 30px 0 36px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            max-height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+        .article-content { font-size: 1.05em; color: #2c3e50; }
+        .article-content p { margin: 0 0 22px 0; text-align: justify; }
+        .article-content p.lead {
+            font-size: 1.18em;
+            color: #34495e;
+            font-weight: 500;
+            line-height: 1.75;
+            margin-bottom: 30px;
+            padding: 22px 26px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #fdf7ff 100%);
+            border-left: 4px solid #667eea;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-content h2 {
+            font-size: 1.45em;
+            color: #1a1a2e;
+            margin: 44px 0 20px 0;
+            padding-left: 16px;
+            border-left: 4px solid #667eea;
+            line-height: 1.4;
+        }
+        .article-content h3 {
+            font-size: 1.18em;
+            color: #2c3e50;
+            margin: 30px 0 14px 0;
+        }
+        .article-content strong { color: #1a1a2e; font-weight: 600; }
+        .article-content em { color: #667eea; font-style: italic; }
+        .article-content a { color: #667eea; text-decoration: none; border-bottom: 1px solid #667eea; }
+        .article-content a:hover { color: #764ba2; border-bottom-color: #764ba2; }
+        .article-content ul, .article-content ol { margin: 0 0 22px 0; padding-left: 28px; }
+        .article-content li { margin-bottom: 10px; line-height: 1.75; }
+        .article-quote {
+            background: #fdf2f2;
+            border-left: 4px solid #e74c3c;
+            padding: 22px 28px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-quote p {
+            margin: 0;
+            font-style: italic;
+            color: #555;
+            font-size: 1.05em;
+        }
+        .article-quote .quote-author, .article-quote cite {
+            display: block;
+            text-align: right;
+            margin-top: 12px;
+            color: #888;
+            font-style: normal;
+            font-size: 0.9em;
+        }
+        .article-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 28px 0;
+            font-size: 0.96em;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .article-content th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .article-content td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #eef1f5;
+            background: #fff;
+        }
+        .article-content tr:nth-child(even) td { background: #fafbfd; }
+        .article-content tr:hover td { background: #f4f6ff; }
+        .article-highlight, .article-conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 32px;
+            border-radius: 12px;
+            margin: 36px 0;
+        }
+        .article-highlight h2, .article-highlight h3,
+        .article-conclusion h2, .article-conclusion h3 {
+            color: white;
+            margin-top: 0;
+            border: none;
+            padding: 0;
+        }
+        .article-highlight p, .article-conclusion p { color: rgba(255,255,255,0.95); }
+        .article-footer {
+            margin-top: 50px;
+            padding-top: 24px;
+            border-top: 1px solid #eef1f5;
+            color: #95a5a6;
+            font-size: 0.92em;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            body { padding: 16px 8px; }
+            .deep-article { padding: 28px 20px; }
+            .article-title { font-size: 1.55em; }
+            .article-subtitle { font-size: 1em; }
+            .article-content { font-size: 1em; }
+            .article-content h2 { font-size: 1.25em; }
+            .article-content p.lead { font-size: 1.08em; padding: 18px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="deep-article">
+        <header class="article-header">
+            <div class="article-meta-top">
+                <span class="article-category">Industry Analysis</span>
+                <span class="article-date">2026-07-01</span>
+                <span class="article-read-time">11 min read</span>
+            </div>
+            <h1 class="article-title">The Domestic AI Compute Loop Closes: Meituan's 1.6T LongCat-2.0 Trained on Chinese Chips, Cambricon Hits $1T Cap Same Day</h1>
+            <p class="article-subtitle">A 1.6-trillion-parameter MoE trained on 50,000 domestic accelerators with 35T tokens, OpenRouter usage ranking top-3 globally, and Cambricon's market cap crossing 1 trillion RMB on the same day — three layers of localization (hardware, model, ecosystem) snap into place, marking a historic closing of China's AI compute loop.</p>
+        </header>
+        <div class="article-hero-image">
+            <img src="../../img/pool/chip-photonic.jpg" alt="Domestic AI Compute Loop: Chinese chips and trillion-parameter models">
+        </div>
+        <article class="article-content">
+
+<p class="lead">On July 1, 2026, Meituan's LongCat team open-sourced <strong>LongCat-2.0</strong> on Hugging Face — a Mixture-of-Experts model with <strong>1.6 trillion</strong> total parameters, around <strong>50B</strong> active parameters per token, and a context window stretched to <strong>1 million tokens</strong>. Buried in the technical report is one line of immense weight: «<em>the entire training run was completed on approximately 50,000 domestic AI accelerators, processing 35T tokens</em>». Almost simultaneously, China's leading AI ASIC vendor <strong>Cambricon</strong> closed up 1.46% at RMB 2412.85, pushing its market capitalization above <strong>1 trillion RMB</strong> for the first time — adding a new trillion-RMB name to the A-share tech leaderboard. Back-to-back, these two events made July 1, 2026 what insiders quietly call the «domestic AI compute loop closure moment».</p>
+
+<p>For the past two years, China's AI story has been told in three disconnected slices: chip vendors talked about compute, model vendors talked about benchmarks, application vendors talked about deployment. Between every two slices, there was a discount — «that chip cannot run this model», «this model cannot ride that chip». What today's two pieces of news do, together, is to bridge this gap for the first time, hand-stitched by an application company: Meituan turned itself into the «first real terminal customer of a fully domestic AI compute stack» and then pushed that stack into the open-source community.</p>
+
+<h2>1. Why July 1 Counts as a «Loop Closure»</h2>
+
+<p>To decide whether an industry has truly closed its loop, you check whether three things are simultaneously true on the same day in the same product — <strong>domestic hardware at the bottom, domestic models in the middle, internationalized ecosystem on top</strong>. In China's AI path, these three layers have lit up only in isolation: DeepSeek V3 used some domestic cards; Qwen ranked high on Hugging Face but trained on NVIDIA; Ascend and Cambricon had customers but never carried a trillion-parameter model. LongCat-2.0 plus Cambricon on July 1, 2026 finally fills all three boxes in one day.</p>
+
+<p>From the model side, LongCat-2.0 is the first publicly disclosed domestic trillion-parameter MoE whose entire training run is on Chinese chips, released under a commercially friendly license and pinned to the homepage of Hugging Face, GitHub and ModelScope. From the hardware side, Cambricon's 1-trillion-RMB market cap is not a one-off capital event — it is the first time the domestic ASIC route has been priced by the broad market as a credible replacement for NVIDIA H100 at comparable scale. From the ecosystem side, the LongCat family is among the <strong>top three open-source models</strong> by call volume on OpenRouter, just behind DeepSeek and Qwen — meaning overseas developers are taking it seriously as a real alternative to closed-source APIs.</p>
+
+<p>The day all three statements are true simultaneously is the first day China's AI sector can claim a truly self-sustaining stack. Before it, this stack was a roadmap; after it, it is a reality.</p>
+
+<h2>2. Inside the LongCat-2.0 Training Stack: 50,000 Domestic Cards Eating 35T Tokens</h2>
+
+<p>The technical disclosure from Meituan's LongCat team is the most worth-dissecting part of this event. A typical NVIDIA H100 cluster needs 60,000–90,000 H100s running for several months to train a 1.6T MoE on 35T tokens. Switching to domestic cards, the engineering team disclosed <strong>50,000 domestic accelerators / 35T training tokens</strong>, with mixed-precision alignment showing under 0.3% precision loss. Three engineering tricks made this work.</p>
+
+<h3>1. A new MoE router with an added load-balancing term</h3>
+
+<p>The hardest part of training a trillion-parameter MoE is not parameter count — it is router imbalance. A few experts get over-activated while most sit idle, causing massive cluster under-utilization. LongCat's router adds a load-stabilization auxiliary loss that bounds the variance of expert hit-counts step by step. On NVIDIA cards this is a nice-to-have; on domestic cards with higher inter-node latency, the cost of imbalance is 2–3× worse, making this term mandatory.</p>
+
+<h3>2. A communication library rewritten for «intra-layer sync + inter-layer async»</h3>
+
+<p>The biggest engineering bottleneck for domestic clusters is the NCCL-equivalent's latency and throughput. The team restructured cross-node tensor-parallel communication into «strict intra-layer alignment + asynchronous inter-layer pipelining», and the all-to-all stage of expert parallelism uses a chunking strategy tuned to the domestic interconnect topology. Result: training throughput loss at large scale fell from the typical <strong>30–40%</strong> to <strong>under 10%</strong>.</p>
+
+<h3>3. A RingAttention variant for the 1M-token context</h3>
+
+<p>LongCat-2.0 stretches context to 1 million tokens using a domestic-chip-tuned variant of RingAttention, distributing the K/V cache across cards along a ring topology so no single card's memory is blown out. On the RULER long-document benchmark at 1M context, retrieval accuracy holds above 90%, matching closed-source flagships.</p>
+
+<table>
+<tr><th>Core Metric</th><th>LongCat-2.0 Public Data</th><th>Peer Benchmark (DeepSeek V4-Pro)</th></tr>
+<tr><td>Total / Active Parameters</td><td>1.6T / ~50B</td><td>1.6T / 32B</td></tr>
+<tr><td>Training Hardware</td><td>~50,000 domestic AI accelerators</td><td>Primarily H100 / H800 hybrid clusters</td></tr>
+<tr><td>Training Tokens</td><td>35T tokens</td><td>15T+ tokens (V4-Pro stage)</td></tr>
+<tr><td>Context Window</td><td>1 million tokens</td><td>128K (V4-Pro default)</td></tr>
+<tr><td>OpenRouter Global Volume</td><td>Top-3 open-source models</td><td>#1 open-source model</td></tr>
+<tr><td>License</td><td>Commercial-friendly (MIT-style)</td><td>MIT</td></tr>
+</table>
+
+<h2>3. Cambricon's $1T Cap: Not One Company's Win, But a Curve's Inflection</h2>
+
+<p>Cambricon crossing 1 trillion RMB on the same day looks like an isolated capital event, but placed in the LongCat-2.0 context, it reflects a much longer industry curve.</p>
+
+<p>For three years, Chinese AI ASIC vendors have been climbing two parallel curves: on the left, the «benchmark curve» — can they reach a meaningful fraction of H100 on mainstream tests; on the right, the «order curve» — can they win real bulk orders from cloud and application giants. These curves have long been out of sync: benchmarks improved but orders didn't follow (customers feared landmines); orders came but benchmarks couldn't keep up (scenario tuning is complex). The real meaning of Cambricon's trillion-RMB cap is that the market is, for the first time, willing to price these two curves jointly — acknowledging both that the technology path is viable and that the customer pipeline has entered a healthy compounding loop.</p>
+
+<p>Several signals over the past six months have supported this re-rating:</p>
+
+<ul>
+<li>The China Information Association's June 26 industry forum on domestic AI ASIC customization put Cambricon, Hygon, Ascend, Enflame and Biren at the same «co-customization» table;</li>
+<li>Multiple top internet companies have publicly disclosed internal plans to lift the domestic chip share from 5% to 20–30%, including Meituan, JD, ByteDance and Baidu;</li>
+<li>Sell-side coverage of domestic AI ASIC names has shifted from «sector watch» to «dedicated tracking», with order visibility now a core variable in earnings forecasts;</li>
+<li>Technical reports like LongCat-2.0 — proving a trillion-parameter MoE actually runs on domestic chips — give all the buyers still sitting on the fence the «someone has already stepped on the landmines» certainty they were waiting for.</li>
+</ul>
+
+<p>A trillion-RMB cap is not the endgame. It is capital's formal endorsement that domestic ASICs have entered mainstream procurement lists. Once that endorsement holds, it accelerates order inflow — the classic positive-feedback loop of hard-tech curves.</p>
+
+<h2>4. Supply-Chain Reactions: All Three Layers Reshuffling</h2>
+
+<h3>1. Hardware: ASIC + Domestic HBM + Domestic Interconnect</h3>
+
+<p>The bottleneck of China's AI compute was never just ASIC silicon — it was also HBM memory and NVLink-equivalent interconnects. LongCat-2.0's training disclosure specifically flags «memory bandwidth optimization» and «interconnect protocol replacement» threads. That means domestic HBM vendors and interconnect chip players are riding the same curve as the ASIC names. After Cambricon's trillion-RMB threshold, expect a fresh round of «high-valuation anchoring» across the whole domestic HPC value chain — once the loop is real, the lens shifts from trailing-PE to forward-three-year order visibility.</p>
+
+<h3>2. Models: From «Benchmark Leadership» to «Scenario Leadership»</h3>
+
+<p>LongCat-2.0 making the top-three on OpenRouter abroad signals the new axis of open-source competition in H2 2026 — not single-number MMLU domination but stability inside specific scenarios like long context, agent loops and tool calling. DeepSeek leading the generalist line, Qwen leading code, LongCat leading long-document and agent workloads — together they form a «division of labor matrix» across China's open-source landscape. Such division is itself a marker of ecosystem maturity: solo champions are about stacking parameters; matrix champions are about owning specific scenarios.</p>
+
+<h3>3. Ecosystem: Hugging Face Downloads + Real Inference Calls Moving in Sync</h3>
+
+<p>The Hugging Face Spring 2026 Global Open-Source AI Report flagged a key number: over the past year, <strong>41%</strong> of all LLM downloads came from Chinese-developed models. Premier Li Qiang's Davos disclosure earlier this month put China's cumulative open-source LLM downloads at <strong>10 billion</strong>. LongCat-2.0 ranking top-3 on OpenRouter means those downloads are now converting into real inference traffic — when those two metrics move in sync, Chinese open-source models have moved from «trial samples» to «production tools».</p>
+
+<div class="article-quote">
+<p>«The H2 2026 industry storyline is no longer 'who has the stronger AI model, US or China' — it's 'inside the same capability band, who keeps a cleaner full-stack compute ledger'. LongCat-2.0's 50,000-domestic-card disclosure adds a new line to that ledger for the first time — a real cost figure that doesn't depend on H100s.»</p>
+<cite>—— A hardware analyst covering China's AI compute supply chain</cite>
+</div>
+
+<h2>5. The Underrated Risk: Loop Closure ≠ Short-Term Substitution</h2>
+
+<p>Loop closure does not mean overseas compute can be dropped tomorrow. Three structural constraints still stand.</p>
+
+<p><strong>First, domestic capacity.</strong> The combined annual production of Cambricon, Hygon and Huawei Ascend remains well short of what top-tier players plan to deploy in H2 2026. A trillion-RMB cap is forward-looking pricing of future orders — in the short run, hyperscalers still need NVIDIA H100/H800/B200 to meet real demand. LongCat-2.0's 50,000 cards is a milestone, but replicating it requires 18–24 months of domestic capacity ramp.</p>
+
+<p><strong>Second, software ecosystem maturity.</strong> NCCL/cuDNN/CUDA cannot be re-implemented in one year. LongCat's «communication library rewrite» is a private solution funded by a big-tech budget — turning it into a public solution everyone can reuse requires sustained open-source co-build. The official software stacks of Cambricon and peers still need feedback from many model teams that have actually hit the landmines.</p>
+
+<p><strong>Third, geopolitical compliance.</strong> LongCat-2.0 ranking top-3 on OpenRouter is great news in overseas developer circles, but in a 2026 where sovereign AI keeps returning to the table, China-origin open-source models still face compliance scrutiny in some jurisdictions. A truly closed industry loop is one whose output trades smoothly on international markets — not just «works fine at home».</p>
+
+<div class="article-highlight">
+<h3>The «July-1 Moment» in Key Numbers</h3>
+<p><strong>1.6T</strong>: LongCat-2.0 total parameters · <strong>~50B</strong>: active parameters · <strong>50,000</strong>: domestic AI accelerators · <strong>35T tokens</strong>: training data · <strong>1M</strong>: context window in tokens · <strong>Top-3 on OpenRouter</strong>: global call-volume rank · <strong>1 trillion RMB</strong>: Cambricon market cap · <strong>2412.85</strong>: Cambricon closing price in RMB</p>
+</div>
+
+<h2>6. From «It Runs» to «It Wins»: What Comes After Closure</h2>
+
+<p>Loop closure is a milestone, not an endpoint. Replaying the 2010s smartphone trajectory — from «can use Chinese chips» to «Chinese chips are mainstream» — the post-closure phase of China's AI compute needs at least three further things to claim true industrial leadership.</p>
+
+<p>First, <strong>distilling trillion-parameter training experience into industry methodology</strong>. LongCat's router and communication rewrites still live in internal blogs and papers. The next step is to bring them to «Megatron-LM-tier open-source projects» so other companies can reuse rather than reinvent.</p>
+
+<p>Second, <strong>pushing domestic chips' performance-per-watt closer to H100/B200</strong>. Trillion-scale training only demands more single-card FLOPs and memory bandwidth. The next-generation process and packaging path of Cambricon and Ascend will determine whether the «closure» can be re-staged at the 10-trillion-parameter scale in 2027.</p>
+
+<p>Third, <strong>maturing open-source governance and commercialization</strong>. LongCat-2.0's commercial-friendly license is smart, but open-source models still lack a clear business model — Meituan can fund R&D from its core business; pure-model players without cash-flowing applications cannot replicate that. How this path is solved will decide whether «China's open source» remains a handful of giant-tech bonsai or grows into a real forest.</p>
+
+<div class="article-conclusion">
+<h2>Conclusion: After Closure, A Fresh Long-Distance Race</h2>
+<p>July 1, 2026 will stay in China's AI industry history — not because any single model is the strongest or any single company is the largest, but because for the first time, «hardware, models, ecosystem» aligned inside the same 24-hour window. Before this day, China's AI was a road stitched together from single dots. After it, it is a full-stack route that has actually been walked end-to-end.</p>
+<p>But closure is not victory. It only means the qualifying round is over and the main race has just begun. The next leg is no longer «can it run» but «can it run faster, cheaper, more stably, more internationally». The second half of 2026 will pivot to a more specific question — once models like LongCat-2.0 and chips like Cambricon really pair up at volume, what kind of new species will emerge at the AI application layer? The answer will unfold across Q3 and Q4 2026.</p>
+</div>
+
+        </article>
+        <footer class="article-footer">
+            AI News Daily · Daily AI Deep Dive · 2026-07-01
+        </footer>
+    </div>
+</body>
+</html>

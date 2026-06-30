@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "article-30",
+      "date": "2026-07-01",
+      "title": "国产 AI 算力闭环时刻：美团 1.6 万亿 LongCat-2.0 全栈国产芯片训练 + 寒武纪同日万亿市值",
+      "title_en": "The Domestic AI Compute Loop Closes: Meituan's 1.6T LongCat-2.0 Trained on Chinese Chips, Cambricon Hits $1T Cap Same Day",
+      "subtitle": "1.6 万亿总参 MoE、5 万张国产卡 35T token 训练、OpenRouter 调用量挤进全球前三、寒武纪市值同日突破万亿——硬件、模型、生态三层国产化齐声落地，AI 算力闭环的「7-1 时刻」正在被记入产业史。",
+      "subtitle_en": "A 1.6T-parameter MoE trained on 50,000 domestic accelerators with 35T tokens, OpenRouter usage ranking top-3 globally, Cambricon's market cap crossing 1 trillion RMB on the same day — three layers of localization (hardware, model, ecosystem) snap into place, marking a historic closing of China's AI compute loop.",
+      "summary": "2026-07-01，美团开源 1.6 万亿参数 MoE 大模型 LongCat-2.0，明确披露训练全程使用 5 万张国产 AI 加速卡、消化 35T token，并将上下文窗口拉到 100 万 token；同一天，国产芯片龙头寒武纪市值突破 1 万亿元人民币。本文从训练栈、推理性能、生态地位、产业链联动四个角度，拆解这场被业内称为「国产 AI 算力闭环时刻」的标志性事件。",
+      "summary_en": "On July 1, 2026, Meituan open-sourced LongCat-2.0, a 1.6-trillion-parameter MoE model explicitly trained on 50,000 domestic accelerators with 35T tokens and a 1M-token context. The same day, domestic chip leader Cambricon broke through the 1-trillion-RMB market cap. This article dissects what insiders are calling China's AI compute-loop closure moment, across training stack, inference performance, ecosystem standing and supply-chain coupling.",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "image": "img/pool/chip-photonic.jpg",
+      "url": "articles/article-30.html",
+      "url_en": "articles/en/article-30.html",
+      "read_time": "11 min read"
+    },
+    {
       "id": "article-29",
       "date": "2026-06-30",
       "title_zh": "推理效率革命：从堆算力到拼算法，AI 产业的范式拐点",
