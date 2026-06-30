@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-07-01 07:00 — 日更三件套（article-30 + 微信 + 头条）
+
+### 网站版（产业分析）
+- **新增 article-30**：《国产 AI 算力闭环时刻：美团 1.6 万亿 LongCat-2.0 全栈国产芯片训练 + 寒武纪同日万亿市值》中英双语
+  - 中文 22.6KB / 英文 23.8KB，含完整 deep-article 内联 style 块
+  - 切角：LongCat-2.0（1.6T MoE / 5 万张国产卡 / 35T token / OpenRouter 全球前三）+ 寒武纪同日市值破万亿 → 硬件、模型、生态三层国产化齐声落地
+  - hero：news.json days[0]，标题「国产 AI 算力闭环时刻：美团 1.6 万亿 LongCat-2.0 全栈国产芯片训练 + 寒武纪同日万亿市值」
+- **news.json days[0] 推 7/1**：10 条新闻覆盖大模型/芯片算力/产业/开源/投融资/招商等方向，保留最近 5 天
+- **sidebar**：article-30 进首位（7/1）挤掉 article-20（6/21）
+- **sitemap.xml 全量重建至 64 URL**：6 静态 + 29 article × 2 语言，近 7 天 priority=0.9，更旧 priority=0.8
+- **commit**：6f90fcb，部署 https://07343849.ainewsdaily.pages.dev
+
+### 微信版（人物 / 事件叙事）
+- `wechat/wechat-2026-07-01.html`（18.7KB，677px table 布局）
+- 标题：《7 亿美元归零的开源信仰 —— 贾扬清离开英伟达的 1 年》
+- 时间线：2025/4 NVIDIA 7 亿美元收购 Lepton AI 20 人团队 → 2026 Q1 开源承诺被搁置 → 6/9 加入 Hyperbolic Labs 任顾问
+- 合规：5 table + 47 td 全 `border:none` / 全部图片用线上 URL（0 相对路径）/ 含晓色原创声明
+
+### 头条版（热点趋势）
+- `toutiao/toutiao-2026-07-01.md`（8.6KB Markdown）
+- 标题：《5 天 1 万 Star，3B 模型反超 DeepSeek —— 百度 Unlimited OCR 把开源 OCR 重新做了一遍》
+- 验证项：模型名 `baidu/Unlimited-OCR` / GitHub `github.com/baidu/Unlimited-OCR` / 6-22 发布、6-25 开源、5 天破万 Star / OmniDocBench v1.6 综合 93.92% SOTA / 长输出比 DeepSeek OCR 快 35% / R-SWA 机制 KV Cache 恒定 128 token
+
+### 三主题互不重复
+- 网站：国产 AI 算力闭环（产业分析） ≠ 微信：贾扬清离开英伟达（人物叙事） ≠ 头条：百度 OCR 开源破圈（热点解读）
+
+### 选题池
+- 头条版命中选题池预定（昨日主人「留着，走头条版」），使用后从待用区归档
+
+---
+
 ## 2026-06-30 06:25 — 日更三件套（article-29 + 微信 + 头条）
 
 ### 网站版（产业分析）
