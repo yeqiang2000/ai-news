@@ -4,6 +4,49 @@
 
 ---
 
+## 2026-07-02 08:15 — 日更三件套（article-31 + 微信 + 头条）
+
+### 网站版（产业分析，命中选题池 7-1 预定）
+- **新增 article-31**：《OpenAI 推理成本腰斩：AI 应用普及的产业拐点已至》中英双语
+  - 中文 28.3KB / 英文 27.7KB，含完整 deep-article 内联 style 块
+  - 切角：6-30 The Information 首发披露 OpenAI 通过纯软件层优化（服务器利用率 + KV Cache 复用 + 量化压缩 + 动态批量）把推理成本降 50%+，8 大维度产业分析（事实核对/产业拐点/开发者生态/SaaS 商业模式/云厂商竞争/开源阵营/终端应用/风险）
+  - 数据点：GPT-5.6 Terra 定价直接砍半、ChatGPT 匿名访客几百块 GPU 兜住、Anthropic 推理毛利率 18 个月从 -94% → 60%+、中国日均 token 24 个月从 1000 亿 → 140 万亿（1000×）
+  - hero：news.json days[0]，标题「OpenAI 推理成本腰斩：AI 应用普及的产业拐点已至」
+- **news.json days[0] 推 7/2**：10 条新闻（OpenAI 推理成本 / GPT-5.6 三档 / Grok 4.5 / DeepSeek V4 峰谷 / DSpark / 微软 MAI / Anthropic S-1 / Meta / 具身智能 / 北京 AI 科研），保留最近 5 天，挤掉 6/27
+- **articles.json 总数 30**：article-31 插入 articles[0]
+- **used-images.json 181 张**（+14）：全部从图片池取，0 Unsplash 外链
+- **sidebar**：article-31 进首位（7/2）挤掉 article-21（6/22）
+- **sitemap.xml 全量重建至 66 URL**：6 静态 + 30 article × 2 语言，近 7 天 priority=0.9，更旧 priority=0.8，hreflang zh-CN/en/x-default 三向各 60 个
+- **commit**：f8ac073（7 files / +1038 / -314），部署 https://4cb84f62.ainewsdaily.pages.dev
+
+### 微信版（人物 / 事件叙事）
+- `wechat/wechat-2026-07-02.html`（19.0KB，677px table 布局）
+- 标题：《马斯克的 xAI 月更承诺：Grok 4.5 内测与「每月一款全新大模型」的疯狂节奏》
+- 切角：6-28 深夜 X 推文 → 马斯克三重焦虑（估值/算力/FSD 迭代）→ 月更承诺的技术可行性
+- 合规：5 table + 46 td 全 `border:none` / 图片用线上 URL（0 相对路径）/ 含晓色原创声明
+
+### 头条版（热点趋势）
+- `toutiao/toutiao-2026-07-02.md`（11.0KB Markdown）
+- 标题：《AI 分场景定价新纪元：GPT-5.6 三档、DeepSeek 峰谷、Anthropic 90% 缓存》
+- 验证项：GPT-5.6 三档定价 Sol $5/$30、Terra $2.5/$15、Luna $1/$6（每 M token）/ DeepSeek V4 首创峰谷定价 / Anthropic 90% 缓存折扣 + 1M 平价 + Batch 50% 折扣 / Google Gemini 3.5 Flash 思考等级 4 档
+
+### 三主题互不重复
+- 网站：OpenAI 推理成本产业分析
+- 微信：马斯克月更承诺人物叙事
+- 头条：全行业分场景定价趋势解读
+
+### 线上验证
+- sitemap 200 / 66 URL / article-31 出现 8 次
+- article-31 中英跟随 CF Pages 308 重定向后 28990 B / 28375 B ✓
+- 首页 hero 已切「OpenAI 推理成本腰斩」/ 侧边栏 article-31 已入 ✓
+- 微信图片 startup-product-launch-v3.jpg 线上 200 ✓
+- Yandex ping 200 ✓
+
+### 选题池归档
+- 网站版待用区「OpenAI 推理成本腰斩（产业分析）」已用于 article-31，移到「已使用归档」
+
+---
+
 ## 2026-07-01 07:00 — 日更三件套（article-30 + 微信 + 头条）
 
 ### 网站版（产业分析）
