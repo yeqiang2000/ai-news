@@ -4,6 +4,47 @@
 
 ---
 
+## 2026-07-03 07:55 — 日更三件套（article-32 + 微信 + 头条）
+
+### 网站版（产业分析）
+- **新增 article-32**：《AI 医疗产业化拐点：从 207 款获批到临床协作者的深水区》中英双语
+  - 中文 29.9KB / 英文 32.5KB，含完整 deep-article 内联 style 块
+  - 切角：2026 年 7 月第一周三条 AI 医疗信号同时落地（NMPA 累计批准 207 款 AI 医疗器械 / 华为盘古医疗 3.0 部署 12 家三甲 / 英矽智能与武田签 6 亿美元合作），首次同时打通「审批端 + 临床端 + 支付端」，八大角度拆解产业拐点
+  - 8 大维度：事实核对 / 审批数据 / 支付通道 / 临床协作 / 大模型医疗底座 / AI 制药 / 伦理与责任 / 下一个 12 个月观察窗口
+  - hero：news.json days[0]，标题「AI 医疗产业化拐点：从 207 款获批到临床协作者的深水区」
+- **news.json days[0] 推 7/3**：10 条新闻（孙天祥百度 / 英伟达 Vera Rubin / Anthropic 三星 / Meta 算力 / 快手可灵 / 英矽武田 / 优必选 U1 / GLM-5.2 744B / 学而思 T6 / AI 医疗 207 款），保留最近 5 天，挤掉 6/28
+- **articles.json 总数 31**：article-32 插入 articles[0]
+- **used-images.json 192 张**（+11）：全部从图片池取（healthcare-telemedicine / education-ai-tutor-v3 / energy-battery-ai / blockchain-ai-contract / energy-carbon / vr-ar-gaming / vr-ar-surgery / robotics-surgery-v3 / blockchain-carbon / education-vr-classroom / autonomous-ship），0 Unsplash 外链
+- **sidebar**：article-32 进首位（7/3）挤掉 article-22（6/23）
+- **sitemap.xml 全量重建至 68 URL**：6 静态 + 31 article × 2 语言，近 7 天 priority=0.9，更旧 priority=0.8，hreflang zh-CN/en/x-default 三向各 62 个
+- **commit**：82b0641（7 files / +1024 / -298），部署 https://9142d6c7.ainewsdaily.pages.dev
+
+### 微信版（人物迁徙叙事 · 命中选题池 7-2 预定）
+- **文件**：wechat/wechat-2026-07-03.html（21.7KB，677px table 布局，54 处 border:none，0 相对路径，含晓色原创声明）
+- **主题**：《孙天祥加盟百度：从 MOSS 到基础模型研发部——一个青年学者的技术押注与产业迁徙》
+- **6 项事实全部 search_web 落地**：
+  1. 孙天祥 1997 生 / 复旦计算机博士 2019-2024 / 导师邱锡鹏+黄萱菁 / Google Scholar 4200+ 引用（代表论文 CoLAKE 被 ERNIE 3.0 采用）
+  2. MOSS 主开发者 / 160 亿参数 / 2023-02-20 发布 / 国内首个类 ChatGPT 开源对话大模型
+  3. 加盟时间 2026-07-01（每日经济新闻/晚点/科创板日报/36 氪/新黄河 5 源交叉核实）
+  4. 新岗位：百度基础模型研发部（BMU）负责人 + 模型委员会（BMC）成员 / 接替 2025-11 上任的吴甜 / CTO 王海峰统筹
+  5. 战略背景：2025-11 拆分 TPG 新设 BMU+AMU / 2026-01-22 文心 5.0 2.4 万亿参数原生全模态 / 2026-06 Unlimited OCR 破 1 万 Star
+  6. 对比案例：姚顺雨（腾讯 2025-12）/ 杨植麟（月之暗面 CEO）/ Meta 挖角华人 8 人 / Manus 肖弘任 Meta 副总裁
+
+### 头条版（热点趋势解读）
+- **文件**：toutiao/toutiao-2026-07-03.md（12.9KB）
+- **主题**：《AI 教育从「漫灌」到「滴灌」——学而思 T6、长沙学校 AI 自主学与《AI+教育》行动计划三重信号》
+- **切角**：学而思 T6 学习机 + 长沙学校 AI 自主学系统 + 政策端《AI+教育》行动计划三重信号同一周落地，AI 教育从粗放式全班灌输走向个体自适应
+
+### SEO 与线上验证
+- sitemap.xml HTTP 200 / application/xml / 68 URL / article-32 出现 8 次
+- 中文文章 AI 医疗 32 次 / 207 款 14 次 / 盘古医疗 14 次 / 英矽智能 11 次 / deep-article CSS 3 处
+- 英文文章 healthcare 21 次 / NMPA 12 次 / Insilico 15 次
+- 首页 hero 已切「AI 医疗」/ 侧边栏 article-32 已入
+- 微信 hero 图 education-ai-tutor-v3.jpg 线上 HTTP/2 200 / Yandex ping 302 成功
+- ⚠️ GSC 手动提交 article-32 中英 URL 请求编入索引（沿用主人手动流程）
+
+---
+
 ## 2026-07-02 08:15 — 日更三件套（article-31 + 微信 + 头条）
 
 ### 网站版（产业分析，命中选题池 7-1 预定）
