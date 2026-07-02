@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "article-32",
+      "date": "2026-07-03",
+      "title": "AI 医疗产业化拐点：从 207 款获批到临床协作者的深水区",
+      "title_en": "The Inflection Point of AI Healthcare: From 207 Approvals to the Deep Water of Clinical Collaboration",
+      "subtitle": "国家药监局累计批准 207 款、盘古医疗 3.0 部署 12 家三甲、英矽智能 6 亿美元合作武田、17 省市医保支付打通——三条线同时落在同一周，AI 医疗正从「审批红利期」跨进「临床协作深水区」。本文从产业化拐点、审批数据、支付端、临床协作、大模型医疗底座、AI 制药、伦理边界、下一个 12 个月观察窗口 8 个角度拆解。",
+      "subtitle_en": "China's NMPA has approved 207 AI medical devices, Pangu Medical 3.0 is deployed at 12 tier-3 hospitals, Insilico signed a $600M deal with Takeda, and 17 provincial-level insurance formularies now cover AI-assisted imaging — three lines converging in one week. AI healthcare is moving from an «approval-driven» phase into the «deep water of clinical collaboration». This article unpacks the inflection across 8 angles: industrial pivot, approval data, payment breakthrough, clinical collaboration, medical foundation models, AI drug discovery, ethical boundaries, and the next 12-month observation window.",
+      "summary": "2026 年 7 月第一周，三条 AI 医疗产业信号同时落地：国家药监局累计批准 AI 医疗器械 207 款、华为盘古医疗大模型 3.0 部署 12 家三甲医院、英矽智能与武田制药签下 6 亿美元合作。过去三年 AI 医疗一直被质疑「审批数量够多但临床价值不足」，本次三条信号意味着 AI 医疗第一次同时打通「审批端 + 临床端 + 支付端」——本文从事实核对、审批数据、支付通道、临床协作、大模型医疗底座、AI 制药、伦理与责任、下一个 12 个月观察窗口 8 个角度，拆解 AI 医疗从「点状获批」进入「集群化落地」的产业拐点。",
+      "summary_en": "In the first week of July 2026, three signals in AI healthcare converge: NMPA's cumulative approvals cross 207 devices, Huawei's Pangu Medical Model 3.0 deploys at 12 tier-3 hospitals, and Insilico Medicine signs a $600M partnership with Takeda. After three years of criticism that AI healthcare had «plenty of approvals but limited clinical value», these three signals mark the first simultaneous breakthrough across approval, clinical, and payment channels. This article dissects the inflection from eight angles: fact-check, approval data, payment channel, clinical collaboration, medical foundation model, AI drug discovery, ethics and accountability, and the next 12-month observation window.",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "image": "img/pool/healthcare-telemedicine.jpg",
+      "url": "articles/article-32.html",
+      "url_en": "articles/en/article-32.html",
+      "read_time": "13 min read"
+    },
+    {
       "id": "article-31",
       "date": "2026-07-02",
       "title": "OpenAI 推理成本腰斩：AI 应用普及的产业拐点已至",

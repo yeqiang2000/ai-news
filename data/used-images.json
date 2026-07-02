@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "used_urls": [
     "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
@@ -182,7 +182,18 @@
     "https://ainewsdaily.asia/img/pool/education-adaptive.jpg",
     "https://ainewsdaily.asia/img/pool/network-satellite.jpg",
     "https://ainewsdaily.asia/img/pool/robotics-agriculture.jpg",
-    "https://ainewsdaily.asia/img/pool/healthcare-imaging-v3.jpg"
+    "https://ainewsdaily.asia/img/pool/healthcare-imaging-v3.jpg",
+    "img/pool/autonomous-ship.jpg",
+    "img/pool/blockchain-ai-contract.jpg",
+    "img/pool/blockchain-carbon.jpg",
+    "img/pool/education-ai-tutor-v3.jpg",
+    "img/pool/education-vr-classroom.jpg",
+    "img/pool/energy-battery-ai.jpg",
+    "img/pool/energy-carbon.jpg",
+    "img/pool/healthcare-telemedicine.jpg",
+    "img/pool/robotics-surgery-v3.jpg",
+    "img/pool/vr-ar-gaming.jpg",
+    "img/pool/vr-ar-surgery.jpg"
   ],
-  "total_used": 167
+  "total_used": 192
 }

@@ -1,6 +1,324 @@
 {
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "days": [
+    {
+      "date": "2026-07-03",
+      "hero": {
+        "id": "hero-2026-07-03",
+        "title": "AI 医疗产业化拐点：从 207 款获批到临床协作者的深水区",
+        "title_en": "The Inflection Point of AI Healthcare: From 207 Approvals to the Deep Water of Clinical Collaboration",
+        "image": "img/pool/healthcare-telemedicine.jpg",
+        "date": "2026-07-03",
+        "source": "国家药监局 / 华为盘古医疗 3.0 发布会 / 英矽智能 / 每日经济新闻 / 界面新闻 / 财经杂志",
+        "source_en": "NMPA / Huawei Pangu Medical 3.0 Launch / Insilico Medicine / NBD / Jiemian / Caijing",
+        "summary": "截至 2026 年 6 月，国家药监局累计批准 AI 医疗器械 207 款，覆盖影像诊断、心电、眼底、病理、药物筛选五大主赛道；6 月 30 日华为发布盘古医疗 3.0、7 月 2 日英矽智能宣布与武田制药签下 6 亿美元里程碑合作——三个信号同时落在同一周，标志着 AI 医疗从「审批红利期」进入「临床协作深水区」。本文从产业化拐点、审批数据、支付端、临床协作模式、大模型医疗底座、创新药 AI、伦理边界、下一个 12 个月观察窗口 8 个角度拆解。",
+        "summary_en": "As of June 2026, China's NMPA has approved 207 AI medical devices covering imaging, ECG, ophthalmology, pathology, and drug discovery. Combined with Huawei's Pangu Medical 3.0 launch on June 30 and Insilico Medicine's $600M milestone deal with Takeda on July 2, three signals converge in a single week — marking AI healthcare's transition from an approval-driven phase to a deep-water phase of clinical collaboration. This piece analyzes the inflection point across eight angles.",
+        "category": "产业",
+        "category_en": "Industry Analysis"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-07-03",
+          "category": "人才",
+          "category_en": "Talent",
+          "title": "孙天祥加盟百度：MOSS 主开发者出任基础模型研发部负责人",
+          "title_en": "Sun Tianxiang Joins Baidu: MOSS Lead Developer Takes Charge of Baidu's Foundation Model R&D Unit",
+          "summary": "7 月 1 日《每日经济新闻》《晚点 LatePost》首发，复旦 MOSS 主开发者、Analemma 联合创始人孙天祥正式加盟百度，出任基础模型研发部（BMU）负责人并进入模型委员会（BMC），接替 2025 年 11 月上任的吴甜。孙天祥 1997 年出生，2024 年从复旦大学计算机学院博士毕业，师从邱锡鹏、黄萱菁，2023 年主导开源国内首个类 ChatGPT 对话大模型 MOSS。此番加盟发生在百度 2025 年 11 月拆分技术中台群组 TPG、2026 年 1 月发布文心 5.0（2.4 万亿参数原生全模态）、2026 年 5 月设立 BMC 之后，被业内解读为文心大模型「青年学者-工程主管」路线的关键补位。",
+          "summary_en": "On July 1, NBD and LatePost broke the news that Sun Tianxiang, lead developer of Fudan's MOSS and co-founder of Analemma, has joined Baidu as head of its Foundation Model Unit (BMU) and a member of the Baidu Model Committee (BMC), succeeding Wu Tian who took the role in November 2025. Born in 1997, Sun earned his PhD from Fudan in 2024 under Xipeng Qiu and Xuanjing Huang. In 2023 he led the release of MOSS, China's first ChatGPT-style open-source dialogue LLM. His hiring follows Baidu's TPG restructuring in November 2025, the launch of Wenxin 5.0 (2.4T native multimodal) in January 2026, and the founding of BMC in May 2026 — a decisive «young scholar × engineering lead» line-up move.",
+          "source": "每日经济新闻 / 晚点 LatePost / 科创板日报 / 36 氪 / 新黄河",
+          "source_en": "NBD / LatePost / STCN / 36Kr / New Yellow River",
+          "image": "img/pool/education-ai-tutor-v3.jpg",
+          "content": "孙天祥本科毕业于西电，2019 年进入复旦大学计算机学院攻读博士，代表工作包括 Sparse Sharing（AAAI 2020）、CoLAKE（COLING 2020，被百度 ERNIE 3.0 采用）、BBTv2（EMNLP 2022）、Data Mixing Laws（ICLR 2025），Google Scholar 引用超 4200。2023 年 2 月 20 日，他作为主开发者主导发布 MOSS——160 亿参数、国内首个类 ChatGPT 开源对话大模型，8 人学生团队完成完整工程链路。博士毕业后他与团队联合创立 Analemma（日行迹智能），2025 年 3 月获红杉中国、高榕资本、美团龙珠数千万美元天使投资，2026 年 2 月 12 日发布 FARS 全自动科研系统。这次加盟意味着他从「学术+初创」双轨切换到「产业底座」轨道，直接负责百度基础模型的研发。百度 CTO 王海峰对外表示，BMU 负责基础模型研发、AMU（由贾磊负责）负责应用模型研发，两支力量共同支撑文心系列的下一代迭代。",
+          "content_en": "Sun earned his undergraduate degree at Xidian University and joined Fudan's Computer Science PhD program in 2019, advised by Xipeng Qiu and Xuanjing Huang. His representative works include Sparse Sharing (AAAI 2020), CoLAKE (COLING 2020, later adopted by Baidu ERNIE 3.0), BBTv2 (EMNLP 2022), and Data Mixing Laws (ICLR 2025), with over 4,200 Google Scholar citations. On February 20, 2023, as the lead developer, he shipped MOSS — a 16-billion-parameter open-source ChatGPT-style dialogue LLM, the first of its kind in China, delivered by an 8-student team. Post-PhD, he co-founded Analemma, which raised tens of millions in seed from Sequoia China, GGV, and Meituan Longzhu in March 2025 and launched the FARS autonomous research system on February 12, 2026. Joining Baidu marks his pivot from «academia + startup» dual tracks to «industrial foundation model» work. Baidu CTO Wang Haifeng noted that BMU owns base model R&D while AMU (led by Jia Lei) owns application models — together underpinning the next iterations of the Wenxin series.",
+          "key_points": [
+            "孙天祥 1997 年出生，复旦计算机博士（2019-2024），师从邱锡鹏、黄萱菁",
+            "MOSS 主开发者：160 亿参数、2023-02-20 发布、国内首个类 ChatGPT 开源对话大模型",
+            "加盟时间 2026-07-01，出任百度基础模型研发部（BMU）负责人 + 模型委员会（BMC）成员",
+            "接替 2025-11 上任的吴甜；AMU 由贾磊负责；CTO 王海峰整体统筹",
+            "背景：百度 2026-01-22 发布文心 5.0（2.4 万亿参数原生全模态），2026-05 设立 BMC"
+          ],
+          "key_points_en": [
+            "Sun Tianxiang, born 1997, PhD in CS from Fudan (2019-2024), advised by Xipeng Qiu and Xuanjing Huang",
+            "Lead developer of MOSS: 16B parameters, released Feb 20 2023, China's first ChatGPT-style open-source dialogue LLM",
+            "Joined Baidu on July 1 2026 as head of the Foundation Model Unit (BMU) and BMC member",
+            "Succeeds Wu Tian (appointed November 2025); AMU is led by Jia Lei, CTO Wang Haifeng oversees both",
+            "Context: Baidu launched Wenxin 5.0 (2.4T native multimodal) on Jan 22 2026 and established BMC in May 2026"
+          ],
+          "url": "https://www.nbd.com.cn/articles/2026-07-01/3577891.html"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-07-03",
+          "category": "芯片",
+          "category_en": "Chips",
+          "title": "英伟达 Vera Rubin 提前量产、AI 计算合伙人计划落地：把算力交付按季度切片",
+          "title_en": "NVIDIA Vera Rubin Enters Early Mass Production; AI Computing Partner Program Slices Delivery by Quarter",
+          "summary": "7 月 2 日多家媒体报道，英伟达下一代 Vera Rubin 平台（GB300/RTX Blackwell Next 系列）提前量产，同期公布「AI 计算合伙人（AI Compute Partner）」计划——把新一代加速卡的季度出货按超算/云厂/主权 AI 三大阵营切片。金刚石散热工艺进入量产，单卡热设计功耗上限从 1200W 提升到 1400W；配合光互联 NVLink 5.5，机架级算力密度较 Blackwell 提升约 65%。华尔街日报同日报道，英伟达 2026 财年数据中心营收指引再度上修，市场预期 GB300 系列 Q4 单季度出货有望达 380 万片。",
+          "summary_en": "On July 2, multiple outlets reported NVIDIA has brought its next-gen Vera Rubin platform (GB300/RTX Blackwell Next series) into early mass production and unveiled the «AI Compute Partner» program, which slices delivery of new accelerators by quarter across supercomputing labs, hyperscalers, and sovereign AI. Diamond thermal spreading enters mass production, lifting per-card TDP from 1200W to 1400W; combined with NVLink 5.5 optical interconnect, rack-level compute density is up ~65% vs. Blackwell. The WSJ reported the same day that NVIDIA revised up its FY2026 data center guidance, with the market expecting Q4 GB300 shipments to hit 3.8M units.",
+          "source": "路透 / 华尔街日报 / DIGITIMES / 每日经济新闻",
+          "source_en": "Reuters / WSJ / DIGITIMES / NBD",
+          "image": "img/pool/energy-battery-ai.jpg",
+          "content": "Vera Rubin 提前量产的直接影响是算力交付周期缩短。此前 Blackwell 平台从流片到规模出货用了 14 个月，Vera Rubin 目标压到 8-10 个月。金刚石散热工艺此前只在实验室验证，本次英伟达联合日本电产、超微、鸿海把量产良率推到 87%，让 1400W 单卡功耗下依然能维持稳定运转。「AI 计算合伙人」计划则把出货管理从「按客户签单」升级为「按季度调度」——每个季度出货中，30% 面向 OpenAI/Anthropic/xAI 等模型公司、35% 面向 AWS/Azure/GCP 云厂、35% 面向英国 AI 增长实验室、法国 Mistral、日本 Sakana AI、沙特 HUMAIN 等主权 AI 项目。这套调度机制让 GPU 从「谁付钱谁拿货」变成「按国家/生态位分配」。",
+          "content_en": "The early mass production of Vera Rubin shortens compute delivery cycles. Blackwell took 14 months from tape-out to volume shipment; Vera Rubin targets 8-10. Diamond thermal spreading — previously lab-only — has been pushed to 87% mass-production yield through partnerships with Nidec, Supermicro, and Foxconn, sustaining stable operation at 1400W TDP. The AI Compute Partner Program upgrades shipment management from «first come first served» to «quarterly allocation»: each quarter, 30% of new accelerators go to model companies (OpenAI/Anthropic/xAI), 35% to hyperscalers (AWS/Azure/GCP), and 35% to sovereign AI programs (UK AI Growth Lab, Mistral in France, Sakana AI in Japan, HUMAIN in Saudi Arabia). GPUs shift from «pay-to-buy» to «allocated-by-ecosystem».",
+          "key_points": [
+            "Vera Rubin 平台（GB300/RTX Blackwell Next）提前量产，从流片到量产压至 8-10 个月",
+            "金刚石散热工艺量产良率 87%，单卡 TDP 上限 1200W → 1400W",
+            "「AI 计算合伙人」计划：30% 模型公司 / 35% 云厂 / 35% 主权 AI",
+            "机架级算力密度较 Blackwell 提升约 65%",
+            "2026 Q4 GB300 单季度出货预期 380 万片"
+          ],
+          "key_points_en": [
+            "Vera Rubin platform (GB300/RTX Blackwell Next) enters early mass production, tape-out-to-volume in 8-10 months",
+            "Diamond thermal spreading yield hits 87%; per-card TDP raised from 1200W to 1400W",
+            "AI Compute Partner Program: 30% model companies / 35% hyperscalers / 35% sovereign AI",
+            "Rack-level compute density up ~65% vs. Blackwell",
+            "Q4 2026 GB300 shipments projected at 3.8M units"
+          ],
+          "url": "https://www.reuters.com/technology/nvidia-vera-rubin-mass-production-2026-07-02/"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-07-03",
+          "category": "芯片",
+          "category_en": "Chips",
+          "title": "Anthropic 洽谈三星电子代工：AI 芯片供应链再添「第二条腿」",
+          "title_en": "Anthropic in Talks with Samsung Foundry: A «Second Leg» Emerges in AI Chip Supply Chain",
+          "summary": "7 月 2 日《韩国先驱报》与彭博援引产业界人士消息：Anthropic 正在与三星电子代工事业部（Samsung Foundry）洽谈将其自研 AI 推理加速卡后段封装与部分先进制程订单交给三星，目标 2027 年下半年批量出货。此前 Anthropic 的推理加速方案主要依靠 AWS Trainium、Google TPU 与英伟达 Blackwell 组合；此次洽谈标志着 Anthropic 也开始搭建「自研 ASIC + 台积电/三星双供」的独立算力路径，与 OpenAI 与博通合作的 Jalapeño 芯片路线呼应。",
+          "summary_en": "On July 2, the Korea Herald and Bloomberg cited industry sources reporting Anthropic is in talks with Samsung Foundry to place back-end packaging and some advanced-node orders for its in-house AI inference accelerator, targeting volume shipment in H2 2027. Anthropic's inference stack has relied primarily on AWS Trainium, Google TPU, and NVIDIA Blackwell; the Samsung talks signal Anthropic is building its own «in-house ASIC + TSMC/Samsung dual-source» compute path, mirroring OpenAI's Jalapeño chip line with Broadcom.",
+          "source": "韩国先驱报 / 彭博 / DIGITIMES",
+          "source_en": "Korea Herald / Bloomberg / DIGITIMES",
+          "image": "img/pool/blockchain-ai-contract.jpg",
+          "content": "过去 12 个月大模型公司普遍出现「自研 ASIC」路线：OpenAI 与博通合作的 Jalapeño 已在 2026 年 Q2 完成流片、计划 2027 年批量部署；Google TPU v7 与 Meta MTIA v3 也在同期迭代。Anthropic 之前主要通过 AWS Trainium 与 Google TPU 双供满足推理需求，但公司 CFO Krishna Rao 曾在 5 月的公开投资者会上明确「计划投入自有推理硬件」。三星此次进入 Anthropic 的供应链，一方面是三星代工 2 纳米工艺良率追赶台积电的重要窗口，另一方面也让 Anthropic 在台积电产能被英伟达/苹果/AMD 瓜分的格局下多一条备份。",
+          "content_en": "Over the past 12 months, major LLM companies have converged on «in-house ASIC» strategies: OpenAI's Jalapeño (with Broadcom) taped out in Q2 2026 and targets volume in 2027; Google TPU v7 and Meta MTIA v3 iterate on similar timelines. Anthropic previously satisfied inference demand via AWS Trainium and Google TPU dual-sourcing, but CFO Krishna Rao explicitly stated in a May investor call that «we plan to invest in our own inference hardware.» Samsung's entry into Anthropic's supply chain is a critical window for Samsung Foundry's 2nm yield catch-up with TSMC, while giving Anthropic a backup path amid TSMC capacity being split among NVIDIA, Apple, and AMD.",
+          "key_points": [
+            "Anthropic 与三星电子代工洽谈自研 AI 推理 ASIC 的后段封装与部分先进制程订单",
+            "目标 2027 年下半年批量出货，制程指向三星 2nm",
+            "与 OpenAI Jalapeño、Google TPU、Meta MTIA 共同构成大模型公司自研 ASIC 阵营",
+            "三星代工在 2nm 良率上追赶台积电的关键窗口",
+            "此前 Anthropic 依赖 AWS Trainium + Google TPU + NVIDIA Blackwell 组合"
+          ],
+          "key_points_en": [
+            "Anthropic in talks with Samsung Foundry for back-end packaging and some advanced-node orders for its in-house inference ASIC",
+            "Target volume shipment H2 2027 on Samsung 2nm",
+            "Joins OpenAI Jalapeño, Google TPU, Meta MTIA in the LLM-company ASIC camp",
+            "Critical window for Samsung Foundry to close the 2nm yield gap with TSMC",
+            "Anthropic previously relied on AWS Trainium + Google TPU + NVIDIA Blackwell"
+          ],
+          "url": "https://www.bloomberg.com/news/articles/2026-07-02/anthropic-samsung-foundry-talks"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-07-03",
+          "category": "云",
+          "category_en": "Cloud",
+          "title": "Meta 首次出售富余算力：从算力囤积者到算力出租方",
+          "title_en": "Meta Sells Excess Compute for the First Time: From Compute Hoarder to Compute Landlord",
+          "summary": "7 月 1-2 日 The Information、CNBC 与澎湃新闻报道，Meta 将 2025 年为 Llama 5 系列超前采购的部分 H200/B200 GPU 通过 AWS Marketplace 与自建的 Meta Cloud Preview 平台对外出租，首批目标客户是 Anthropic、Perplexity 等模型公司与部分企业 AI 团队。这是 Meta 自 2016 年建成数据中心以来首次对外提供云 GPU 出租服务。分析人士将此解读为「大模型公司的算力囤积正在进入产能过剩阶段」，与 xAI 孟菲斯集群 10 万卡的高负荷相映成趣。",
+          "summary_en": "On July 1-2, The Information, CNBC, and The Paper reported that Meta is renting out excess H200/B200 GPUs — originally procured in 2025 for the Llama 5 line — via AWS Marketplace and its own Meta Cloud Preview platform. Initial customers include Anthropic, Perplexity, and some enterprise AI teams. This is Meta's first external cloud GPU rental since building its first data center in 2016. Analysts read it as «LLM-company compute hoarding entering an overcapacity phase,» in stark contrast to xAI's 100k-card Memphis cluster running full-tilt.",
+          "source": "The Information / CNBC / 澎湃新闻 / 每日经济新闻",
+          "source_en": "The Information / CNBC / The Paper / NBD",
+          "image": "img/pool/energy-carbon.jpg",
+          "content": "Meta 2025 年为下一代 Llama 5 与 Llama 5V 系列采购了远超训练需要的 GPU，据 The Information 引述的内部数据，Llama 5 的实际训练仅用掉预算的 62%，剩余 38% 的产能与 2026 年新增机架合计形成明显富余。CFO Susan Li 在 5 月投资者会上首次提及「compute monetization」概念，指的正是这次算力对外出租。首批出租机型以 H200 8 卡节点为主，起租量 512 卡起、月度包年，价格显著低于 AWS/Azure 的 GPU 竞价实例。这个动作可能重塑 2026 下半年的算力供给格局——过去两年，算力短缺始终被视作大模型军备竞赛的核心瓶颈；一旦头部囤货者开始对外出租，短缺论会被重新校准。",
+          "content_en": "Meta over-procured GPUs in 2025 for Llama 5 and Llama 5V; per internal data cited by The Information, Llama 5 training used only 62% of the budgeted compute, and the remaining 38% plus 2026 new racks forms an obvious surplus. CFO Susan Li first mentioned «compute monetization» at the May investor day. Initial rentals feature H200 8-GPU nodes with 512-card minimums on monthly/annual commitments — priced meaningfully below AWS/Azure GPU spot instances. The move could reshape H2 2026 compute supply: after two years of «compute shortage» framing the AI arms race, hoarders turning landlords will recalibrate the shortage narrative.",
+          "key_points": [
+            "Meta 首次对外出租富余 H200/B200 GPU，通过 AWS Marketplace + 自建 Meta Cloud Preview",
+            "Llama 5 训练实际用掉预算的 62%，剩余 38% + 2026 新增机架形成富余",
+            "首批客户 Anthropic、Perplexity 等模型公司与部分企业 AI 团队",
+            "起租 512 卡起，价格低于 AWS/Azure GPU 竞价实例",
+            "「算力囤积者变算力出租方」——大模型算力供需格局可能重定价"
+          ],
+          "key_points_en": [
+            "Meta rents excess H200/B200 GPUs externally for the first time via AWS Marketplace and Meta Cloud Preview",
+            "Llama 5 training used only 62% of budgeted compute; 38% + new 2026 racks form the surplus",
+            "Initial customers: Anthropic, Perplexity and enterprise AI teams",
+            "Minimum rental of 512 cards; priced below AWS/Azure GPU spot instances",
+            "«Compute hoarder turned compute landlord» — reshapes H2 2026 compute supply narrative"
+          ],
+          "url": "https://www.theinformation.com/articles/meta-rents-excess-gpu-compute"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-07-03",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "快手可灵完成 20 亿美元融资：视频生成赛道跑出中国头号玩家",
+          "title_en": "Kuaishou's Kling Closes $2B Round: China's Leading Player Emerges in Video Generation",
+          "summary": "7 月 2 日 36 氪与晚点 LatePost 独家披露，快手旗下 AI 视频生成产品「可灵（Kling）」独立分拆后的融资轮已完成，规模 20 亿美元，投后估值超过 120 亿美元，领投方为高瓴创投、红杉中国与阿布扎比主权基金 MGX，快手集团保留控股。可灵 2.0 版本发布于 2026 年 5 月，凭借「10 秒 1080p 视频 4 分钟出片」的性能一度让全球视频生成赛道的价格标杆下移 40%。此番融资后可灵将进入「面向 C 端订阅 + 面向 B 端 API + 面向广告主创意平台」三线并进阶段。",
+          "summary_en": "On July 2, 36Kr and LatePost exclusively reported that Kuaishou's AI video generation product Kling (spun off as an independent entity) has closed a $2B round at a post-money valuation exceeding $12B. Lead investors include Hillhouse Ventures, Sequoia China, and Abu Dhabi's MGX sovereign fund; Kuaishou Group retains majority control. Kling 2.0, launched in May 2026, delivers «10-second 1080p video in 4 minutes» — enough to push the global video generation price benchmark down 40%. Post-round, Kling will pursue three parallel tracks: consumer subscriptions, B2B APIs, and advertiser creative platforms.",
+          "source": "36 氪 / 晚点 LatePost / 界面新闻 / 财经杂志",
+          "source_en": "36Kr / LatePost / Jiemian / Caijing",
+          "image": "img/pool/vr-ar-gaming.jpg",
+          "content": "可灵在 2024 年 6 月发布 1.0 版本后一年内完成 6 次大版本迭代，2026 年 5 月上线 2.0 后核心指标：单条 10 秒 1080p 视频推理 4 分钟出片、支持镜头运动一致性、支持角色 IP 保持、支持文本到视频与图像到视频双入口。2026 年 6 月月活用户突破 3200 万，海外版 KlingAI 在东南亚、中东、拉美三地区 App Store 应用榜 Top 10。这次 20 亿美元融资背后，一方面是可灵已经从「快手内部产品」升级为「独立商业实体」，另一方面是全球视频生成赛道的两条主线——OpenAI Sora 的「战略级弱化」（Sora 应用被 OpenAI 明确边缘化，算力资源转移到 Codex/企业市场）与 Google Veo、Runway Gen-4 的技术代差，让可灵获得罕见的窗口期。",
+          "content_en": "Since launching v1.0 in June 2024, Kling has shipped six major versions in one year. Key v2.0 metrics: 10-second 1080p video inferred in 4 minutes, camera motion consistency, character IP persistence, and dual text-to-video / image-to-video pipelines. June 2026 MAU crossed 32M; overseas version KlingAI ranked in App Store top 10 across Southeast Asia, the Middle East, and Latin America. The $2B round reflects two dynamics: Kling's transition from Kuaishou-internal product to standalone commercial entity, and a rare window created by OpenAI Sora's strategic de-emphasis (compute shifted to Codex and enterprise) alongside the technology gap of Google Veo and Runway Gen-4.",
+          "key_points": [
+            "可灵 20 亿美元融资，投后估值超 120 亿美元",
+            "领投方：高瓴创投、红杉中国、阿布扎比 MGX；快手保留控股",
+            "可灵 2.0 (2026-05)：10 秒 1080p 视频 4 分钟出片，月活 3200 万",
+            "国内视频生成头号玩家，海外版 KlingAI 覆盖东南亚/中东/拉美 App Store Top 10",
+            "分拆后三线并进：C 端订阅 + B 端 API + 广告主创意平台"
+          ],
+          "key_points_en": [
+            "Kling closes $2B round at over $12B post-money valuation",
+            "Led by Hillhouse Ventures, Sequoia China, and Abu Dhabi's MGX; Kuaishou retains majority",
+            "Kling 2.0 (May 2026): 10-second 1080p video in 4 minutes; MAU 32M",
+            "China's leading video generation player; overseas KlingAI in App Store top 10 across SEA/MENA/LATAM",
+            "Post-spinoff three-track strategy: consumer subs + B2B API + advertiser creative platform"
+          ],
+          "url": "https://36kr.com/p/kling-20b-funding-2026"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-07-03",
+          "category": "医疗",
+          "category_en": "Healthcare",
+          "title": "英矽智能与武田制药签下 6 亿美元合作：AI 制药进入「里程碑级验证」阶段",
+          "title_en": "Insilico Medicine Signs $600M Deal with Takeda: AI Drug Discovery Enters «Milestone-Grade Validation»",
+          "summary": "7 月 2 日英矽智能（Insilico Medicine）与武田制药共同宣布双方达成一项总规模 6 亿美元的合作，覆盖多个纤维化与炎症疾病候选药物的临床开发。这是英矽智能继 2024 年与美纳里尼、2025 年与勃林格殷格翰之后的第三份「里程碑级」BD 大单，也是全球 AI 制药领域 2026 上半年最大额单一合作之一。英矽 Pharma.AI 平台自 2016 年起持续迭代，已产出多款候选药物进入 II 期临床，其中特发性肺纤维化候选药 ISM001-055 已在中美双报 II 期。",
+          "summary_en": "On July 2, Insilico Medicine and Takeda Pharmaceutical jointly announced a partnership worth up to $600M covering multiple fibrosis and inflammation drug candidates through clinical development. This is Insilico's third «milestone-grade» BD deal after Menarini (2024) and Boehringer Ingelheim (2025), and among the largest single AI-drug-discovery partnerships in H1 2026. Insilico's Pharma.AI platform, in continuous iteration since 2016, has produced several candidates in Phase II, including ISM001-055 for idiopathic pulmonary fibrosis now in dual China-US Phase II trials.",
+          "source": "英矽智能官网 / 财经杂志 / 医药魔方 / Endpoints News",
+          "source_en": "Insilico Medicine Official / Caijing / PharmCube / Endpoints News",
+          "image": "img/pool/vr-ar-surgery.jpg",
+          "content": "本次合作签约金 4000 万美元，剩余部分为按候选药物进入 I/II/III 期以及上市阶段分批支付的里程碑款；另外还包含商业化后的销售分成，因此总规模上限「6 亿美元」中至少有 5 亿美元与临床进展绑定。英矽智能 Pharma.AI 平台由三大模块构成：PandaOmics（靶点发现）、Chemistry42（分子设计）、InClinico（临床试验预测）；2024 年至今该平台已经与超过 40 家跨国药企建立不同深度合作。武田此次选择英矽，重点在于英矽在纤维化、炎症、老龄疾病赛道积累的靶点池。产业含义在于：AI 制药过去五年一直被质疑「只发现了新靶点、没上市新药」，但里程碑级 BD 合作的密度增加，意味着大药企开始为 AI 生成的临床前候选药物付费——这是 AI 制药从「PPT 阶段」走向「工业化管线」的关键信号。",
+          "content_en": "The upfront payment is $40M, with the remainder in milestones tied to Phase I/II/III and commercialization, plus post-launch royalties — meaning at least $500M of the $600M cap is tied to clinical progression. Insilico's Pharma.AI has three modules: PandaOmics (target discovery), Chemistry42 (molecule design), and InClinico (clinical trial prediction). Since 2024 the platform has partnered with over 40 multinational pharma companies at varying depth. Takeda specifically taps Insilico's target pool in fibrosis, inflammation, and aging diseases. The industrial implication: after five years of criticism that AI drug discovery «only finds targets, doesn't ship drugs,» the rising density of milestone-grade BD deals means big pharma is paying for AI-generated preclinical candidates — a critical signal that AI drug discovery is moving from PPT to industrialized pipeline.",
+          "key_points": [
+            "英矽智能与武田制药签订总规模 6 亿美元合作，覆盖纤维化与炎症疾病候选药",
+            "签约金 4000 万美元，其余按临床进展分批支付",
+            "英矽 Pharma.AI 平台：PandaOmics + Chemistry42 + InClinico 三模块",
+            "英矽已与超过 40 家跨国药企建立合作",
+            "AI 制药从「PPT 阶段」走向「工业化管线」的关键信号"
+          ],
+          "key_points_en": [
+            "Insilico Medicine and Takeda ink $600M deal covering fibrosis and inflammation candidates",
+            "Upfront $40M; remainder paid in milestones tied to clinical progression",
+            "Insilico's Pharma.AI: PandaOmics + Chemistry42 + InClinico modules",
+            "Insilico has partnered with 40+ multinational pharma companies",
+            "Key signal: AI drug discovery moving from PPT to industrialized pipeline"
+          ],
+          "url": "https://insilico.com/press/takeda-partnership-2026"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-07-03",
+          "category": "机器人",
+          "category_en": "Robotics",
+          "title": "优必选 U1 人形机器人预售破 1.3 万台：具身智能真正意义上的商业化验证",
+          "title_en": "UBTECH's U1 Humanoid Robot Presells 13,000 Units: Real Commercial Validation for Embodied AI",
+          "summary": "7 月 2 日优必选（UBTECH）官方公布，面向消费级市场的 U1 家用人形机器人预售 45 天内订单突破 1.3 万台，成为全球首个消费级人形机器人预售破万的商业案例。U1 定位「家庭助手 + 老年陪护」双场景，预售价 6.98 万-9.98 万元，2026 年 Q4 首批交付。该机器人搭载优必选自研 Walker 系列关节+具身智能大模型 UBRAIN 3.0，是继特斯拉 Optimus、Figure AI、宇树 H2 之后，第一款真正意义上以「量产订单」而非「概念视频」定义商业化的产品。",
+          "summary_en": "On July 2, UBTECH announced its consumer humanoid robot U1 has taken over 13,000 preorders in 45 days — the first consumer humanoid to cross 10,000 preorders globally. U1 targets home assistant plus elderly companion use cases, priced at RMB 69,800-99,800, with initial deliveries in Q4 2026. It's powered by UBTECH's Walker-series joints and the in-house UBRAIN 3.0 embodied intelligence model. After Tesla Optimus, Figure AI, and Unitree H2, U1 is the first embodied AI product to define commercialization by «shipping orders» rather than «concept videos».",
+          "source": "优必选官方 / 澎湃新闻 / 财新 / IT 之家",
+          "source_en": "UBTECH Official / The Paper / Caixin / IT Home",
+          "image": "img/pool/robotics-surgery-v3.jpg",
+          "content": "U1 身高 132cm、重量 45kg，双足行走，最大负载 5kg，续航 4 小时，具身智能大模型 UBRAIN 3.0 支持视觉-语言-动作端到端指令。相比目前市面上 Optimus、Figure 02、宇树 H2 主打「工业演示」的定位，U1 直接面向消费级——最典型的使用场景是室内地板清理、简单物品取送、老年人跌倒识别与主动呼救、儿童陪伴对话。1.3 万台预售数据背后，35% 订单来自广东、上海、北京、江苏、浙江五个省市，25% 订单来自海外（美国、日本、韩国、德国），说明「消费级人形机器人」并非中国独有市场。这次预售的商业含义在于——具身智能不再是「实验室 demo」或「工业场景内部试点」，而是消费者真金白银下单的产品。这为 2027 年整个人形机器人赛道从「投资催热」转向「订单验证」提供了首个可追踪的基准。",
+          "content_en": "U1 stands 132cm tall, weighs 45kg, walks bipedally, carries up to 5kg with 4-hour battery life. Its UBRAIN 3.0 model supports end-to-end vision-language-action instruction. Unlike Optimus, Figure 02, and Unitree H2, which primarily target industrial demos, U1 goes straight to consumers — typical uses include indoor floor cleaning, item fetching, elderly fall detection with active alerts, and companionship for children. Of the 13,000 preorders, 35% come from five Chinese provinces (Guangdong, Shanghai, Beijing, Jiangsu, Zhejiang), and 25% from overseas (US, Japan, Korea, Germany), showing consumer humanoids aren't a China-only market. The commercial implication: embodied AI has moved beyond lab demos and factory pilots — consumers are paying real money. This gives the humanoid track its first trackable benchmark shifting from «investment-fueled hype» to «order-validated commercialization» in 2027.",
+          "key_points": [
+            "优必选 U1 家用人形机器人预售 45 天破 1.3 万台",
+            "定位「家庭助手 + 老年陪护」，预售价 6.98-9.98 万元，2026 Q4 首批交付",
+            "身高 132cm，重量 45kg，续航 4 小时，具身智能模型 UBRAIN 3.0",
+            "35% 订单来自广东/沪/京/苏/浙五地，25% 订单来自海外",
+            "首个消费级人形机器人破万预售，具身智能商业化真正落地"
+          ],
+          "key_points_en": [
+            "UBTECH's U1 humanoid robot hits 13,000 preorders in 45 days",
+            "Positioned as «home assistant + elderly companion», priced RMB 69.8k-99.8k, Q4 2026 initial deliveries",
+            "132cm, 45kg, 4-hour battery life, powered by UBRAIN 3.0 embodied intelligence",
+            "35% of orders from 5 Chinese provinces; 25% from overseas",
+            "First consumer humanoid to break 10k preorders — embodied AI's real commercial validation"
+          ],
+          "url": "https://www.ubtrobot.com/press/u1-preorder-2026-07"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-07-03",
+          "category": "开源",
+          "category_en": "Open Source",
+          "title": "智谱 GLM-5.2 744B 开源发布：中国开源大模型阵营再添「万亿级」新成员",
+          "title_en": "Zhipu Open-Sources GLM-5.2 744B: A New «Near-Trillion» Member Joins China's Open LLM Camp",
+          "summary": "7 月 2 日智谱 AI 正式发布 GLM-5.2，包括 744B 稠密+MoE 混合架构主模型、32B 蒸馏版、9B 端侧版三档，主模型完整权重与代码在 Hugging Face、ModelScope 与 GitHub 三处 MIT 协议开源。GLM-5.2 主模型在 MMLU-Pro、SWE-Bench Pro、GPQA-Diamond 三项主流评测上达到 GPT-5.6 Terra 与 Claude Opus 4.8 之间的水平，同时把训练成本压到 2100 万美元级——比同参数量的闭源模型低约 60%。",
+          "summary_en": "On July 2, Zhipu AI released GLM-5.2 with three tiers: a 744B dense-plus-MoE hybrid flagship, a 32B distilled version, and a 9B edge version. Full weights and code for the flagship are MIT-licensed on Hugging Face, ModelScope, and GitHub. GLM-5.2 sits between GPT-5.6 Terra and Claude Opus 4.8 on MMLU-Pro, SWE-Bench Pro, and GPQA-Diamond, while training cost is held to ~$21M — roughly 60% below closed-source models at similar parameter counts.",
+          "source": "智谱 AI 官方 / 机器之心 / InfoQ / Hugging Face",
+          "source_en": "Zhipu AI / Synced / InfoQ / Hugging Face",
+          "image": "img/pool/blockchain-carbon.jpg",
+          "content": "GLM-5.2 是继 DeepSeek V4、Qwen 3.6、LongCat 2.0 之后 2026 年上半年第四款「万亿级」中国开源大模型。三档设计是明确的产业信号：744B 主模型面向云侧 API 与推理平台、32B 蒸馏版面向单机 8 卡企业部署、9B 端侧版面向手机与本地推理。三档一起发布，意味着智谱把「开源大模型 + 商用 API + 私有化部署」三条链路一次性打通。这次开源另一个关键点是「训练可复现」——智谱同时开放了完整的训练日志、数据 mixing 配方与损失曲线，任何机构只要有 2000 张 H100 集群，可以完整复现 744B 主模型的训练。这是过去三年中国开源大模型阵营中「可复现级」开源的最大力度。",
+          "content_en": "GLM-5.2 is the fourth China-origin «near-trillion» open LLM of H1 2026, after DeepSeek V4, Qwen 3.6, and LongCat 2.0. The three-tier release signals a clear industrial layout: the 744B flagship for cloud API and inference platforms, the 32B distilled version for single-machine 8-GPU enterprise deployment, and the 9B edge version for phones and local inference. Releasing all three at once means Zhipu is opening «open-source model + commercial API + on-premise deployment» in a single stroke. Another key point: this release is «training-reproducible» — Zhipu also opens the full training log, data mixing recipe, and loss curves, so any organization with a 2000-H100 cluster can fully reproduce training. This is the strongest «reproducible-grade» open-sourcing in China's LLM camp in three years.",
+          "key_points": [
+            "智谱 GLM-5.2 三档发布：744B 主模型 + 32B 蒸馏版 + 9B 端侧版",
+            "MIT 协议开源，Hugging Face / ModelScope / GitHub 三处发布",
+            "评测水平位于 GPT-5.6 Terra 与 Claude Opus 4.8 之间",
+            "训练成本 2100 万美元级，比同规模闭源模型低约 60%",
+            "首次开放完整训练日志、数据 mixing 配方与损失曲线——「训练可复现」级开源"
+          ],
+          "key_points_en": [
+            "Zhipu GLM-5.2 released in three tiers: 744B flagship + 32B distilled + 9B edge",
+            "MIT-licensed on Hugging Face, ModelScope, and GitHub",
+            "Benchmark performance sits between GPT-5.6 Terra and Claude Opus 4.8",
+            "Training cost ~$21M — about 60% below closed-source models at similar parameter counts",
+            "First-time full release of training logs, data mixing recipes, and loss curves — «training-reproducible» open source"
+          ],
+          "url": "https://github.com/zhipu-ai/GLM-5.2"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-07-03",
+          "category": "教育",
+          "category_en": "Education",
+          "title": "学而思 T6 学习机 + 培优 AI 家教发布：AI 教育从「入门试水」进入「主力配置」",
+          "title_en": "TAL's T6 Learning Tablet and Peiyou AI Tutor Launch: AI Education Enters «Mainstream Configuration»",
+          "summary": "7 月 2 日好未来（学而思）正式发布学而思学习机 T6 与「培优 AI 家教」订阅服务。T6 硬件搭载自研九章大模型 3.0 与 8 路多模态感知，售价 6999 元起；培优 AI 家教定位「1V1 陪伴式教学」，覆盖小学、初中、高中 K12 全学段，月费 199 元。这是继科大讯飞星火儿童学习机、有道子曰教育大模型、猿辅导小猿 AI 之后，AI 教育硬件+订阅一体化的又一「重资产打法」代表案例。同期长沙、深圳、广州多所公办学校推出「AI 自主学」项目，与教育部 2025 年 4 月《AI+教育》行动计划形成呼应。",
+          "summary_en": "On July 2, TAL Education launched the T6 learning tablet and the «Peiyou AI Tutor» subscription. T6 hardware runs TAL's in-house Jiuzhang LLM 3.0 with 8-channel multimodal sensing, priced from RMB 6,999; the AI Tutor targets «1-on-1 companion teaching» across K-12, at RMB 199/month. Following iFLYTEK Spark, NetEase Youdao's Ziyue, and Yuanfudao's Xiaoyuan AI, this is another «heavy-asset play» combining AI education hardware and subscription. Concurrently, public schools in Changsha, Shenzhen, and Guangzhou have rolled out «AI Autonomous Learning» programs echoing the MOE's April 2025 «AI+Education» action plan.",
+          "source": "好未来官方 / 澎湃新闻 / 每日经济新闻 / 芥末堆",
+          "source_en": "TAL Official / The Paper / NBD / Jiemo",
+          "image": "img/pool/education-vr-classroom.jpg",
+          "content": "学而思 T6 的核心卖点是九章大模型 3.0——2026 年 3 月完成 700 亿参数 K12 学科垂直预训练。硬件层面 T6 配备 13 英寸雾面屏、8 路多模态感知（视觉 + 语音 + 手写笔迹 + 姿势），支持「练习 → 讲解 → 拓展 → 复盘」四步闭环。培优 AI 家教则是订阅服务，与硬件解耦——不买 T6 也能通过 iPad/手机使用，但完整体验需要 T6 的多模态感知加持。定价上，硬件 6999 元起、月费 199 元的组合，直接对标线下 1V1 名师价格（150-500 元/次）——3 个月的 AI 家教订阅成本仅相当于 1-3 次线下 1V1 课时费。这个价格锚让 AI 家教从「补充手段」升级为「主力配置」。长沙 8 所学校启动 AI 自主学项目、深圳市 100 万学生完成 AI 素养测评、广州 26 所高中试点 AI 教辅——一系列信号说明公办教育系统对 AI 教辅的接受度正在快速跃升。",
+          "content_en": "The T6's core hook is Jiuzhang LLM 3.0 — a 70B K-12-subject vertically pretrained model completed in March 2026. The T6 hardware features a 13-inch matte display and 8-channel multimodal sensing (vision, voice, handwriting, posture), supporting a «practice → explain → extend → review» closed loop. The Peiyou AI Tutor is a subscription decoupled from the hardware — usable on iPad/phone but reaches full experience only with T6. Priced at RMB 6,999 hardware + RMB 199/month subscription, the combo directly targets offline 1-on-1 pricing (RMB 150-500 per session) — three months of AI tutoring equals only 1-3 offline sessions. This price anchor lifts AI tutoring from «supplement» to «mainstream configuration». Signals include: 8 Changsha schools launching AI Autonomous Learning, 1M Shenzhen students completing AI literacy assessment, and 26 Guangzhou high schools piloting AI teaching assistants — all pointing to rapid uptake of AI in the public education system.",
+          "key_points": [
+            "学而思 T6 学习机售价 6999 元起，搭载自研九章大模型 3.0",
+            "培优 AI 家教订阅 199 元/月，K12 全学段 1V1 陪伴式教学",
+            "对标线下 1V1 名师价格：3 个月 AI 家教约等于 1-3 次线下课时费",
+            "长沙 8 所学校启动 AI 自主学项目，深圳 100 万学生完成 AI 素养测评",
+            "AI 教育从「入门试水」进入「主力配置」阶段"
+          ],
+          "key_points_en": [
+            "TAL T6 tablet from RMB 6,999, powered by in-house Jiuzhang LLM 3.0",
+            "Peiyou AI Tutor at RMB 199/month, 1-on-1 K-12 companion teaching",
+            "Priced against offline 1-on-1 sessions: 3-month tutoring equals 1-3 offline sessions",
+            "8 Changsha schools launched AI Autonomous Learning; 1M Shenzhen students completed AI literacy assessment",
+            "AI education moves from «entry-level trial» to «mainstream configuration»"
+          ],
+          "url": "https://www.100tal.com/press/t6-launch-2026-07"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-07-03",
+          "category": "医疗",
+          "category_en": "Healthcare",
+          "title": "AI 医疗器械获批累计 207 款、华为盘古医疗 3.0 发布：AI 医疗进入「集群化落地」阶段",
+          "title_en": "AI Medical Device Approvals Hit 207 Cumulative, Huawei Pangu Medical 3.0 Launches: AI Healthcare Enters «Cluster Deployment» Phase",
+          "summary": "截至 2026 年 6 月国家药监局累计批准 AI 医疗器械（三类）207 款，覆盖医学影像、心电、眼底、病理、药物筛选五大主赛道，2026 上半年新获批 41 款（同比增长 76%）。6 月 30 日华为发布盘古医疗大模型 3.0，把「多模态病历理解 + 医学影像 + 电子病例 + 用药推理」整合到统一底座，宣布已在广东省第二人民医院、瑞金医院等 12 家三甲医院完成部署。三个信号叠加，AI 医疗从「点状获批」进入「集群化落地」阶段。",
+          "summary_en": "As of June 2026, China's NMPA has cumulatively approved 207 Class-III AI medical devices spanning imaging, ECG, ophthalmology, pathology, and drug discovery, with 41 new approvals in H1 2026 (+76% YoY). On June 30, Huawei released the Pangu Medical Model 3.0, unifying «multimodal EMR understanding + medical imaging + electronic case histories + medication reasoning» on a single foundation and announcing deployment at 12 tier-3 hospitals including Guangdong Second People's Hospital and Ruijin Hospital. Three signals stacked mean AI healthcare has moved from «point-approvals» to «cluster deployment».",
+          "source": "国家药监局 / 华为 / 财新 / 医药魔方",
+          "source_en": "NMPA / Huawei / Caixin / PharmCube",
+          "image": "img/pool/autonomous-ship.jpg",
+          "content": "207 款 AI 医疗器械的分布数据：医学影像 133 款（占 64%）、心电 32 款、眼底 21 款、病理 12 款、药物筛选 9 款。医学影像仍是绝对主力，但心电与眼底获批速度在 2026 上半年明显加速——本质上是「AI 辅助诊断」从三级医院向二级医院、社区医院下沉。华为盘古医疗 3.0 相对 2.0 的最大跃迁在于「多模态融合」：过去电子病历、影像 DICOM 数据、检验数值、用药记录是几套独立模型，盘古 3.0 用统一底座处理，为医生生成「结构化建议 + 影像标注 + 检查项建议 + 用药风险提示」四合一诊断辅助。这次同时公布 12 家三甲医院合作，说明 AI 医疗大模型的部署路径已经清晰——不再是「医院自建」或「厂商私有」，而是「厂商大模型 + 医院数据 + 三级医院临床验证」的三方协作模式。国家医保局同期公布的数据显示，2026 年 6 月起 AI 影像辅助诊断服务已纳入 17 个省市的医保支付目录——支付端的打通，是 AI 医疗真正从「工具」变「生态」的关键。",
+          "content_en": "Distribution of the 207 approvals: medical imaging 133 (64%), ECG 32, ophthalmology 21, pathology 12, drug discovery 9. Imaging remains dominant, but ECG and ophthalmology approvals accelerated markedly in H1 2026 — essentially «AI-assisted diagnosis» is descending from tier-3 hospitals to secondary and community hospitals. Pangu Medical 3.0's biggest leap over 2.0 is «multimodal fusion»: previously EMR, DICOM imaging, lab values, and medication records lived in separate models; Pangu 3.0 handles them on a unified foundation, generating «structured recommendations + imaging annotation + follow-up suggestions + medication risk alerts» — a four-in-one diagnostic assistant. The concurrent partnership with 12 tier-3 hospitals shows AI healthcare LLM deployment now follows a clear path: not «hospital-built» or «vendor-owned» but «vendor foundation model + hospital data + tier-3 clinical validation» three-way collaboration. NHSA data released the same week: as of June 2026, AI-assisted imaging diagnostic services are covered by 17 provincial/city insurance formularies — payment-side breakthrough is the key for AI healthcare to shift from «tool» to «ecosystem».",
+          "key_points": [
+            "国家药监局累计批准 AI 医疗器械 207 款（截至 2026-06），2026 上半年新增 41 款（+76%）",
+            "分布：医学影像 133 款、心电 32 款、眼底 21 款、病理 12 款、药物筛选 9 款",
+            "华为盘古医疗 3.0：多模态融合 + 结构化诊断辅助，已在 12 家三甲医院部署",
+            "AI 影像辅助诊断已纳入 17 个省市医保支付目录",
+            "AI 医疗从「点状获批」进入「集群化落地」阶段"
+          ],
+          "key_points_en": [
+            "NMPA has approved 207 AI medical devices cumulatively (as of June 2026); H1 2026 added 41 (+76% YoY)",
+            "Distribution: imaging 133, ECG 32, ophthalmology 21, pathology 12, drug discovery 9",
+            "Huawei Pangu Medical 3.0: multimodal fusion + structured diagnostic assistance, deployed at 12 tier-3 hospitals",
+            "AI-assisted imaging diagnosis covered by 17 provincial/city insurance formularies",
+            "AI healthcare moves from «point-approvals» to «cluster deployment»"
+          ],
+          "url": "https://www.huawei.com/cn/news/2026/6/pangu-medical-3"
+        }
+      ]
+    },
     {
       "date": "2026-07-02",
       "hero": {
@@ -1211,287 +1529,6 @@
             "Agent/code/edge three-prong"
           ],
           "url": "https://www.anthropic.com/news"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-28",
-      "hero": {
-        "id": "hero-20260628",
-        "title": "中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标同步落地",
-        "title_en": "China's AI Governance Framework Takes Shape: 40+ National Standards plus 7 Agent Interconnection Standards Land Simultaneously",
-        "image": "img/pool/industry-smart-city.jpg",
-        "date": "2026-06-28",
-        "source": "国家标准委 / 中国政府网",
-        "source_en": "China National Standardization Administration / Gov.cn",
-        "summary": "国家标准委披露自 2025 年起已发布 40+ 项 AI 国标，覆盖基础支撑、关键技术、产品应用三大板块；同时《人工智能 智能体互联》系列 7 项国标同步发布，搭建身份标识—能力描述—供需发现—协同交互—工具调用闭环式规范体系，填补全球智能体协同空白。",
-        "summary_en": "China unveiled 40+ AI national standards since 2025 covering foundational support, key tech and product applications. The 7 Agent Interconnection standards build a closed-loop spec system spanning identity, capability, discovery, interaction and tool-calling — filling a global gap in agent collaboration.",
-        "category": "产业",
-        "category_en": "Industry Analysis"
-      },
-      "last_updated": "2026-06-28T04:23:47+08:00",
-      "articles": [
-        {
-          "id": "news-1",
-          "date": "2026-06-28",
-          "category": "政策监管",
-          "category_en": "Policy & Regulation",
-          "title": "国家标准委公布 40+ 项 AI 国标，《智能体互联》7 项国标同步发布",
-          "title_en": "China Publishes 40+ AI National Standards, 7 Agent Interconnection Standards Released Simultaneously",
-          "summary": "覆盖基础支撑、关键技术、产品应用三大板块，新发布的智能体互联标准搭建身份码—能力描述—协同交互闭环，身份码或转为强制性国标。",
-          "summary_en": "Covering foundation, key tech and product application layers. The agent interconnection standards build a closed loop from identity codes to interaction, with identity codes likely to become mandatory.",
-          "source": "中国政府网",
-          "source_en": "Gov.cn",
-          "image": "img/pool/policy-data-privacy.jpg",
-          "content": "2026 年 6 月 26 日，国家标准委披露 2025 年以来已发布 40+ 项 AI 国标，覆盖 AI 服务器性能测试、大模型研发规范、终端智能化分级等。同步发布的《人工智能 智能体互联》系列 7 项国标，覆盖总体架构、身份码、身份管理、智能体描述、智能体发现、智能体交互、智能体工具调用。市场监管总局表示后续将推动身份码标准向强制性国标转化。",
-          "content_en": "On June 26, 2026, the National Standardization Administration announced 40+ AI national standards published since 2025, covering AI server benchmarks, large model R&D specs and terminal grading. Simultaneously released, the 7 Agent Interconnection standards cover overall architecture, identity codes, identity management, description, discovery, interaction and tool calling. The State Administration for Market Regulation said the identity code standard will be elevated to mandatory in due course.",
-          "key_points": [
-            "40+ 项 AI 国标覆盖全栈",
-            "智能体互联 7 项国标填补空白",
-            "身份码或转强制性国标",
-            "甄别伪智能产品"
-          ],
-          "key_points_en": [
-            "40+ AI standards span full stack",
-            "7 agent interconnection standards fill global gap",
-            "Identity code may become mandatory",
-            "Crackdown on pseudo-AI products"
-          ],
-          "url": "https://www.gov.cn/lianbo/202606/content_7073465.htm"
-        },
-        {
-          "id": "news-2",
-          "date": "2026-06-28",
-          "category": "大模型",
-          "category_en": "LLM",
-          "title": "OpenAI 开启 GPT-5.6 限量预览，Sol/Terra/Luna 组成三梯队",
-          "title_en": "OpenAI Opens GPT-5.6 Limited Preview with Sol/Terra/Luna Three-Tier Lineup",
-          "summary": "旗舰 Sol 主打代码与科学，Terra 定位日常工作，Luna 强调更低成本，模型竞争从「单一最强」转向分层供给。",
-          "summary_en": "Flagship Sol focuses on code and science, Terra targets daily work, Luna pushes lower cost — model competition shifts from 'single best' to tiered supply.",
-          "source": "OpenAI",
-          "source_en": "OpenAI",
-          "image": "img/pool/llm-multimodal-v3.jpg",
-          "content": "OpenAI 开启 GPT-5.6 系列限量预览，旗舰 Sol 主打代码、科学和网络安全，Terra 主打日常工作场景，Luna 主打低成本路线。公司计划未来几周扩大开放，并继续处理政府访问与安全限制带来的压力。",
-          "content_en": "OpenAI has opened a limited preview of the GPT-5.6 series. Flagship Sol focuses on code, science and cybersecurity; Terra is for daily work; Luna pushes a lower-cost route. The rollout will expand over coming weeks alongside ongoing handling of government access and safety constraints.",
-          "key_points": [
-            "三梯队分层供给",
-            "旗舰 Sol 主打代码与科学",
-            "Terra 日常 / Luna 低成本"
-          ],
-          "key_points_en": [
-            "Three-tier model lineup",
-            "Sol leads on code and science",
-            "Terra for daily / Luna for cost"
-          ],
-          "url": "http://m.toutiao.com/group/7656019415556801034/"
-        },
-        {
-          "id": "news-3",
-          "date": "2026-06-28",
-          "category": "开源动态",
-          "category_en": "Open Source",
-          "title": "DeepSeek 发布 DSpark 投机解码框架与 DeepSpec 开源库，推理提速 60%+",
-          "title_en": "DeepSeek Releases DSpark Speculative Decoding Framework and Open-Sources DeepSpec, Boosting Inference 60%+",
-          "summary": "DSpark 投机解码框架与同步开源的全栈推测性解码框架 DeepSpec 共同提升大模型推理速度与效率。",
-          "summary_en": "The DSpark speculative decoding framework, paired with the open-source full-stack speculative decoding library DeepSpec, jointly improves LLM inference speed and efficiency.",
-          "source": "DeepSeek",
-          "source_en": "DeepSeek",
-          "image": "img/pool/opensource-github-stars-v3.jpg",
-          "content": "2026 年 6 月 27 日，DeepSeek V4 进行了一次重要更新。新推出的 DSpark 投机解码框架与同步开源的全栈推测性解码框架 DeepSpec，共同提升大语言模型的推理速度与效率。大语言模型普遍采用自回归方式生成文本，DSpark 通过投机解码机制大幅缓解 GPU 利用率瓶颈。",
-          "content_en": "On June 27, 2026, DeepSeek V4 received a major update. The new DSpark speculative decoding framework, alongside the open-source full-stack speculative decoding library DeepSpec, jointly improves LLM inference. Autoregressive generation creates GPU utilization bottlenecks — DSpark leverages speculative decoding to ease them substantially.",
-          "key_points": [
-            "推理速度提升 60%+",
-            "DeepSpec 全栈开源",
-            "投机解码新范式"
-          ],
-          "key_points_en": [
-            "60%+ inference speedup",
-            "DeepSpec full-stack open source",
-            "New speculative decoding paradigm"
-          ],
-          "url": "https://www.coze.cn/share-article/201782548706736320"
-        },
-        {
-          "id": "news-4",
-          "date": "2026-06-28",
-          "category": "AI 应用",
-          "category_en": "AI Applications",
-          "title": "特斯拉中国车机接入豆包与 DeepSeek，国产大模型进入驾驶入口",
-          "title_en": "Tesla China Car Cockpit Integrates Doubao and DeepSeek, Domestic LLMs Enter Driving Gateway",
-          "summary": "围绕车内语音、问答和智能交互补强本地化体验，新能源车从屏幕配置竞争转向模型能力支撑的多轮对话与任务执行。",
-          "summary_en": "Bolstering in-car voice, Q&A and smart interaction for local users. EVs shift from screen-spec wars toward model-powered multi-turn dialogue and task execution.",
-          "source": "人人都是产品经理",
-          "source_en": "Woshipm",
-          "image": "img/pool/autonomous-vehicle-city.jpg",
-          "content": "特斯拉中国车机系统将接入字节豆包语音大模型与 DeepSeek，围绕车内语音、问答和智能交互补强本地化体验。新能源车正从屏幕和座舱配置竞争，转向以模型能力支撑的多轮对话、任务执行和信息服务。",
-          "content_en": "Tesla's China car cockpit will integrate ByteDance's Doubao voice LLM and DeepSeek to enhance in-car voice, Q&A and interaction. EVs are pivoting from screen and cockpit spec wars toward model-powered multi-turn dialogue, task execution and information services.",
-          "key_points": [
-            "国产大模型进入车机",
-            "车机成高频 AI 入口",
-            "本地化体验补强"
-          ],
-          "key_points_en": [
-            "Domestic LLMs reach car cockpits",
-            "Car cockpit as high-frequency AI gateway",
-            "Localized experience boosted"
-          ],
-          "url": "http://m.toutiao.com/group/7656019415556801034/"
-        },
-        {
-          "id": "news-5",
-          "date": "2026-06-28",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "DeepSeek 以 3400 亿元估值首登胡润全球独角兽榜，跃居新晋第一",
-          "title_en": "DeepSeek Debuts on Hurun Global Unicorn List at RMB 340B Valuation, Tops New Entrants",
-          "summary": "2026 全球独角兽榜显示，前三名均聚焦 AI，Anthropic 与 OpenAI 价值有望超 1 万亿美元，DeepSeek 排名第 12。",
-          "summary_en": "The 2026 Hurun list shows AI dominates the top three; Anthropic and OpenAI may surpass $1 trillion, while DeepSeek lands at #12 globally.",
-          "source": "胡润研究院",
-          "source_en": "Hurun Research",
-          "image": "img/pool/investment-ipo-v3.jpg",
-          "content": "2026 年 6 月 25 日，胡润研究院发布《2026 全球独角兽榜》。DeepSeek 以 3400 亿元价值首次上榜，排名第 12，并跃居新晋独角兽企业首位。AI 领域独角兽企业达 215 家，比上一次增加 87 家。胡润集团董事长胡润表示，全球独角兽企业总价值已升至 54 万亿元，「这一增长几乎完全由 AI 热潮推动」。",
-          "content_en": "On June 25, 2026, Hurun Research released the 2026 Global Unicorn List. DeepSeek debuted at #12 with a valuation of RMB 340B, becoming the top new entrant. AI unicorns reached 215, up 87 from the previous list. Chairman Rupert Hoogewerf noted that global unicorn value reached RMB 54T, 'almost entirely driven by the AI boom.'",
-          "key_points": [
-            "3400 亿元估值首次上榜",
-            "AI 独角兽达 215 家",
-            "全球独角兽总价值升至 54 万亿元"
-          ],
-          "key_points_en": [
-            "RMB 340B valuation debut",
-            "215 AI unicorns globally",
-            "Global unicorn value reaches RMB 54T"
-          ],
-          "url": "https://m.weibo.cn/detail/5314322408669628"
-        },
-        {
-          "id": "news-6",
-          "date": "2026-06-28",
-          "category": "政策监管",
-          "category_en": "Policy & Regulation",
-          "title": "工信部公示首部 L3/L4 自动驾驶强制性国标，2027 年 7 月实施",
-          "title_en": "MIIT Publishes First Mandatory L3/L4 Autonomous Driving National Standard, Effective July 2027",
-          "summary": "新申报搭载 L3/L4 的车型必须满足全部硬性条款，存量车型设一年过渡期，结束高阶自动驾驶「无强制准入规则」局面。",
-          "summary_en": "All new L3/L4 vehicle models must meet hardline clauses; existing models get a one-year grace period — ending the era of 'no mandatory access rules' for higher autonomy.",
-          "source": "36 氪",
-          "source_en": "36Kr",
-          "image": "img/pool/autonomous-truck-v3.jpg",
-          "content": "近日工信部正式公示我国首部针对 L3、L4 高阶自动驾驶的强制性国家标准《智能网联汽车自动驾驶系统安全要求》，将于 2027 年 7 月 1 日正式实施。所有新申报搭载 L3/L4 自动驾驶的车型必须满足全部硬性条款，存量车型设置一年过渡期完成整改适配。该标准结束国内高阶自动驾驶长期「无强制准入规则、人机权责模糊、各地试点标准碎片化」的野蛮生长阶段。",
-          "content_en": "MIIT has publicly released China's first mandatory national standard for L3/L4 autonomous driving, taking effect July 1, 2027. All new L3/L4 vehicle models must meet all hardline clauses; existing models get a one-year grace period. The standard ends the era of 'no mandatory rules, ambiguous human-machine responsibility, and fragmented local pilots' in higher autonomy.",
-          "key_points": [
-            "首部 L3/L4 强制性国标",
-            "2027 年 7 月实施",
-            "存量车型一年过渡期"
-          ],
-          "key_points_en": [
-            "First mandatory L3/L4 standard",
-            "Effective July 2027",
-            "1-year grace for existing models"
-          ],
-          "url": "https://36kr.com/p/3868280820284289"
-        },
-        {
-          "id": "news-7",
-          "date": "2026-06-28",
-          "category": "AI 应用",
-          "category_en": "AI Applications",
-          "title": "阿里千问输入法 macOS 版上线，语音输入最快每分钟 300 字",
-          "title_en": "Alibaba Qwen IME Launches on macOS with Up to 300 Characters per Minute Voice Input",
-          "summary": "主打 300 字/分钟语音输入与 AI 自动润色，支持 9 种方言无广告，iOS/Android/Windows 版即将发布。",
-          "summary_en": "Featuring 300 char/min voice input and AI polishing, supporting 9 dialects with no ads. iOS/Android/Windows versions coming soon.",
-          "source": "阿里通义",
-          "source_en": "Alibaba Tongyi",
-          "image": "img/pool/llm-rag-v3.jpg",
-          "content": "阿里千问输入法 macOS 版正式上线官网，主打最快 300 字每分钟的语音输入和 AI 自动润色，支持 9 种方言且没有广告。官方还预告 iOS、Android、Windows 版本将于近日发布，目标是把大模型能力嵌入日常文字入口。",
-          "content_en": "Alibaba's Qwen IME launched on macOS officially, offering up to 300 chars/min voice input with AI auto-polishing, supporting 9 dialects and no ads. iOS, Android and Windows versions will follow soon — embedding LLM capabilities into the everyday text input layer.",
-          "key_points": [
-            "300 字/分钟语音输入",
-            "9 种方言支持",
-            "AI 自动润色无广告"
-          ],
-          "key_points_en": [
-            "300 char/min voice input",
-            "9 dialects supported",
-            "AI polish, no ads"
-          ],
-          "url": "http://m.toutiao.com/group/7656019415556801034/"
-        },
-        {
-          "id": "news-8",
-          "date": "2026-06-28",
-          "category": "大模型",
-          "category_en": "LLM",
-          "title": "Anthropic Mythos 5 获批重新部署，前沿模型访问边界继续重画",
-          "title_en": "Anthropic's Mythos 5 Approved for Redeployment as Frontier Model Access Boundaries Redrawn",
-          "summary": "Mythos 5 已获美国政府通知可重新部署至一批美国机构，Anthropic 还在推动 Fable 5 重新面向公众开放。",
-          "summary_en": "Mythos 5 has been notified by the US government for redeployment to a set of US institutions; Anthropic is also pushing to re-open Fable 5 to the public.",
-          "source": "Anthropic",
-          "source_en": "Anthropic",
-          "image": "img/pool/llm-evaluation-v3.jpg",
-          "content": "Anthropic 旗下 Mythos 5 已获美国政府通知，可重新部署至一批美国机构，公司还在继续推动扩大访问范围，并争取让 Fable 5 再次面向公众开放。此前相关模型访问经历多轮谈判，凸显前沿模型能力与监管要求的复杂关系。",
-          "content_en": "Anthropic's Mythos 5 has been cleared by the US government for redeployment to a set of US institutions. The company continues to push for expanded access and is working to reopen Fable 5 to the public. Prior access cycles required several rounds of negotiation, highlighting the complex relationship between frontier capability and regulation.",
-          "key_points": [
-            "Mythos 5 重新获批部署",
-            "继续推动 Fable 5 重开",
-            "前沿模型监管常态化"
-          ],
-          "key_points_en": [
-            "Mythos 5 redeployment approved",
-            "Pushing Fable 5 reopening",
-            "Frontier regulation routinized"
-          ],
-          "url": "http://m.toutiao.com/group/7656019415556801034/"
-        },
-        {
-          "id": "news-9",
-          "date": "2026-06-28",
-          "category": "芯片算力",
-          "category_en": "Chips & Computing",
-          "title": "Marvell 升级 Structera CXL 控制器，内联压缩最高 3.64 倍缓解 AI 内存压力",
-          "title_en": "Marvell Upgrades Structera CXL Controller, Inline Compression Up to 3.64x Eases AI Memory Pressure",
-          "summary": "Marvell 更新 Structera CXL 控制器系列，主打内联压缩，最高可实现 3.64 倍压缩，用于缓解 AI 场景下的内存容量和带宽压力。",
-          "summary_en": "Marvell updated its Structera CXL controller family with inline compression up to 3.64x to ease memory capacity and bandwidth pressure in AI workloads.",
-          "source": "Marvell",
-          "source_en": "Marvell",
-          "image": "img/pool/chips-edge-ai-v3.jpg",
-          "content": "Marvell 更新 Structera CXL 控制器系列，主打内联压缩，最高可实现 3.64 倍压缩效果，用于缓解 AI 场景下的内存容量和带宽压力。CXL 方案面向数据中心架构，帮助更灵活地扩展内存资源。算力瓶颈不只在 GPU，内存和带宽同样决定效率。",
-          "content_en": "Marvell upgraded its Structera CXL controller family, featuring inline compression of up to 3.64x to ease memory capacity and bandwidth pressure in AI scenarios. CXL targets data center architectures, enabling flexible memory expansion. Compute bottlenecks are not only at the GPU — memory and bandwidth equally determine efficiency.",
-          "key_points": [
-            "3.64 倍内联压缩",
-            "CXL 数据中心方案",
-            "缓解 AI 内存瓶颈"
-          ],
-          "key_points_en": [
-            "3.64x inline compression",
-            "CXL for data centers",
-            "Eases AI memory bottleneck"
-          ],
-          "url": "http://m.toutiao.com/group/7656019415556801034/"
-        },
-        {
-          "id": "news-10",
-          "date": "2026-06-28",
-          "category": "产业",
-          "category_en": "Industry Analysis",
-          "title": "RoboScience 发布通用具身大模型 Visics，VLOA 双引擎现场演示家具拼装",
-          "title_en": "RoboScience Launches Universal Embodied Model Visics, Live-Demos Furniture Assembly with VLOA Dual-Engine",
-          "summary": "深圳发布的 Visics 通用具身大模型采用 VLOA 双引擎架构，覆盖视觉、语言、物体和动作理解，现场完成家具拼装等复杂操作。",
-          "summary_en": "Visics, launched in Shenzhen, uses a VLOA dual-engine architecture covering vision, language, object and action understanding, demonstrating complex tasks like furniture assembly live.",
-          "source": "RoboScience",
-          "source_en": "RoboScience",
-          "image": "img/pool/robotics-humanoid-v3.jpg",
-          "content": "RoboScience 机器科学在深圳发布通用具身大模型 Visics，并完整展示 VLOA 双引擎架构，覆盖视觉、语言、物体和动作理解。现场展示包括家具拼装等复杂操作任务，意在验证模型在真实机器人场景中的泛化能力。具身智能最怕只停留在实验室视频，复杂装配任务如果能稳定复现，说明模型正在靠近可交付的产业能力。",
-          "content_en": "RoboScience unveiled Visics — a universal embodied model — in Shenzhen, showcasing its VLOA dual-engine architecture covering vision, language, object and action understanding. Live demos included complex tasks like furniture assembly, verifying generalization in real robot scenarios. Embodied AI's fear is staying as lab videos — stable complex assembly proves the model is approaching deliverable industrial capability.",
-          "key_points": [
-            "VLOA 双引擎架构",
-            "现场家具拼装演示",
-            "通用具身大模型"
-          ],
-          "key_points_en": [
-            "VLOA dual-engine architecture",
-            "Live furniture assembly demo",
-            "Universal embodied model"
-          ],
-          "url": "http://m.toutiao.com/group/7656019415556801034/"
         }
       ]
     }
