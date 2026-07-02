@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "article-31",
+      "date": "2026-07-02",
+      "title": "OpenAI 推理成本腰斩：AI 应用普及的产业拐点已至",
+      "title_en": "OpenAI's Inference Cost Halved: The Industrial Inflection Point for AI Adoption",
+      "subtitle": "推理成本降幅 >50%、GPT-5.6 Terra 定价直接砍半、ChatGPT 匿名访客几百块 GPU 就够、Anthropic 推理毛利率 18 个月从 -94% 冲到 60%+——一场从软件层长出来的产业拐点，正在改写 SaaS、云厂商与开发者生态的博弈规则。",
+      "subtitle_en": "Inference cost down over 50%, GPT-5.6 Terra priced at half of GPT-5.5, ChatGPT anonymous traffic served by a few hundred NVIDIA GPUs, and Anthropic's inference gross margin swinging from -94% to 60%+ in 18 months. A software-layer inflection point is now rewriting the SaaS, cloud and developer game.",
+      "summary": "2026-06-30 The Information 首发报道：OpenAI 通过一整套软件层系统优化，把模型推理成本压低 50% 以上——不换芯片、不换架构，仅靠服务器利用率提升、KV Cache 复用、量化压缩、动态批量四板斧，让 ChatGPT 匿名访客流量能用「几百块 NVIDIA GPU」兜住。本文从事实核对、产业拐点、开发者生态、SaaS 商业模式、云厂商竞争、开源阵营、终端应用、风险与不确定性 8 个角度，拆解这次「腰斩」为什么比 GPT-5.6 本身更重要。",
+      "summary_en": "On June 30, 2026, The Information broke the story that OpenAI cut model inference cost by more than 50% through pure software-layer optimizations — no new chips, no new architecture — just higher server utilization, KV Cache reuse, quantization and dynamic batching, letting «a few hundred NVIDIA GPUs» carry ChatGPT anonymous traffic. This article unpacks why the cut matters more than GPT-5.6 itself, across 8 angles: fact-check, the industrial inflection, developer ecosystem, SaaS business model rewrite, cloud vendor competition, open-source camp, consumer applications, and the risks and uncertainties.",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "image": "img/pool/startup-unicorn-v3.jpg",
+      "url": "articles/article-31.html",
+      "url_en": "articles/en/article-31.html",
+      "read_time": "12 min read"
+    },
+    {
       "id": "article-30",
       "date": "2026-07-01",
       "title": "国产 AI 算力闭环时刻：美团 1.6 万亿 LongCat-2.0 全栈国产芯片训练 + 寒武纪同日万亿市值",

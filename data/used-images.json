@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-01",
+  "last_updated": "2026-07-02",
   "used_urls": [
     "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
@@ -168,7 +168,21 @@
     "img/pool/vr-ar-meeting.jpg",
     "img/pool/vr-ar-retail.jpg",
     "img/pool/vr-ar-training.jpg",
-    "img/pool/vr-technology.jpg"
+    "img/pool/vr-technology.jpg",
+    "https://ainewsdaily.asia/img/pool/startup-unicorn-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/startup-product-launch-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/blockchain-defi-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/startup-pitch-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/investment-portfolio-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/education-coding-camp-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/autonomous-drone-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/blockchain-nft-ai-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/blockchain-zk-proof-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/startup-yc-batch-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/education-adaptive.jpg",
+    "https://ainewsdaily.asia/img/pool/network-satellite.jpg",
+    "https://ainewsdaily.asia/img/pool/robotics-agriculture.jpg",
+    "https://ainewsdaily.asia/img/pool/healthcare-imaging-v3.jpg"
   ],
   "total_used": 167
 }

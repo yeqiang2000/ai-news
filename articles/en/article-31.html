@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OpenAI just cut inference cost by over 50% at the software layer, running ChatGPT anonymous traffic on 'a few hundred NVIDIA GPUs'. A five-chain breakdown of why this is the industrial inflection point for AI application adoption.">
+    <meta name="keywords" content="OpenAI, inference cost, GPT-5.6, Sol, Terra, Luna, AI adoption, SaaS, cloud competition, Jevons paradox, industry analysis">
+    <meta property="og:title" content="OpenAI's Inference Cost Halved: The Industrial Inflection Point for AI Adoption">
+    <meta property="og:description" content="Inference costs down over 50%, GPT-5.6 Terra priced at half of GPT-5.5, and Anthropic inference margins from -94% to 60%+ in 18 months. A software-layer inflection point is rewriting the SaaS, cloud and developer game.">
+    <meta property="og:image" content="../../img/pool/startup-unicorn-v3.jpg">
+    <title>OpenAI's Inference Cost Halved: The Industrial Inflection Point for AI Adoption | AI News Daily</title>
+    <link rel="canonical" href="articles/en/article-31.html">
+    <link rel="alternate" hreflang="zh-CN" href="articles/article-31.html">
+    <link rel="alternate" hreflang="en" href="articles/en/article-31.html">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6fa;
+            color: #2c3e50;
+        }
+        .deep-article {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 50px 56px;
+            box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+        }
+        .article-header { margin-bottom: 30px; }
+        .article-meta-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 22px;
+            font-size: 0.92em;
+            color: #7f8c9b;
+        }
+        .article-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.88em;
+            font-weight: 500;
+        }
+        .article-date, .article-read-time { color: #95a5a6; }
+        .article-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.35;
+            margin: 0 0 16px 0;
+        }
+        .article-subtitle {
+            font-size: 1.08em;
+            color: #5a6c7d;
+            line-height: 1.7;
+            margin: 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-hero-image {
+            margin: 30px 0 36px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            max-height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+        .article-content { font-size: 1.05em; color: #2c3e50; }
+        .article-content h2 {
+            font-size: 1.55em;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin: 42px 0 18px 0;
+            padding-left: 14px;
+            border-left: 4px solid #667eea;
+            line-height: 1.4;
+        }
+        .article-content h3 {
+            font-size: 1.22em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 30px 0 14px 0;
+        }
+        .article-content p {
+            margin: 0 0 18px 0;
+            text-align: justify;
+        }
+        .article-content p.lead {
+            font-size: 1.12em;
+            color: #34495e;
+            font-weight: 500;
+            background: #f7f9fc;
+            padding: 20px 24px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        .article-content ul, .article-content ol {
+            margin: 0 0 22px 0;
+            padding-left: 28px;
+        }
+        .article-content li { margin-bottom: 10px; line-height: 1.75; }
+        .article-content strong { color: #1a1a2e; font-weight: 600; }
+        .article-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 22px 0;
+            font-size: 0.95em;
+        }
+        .article-content th, .article-content td {
+            padding: 10px 14px;
+            border: 1px solid #e5e9ef;
+            text-align: left;
+        }
+        .article-content th {
+            background: #f7f9fc;
+            color: #1a1a2e;
+            font-weight: 600;
+        }
+        .article-quote {
+            background: #f7f9fc;
+            border-left: 4px solid #764ba2;
+            padding: 24px 28px;
+            margin: 28px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        .article-quote p {
+            margin: 0 0 10px 0;
+            font-size: 1.05em;
+            color: #34495e;
+            font-style: italic;
+        }
+        .article-quote .quote-author, .article-quote cite {
+            font-size: 0.9em;
+            color: #7f8c9b;
+            font-style: normal;
+        }
+        .article-highlight, .article-conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 32px 36px;
+            border-radius: 14px;
+            margin: 32px 0;
+        }
+        .article-highlight h2, .article-highlight h3,
+        .article-conclusion h2, .article-conclusion h3 {
+            color: white;
+            border-left: none;
+            padding-left: 0;
+            margin-top: 0;
+        }
+        .article-highlight p, .article-conclusion p { color: rgba(255,255,255,0.95); }
+        .article-highlight strong, .article-conclusion strong { color: #fff; }
+        .article-footer {
+            margin-top: 44px;
+            padding-top: 22px;
+            border-top: 1px solid #eef1f5;
+            color: #95a5a6;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        @media (max-width: 720px) {
+            body { padding: 20px 10px; }
+            .deep-article { padding: 30px 22px; }
+            .article-title { font-size: 1.55em; }
+            .article-content h2 { font-size: 1.32em; }
+            .article-content h3 { font-size: 1.12em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="deep-article">
+        <header class="article-header">
+            <div class="article-meta-top">
+                <span class="article-category">Industry Analysis</span>
+                <span class="article-date">2026-07-02</span>
+                <span class="article-read-time">12 min read</span>
+            </div>
+            <h1 class="article-title">OpenAI's Inference Cost Halved: The Industrial Inflection Point for AI Adoption</h1>
+            <p class="article-subtitle">Inference cost down over 50%, GPT-5.6 Terra priced at half of GPT-5.5, ChatGPT anonymous traffic served by a few hundred NVIDIA GPUs, and Anthropic's inference gross margin swinging from -94% to 60%+ in 18 months. A software-layer inflection point is now rewriting the SaaS, cloud and developer game.</p>
+        </header>
+        <div class="article-hero-image">
+            <img src="../../img/pool/startup-unicorn-v3.jpg" alt="OpenAI Inference Cost Halved: The Industrial Inflection Point for AI Adoption">
+        </div>
+        <article class="article-content">
+
+<p class="lead">On the evening of 2026-06-30, The Information reporter Steph Palazzolo dropped a hard-news scoop: <strong>OpenAI's engineering team has cut model inference cost by more than 50% through a bundle of brand-new system-level optimizations</strong>. Follow-up reporting on 6-30 through 7-1 from 36Kr, IT Home and Xinhua confirmed the key twist: the recipe uses «almost no new chips, no new architecture» — pure software layer tuning that squeezes utilization out of the existing servers. One concrete landing point: ChatGPT's anonymous-user traffic is now served by «a few hundred NVIDIA GPUs», carrying hundreds of millions of daily calls. The same week, OpenAI's official GPT-5.6 pricing page listed three new tiers, of which Terra at $2.5 input / $15 output per M tokens is exactly half of the last-gen flagship GPT-5.5. Cost and price came down on the same beat — not an isolated efficiency win, but the next clear inflection point on the AI-adoption curve.</p>
+
+<p>Since ChatGPT went live in November 2022, the industry has already lived through at least three «cost repricings»: DeepSeek V3 matching GPT-4 at one tenth the cost; Anthropic pushing Claude Haiku down to $0.25/M input; Google Gemini 3 Pro compressing OpenAI's and Anthropic's flagship prices with a $1.25/$10 sticker. What makes this OpenAI cut different is that it did <strong>not</strong> come from a new model, new chip or new architecture — it came from squeezing «run cheaper» to the engineering limit on the same generation of flagships and the same batch of GPUs. Once that lever is proven, the marginal cost of AI apps enters a compounding channel: one engineering optimization, long-term dividends.</p>
+
+<h2>1. Fact-Check: What Exactly Got Halved</h2>
+
+<p>Industry analysis has to nail down the fact perimeter first. Cross-referencing The Information's original piece, Wall Street CN, 36Kr, IT Home and Sina Finance, the key facts of this OpenAI cost cut are as follows.</p>
+
+<ul>
+<li><strong>The number</strong>: OpenAI's engineering team internally disclosed that model inference cost dropped by <strong>over 50%</strong>. «Cost» here means «compute expense to run an equivalent inference workload», not the API list price.</li>
+<li><strong>The path</strong>: Primarily software-layer — utilization gains on existing servers, plus quantization, KV Cache reuse, and dynamic batching at the inference engine level. <strong>No new silicon purchase</strong>, no architectural revolution.</li>
+<li><strong>The landing</strong>: A visible outcome is ChatGPT's anonymous / logged-out traffic. Per 36Kr's 7-1 recap, post-optimization, «a few hundred NVIDIA GPUs» now shoulder a workload that previously required stacked capacity.</li>
+<li><strong>The secrecy</strong>: OpenAI treats the recipe as its «secret sauce», restricting even internal circulation to prevent Anthropic and Google from copying it.</li>
+<li><strong>Price linkage</strong>: GPT-5.6 Sol matches last-gen GPT-5.5 standard at $5/$30 per M tokens; Terra is half ($2.5/$15); Luna is one fifth ($1/$6) — per OpenAI's official pricing page cited by Xinhua on 7-1.</li>
+<li><strong>Hardware compounding</strong>: OpenAI's Broadcom-partnered custom ASIC Jalapeño alone should cut inference hardware cost by another ~50% when volume-deployed in 2027. Stacked with software, the theoretical ceiling of cost reduction goes past 75%.</li>
+</ul>
+
+<p>One caveat: <strong>the «50%+ inference cost cut» is an internal OpenAI disclosure that has NOT been published through an official blog or filing</strong>. The Information and Wall Street CN both frame it as «per The Information reporting»; 36Kr's 7-1 piece «OpenAI Cut for Nothing?» keeps the original attribution as well. The only official-channel signal is OpenAI's GPT-5.6 pricing page describing Terra as «comparable performance to GPT-5.5 at ~50% lower cost». We keep every data point in this article marked with «per X reporting» and do not extrapolate beyond the source.</p>
+
+<h2>2. The Inflection Point: From Compute Stacking to the «Run-Cheaper» Compounding Curve</h2>
+
+<p>Placed on the AI industry timeline, this cut matters far beyond «one company saved a few hundred GPUs». Over the past two years, cost pressure has been released in at least five waves — DeepSeek's training cost, OpenAI trimming its 8-year, $1.4T infrastructure figure, GPT-5.4 halving prices vs. its predecessor, Anthropic's 90% prompt caching, and now this OpenAI inference cut. These five moves look independent but converge on one message: <strong>the commercialization efficiency of AI compute is now on an engineering-compounding curve</strong>.</p>
+
+<p>The slope is the story. Per 36Kr's 7-1 piece, Anthropic's data: in 2024, Anthropic paid ~$2 in inference hardware for every $1 of tokens sold — inference gross margin at <strong>-94%</strong>; in 2025, that climbed to <strong>38%</strong>; by Q2 2026 investor guidance, inference margin is expected at <strong>60%+</strong>. <strong>From losing 94 cents to earning 60 cents in 18 months — this pace has almost no precedent in traditional industries</strong>. Where classical manufacturing improves gross margin by year, AI inference optimizes by month.</p>
+
+<p>Three things are stacking to make this compound:</p>
+
+<ul>
+<li><strong>Inference engine layer</strong>: vLLM, SGLang, and TensorRT-LLM iterate densely through 2025-2026, turning KV Cache reuse, speculative decoding, dynamic batching, sparse activation into off-the-shelf industrial building blocks.</li>
+<li><strong>Model architecture layer</strong>: MoE, SSM, and hybrid expert routing minimize «active parameters per unit of capability»; RingAttention variants keep 1M-token contexts from linearly blowing up KV Cache.</li>
+<li><strong>Hardware & scheduling layer</strong>: ASIC inference chips (Google TPU, AWS Trainium, OpenAI Jalapeño, Meta MTIA) ship in volume; server CPUs (AMD EPYC 5), optical interconnect, HBM4 line up behind them.</li>
+</ul>
+
+<p>Stacked together, the «cost-per-unit-of-capability» ratio for AI inference is now roughly doubling every 6 months. Not a guess — OpenRouter's public data for H1 2026 shows that the weighted-average per-M-token price of the leading models is <strong>~62%</strong> below June 2025, while capability scores (HELM, MMLU-Pro, SWE-Bench Pro) climbed. That is the signature of the inflection: <strong>the scissor gap between price and capability is widening, not narrowing</strong>.</p>
+
+<h2>3. Chain One: Developer Ecosystem Accelerates Toward «Utility» Status</h2>
+
+<p>Developers and startups are the most direct beneficiaries. For the past 24 months, the number-one AI startup pain point has never been «the model isn't smart enough» — it has been «the model is too expensive to actually run». As GPT-5.6 Terra's input drops to $2.5/M and Luna to $1/M, a big chunk of products previously trapped in PPT territory suddenly enter «can actually deploy» territory.</p>
+
+<p>Per CostLens's 2026-06-08 case study «OpenAI API Cost Optimization in Practice», a typical SaaS team, by combining three moves — tiered model routing (60% Nano, 30% mini, 10% flagship), prompt caching (50% off on repeated prefixes), and Batch API async (50% off) — dropped its monthly bill from $1000 to $194, saving <strong>~80%</strong>. Add this OpenAI software-layer cut (likely partially passed through to customers via API average price cuts), and there's another 20-30% headroom.</p>
+
+<p>More important is the «utility» shift. When a GPT-5.6 Luna call costs $0.001, an Agent completing a compound task («research + draft + run numbers + generate charts») dropped from a few dollars in 2025 to a few cents today. That changes the product form — Agents graduate from toy demos to production-line residents. A Juejin 2026-06-06 note on «smart routing» (Gemini 3.5 Flash triage + Claude Opus 4.8 deep review + GPT-5.5 structured output) shows CI/CD pipeline AI code review costs held to <strong>$0.003–$0.21</strong> per call, cutting total pipeline cost by ~53%.</p>
+
+<article class="article-quote">
+<p>«Efficiency gains don't kill demand — they create demand. Chat used to be one question, one answer, a few thousand tokens per session; now you hand an Agent a task and it makes dozens of model calls behind the scenes, spending millions of tokens on a single job.»</p>
+<cite>— 36Kr, «OpenAI Cut for Nothing?», 2026-07-01</cite>
+</article>
+
+<p>This is Jevons's paradox in AI form: <strong>the cheaper the unit compute, the higher the total consumption</strong>. China's National Data Bureau numbers are the cleanest footnote — daily token calls jumped from 100 billion in early 2024 to <strong>140 trillion</strong> by March 2026 — a 1,000× increase in 24 months. Prices halved, demand grew 1,000-fold. Who makes money is not a mystery.</p>
+
+<h2>4. Chain Two: SaaS Business Model Rewritten in Three Places</h2>
+
+<p>Halving inference cost is rewriting three SaaS ground rules.</p>
+
+<h3>1. From «per-seat pricing» to «per-outcome pricing»</h3>
+
+<p>Twenty years of SaaS ran on seat-based pricing — more users, more subscription revenue. In the high-cost AI era, subscriptions were essentially cross-subsidizing unpredictable call volumes. As inference cost drops predictably, SaaS platforms have the runway to split pricing into «base subscription + outcome-linked usage». GitHub Copilot is piloting «per issue resolved» pricing in enterprise. Zendesk is metering AI-agent modules by «tickets successfully closed». Notion AI moved from a $10/seat flat sub to a credits model. <strong>Only when inference cost becomes predictable AND cheap enough for the API platform to «underwrite» the tail, does «per-outcome pricing» move from concept to contract</strong>.</p>
+
+<h3>2. From «expensive flagship + few premium use cases» to «tiered routing + long tail»</h3>
+
+<p>No flagship model, however strong, can be called every time. GPT-5.6's three-tier design (Sol flagship, Terra balanced, Luna light) is a shift from «one task, one model» to «one task, an orchestration of models». Per OpenAI's official copy cited by Xinhua on 7-1, Terra is «near GPT-5.5-class capability at half the cost» — the price anchor for «tiered routing». Any AI SaaS that can serve 60-70% of daily tasks with Terra/Luna sees its unit economics flip immediately.</p>
+
+<h3>3. From «AI feature» to «AI-native product»</h3>
+
+<p>In the high-cost era, most SaaS only dared to bolt on an «AI assistant» entry — going AI-native meant every interaction hits a model, and no one could underwrite the bill. When per-call cost falls to $0.001, products can safely run a model on every step — retrieval, structuring, generation, verification, recommendation. That is «AI-native»: not an AI button, but AI as the default execution path.</p>
+
+<h2>5. Chain Three: Undercurrents in Cloud Vendor Competition</h2>
+
+<p>Lower inference cost turns cloud vendors into a race where nobody dares slow down. The 2026 Q2 landscape:</p>
+
+<table>
+<tr><th>Vendor</th><th>Flagship API</th><th>Input / Output ($/M token)</th><th>Long context rule</th><th>Moat</th></tr>
+<tr><td>OpenAI</td><td>GPT-5.6 Sol</td><td>$5 / $30</td><td>2× over 272K</td><td>Azure lock-in + Microsoft customers</td></tr>
+<tr><td>Anthropic</td><td>Claude Opus 4.8</td><td>$5 / $25</td><td>1M at flat price, up to 90% cache discount</td><td>Multi-cloud (Bedrock/Vertex/Azure)</td></tr>
+<tr><td>Google</td><td>Gemini 3 Pro</td><td>$1.25 / $10</td><td>2× over 200K input</td><td>Full modality + GCP integration</td></tr>
+<tr><td>OpenAI</td><td>GPT-5.6 Terra</td><td>$2.5 / $15</td><td>Same as Sol</td><td>New value anchor: «GPT-5.5-class at half the cost»</td></tr>
+<tr><td>OpenAI</td><td>GPT-5.6 Luna</td><td>$1 / $6</td><td>Light tier</td><td>High-throughput batch scenarios</td></tr>
+</table>
+<p style="font-size:0.86em;color:#95a5a6;margin-top:-14px;">Sources: OpenAI official pricing page 2026-07-01, Anthropic Model Card 2026-05, Google Vertex AI Pricing 2026-06; cross-referenced with Juejin «Technical differences among the three AI model APIs» and Applied AI Club «OpenAI vs Anthropic vs Google 2026».</p>
+
+<p>The 2026 Q2 positioning is now crystal clear: <strong>OpenAI attacks the mid-tier value sweet spot (Terra anchor)</strong>; <strong>Anthropic differentiates on long context + cache depth (1M flat + 90% cache)</strong>; <strong>Google steamrolls with absolute low price + multi-modality ($1.25/$10 + native video/audio)</strong>. The strategic meaning of OpenAI's inference cut: it now has room to keep pushing Terra/Luna prices lower and erode Google's low-price moat. If GPT-5.6 Terra costs OpenAI only $0.5/M in inference, cutting the sticker to $1.5/M still leaves 60%+ gross margin.</p>
+
+<p>For downstream apps, this means model selection moves from «which is strongest» to «which best matches this task distribution». Enterprise LLM procurement has gone from «pick the winner» to «build a portfolio» — tier-route tasks by model, dynamically optimize TCO. That is why John Jumper (Google DeepMind Senior, Nobel Prize) joining Anthropic reads almost universally as «three giants coexist and diversify», not «one takes all». With cost falling fast and demand exploding faster, the market is now big enough to accommodate three winners.</p>
+
+<h2>6. Chain Four: Open-Source Camp Faces «Catch-Up vs Independence»</h2>
+
+<p>OpenAI locked this recipe into its «secret sauce» vault for a straightforward reason — any leak, and Anthropic, Google, plus DeepSeek, GLM, Qwen from China would clone it and reset the advantage. But history says the shelf life of «software-layer optimization secrets» is short.</p>
+
+<p>DSpark (the DeepSeek + Peking University open-source inference framework released 2026-06-30) already combines speculative decoding with sparse activation to deliver «+60% to +85% throughput on V4», MIT-licensed on GitHub. The last major vLLM KV Cache optimization PR shipped from proposal to mainstream deployment in under 3 months. <strong>Even if OpenAI's secret survives 6 months, it will almost certainly be reproduced in principle by open-source communities by end of 2026</strong> — a script that has replayed in AI over the past four years.</p>
+
+<p>This script actually helps the open-source camp: <strong>they can wait, not chase</strong>. China's open-source ecosystem (LongCat 2.0, DeepSeek V4, GLM-5.2, Qwen 3.6) is already more aggressive on cost. DSpark bakes inference acceleration into MIT — effectively publishing a parallel version of OpenAI's secret sauce in advance. From an industry-analysis lens, <strong>«closed-source + secret engineering» and «open-source + community reuse» are becoming two mutually tensioned industry threads</strong>: the former buys margin with time; the latter locks share with ecosystem scale. Either way, the outcome is the same: <strong>absolute AI inference cost keeps sliding by a perceptible margin each quarter</strong>.</p>
+
+<h2>7. Chain Five: New Scenarios for Consumer Applications</h2>
+
+<p>End users are the ultimate beneficiaries. Three concrete signals:</p>
+
+<ul>
+<li><strong>ChatGPT anonymous traffic un-throttled</strong> — the «please log in to continue» prompts that used to surface during capacity crunches are, per The Information, being removed by this optimization. Hundreds of millions of anonymous users getting «free unlimited GPT-5» will push AI habits further down the long tail.</li>
+<li><strong>Sora shutdown frees capacity</strong> — OpenAI's Applications CEO Fidji Simo publicly marginalized Sora at an all-hands, redirecting compute to Codex, API and enterprise. The freed inference capacity is the internal budget that lets GPT-5.6's low-price tiers scale.</li>
+<li><strong>Agent ecosystem hits the tipping point</strong> — ChatGPT Agent, Codex multi-role expansion, Anthropic Claude Sonnet 4.6 Computer Use, Google Gemini Live: every Agent product's commercialization gates on «tens of thousands of calls a day at under $0.1 per call». Halving inference cost breaks this threshold for the first time.</li>
+</ul>
+
+<p>For a normal user, the next 6 months will look like: ChatGPT/Claude/Gemini free tiers behaving more like paid tiers; single-task assistants running many steps autonomously; and startups shipping more «pay-per-outcome» SaaS. All of it driven by what sits inside OpenAI's «secret sauce» vault today.</p>
+
+<article class="article-highlight">
+<h3>Inflection Point: Five Hard Signals</h3>
+<p><strong>1.</strong> Weighted-average token price of leading LLMs down &gt;60% in 12 months, capability scores up 15-25% — the price-capability scissor keeps widening.</p>
+<p><strong>2.</strong> Anthropic inference gross margin from -94% to 60%+ in 18 months — the «profit validation» channel is officially open.</p>
+<p><strong>3.</strong> China's daily model call volume up 1,000× in 24 months — Jevons's paradox already confirmed on the demand side.</p>
+<p><strong>4.</strong> ASIC inference chips (Jalapeño, TPU, Trainium, MTIA) shipping in volume; ~7.7M units projected in 2026, and ASIC share expected to exceed GPU at 58% in 2027.</p>
+<p><strong>5.</strong> Agent workloads now routinely hit «millions of tokens per single task» — only sustainable when inference drops to the $0.001/K-token order.</p>
+</article>
+
+<h2>8. Risks and Uncertainty: The Inflection Isn't a Monotone Curve</h2>
+
+<p>The counter-evidence deserves space. Inference-cost descent is not a permanently monotone line — at least three risk lines are worth watching.</p>
+
+<p><strong>Risk one: engineering compounding has a ceiling</strong>. Software-layer utilization has physical limits — once GPU memory bandwidth, interconnect topology and KV Cache capacity max out, further cuts require new silicon and new architectures. How far OpenAI's «a few hundred GPUs for anonymous traffic» generalizes is still unknown — paid enterprise workloads with their different load patterns, context lengths and SLAs are not the same beast at all.</p>
+
+<p><strong>Risk two: valuation snap-back if demand growth trails cost cuts</strong>. The full «cost down → more usage → more revenue → higher valuation» loop depends on token consumption growing faster than unit price falls. For 24 months that inequality has held, but when the Wall Street Journal reported in April 2025 that «OpenAI's 1B WAU target missed, CFO says the data-center bill is unpayable», the Philadelphia Semiconductor Index dropped 3.6% in a day. Markets can reprice AI demand ceilings faster than expected. The current AMD/TSMC/Intel rally on the back of The Information's story is fragile.</p>
+
+<p><strong>Risk three: post-secrecy price war</strong>. Once OpenAI's software optimization is open-sourced within 6-12 months, industry-wide price floors drop again. OpenAI's pricing moat shortens, Terra's «GPT-5.5-class at half the cost» becomes table stakes, and OpenAI has to draw the next card — Jalapeño silicon and the next-gen model. Whether those cards ship on time is the most critical observation window for the next 12 months.</p>
+
+<article class="article-conclusion">
+<h2>Coda: This Cut Matters More Than GPT-5.6 Itself</h2>
+<p>GPT-5.6 is the headline. The inference-cost cut is the footnote. But the footnote reads longer than the headline. The headline argues «which model is stronger»; the footnote argues «whether AI apps can truly go mainstream».</p>
+<p>Three years ago the top question was «can large models be built at all». Two years ago it was «whose model scores higher». One year ago it was «whose model commercializes better». Today the question is: «who can drive the marginal cost of large models low enough that every application scenario has a reason to plug them in by default». <strong>Halving inference cost is the pivotal step in AI's transition from a «premium capital good» to a «utility-grade infrastructure»</strong>.</p>
+<p>On 2026-07-01, OpenAI walked half of this step. The other half will be walked by Anthropic, Google, DeepSeek, GLM and Qwen over the next 12 months. This is what an industrial inflection looks like: it does not happen inside one keynote, but on hundreds of engineers' servers and inside perceptible quarterly declines in the bills — one drip at a time.</p>
+</article>
+
+        </article>
+        <footer class="article-footer">
+            <p>© 2026 AI News Daily · Industry Analysis · Data sourced from The Information / Wall Street CN / 36Kr / IT Home / Xinhua / OpenAI Official Pricing Page</p>
+        </footer>
+    </div>
+</body>
+</html>
