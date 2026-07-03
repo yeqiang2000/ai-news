@@ -4,6 +4,56 @@
 
 ---
 
+## 2026-07-04 07:25 — 日更三件套（article-33 + 微信 + 头条）
+
+### 网站版（产业分析）
+- **新增 article-33**：《微软的代理战争：Copilot 整合 + 付费 Autopilot 上线，$37B 年化背后的商业化拐点》中英双语
+  - 中文 33.5KB / 英文 35.1KB，含完整 deep-article 内联 style 块
+  - 切角：Build 2026 之后 30 天，微软把 Copilot Chat + Cowork + Code + Autopilots 整合成矩阵，Scout 成为首个真正付费的 Autopilot，FY26 Q3 AI 年化收入 $37B（+123% YoY）——本文横评微软/OpenAI/Google 三家代理商业化路径
+  - 6 项事实核查：Build 2026 时间 6-2/4 + Wave 3 3-9 发布 4-22 GA / Copilot Chat 免费 + M365 Copilot $30 + Cowork $30+$0.01/credit + Copilot Studio $200/25k credits + E7 Frontier Suite $99 + Agent 365 $15 / Scout 首个 GA Autopilot + Entra ID 身份 + 1400+ 连接器 + MCP / M365 Copilot 席位破 2000 万渗透率约 3% + Copilot Studio 230k 组织 + 90% Fortune 500 / OpenAI Plus $20 Pro $200 Business $20 + Gemini Enterprise $30 + Google Project Mariner 5-4 关停 / Nadella「apps to agents」+ Suleyman MAI 7 模型
+  - hero：news.json days[0]，标题「微软的代理战争：Copilot 整合 + 付费 Autopilot 上线」
+- **news.json days[0] 推 7/4**：10 条新闻（微软 Copilot / 阿里禁用 Claude / 可灵 30 亿 / Anthropic 三星 / 英伟达算力贷 / Meta 算力对外 / ElevenLabs 220 亿 / DeepSeek V4 峰谷定价 / Together AI C 轮 / H1 融资 3076 亿），保留最近 5 天，挤掉 6/29
+- **articles.json 总数 32**：article-33 插入 articles[0]
+- **used-images.json 202 张**（+10 unique）：全部从图片池取（startup-product-launch-v3 / blockchain-zk-proof-v3 / startup-pitch-v3 / startup-unicorn-v3 / investment-portfolio-v3 / network-satellite / education-adaptive / blockchain-defi-v3 / startup-yc-batch-v3 / autonomous-drone-v3），0 Unsplash 外链
+- **sidebar**：article-33 进首位（7/4）挤掉 article-23（6/24）
+- **sitemap.xml 全量重建至 70 URL**：6 静态 + 32 article × 2 语言，近 7 天 priority=0.9，更旧 priority=0.8，hreflang zh-CN/en/x-default 三向各 64 个
+- **commit**：f9e9868（7 files / +1094 / -336），部署 https://135c9cc4.ainewsdaily.pages.dev
+
+### 微信版（人物/事件叙事）
+- **新增 wechat-2026-07-04.html**（20.7KB）
+- 主题：《阿里巴巴全面禁用 Claude —— 从 4-2 客户端黑名单到 6-10 参议院指控的完整时间轴》
+- 三条硬事实构成完整叙事弧线：
+  1. 4-2 Claude Code 2.1.91 内置中国时区+147 域名黑名单检测机制
+  2. 6-10 Anthropic 向美参议院银行委员会指控阿里 25000 虚假账号 2800 万次蒸馏调用
+  3. 7-3 阿里发出内部通知，7-10 起全面禁用 Anthropic Claude 全线产品
+- 677px table 布局 + 全表 border:none 49 处 + 晓色原创声明 + 全线上 URL 图片 + 0 相对路径 + 0 div 布局
+- hero：img/pool/blockchain-zk-proof-v3.jpg（复用 news-2）
+
+### 头条版（热点趋势解读）
+- **新增 toutiao-2026-07-04.md**（17.9KB）
+- 主题：《AI 融资 H1 复盘：3076.82 亿元 +148% YoY 背后的三层金字塔》
+- IT 桔子 7-3 数据：H1 总额 3076.82 亿元（+148% YoY）/ 1284 起融资事件 / 1600 家机构入场
+- 市场结构：TOP 30 项目 + 腰部 200 家 + 长尾 1000+ 家三层地形
+- 与微信/网站主题完全错开（宏观数据+趋势解读方向）
+
+### 第二阶段执行状态
+- ✅ 6 文件产出验证全 PASS（中文双引号真检查 0 / border 覆盖 100% / 关键词覆盖 39+36 / deep-article 3 处 / JSON 结构正确）
+- ✅ 三个 JSON 更新（news.json 7/4 入 days[0] / articles.json 32 / used-images.json 202）
+- ✅ index.html 侧边栏更新
+- ✅ sitemap.xml 全量重建 70 URL
+- ✅ git commit f9e9868 + push 成功
+- ✅ Cloudflare wrangler 部署成功（13/322 新文件 / 3.77 秒）
+- ✅ 线上验证 10 项全 PASS
+- ✅ Yandex ping 200
+- ⚠️ Google/Bing 由主人手动在 GSC/Bing Webmaster 提交
+
+### 交付
+- 网站：https://135c9cc4.ainewsdaily.pages.dev（+ 主域名 https://ainewsdaily.asia）
+- 微信 HTML：`wechat/wechat-2026-07-04.html` → 通过 file_to_url 转 https 公网 URL 给主人
+- 头条 Markdown：`toutiao/toutiao-2026-07-04.md` → computer:// 协议给主人
+
+---
+
 ## 2026-07-03 07:55 — 日更三件套（article-32 + 微信 + 头条）
 
 ### 网站版（产业分析）
