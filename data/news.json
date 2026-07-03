@@ -1,6 +1,324 @@
 {
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-04",
   "days": [
+    {
+      "date": "2026-07-04",
+      "hero": {
+        "id": "hero-2026-07-04",
+        "title": "微软整合 Copilot 家族 + 推出付费智能代理：巨头开启「代理经济」商业化拐点",
+        "title_en": "Microsoft Consolidates Copilot and Launches Paid AI Agents: Big Tech Enters the Agent Economy",
+        "image": "img/pool/startup-product-launch-v3.jpg",
+        "date": "2026-07-04",
+        "source": "微软 Build 2026 / Microsoft 365 官方博客 / Reuters / The Information / 36 氪 / 智东西",
+        "source_en": "Microsoft Build 2026 / Microsoft 365 Blog / Reuters / The Information / 36Kr / Zhidx",
+        "summary": "微软在 Build 2026 大会（6 月 2-4 日）宣布 Copilot 从「聊天助手」升级为「代理平台」——Chat + Cowork + Code + Autopilots 四合一。Copilot Cowork 于 6 月 16 日 GA，采用「$30/席位/月 基础订阅 + $0.01/Copilot Credit 用量计费」双层定价；Copilot Studio 面向开发者定价 $200/月/25000 credits；M365 E7 Frontier Suite 打包价 $99/席位/月（5 月 1 日 GA）。截至 FY26 Q3（3 月 31 日截止），微软 AI 业务年化营收 $370 亿、同比 +123%，M365 Copilot 付费席位突破 2000 万——巨头 AI 助手正从「订阅制助手」转向「按任务收费的代理」，代理商业化拐点已至。",
+        "summary_en": "At Build 2026 (June 2-4), Microsoft consolidated Copilot into a unified agent platform: Chat + Cowork + Code + Autopilots. Copilot Cowork went GA on June 16 with a dual pricing model: $30/seat/month base subscription + $0.01/Copilot Credit usage-based billing. Copilot Studio prices at $200/month/25000 credits; the M365 E7 Frontier Suite bundle costs $99/seat/month (GA May 1). By FY26 Q3 (ending March 31), Microsoft's AI business hit $37B annualized revenue (+123% YoY) with over 20 million paid M365 Copilot seats. Big Tech's AI assistants are pivoting from 「subscription helpers」 to 「task-priced agents」, marking a commercial inflection point in the agent economy.",
+        "category": "产业",
+        "category_en": "Industry Analysis"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-07-04",
+          "category": "产业",
+          "category_en": "Industry Analysis",
+          "title": "微软 Copilot 四合一 + 付费代理商业化：$30 席位 + $0.01/Credit 双层定价落地",
+          "title_en": "Microsoft Copilot Unified Four-in-One + Paid Agents Go Commercial: $30 Seat + $0.01/Credit Two-Tier Pricing",
+          "summary": "微软在 Build 2026（6 月 2-4 日旧金山）宣布 Chat + Cowork + Code + Autopilots 四合一，Copilot Cowork 于 6 月 16 日 GA。M365 Copilot 席位 $30/月，Cowork 复杂任务按 Copilot Credit 计费（$0.01/credit），Copilot Studio 独立版 $200/月 25000 credits，M365 E7 Frontier Suite 打包 $99/月（5 月 1 日 GA）。付费代理产品 Scout Autopilot 已向 Copilot Frontier 用户开放。FY26 Q3 微软 AI 年化收入 $37B，同比 +123%，M365 Copilot 付费席位 2000 万+。",
+          "summary_en": "At Build 2026 (June 2-4 in San Francisco), Microsoft unveiled a four-in-one Copilot: Chat + Cowork + Code + Autopilots. Copilot Cowork went GA on June 16. M365 Copilot costs $30/seat/month; Cowork bills complex tasks at $0.01/Copilot Credit; standalone Copilot Studio is $200/month for 25000 credits; the M365 E7 Frontier Suite bundle is $99/month (GA May 1). Scout Autopilot is now available to Copilot Frontier users. Microsoft's AI business reached $37B annualized revenue in FY26 Q3, up 123% YoY, with over 20M paid M365 Copilot seats.",
+          "source": "Microsoft 365 官方博客 / Microsoft Build 2026 / Reuters / VentureBeat / 36 氪 / 智东西",
+          "source_en": "Microsoft 365 Blog / Microsoft Build 2026 / Reuters / VentureBeat / 36Kr / Zhidx",
+          "image": "img/pool/startup-product-launch-v3.jpg",
+          "content": "微软 Build 2026 大会（6 月 2-4 日旧金山）把 Copilot 定位从「聊天助手」重新定义为「以 agent 为核心的操作平台」。纳德拉在主题演讲中提出「Chat 负责对话、Cowork 负责执行、Code 负责编程、Autopilot 负责自主运转」四合一架构，并首次把 Autopilot 定义为「有自己的身份、生产力许可证、独立作为数字员工存在」的新代理类别，首个 Autopilot 产品 Scout 已向 Copilot Frontier 订阅用户开放。定价体系首次形成「双层结构」：M365 Copilot 基础订阅 $30/人/月，复杂任务额外按 Copilot Credit 计费（$0.01/credit），一次中等复杂度任务（报告生成、数据分析）消耗 400-700 credit，成本约 $4-7；Copilot Studio 独立版 $200/月 25000 credits；M365 E7 Frontier Suite（5 月 1 日 GA）打包 $99/月，含 M365 E5 + Copilot + Entra Suite + Agent 365。Agent 365 单独定价 $15/人/月，用于集中治理 Copilot Studio 与第三方代理。FY26 Q3（3 月 31 日截止）微软 AI 业务年化收入 $37B、同比增长 123%，M365 Copilot 付费席位突破 2000 万——但按 Forrester 数据，仅约 3% 的 M365 客户订阅了付费 Copilot，付费代理产品正是微软打破渗透瓶颈的关键筹码。",
+          "content_en": "At Build 2026 (June 2-4, San Francisco), Microsoft repositioned Copilot from a 「chat assistant」 to an 「agent-first operating platform」. In his keynote, Nadella outlined a four-in-one architecture: Chat handles dialogue, Cowork executes tasks, Code handles programming, and Autopilots run autonomously. Autopilots are a new category of agents with their own identity, productivity license, and existence as digital employees. The first Autopilot product, Scout, is now available to Copilot Frontier subscribers. The pricing model is now two-tiered: M365 Copilot base subscription at $30/user/month, with complex tasks billed additionally at $0.01/Copilot Credit; a medium-complexity task (report generation, data analysis) consumes 400-700 credits, costing $4-7. Standalone Copilot Studio is $200/month for 25000 credits; the M365 E7 Frontier Suite (GA May 1) bundles M365 E5 + Copilot + Entra Suite + Agent 365 at $99/month. Agent 365 alone is priced at $15/user/month for centralized governance of Copilot Studio and third-party agents. In FY26 Q3 (ending March 31), Microsoft's AI business hit $37B annualized revenue, up 123% YoY, with over 20M paid M365 Copilot seats. Yet according to Forrester, only about 3% of M365 customers subscribe to paid Copilot—paid agent products are Microsoft's key wager to break through this penetration ceiling.",
+          "key_points": [
+            "Chat + Cowork + Code + Autopilots 四合一，Build 2026 大会正式发布",
+            "Copilot Cowork 于 6 月 16 日 GA，「$30 基础 + $0.01/credit 用量」双层定价",
+            "M365 E7 Frontier Suite $99/月打包，Agent 365 单独 $15/月",
+            "Scout Autopilot 首款「数字员工」代理，Copilot Frontier 用户可试用",
+            "FY26 Q3 微软 AI 年化收入 $37B、+123%，M365 Copilot 席位 2000 万+"
+          ],
+          "key_points_en": [
+            "Chat + Cowork + Code + Autopilots four-in-one, unveiled at Build 2026",
+            "Copilot Cowork GA on June 16 with dual pricing: $30 base + $0.01/credit usage",
+            "M365 E7 Frontier Suite bundles at $99/month; Agent 365 alone at $15/month",
+            "Scout, the first Autopilot 「digital employee」, available to Copilot Frontier users",
+            "Microsoft AI reached $37B annualized revenue in FY26 Q3, +123%; 20M+ Copilot seats"
+          ],
+          "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-07-04",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "阿里全面禁用 Anthropic Claude 全线产品：Claude Code 中国时区检测机制成导火索",
+          "title_en": "Alibaba Bans All Anthropic Claude Products: Claude Code's China Time-Zone Detection Sparks Reverse Ban",
+          "summary": "7 月 3 日，阿里巴巴内部下发通知宣布 7 月 10 日起全员卸载 Anthropic 全线产品（Sonnet / Opus / Fable + Claude Code），推荐切换自研 Qoder。导火索是开发者逆向 Claude Code 2.1.91 版本（4 月 2 日发布），发现其内置隐蔽机制检测中国时区（Asia/Shanghai、Asia/Urumqi）与 147 项中国 AI 域名清单，并把检测结果编码进系统提示词秘密上报。阿里此前每周报销程序员数百美元 Claude 额度，转向的直接背景是 Anthropic 6 月 10 日向美国参议院银行委员会递交信函，指控阿里 4 月 22 日-6 月 5 日用 2.5 万个虚假账号对 Claude 发起 2800 万次「工业级模型蒸馏攻击」。",
+          "summary_en": "On July 3, Alibaba issued an internal notice ordering all employees to uninstall Anthropic products (Sonnet/Opus/Fable + Claude Code) by July 10, recommending its in-house Qoder as replacement. The trigger: developers reverse-engineered Claude Code v2.1.91 (released April 2) and discovered a covert mechanism that checks Chinese time zones (Asia/Shanghai, Asia/Urumqi) against a 147-entry list of Chinese AI domains, encoding results secretly into system prompts. Alibaba had previously reimbursed engineers hundreds of dollars weekly on Claude usage. The pivot follows Anthropic's June 10 letter to the U.S. Senate Banking Committee, accusing Alibaba of running 25,000 fake accounts and 28 million dialogues from April 22 to June 5 as an 「industrial-scale model distillation attack」.",
+          "source": "IT 之家 / 36 氪 / 智东西 / 电子工程专辑 / Financial Times / 澎湃新闻",
+          "source_en": "IT Home / 36Kr / Zhidx / EE Times China / Financial Times / The Paper",
+          "image": "img/pool/blockchain-zk-proof-v3.jpg",
+          "content": "阿里此次「反向禁令」颠覆了年初的开放政策——彼时 Claude Code 凭借长上下文、代码理解深度与工程化落地能力，在阿里研发体系渗透率超 70%，重度用户每周额度报销数百美元。7 月 3 日通知覆盖 Sonnet、Opus、Fable 三级模型 + Claude Code，网页 / 客户端 / API 全通道切断，办公内网 7 月 10 日起屏蔽 Claude 域名，财务停止报销，内审抽查违规使用纳入内控。替代方案是阿里自研 Qoder，同步开放不限量免费额度。事件时间线可拆为三段：一是 6 月 10 日 Anthropic 递交参议院银行委员会信函，指控阿里 25000 虚假账号 + 2800 万次对话「工业级蒸馏」，此前同话术已用于 DeepSeek、月之暗面、MiniMax；二是 6 月 24 日信函内容曝光，Reddit 用户 LegitMichel777 逆向 Claude Code 2.1.196 发现 4 月 2 日发布的 2.1.91 版本内置检测机制——检查系统时区是否为中国、匹配 147 项中国 AI 域名清单，检测结果不走独立遥测字段而是编码进每次请求的系统提示词（中国时区下日期格式从「2026-06-30」变成「2026/06/30」）；三是 6 月底 Anthropic 大规模封号 + 蚂蚁通过新加坡实体、字节报销 VPN Claude 订阅等通道被 FT 点名，7 月 3 日阿里禁令落地。Anthropic Claude Code 团队成员 Thariq Shihipar 在 X 承认该机制是 2026 年 3 月上线的「实验性措施」，目的是防止未授权账户转售与蒸馏攻击。",
+          "content_en": "Alibaba's 「reverse ban」 upends the open policy in place earlier this year—when Claude Code had over 70% penetration in Alibaba's engineering ranks, backed by long context, deep code understanding, and enterprise-grade delivery. The July 3 notice covers Sonnet, Opus, and Fable models plus Claude Code, cutting web/client/API access. Starting July 10, the internal network blocks Claude domains, finance stops reimbursements, and audit flags noncompliance. The replacement: Alibaba's in-house Qoder with unlimited free quota. The timeline unfolds in three phases: (1) On June 10, Anthropic filed a letter with the U.S. Senate Banking Committee accusing Alibaba of running 25,000 fake accounts and 28 million dialogues as 「industrial-scale distillation」—using the same rhetoric it had earlier applied to DeepSeek, Moonshot, and MiniMax; (2) On June 24, the letter surfaced and Reddit user LegitMichel777 reverse-engineered Claude Code v2.1.196, finding that v2.1.91 (released April 2) embedded a mechanism that checks Chinese time zones and matches a 147-entry list of Chinese AI domains, encoding results not in a separate telemetry field but into the system prompt of every request (under China time zones the date format flips from 「2026-06-30」 to 「2026/06/30」); (3) Late June, Anthropic launched a mass ban wave, and FT identified Ant Group's Singapore-entity workaround and ByteDance's VPN reimbursement schemes—leading to Alibaba's July 3 ban. Anthropic's Claude Code team member Thariq Shihipar admitted on X that the mechanism went live in March 2026 as an 「experimental measure」 to prevent unauthorized reselling and distillation attacks.",
+          "key_points": [
+            "阿里 7 月 3 日通知：7 月 10 日全员卸载 Anthropic 全线产品",
+            "Claude Code 2.1.91 版本（4 月 2 日）内置中国时区 + 147 域名检测机制",
+            "检测结果编码进系统提示词秘密上报（日期格式差异是识别标志）",
+            "Anthropic 6 月 10 日致信参议院指控阿里「25000 虚假账号 + 2800 万次蒸馏」",
+            "阿里替代方案：自研 Qoder，开放不限量免费额度"
+          ],
+          "key_points_en": [
+            "Alibaba's July 3 notice: all Anthropic products uninstalled by July 10",
+            "Claude Code v2.1.91 (April 2) embeds China time-zone + 147-domain detection",
+            "Detection results encoded into system prompts (date-format flip is the tell)",
+            "Anthropic's June 10 letter to Senate: 25,000 fake accounts, 28M distillation calls",
+            "Alibaba's fallback: in-house Qoder with unlimited free quota"
+          ],
+          "url": "https://36kr.com/p/3879721635361032"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-07-04",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "可灵 AI 完成 30 亿美元首轮融资：投后 180 亿美元刷新全球 AI 视频生成融资纪录",
+          "title_en": "Kling AI Closes $3B Round at $18B Valuation, Setting a Global AI Video Generation Record",
+          "summary": "7 月 2 日晚，快手（01024.HK）港交所披露旗下 AI 视频生成公司可灵 AI 完成上限 30 亿美元首轮融资（约 204.47 亿元人民币），投后估值 180 亿美元，一举刷新全球视频大模型单笔融资纪录，仅次于 DeepSeek 的 70 亿美元首轮。30 家机构分四阵营入局：市场化头部 PE（CPE 源峰、国方、启明等）、互联网大厂（腾讯 13.63 亿 / 阿里云 13.63 亿 / 百度 3.41 亿）、国资地方基金（中关村科学城、国科生成等）、文娱产业与海外资本（华策影视、芒果、阿布扎比 BlueFive）。可灵 AI 年化收入（ARR）已达 5 亿美元，覆盖 224 个国家。",
+          "summary_en": "On the evening of July 2, Kuaishou (01024.HK) disclosed via HKEX that its AI video generation arm Kling AI closed a first round of up to $3B (RMB 20.447B) at an $18B post-money valuation, setting a global single-round record for video foundation models—second only to DeepSeek's $7B first round. Thirty institutions split into four camps invested: leading PE (CPE Yuanfeng, Guofang, Qiming), internet giants (Tencent $190M / Alibaba Cloud $190M / Baidu $48M), state-backed and municipal funds (Zhongguancun Science City, Guoke Chenge), and entertainment/overseas capital (Huace Media, Mango, Abu Dhabi's BlueFive). Kling AI's annualized revenue (ARR) reached $500M, spanning 224 countries.",
+          "source": "快手港交所公告 / 贝果财经 / 36 氪 / 智东西 / IT 桔子",
+          "source_en": "Kuaishou HKEX filing / Baigu Finance / 36Kr / Zhidx / IT Juzi",
+          "image": "img/pool/startup-pitch-v3.jpg",
+          "content": "可灵 AI 是 2026 年上半年最受关注的 AI 视频生成独立融资案，快手对可灵的拆分早已铺垫——公告显示本轮增资对应扩大后 16.67% 注册资本，超 30 家机构分两批入局。投资方结构罕见：BAT 集体现身，腾讯通过两家主体合计出资约 13.63 亿元获约 0.56% 股权，阿里云出资 13.63 亿元获约 1.11%（金额相近但持股不同源于入股批次），百度出资约 3.41 亿元持股约 0.28%。BlueFive 参与，是中东资本首次投资中国 AI 视频企业。可灵年化收入已到 5 亿美元（覆盖 224 国），机构下注逻辑是「视频大模型全球稀缺标的 + 商业化验证」。相比 OpenAI Sora、Runway、Google Veo 三家海外对手，可灵在东南亚、中东与国内影视工业化场景（短剧、后期特效）的商业化密度显著更高，成为快手拆分逻辑得以成立的核心资产。这轮 30 亿美元也创下 2026 上半年除 DeepSeek 510 亿人民币 A 轮之外的第二大 AI 单笔融资。",
+          "content_en": "Kling AI is the standout AI video financing story of H1 2026. Kuaishou had been laying groundwork for the carve-out, and the filing shows this round corresponds to 16.67% post-money registered capital, with over 30 institutions entering in two waves. The investor makeup is unusual: BAT appears together, with Tencent investing about RMB 1.363B via two entities for ~0.56%, Alibaba Cloud contributing RMB 1.363B for ~1.11% (same amount, different stake reflecting entry tranche), and Baidu putting in about RMB 341M for ~0.28%. Abu Dhabi's BlueFive marks the first Middle-East capital in a Chinese AI video company. Kling's ARR has hit $500M spanning 224 countries; investors' thesis is 「a globally scarce video foundation model + validated commercialization」. Compared to OpenAI Sora, Runway, and Google Veo, Kling has significantly higher commercial density in Southeast Asia, the Middle East, and China's film-industrialization scenes (short dramas, post-production VFX)—the core asset supporting Kuaishou's spin-off logic. The $3B round is H1 2026's second-largest AI single deal, trailing only DeepSeek's RMB 51B A round.",
+          "key_points": [
+            "可灵 30 亿美元融资对应 180 亿美元投后，刷新 AI 视频融资纪录",
+            "BAT 罕见同台：腾讯 + 阿里云各 13.63 亿元、百度 3.41 亿元",
+            "中东资本首次入局中国 AI 视频：阿布扎比 BlueFive",
+            "ARR 5 亿美元、覆盖 224 国，商业化密度全球领先",
+            "上半年 AI 单笔融资仅次于 DeepSeek 510 亿元 A 轮"
+          ],
+          "key_points_en": [
+            "Kling's $3B round at $18B post-money sets a global AI video record",
+            "BAT rare co-investment: Tencent + Alibaba Cloud RMB 1.363B each, Baidu RMB 341M",
+            "First Middle-East capital in Chinese AI video: Abu Dhabi's BlueFive",
+            "ARR of $500M spanning 224 countries, leading commercial density globally",
+            "Second-largest AI single deal of H1 2026 after DeepSeek's RMB 51B A round"
+          ],
+          "url": "https://tech.ifeng.com/c/8uSeugBS0vu"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-07-04",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing",
+          "title": "Anthropic 与三星洽谈定制 AI 芯片：拟采用 2nm 制程，复刻 OpenAI 自研路径",
+          "title_en": "Anthropic in Talks with Samsung for Custom AI Chip on 2nm Process, Mirroring OpenAI's Playbook",
+          "summary": "7 月 3 日《The Information》援引三位知情人士首发，Anthropic 已启动自研 AI 芯片早期工作，与三星电子就 2nm 制程 + 先进封装制造合作展开洽谈。项目仍在规划阶段，芯片功能、算力规格、服务器部署方案尚未敲定。Anthropic 近期招聘前 OpenAI 自研芯片项目核心工程师 Clive Chan 加强内部设计能力。官方回应称短期仍依托英伟达、Google TPU、AWS Trainium 三元算力体系，未否认三星合作。此举意在把最昂贵的推理算力握在自己手里，复刻 OpenAI 与博通共研 Jalapeño 芯片的路径。",
+          "summary_en": "On July 3, The Information (citing three sources) broke that Anthropic has begun early work on its own AI chip, in talks with Samsung Electronics for potential manufacturing on a 2nm process with advanced packaging. The project remains at planning stage—chip functions, performance targets, and server deployment are undecided. Anthropic recently hired Clive Chan, a former core engineer on OpenAI's custom-silicon program, to strengthen its design team. Anthropic officially said it will continue to rely on NVIDIA, Google TPU, and AWS Trainium in the short term, without denying the Samsung talks. The move aims to bring its most expensive inference compute in-house, mirroring OpenAI's playbook of co-developing the Jalapeño chip with Broadcom.",
+          "source": "The Information / TechCrunch / Reuters Technology / 智东西",
+          "source_en": "The Information / TechCrunch / Reuters Technology / Zhidx",
+          "image": "img/pool/startup-unicorn-v3.jpg",
+          "content": "AI 头部厂商自研芯片趋势自 2026 年加速——OpenAI 6 月发布 Jalapeño 推理芯片、Google TPU 已迭代至第 8 代、AWS Trainium2 已进入量产、Meta MTIA 推理芯片进入自用小批量部署。Anthropic 此次接入表明「训练靠英伟达 + 推理靠自研」的分工模式正在向所有头部模型公司复制。选择三星而非台积电的原因有二：一是台积电 2/3nm 产能被 Apple / NVIDIA / OpenAI 三家绑定至 2027 年，Anthropic 作为新入局者拿不到优先级；二是三星 2nm GAA（Gate-All-Around）制程已经量产 Exynos 2600，晶体管密度接近台积电 N2P。招聘前 OpenAI 芯片核心工程师 Clive Chan 是重要信号——OpenAI Jalapeño 已经跑通「与博通合研 + 台积电流片」的一整套流程，Chan 的加入意味着 Anthropic 有信心 24 个月内跑出第一款自研芯片。这一动作同时呼应了 6 月 Anthropic 与 Google Cloud 签下 22 万张英伟达 GPU 从 xAI 转租的长约（月付 1.25 亿美元 + 至 2029 年）——短期靠外部租，中期靠自研。",
+          "content_en": "The trend of leading AI labs building custom silicon accelerated in 2026: OpenAI released the Jalapeño inference chip in June, Google's TPU has reached its 8th generation, AWS Trainium2 has entered volume production, and Meta's MTIA inference chip is in small-batch internal deployment. Anthropic joining this club signals the 「NVIDIA for training + in-house for inference」 division of labor is spreading to all frontier model companies. Choosing Samsung over TSMC comes down to two factors: (1) TSMC's 2/3nm capacity is locked in by Apple, NVIDIA, and OpenAI through 2027, leaving latecomers like Anthropic without priority; (2) Samsung's 2nm GAA (Gate-All-Around) process has already delivered Exynos 2600 in volume, with transistor density approaching TSMC's N2P. Hiring former OpenAI chip core engineer Clive Chan is a strong signal—OpenAI's Jalapeño validated the 「co-design with Broadcom + TSMC tape-out」 blueprint, and Chan's arrival suggests Anthropic is confident it can ship a first-generation chip within 24 months. This also echoes Anthropic's June deal with xAI for 220,000 NVIDIA GPUs subleased through Colossus 1 at $125M/month through 2029—rent short-term, build in-house medium-term.",
+          "key_points": [
+            "Anthropic 与三星洽谈 2nm 制程定制 AI 芯片，Samsung 2nm GAA 制程支持",
+            "Clive Chan 加盟：前 OpenAI 自研芯片核心工程师，Jalapeño 项目关键人",
+            "选三星原因：台积电 2/3nm 产能被 Apple/NVIDIA/OpenAI 绑定至 2027",
+            "分工模式：训练靠英伟达 + Google TPU，推理靠自研",
+            "短中期算力搭配：22 万张英伟达 GPU 从 xAI 转租至 2029"
+          ],
+          "key_points_en": [
+            "Anthropic-Samsung talks target a 2nm custom AI chip on GAA process",
+            "Clive Chan joins: former OpenAI custom-silicon core engineer, key on Jalapeño",
+            "Why Samsung: TSMC's 2/3nm capacity is locked by Apple/NVIDIA/OpenAI through 2027",
+            "Division of labor: NVIDIA + Google TPU for training, in-house for inference",
+            "Short/medium-term stack: 220K NVIDIA GPUs subleased from xAI through 2029"
+          ],
+          "url": "https://blog.csdn.net/haohaizi_liu/article/details/162551909"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-07-04",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing",
+          "title": "英伟达发明「算力贷」：与 Sharon AI、Firmus 试点 21 万 GPU 分成模式",
+          "title_en": "NVIDIA Invents 「Compute Loans」: 210K-GPU Pilot with Sharon AI and Firmus",
+          "summary": "7 月 1 日晚，英伟达宣布推出「收入分成 + 信用支持」新战略——首批合作伙伴澳大利亚 Sharon AI 部署最多 4 万张 GB300 GPU、新加坡 Firmus 在印尼巴淡岛建 360 兆瓦数据中心部署 17 万张 GPU，合计 21 万张 GPU 成为「算力贷」首批抵押物。英伟达用自身资产负债表为区域云厂商背书打通银行融资，换取长期算力运营收入分成。SemiAnalysis 测算，仅 Firmus 一个项目 6 年内预计为英伟达贡献 250-300 亿美元收入。",
+          "summary_en": "On the night of July 1, NVIDIA announced a new 「revenue share + credit support」 strategy. First partners: Australia's Sharon AI will deploy up to 40,000 GB300 GPUs; Singapore's Firmus will build a 360MW data center on Batam Island, Indonesia, deploying up to 170,000 GPUs—totaling 210,000 GPUs as first-batch 「compute-loan」 collateral. NVIDIA lends its balance sheet to regional cloud providers to unlock bank financing, in exchange for long-term compute revenue sharing. SemiAnalysis estimates the Firmus project alone will contribute $25-30B in revenue to NVIDIA over 6 years.",
+          "source": "英伟达官方公告 / 36 氪 / 凤凰网 / SemiAnalysis / 智东西",
+          "source_en": "NVIDIA official / 36Kr / iFeng / SemiAnalysis / Zhidx",
+          "image": "img/pool/investment-portfolio-v3.jpg",
+          "content": "英伟达此次不再甘于「一次性卖卡」的商品交易模式——它把芯片变成了金融产品。新战略核心两步：第一步「信用支持」，用自身资产负债表为 Sharon AI、Firmus 这类新兴区域云厂商担保打通百亿级银行融资，用来建设英伟达 DSX 架构的 AI 工厂；第二步「永续分润」，硬件照常卖，但合作方后续对外出租算力的收入英伟达长期抽成。SemiAnalysis 测算仅 Firmus 一个项目 6 年将为英伟达贡献 250-300 亿美元收入。这一模式意在破解两个远期隐忧：一是微软、谷歌等大客户自研 ASIC 迟早分流英伟达份额；二是硬件交易做一单算一单，增长天花板肉眼可见。相比之下，「算力贷」把英伟达从硬件统治者转型为「算力央行」——不盖机房、不付电费，只输出芯片和信用，就把触角伸进全球每一枚 AI Token 的生成利润里。风险点是「抵押物是 AI 公司未来利润」——如果 AI 公司利润兑现不及预期，21 万 GPU 是否能顺利还本付息将成新问题。",
+          "content_en": "NVIDIA no longer settles for a 「one-shot card sale」 commodity model—it has turned chips into financial products. The new strategy has two steps: (1) 「Credit support」—NVIDIA uses its balance sheet to guarantee bank financing worth tens of billions for emerging regional cloud players like Sharon AI and Firmus, funding NVIDIA DSX-architecture AI factories; (2) 「Perpetual revenue share」—hardware is sold as usual, but NVIDIA takes a long-term cut of partners' downstream compute rental revenue. SemiAnalysis estimates the Firmus project alone will contribute $25-30B in revenue to NVIDIA over 6 years. This model addresses two long-term risks: (1) large customers like Microsoft and Google will eventually erode NVIDIA's share via custom ASICs; (2) transactional hardware sales have a visible growth ceiling. The 「compute loan」 model transforms NVIDIA from hardware ruler into 「the central bank of compute」—no data centers, no electricity bills, just chips and credit, but tentacles into every AI-Token profit worldwide. The risk: 「collateral is future AI-company profit」—if AI firms underdeliver, whether the 210K GPUs can service the debt becomes an open question.",
+          "key_points": [
+            "首批 21 万 GPU 抵押：Sharon AI 4 万 GB300 + Firmus 17 万",
+            "英伟达从「一次性卖卡」转为「信用支持 + 永续分润」双轨",
+            "Firmus 印尼巴淡岛 360 兆瓦园区，6 年贡献 250-300 亿美元",
+            "破解两大隐忧：客户自研 ASIC + 硬件交易天花板",
+            "风险点：抵押物是「AI 公司未来利润」，非传统资产"
+          ],
+          "key_points_en": [
+            "First-batch 210K GPUs as collateral: Sharon AI 40K GB300 + Firmus 170K",
+            "NVIDIA pivots from 「one-shot card sale」 to 「credit + perpetual revenue share」",
+            "Firmus 360MW Batam park expected to contribute $25-30B over 6 years",
+            "Addresses two risks: customer ASICs + transactional-hardware ceiling",
+            "Key risk: collateral is 「future AI-company profit」, not conventional assets"
+          ],
+          "url": "https://36kr.com/p/3879312295639940"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-07-04",
+          "category": "产业",
+          "category_en": "Industry Analysis",
+          "title": "Meta 拟对外出售 AI 算力 + 扎克伯格罕见承认 AI 智能体进展比预期慢",
+          "title_en": "Meta Plans to Sell AI Compute Externally; Zuckerberg Admits AI Agent Progress Fell Short",
+          "summary": "7 月 3 日彭博社独家报道，Meta 正筹建面向外部客户的云基础设施业务，代号「Meta Compute」，向 AWS / Azure / Google Cloud 直接叫板。同日 Business Insider 曝光扎克伯格 7 月 3 日内部员工大会讲话——「过去四个月 AI 智能体的发展轨迹并没有按预期加速」，5 月裁减约 10% 员工、把 7000 人转岗 AI 相关团队的重组「执行得不够干净利落」，前提假设「Claude Code 类工具会快速成熟」出现误判。AI 负责人 Alexandr Wang 同日在会上表示，Meta 下一代模型「Watermelon」（Avocado 后继）已在基准上追平 OpenAI GPT-5.5，训练算力比 Avocado 高一个数量级。",
+          "summary_en": "On July 3, Bloomberg exclusively reported that Meta is building a cloud-infrastructure business for external customers, code-named 「Meta Compute」, taking direct aim at AWS/Azure/Google Cloud. The same day, Business Insider surfaced Zuckerberg's July 3 town hall: 「Over the past four months, AI agent progress didn't accelerate as we expected」. The May restructuring—cutting ~10% of headcount and reassigning 7,000 people to AI teams—「wasn't cleanly executed」, and the founding assumption that Claude Code-class tools would 「mature rapidly」 misfired. AI head Alexandr Wang told the meeting that Meta's next model, 「Watermelon」 (successor to Avocado), has matched OpenAI GPT-5.5 on benchmarks, trained with an order-of-magnitude more compute than Avocado.",
+          "source": "Bloomberg / Business Insider / TechCrunch / 36 氪 / 钛媒体",
+          "source_en": "Bloomberg / Business Insider / TechCrunch / 36Kr / TMTPost",
+          "image": "img/pool/network-satellite.jpg",
+          "content": "Meta 双轨策略正式浮出水面——一边自建数据中心、4 月与 CoreWeave 签下约 210 亿美元、截至 2032 年的 AI 云容量长单；一边把过剩算力对外销售。SemiAnalysis 认为 Meta 未来的数据中心和算力采购非但不会放缓，反而将进一步加速，「Meta Compute」是「先建产能、再对外找单」的经典产能出海模式。扎克伯格的坦承在硅谷罕见——他明确承认 5 月大规模重组的假设错了：当时管理层「非常担心跟不上行业节奏」，对 Anthropic Claude Code 类工具「超级乐观」；但 4 个月过去，智能体的落地速度明显低于预期。这一定调与微软 Suleyman 6 月「12-18 个月内 AI 达到 90 分位专业任务表现」预测的口径反转形成鲜明对照。但扎克伯格保留了乐观：预计「未来 3-6 个月」公司将从 AI 投资中获得「更显著的回报」——这条时间线正好覆盖 Watermelon 模型的商业化落地窗口。",
+          "content_en": "Meta's dual-track strategy has fully surfaced—on one hand, it keeps building data centers, having signed a ~$21B AI-cloud capacity deal with CoreWeave through 2032 in April; on the other, it now sells surplus compute externally. SemiAnalysis argues Meta's future data-center and compute procurement will not slow down but accelerate; 「Meta Compute」 is the classic 「build capacity first, seek external revenue after」 export model. Zuckerberg's admission is rare in Silicon Valley—he explicitly acknowledged that the May restructuring's founding assumption was wrong: management had been 「very worried about falling behind the industry pace」 and 「super optimistic」 about Anthropic Claude Code-class tools; four months later, agent adoption is clearly slower than expected. This tone contrasts sharply with Microsoft's Suleyman prediction in June that 「AI would reach 90th-percentile professional-task performance in 12-18 months」. But Zuckerberg kept the optimism: he expects Meta to see 「more significant returns」 on AI investment in the 「next 3-6 months」—a window that maps neatly onto Watermelon's commercialization horizon.",
+          "key_points": [
+            "「Meta Compute」项目：向 AWS / Azure / Google Cloud 直接开战",
+            "扎克伯格罕见承认：过去 4 个月 AI 智能体进展没按预期加速",
+            "5 月重组假设「Claude Code 类工具快速成熟」出现误判",
+            "下一代模型 Watermelon 追平 GPT-5.5，算力比 Avocado 高一个数量级",
+            "对 CoreWeave 4 月 210 亿美元合约至 2032 年是产能底座"
+          ],
+          "key_points_en": [
+            "「Meta Compute」 project: direct challenge to AWS/Azure/Google Cloud",
+            "Zuckerberg rare admission: 4 months of AI agent progress fell short",
+            "May restructuring's assumption 「Claude Code-class tools will mature fast」 misfired",
+            "Next model Watermelon matches GPT-5.5, an order of magnitude more compute than Avocado",
+            "$21B CoreWeave contract (April, through 2032) anchors the capacity base"
+          ],
+          "url": "https://36kr.com/p/3879841742090242"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-07-04",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "ElevenLabs 员工股权出售冲刺 220 亿美元估值：AI 语音独角兽估值 5 个月翻倍",
+          "title_en": "ElevenLabs Tender Offer Targets $22B Valuation: AI Voice Unicorn Doubles in 5 Months",
+          "summary": "7 月 3 日彭博社报道，AI 语音独角兽 ElevenLabs 正与投资者就员工股权出售（Tender Offer）展开初步谈判，若交易顺利完成估值将达 220 亿美元（约人民币 1490 亿元），预计 2026 年 9 月前完成。此次并非新一轮融资，而是新投资者购买员工及早期股东持有股份。ElevenLabs 上一轮主要融资为 2026 年 2 月 D 轮 5 亿美元、投后 110 亿美元，由红杉、a16z、ICONIQ 领投；5 月英伟达追加投资加入。公司 ARR 已突破 5 亿美元，客户含德国电信、BCG、Revolut。",
+          "summary_en": "On July 3, Bloomberg reported that AI voice unicorn ElevenLabs is in early talks with investors on a tender offer that would peg valuation at $22B (RMB 149B) if completed—expected by September 2026. This is not a new funding round but new investors buying employee and early-shareholder stakes. ElevenLabs' prior main round was February 2026's $500M Series D at $11B post-money, led by Sequoia, a16z, and ICONIQ; NVIDIA joined via a May extension. The company's ARR crossed $500M, with customers including Deutsche Telekom, BCG, and Revolut.",
+          "source": "彭博社 / 智东西 / TechCrunch / ElevenLabs Blog",
+          "source_en": "Bloomberg / Zhidx / TechCrunch / ElevenLabs Blog",
+          "image": "img/pool/education-adaptive.jpg",
+          "content": "ElevenLabs 由两位波兰创业者 Mati Staniszewski（CEO）和 Piotr Dąbkowski（CTO）于 2022 年联合创办。斯坦尼斯泽夫斯基曾任职 Palantir，东布科夫斯基曾在谷歌做机器学习工程师——两人因早年在波兰观看低质量配音电影经历萌生创业想法。产品覆盖 AI 语音生成、语音克隆、TTS、实时语音交互能力，广告 / 有声书 / 影视 / 呼叫中心 / 企业培训五大商业化场景全面铺开。5 个月估值从 110 亿翻至 220 亿背后的关键数据：ARR 突破 5 亿美元，客户既有德国电信、BCG 这类大 B 端，也有 Revolut 这样的高频消费金融平台。相比 OpenAI Voice、Google TTS、微软 Azure Voice 这些巨头产品，ElevenLabs 的核心壁垒是 43 种语言的语音克隆保真度和实时对话延迟，这直接决定了呼叫中心与企业培训两个高单价场景的可用性。英伟达 5 月入股，是自研芯片圈内典型的「投重要客户以锁算力」逻辑。",
+          "content_en": "ElevenLabs was co-founded in 2022 by Polish entrepreneurs Mati Staniszewski (CEO) and Piotr Dąbkowski (CTO). Staniszewski was previously at Palantir; Dąbkowski was a machine-learning engineer at Google—both were inspired by their childhood experience of poorly dubbed films in Poland. Products span AI voice generation, voice cloning, text-to-speech, and real-time voice interaction, deployed across advertising, audiobooks, film/TV, call centers, and enterprise training. Behind the 5-month valuation double from $11B to $22B are two key numbers: ARR of $500M and a customer base that includes both large B2B names like Deutsche Telekom and BCG, and high-frequency consumer-finance platforms like Revolut. Compared to OpenAI Voice, Google TTS, and Microsoft Azure Voice from the giants, ElevenLabs' moat is voice-cloning fidelity across 43 languages plus real-time-conversation latency—both directly determine viability in the high-ticket call-center and enterprise-training scenarios. NVIDIA's May stake follows the familiar 「invest in key customers to lock compute demand」 playbook.",
+          "key_points": [
+            "估值 5 个月从 110 亿翻至 220 亿美元（约 1490 亿元人民币）",
+            "非新一轮融资，是新投资者购买员工与早期股东股份",
+            "ARR 突破 5 亿美元，客户含德国电信、BCG、Revolut",
+            "2 月 D 轮 5 亿美元领投方：红杉、a16z、ICONIQ；5 月英伟达追加",
+            "43 种语言语音克隆是核心壁垒，覆盖呼叫中心与企业培训"
+          ],
+          "key_points_en": [
+            "Valuation doubles from $11B to $22B in 5 months",
+            "Not a new round: new investors buy from employees and early shareholders",
+            "ARR crossed $500M with customers including Deutsche Telekom, BCG, Revolut",
+            "February Series D: $500M led by Sequoia, a16z, ICONIQ; NVIDIA joined in May",
+            "43-language voice cloning is the moat—key to call centers and enterprise training"
+          ],
+          "url": "https://tech.ifeng.com/c/8uSeugBS0vu"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-07-04",
+          "category": "大模型",
+          "category_en": "LLM",
+          "title": "DeepSeek V4 官宣 7 月中旬上线：首次引入 API 峰谷阶梯定价机制",
+          "title_en": "DeepSeek V4 Slated for Mid-July Launch: First Peak-Valley Tiered API Pricing",
+          "summary": "DeepSeek 官方 7 月 1 日宣布 V4 正式版将于 7 月中旬上线，最大变化是首次在国内开源大模型 API 中引入「峰谷分时定价」——高峰时段 Token 价格上浮约为此前一倍，低谷时段大幅优惠。这一机制目的是引导用户错峰调用、缓解算力波峰压力，标志中国大模型商业化进入精细化运营阶段。同期华为开源盘古大模型 openPangu 2.0 Flash、稀宇科技开源 MiniMax M3 旗舰模型，2026 上半年中国开源模型阵营完成新一轮阵形升级。",
+          "summary_en": "DeepSeek officially announced on July 1 that V4 will go live in mid-July, with its biggest change being the first 「peak-valley tiered pricing」 API model in China's open-source LLM camp—peak-hour Token prices roughly double the prior rate, while off-peak hours receive deep discounts. The mechanism guides users to shift workloads off-peak, easing compute-peak stress, and marks China's LLM commercialization entering a fine-grained operations phase. Alongside, Huawei open-sourced openPangu 2.0 Flash and MiniMax open-sourced its flagship M3—H1 2026 completes another lineup upgrade in China's open-source model camp.",
+          "source": "DeepSeek 官方 / 新智元 / 量子位 / 智源社区 / 36 氪",
+          "source_en": "DeepSeek official / Xinzhiyuan / Qbitai / BAAI Community / 36Kr",
+          "image": "img/pool/blockchain-defi-v3.jpg",
+          "content": "DeepSeek V4 峰谷定价的产业意义超过定价本身。过去三年国内大模型 API 主流是「统一定价 + 无差别按量计费」，价格战主导了 2024-2025 年的行业格局。V4 首次尝试「时段动态定价」，模仿电网、云主机 spot 实例的经典调度手段——高峰时段涨价抑制非紧急调用，低谷时段降价把闲置算力兑现。这一机制的可行性建立在 DeepSeek 已经跑通「万卡级国产算力集群 + 高峰谷差价推动异步作业」的基础设施能力上。同期发布的还有：华为开源 openPangu 2.0 Flash（35B 激活参数、MoE 架构）、稀宇科技开源 MiniMax M3（原生多模态 + 百万词元上下文）、明略科技开源 Octo 多 Agent 协作协议，加上美团 6 月 30 日发布的 LongCat-2.0（1.6 万亿参数、全栈国产芯片训练），中国开源模型阵营在 2026 上半年完成从「跟随者」到「基础设施提供方」的转型。",
+          "content_en": "The industry significance of DeepSeek V4's peak-valley pricing exceeds the pricing itself. For the past three years, the mainstream China LLM API model was 「flat pricing + undifferentiated pay-per-token」, and price wars dominated the 2024-2025 landscape. V4 is the first attempt at 「time-of-use dynamic pricing」, mirroring classic dispatch tactics from power grids and cloud spot instances—peak-hour price hikes suppress non-urgent calls, while off-peak discounts monetize idle compute. This mechanism's feasibility rests on DeepSeek's proven infrastructure: 10,000+ card domestic compute clusters plus peak-valley spreads driving async workload adoption. Concurrent releases: Huawei open-sourced openPangu 2.0 Flash (35B active params, MoE architecture); MiniMax open-sourced flagship M3 (native multi-modal + million-token context); Minglue Tech open-sourced Octo multi-agent collaboration protocol; and Meituan's June 30 release of LongCat-2.0 (1.6T params, full-stack domestic-chip training). China's open-source model camp completes its H1 2026 pivot from 「follower」 to 「infrastructure provider」.",
+          "key_points": [
+            "DeepSeek V4 7 月中旬上线，首次引入峰谷阶梯定价",
+            "高峰时段涨价、低谷降价，模仿电网 spot 定价机制",
+            "同期华为开源 openPangu 2.0 Flash、稀宇开源 MiniMax M3",
+            "明略科技开源 Octo 多 Agent 协作协议，试图解决 Agent 孤岛",
+            "中国开源阵营完成 H1 2026 从跟随者到基础设施提供方转型"
+          ],
+          "key_points_en": [
+            "DeepSeek V4 launches mid-July with the first peak-valley tiered pricing",
+            "Peak-hour prices up, off-peak down—mirroring power-grid spot pricing",
+            "Concurrent: Huawei openPangu 2.0 Flash, MiniMax M3 open-sourced",
+            "Minglue open-sources Octo multi-agent protocol to solve agent silos",
+            "H1 2026 marks China's open-source pivot from follower to infrastructure provider"
+          ],
+          "url": "http://m.toutiao.com/group/7658087554951971371/"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-07-04",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "Together AI 完成 8 亿美元 C 轮融资：AI 运行层估值 83 亿的产业信号",
+          "title_en": "Together AI Closes $800M Series C at $8.3B: A Signal for the AI Runtime Layer",
+          "summary": "7 月 1 日 Together AI 宣布完成 8 亿美元 C 轮融资，投后估值 83 亿美元。这是围绕开源模型搭建的 AI 云平台，连接上游 GPU 算力、中游开源模型（Llama、DeepSeek、Kimi、MiniMax）和下游企业应用，提供训练、微调、推理与部署一站式服务。资本给出更高估值背后是清晰的产业趋势：开源模型正在更大范围进入企业环境，围绕开源模型的运行平台开始具备独立价值。这也是继 Anyscale、Fireworks 之后又一个通过「开源模型 + GPU 云」组合突围的 AI 运行层玩家。",
+          "summary_en": "On July 1, Together AI announced an $800M Series C at $8.3B post-money. It's an AI cloud platform built around open-source models—connecting upstream GPU compute, midstream open models (Llama, DeepSeek, Kimi, MiniMax), and downstream enterprise applications, offering training, fine-tuning, inference, and deployment as one-stop service. The higher valuation reflects a clear industry trend: open-source models are entering enterprise environments at scale, and the runtime platforms around them are gaining independent value. This is another player—alongside Anyscale and Fireworks—breaking through with the 「open-source model + GPU cloud」 combo in the AI runtime layer.",
+          "source": "Together AI 官方 / 刀客 Doc / 头条科技 / TechCrunch",
+          "source_en": "Together AI official / Daoke Doc / Toutiao Tech / TechCrunch",
+          "image": "img/pool/startup-yc-batch-v3.jpg",
+          "content": "Together AI 的位置介于三层之间——上游 GPU 算力、中游开源模型、下游企业应用——它把底层 GPU 资源、模型框架、调度系统、推理服务和开发者工具整合起来，让企业更顺畅地把开源模型放进实际业务。相比闭源大模型公司需要自建模型 + 自建云 + 自建应用「三线并行」，AI 运行层玩家的商业模式更接近传统 SaaS 的「一横切多个用户」——毛利率、复购率、客户留存都更容易预测。资本给到 83 亿美元估值的核心逻辑是：GPU 需求从头部模型公司向 AI 应用公司和企业客户下沉，AI 云平台承担了「需求聚合器」的角色，分散的算力需求被集中起来再转化为对 GPU、服务器、网络设备、机柜和电力资源的统一采购。同期同类玩家动态：CoreWeave 4 月与 Meta 签下 210 亿美元 AI 云容量长约；Fireworks 3 月完成 5 亿美元 D 轮估值 60 亿；国内硅基流动 6 月 20 亿人民币 B 轮估值超 100 亿。",
+          "content_en": "Together AI sits at the intersection of three layers—upstream GPU compute, midstream open-source models, downstream enterprise applications—integrating GPU resources, model frameworks, scheduling systems, inference services, and developer tools so enterprises can plug open-source models into real business more smoothly. Compared to closed-source model companies that must build model + cloud + app in parallel, runtime-layer players' business model is closer to traditional SaaS's 「one horizontal serving many customers」—gross margin, repurchase rate, and customer retention are all more predictable. The core logic behind the $8.3B valuation: GPU demand is trickling down from frontier model companies to AI application companies and enterprises, and AI cloud platforms play the 「demand aggregator」 role, consolidating dispersed compute demand into unified procurement of GPUs, servers, network gear, racks, and power. Peer moves in the same period: CoreWeave signed $21B AI cloud capacity with Meta in April; Fireworks closed a $500M Series D at $6B in March; China's SiliconFlow raised RMB 2B in a Series B in June at over RMB 10B.",
+          "key_points": [
+            "Together AI 8 亿美元 C 轮，投后估值 83 亿美元",
+            "AI 运行层玩家的商业模式接近传统 SaaS，可预测性更高",
+            "支持 Llama / DeepSeek / Kimi / MiniMax 等开放模型",
+            "同类玩家：CoreWeave / Fireworks / 国内硅基流动共同拉高 AI 云估值",
+            "GPU 需求从头部模型公司向应用公司和企业客户下沉"
+          ],
+          "key_points_en": [
+            "Together AI's $800M Series C at $8.3B post-money valuation",
+            "Runtime-layer business model closer to traditional SaaS—more predictable",
+            "Supports Llama, DeepSeek, Kimi, MiniMax, and other open models",
+            "Peers: CoreWeave, Fireworks, and SiliconFlow are lifting AI-cloud valuations",
+            "GPU demand shifts down from frontier labs to AI app builders and enterprises"
+          ],
+          "url": "http://m.toutiao.com/group/7657014896617341467/"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-07-04",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "2026 上半年国内 AI 融资 3076.82 亿元：1600 家机构入局，红杉、高瓴、奇绩坛列头三家",
+          "title_en": "China H1 2026 AI Financing Hits RMB 307.68B: 1,600+ Institutions Enter, Sequoia/Hillhouse/MiraclePlus Top 3",
+          "summary": "IT 桔子 7 月 3 日数据：2026 年 1-6 月国内 AI 赛道股权融资 1203 起、融资金额突破 3076.82 亿元，远超 2025 年全年（约 400 亿元），同比翻近 8 倍。参与投资机构超 1600 家，其中 60 家出手 ≥10 次，是全赛道 25.4% 交易量的核心贡献者。头部机构：红杉中国、高瓴创投并列 43 次出手，奇绩创坛 40 次，北京国管 37 次，英诺基金 36 次，深创投、百度风投并列 27 次。地域上北上杭深四城贡献 73.89% 总交易数、垄断 86% 融资规模；北京 955.17 亿领跑，杭州 DeepSeek 510 亿单笔一举反超上海。",
+          "summary_en": "According to IT Juzi's July 3 data, China's H1 2026 AI equity financing recorded 1,203 events totaling RMB 307.68B—vastly exceeding the full year of 2025 (~RMB 40B) and up nearly 8x YoY. Over 1,600 institutions participated, with 60 making ≥10 investments—accounting for 25.4% of all deal volume. Top institutions: Sequoia China and Hillhouse Capital tied at 43 investments, MiraclePlus at 40, Beijing Guoguan at 37, Innovation Angel Fund at 36, ShenzhenCapital and Baidu Ventures tied at 27. Geographically, the four hubs of Beijing/Shanghai/Hangzhou/Shenzhen account for 73.89% of deal count and 86% of funding volume; Beijing leads with RMB 95.5B; Hangzhou surpassed Shanghai on the back of DeepSeek's single RMB 51B round.",
+          "source": "IT 桔子 / 36 氪 / 极新月报 / 烯牛数据 / 财新网",
+          "source_en": "IT Juzi / 36Kr / Jixin Monthly / Xiniu Data / Caixin",
+          "image": "img/pool/autonomous-drone-v3.jpg",
+          "content": "2026 上半年国内 AI 融资出现四大结构性变化。第一，融资规模半年反超 2025 全年 7 倍——3 月起单月维持 400 亿元以上、6 月单月突破 1000 亿元（主因 DeepSeek 510 亿元首轮落地）。第二，头部集中度极高——TOP20 项目占融资总额约 51%，DeepSeek / 阶跃星辰 / Kimi 三家分别 510 / 230 / 189 亿元领跑大模型阵营，具身智能「七武士」（自变量、智平方、千寻智能、极佳视界、星海图、银河通用、星动纪元）合计 282.26 亿元占 TOP20 的 18%，AIGC 应用「三剑客」（生数、Sand.ai、LiblibAI）与爱诗合计 67.78 亿元。第三，投资机构分四梯队——60 家 ≥10 次为全赛道核心玩家，130 家 5-9 次为细分赛道中坚，其余 1400 家为长尾机构。第四，地域集中北上杭深四城 —— 北京 321 起 / 955 亿领跑，杭州 DeepSeek 单笔反超上海 / 深圳，长三角集聚效应显著。",
+          "content_en": "China's H1 2026 AI financing shows four structural shifts. First, half-year financing overtook 2025's full year by 7x—monthly volume held above RMB 40B from March, breaking RMB 100B in June (driven mainly by DeepSeek's RMB 51B first round). Second, top concentration is extreme—TOP 20 projects account for ~51% of total; DeepSeek/Stepfun/Kimi lead the model camp at RMB 51B/23B/18.9B respectively; the embodied-AI 「Seven Samurai」 (X-Humanoid, ZhiPingfang, Chaser AI, JiaVis, StarSea Diagram, Galbot, StarDynamics) collectively raised RMB 28.226B (18% of TOP 20); the AIGC application 「Three Musketeers」 (Vidu, Sand.ai, LiblibAI) plus Aicheer totaled RMB 6.778B. Third, investors split into four tiers—60 with ≥10 deals as core players, 130 with 5-9 deals as deep-vertical mainstays, remaining 1,400 in the long tail. Fourth, geographic concentration in Beijing/Shanghai/Hangzhou/Shenzhen—Beijing leads with 321 deals/RMB 95.5B; Hangzhou's single DeepSeek round put it ahead of Shanghai/Shenzhen; Yangtze Delta clustering is pronounced.",
+          "key_points": [
+            "H1 2026 国内 AI 融资 1203 起、3076.82 亿元，同比翻近 8 倍",
+            "60 家机构出手 ≥10 次为核心：红杉 / 高瓴各 43、奇绩 40",
+            "TOP20 项目占 51%：DeepSeek / 阶跃 / Kimi 领跑大模型",
+            "具身智能「七武士」合计 282 亿元，占 TOP20 的 18%",
+            "北上杭深四城贡献 73.89% 交易数与 86% 融资规模"
+          ],
+          "key_points_en": [
+            "H1 2026 AI financing: 1,203 events, RMB 307.68B—up nearly 8x YoY",
+            "60 institutions with ≥10 deals form the core: Sequoia/Hillhouse 43 each, MiraclePlus 40",
+            "TOP 20 = 51% of total; DeepSeek/Stepfun/Kimi lead the model camp",
+            "Embodied-AI 「Seven Samurai」 total RMB 28.2B, 18% of TOP 20",
+            "Beijing/Shanghai/Hangzhou/Shenzhen: 73.89% of deals, 86% of funding"
+          ],
+          "url": "https://36kr.com/p/3879665206407427"
+        }
+      ]
+    },
     {
       "date": "2026-07-03",
       "hero": {
@@ -1212,325 +1530,6 @@
         "category": "产业",
         "category_en": "Industry Analysis"
       }
-    },
-    {
-      "date": "2026-06-29",
-      "hero": {
-        "id": "hero-20260629",
-        "title": "先进封装产业链全面爆发：日月光净利 +58%、CoWoS 缺口 20%、长电科技 4 天 3 涨停",
-        "title_en": "Advanced Packaging Boom: ASE Net Profit +58%, CoWoS Shortage 20%, JCET 3 Limit-Ups in 4 Days",
-        "image": "img/pool/industry-digital-twin.jpg",
-        "date": "2026-06-29",
-        "source": "财联社 / 经济日报 / 集微网",
-        "source_en": "CLS / Economic Daily / IJiwei",
-        "summary": "AI 芯片需求把先进封装从产业链末端推到价值核心：日月光 Q2 净利同比 +58%，CoWoS 缺口仍达 20-25%，长电科技获 78 亿元临港新厂投资、目标价上调至 110 元，HBM 容量三年翻三倍。供给端三梯队（台系/陆系/日韩）同步扩产，叠加三星 1000 万亿韩元韩国半导体投资与北京太空算力大会启幕，半导体产业进入「精装修」时代。",
-        "summary_en": "AI chip demand has pushed advanced packaging from the back-end to the core of the value chain: ASE Q2 net profit +58% YoY, CoWoS shortfall still at 20-25%, JCET secured 7.8B yuan Lingang fab with target price raised to 110 yuan, HBM capacity to triple in three years. Three tiers of suppliers (Taiwan / mainland / Japan-Korea) are expanding in sync. Combined with Samsung's 1,000T won Korean semiconductor program and the Beijing Space Computing Summit, semiconductors enter the era of 'fine decoration'.",
-        "category": "产业",
-        "category_en": "Industry Analysis"
-      },
-      "last_updated": "2026-06-29",
-      "articles": [
-        {
-          "id": "news-20260629-1",
-          "date": "2026-06-29",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "高通 39 亿美元收购 Modular，Chris Lattner 领衔挑战 CUDA 护城河",
-          "title_en": "Qualcomm Acquires Modular for $3.9B, Chris Lattner Leads Charge Against CUDA Moat",
-          "summary": "高通宣布 39 亿美元收购 AI 软件栈公司 Modular，吸纳 Swift / LLVM / MLIR / Mojo 之父 Chris Lattner 及 250 人团队，Mark Zuckerberg 公开站台。",
-          "summary_en": "Qualcomm announces $3.9B acquisition of Modular, absorbing Swift/LLVM/MLIR/Mojo creator Chris Lattner and a 250-person team. Mark Zuckerberg publicly endorses the move.",
-          "source": "Qualcomm 公告 / 彭博",
-          "source_en": "Qualcomm Press / Bloomberg",
-          "image": "img/pool/investment-acquisition.jpg",
-          "content": "高通 6/28 宣布以 39 亿美元股票收购 AI 编译器与运行时公司 Modular，预计 2026 年 Q4 完成交割。Modular 旗下的 Mojo 语言与 MAX 平台支持跨芯片厂商部署，2025 年估值已达 17 亿美元。Mark Zuckerberg 在采访中称这笔交易让高通拿到了「真正能挑战 CUDA 的软件基底」。高通同步开放 Snapdragon 数据中心路线图，2027 年底前将首批 AI 加速器送样。",
-          "content_en": "On June 28, Qualcomm announced a $3.9B all-stock acquisition of AI compiler and runtime company Modular, expected to close in Q4 2026. Modular's Mojo language and MAX platform support cross-vendor deployment, with a 2025 valuation of $1.7B. Mark Zuckerberg called the deal Qualcomm's first real software foundation to challenge CUDA. Qualcomm simultaneously released a Snapdragon Data Center roadmap, with first AI accelerator samples due by end-2027.",
-          "key_points": [
-            "39 亿美元股票交易 Q4 完成",
-            "Chris Lattner 出任高通首席软件官",
-            "Mojo + MAX 跨芯片厂商方案",
-            "Snapdragon 数据中心 2027 送样",
-            "扎克伯格公开力挺"
-          ],
-          "key_points_en": [
-            "$3.9B all-stock deal closing Q4",
-            "Chris Lattner becomes Qualcomm CSO",
-            "Mojo + MAX cross-vendor stack",
-            "Snapdragon Data Center samples 2027",
-            "Zuckerberg publicly endorses"
-          ],
-          "url": "https://www.qualcomm.com/news"
-        },
-        {
-          "id": "news-20260629-2",
-          "date": "2026-06-29",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "三星 1000 万亿韩元押注半导体：HBM 与代工三线同推",
-          "title_en": "Samsung Bets 1,000 Trillion Won on Semiconductors: HBM and Foundry Triple Push",
-          "summary": "三星宣布未来 10 年向半导体投入 1000 万亿韩元（约 7300 亿美元），重点扩 HBM4/HBM4E、平泽 P5 代工厂与平山系统芯片产线。",
-          "summary_en": "Samsung pledges 1,000 trillion won (~$730B) to semiconductors over 10 years, prioritizing HBM4/HBM4E, Pyeongtaek P5 foundry, and Pyongsan system chip lines.",
-          "source": "韩联社 / 三星电子",
-          "source_en": "Yonhap / Samsung Electronics",
-          "image": "img/pool/industry-robot-arm.jpg",
-          "content": "韩国政府与三星电子 6/28 联合公布「半导体生态超级计划」，未来 10 年 1000 万亿韩元投资将分三部分：HBM4 / HBM4E 量产产能扩 2.5 倍、平泽 P5 厂 2nm GAA 工艺扩产、与韩国政府共建半导体人才教育园区。三星称该计划意在「重建 HBM 龙头地位、并把代工市占率拉回 25% 以上」。",
-          "content_en": "On June 28, the Korean government and Samsung Electronics jointly unveiled a Semiconductor Ecosystem Super Plan: a 1,000T won investment over 10 years split into HBM4/HBM4E capacity expansion (2.5x), Pyeongtaek P5 2nm GAA foundry ramp, and a national semiconductor talent campus. Samsung says the plan aims to 'restore HBM leadership and pull foundry share back above 25%'.",
-          "key_points": [
-            "1000 万亿韩元 ≈ 7300 亿美元",
-            "HBM4/HBM4E 产能扩 2.5 倍",
-            "平泽 P5 厂 2nm GAA 扩产",
-            "代工市占率目标 ≥25%",
-            "政府主导人才园区"
-          ],
-          "key_points_en": [
-            "1,000T won ≈ $730B",
-            "HBM4/HBM4E capacity 2.5x",
-            "Pyeongtaek P5 2nm GAA ramp",
-            "Foundry market share target ≥25%",
-            "Government-led talent campus"
-          ],
-          "url": "https://news.samsung.com"
-        },
-        {
-          "id": "news-20260629-3",
-          "date": "2026-06-29",
-          "category": "产业",
-          "category_en": "Industry",
-          "title": "北京太空算力大会启幕：把数据中心搬上轨道",
-          "title_en": "Beijing Space Computing Summit Opens: Lifting Data Centers into Orbit",
-          "summary": "首届北京太空算力大会 6/28-6/30 召开，国电高科、中科宇航等公布在轨算力卫星组网计划，2030 年前部署 1EFLOPS 太空算力网。",
-          "summary_en": "The inaugural Beijing Space Computing Summit (June 28-30) saw Guodian Gaoke, CAS Space and others unveil orbital compute satellite roadmaps, targeting 1 EFLOPS of space compute by 2030.",
-          "source": "新华社 / 中国航天报",
-          "source_en": "Xinhua / China Aerospace News",
-          "image": "img/pool/network-satellite.jpg",
-          "content": "首届北京太空算力大会公布「太空 AI 算力网络」白皮书：2027 年首批 5 颗算力卫星入轨，2030 年前组成 200 星座，提供 1 EFLOPS 在轨算力，重点服务遥感数据实时处理、低延迟跨境通信和应急 AI 推理。中科宇航同步推出 Pallas-2 重型火箭，单发可送 25 吨算力载荷至 LEO。",
-          "content_en": "The inaugural Beijing Space Computing Summit released the Space AI Compute Network white paper: the first 5 compute satellites will reach orbit in 2027, with a 200-satellite constellation by 2030 delivering 1 EFLOPS of in-orbit compute for real-time remote sensing, low-latency cross-border comms and emergency AI inference. CAS Space introduced the Pallas-2 heavy launcher, capable of delivering 25 tons of compute payload to LEO per launch.",
-          "key_points": [
-            "2027 年首批 5 颗算力卫星",
-            "2030 年 200 星组网",
-            "1 EFLOPS 太空算力目标",
-            "Pallas-2 火箭单发 25 吨",
-            "聚焦遥感与低延迟推理"
-          ],
-          "key_points_en": [
-            "5 compute sats by 2027",
-            "200-sat constellation by 2030",
-            "1 EFLOPS in-orbit target",
-            "Pallas-2 25t to LEO per launch",
-            "RS and low-latency inference focus"
-          ],
-          "url": "https://www.xinhuanet.com"
-        },
-        {
-          "id": "news-20260629-4",
-          "date": "2026-06-29",
-          "category": "产业",
-          "category_en": "Industry",
-          "title": "日月光 Q2 净利同比 +58%，CoWoS 仍缺口 20-25%",
-          "title_en": "ASE Q2 Net Profit +58% YoY, CoWoS Still Faces 20-25% Shortfall",
-          "summary": "日月光 ASE 公布 2026Q2 净利同比 +58%，CoWoS 产能利用率 100%、客户排单到 2027Q1，先进封装毛利率突破 45%。",
-          "summary_en": "ASE reports 2026Q2 net profit up 58% YoY, with CoWoS utilization at 100% and orders booked into Q1 2027. Advanced packaging gross margin tops 45%.",
-          "source": "日月光投控公告",
-          "source_en": "ASE Holdings",
-          "image": "img/pool/chip-photonic.jpg",
-          "content": "日月光投控 6/28 公布 2026Q2 财报：营收 1980 亿新台币（同比 +33%）、净利 280 亿（同比 +58%）。先进封装业务收入占比首次突破 55%，毛利率 45.2%，CoWoS 与 SoIC 排单覆盖到 2027Q1，公司将 2026 全年资本开支从 1100 亿上调至 1450 亿新台币，主要用于高雄 K25 厂扩产。",
-          "content_en": "ASE Holdings released Q2 2026 results on June 28: revenue NT$198B (+33% YoY), net profit NT$28B (+58%). Advanced packaging exceeded 55% of revenue for the first time at 45.2% gross margin, with CoWoS and SoIC bookings extending into Q1 2027. ASE raised 2026 capex from NT$110B to NT$145B, primarily for K25 Kaohsiung expansion.",
-          "key_points": [
-            "Q2 净利同比 +58%",
-            "先进封装营收占比 >55%",
-            "毛利率 45.2%",
-            "CoWoS 排单到 2027Q1",
-            "资本开支上调至 1450 亿新台币"
-          ],
-          "key_points_en": [
-            "Q2 net profit +58% YoY",
-            "Adv packaging >55% of revenue",
-            "Gross margin 45.2%",
-            "CoWoS booked to Q1 2027",
-            "Capex raised to NT$145B"
-          ],
-          "url": "https://www.aseglobal.com/investors"
-        },
-        {
-          "id": "news-20260629-5",
-          "date": "2026-06-29",
-          "category": "产业",
-          "category_en": "Industry",
-          "title": "长电科技获 78 亿元临港新厂投资，4 天 3 个涨停",
-          "title_en": "JCET Lands 7.8B Yuan Lingang Fab, Hits 3 Limit-Ups in 4 Days",
-          "summary": "国家大基金二期与上海临港集团联手注资长电科技 78 亿元，建设 HBM 后段先进封装产线；公司股价 4 个交易日 3 次涨停，目标价上调至 110 元。",
-          "summary_en": "China's Big Fund II and Shanghai Lingang invest 7.8B yuan in JCET for an HBM back-end advanced packaging line. JCET shares hit 3 limit-ups in 4 trading days; target price raised to 110 yuan.",
-          "source": "证券时报 / 长电科技公告",
-          "source_en": "Securities Times / JCET Press",
-          "image": "img/pool/investment-mergers-v3.jpg",
-          "content": "长电科技 6/27 晚公告，获得国家大基金二期 + 上海临港集团合计 78 亿元注资，用于在临港新建 HBM 后段先进封装基地，规划年产能 36 万片晶圆等效，2027Q3 量产。中金、申万均把目标价上调至 110 元；公司股价 6/24-6/27 间出现 3 次涨停。",
-          "content_en": "JCET disclosed on June 27 a combined 7.8B yuan investment from China's Big Fund II and Shanghai Lingang, funding a new HBM back-end advanced packaging fab in Lingang with planned annual capacity of 360k wafer equivalents, mass production in Q3 2027. CICC and Shenwan both raised the target price to 110 yuan; the stock hit 3 limit-ups between June 24 and June 27.",
-          "key_points": [
-            "大基金二期 + 临港注资 78 亿",
-            "HBM 后段封装产线",
-            "年产能 36 万片晶圆等效",
-            "目标价上调至 110 元",
-            "4 天 3 次涨停"
-          ],
-          "key_points_en": [
-            "7.8B yuan from Big Fund II + Lingang",
-            "HBM back-end packaging line",
-            "360k wafer eq. annual capacity",
-            "Target price 110 yuan",
-            "3 limit-ups in 4 days"
-          ],
-          "url": "http://www.jcetglobal.com"
-        },
-        {
-          "id": "news-20260629-6",
-          "date": "2026-06-29",
-          "category": "自动驾驶",
-          "category_en": "Autonomous Driving",
-          "title": "比亚迪发布璇玑 A3 智驾平台：单芯片 1024 TOPS、L4 城区上路",
-          "title_en": "BYD Unveils Xuanji A3 Driving Platform: 1,024 TOPS Single Chip, L4 Urban Deployment",
-          "summary": "比亚迪发布璇玑 A3 自研智驾平台，单 SoC 1024 TOPS，年底上车汉 L、唐 L，2027 年支持城区 L4 自动驾驶。",
-          "summary_en": "BYD unveils the Xuanji A3 in-house driving platform with 1,024 TOPS per SoC, debuting in Han L and Tang L by year-end, with urban L4 support coming in 2027.",
-          "source": "比亚迪汽车 / 第一财经",
-          "source_en": "BYD Auto / Yicai",
-          "image": "img/pool/autonomous-drone-v3.jpg",
-          "content": "比亚迪 6/28 在惠州亚迪科技大会发布璇玑 A3 智驾平台：自研 NPU 单芯片算力 1024 TOPS，端到端模型推理时延 8ms。该平台 2026Q4 首发汉 L、唐 L，2027Q2 支持限定城区 L4 自动驾驶；公司同步开放璇玑 A3 SDK，引入鸿蒙智行、广汽、岚图三家合作。",
-          "content_en": "On June 28, BYD unveiled the Xuanji A3 driving platform at its Huizhou Yadi tech summit: an in-house NPU SoC delivering 1,024 TOPS with 8ms end-to-end inference latency. The platform launches in Han L and Tang L in Q4 2026, with limited urban L4 support in Q2 2027. BYD also opened the Xuanji A3 SDK to Harmony Intelligent Mobility, GAC and Voyah.",
-          "key_points": [
-            "单 SoC 1024 TOPS",
-            "端到端推理 8ms",
-            "汉 L / 唐 L 年底首发",
-            "2027Q2 城区 L4",
-            "开放 SDK 引入三方合作"
-          ],
-          "key_points_en": [
-            "1,024 TOPS per SoC",
-            "8ms end-to-end inference",
-            "Han L / Tang L launch Q4 2026",
-            "Urban L4 in Q2 2027",
-            "Open SDK with 3 partners"
-          ],
-          "url": "https://www.byd.com"
-        },
-        {
-          "id": "news-20260629-7",
-          "date": "2026-06-29",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "Momenta 通过港交所聆讯，预计 7 月 IPO 融资 12 亿美元",
-          "title_en": "Momenta Passes HKEX Hearing, July IPO Targeting $1.2B",
-          "summary": "Momenta 通过港交所聆讯，预计 7 月初挂牌融资 12 亿美元，将成为港股「自动驾驶第一股」。",
-          "summary_en": "Momenta passed the HKEX hearing and plans an early-July listing targeting $1.2B, set to become Hong Kong's first autonomous-driving listed company.",
-          "source": "香港交易所 / 21 世纪经济报道",
-          "source_en": "HKEX / 21st Century Business Herald",
-          "image": "img/pool/investment-ipo.jpg",
-          "content": "Momenta 6/28 通过港交所聆讯，承销团由中金、瑞银、汇丰组成，募资规模约 12 亿美元，估值 80 亿美元。招股书显示 2025 年营收 32 亿元、毛利率 38%，已与上汽、奥迪、丰田三家车企签订定点协议。预计 7 月 8 日左右挂牌，将成为港股自动驾驶第一股。",
-          "content_en": "Momenta cleared the HKEX hearing on June 28. CICC, UBS and HSBC are leading the offering, targeting $1.2B at an $8B valuation. The prospectus shows 2025 revenue of 3.2B yuan and 38% gross margin, with awarded programs at SAIC, Audi and Toyota. Listing is expected around July 8, making Momenta Hong Kong's first listed autonomous-driving pure-play.",
-          "key_points": [
-            "募资 12 亿美元 估值 80 亿",
-            "中金/瑞银/汇丰承销",
-            "2025 营收 32 亿 毛利率 38%",
-            "SAIC/Audi/Toyota 定点",
-            "港股 7 月 8 日挂牌"
-          ],
-          "key_points_en": [
-            "$1.2B raise at $8B valuation",
-            "CICC/UBS/HSBC underwriters",
-            "2025 revenue 3.2B yuan, 38% GM",
-            "Awarded by SAIC/Audi/Toyota",
-            "Listing target July 8"
-          ],
-          "url": "https://www.hkex.com.hk"
-        },
-        {
-          "id": "news-20260629-8",
-          "date": "2026-06-29",
-          "category": "算力",
-          "category_en": "Compute Infrastructure",
-          "title": "国内首个 1000P 智算中心在合肥点亮：单集群 5 万张昇腾 910C",
-          "title_en": "China's First 1,000-PFLOPS Intelligent Compute Center Goes Live in Hefei",
-          "summary": "合肥智算中心二期 6/28 点亮，单集群部署 5 万张昇腾 910C，FP16 算力突破 1000 PFLOPS，主要服务国家实验室与大模型训练。",
-          "summary_en": "Hefei Intelligent Compute Center Phase II went live on June 28 with 50k Ascend 910C accelerators, exceeding 1,000 PFLOPS at FP16, serving national labs and foundation model training.",
-          "source": "合肥日报 / 国家超算合肥中心",
-          "source_en": "Hefei Daily / National Supercomputing Hefei",
-          "image": "img/pool/datacenter-cooling.jpg",
-          "content": "合肥智算中心二期 6/28 正式投运，单集群部署 5 万张昇腾 910C 加速卡，FP16 算力达 1080 PFLOPS、FP8 突破 2160 PFLOPS。中心采用浸没式液冷 + 自研 RoCEv3 互联，PUE 1.08。一期已为科大讯飞星火 V6 训练提供 320 PFLOPS 算力，二期对国家实验室、长三角车企 AI 训练开放。",
-          "content_en": "Hefei Intelligent Compute Center Phase II went online June 28, deploying 50,000 Ascend 910C accelerators in a single cluster: 1,080 PFLOPS FP16 and 2,160 PFLOPS FP8. The facility uses immersion cooling with in-house RoCEv3 interconnect (PUE 1.08). Phase I already provided 320 PFLOPS for iFLYTEK Spark V6 training; Phase II opens to national labs and Yangtze River Delta automakers.",
-          "key_points": [
-            "单集群 5 万张昇腾 910C",
-            "FP16 1080 PFLOPS FP8 2160 PFLOPS",
-            "PUE 1.08 浸没式液冷",
-            "自研 RoCEv3 互联",
-            "服务讯飞 / 国家实验室 / 车企"
-          ],
-          "key_points_en": [
-            "50k Ascend 910C single cluster",
-            "1080 PFLOPS FP16 / 2160 PFLOPS FP8",
-            "PUE 1.08 immersion cooled",
-            "In-house RoCEv3 interconnect",
-            "Serves iFLYTEK/labs/OEMs"
-          ],
-          "url": "http://www.nscchf.com.cn"
-        },
-        {
-          "id": "news-20260629-9",
-          "date": "2026-06-29",
-          "category": "产业",
-          "category_en": "Industry",
-          "title": "中国电子行业 1-5 月利润同比 +103.9%，半导体设备贡献近半增量",
-          "title_en": "China Electronics Industry Profits +103.9% YoY in Jan-May, Semi Equipment Contributes Half",
-          "summary": "工信部公布 1-5 月电子信息制造业利润总额同比 +103.9%，半导体设备、先进封装、HBM 贡献近一半增量。",
-          "summary_en": "MIIT reports electronics manufacturing profits up 103.9% YoY in Jan-May 2026, with semiconductor equipment, advanced packaging and HBM contributing nearly half the increment.",
-          "source": "工信部 / 国家统计局",
-          "source_en": "MIIT / National Bureau of Statistics",
-          "image": "img/pool/industry-predictive.jpg",
-          "content": "工信部 6/27 公布 2026 年 1-5 月电子信息制造业经济运行数据：规模以上企业营业收入 8.6 万亿元（同比 +18.2%），利润总额 4820 亿元（同比 +103.9%）。其中半导体设备贡献利润增量约 880 亿（+45%），先进封装 410 亿（+38%），HBM 与存储 360 亿（+32%）。出口结构出现 AI 服务器、HBM 模组、汽车电子三条新增长极。",
-          "content_en": "On June 27, MIIT released electronics manufacturing data for Jan-May 2026: revenue 8.6 trillion yuan (+18.2% YoY), profit 482B yuan (+103.9%). Semiconductor equipment added ~88B yuan in profit (+45%), advanced packaging 41B (+38%), HBM and memory 36B (+32%). Exports show three new growth engines: AI servers, HBM modules and automotive electronics.",
-          "key_points": [
-            "营收 8.6 万亿同比 +18.2%",
-            "利润 4820 亿同比 +103.9%",
-            "半导体设备贡献 880 亿增量",
-            "先进封装贡献 410 亿增量",
-            "AI 服务器/HBM/汽车电子三新极"
-          ],
-          "key_points_en": [
-            "Revenue 8.6T yuan +18.2%",
-            "Profit 482B yuan +103.9%",
-            "Semi equipment +88B yuan",
-            "Adv packaging +41B yuan",
-            "3 new export engines"
-          ],
-          "url": "https://www.miit.gov.cn"
-        },
-        {
-          "id": "news-20260629-10",
-          "date": "2026-06-29",
-          "category": "大模型",
-          "category_en": "Foundation Models",
-          "title": "Anthropic 内部预告 Claude 4.5 三模型矩阵：Opus/Sonnet/Haiku 月内更新",
-          "title_en": "Anthropic Previews Claude 4.5 Tri-Model Matrix: Opus/Sonnet/Haiku Updates Within Month",
-          "summary": "Anthropic 内部备忘录显示 Claude 4.5 系列将在 7 月初发布，Opus 主攻 AI Agent 长任务、Sonnet 提升代码与多模态、Haiku 进入边缘端。",
-          "summary_en": "An internal Anthropic memo indicates the Claude 4.5 family will launch in early July: Opus targeting long-horizon agents, Sonnet improving code and multimodal, Haiku moving to edge devices.",
-          "source": "The Information / Anthropic 备忘录",
-          "source_en": "The Information / Anthropic Memo",
-          "image": "img/pool/llm-finetune-v3.jpg",
-          "content": "据 The Information 6/28 获取的 Anthropic 内部备忘录，Claude 4.5 系列将于 7 月 8-15 日陆续上线：Opus 4.5 对齐 GPT-5.5 in agentic 长任务，工具调用稳定性提升 30%；Sonnet 4.5 代码 SWE-Bench 突破 75%，原生 720p 视频理解；Haiku 4.5 通过蒸馏压到 3.4B 参数，可在 Snapdragon X2 与高通 AI100 端侧推理。",
-          "content_en": "Per a June 28 The Information memo, the Claude 4.5 series ships July 8-15: Opus 4.5 matches GPT-5.5 on agentic long-horizon tasks with +30% tool-use reliability; Sonnet 4.5 exceeds 75% on SWE-Bench and natively understands 720p video; Haiku 4.5 distills to 3.4B parameters running on Snapdragon X2 and Qualcomm AI100.",
-          "key_points": [
-            "7 月 8-15 日陆续上线",
-            "Opus 工具调用稳定性 +30%",
-            "Sonnet SWE-Bench >75% + 720p 视频",
-            "Haiku 蒸馏到 3.4B 端侧",
-            "覆盖 Agent/代码/边缘三条主线"
-          ],
-          "key_points_en": [
-            "Rolling launch July 8-15",
-            "Opus tool reliability +30%",
-            "Sonnet SWE-Bench >75% + 720p video",
-            "Haiku distilled to 3.4B edge",
-            "Agent/code/edge three-prong"
-          ],
-          "url": "https://www.anthropic.com/news"
-        }
-      ]
     }
   ],
   "hero": {

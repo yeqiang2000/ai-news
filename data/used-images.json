@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-04",
   "used_urls": [
     "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
@@ -193,7 +193,17 @@
     "img/pool/healthcare-telemedicine.jpg",
     "img/pool/robotics-surgery-v3.jpg",
     "img/pool/vr-ar-gaming.jpg",
-    "img/pool/vr-ar-surgery.jpg"
+    "img/pool/vr-ar-surgery.jpg",
+    "img/pool/investment-portfolio-v3.jpg",
+    "img/pool/startup-yc-batch-v3.jpg",
+    "img/pool/education-adaptive.jpg",
+    "img/pool/startup-product-launch-v3.jpg",
+    "img/pool/network-satellite.jpg",
+    "img/pool/startup-unicorn-v3.jpg",
+    "img/pool/startup-pitch-v3.jpg",
+    "img/pool/blockchain-zk-proof-v3.jpg",
+    "img/pool/autonomous-drone-v3.jpg",
+    "img/pool/blockchain-defi-v3.jpg"
   ],
   "total_used": 192
 }
