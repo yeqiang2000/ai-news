@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-06-26",
+  "last_updated": "2026-07-05",
   "images": [
     {
       "id": "unsplash-1451187580459-43490279c0fa",
@@ -1840,6 +1840,126 @@
         "open_source"
       ],
       "desc": "Kids learning to code AI at programming summer camp, computational thinking education, professional "
+    },
+    {
+      "id": "agnes-llm-pricing-tier-v4",
+      "url": "img/pool/llm-pricing-tier-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "deep_analysis"
+      ],
+      "desc": "AI model pricing tier dashboard with subscription vs pay-per-token metrics, SaaS billing analysis, p"
+    },
+    {
+      "id": "agnes-llm-usage-credit-v4",
+      "url": "img/pool/llm-usage-credit-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM",
+        "AI_applications"
+      ],
+      "desc": "AI usage credit meter counter on developer dashboard, token consumption tracker, professional tech p"
+    },
+    {
+      "id": "agnes-industry-neocloud-v4",
+      "url": "img/pool/industry-neocloud-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry",
+        "data_center"
+      ],
+      "desc": "New cloud GPU rental data center with rows of NVIDIA H100 servers cooling systems, neocloud infrastr"
+    },
+    {
+      "id": "agnes-data-center-gpu-rack-v4",
+      "url": "img/pool/data-center-gpu-rack-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center",
+        "chips"
+      ],
+      "desc": "GPU rack close-up in modern AI data center with blue cooling lights, hyperscale computing, professio"
+    },
+    {
+      "id": "agnes-investment-japan-us-v4",
+      "url": "img/pool/investment-japan-us-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment",
+        "industry"
+      ],
+      "desc": "Japanese executive shaking hands with American official at data center groundbreaking ceremony, cros"
+    },
+    {
+      "id": "agnes-energy-gas-turbine-v4",
+      "url": "img/pool/energy-gas-turbine-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy",
+        "data_center"
+      ],
+      "desc": "Natural gas turbine power plant next to AI data center construction site, energy infrastructure, pro"
+    },
+    {
+      "id": "agnes-chips-nvidia-h200-v4",
+      "url": "img/pool/chips-nvidia-h200-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips",
+        "data_center"
+      ],
+      "desc": "Latest NVIDIA H200 style AI chip package close-up on server motherboard, cutting edge silicon, profe"
+    },
+    {
+      "id": "agnes-industry-ai-ranking-v4",
+      "url": "img/pool/industry-ai-ranking-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry",
+        "deep_analysis"
+      ],
+      "desc": "Global AI model leaderboard on large office display with ranking data visualization, competitive int"
+    },
+    {
+      "id": "agnes-open-source-china-v4",
+      "url": "img/pool/open-source-china-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source",
+        "LLM"
+      ],
+      "desc": "Open source Chinese AI model repository interface on developer screen, DeepSeek MiniMax Qwen ecosyst"
+    },
+    {
+      "id": "agnes-industry-token-usage-v4",
+      "url": "img/pool/industry-token-usage-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry",
+        "AI_applications"
+      ],
+      "desc": "AI token usage analytics dashboard showing surging chart with global heat map, API consumption trend"
+    },
+    {
+      "id": "agnes-policy-ai-benefit-v4",
+      "url": "img/pool/policy-ai-benefit-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy",
+        "investment"
+      ],
+      "desc": "US Capitol building with AI regulation documents overlay, government tech policy hearing, profession"
+    },
+    {
+      "id": "agnes-robotics-humanoid-lab-v4",
+      "url": "img/pool/robotics-humanoid-lab-v4.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics",
+        "startup"
+      ],
+      "desc": "Humanoid robot in research lab with engineers testing motion control, embodied AI startup, professio"
     }
   ]
 }

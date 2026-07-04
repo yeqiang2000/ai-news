@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-05",
   "used_urls": [
     "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
@@ -203,7 +203,17 @@
     "img/pool/startup-pitch-v3.jpg",
     "img/pool/blockchain-zk-proof-v3.jpg",
     "img/pool/autonomous-drone-v3.jpg",
-    "img/pool/blockchain-defi-v3.jpg"
+    "img/pool/blockchain-defi-v3.jpg",
+    "img/pool/chips-nvidia-h200-v4.jpg",
+    "img/pool/policy-ai-benefit-v4.jpg",
+    "img/pool/industry-token-usage-v4.jpg",
+    "img/pool/llm-pricing-tier-v4.jpg",
+    "img/pool/data-center-gpu-rack-v4.jpg",
+    "img/pool/industry-ai-ranking-v4.jpg",
+    "img/pool/industry-neocloud-v4.jpg",
+    "img/pool/energy-gas-turbine-v4.jpg",
+    "img/pool/robotics-humanoid-lab-v4.jpg",
+    "img/pool/llm-usage-credit-v4.jpg"
   ],
   "total_used": 192
 }
