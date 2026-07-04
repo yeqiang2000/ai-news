@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-07-05 07:05 — 日更三件套（article-34 + 微信 + 头条）
+
+### 网站版（产业分析）
+- **新增 article-34**：《Anthropic 的临界点：Claude Fable 5 剥离订阅，AI 旗舰模型定价范式回归按量计费》中英双语
+  - 中文 31.1KB / 英文 32.7KB，深度产业分析对标 article-31 OpenAI 成本腰斩 / article-33 微软代理战争
+  - 切角：Anthropic 官宣 7/7 起把 Claude Fable 5 从多款订阅套餐里剥离改按积分计费，与 7/2 OpenAI 推理成本腰斩形成对照——同一时点两种截然相反的定价走向，头部大模型订阅经济能否跑通
+  - hero：img/pool/llm-pricing-tier-v4.jpg（news-1 同源）
+- **news.json days[0] 推 7/5**：10 条新闻（Anthropic Fable 5 / 软银 SB Neo 3.39万亿 / Claude 积分改革 / 中国 Token 用量 9 周超美 46.7 万亿 / AI 福利政策 / 燃气轮机短缺 / AI 排行榜 / GPU 机架 / H200 供应 / 人形机器人实验室），保留最近 5 天，挤掉 6/30
+- **articles.json 总数 33**：article-34 插入 articles[0]
+- **used-images.json 212 张**（+10 unique）：全部 batch4 v4 后缀图（llm-pricing-tier-v4 / industry-neocloud-v4 / llm-usage-credit-v4 / industry-token-usage-v4 / policy-ai-benefit-v4 / energy-gas-turbine-v4 / industry-ai-ranking-v4 / data-center-gpu-rack-v4 / chips-nvidia-h200-v4 / robotics-humanoid-lab-v4），0 Unsplash 外链
+- **sidebar**：article-34 进首位（7/5）挤掉 article-24（6/25）
+- **sitemap.xml 全量重建至 72 URL**：6 静态 + 33 article × 2 语言，hreflang zh-CN/en/x-default 三向各 66 个
+- **commit**：33efe60（feat: daily update 2026-07-05 + article-34），部署 https://f15d79fa.ainewsdaily.pages.dev
+- **线上验证 10 项全 PASS**：sitemap 200 / 72 URL / article-34 8 次 / 中英 200 / 关键词 Anthropic 56+54 / Claude 23+23 / Fable 50+49 / 订阅 50 / subscription 40 / 首页侧栏 article-34 ✓ article-24 已删 / hero 图 1.13MB 200 / Yandex ping 202
+
+### 微信版（人物+事件叙事）
+- **新增 wechat-2026-07-05.html**（20.3KB）
+- 主题：《软银 3.39 万亿豪赌 SB Neo：10 吉瓦 AI 数据中心背后的孙正义式押注》
+- 677px table 布局 + 全表 border 声明 51 处 + 晓色原创声明 + 全线上 URL 图片 + 0 相对路径 + 0 div 布局
+- hero：img/pool/industry-neocloud-v4.jpg（复用 news-2）
+
+### 头条版（热点趋势解读）
+- **新增 toutiao-2026-07-05.md**（17.8KB）
+- 主题：《中国 Token 用量 9 周超美 46.7 万亿 + DeepSeek V4 峰谷定价——AI 消费市场结构性变局》
+- 纯 Markdown 短段落 + 关键数字加粗 + 0 HTML + 0 emoji
+
+---
+
 ## 2026-07-04 07:25 — 日更三件套（article-33 + 微信 + 头条）
 
 ### 网站版（产业分析）
