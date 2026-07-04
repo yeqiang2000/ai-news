@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-05",
   "days": [
     {
       "date": "2026-07-05",
@@ -1553,15 +1553,15 @@
     }
   ],
   "hero": {
-    "id": "hero-2026-07-01",
-    "title": "国产 AI 算力闭环时刻：美团 1.6 万亿 LongCat-2.0 全栈国产芯片训练 + 寒武纪同日万亿市值",
-    "title_en": "The Domestic AI Compute Loop Closes: Meituan's 1.6T LongCat-2.0 Trained Fully on Chinese Chips, Cambricon Hits $1T Cap Same Day",
-    "image": "img/pool/chip-photonic.jpg",
-    "date": "2026-07-01",
-    "source": "综合编译",
-    "source_en": "AI News Daily Editorial",
-    "summary": "6 月 30 日，美团正式开源 1.6 万亿参数 MoE 大模型 LongCat-2.0——业界首个在 5 万张国产 AI 芯片集群上完成训练 + 推理全流程的万亿大模型，原生 1M 超长上下文，35 万亿 token 预训练；同一天，国产 AI ASIC 龙头寒武纪市值首破万亿元人民币，成为科创板首家万亿级算力芯片企业。模型自主与芯片自主的「双万亿」共振，标志着中国 AI 产业正式从「依赖海外 GPU」过渡期迈入自主可控的 AI 2.0 时代。",
-    "summary_en": "On June 30, Meituan open-sourced LongCat-2.0, a 1.6 trillion-parameter MoE model — the first trillion-scale model in the industry to complete both training and inference on a fully domestic chip cluster of over 50,000 Chinese AI accelerators, natively supporting 1M context and pre-trained on 35 trillion tokens. On the same day, China's leading AI ASIC maker Cambricon became the first STAR Market company to cross the 1 trillion yuan market-cap line. The dual-trillion resonance of model autonomy and silicon autonomy marks China's official transition from GPU dependence into the self-controllable AI 2.0 era.",
+    "id": "hero-2026-07-05",
+    "title": "Anthropic 剥离 Fable 5 订阅、软银 3.39 万亿豪赌 SB Neo、中国 Token 用量连续 9 周超美——AI 产业化临界点全面到来",
+    "title_en": "Anthropic Unbundles Fable 5, SoftBank Bets 3.39 Trillion RMB on SB Neo, China Tops US in Token Usage for 9 Weeks — AI's Commercialization Inflection Lands in Full",
+    "image": "img/pool/llm-pricing-tier-v4.jpg",
+    "date": "2026-07-05",
+    "source": "Anthropic 官方博客 / 36 氪 / 智东西 / 每日经济新闻 / 科创板日报 / 新浪财经 / 网易科技 / CSDN / Digital Applied / Usagebox",
+    "source_en": "Anthropic Official Blog / 36Kr / Zhidx / National Business Daily / Kechuang Board Daily / Sina Finance / NetEase Tech / CSDN / Digital Applied / Usagebox",
+    "summary": "7 月 1 日 Anthropic 让 Claude Fable 5 限时回归、7 天 50% 周额度、7 月 7 日之后彻底剥离订阅套餐、转按 usage credits 计费，输入 $10 / 输出 $50 每百万 Token——Anthropic 用旗舰模型率先撕开订阅制。同一周软银官宣 SB Neo Inc. 特拉华州注册、目标 2030 年前后 10 吉瓦、俄亥俄州派克顿项目 5000 亿美元（约 3.39 万亿元人民币）；DeepSeek 官宣 V4 正式版 7 月中旬上线、首推峰谷定价——高峰 7 小时价格翻倍；中国 Token 用量已连续 9 周超越美国、6 月 22-28 日 20.39 万亿 vs 4.25 万亿，差距近 5 倍，Claude Sonnet 4.6 四个月来首次跌出榜单。三件事同一周落地，AI 商业化范式重排的三面切片同时到位。",
+    "summary_en": "On July 1, Anthropic reintroduced Claude Fable 5 for a 7-day promo at 50% weekly quota; after July 7 it fully exits every subscription tier and moves to usage credits at $10 input / $50 output per million tokens — Anthropic ships the first true subscription unbundling on a flagship. In the same week, SoftBank announced SB Neo Inc. registered in Delaware, targeting 10 GW by 2030 with a $500B (~3.39 trillion RMB) Piketon, Ohio buildout. DeepSeek announced V4 GA in mid-July with first-of-its-kind peak-and-trough pricing — 7 daytime peak hours at 2x rate. China's token usage has now led the US for 9 weeks running: 20.39T vs 4.25T for the week of June 22-28, a ~5x gap; Claude Sonnet 4.6 fell off the top-10 list for the first time in four months. Three events, one week — three cross-sections of the same commercial-model reshuffle land in sync.",
     "category": "产业",
     "category_en": "Industry Analysis"
   }
