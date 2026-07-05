@@ -62,9 +62,12 @@
     function getLocalizedField(item, field) {
         const lang = I18n.getLang();
         const enField = field + '_en';
+        const zhField = field + '_zh';
         if (lang === 'en' && item[enField]) {
             return item[enField];
         }
+        // 中文优先 _zh 后缀（新数据格式），回退无后缀字段（旧数据格式）
+        if (item[zhField]) return item[zhField];
         return item[field];
     }
 
@@ -329,7 +332,7 @@
         const readTime = I18n.t('articles_read_time');
         const delay = 0.1 + index * 0.08;
         const lang = I18n.getLang();
-        const articleUrl = (lang === 'en' && article.url_en) ? article.url_en : article.url;
+        const articleUrl = (lang === 'en' && article.url_en) ? article.url_en : (article.url_zh || article.url);
 
         return `
             <article class="deep-article-card" style="animation-delay: ${delay}s">
