@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-05",
+  "last_updated": "2026-07-06",
   "used_urls": [
     "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
@@ -213,7 +213,11 @@
     "img/pool/industry-neocloud-v4.jpg",
     "img/pool/energy-gas-turbine-v4.jpg",
     "img/pool/robotics-humanoid-lab-v4.jpg",
-    "img/pool/llm-usage-credit-v4.jpg"
+    "img/pool/llm-usage-credit-v4.jpg",
+    "img/pool/healthcare-imaging-v3.jpg",
+    "img/pool/open-source-china-v4.jpg",
+    "img/pool/investment-japan-us-v4.jpg",
+    "img/pool/blockchain-nft-ai-v3.jpg"
   ],
-  "total_used": 192
+  "total_used": 216
 }

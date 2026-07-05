@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="On July 1, 2026, Bloomberg exclusively revealed Meta is pushing its internal codenamed Meta Compute cloud infrastructure play — hourly GPU cluster rental and API access to Llama and Muse Spark by token usage. Meta rose 8.8% (+$127B market cap), CoreWeave -13.92%, Nebius -17.01%. This piece dissects the inflection where a top AI vendor first turns from single buyer to dual buyer-seller across six dimensions: fact check, compute supply curve, dual-track economics, ecosystem repositioning, precedents, regulation and geopolitics.">
+    <meta name="keywords" content="Meta Compute, GPU rental, CoreWeave, Nebius, Santosh Janardhan, Daniel Gross, Llama, Muse Spark, SpaceX Colossus, AI infrastructure, industry analysis, AI News Daily">
+    <meta property="og:title" content="Meta Compute's Inflection Point: Top AI Vendor Turns from Compute Buyer to Compute Seller for the First Time">
+    <meta property="og:description" content="From Bloomberg's July 1 exclusive to Meta +8.8%, CoreWeave -13.92%, Nebius -17.01% — Meta tells the entire industry with its own data centers: the boundary of the compute supply curve is being rewritten. This piece benchmarks three supply-side answers from Meta / SpaceX / Google.">
+    <meta property="og:image" content="../img/pool/industry-neocloud-v4.jpg">
+    <title>Meta Compute's Inflection Point: Top AI Vendor Turns from Compute Buyer to Compute Seller for the First Time | AI News Daily</title>
+    <link rel="canonical" href="articles/en/article-35.html">
+    <link rel="alternate" hreflang="en" href="articles/en/article-35.html">
+    <link rel="alternate" hreflang="zh-CN" href="articles/article-35.html">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6fa;
+            color: #2c3e50;
+        }
+        .deep-article {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 50px 56px;
+            box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+        }
+        .article-header { margin-bottom: 30px; }
+        .article-meta-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 22px;
+            font-size: 0.92em;
+            color: #7f8c9b;
+        }
+        .article-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.88em;
+            font-weight: 500;
+        }
+        .article-date, .article-read-time { color: #95a5a6; }
+        .article-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.35;
+            margin: 0 0 16px 0;
+        }
+        .article-subtitle {
+            font-size: 1.08em;
+            color: #5a6c7d;
+            line-height: 1.7;
+            margin: 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-hero-image {
+            margin: 30px 0 36px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            max-height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+        .article-content { font-size: 1.05em; color: #2c3e50; }
+        .article-content p { margin: 0 0 22px 0; text-align: justify; }
+        .article-content p.lead {
+            font-size: 1.18em;
+            color: #34495e;
+            font-weight: 500;
+            line-height: 1.75;
+            margin-bottom: 30px;
+            padding: 22px 26px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #fdf7ff 100%);
+            border-left: 4px solid #667eea;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-content h2 {
+            font-size: 1.45em;
+            color: #1a1a2e;
+            margin: 44px 0 20px 0;
+            padding-left: 16px;
+            border-left: 4px solid #667eea;
+            line-height: 1.4;
+        }
+        .article-content h3 {
+            font-size: 1.18em;
+            color: #2c3e50;
+            margin: 30px 0 14px 0;
+        }
+        .article-content strong { color: #1a1a2e; font-weight: 600; }
+        .article-content em { color: #667eea; font-style: italic; }
+        .article-content ul, .article-content ol { margin: 0 0 22px 0; padding-left: 28px; }
+        .article-content li { margin-bottom: 10px; line-height: 1.75; }
+        .article-quote {
+            background: #fdf2f2;
+            border-left: 4px solid #e74c3c;
+            padding: 22px 28px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-quote p {
+            margin: 0;
+            font-style: italic;
+            color: #555;
+            font-size: 1.05em;
+        }
+        .article-quote cite {
+            display: block;
+            text-align: right;
+            margin-top: 12px;
+            color: #888;
+            font-style: normal;
+            font-size: 0.9em;
+        }
+        .article-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 28px 0;
+            font-size: 0.96em;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .article-content th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .article-content td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #eef1f5;
+            background: #fff;
+        }
+        .article-content tr:nth-child(even) td { background: #fafbfd; }
+        .article-highlight, .article-conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 32px;
+            border-radius: 12px;
+            margin: 36px 0;
+        }
+        .article-highlight h2, .article-highlight h3,
+        .article-conclusion h2, .article-conclusion h3 {
+            color: white;
+            margin-top: 0;
+            border: none;
+            padding: 0;
+        }
+        .article-highlight p, .article-conclusion p { color: rgba(255,255,255,0.95); }
+        .article-footer {
+            margin-top: 50px;
+            padding-top: 24px;
+            border-top: 1px solid #eef1f5;
+            color: #95a5a6;
+            font-size: 0.92em;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            body { padding: 16px 8px; }
+            .deep-article { padding: 28px 20px; }
+            .article-title { font-size: 1.55em; }
+            .article-subtitle { font-size: 1em; }
+            .article-content { font-size: 1em; }
+            .article-content h2 { font-size: 1.25em; }
+            .article-content p.lead { font-size: 1.08em; padding: 18px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="deep-article">
+        <header class="article-header">
+            <div class="article-meta-top">
+                <span class="article-category">Industry Analysis</span>
+                <span class="article-date">2026-07-06</span>
+                <span class="article-read-time">16 min read</span>
+            </div>
+            <h1 class="article-title">Meta Compute's Inflection Point: Top AI Vendor Turns from Compute Buyer to Compute Seller for the First Time</h1>
+            <p class="article-subtitle">On July 1, 2026, Bloomberg exclusively broke Meta's internal cloud infrastructure play codenamed Meta Compute — two parallel tracks: (1) opening Llama, Muse Spark and other models via API on a token-usage basis; (2) hourly GPU cluster rental. Meta rose 8.8% that day (+$127B market cap); CoreWeave -13.92%, Nebius -17.01%. This piece dissects the inflection where a top AI vendor first turns from "single buyer" to "dual buyer-seller" across six dimensions: fact check, compute supply curve, dual-track economics, ecosystem repositioning, precedents, regulation and geopolitics.</p>
+        </header>
+        <div class="article-hero-image">
+            <img src="../../img/pool/industry-neocloud-v4.jpg" alt="Meta Compute GPU rental business: top AI vendor turns from buyer to seller for the first time">
+        </div>
+        <article class="article-content">
+
+<p class="lead">On the afternoon of July 1, 2026, Bloomberg dropped a story big enough to shake the global cloud market: <strong>Meta is pushing an internal cloud infrastructure play codenamed "Meta Compute" — renting spare AI compute externally while opening Llama, Muse Spark and other models via API</strong>. Within an hour of the story, Meta was up 8.8% on the day, adding roughly $127B in market cap; simultaneously CoreWeave dropped 13.92%, Nebius plunged 17.01%, Micron and SanDisk each fell over 10%, Samsung -9.06% and SK Hynix -14.57%. A violent equity collision set the frame: this is not a business extension — it is the first time a top AI vendor rewrites its industrial identity from "compute buyer" to "compute seller."</p>
+
+<p>The move deserves careful unpacking. For two years the AI compute supply curve has held a stable shape — the four hyperscalers (AWS, Azure, GCP, Oracle) at the outer ring provide integrated services; the Neocloud middle ring (CoreWeave, Nebius) sells pure GPU hours; and the hyperscale buyers at the innermost ring (Meta, OpenAI, Anthropic, xAI) act as "unbreakable compute vacuums," continuously drawing resources from the outer rings inward. <strong>Meta Compute rewrites this concentric structure directly — the innermost hyperscale buyer starts extending into the middle ring, selling GPU hours to Neocloud's customers</strong>. This shift instantly turns CoreWeave's $35.2B Meta contract into an awkward ledger: yesterday's largest customer becomes today's most direct competitor.</p>
+
+<p>Meanwhile, in the same week, SpaceX's Colossus finished a 180-day short-term lease of 300 MW / 220,000 GPUs to Anthropic; Google will pay SpaceX ~$920M/month from October 2026 to June 2029 to lease ~110,000 GPUs. <strong>Non-traditional cloud players (Meta, SpaceX) are operationally rewriting the boundary of hyperscale cloud</strong>. These are not three separate compute stories — they are three cross-sections of the same industry-identity reshuffle.</p>
+
+<h2>1. Fact Check: Seven Key Facts About Meta Compute</h2>
+
+<p>Industry analysis must nail the facts first. Combining Bloomberg's July 1 exclusive, 36Kr's July 3 report "Meta Cashes In on Compute", The Paper's July 3 report "Meta Follows SpaceX to Monetize Spare AI Compute", Wall Street CN's July 2 "When Meta Starts Selling Compute", CaiJing Toutiao's July 2 "Is Compute Actually in Surplus?", CSDN blog July 3 follow-up, implicator.ai's May 27 "Meta Weighs Cloud Business as Capex Guide Rises to $125B-$145B", Xueqiu's April 30 filing analysis, and Zuckerberg's May shareholder-meeting public remarks, the key facts of Meta Compute can be organized as follows.</p>
+
+<ul>
+<li><strong>Project name & codename</strong>: Meta's internal codename is <strong>Meta Compute</strong>; Zuckerberg first publicly used the term in a <strong>Threads post on January 12, 2026</strong>, announcing Meta's plan to build tens of gigawatts this decade and hundreds of gigawatts or more over time. Bloomberg's July 1 story is the "naming → commercialization" landing.</li>
+<li><strong>Dual-track model</strong>: (1) <strong>Model hosting service</strong> — benchmarking AWS Bedrock, exposing Llama, Muse Spark and other models to enterprises via API on a token-usage basis; (2) <strong>Raw compute sale</strong> — benchmarking CoreWeave, hourly GPU cluster rental, customers use it to train or run AI systems of their choice.</li>
+<li><strong>Leadership</strong>: The project is co-led by infrastructure head <strong>Santosh Janardhan</strong>, Meta Superintelligence Labs (MSL) AI executive <strong>Daniel Gross</strong>, and Meta President <strong>Dina Powell McCormick</strong>. This trio bundles infrastructure, frontier AI, and government relations into one thread.</li>
+<li><strong>Market reaction</strong>: Meta stock closed <strong>+8.8%</strong>, adding ~$127B market cap (intraday it briefly hit +10% / +$98B). CoreWeave <strong>-13.92%</strong>, Nebius <strong>-17.01%</strong>, Micron and SanDisk each down over 10%, Samsung <strong>-9.06%</strong>, SK Hynix <strong>-14.57%</strong>, NVIDIA, Broadcom, AMD all in the red.</li>
+<li><strong>Meta's existing compute commitments</strong>: 2026 capex guidance <strong>$125-145B</strong>, nearly 2x the 2025 actual <strong>$72.2B</strong>; end-Q1 cumulative <strong>$182.9B</strong> in AI infrastructure commitments; Q1 alone capex $19.5B, revenue $56.3B; issued $25B in bonds, cut 8,000 headcount, eliminated 6,000 positions.</li>
+<li><strong>Data centers & external compute</strong>: The <strong>Ohio</strong> data center is described as "comparable in scale to Manhattan Island" and targeted for 2026 operations; <strong>Louisiana</strong> project under construction; <strong>Texas El Paso</strong> data-center investment expanded from $1.5B to $10B (+6x); <strong>Hyperion</strong> campus over $27B investment, financing 7 gas plants exceeding 5,200 MW combined. External compute: up to <strong>$27B</strong> with Nebius Group, ~<strong>$35.2B</strong> cumulative with CoreWeave.</li>
+<li><strong>Idle capacity ratio</strong>: Jefferies data shows Meta data-center internal utilization is ~<strong>65%</strong>, with 35% idle; post-training inference clusters typically fall from 100% to 30-50% utilization. This "30-50% post-training gap" is Meta Compute's direct economic base.</li>
+</ul>
+
+<p>Note: <strong>All data in this piece reference Meta's 2026 Q1 report, SEC 10-Q filings, Bloomberg's July 1 report, and Jefferies/Bernstein analyst reports</strong>. Stock-move numbers and market reaction are cross-verified across multiple sources (some cite intraday highs, others closing prices, producing the 8.8% / 10% delta). The $182.9B cumulative commitment number comes from Meta's Q1 disclosure of "contractual obligations and purchase commitments." All quotations reference public sources and no claim exceeds source content.</p>
+
+<h2>2. Compute Supply Curve: From "Buyer Vacuum" to "Dual Buyer-Seller"</h2>
+
+<p>To understand Meta Compute's industrial weight, one must first see the compute supply curve of the past two years clearly.</p>
+
+<p>Through 2024-2025, global AI compute supply held a stable three-ring structure: <strong>outer ring: the four hyperscalers (AWS, Azure, GCP, Oracle)</strong> — integrated services (compute, models, storage, database, security), customers mostly traditional enterprises; <strong>middle ring: Neocloud (CoreWeave, Nebius, Lambda Labs)</strong> — pure GPU hourly rental, customers mostly AI startups and research institutions without their own data centers; <strong>innermost ring: hyperscale buyers (Meta, OpenAI, Anthropic, xAI, Google DeepMind)</strong> — buying from all outer rings while building their own DCs, an "unbreakable compute vacuum." The structure's stability rested on an implicit assumption: <strong>hyperscale buyers only buy, never sell</strong>.</p>
+
+<p>Meta Compute overturns this assumption directly. When the innermost hyperscale buyer starts renting out GPU hours, the middle-ring Neocloud takes hits on three fronts: <strong>scale crush</strong> — Meta's single-company compute stockpile exceeds CoreWeave's by more than 10x; <strong>customer capture</strong> — Meta's existing $35.2B contract with CoreWeave means at contract end Meta simply reclaims that book; <strong>cost advantage</strong> — Meta's self-build + bulk procurement cost sits far below CoreWeave's financed-build cost. DA Davidson research head Gil Luria put it more bluntly: CoreWeave and Nebius will face a systemic revaluation.</p>
+
+<article class="article-quote">
+<p>"Meta's orders alone exceed one-third of CoreWeave's backlog; add Microsoft's ~$14B and <strong>nearly half of CoreWeave's backlog will renew from customers who are now direct competitors</strong>."</p>
+<cite>— Bernstein analyst Madison Rezaei, cited in CaiJing Toutiao, 2026-07-02</cite>
+</article>
+
+<p>This quote nails the whole industrial logic: Neocloud's business model depends on "hyperscale buyers stay above the fray"; the moment that assumption collapses, Neocloud shifts from "GPU landlord of the AI era" to "temporary buffer for Meta." It also explains why on July 1 the Neocloud drawdown (-13.92%, -17.01%) actually exceeded Meta's upside (+8.8%) — the market's confidence in Neocloud's model is more fragile than its optimism about Meta's new business potential.</p>
+
+<h2>3. Dual-Track Economics: Why Meta Dares to Grab AWS and CoreWeave's Lunch Simultaneously</h2>
+
+<p>Meta Compute's two business lines have asymmetric economics — one is high-margin, high-barrier; the other is lower-margin, wins on scale. To understand why Meta dares to attack AWS and CoreWeave at the same time, one must look at each track separately.</p>
+
+<p><strong>Model hosting (benchmarking AWS Bedrock)</strong>: the core is Llama and Muse Spark API service, priced by token usage. Economics are "model capability × token price × call frequency" multiplied — typical gross margin 70-85%, contingent on model performance matching the mainstream. Meta's challenge: Llama has huge traffic in the open-source community, but in the enterprise paid market it has been squeezed by Claude, GPT, and Gemini — as of Q1 2026 no Llama model made the OpenRouter top 10. Muse Spark is Meta's recently released closed model, market reception unformed. Meanwhile GLM-5.2 has already taken Design Arena #1 (1360 Elo), signaling the frontier-capability window is narrowing fast. <strong>Model hosting looks more like "Meta's strategic position that must be filled" than a near-term profitable business</strong>.</p>
+
+<p><strong>Raw compute sale (benchmarking CoreWeave)</strong>: the core is hourly GPU cluster rental. Economics are "GPU utilization × price × customer count" multiplied — typical gross margin 15-30% (slightly below CoreWeave because Meta won't do SLA service, only compute bundling), but wins on scale. As noted, Meta's data-center internal utilization is ~65%, with 35% idle. If half of that idle (i.e. 17.5% of total compute) can be monetized externally, Jefferies estimates the annualized revenue space exceeds <strong>tens of billions of dollars</strong>. BofA models $10-15B monetization space per GW; Meta's 10+ GW capacity implies over $100B annual revenue headroom.</p>
+
+<p>Combining both tracks, Meta Compute's economic logic becomes very clear: <strong>the raw-compute track carries the scale base (multi-ten-billion-dollar range); the model-hosting track carries the imagination premium (valuation multiple); short term the raw-compute cash flow recovers investment, long term model hosting establishes the ecological position</strong>. This dual-track design is not emergency monetization — it is the outermost ring of a three-tier structure Zuckerberg had already envisioned when he first named Meta Compute on his January 12, 2026 Threads post.</p>
+
+<h2>4. Ecosystem Repositioning: Will Meta Kill Neocloud?</h2>
+
+<p>The market's biggest question: will Meta Compute kill CoreWeave and Nebius? SemiAnalysis's July 3 analysis addressed this directly — both interpretations ("AI is decelerating" and "CoreWeave is finished") are wrong. Let's rehearse SemiAnalysis's original logic.</p>
+
+<p>First, <strong>Meta's balance sheet screams acceleration, not deceleration</strong>. 2026 capex guidance $130-145B; H1 alone signed cloud and hosted capacity over 5GW; cumulative signed capacity exceeds 10GW since early 2024; the two largest campuses have 2.5GW under construction. SemiAnalysis described Meta's 2027 capex with the word "shockingly high." A retreating company does not spend like this.</p>
+
+<p>Second, <strong>what does Meta do with all this compute?</strong> SemiAnalysis breaks it down: a portion goes to Meta Superintelligence Labs (MSL) chasing frontier models — expensive and slow, with an Anthropic/OpenAI gap that hasn't closed, but Meta won't abandon it. <strong>The larger conviction lies in the recommendation system</strong>. Meta internally believes ad recommendation model complexity can grow 10x+ more: bigger model → more targeted ads → higher advertiser ROI → higher bids. In Q1 2026, Meta's ad impressions grew 19% YoY and price per ad grew 12% — both volume and price up. This is the printing press behind Meta's willingness to bet $100B+ on capex.</p>
+
+<p>Adding both up, SemiAnalysis's conclusion: <strong>Meta isn't selling compute — Meta is monetizing the "post-training excess" compute. Training and inference cycles are naturally offset — post-training GPU clusters fall from 100% to 30-50% utilization. That offset is "free" to Meta; selling it externally is pure profit</strong>. The logic mirrors SpaceX Colossus exactly — Colossus first serves Starlink and xAI internally, then rents post-training excess to Anthropic and Google on short-term terms.</p>
+
+<table>
+<tr><th>Player</th><th>Compute source</th><th>Rented to & scale</th><th>Term</th><th>Pricing</th></tr>
+<tr><td><strong>SpaceX Colossus</strong></td><td>Self-built (Starlink + xAI training clusters)</td><td>Anthropic 220k GPUs / 300 MW; Google 110k GPUs</td><td>Anthropic 180-day short; Google 2y9m long</td><td>Google pays $920M/month</td></tr>
+<tr><td><strong>Meta Compute</strong></td><td>Self-built (Hyperion, Ohio, Louisiana, Texas)</td><td>Raw compute external + Llama/Muse Spark API</td><td>Not disclosed; expected hourly + long-term mix</td><td>Estimated $100B+ annual revenue headroom</td></tr>
+<tr><td><strong>CoreWeave</strong></td><td>Financed build: 300k GPUs / 43 DCs</td><td>Meta $35.2B, Microsoft $14B, AI startups</td><td>Mostly 3-7y long term</td><td>Annualized $10B+ revenue</td></tr>
+<tr><td><strong>Nebius</strong></td><td>Eastern Europe build + Meta's $27.5B injection</td><td>Enterprise clients, AI startups</td><td>1-3y short and long mix</td><td>2026 revenue guidance ~$1B</td></tr>
+</table>
+<p style="font-size:0.86em;color:#95a5a6;margin-top:-14px;">Sources: SemiAnalysis 2026-07-03 / SMZDM 2026-07 / Wall Street CN 2026-07-02 / 36Kr 2026-07-03.</p>
+
+<p>Read this table carefully and one key fact emerges: <strong>Meta Compute and CoreWeave aren't fighting for the same customer</strong>. Meta's compute bundle granularity is "training one frontier LLM" — the customer is a hyperscale AI company, term is "one training cycle," price is 3-5x normal cloud. CoreWeave's granularity is "serving mid-size AI startups + enterprise inference workloads" — 3-7 year contracts at industry-standard pricing. Meta's direct hit is CoreWeave's existing $35.2B contract counterparties, not CoreWeave's new-customer acquisition.</p>
+
+<p>Neocloud's salvation path is clear: <strong>pivot to customized large-scale clusters, industry private deployment, and other high-barrier niches</strong> — CoreWeave has already begun pushing Weka distributed storage integration; Nebius is pushing Eastern Europe AI sovereignty DC packages. Meta won't enter these niches short-term because their scale economics are insufficient. But Neocloud valuation levels (H1 2026 PE means 60x+) obviously reflect "independent growth" imagination — not "niche specialist" value. So the -13.92% / -17.01% revaluation is rational.</p>
+
+<h2>5. Precedents: SpaceX Colossus Already Ran the Playbook Meta Wants to Run</h2>
+
+<p>Meta Compute is not the world's first "hyperscale buyer turns seller" — SpaceX's Colossus has already run the play. Unpacking Colossus operations gives the clearest read on Meta Compute's trajectory.</p>
+
+<p><strong>Colossus origin</strong>: SpaceX's Colossus data center first served two internal needs — Starlink global satellite scheduling and xAI's Grok training. In 2025 xAI trained Grok 5 at a 300k-GPU / 500 MW peak cluster. Post-training, ~220k of those 300k GPUs went idle — xAI had no immediate next-gen training need, and Starlink's inference scheduling doesn't need that much.</p>
+
+<p><strong>First external lease</strong>: In March 2026, Anthropic and SpaceX signed a 180-day short-term lease for 220k GPUs / 300 MW, primarily to train Claude Fable 5 (this is also the reason Fable 5 was positioned as a Mythos-tier flagship). The critical clause is "short-term" — Anthropic only needed one training cycle; post-training the GPUs return to SpaceX for the next customer. This "rent-to-train, return-when-done" model solved AI companies' biggest pain point: the asymmetry between training compute peak demand and long-term carrying capacity.</p>
+
+<p><strong>Second external lease</strong>: In May 2026, Google and SpaceX signed a 2-year-9-month long-term deal — from October 2026 to June 2029, Google pays SpaceX ~$920M/month, over $30B total, for ~110k NVIDIA GPUs. This long-term deal's positioning differs entirely from Anthropic's short lease: Google's Gemini series needs sustained inference compute stacking, not one-time training demand. <strong>The coexistence of both leases tells us: Colossus has successfully repositioned as a "training compute short-lease + inference compute long-lease" dual-business play</strong>.</p>
+
+<p>Meta Compute's script almost perfectly replicates Colossus — only larger scale and broader customer base. SemiAnalysis projects Meta Compute 2027 revenue will reach the <strong>$20-35B</strong> range, split 60% raw compute / 40% model hosting. If achieved, Meta simultaneously holds ad main business ($100B+ revenue) and adds a $30B-tier high-margin business line — enough to trigger a second Wall Street revaluation of Meta.</p>
+
+<h2>6. Regulation and Geopolitics: Why US Regulators Won't Block This Now</h2>
+
+<p>Meta Compute has an unavoidable regulatory issue: <strong>The FTC and DOJ have spent two years chasing Big Tech antitrust</strong>, and Meta's existing $35.2B contract with CoreWeave means Meta is simultaneously CoreWeave's largest customer and most direct competitor — does this "customer-turned-competitor" relationship constitute anticompetitive conduct?</p>
+
+<p>Based on current public information, US regulators won't block Meta Compute short-term, for three reasons. <strong>First, antitrust doctrine directed at AI infrastructure has no established precedent</strong> — the FTC and DOJ's attention in H1 2026 was focused on OpenAI-Microsoft's $13B collaboration and Google Alphabet-Anthropic strategic investment compliance review; Meta Compute isn't yet on the primary radar. <strong>Second, the US government views AI compute supply diversification as a national strategic priority</strong> — CoreWeave and Nebius scale is insufficient to bear US AI-sovereignty compute needs; Meta's entry actually alleviates federal concern about "US AI compute over-dependence on NVIDIA + a small set of hyperscale buyers." <strong>Third, Meta Compute's dual-track model gives regulators a "concession space"</strong> — if pressure materializes, Meta can close the model-hosting track first (preserving raw compute), keeping the Neocloud ecosystem intact while leaving an antitrust separation point.</p>
+
+<p>Geopolitics is more complex. Will Meta Compute open to Chinese customers? Current signals say no. H1 2026: US Commerce Department export controls on Anthropic Mythos/Fable series; Anthropic admitted Claude Code contained covert detection against 147 Chinese domains; Alibaba on July 10 orders full uninstall of Claude — these events collectively signal <strong>the compliance wall between US AI industry and Chinese users has hardened comprehensively</strong>. Meta Compute will almost certainly pick "North America + EU + Japan/Korea" as its primary market, with Mainland China staying off the official customer list.</p>
+
+<p>This geopolitical choice will conversely reshape China's domestic AI compute pricing structure. SemiAnalysis data show China's domestic GPU (Huawei Ascend 910C, Cambricon MLU590) Q2 2026 shipments grew 340% YoY — under dual foreclosure from US tools (Claude Code) and US compute (Meta Compute), Chinese majors have accelerated domestic compute substitution. This "two-way blockade" is restructuring the global AI compute market from "one cloud runs the world" into a "compliance-zoned multi-cloud" reality.</p>
+
+<h2>7. The Compute-Supply Inflection: Second Rewrite of AI Industrial Identity</h2>
+
+<p>Placed on the longest time-axis, Meta Compute is the second rewrite of AI industrial identity.</p>
+
+<p><strong>The first rewrite</strong> was the 2023 OpenAI + Microsoft partnership — AI companies upgraded from "independent tech teams" to "cloud application layer," Microsoft Azure upgraded from "general cloud services" to "AI integrated platform." The industrial result: the four hyperscalers' capex went from $400B in 2023 to $800B in 2026 — doubling in three years. <strong>The second rewrite</strong> is July 2026's Meta Compute + SpaceX Colossus + Google long-term deal — hyperscale buyers upgrade from "single compute vacuum" to "dual buyer-seller," non-traditional cloud players (Meta, SpaceX) actively rewrite the hyperscale-cloud boundary.</p>
+
+<p>The common regularity of both rewrites: <strong>redefining industrial-identity boundaries simultaneously raises total compute investment and total compute supply</strong>. The first doubled the hyperscalers' capex; the second will lift the "hyperscale buyer + Neocloud" supply curve as a whole — compute stockpiles previously acting as "unbreakable vacuums" now start functioning as "on-demand release" market supply.</p>
+
+<p>The direct impact on downstream AI application companies: <strong>Over the next 12 months, global AI compute supply's price elasticity will rise significantly</strong>. The middle market previously carried by CoreWeave/Nebius will simultaneously absorb the descent of Meta Compute + SpaceX Colossus + other hyperscale buyers. This implies mid-size AI startup inference cost may fall 30-50% within 12 months — at the cost of fewer choices (scale effect concentrates among big players) and higher regulatory risk (hyperscale buyers can reclaim compute for internal use at any time).</p>
+
+<article class="article-conclusion">
+<h2>Coda: The Inflection Is Not the End — It Is Where Industry Identity Reshuffle Begins</h2>
+<p>Bloomberg's July 1 exclusive looks like just a story about Meta exploring cloud computing; the +8.8% Meta / -13.92% CoreWeave collision looks like just a market overshoot. But placed on the 24-month AI industrial-identity-reshuffle timeline, it is a signal: <strong>Top AI vendors have rewritten their industrial identity for the first time — from "compute buyer" to "dual buyer-seller."</strong></p>
+<p>SpaceX ran the playbook with Colossus, Meta scales it to the $100B tier with Meta Compute, and next will be xAI, Anthropic — even OpenAI — forced into the same decision. Industry rules aren't determined by a single company; they're determined by capital-market valuation. When Meta closes +8.8% and CoreWeave closes -13.92%, the rules have already been rewritten.</p>
+<p>The 65%-utilization / 35%-idle Meta data-center number tells every top AI vendor: <strong>Over the next 24 months, your capital return will no longer depend on "how much compute you used" — it will depend on "who you can sell your idle compute to."</strong> The transition will hurt, but it's the required path from "burn-rate war" to "scaled profitability" for the AI industry.</p>
+<p>The inflection is not the end. It is where every hyperscale buyer will be forced to answer, over the next 24 months — are you a compute buyer? A compute seller? Or a dual buyer-seller? Meta has already given its answer.</p>
+</article>
+
+        </article>
+        <footer class="article-footer">
+            <p>© 2026 AI News Daily · Industry Analysis · Data cited from Bloomberg 2026-07-01 exclusive / 36Kr 2026-07-03 / The Paper 2026-07-03 / Wall Street CN 2026-07-02 / CaiJing Toutiao 2026-07-02 / CSDN Blog 2026-07-03 / implicator.ai 2026-05-27 / Xueqiu 2026-04-30 / SemiAnalysis 2026-07-03 / Bernstein / Jefferies / BofA Securities / DA Davidson / SMZDM 2026-07 / Meta Q1 2026 filings and SEC 10-Q disclosures</p>
+        </footer>
+    </div>
+</body>
+</html>
