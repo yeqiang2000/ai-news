@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-07-06 06:30 — 日更三件套（article-35 + 微信 + 头条）
+
+### 网站版（产业分析）
+- **新增 article-35**：《Meta Compute 的临界点：AI 头部厂商第一次从算力买家转身为算力卖家》中英双语
+  - 中文 32.8KB / 英文 33.0KB，深度产业分析对标 article-31/33/34
+  - 切角：Meta 效仿 SpaceX Colossus 长约模式转型算力代工——Meta Compute 双轨（Llama/Muse Spark Token 计费 + GPU 集群小时租）；股价 +8.8% +1270 亿美元市值 vs CoreWeave -13.92%/Nebius -17.01%；三人算力领导组合 Janardhan+Gross+McCormick；Jefferies 内部 GPU 利用率 65%（35% 闲置）；Anthropic 与 Google 长约细节对比
+  - hero：img/pool/industry-neocloud-v4.jpg
+  - 信源交叉：彭博社独家 / 36氪 / 澎湃新闻 / 华尔街见闻 / implicator.ai 5+ 源
+- **news.json days[0] 推 7/6**：10 条新闻（Meta Compute / John Jumper Anthropic / 阿里 7-10 卸载 Anthropic / H200 供应 / 日美投资 / LLM 定价分层 / 燃气轮机 / AI 排名 / Claude 积分 / 中国 Token 用量），保留最近 5 天，挤掉 7/1
+- **articles.json 总数 34**：article-35 插入 articles[0]
+- **used-images.json 216 张**（+4 unique，另 8 处复用历史 v4 图）：新增 industry-neocloud-v4 / open-source-china-v4 / investment-japan-us-v4 / blockchain-nft-ai-v3
+- **sidebar**：article-35 进首位（7/6）挤掉 article-25（6/26 OpenAI 自研芯片 Jalapeño）
+- **sitemap.xml 全量重建至 74 URL**：6 静态 + 34 article × 2 语言，hreflang zh-CN/en/x-default 三向各 68 个（total hreflang 204）
+- **commit**：6fcb650（feat: daily update 2026-07-06 + article-35），部署 https://bbec6c65.ainewsdaily.pages.dev
+- **线上验证 9 项全 PASS**：sitemap 200 / 74 URL / article-35 8 次 / 中英 200 / 关键词 Meta 114+110 / CoreWeave 35+35 / Compute 36+49 / capex 7 / Neocloud 15 / 首页侧栏 article-35 ✓ article-25 已删 / hero 图 1.99MB 200 / Yandex ping 200
+
+### 微信版（人物叙事）
+- **新增 wechat-2026-07-06.html**：《诺奖得主的二次押注：AlphaFold 之父 John Jumper 为什么离开 DeepMind 去 Anthropic》
+  - 25.2KB，677px table 布局 5 tables + 52 tds + border:none 65 处（3 无空格 + 62 含空格）+ 0 div + 紫色晓色原创声明
+  - 关键事实：Jumper 6-19 X 发文离职 / DeepMind 近 9 年 Hassabis 感谢转发 / AlphaFold 2 SE(3) 等变性消融 30 分中贡献 2.5 分等效数据 100 倍算力 3-4 亿美元 / Anthropic 4 亿美元收购 Coefficient Bio / Claude Science 60+ 数据库 Pro $20 起 / 用户案例 UCSF Francis + Allen Lecoq + MIT Cheeseman + Gladstone Whalen / 诺华 Vas Narasimhan 引述 12→7-8 年 8%→16%
+  - 信源交叉：智享新知 / MIT 科技评论 / 财新 / zeronoise.ai / 金融界 5 源
+
+### 头条版（热点趋势）
+- **新增 toutiao-2026-07-06.md**：《Claude Code 藏 147 个中国域名黑名单，阿里 7 月 10 日全员卸载 Anthropic 全系》
+  - 15.5KB 纯 Markdown，一句话结论 + 数据盘点 + 大厂横评 + 开发者建议 + 观察窗口
+  - 关键事实：Claude Code 2.1.91 版本 XOR 加密 147 中国域名黑名单 / Thariq Shihipar 承认实验性 7-02 版本删除 / 阿里 7-10 全员卸载 Sonnet/Opus/Fable/Code 推荐 Qoder / 大厂横评（微软 5 月停用 / 亚马逊 2 月限制 / Google 中立 / 阿里 7-10 卸载）/ Anthropic 估值 9650 亿 ARR 300-420 亿
+  - 信源交叉：都市快报 / 36氪 / 观察者网 / 凤凰网 / 电子工程专辑 5 源
+
+---
+
 ## 2026-07-05 07:05 — 日更三件套（article-34 + 微信 + 头条）
 
 ### 网站版（产业分析）
