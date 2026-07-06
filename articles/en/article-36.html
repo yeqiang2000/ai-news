@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A SemiAnalysis report published on July 4, 2026 warns that memory spend inside NVIDIA systems will exceed 30% of bill-of-materials by end-2026 and cross 40% in 2027. Across hyperscale data centers, memory share is jumping from 8% to 30%. DRAM prices are set to more than double in 2026, LPDDR5 has tripled in three years, and HBM per-GB pricing is climbing from $16.6 to $53. This deep dive analyzes eight dimensions: fact anchoring, memory supply structure, NVIDIA VVP privilege, Vera Rubin memory halving, structural pain at AMD, memory OEM winners, PCB supply-chain aftershocks, and next-gen cooling and networking cost.">
+    <meta name="keywords" content="NVIDIA, memory cost, HBM, DRAM, LPDDR5, Vera Rubin, NVL72, Kyber NVL144, SemiAnalysis, VVP, Samsung, SK Hynix, Micron, AMD, Kingboard, AI infrastructure, industry analysis, AI News Daily">
+    <meta property="og:title" content="AI's Hidden Tax: Memory Spend Inside NVIDIA Systems Heads Toward 40%, HBM/DRAM Reprice the Infrastructure Stack">
+    <meta property="og:description" content="From SemiAnalysis on July 4 to Asian PCB stocks down 18% on July 6 - the cost battleground of the AI industry in H2 2026 is shifting from GPU silicon itself to HBM, DRAM and the supporting supply chain. This piece cross-checks NVIDIA VVP privilege, Vera Rubin memory halving, structural pain at AMD, and the three OEM winners.">
+    <meta property="og:image" content="../img/pool/chips-nvidia-h200-v4.jpg">
+    <title>AI's Hidden Tax: Memory Spend Inside NVIDIA Systems Heads Toward 40%, HBM/DRAM Reprice the Infrastructure Stack | AI News Daily</title>
+    <link rel="canonical" href="articles/en/article-36.html">
+    <link rel="alternate" hreflang="en" href="articles/en/article-36.html">
+    <link rel="alternate" hreflang="zh-CN" href="articles/article-36.html">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6fa;
+            color: #2c3e50;
+        }
+        .deep-article {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 50px 56px;
+            box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+        }
+        .article-header { margin-bottom: 30px; }
+        .article-meta-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 22px;
+            font-size: 0.92em;
+            color: #7f8c9b;
+        }
+        .article-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.88em;
+            font-weight: 500;
+        }
+        .article-date, .article-read-time { color: #95a5a6; }
+        .article-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.35;
+            margin: 0 0 16px 0;
+        }
+        .article-subtitle {
+            font-size: 1.08em;
+            color: #5a6c7d;
+            line-height: 1.7;
+            margin: 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-hero-image {
+            margin: 30px 0 36px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            max-height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+        .article-content { font-size: 1.05em; color: #2c3e50; }
+        .article-content p { margin: 0 0 22px 0; text-align: justify; }
+        .article-content p.lead {
+            font-size: 1.18em;
+            color: #34495e;
+            font-weight: 500;
+            line-height: 1.75;
+            margin-bottom: 30px;
+            padding: 22px 26px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #fdf7ff 100%);
+            border-left: 4px solid #667eea;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-content h2 {
+            font-size: 1.45em;
+            color: #1a1a2e;
+            margin: 44px 0 20px 0;
+            padding-left: 16px;
+            border-left: 4px solid #667eea;
+            line-height: 1.4;
+        }
+        .article-content h3 {
+            font-size: 1.15em;
+            color: #2c3e50;
+            margin: 26px 0 14px 0;
+            line-height: 1.5;
+        }
+        .article-content strong { color: #1a1a2e; font-weight: 600; }
+        .article-content em { color: #667eea; font-style: normal; font-weight: 500; }
+        .article-content a { color: #667eea; text-decoration: none; border-bottom: 1px solid rgba(102, 126, 234, 0.3); }
+        .article-content a:hover { color: #764ba2; border-bottom-color: #764ba2; }
+        .article-content ul, .article-content ol { margin: 0 0 24px 0; padding-left: 28px; }
+        .article-content li { margin-bottom: 10px; line-height: 1.75; }
+        .article-highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 26px 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.25);
+        }
+        .article-highlight h3 { color: white; margin-top: 0; font-size: 1.1em; }
+        .article-highlight p { margin: 0; color: rgba(255, 255, 255, 0.95); line-height: 1.8; }
+        .article-highlight strong { color: white; }
+        .article-conclusion {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 26px 30px;
+            margin: 36px 0 30px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        .article-conclusion h2 {
+            border-left: none;
+            padding-left: 0;
+            margin-top: 0;
+        }
+        .article-conclusion p { margin-bottom: 14px; }
+        .article-conclusion p:last-child { margin-bottom: 0; }
+        .article-footer {
+            margin-top: 50px;
+            padding-top: 24px;
+            border-top: 1px solid #eef1f5;
+            text-align: center;
+            font-size: 0.9em;
+            color: #95a5a6;
+        }
+        @media (max-width: 768px) {
+            .deep-article { padding: 30px 22px; }
+            .article-title { font-size: 1.55em; }
+            .article-content { font-size: 1em; }
+            .article-content h2 { font-size: 1.3em; }
+        }
+    </style>
+</head>
+<body>
+    <article class="deep-article">
+        <header class="article-header">
+            <div class="article-meta-top">
+                <span class="article-category">Chips & Computing</span>
+                <span class="article-date">July 7, 2026</span>
+                <span class="article-read-time">~ 18 min read</span>
+            </div>
+            <h1 class="article-title">AI's Hidden Tax: Memory Spend Inside NVIDIA Systems Heads Toward 40%, HBM/DRAM Reprice the Infrastructure Stack</h1>
+            <p class="article-subtitle">From SemiAnalysis on July 4 to Asian PCB stocks down 18% on July 6 - the cost battleground of the AI industry in H2 2026 is shifting from GPU silicon itself to HBM, DRAM and the supporting supply chain. This piece cross-checks NVIDIA VVP privilege, Vera Rubin memory halving, structural pain at AMD, and the three OEM winners.</p>
+        </header>
+
+        <div class="article-hero-image">
+            <img src="../../img/pool/chips-nvidia-h200-v4.jpg" alt="NVIDIA data-center-class GPU rack with HBM stacks">
+        </div>
+
+        <div class="article-content">
+            <p class="lead">On July 4, 2026, the independent semiconductor research house SemiAnalysis quietly published a report that has since detonated across every AI capex model on the sell side. Its core call: memory spend inside NVIDIA systems will pass 30% of bill-of-materials by the end of 2026, and cross 40% in 2027. Across the wider hyperscale data-center capex mix, memory - a line item that was worth roughly 8% only a few years ago - is jumping to 30%, on its way even higher. Two days later, on July 6, Kingboard Laminates - the anchor of Asia's printed-circuit-board supply chain - fell as much as 18% in a single Hong Kong session. These two events are not coincidental. They are two aftershocks of the same tectonic shift: the AI industry's cost gravity is migrating away from GPU silicon and toward HBM, DRAM, PCBs and the packaging line.</p>
+
+            <h2>1. The Fact Base: Two Numbers That Repriced the Industry</h2>
+            <p>Let us pin down the actual data points first, because in the days after July 4 the numbers have been paraphrased in a dozen ways. SemiAnalysis's exact language, translated as literally as possible: <strong>&quot;Memory content will account for over 30% of NVIDIA's system bill-of-materials by end-2026, and will exceed 40% during 2027. For hyperscale data centers as a whole, memory-related spend will jump from around 8% today to about 30% in 2026, with further upside beyond that.&quot;</strong> Three data points inside that sentence are worth memorising: 30%, 40%, and the 8% → 30% jump for the wider hyperscale mix.</p>
+            <p>Bernstein's parallel bill-of-materials analysis for a Vera Rubin NVL72 rack gives the underlying arithmetic. A single rack costs around <strong>$9.1 million</strong> all-in. Memory and storage together consume <strong>$3.2 million - roughly 35%</strong> of the rack. Broken further: HBM $1.09M, CPU-side DRAM $0.80M, directly-attached NAND $1.28M. GPU silicon itself is 43.5%. Networking is another $1.27M (13.9%); liquid cooling and power distribution together are only $0.31M (3.4%). What used to be the &quot;expensive part&quot; - GPU silicon - is now barely half of the rack; what used to be a rounding error - memory - is now more than a third.</p>
+            <p>The unit-price move is even sharper. Bernstein estimates HBM per-GB pricing has risen from <strong>$16.6/GB three years ago to $53/GB today</strong>, effectively tripling. TrendForce/SigmaIntell tracking of Q2 2026 spot data shows LPDDR4X 4GB modules up 75% quarter-over-quarter and LPDDR5X 12GB modules up 89%. Broad DRAM contract prices are expected to more than double across full-year 2026, with LPDDR5 having roughly tripled in three years. In short, every layer of the memory hierarchy - HBM, DDR5, LPDDR5, NAND - has been repricing upward simultaneously, and it is that simultaneity that turns a supply squeeze into a structural cost regime change.</p>
+
+            <h2>2. Why Memory Suddenly Matters More Than Silicon</h2>
+            <p>The first-order driver is architectural. Frontier reasoning models - GPT-5.6, Claude Fable 5, Gemini 3.5 Pro, Hunyuan Hy3 - all use much longer context windows (200K to 1M tokens has become table stakes) and much larger KV-caches per active user. The math is unforgiving: for a 200K-token context on a 70B-class model, KV-cache alone easily consumes tens of gigabytes of HBM per active session. When you multiply by concurrent users at hyperscale, HBM capacity per GPU has to keep climbing - from H100's 80GB to H200's 141GB to B200's 192GB to the Rubin generation's 288GB and beyond. Each generation demands more HBM stacks per package, and each stack is priced at all-time-high dollars-per-GB.</p>
+            <p>The second-order driver is supply. HBM production is a joint problem of DRAM wafer capacity and advanced packaging (TSV, CoWoS, bumping) - both of which have 18-24 month lead times to expand. SK Hynix, Samsung and Micron combined cannot ramp HBM4 fast enough for the ordered demand from NVIDIA, AMD, Google TPU, AWS Trainium, and now the domestic Chinese players (Cambricon, Huawei Ascend). The result is that the three memory OEMs have shifted from &quot;taking orders&quot; to <strong>&quot;choosing customers.&quot;</strong> Whoever commits to a multi-year volume contract with prepayments gets allocation first; everyone else waits.</p>
+            <p>The third-order driver is macro. DRAM and HBM are cyclical - historically the industry over-supplied every 2-3 years and prices crashed. What is different this cycle is that a single vertical (AI training/inference) now consumes the majority of leading-edge DRAM output; commodity smartphone/PC/server DRAM has become the residual bidder. When AI capex is growing 40-60% year-on-year and commodity end-markets are only up single digits, the traditional cyclical relief valve is closed. Memory prices might not correct meaningfully until 2028 at the earliest.</p>
+
+            <h2>3. NVIDIA's VVP Privilege: The Structural Advantage Nobody Talks About</h2>
+            <p>Here is the most under-discussed part of the SemiAnalysis report - the concept of <strong>VVP, or &quot;Very Very Preferential&quot; pricing.</strong> In plain English: because NVIDIA orders memory in volumes an order of magnitude larger than anyone else and does so with multi-year forward commitments, the three memory OEMs (Samsung, SK Hynix, Micron) give NVIDIA prices that are structurally below the &quot;market&quot; contract price seen by every other buyer. SemiAnalysis explicitly writes that <strong>&quot;NVIDIA continues to enjoy VVP pricing from memory suppliers, which cushions its cost of goods relative to competitors&quot;</strong> - and this cushion is a large part of why NVIDIA can absorb a 30% → 40% memory cost share without collapsing gross margin.</p>
+            <p>Think about what this means. In a market where HBM has tripled from $16.6 to $53 per GB, NVIDIA is likely paying something closer to $30-35, while smaller buyers pay list. Multiply that gap across 6-8 HBM stacks per package and hundreds of thousands of packages per year, and NVIDIA's absolute memory-cost advantage over AMD, Cerebras, Groq, and internal hyperscaler ASICs is measured in single-digit billions of dollars annually. That is enough to fund an entire next-generation platform's R&D on cost differential alone.</p>
+            <p>The VVP dynamic also explains a subtlety in the 30% → 40% forecast itself. If NVIDIA were paying the same as everyone else, memory would be an even larger share of its BOM today - perhaps 40%+ already. The 30% → 40% trajectory bakes in the assumption that NVIDIA keeps its VVP discount steady. In a world where the OEMs are choosing customers, VVP is the reward for being the customer with the largest, longest, most-committed volume. It is a self-reinforcing moat: bigger orders → better VVP → lower BOM → more competitive product → bigger orders next cycle.</p>
+
+            <h2>4. Vera Rubin NVL72: The Rack Bill-of-Materials Everyone Should Memorise</h2>
+            <p>Bernstein's Vera Rubin NVL72 model is the single most useful reference for anyone trying to understand where the money flows in an AI rack today. Total rack: <strong>$9.1 million</strong>. Breakdown by percentage of total:</p>
+
+            <div class="article-highlight">
+                <h3>Vera Rubin NVL72 Rack BOM (~$9.1M)</h3>
+                <p><strong>GPU silicon</strong>: 43.5% (~$4.0M)<br>
+                <strong>HBM memory</strong>: $1.09M (~12.0%)<br>
+                <strong>CPU-side DRAM</strong>: $0.80M (~8.8%)<br>
+                <strong>Directly-attached NAND</strong>: $1.28M (~14.1%)<br>
+                <strong>Networking / interconnect</strong>: $1.27M (~13.9%)<br>
+                <strong>Liquid cooling + power</strong>: $0.31M (~3.4%)<br>
+                <strong>Other</strong>: ~4.3%</p>
+            </div>
+
+            <p>Two observations. First, on a per-GPU-package basis, the standalone B200 chip costs NVIDIA around $6,400 to manufacture, of which HBM is roughly 45% (about $2,900). Three years ago that share was closer to 25-30%. Package-level HBM share doubling over three years is the exact mirror of the SemiAnalysis rack-level 30% → 40% call.</p>
+            <p>Second, notice that direct-attached NAND ($1.28M) is actually larger than HBM in dollar terms - because inference workloads require enormous amounts of adjacent flash for model weights, KV-cache spill-over, and vector indices. This is a line item that did not even exist in the H100 era; it has emerged over the last 24 months as a first-class rack component. Once you add HBM ($1.09M) plus CPU DRAM ($0.80M) plus NAND ($1.28M) you reach the $3.2M / 35% memory-and-storage line that Bernstein highlights.</p>
+            <p>An important nuance in the Vera Rubin design: SemiAnalysis's earlier June 4, 2026 note revealed that NVIDIA <strong>halved CPU-side DDR5 per NVL72</strong> compared to Blackwell - shrinking the CPU-attached DRAM footprint to force more of the working set into HBM and NAND. This is a cost-optimisation move: at $53/GB, HBM is expensive, but DDR5 in the CPU sockets was itself becoming a runaway line. Halving CPU DDR5 is the sort of design decision only NVIDIA (with VVP privilege and complete platform control) can pull off - and it will be repeated aggressively into Rubin Ultra and the Kyber generation.</p>
+
+            <h2>5. The Structural Pain at AMD: More Memory Per Card, No VVP</h2>
+            <p>If NVIDIA's VVP privilege partly deflects the memory-cost shock, then its direct competitor AMD is the most structurally exposed loser of this cycle. SemiAnalysis is unusually blunt: <strong>&quot;For lower-volume purchasers like AMD, the situation is more severe. AMD's AI accelerators typically contain higher memory content per chip yet do not enjoy the same preferential pricing; combined with a much smaller accelerator volume, AMD is structurally more vulnerable to memory cost inflation.&quot;</strong> Three points inside that sentence deserve unpacking.</p>
+            <p>First, AMD's MI325X, MI355 and MI400 series were designed with more aggressive HBM3e / HBM4 integration than their NVIDIA contemporaries - carrying more GB of HBM per chip. This was AMD's chosen strategic differentiator (&quot;win inference with capacity&quot;), but it makes AMD more sensitive to HBM price moves than NVIDIA. Second, AMD does not yet enjoy VVP-tier pricing from the OEMs - the OEMs quote AMD closer to open-market contract, which means AMD's per-GB HBM cost is meaningfully higher than NVIDIA's for otherwise similar components. Third, AMD's total accelerator shipments are a fraction of NVIDIA's, so AMD cannot cross-subsidise memory costs the way NVIDIA can.</p>
+            <p>The consequence is that even when AMD matches or exceeds NVIDIA on paper specs and memory capacity, at the same street price AMD's gross margin structure is chronically squeezed by memory. This also explains why over the past 3 months AMD has been visibly deepening its 2nm foundry relationship with Samsung and openly discussing internal HBM-packaging design ownership - AMD needs to reclaim design-level control of the memory-cost stack, or it will remain bottlenecked by NVIDIA's VVP for the foreseeable future.</p>
+
+            <h2>6. The Three OEM Winners: Samsung, SK Hynix, Micron</h2>
+            <p>The three memory OEMs are the most direct and least ambiguous beneficiaries of this trend. <strong>&quot;Customers are prioritising securing supply over price negotiation&quot;</strong> - that sentence from SemiAnalysis is now visible in every earnings call from the three names. Samsung's DRAM ASP has jumped over 90% sequentially in the latest quarter. SK Hynix has locked in most of its 2027 HBM capacity through advance contracts. Micron's latest quarterly print was the immediate catalyst that pushed SemiAnalysis to raise its long-run memory-share forecast - the market was audibly shocked at how high the number could go.</p>
+            <p>The role of the three OEMs has shifted over 12 months from &quot;supplier&quot; to &quot;strategic gatekeeper.&quot; The old model was &quot;customer orders, OEM ships.&quot; The new model is <strong>&quot;OEM picks customers&quot;</strong>: whoever commits to long-term volume, signs multi-year contracts, and offers prepayments gets first allocation. This is structurally similar to the 2021-2022 chip shortage regime - but likely longer-lasting, because HBM and advanced-packaging capacity expansion is an 18-24 month build cycle, and demand keeps outrunning it.</p>
+            <p>Among the three, SK Hynix is the highest-quality operator today - its lead in HBM3e and HBM4 technology gives it the top of the pricing pyramid through 2027. Samsung wins on scale in commodity DRAM and LPDDR. Micron plays a slightly different game: it is the US-domestic supplier, which earns it strategic-policy premium in the AI-supply-chain-autonomy narrative that Washington is now emphasising. All three are entering what will likely be their highest-margin two-year window since the industry was consolidated.</p>
+
+            <h2>7. PCB and Copper-Interconnect Aftershocks: Kingboard -18% in a Day</h2>
+            <p>On Monday July 6, 2026, Asian tech markets registered a collective tremor - <strong>Kingboard Laminates, the anchor of Asia's printed-circuit-board supply chain, fell as much as 18% in a single Hong Kong session</strong>, triggering a broader selloff across the region's PCB names. The trigger came from the same research house: SemiAnalysis posted on X that NVIDIA's next-generation <strong>Kyber NVL144 rack had hit a manufacturing bottleneck</strong>, with the problem centred on the printed-circuit boards and copper interconnect assemblies that link the doubled-density GPU tray to the switch fabric.</p>
+            <p>Kyber NVL144 is the next-generation rack standard succeeding NVL72 in NVIDIA's GB300 / Vera Rubin roadmap - upgrading from 72 to 144 GPUs per rack effectively doubles the copper-interconnect density and layer count of the backplane PCB. PCB suppliers had assumed H2 2026 would be the volume ramp of Kyber NVL144 and priced their capex plans accordingly; the SemiAnalysis note recast the ramp from &quot;volume ramp&quot; to &quot;delayed ramp,&quot; and Kingboard - as the region's most exposed listed name - took the direct hit.</p>
+            <p>The aftershock exposes a deeper signal: <strong>the cost pressure of AI infrastructure now radiates through PCB, copper interconnect, optical interconnect, liquid cooling, and even rack structural steel</strong>. Each successive generation - single-rack power from 300kW to 1MW, per-card HBM from 80GB to 288GB, GPUs per rack from 72 to 144 to 300+ - simultaneously raises PCB layer count, copper trace density, cooling surface area, and power delivery capacity. Any single link in that chain hitting a yield or capacity bottleneck triggers a supply-chain-wide equity re-rating.</p>
+
+            <h2>8. Recomposing Compute Cost: From &quot;Buying GPUs&quot; to &quot;Buying Systems&quot;</h2>
+            <p>Reading SemiAnalysis and Bernstein together, the cost centre of H2 2026 AI infrastructure is undergoing a structural reallocation. Three years ago the customer conversation was &quot;how much for 100 H100s?&quot; and &quot;how much more expensive is B200 vs A100?&quot; <strong>Today - and increasingly through 2027 - the customer conversation is about total rack cost, of which GPU silicon is less than half, and the remaining 55% is spread across HBM, CPU DRAM, NAND, networking, cooling, power delivery, rack chassis and PCB laminate.</strong></p>
+            <p>This shift changes three industry rules simultaneously. <strong>Rule one: hyperscalers are demanding &quot;bundled pricing&quot; from NVIDIA, not per-die pricing.</strong> Because total rack cost visibility now matters far more than GPU unit price, AWS, Azure and Google Cloud are moving toward whole-rack procurement. <strong>Rule two: NVIDIA's business model has evolved from &quot;selling GPUs&quot; to &quot;selling AI factories.&quot;</strong> The Vera Rubin-and-beyond Kyber platform bundles GPU, HBM, DRAM, NAND, networking, cooling, and power into a single standard SKU - which lets NVIDIA price and margin the whole system rather than only the silicon. <strong>Rule three: AI startups and mid-tier clouds are being pushed toward rental rather than ownership.</strong> At $9.1M per Vera Rubin rack (of which $3.2M is memory), building a 100-rack cluster requires close to $1B in upfront capex - only the largest hyperscalers can absorb that. Everyone else has to rent from CoreWeave, Nebius, SpaceX Colossus, or now Meta Compute.</p>
+            <p>That is why, when Bloomberg broke the Meta Compute story on July 1, the market instantly punished CoreWeave and Nebius to -13.92% / -17.01% - not because Meta Compute is live tomorrow, but because &quot;who can supply whole-rack compute&quot; had suddenly become a more urgent question than &quot;who has cheap GPUs.&quot; Whole-rack supply depends fundamentally on memory access - whoever can secure HBM and DRAM allocation is the only party physically capable of shipping whole-rack products.</p>
+
+            <div class="article-conclusion">
+                <h2>Conclusion: The Three Vectors of AI's Hidden Tax</h2>
+                <p><strong>Vector one: cost pressure is migrating from GPU silicon to memory and its supporting supply chain.</strong> From &quot;buying GPUs&quot; to &quot;buying whole systems,&quot; the capex composition of both hyperscalers and AI companies is undergoing a fundamental rewrite. The 30% → 40% curve is not just an NVIDIA-specific number; it is a structural repricing of the entire AI infrastructure stack.</p>
+                <p><strong>Vector two: NVIDIA's VVP privilege will further reinforce its moat.</strong> In a rising-memory-price environment, the incumbent with preferential pricing widens the TCO gap versus every competitor (AMD, hyperscaler-internal ASICs). That gap will not close simply because AMD offers more HBM per card - it will be amplified by rising HBM prices.</p>
+                <p><strong>Vector three: the memory OEMs upgrade from supporting cast to protagonists.</strong> Samsung, SK Hynix and Micron are entering a structural high-margin cycle likely to run through 2028, i.e., until HBM and advanced-packaging capacity expansion catches up with demand. Analyst consensus is that meaningful capacity relief will not arrive before 2028.</p>
+                <p>The most direct implication for the AI application layer: even when training cost falls thanks to software optimisation (see OpenAI's inference-cost halving on July 1), the hardware acquisition cost of the underlying infrastructure will continue to rise thanks to memory. Inference unit-cost declines will proceed more slowly than the optimistic view held two months ago. <strong>AI's hidden tax is transmitting upward from the deepest layer of the industry</strong> - and every user paying for an API call, an AI subscription, or a compute rental will ultimately foot the bill for the HBM and DRAM repricing that is playing out right now.</p>
+            </div>
+
+            <h2>9. Hyperscaler Custom ASICs: The One Path That Can Escape the Hidden Tax</h2>
+            <p>Within the SemiAnalysis chain of reasoning, the only path that could meaningfully reduce this hidden tax is <strong>hyperscaler custom ASICs paired with deeply customised memory subsystems</strong>. Google TPU is the most mature template: TPU v6 / v7 restructured the balance between HBM and on-chip SRAM cache hierarchy at the architectural level, needing 30-40% less HBM per chip than the equivalent-generation GPU. Amazon Trainium 2 / Inferentia 3 travelled a similar path; Meta MTIA 2 / MTIA Ultra is converging in the same direction.</p>
+            <p>The reason these custom ASICs can meaningfully reduce memory cost is not that they buy HBM cheaper - they also lack VVP privilege, and their volumes are actually smaller than AMD's. It is that they <strong>rebalance the &quot;memory vs compute vs interconnect&quot; cost ratio at the system-architecture level</strong>. The TPU v7 architecture simply requires less HBM to run the same class of inference workload. The same HBM price move hits TPU BOM materially less than it hits GPU BOM. This architecture-level moat is precisely what AMD and NVIDIA find hardest to replicate - HBM dependency is baked deep into the CUDA / ROCm stack, and cannot be designed around in a single generation.</p>
+            <p>But hyperscaler custom ASICs also have severe limits: <strong>they are only meaningful for the customer-controlled scenarios of that single hyperscaler; they are not general-purpose substitutes</strong>. Third-party AI companies (Anthropic, OpenAI, Character, Perplexity) cannot pick up TPU or MTIA as a primary platform - they end up back on NVIDIA GPU + HBM as the main path. That is why hyperscaler ASICs form a cost moat only for internal-usage workloads, while the TCO of every major independent AI-model company is still being dragged up by HBM. It also explains why Anthropic began 2nm negotiations with Samsung in early July - Anthropic is the last of the top-tier independent model companies to walk the in-house-silicon path that Google, Meta, and Amazon started years ago.</p>
+
+            <h2>Sources and Timeline</h2>
+            <ul>
+                <li><strong>SemiAnalysis, 2026-07-04 report</strong>: memory share inside NVIDIA systems &gt; 30% by end-2026, &gt; 40% during 2027; hyperscale data-center memory share jumping to 30% in 2026.</li>
+                <li><strong>SemiAnalysis, 2026-06-04 note</strong>: Vera Rubin NVL72 halves CPU-side DDR5 vs Blackwell.</li>
+                <li><strong>SemiAnalysis, 2026-07-06 X thread</strong>: Kyber NVL144 hits PCB / copper-interconnect bottleneck; Kingboard Laminates -18% intraday.</li>
+                <li><strong>Bernstein analysis</strong>: Vera Rubin NVL72 rack $9.1M total, memory+storage $3.2M (35%), GPU silicon 43.5%; HBM per-GB pricing $16.6 → $53 over three years.</li>
+                <li><strong>TrendForce / SigmaIntell, Q2 2026</strong>: LPDDR4X 4GB +75%, LPDDR5X 12GB +89%; three memory OEMs raise 2027 HBM contract quotes materially.</li>
+                <li><strong>GF Securities analyst Pu</strong>: Vera Rubin memory-cost share estimated at ~20% (pre-July revision).</li>
+                <li><strong>Wall Street CN / Bloomberg re-reporting, 2026-07-04</strong>: SemiAnalysis primary report circulated globally.</li>
+            </ul>
+
+            <p><em>All data in this article is sourced from the SemiAnalysis reports, Bernstein sell-side analysis, TrendForce/SigmaIntell channel checks, GF Securities analyst notes, Wall Street CN, and Bloomberg. Percentages, unit prices and dates are taken as-published from primary sources.</em></p>
+        </div>
+        <footer class="article-footer">
+            <p>AI News Daily · Deep AI Analysis Daily · ainewsdaily.asia</p>
+        </footer>
+    </article>
+</body>
+</html>

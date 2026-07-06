@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "article-36",
+      "date": "2026-07-07",
+      "title_zh": "AI 的隐形税：英伟达系统内存支出冲向 40%，HBM/DRAM 涨价重塑基础设施成本结构",
+      "title_en": "AI's Hidden Tax: Memory Spend Inside NVIDIA Systems Heads Toward 40%, HBM/DRAM Reprice the Infrastructure Stack",
+      "subtitle_zh": "2026 年 7 月 4 日 SemiAnalysis 发布最新报告：英伟达系统的内存支出占比将在 2026 年底超 30%、2027 年超 40%；超大规模数据中心整体内存占比从 8% 跳升至 30%。DRAM 2026 年翻倍以上、LPDDR5 三年涨三倍、HBM 单价从 16.6 美元/GB 冲向 53 美元/GB。7 月 6 日建滔积层板一度重挫 18%——本文从事实核对、内存供应结构、英伟达 VVP 特权、Vera Rubin 内存减半、AMD 结构性受伤、存储原厂受益、PCB 供应链余震、下一代冷却与网络成本 8 个维度，拆解 AI 基础设施成本的隐形税转移。",
+      "subtitle_en": "A SemiAnalysis report published on July 4, 2026 warns that memory spend inside NVIDIA systems will exceed 30% of BOM by end-2026 and cross 40% in 2027. Across hyperscale data centers, memory share is jumping from 8% to 30%. DRAM prices are set to more than double in 2026, LPDDR5 has tripled in three years, and HBM per-GB pricing is climbing from $16.6 to $53. On July 6 Kingboard Laminates fell as much as 18% intraday. This deep dive analyzes eight dimensions: fact anchoring, memory supply structure, NVIDIA VVP privilege, Vera Rubin memory halving, structural pain at AMD, memory OEM winners, PCB supply-chain aftershocks, and next-gen cooling and networking cost.",
+      "url_zh": "articles/article-36.html",
+      "url_en": "articles/en/article-36.html",
+      "summary_zh": "2026 年 7 月 4 日，半导体研究机构 SemiAnalysis 发布报告：英伟达系统内存支出占比将在 2026 年底超 30%、2027 年超 40%；超大规模数据中心内存整体占比从当前 8% 跳升至 30%。两天后 7 月 6 日，PCB 厂商建滔积层板在香港股市一度重挫 18%——两个事件不是巧合，是同一场产业结构性重塑的两次余震：AI 产业的成本重心正在从 GPU 硅片本身向 HBM、DRAM、PCB 与配套供应链转移。Bernstein 数据：Vera Rubin NVL72 单机柜 910 万美元，内存与存储合计 320 万（35%），GPU 硅片仅占 43.5%；HBM 单价三年从 16.6 美元/GB 涨至 53 美元/GB。英伟达享受存储原厂 VVP 特权定价（预估 30-40% 折扣），得以从容承担 30% → 40% 曲线；AMD 单卡 HBM 用量更大又没有 VVP、是结构性最脆弱的一方。三星 DRAM 平均售价环比涨幅超 90%、SK 海力士 HBM 2026 年产能已提前锁定、美光刚发布财报是 SemiAnalysis 上调预测的直接催化剂——存储三巨头进入结构性高毛利周期。本文从 8 个维度全面拆解 AI 基础设施成本的隐形税转移。",
+      "summary_en": "On July 4, 2026, semiconductor research house SemiAnalysis released a report warning that memory spend inside NVIDIA systems will exceed 30% by end-2026 and cross 40% in 2027; hyperscale data-center memory share jumps from 8% to 30%. Two days later on July 6, PCB maker Kingboard Laminates fell as much as 18% intraday in Hong Kong - not a coincidence but two aftershocks of the same tectonic shift: AI industry cost gravity is migrating from GPU silicon to HBM, DRAM, PCB and the supporting supply chain. Bernstein's Vera Rubin NVL72 rack BOM: $9.1M total, memory+storage $3.2M (35%), GPU silicon only 43.5%; HBM per-GB pricing has tripled from $16.6 to $53 over three years. NVIDIA enjoys VVP preferential pricing from memory OEMs (est. 30-40% discount), able to weather the 30%→40% curve comfortably; AMD carries more HBM per chip without VVP - structurally the most exposed loser. Samsung's DRAM ASP jumped 90%+ sequentially, SK Hynix's 2026 HBM capacity is locked in, Micron's latest print catalyzed SemiAnalysis's upward revision - the three memory OEMs enter a structural high-margin cycle. This piece dissects eight dimensions of AI's hidden tax transmission.",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "image": "img/pool/chips-nvidia-h200-v4.jpg",
+      "read_time": "18 min read"
+    },
+    {
       "id": "article-35",
       "date": "2026-07-06",
       "title_zh": "Meta Compute 的临界点：AI 头部厂商第一次从算力买家转身为算力卖家",
