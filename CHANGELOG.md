@@ -4,6 +4,45 @@
 
 ---
 
+## 2026-07-07 05:45 — 日更三件套（article-36 + 微信 + 头条）
+
+**主题（三平台互不重复）**
+- 网站 article-36：《AI 的隐形税：英伟达系统内存支出冲向 40%，HBM/DRAM 涨价重塑基础设施成本结构》（产业分析，芯片算力方向）
+- 微信：《姚顺雨的 180 天：从加入腾讯到 Hy3 正式发布，一位 1998 年生的姚班博士如何跑通半年闭环》（人物迁徙叙事）
+- 头条：《GPT-5.6 定档 7 月 7 日精准截胡 Claude：Sol/Terra/Luna 三档模型 + 输入价对折》（大模型商业战热点）
+
+**产出文件**
+- `articles/article-36.html` 31,392B（中文，含 5,698B 内联 CSS）
+- `articles/en/article-36.html` 31,151B（英文全译，含 4,877B 内联 CSS）
+- `wechat/wechat-2026-07-07.html` 26,138B（677px table 布局 · 12 tables + 34 tds + 47 border:none · 完整线上 URL 图 · 晓色原创声明）
+- `toutiao/toutiao-2026-07-07.md` 13,172B（纯 Markdown）
+- `output/news-day-20260707.json` 51,479B（10 news + hero-2026-07-07）
+- `output/article-meta-20260707.json` 4,201B（14 字段 `_zh/_en` 后缀命名）
+
+**数据文件更新**
+- data/news.json：days 5 天窗口 7-7 入首（挤掉 7-2），三处强制同步：last_updated=2026-07-07 + 顶层 hero=hero-2026-07-07 + days[0].date=2026-07-07
+- data/articles.json：article-36 入首，总数 35
+- data/used-images.json：本次 12 张全部复用历史 v3/v4 图（0 新增），总计仍 216
+- index.html：侧栏插入 article-36（7/7）+ 挤掉 article-26（6/27）
+- sitemap.xml：74 → 76 URL（+ article-36 中英双语，hreflang 三向共 8 处）
+
+**信源交叉核实（每平台 5+ 独立信源）**
+- 网站：SemiAnalysis 2026-07-04/06 报告 + Bernstein Vera Rubin NVL72 BOM + TrendForce/SigmaIntell Q2 + 华尔街见闻 + 广发证券 Pu
+- 微信：环球网 7-6 + 消费日报 7-7 + 腾讯官方发布会 + HuggingFace Hy3 模型卡 + 腾讯 2025/2026 财报
+- 头条：36 氪 7-4/7-6 + Cursor 官方 X + Anthropic 状态页 + Terminal-Bench 2.1 leaderboard + 微博 AI 简讯
+
+**部署与验证**
+- git commit `9a0b0eb`（88edb1a..9a0b0eb，7 files changed 940+/-322）
+- Cloudflare Pages 部署：https://763cccc4.ainewsdaily.pages.dev
+- 线上验证 9 项全 PASS：sitemap 76 URL / article-36 hreflang 8 次 / 中英 200 精确字节 / 关键词密度（HBM 49/55、英伟达 49、NVIDIA 42、SemiAnalysis 28/22）/ 首页侧栏 article-36 入（1）+ article-26 删（0）/ hero 图 200 / news.json 三处同步 / articles.json 35 篇 / Yandex ping 200
+
+**GSC 待办（主人手动操作）**
+- 请求编入索引：
+  - https://ainewsdaily.asia/articles/article-36.html
+  - https://ainewsdaily.asia/articles/en/article-36.html
+
+---
+
 ## 2026-07-06 06:30 — 日更三件套（article-35 + 微信 + 头条）
 
 ### 网站版（产业分析）
