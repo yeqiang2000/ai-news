@@ -4,6 +4,59 @@
 
 ---
 
+## 2026-07-08 · 日更三件套（网站 + 微信 + 头条）
+
+### 🌐 网站 · article-37《AI 投资的十条真相：摩根士丹利 7 月 6 日报告重塑万亿美元资本地图》
+- **切角**：摩根士丹利首席美股策略师 Michael Wilson 团队 2026-07-06 发布《AI: 十条投资真相》报告，10 条判断把 AI 投资从「买芯片」推向「买云」，从「性能溢价」推向「Token 效率」
+- **10 章节结构**：事实核对 / 真相全景 / Token 经济（2025 全球消费翻 10 倍）/ 摩尔定律失效 / 代理时代（价值倍数 10-100 倍）/ 软件护城河重构 / $4T 全栈资本周期（2024-2027 累计）/ 中美平行架构（估值折价 15-25%）/ 治理落后 3-5 年 / 最大赢家尚未诞生
+- **文件**：`articles/article-37.html`（35,439B）+ `articles/en/article-37.html`（36,005B）
+- **hero 图**：`img/pool/industry-token-usage-v4.jpg`
+- **信源交叉核实（5+ 源）**：格隆汇首发《AI: 十条投资真相》/ 36氪 3884786855882755 深度解读 / 21 世纪经济报道王滢专访 / Michael Wilson 2026-07 周报 / Bernstein Vera Rubin NVL72 BOM 数据
+
+### 📱 微信 · 《李开复走访 200 位 CEO 后：「一号位 AI」发布会背后的中国版 Palantir 路径》
+- **切角**：李开复亲自走访 200 位 CEO 素材，零一万物「一号位 AI」发布会推出老板/销冠/投资官三款产品
+- **产品定价**：老板 AI 50 万/年 · 销冠 AI 15 万/年 · 投资官 AI 25 万/年
+- **内部效果**：订单额 5 倍 / 商机转化率 2 倍
+- **文件**：`wechat/wechat-2026-07-08.html`（29,009B，677px table 布局，`<div>=0`，`border:none=47` + `border="0"=12`）
+- **信源**：白鲸实验室 2026-07-07 现场报道 / 万策 AI 官方通稿 / 三款产品定价卡片 / 零一万物内部数据 / 200 位 CEO 走访调研
+
+### 📰 头条 · 《谷歌 Gemini 3.5 Pro 定档 7/17 精准截胡：200 万 Tokens + 深度思考模式 + 编码反超 Claude》
+- **切角**：Gemini 3.5 Pro 泄露→延期→上下文军备升级→推理模式成大模型新标配，7/17 发布节点前的抢发窗口热点
+- **核心爆点**：200 万 Tokens 上下文 / 新增「深度思考」推理模式 / 编码任务声称优于 Claude Fable 5 High
+- **文件**：`toutiao/toutiao-2026-07-08.md`（14,170B）
+- **信源**：凤凰网 2026-07-07 / IT之家 973-334 / 36氪 3884084059123976 / 新智元/新浪财经 2026-06-20 / CSDN blog 161130880
+- **主人预定**：2026-07-07 17:55 手动指定进头条池，本次消化
+
+### 📊 数据文件更新
+- `data/news.json`：`days[0]` 新增 2026-07-08（挤掉 2026-07-03），保留 5 天；`last_updated` = 2026-07-08 + 顶层 `hero` 同步为 `hero-2026-07-08`
+- `data/articles.json`：`article-37` 入首，总计 **36 篇**
+- `data/used-images.json`：本次 12 位置全部复用池中历史图（0 张新增，总仍 **216 张**），`last_updated` 更新
+- `index.html`：侧边栏推送——加入 7/8 article-37，移除 6/28 article-27
+
+### 🔎 SEO · sitemap.xml
+- 全量重建至 **78 URL**（6 静态 + 36 article × 2 语言）
+- article-37 中英条目 hreflang zh-CN / en / x-default 三向互链
+- Yandex ping HTTP 200
+- ⚠️ **待主人手动 GSC 操作**：为 `https://ainewsdaily.asia/articles/article-37.html` 和 `https://ainewsdaily.asia/articles/en/article-37.html` 请求编入索引
+
+### 🚀 部署
+- Git commit `ac75754`：`feat: daily update 2026-07-08 + article-37 摩根士丹利 AI 十条投资真相报告`（7 files changed, 1090+/-392）
+- Push：`90b9b43..ac75754`
+- Cloudflare 部署预览：`https://9f5ce691.ainewsdaily.pages.dev`
+- 生产：`https://ainewsdaily.asia`
+
+### ✅ 线上验证 9 项全 PASS
+- sitemap 200 / 78 URL / article-37 出现 8 次（hreflang 三向）
+- article-37 中英 200 / 精确字节数匹配（35,439 / 36,005）
+- 中文关键词：摩根士丹利 20 / Michael Wilson 6 / Token 经济 13 / 摩尔定律 11 / $4T 6 / 云服务 5 / 代理时代 10
+- 英文关键词：Morgan Stanley 18 / Michael Wilson 6 / Token Economy 12 / Moore's Law 11 / $4T 8 / cloud 15 / Agent Era 12
+- 首页侧栏 article-37 已入 / article-27 已删
+- hero 图 `industry-token-usage-v4.jpg` 200
+- news.json last_updated=2026-07-08 / top hero=hero-2026-07-08 / days=5
+- articles.json 36 篇首篇 article-37
+
+---
+
 ## 2026-07-07 05:45 — 日更三件套（article-36 + 微信 + 头条）
 
 **主题（三平台互不重复）**
