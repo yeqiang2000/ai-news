@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "article-37",
+      "date": "2026-07-08",
+      "title_zh": "AI 投资的十条真相：摩根士丹利 7 月 6 日报告重塑万亿美元资本地图",
+      "title_en": "AI's Ten Investment Truths: Morgan Stanley July 6 Report Redraws the Trillion-Dollar Capital Map",
+      "subtitle_zh": "2026 年 7 月 6 日，摩根士丹利首席美股策略师 Michael Wilson 团队发布《AI：十条投资真相》报告——四力共振驱动、摩尔定律失效、Token 经济崛起、代理时代来临、软件护城河重构、AI 从分析走向运行、全栈资本进入四年周期、中美平行架构、治理明显落后、最大赢家尚未诞生。10 条真相把 AI 投资从「买芯片」推向「买云」，从「性能溢价」推向「Token 效率」。本文从事实核对、真相全景、Token 经济、摩尔定律失效、代理时代、软件护城河、$4T 资本开支、中美平行、投资风险、赢家路径 10 个维度全面拆解报告核心判断，为下一阶段 AI 投资地图提供结构化视角。",
+      "subtitle_en": "On July 6, 2026, Morgan Stanley Chief US Equity Strategist Michael Wilson's team published 'AI: Ten Investment Truths' - a ten-point framework covering four-force convergence, the end of Moore's Law, the rise of the Token Economy, the Agent Era, software moat rewrites, AI moving from analysis to runtime, a four-year $4T full-stack capex cycle, US-China parallel architectures, governance lagging technology, and the biggest winner not yet born. The ten truths push AI investment from 'buy chips' to 'buy cloud,' from 'performance premium' to 'token efficiency.' This piece dissects each truth across ten dimensions: fact anchoring, overview, Token Economy, end of Moore's Law, Agent Era, software moat rewrite, $4T capex, US-China parallel, investment risks, and paths to winning - providing a structural lens for the next chapter of AI investment.",
+      "url_zh": "articles/article-37.html",
+      "url_en": "articles/en/article-37.html",
+      "summary_zh": "摩根士丹利首席美股策略师 Michael Wilson 团队于 2026 年 7 月 6 日发布《AI：十条投资真相》报告——四力共振驱动、摩尔定律失效（软件与 Token 效率取代硅片主导权）、Token 经济崛起（2025 全球 AI Token 消费翻 10 倍）、代理时代来临（价值倍数放大 10-100 倍）、软件护城河被 AI 重构、Runtime AI 取代 Analytics AI、全栈资本进入四年周期（2024-2027 累计资本开支 $4T）、中美 AI 平行架构（估值折价窗口收敛至 15-25%）、治理明显落后 3-5 年、最大赢家尚未诞生 10 条判断。核心战术：卖芯片、买云——AI 芯片估值分位 95%，云服务 / AI 原生软件 / 内存原厂接过下一阶段增长接力棒。同步中国区首席策略师王滢专访强调中国 AI 估值折价窗口正在关闭。",
+      "summary_en": "Morgan Stanley Chief US Equity Strategist Michael Wilson's team released 'AI: Ten Investment Truths' on July 6, 2026 - ten industry judgments: four-force convergence, Moore's Law failure (software and token efficiency replace silicon primacy), rise of the Token Economy (global AI token consumption grew 10x in 2025), Agent Era (10-100x value multiplication), software moat rewritten by AI, Runtime AI replacing Analytics AI, four-year full-stack capex cycle ($4T cumulative 2024-2027), US-China parallel architecture (valuation discount narrowing to 15-25%), governance lagging 3-5 years, and 'biggest winner not yet born.' Core tactical call: 'sell chips, buy cloud' - AI chips at 95th percentile valuation; cloud services, AI-native software, and memory OEMs take the growth baton. Parallel interview with MS China Strategist Laura Wang emphasizes China's AI discount window is closing.",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "image": "img/pool/industry-token-usage-v4.jpg",
+      "read_time": "18 min read"
+    },
+    {
       "id": "article-36",
       "date": "2026-07-07",
       "title_zh": "AI 的隐形税：英伟达系统内存支出冲向 40%，HBM/DRAM 涨价重塑基础设施成本结构",
