@@ -2,6 +2,46 @@
 
 所有网站内容与功能的更新记录，每次更新时追加到本文档。
 
+## 2026-07-10 · 三件套日更 · article-39
+
+**commit**：`e6508ee feat: daily update 2026-07-10 (article-39: Agent 商业化拐点)`
+**部署**：`https://448380e0.ainewsdaily.pages.dev`（12 files new / 549 cached / 3.30s）
+**生产**：`https://ainewsdaily.asia`
+
+### 三平台主题（互不重复）
+- **网站（产业分析）** `article-39` 中英双语：《Agent 商业化的拐点：Cursor 40 亿 / Cognition 8 亿 / Lindy 15 亿——90 天 ARR 集体撞线的产业裂变》
+- **微信（人物叙事）** `wechat-2026-07-10.html`：《Sam Altman 的 Sol 100 天 — 一场硅谷抢发文化下的信任危机》→ 公开 URL：`https://www.coze.cn/s/kS4bSlcGPo4/`
+- **头条（热点趋势）** `toutiao-2026-07-10.md`：《AI 视频生成大洗牌 — Sora 3 / Veo 4 / Kling 4 三巨头 24 小时同台开火，单条 4K 视频价格暴跌 80%》
+
+### 数据变更
+- `news.json` days[0] = 2026-07-10（10 条新闻 + hero）、last_updated=2026-07-10、hero=article-39；淘汰 2026-07-05（保留最近 5 天）
+- `articles.json`：insert(0, article-39)，总数 37 → 38
+- `used-images.json`：total_used 228 → 236（+8 新增，policy/open_source/investment 3 张历史已用，去重合并）
+- `sitemap.xml`：URL 80 → 82（+article-39 中英双语），全表 lastmod 更新，article-39/38 priority=0.9
+- `index.html` 侧边栏：article-39 → article-30（10 项窗口），淘汰 article-29
+- **i18n.js 未改**（本次无 UI 新增）
+
+### 部署前 3 项强制自检（SOP §8 第 3 步）
+- ✓ 侧边栏 `sidebar-article-link` 数 = 10，首条 = article-39.html
+- ✓ news.json last_updated + hero + days[0] 三项一致
+- ✓ sitemap URL 数 = 82（xmllint 通过）
+
+### 线上验证（3 次 curl，收敛）
+- ✓ sitemap.xml → HTTP 200, application/xml
+- ✓ article-39.html → HTTP 308（CF Pages 重定向正常）
+- ✓ Yandex ping → HTTP 302
+
+### SOP 遵循度
+- ✓ §8.0 派发前 5 检（清空日程 / 锁 sonnet / 内嵌 schema / 压缩防线 / 任务卡瘦身）全绿
+- ✓ §8 第 3 步 侧边栏 grep 强制自检 = 10 且首条 = article-39
+- ✓ §8 第 7 步 bash `timeout=300` 用于 git clone
+- ✓ §8 第 9 步 线上验证收敛为 3 次 curl，禁批量 5+
+- ✓ §11.1 手动触发日日程处理前置化（calendar_search count=0）
+
+### 遗留问题（待优化）
+- ⚠️ image-pool.json URL 格式与 used-images.json 不对齐（pool 用相对路径 `img/pool/xxx.jpg`，used 用完整 URL `https://ainewsdaily.asia/img/pool/xxx.jpg`），导致子 agent 去重规则形同虚设。本次 12 张图中 3 张（policy/open_source/investment）实为历史已用，视觉重复未阻断本次发布。TODO：下次日更前统一 image-pool URL 为完整 URL 或读取时统一 normalize。
+
+
 ---
 
 ## 2026-07-09 08:20 · 侧边栏补丁
@@ -992,4 +1032,8 @@
 - 预览：https://31f45f82.ainewsdaily.pages.dev/sitemap.xml
 - **重磅 hero**：中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标同步落地（来源：国家标准委 / 中国政府网）
 - **新增深度文章**：article-27《中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标，从底层算力到智能体协同的全栈规范化》中英双语
-- **news 10 条**：国标双发、GPT-5.6 Sol/Terra/Luna 三梯队、DeepSeek DSpark 开源、特斯拉接入豆包+DeepSeek、DeepSeek 胡润独角兽 3400 亿、工信部 L3/L4 强制性国标、阿里千问输入法 macOS、Anthropic Mythos 5、Marvell CXL 3.64x 压
+- **news 10 条**：国标双发、GPT-5.6 Sol/Terra/Luna 三梯队、DeepSeek DSpark 开源、特斯拉接入豆包+DeepSeek、DeepSeek 胡润独角兽 3400 亿、工信部 L3/L4 强制性国标、阿里千问输入法 macOS、Anthropic Mythos 5、Marvell CXL 3.64x 压缩、RoboScience Visics 具身大模型
+- **侧边栏**：article-27 进首位，挤掉 article-16
+- **图片**：本次新增 11 张图标记 used（含 industry-smart-city.jpg / policy-data-privacy.jpg / llm-multimodal-v3.jpg / opensource-github-stars-v3.jpg / autonomous-vehicle-city.jpg / investment-ipo-v3.jpg / autonomous-truck-v3.jpg / llm-rag-v3.jpg / llm-evaluation-v3.jpg / chips-edge-ai-v3.jpg / robotics-humanoid-v3.jpg），used 总数 141，本地可用 63 张
+- **commit**: `75c0fb3` (feat(daily): 2026-06-28 update)
+- **部署**: https://5cd4b8a8.ainewsdaily.pages.dev
