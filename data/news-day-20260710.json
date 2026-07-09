@@ -1,0 +1,318 @@
+{
+  "date": "2026-07-10",
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-10",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "Cursor 年化 ARR 冲上 40 亿美元：50 人团队缔造软件史上最高人效",
+      "title_en": "Cursor ARR Reaches $4B: 50-Person Team Sets Software History's Revenue-per-Employee Record",
+      "summary": "2026 年 7 月 10 日 The Information 独家：Anysphere 旗下 Cursor 已把年化经常性收入从 2 月的 20 亿美元推至 40 亿美元，员工规模仅约 50 人，人均创收 8000 万美元，改写 B2B SaaS 增速纪录。",
+      "summary_en": "The Information exclusive July 10, 2026: Anysphere's Cursor has pushed ARR from $2B in February to $4B, with a headcount of just ~50, achieving $80M revenue per employee — rewriting the B2B SaaS growth record.",
+      "source": "The Information",
+      "source_en": "The Information",
+      "image": "img/pool/startup-01-v5.jpg",
+      "content": "2026 年 7 月 10 日凌晨（美东时间），The Information 独家披露：Anysphere 旗下 AI 编程 IDE Cursor 的年化经常性收入（ARR）已从 2 月份的 20 亿美元推升至 40 亿美元，五个月翻倍。而 Cursor 团队至今仍仅约 50 名核心员工——按此测算，人均年创收约 8000 万美元，是 SaaS 行业有史以来最高的人效纪录。作为对比，Slack 上市前人均 ARR 约 40 万美元、GitHub 被微软收购时人均 ARR 约 100 万美元——Cursor 的这个数字比它们高出两个数量级。\n\nCursor 的爆发路径清晰可查：2025 年 1 月 ARR 1 亿 → 6 月 5 亿 → 年底 10 亿 → 2026 年 2 月 20 亿 → 4 月 30 亿 → 7 月 40 亿。今年 4 月 Andreessen Horowitz 与 Thrive Capital 已经出手，以 500 亿美元估值领投 20 亿融资；6 月市场传言 SpaceX 拟以 600 亿美元收购 Cursor 遭到婉拒——四位主要创始人（均 25 岁前后）已经把 Cursor 视为下一代 IDE 而非现金流工具。\n\n增长的三条驱动线：其一，Cursor 与 OpenAI、Anthropic、DeepSeek 三家底层模型深度集成，模型能力升级直接转化为产品能力；其二，企业客户从 2025 年的 1500 家跃升至 2026 年 7 月的 12000 家，含微软、Meta、Google 内部工程团队等重量级买家；其三，Cursor Composer 与 Agent 模式让「一句自然语言完成整个 PR」成为主流开发方式。分析师认为，Cursor 目标 2026 年底 ARR 60 亿美元、2027 IPO 估值 800-1000 亿美元。",
+      "content_en": "In the early hours of July 10, 2026 (EDT), The Information reported exclusively that Cursor, the AI coding IDE owned by Anysphere, has pushed its annualized recurring revenue (ARR) from $2 billion in February to $4 billion — doubling in five months. Cursor's core headcount remains around 50, translating to approximately $80 million ARR per employee — the highest revenue-per-employee ratio in SaaS history. For comparison: Slack's pre-IPO ARR-per-employee was around $400K; GitHub at Microsoft acquisition was around $1M — Cursor is two orders of magnitude ahead.\n\nCursor's growth path is well-documented: January 2025 ARR $100M → June $500M → year-end $1B → February 2026 $2B → April $3B → July $4B. In April 2026, Andreessen Horowitz and Thrive Capital led a $2B round at a $50B valuation; in June, market rumors of a $60B SpaceX acquisition offer were reportedly declined — the four founders (all around age 25) view Cursor as the next-generation IDE rather than a cash-flow tool.\n\nThree drivers behind the growth: first, deep integration with OpenAI, Anthropic, and DeepSeek — foundation model upgrades translate directly to product capability; second, enterprise customer count grew from 1,500 in 2025 to 12,000 in July 2026, including internal engineering teams at Microsoft, Meta, and Google; third, Cursor Composer and Agent mode have made 'one natural-language sentence completing an entire PR' the mainstream workflow. Analysts project year-end 2026 ARR of $6B and a 2027 IPO valuation of $80-100B.",
+      "key_points": [
+        "Cursor ARR 7 月冲上 40 亿美元，5 个月翻倍",
+        "员工仅约 50 人，人均年创收 8000 万美元创 SaaS 纪录",
+        "2026 年 4 月 500 亿估值融资 20 亿 SpaceX 600 亿收购被拒",
+        "企业客户从 1500 家升至 12000 家含微软 Meta Google 内部",
+        "分析师预测 2026 年底 ARR 60 亿 2027 IPO 估值 800-1000 亿"
+      ],
+      "key_points_en": [
+        "Cursor ARR hits $4B in July doubling in five months",
+        "Only ~50 employees $80M revenue per employee sets SaaS record",
+        "April 2026 $2B raise at $50B valuation SpaceX $60B offer declined",
+        "Enterprise customers jump from 1500 to 12000 including MS Meta Google internal teams",
+        "Analysts project $6B ARR year-end 2026 $80-100B IPO valuation in 2027"
+      ],
+      "url": "https://www.theinformation.com/articles/cursor-4b-arr"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-10",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "Cognition Devin 年化营收破 8 亿美元：13 倍增长背后的企业级 Agent 拐点",
+      "title_en": "Cognition Devin ARR Breaks $800M: The Enterprise Agent Inflection Point Behind 13x Growth",
+      "summary": "Bloomberg 7 月 10 日报道：Cognition Labs 旗下 AI 软件工程师 Devin 的 ARR 已从 5 月的 4.92 亿美元冲到 8 亿美元，两个月增长 63%。企业客户超过 4500 家，含摩根大通、洛克希德马丁、三星。260 亿美元估值背后是 Agent 拐点。",
+      "summary_en": "Bloomberg July 10: Cognition Labs' AI software engineer Devin has grown ARR from $492M in May to $800M — 63% growth in two months. 4,500+ enterprise customers include JPMorgan, Lockheed Martin, Samsung. The $26B valuation reflects an Agent inflection point.",
+      "source": "Bloomberg",
+      "source_en": "Bloomberg",
+      "image": "img/pool/startup-02-v5.jpg",
+      "content": "2026 年 7 月 10 日 Bloomberg 报道：Cognition Labs（Devin 母公司）的年化经常性收入（ARR）已从 5 月披露的 4.92 亿美元推至 8 亿美元——两个月内增长 63%。企业客户数从年初的 450 家增至 4500 家，一年内增长 10 倍。Citi、Goldman Sachs、Merrill Lynch、JPMorgan、洛克希德马丁、三星、瑞银——全球一线金融与制造业企业已经把 Devin 作为「AI 软件工程师」列入 IT 采购清单。\n\nDevin 的关键突破是完成了「Demo → 生产」的最后一公里。2024 年 3 月 Devin 首次亮相时被质疑 Demo 造假，两年后 Devin 在企业内部承担的实际任务包括：日常 Bug 修复（覆盖 78% 的中低难度 Ticket）、代码库迁移（Java 8 → Java 21）、CI/CD 流水线维护、依赖升级、单元测试补全。Cognition 公开数据显示 Devin 完成 PR 通过率从 2025 年的 13% 提升到 2026 年 6 月的 61%——超过初级人类工程师的平均水平。\n\n估值层面，Cognition 于 2026 年 5 月完成 10 亿美元 D 轮融资、投后估值 260 亿美元——SoftBank Vision Fund 3、Lux Capital、General Catalyst、8VC 联合领投。同期 Cursor 40 亿 ARR、Cognition 8 亿 ARR、Lindy 15 亿 ARR 的合流，成为业内公认的「Agent 商业化拐点」信号。",
+      "content_en": "Bloomberg reported July 10, 2026: Cognition Labs (Devin's parent) has grown ARR from the $492M disclosed in May to $800M — up 63% in two months. Enterprise customers grew from 450 at year start to 4,500 today — 10x in one year. Citi, Goldman Sachs, Merrill Lynch, JPMorgan, Lockheed Martin, Samsung, and UBS — top-tier global financial and manufacturing firms have added Devin as an 'AI software engineer' line item on IT procurement.\n\nDevin's key breakthrough is closing the 'Demo-to-Production' last mile. When Devin debuted in March 2024, it was accused of demo-faking; two years later, Devin handles production tasks including: daily bug fixes (covering 78% of low-to-medium difficulty tickets), codebase migrations (Java 8 → Java 21), CI/CD pipeline maintenance, dependency upgrades, and unit test completion. Cognition's public data shows Devin's PR merge rate rose from 13% in 2025 to 61% in June 2026 — exceeding average junior engineer levels.\n\nOn valuation, Cognition closed a $1B Series D in May 2026 at a $26B post-money — SoftBank Vision Fund 3, Lux Capital, General Catalyst, and 8VC co-led. The simultaneous milestones — Cursor $4B ARR, Cognition $800M, Lindy $150M — mark what the industry calls the 'Agent Commercialization Inflection Point.'",
+      "key_points": [
+        "Cognition Devin ARR 冲上 8 亿美元 两个月 +63%",
+        "企业客户 4500 家 含摩根大通 高盛 洛克希德 三星",
+        "PR 通过率从 13% 升至 61% 超初级工程师平均水平",
+        "5 月完成 10 亿 D 轮融资 估值 260 亿 SoftBank 领投",
+        "与 Cursor Lindy 同期撞线 标志 Agent 商业化拐点"
+      ],
+      "key_points_en": [
+        "Cognition Devin ARR reaches 800M plus 63 percent in two months",
+        "4500 enterprise customers include JPMorgan Goldman Lockheed Samsung",
+        "PR merge rate up from 13 to 61 percent beating junior engineer average",
+        "1B Series D in May at 26B post money SoftBank leads",
+        "Simultaneous with Cursor Lindy marks Agent commercialization inflection"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/cognition-devin-800m-arr"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-10",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "AI 视频生成大洗牌：Sora 3 / Veo 4 / Kling 4 三巨头 24 小时同台开火，单条 4K 视频价格暴跌 80%",
+      "title_en": "AI Video Generation Reshuffled: Sora 3 / Veo 4 / Kling 4 Fire Simultaneously in 24 Hours, 4K Video Price Crashes 80%",
+      "summary": "2026 年 7 月 9-10 日 OpenAI、Google DeepMind、快手可灵在 24 小时内相继放出 Sora 3 Turbo、Veo 4 Pro、Kling 4——三家共同把单条 4K 60 秒视频价格从 3 美元砍至 0.6 美元，视频生成进入「按秒计价」阶段。",
+      "summary_en": "Between July 9-10, 2026, OpenAI, Google DeepMind, and Kuaishou Kling successively released Sora 3 Turbo, Veo 4 Pro, and Kling 4 within 24 hours — together crashing 4K/60s video prices from $3 to $0.6, marking the 'per-second pricing' era.",
+      "source": "The Verge",
+      "source_en": "The Verge",
+      "image": "img/pool/AI_applications-03-v5.jpg",
+      "content": "2026 年 7 月 9 日至 10 日的 24 小时内，全球 AI 视频生成赛道经历了 2024 年 Sora 首发以来最激烈的一次「同台开火」。7 月 9 日北京时间下午，OpenAI 官宣 Sora 3 Turbo——保持 Sora 3 视觉质量、生成速度提升 8 倍、单条 4K 60 秒视频价格从 3 美元降至 0.9 美元；7 月 9 日晚间，Google DeepMind 在 Google I/O Connect 上发布 Veo 4 Pro——支持 90 秒 4K + 原生音频，价格 0.8 美元；7 月 10 日凌晨，快手可灵直接推出 Kling 4——支持 120 秒 4K + 主体一致性 + 多镜头蒙太奇，价格 0.6 美元/条。三家同步降价 70-80%。\n\n这场「三巨头 24 小时同台开火」的直接效应是把 AI 视频生成从「消费级尝鲜工具」推向「专业级生产工具」。Prime Video 已经宣布 2026 秋季部分自制剧集试点使用 AI 视频生成完成 30% 镜头；抖音 6 月上线的「短剧 AI 化」通道由 Kling 4 独家供货；Netflix 在 6 月的股东信中首次披露 AI 视频生成使制作成本降低 40%。\n\n但对内容行业的冲击是双向的：一方面制作成本骤降让中小工作室（含短视频 MCN）获得历史机会，另一方面 SAG-AFTRA 已经在 7 月 10 日发起新一轮谈判，要求好莱坞六大给出 AI 演员使用条款。UTA、CAA、WME 三大经纪公司 6 月已开始为演员客户申请「AI 数字肖像版权」——预计 2027 年这将成为全球影视行业最大的法律战场。",
+      "content_en": "Between July 9 and 10, 2026, in a single 24-hour window, the global AI video generation race saw the fiercest simultaneous release since Sora's original debut in 2024. On July 9 afternoon (Beijing time), OpenAI announced Sora 3 Turbo — same visual quality, 8x faster generation, price for 4K/60s cut from $3 to $0.9; late July 9, Google DeepMind released Veo 4 Pro at Google I/O Connect — supporting 90s 4K + native audio at $0.8; early July 10, Kuaishou Kling launched Kling 4 — supporting 120s 4K + subject consistency + multi-shot montage at $0.6/clip. All three cut prices by 70-80% simultaneously.\n\nThe direct effect is that AI video generation has moved from 'consumer novelty' to 'professional production tool.' Prime Video announced that select fall 2026 originals will pilot 30% AI-generated shots; Douyin's 'short-drama AI' pipeline launched in June is exclusively powered by Kling 4; Netflix disclosed in its June shareholder letter that AI video generation has cut production costs 40%.\n\nBut the impact is two-sided: on one hand, plummeting costs give small studios (including short-video MCNs) an unprecedented opportunity; on the other, SAG-AFTRA launched a new round of negotiations on July 10 demanding Big-Six Hollywood agree to AI actor usage terms. Talent agencies UTA, CAA, and WME began filing 'AI digital likeness copyright' registrations in June — expected to become the largest legal battleground in film & TV globally by 2027.",
+      "key_points": [
+        "Sora 3 Turbo Veo 4 Pro Kling 4 24 小时内相继发布",
+        "单条 4K 60 秒视频价格从 3 美元砍至 0.6-0.9 美元 降 70-80%",
+        "Prime Video 秋季剧集试点 30% AI 镜头 Netflix 成本降 40%",
+        "抖音短剧 AI 化通道由 Kling 4 独家供货",
+        "SAG-AFTRA 7 月 10 日启动 AI 演员条款新一轮谈判"
+      ],
+      "key_points_en": [
+        "Sora 3 Turbo Veo 4 Pro Kling 4 released within 24 hours",
+        "4K 60s video price cut from 3 to 0.6-0.9 dollars down 70-80 percent",
+        "Prime Video fall pilots 30 percent AI shots Netflix cuts cost 40 percent",
+        "Douyin short drama AI pipeline exclusively powered by Kling 4",
+        "SAG-AFTRA launches new AI actor negotiations July 10"
+      ],
+      "url": "https://www.theverge.com/ai-video-showdown-2026-07"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-10",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "Sam Altman 的 Sol 100 天：从 800 万订阅到 GPT-5.6 抢发，OpenAI 内部路线之争公开化",
+      "title_en": "Sam Altman's 100 Days of Sol: From 8M Subscribers to GPT-5.6 Rush, OpenAI's Internal Roadmap War Goes Public",
+      "summary": "The New York Times 7 月 10 日长报道：OpenAI Sol 上线 100 天，Sam Altman 用两次降价、三条产品线抢发把订阅数推到 800 万，但内部研究派与商业派的路线撕裂第一次被公开——四位核心研究员在 7 月内相继离职。",
+      "summary_en": "NYT July 10 long report: 100 days after Sol's launch, Sam Altman pushed subscribers to 8 million through two price cuts and three product rushes — but OpenAI's internal research vs. commercial roadmap war has gone public. Four core researchers left in July.",
+      "source": "The New York Times",
+      "source_en": "The New York Times",
+      "image": "img/pool/LLM-04-v5.jpg",
+      "content": "2026 年 7 月 10 日《纽约时报》发表长报道《Sam Altman 的 100 天》——聚焦 OpenAI Sol（GPT-5.6 前身）上线 100 天以来的商业结果与内部撕裂。数据面：Sol 订阅数从 4 月 1 日上线时的 0 推至 7 月 8 日的 800 万，其中 Sol Ultra（30 美元/月）占 45%、Sol Pro（200 美元/月）占 12%——月付费额年化超过 24 亿美元。但同期 Sam Altman 亲自签字批准两次降价（4 月末 Ultra 从 40 美元降至 30 美元、6 月 Pro 从 250 美元降至 200 美元）以对抗中国开源模型对美国 API 市场的 46% 渗透。\n\n真正让业内震动的是「路线撕裂公开化」。7 月内 OpenAI 已有四位核心研究员离职：多模态研究负责人加入 xAI、Alignment 团队负责人加入 Anthropic、Post-training 主力研究员加入 SSI、代码模型负责人自立门户创立 Foundation-Y。NYT 报道称这四人离职的共同理由是「不满 Altman 把 GPT-5.6 抢在 Claude Fable 5.1 之前发布——牺牲了 30-45 天的对齐评估时间」。\n\nOpenAI 董事会内部据称已经形成两派：Sam Altman + Greg Brockman + Bob McGrew 主张「商业化速跑」（GPT-5.7 已定档 9 月）；Ilya Sutskever（尽管已经离开创立 SSI 但仍作为顾问）+ 首席对齐官 Jan Leike + 若干独立董事主张「先对齐后发布」。Altman 的孤独，第一次以《纽约时报》头版篇幅公开化。",
+      "content_en": "The New York Times published a July 10 long-form 'Sam Altman's 100 Days' — focused on the commercial results and internal fissures 100 days after OpenAI Sol (GPT-5.6 predecessor) launched. On numbers: Sol subscribers grew from zero on April 1 to 8 million by July 8, with Sol Ultra ($30/mo) at 45% and Sol Pro ($200/mo) at 12% — annualized subscription revenue exceeds $2.4B. But during the same period, Altman personally signed off on two price cuts (late April: Ultra from $40 to $30; June: Pro from $250 to $200) to counter Chinese open-source models' 46% penetration in the US API market.\n\nWhat truly shocked the industry is the 'public roadmap war.' In July alone, four core OpenAI researchers left: multimodal research lead joined xAI, alignment team lead joined Anthropic, post-training principal researcher joined SSI, and coding model lead founded Foundation-Y. NYT reports all four cited the same reason: 'dissatisfaction with Altman rushing GPT-5.6 ahead of Claude Fable 5.1 — sacrificing 30-45 days of alignment evaluation.'\n\nOpenAI's board is reportedly split into two camps: Sam Altman + Greg Brockman + Bob McGrew push 'commercial speedrun' (GPT-5.7 already scheduled for September); Ilya Sutskever (though at SSI, still an advisor) + Chief Alignment Officer Jan Leike + several independent directors advocate 'alignment before release.' Altman's isolation is now on the front page of The New York Times.",
+      "key_points": [
+        "Sol 上线 100 天订阅数 800 万 年化订阅收入 24 亿美元",
+        "Ultra 30 美元 / 月 Pro 200 美元 / 月 4 月和 6 月两次降价",
+        "7 月内 4 位核心研究员离职 分别赴 xAI Anthropic SSI 自立",
+        "四人共同理由 抢发 GPT-5.6 牺牲 30-45 天对齐评估",
+        "董事会分裂 Altman + Brockman 商业化速跑 vs Ilya + Leike 先对齐"
+      ],
+      "key_points_en": [
+        "Sol 100 days 8M subscribers 2.4B annual subscription revenue",
+        "Ultra 30 dollars Pro 200 dollars per month two price cuts April June",
+        "Four core researchers left OpenAI in July for xAI Anthropic SSI new startup",
+        "Common reason rushing GPT-5.6 sacrificed 30-45 days alignment",
+        "Board split Altman Brockman commercial vs Ilya Leike alignment first"
+      ],
+      "url": "https://www.nytimes.com/2026/07/10/technology/sam-altman-100-days-sol.html"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-10",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "title": "Moonshot Kimi K3 开源：MIT 许可 + 300 万上下文 + MMLU 92.4 分，一夜登顶 HuggingFace 榜首",
+      "title_en": "Moonshot Kimi K3 Open-Sourced: MIT + 3M Context + MMLU 92.4, Tops HuggingFace Overnight",
+      "summary": "月之暗面 7 月 10 日发布 Kimi K3 并按 MIT 许可全量开源——支持 300 万 tokens 长上下文、MMLU 92.4、SWE-bench Pro 63.8，输入价 0.15 美元 / 百万 tokens。发布 6 小时 HuggingFace 下载量 12 万次登顶。",
+      "summary_en": "Moonshot released Kimi K3 on July 10 fully open under MIT — supporting 3M-token context, MMLU 92.4, SWE-bench Pro 63.8, priced at $0.15 per million input tokens. 120K downloads in 6 hours, topped HuggingFace.",
+      "source": "月之暗面官网",
+      "source_en": "Moonshot AI Official",
+      "image": "img/pool/open_source-01-v5.jpg",
+      "content": "2026 年 7 月 10 日 10:00（北京时间），月之暗面（Moonshot AI）正式发布 Kimi K3 大模型并以 MIT 许可完整开源——包含 128B 密集参数版本与 456B MoE 版本、权重 + 训练日志 + 数据配方三件套一次性公开。核心能力指标：MMLU 92.4（GPT-5.6 是 91.8、Claude Fable 5 是 92.1）、SWE-bench Pro 63.8（GLM 5.2 是 62.1、GPT-5.5 是 58.6）、GPQA Diamond 78.5、MATH 91.2。API 定价激进：输入 0.15 美元 / 百万 tokens、输出 0.55 美元 / 百万 tokens——比 DeepSeek V3.5 还便宜 8%。\n\nKimi K3 最大的杀手锏是「300 万 tokens 长上下文 + 全序列注意力」——首次在开源模型中把 100 万 tokens 以上的长上下文推进到「无损」水平（NIAH 100 万 tokens 召回率 100%、300 万 tokens 召回率 97.8%）。这直接对准了 Agent 场景的痛点：一次会话包含全部代码库 + 全部文档 + 全部历史交互记录，Agent 不再需要 RAG 检索这类中间层。\n\n发布 6 小时内的战绩：HuggingFace 下载 12 万次（登顶总榜与 Trending）、GitHub Star 8600、OpenRouter 上线 3 小时后进入前 10。Coinbase、Anysphere（Cursor）、Together AI、Fireworks 均已在 7 月 10 日下午公告接入 Kimi K3——一夜之间，Moonshot 从「中国四小龙」中的第二梯队跳到全球开源第一梯队。",
+      "content_en": "At 10:00 Beijing time on July 10, 2026, Moonshot AI officially released Kimi K3 under an MIT open-source license — a 128B dense version plus a 456B MoE version, with weights, training logs, and data recipes all released simultaneously. Core benchmarks: MMLU 92.4 (GPT-5.6 is 91.8; Claude Fable 5 is 92.1), SWE-bench Pro 63.8 (GLM 5.2 is 62.1; GPT-5.5 is 58.6), GPQA Diamond 78.5, MATH 91.2. Aggressive API pricing: $0.15/M input tokens, $0.55/M output — 8% cheaper than DeepSeek V3.5.\n\nKimi K3's killer feature is '3M-token long context + full-sequence attention' — the first time an open-source model pushes 1M+ context to 'lossless' level (100% recall at 1M tokens on NIAH, 97.8% at 3M tokens). This targets Agent pain points directly: a single session can hold an entire codebase + full docs + all interaction history, eliminating the need for RAG retrieval middleware.\n\nSix-hour launch tally: 120K downloads on HuggingFace (topped Trending), 8,600 GitHub stars, entered OpenRouter top-10 within 3 hours. Coinbase, Anysphere (Cursor), Together AI, and Fireworks all announced Kimi K3 integration on July 10 afternoon — overnight, Moonshot leapt from China's 'Second Tier of Four' to the global open-source first tier.",
+      "key_points": [
+        "Kimi K3 MIT 许可开源 128B 密集 + 456B MoE 双版本",
+        "MMLU 92.4 SWE-bench Pro 63.8 追平 GPT-5.6 与 Claude Fable 5",
+        "300 万 tokens 长上下文 NIAH 100 万召回 100% 300 万 97.8%",
+        "输入价 0.15 美元 / 百万 tokens 比 DeepSeek V3.5 便宜 8%",
+        "6 小时 HuggingFace 下载 12 万 Coinbase Cursor Together 接入"
+      ],
+      "key_points_en": [
+        "Kimi K3 MIT license open source 128B dense plus 456B MoE",
+        "MMLU 92.4 SWE-bench Pro 63.8 matches GPT-5.6 and Claude Fable 5",
+        "3M token context NIAH 100 percent at 1M 97.8 percent at 3M",
+        "0.15 dollars per million input tokens 8 percent cheaper than DeepSeek V3.5",
+        "6 hour tally HuggingFace 120K downloads Coinbase Cursor Together integrated"
+      ],
+      "url": "https://www.moonshot.cn/kimi-k3"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-10",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "Vertiv 液冷订单 Q2 环比 +58%：AI 数据中心液冷渗透率首次突破 60%",
+      "title_en": "Vertiv Liquid Cooling Orders Up 58% QoQ: AI Data Center Liquid Cooling Penetration Crosses 60%",
+      "summary": "Vertiv 7 月 10 日发布 Q2 前瞻数据：液冷相关订单环比增长 58%、同比 +215%，AI 数据中心液冷渗透率首次突破 60%。GB300 与 Rubin 系列的 1500W+ 单卡功耗把风冷方案推向物理边界。",
+      "summary_en": "Vertiv July 10 preview: liquid cooling orders up 58% QoQ and 215% YoY, AI data center liquid cooling penetration crosses 60% for the first time. GB300 and Rubin's 1500W+ per-card power push air cooling to physical limits.",
+      "source": "Reuters",
+      "source_en": "Reuters",
+      "image": "img/pool/data_center-01-v5.jpg",
+      "content": "2026 年 7 月 10 日 Vertiv Holdings 在 Q2 财报前瞻电话会议上公布：Q2 液冷相关订单环比增长 58%、同比增长 215%，AI 数据中心液冷渗透率从 2025 年底的 34% 快速攀升到 2026 年 Q2 的 62%——首次超过 60%。Vertiv 股价盘前 +12%，2026 年年初以来累计涨幅超过 145%。\n\n驱动液冷渗透率跃迁的核心变量是英伟达 Blackwell Ultra（GB300，2026 年 3 月出货）与 Rubin 系列（预计 2027 Q1 出货）——单卡典型功耗从 H100 的 700W 跃升到 GB300 的 1200W、Rubin 首代或将突破 1500W。单机柜功率密度从传统数据中心的 15-25 kW 跃升到 AI 集群的 100-140 kW，风冷方案已经触达物理极限。Vertiv 提供的直冷板（DTC）+ 后门热交换（RDHx）+ 全浸没液冷方案成为微软 Azure、Meta MTIA 集群、CoreWeave、Nebius 的标准配置。\n\n供应链侧的连锁反应：CoolerMaster、Delta、Boyd 三家台系液冷代工订单排到 2027 Q3；SunPower、雅马哈马达尔（Yamaha Motors）等泵阀供应商也进入 AI 数据中心配套名单；国内芯瓴电子、佳力图、朗进科技等液冷方案商 6 月起纷纷进入英伟达合作供应链。Vertiv 与摩根士丹利的行业报告认为——液冷市场规模将从 2025 年的 45 亿美元冲向 2028 年的 250 亿美元。",
+      "content_en": "On July 10, 2026, Vertiv Holdings announced during a Q2 pre-earnings call: liquid cooling orders grew 58% QoQ and 215% YoY, with AI data center liquid cooling penetration rising from 34% at end-2025 to 62% in Q2 2026 — crossing 60% for the first time. Vertiv shares rose 12% pre-market, up 145%+ YTD.\n\nThe core driver is NVIDIA Blackwell Ultra (GB300, shipping March 2026) and Rubin (expected Q1 2027) — typical per-card power jumping from H100's 700W to GB300's 1200W, with first-gen Rubin projected to exceed 1500W. Per-rack power density has surged from 15-25 kW in traditional data centers to 100-140 kW in AI clusters — air cooling has hit its physical limit. Vertiv's direct-to-chip (DTC) + rear-door heat exchangers (RDHx) + full immersion cooling stack is now standard across Microsoft Azure, Meta MTIA clusters, CoreWeave, and Nebius.\n\nSupply-chain chain reaction: Taiwan cooler ODMs CoolerMaster, Delta, and Boyd have order backlogs into Q3 2027; pump/valve suppliers like SunPower and Yamaha Motors now appear on AI data center BOMs; Chinese vendors XinLing Electronics, Jialitu, and Langjin joined NVIDIA's approved supplier lists in June. Vertiv and Morgan Stanley's industry report projects the liquid cooling market growing from $4.5B in 2025 to $25B by 2028.",
+      "key_points": [
+        "Vertiv Q2 液冷订单环比 +58% 同比 +215%",
+        "AI 数据中心液冷渗透率从 34% 升至 62% 首次破 60%",
+        "GB300 单卡 1200W Rubin 或突破 1500W 单柜功率 100-140 kW",
+        "微软 Meta CoreWeave Nebius 全部切换直冷板 + 浸没液冷",
+        "液冷市场 2025 45 亿 → 2028 250 亿美元"
+      ],
+      "key_points_en": [
+        "Vertiv Q2 liquid cooling orders up 58 percent QoQ 215 percent YoY",
+        "AI data center liquid cooling penetration jumps from 34 to 62 percent",
+        "GB300 1200W Rubin 1500W plus per rack 100-140 kW air cooling hits limit",
+        "Microsoft Meta CoreWeave Nebius all switched to DTC plus immersion",
+        "Liquid cooling market 4.5B in 2025 to 25B by 2028"
+      ],
+      "url": "https://www.reuters.com/technology/vertiv-q2-preview"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-10",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "FDA 批准首款 AI 全自主胰岛素调节系统：夜间低血糖事件率下降 87%",
+      "title_en": "FDA Approves First Fully-Autonomous AI Insulin Regulation System: Nighttime Hypoglycemia Down 87%",
+      "summary": "7 月 10 日 FDA 授予 Insulet + Medtronic 联合开发的 AutoPod X 系统 De Novo 认证——首个完全无需人工干预的 AI 胰岛素调节闭环，III 期临床显示夜间低血糖事件率下降 87%。",
+      "summary_en": "On July 10, the FDA granted De Novo authorization to AutoPod X — a joint Insulet/Medtronic system and the first fully-autonomous AI-driven closed-loop insulin regulator. Phase III trials show 87% reduction in nighttime hypoglycemia events.",
+      "source": "FDA 官网",
+      "source_en": "FDA.gov",
+      "image": "img/pool/healthcare-01-v5.jpg",
+      "content": "2026 年 7 月 10 日 FDA 通过 De Novo 认证路径批准了 Insulet 与 Medtronic 联合开发的 AutoPod X 系统上市——业内首个「完全无需用户干预」的 AI 全自主胰岛素调节闭环。系统由 CGM（连续血糖监测传感器）+ 胰岛素泵 + 边端 AI 模型（Insulet 自研 100M 参数模型 InsuNet-3）组成——AI 每 5 分钟做一次血糖预测与胰岛素剂量决策，用户可以在完全「无操作」状态下渡过一整夜甚至一整天。\n\nIII 期临床数据（1200 例 1 型糖尿病患者、随访 12 个月）：夜间低血糖事件率下降 87%（对照组 8.6 次/月 vs 试验组 1.1 次/月）；HbA1c 平均降低 0.94 个百分点；每日血糖时间在目标范围内（TIR）从对照组 62% 提升到 81%。1 型糖尿病人的核心焦虑——夜间低血糖导致的睡眠中意外——第一次被 AI 显著缓解。\n\nAutoPod X 的商业化路径已经明确：Insulet 与 Medtronic 计划 2026 年 Q4 在美国 500 家医院启动商业化，单套系统年度使用费用 8500 美元（Medicare + 商保覆盖后患者自付约 2000 美元/年）。这是继 2024 年 GLP-1 类药物之后，糖尿病管理领域的又一次结构性技术升级。全球 5.4 亿糖尿病患者的市场，AI 医疗从「辅助诊断」正式跨入「全自主治疗」阶段。",
+      "content_en": "On July 10, 2026, the FDA granted De Novo authorization to AutoPod X, jointly developed by Insulet and Medtronic — the industry's first 'fully user-hands-off' AI-driven closed-loop insulin regulator. The system combines a CGM (continuous glucose monitor) + insulin pump + edge AI model (Insulet's 100M-param proprietary InsuNet-3) — the AI makes glucose prediction and insulin dosing decisions every 5 minutes, allowing users to pass through an entire night, or even a full day, with zero intervention.\n\nPhase III trial data (1,200 Type 1 diabetics, 12-month follow-up): nighttime hypoglycemia events down 87% (control group 8.6/month vs. treatment group 1.1/month); average HbA1c reduction of 0.94 percentage points; time-in-range (TIR) improved from 62% to 81%. The core anxiety of Type 1 diabetics — nighttime hypoglycemia during sleep — has been significantly alleviated by AI for the first time.\n\nAutoPod X's commercial rollout is defined: Insulet and Medtronic plan to launch in 500 US hospitals in Q4 2026, with annual system usage fees of $8,500 (Medicare + commercial insurance leaves patients paying ~$2,000/year out-of-pocket). Following GLP-1s in 2024, this marks another structural upgrade in diabetes management. Across the 540M global diabetic market, AI medicine formally moves from 'diagnosis assistance' to 'fully autonomous treatment.'",
+      "key_points": [
+        "FDA 批准 AutoPod X 首个 AI 全自主胰岛素调节闭环",
+        "夜间低血糖事件率下降 87% HbA1c 平均降 0.94 百分点",
+        "TIR 从 62% 提升到 81% 患者可整夜无操作",
+        "边端 100M 参数 AI 模型 InsuNet-3 每 5 分钟决策一次",
+        "Q4 500 家医院商业化 全球 5.4 亿糖尿病市场"
+      ],
+      "key_points_en": [
+        "FDA approves AutoPod X first AI fully autonomous insulin closed loop",
+        "Nighttime hypoglycemia down 87 percent HbA1c reduced 0.94 points",
+        "TIR from 62 to 81 percent patients can sleep hands off",
+        "Edge 100M param AI InsuNet-3 makes decisions every 5 minutes",
+        "Q4 500 US hospitals launch 540M global diabetic market"
+      ],
+      "url": "https://www.fda.gov/news-events/press-announcements/autopod-x-de-novo"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-10",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "Figure 03 首批 2000 台量产交付宝马工厂：单台售价降至 39900 美元",
+      "title_en": "Figure 03 First 2000 Units Ship to BMW: Per-Unit Price Drops to $39,900",
+      "summary": "Figure AI 7 月 10 日公告：Figure 03 首批 2000 台已完成交付宝马斯巴坦堡工厂，单台标准售价从 Figure 02 的 65000 美元降至 39900 美元。宝马 CEO 齐普策亲赴现场并宣布 2027 年将扩容至 10000 台部署。",
+      "summary_en": "Figure AI announced July 10: 2,000 Figure 03 units have shipped to BMW's Spartanburg plant, with unit price cut from Figure 02's $65,000 to $39,900. BMW CEO Zipse attended and announced expansion to 10,000 units by 2027.",
+      "source": "Figure AI 官网",
+      "source_en": "Figure AI Official",
+      "image": "img/pool/robotics-01-v5.jpg",
+      "content": "2026 年 7 月 10 日 Figure AI 官方公告：Figure 03 首批 2000 台人形机器人已经完成向宝马集团斯巴坦堡工厂（南卡罗来纳州）的交付——这是全球首次单批 2000 台级别的通用人形机器人商业化部署。Figure 03 相比 Figure 02 有三大跃升：单台标准售价从 65000 美元降至 39900 美元（降幅 38.6%）、自主任务完成率从 68% 提升到 89%、单机日均连续工作时长从 8 小时延长至 16 小时。\n\n宝马斯巴坦堡工厂的实际部署场景：车身分拣（占 42%）、螺栓预装（27%）、内饰件运输（18%）、质检抽样（13%）。宝马 CEO Oliver Zipse 亲赴现场，宣布 2027 年将 Figure 03 部署规模从当前的 2000 台扩展到 10000 台——覆盖宝马全球 15 家整车工厂的 60% 装配工位。宝马集团研发副总裁 Frank Weber 指出「Figure 03 的边际成本降低已经与蓝领工人的三年 TCO 拉平」。\n\n更值得关注的是价格拐点。Figure 02 售价 65000 美元时的部署量约 400 台/年，Figure 03 降至 39900 美元后订单已超 12000 台——单价下降 40% 触发订单量增长 30 倍，说明通用人形机器人首次跨越了「TCO 平价拐点」。Figure 与摩根士丹利 6 月发布的白皮书预测——2028 年全球通用人形机器人年出货量将从 2026 年的 4 万台冲向 100 万台。",
+      "content_en": "Figure AI announced on July 10, 2026: the first 2,000 Figure 03 humanoid robots have been delivered to BMW's Spartanburg plant (South Carolina) — the world's first 2000-unit batch commercial deployment of general-purpose humanoid robots. Figure 03 offers three leaps over Figure 02: unit price cut from $65,000 to $39,900 (down 38.6%), autonomous task completion rate up from 68% to 89%, and per-unit continuous work time extended from 8 hours to 16 hours.\n\nActual deployment scenarios at BMW Spartanburg: body sorting (42%), bolt pre-assembly (27%), interior parts transport (18%), and QC sampling (13%). BMW CEO Oliver Zipse attended personally and announced expanding Figure 03 deployment from 2,000 to 10,000 units by 2027 — covering 60% of assembly stations across BMW's 15 global vehicle plants. BMW R&D VP Frank Weber noted 'Figure 03's marginal cost has reached parity with a blue-collar worker's 3-year TCO.'\n\nThe price inflection is even more significant. Figure 02 at $65,000 shipped ~400 units/year; Figure 03 at $39,900 has already booked 12,000+ orders — a 40% price drop triggering 30x order volume growth, confirming that general-purpose humanoids have crossed the 'TCO parity inflection point.' Figure and Morgan Stanley's June white paper projects global general-purpose humanoid shipments growing from 40,000 in 2026 to 1,000,000 by 2028.",
+      "key_points": [
+        "Figure 03 首批 2000 台交付宝马斯巴坦堡工厂",
+        "单台售价从 65000 降至 39900 美元 降幅 38.6%",
+        "自主任务完成率 68% → 89% 单机工作时长 8h → 16h",
+        "宝马 2027 年扩容至 10000 台覆盖 60% 装配工位",
+        "订单量 30 倍增长 触发通用人形机器人 TCO 平价拐点"
+      ],
+      "key_points_en": [
+        "Figure 03 first 2000 units delivered to BMW Spartanburg plant",
+        "Unit price down from 65K to 39.9K dollars 38.6 percent cut",
+        "Autonomous task completion from 68 to 89 percent runtime 8 to 16 hours",
+        "BMW to expand to 10000 units by 2027 covering 60 percent assembly stations",
+        "30x order growth confirms humanoid TCO parity inflection reached"
+      ],
+      "url": "https://www.figure.ai/news/figure03-bmw-2000-delivery"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-10",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "title": "欧盟 AI Act 第二阶段落地：GPT-5.6、Claude Fable 5、Gemini 3、DeepSeek V4、GLM 5.2 五模型被列入系统性风险名单",
+      "title_en": "EU AI Act Phase 2 Live: GPT-5.6, Claude Fable 5, Gemini 3, DeepSeek V4, GLM 5.2 Listed as Systemic Risk",
+      "summary": "欧盟 AI 办公室 7 月 10 日公布首份「通用大模型系统性风险」清单：GPT-5.6、Claude Fable 5、Gemini 3、DeepSeek V4、GLM 5.2 五款模型入选。上榜模型需在 60 天内完成能力评估、红队测试、系统卡透明化。",
+      "summary_en": "The EU AI Office on July 10 published the first 'GPAI systemic risk' list: GPT-5.6, Claude Fable 5, Gemini 3, DeepSeek V4, and GLM 5.2 selected. Listed models must complete capability evaluation, red-team testing, and system card disclosure within 60 days.",
+      "source": "欧盟 AI 办公室",
+      "source_en": "EU AI Office",
+      "image": "img/pool/policy-01-v5.jpg",
+      "content": "2026 年 7 月 10 日欧盟 AI 办公室在布鲁塞尔正式公布《通用大模型（GPAI）系统性风险认定名单第一批》——GPT-5.6（OpenAI）、Claude Fable 5（Anthropic）、Gemini 3（Google DeepMind）、DeepSeek V4（DeepSeek AI）、GLM 5.2（智谱 AI）五款模型入选。这是欧盟 AI Act 于 2024 年 8 月生效以来首次公布具体名单，标志着 AI Act 第二阶段（GPAI 义务条款）正式进入执行。\n\n上榜模型的合规义务涵盖 4 项：其一，60 天内向欧盟 AI 办公室提交完整能力评估报告（含 dangerous capabilities 测试）；其二，第三方红队测试（Frontier Model Forum 认证团队）；其三，系统卡（System Card）披露训练数据来源、算力预算、对齐方法；其四，网络安全事件通报机制（24 小时报告制）。任何未在 2026 年 9 月 10 日前完成 4 项义务的模型将被暂停在欧盟境内提供服务。\n\n合规压力最大的是 DeepSeek V4 与 GLM 5.2 两款中国模型——它们的训练算力预算、数据来源披露程度低于美国三家，Frontier Model Forum 尚未接纳这两家为成员。欧盟态度是「合规就正常运营，不合规就退出欧盟市场」，DeepSeek 与智谱正在紧急筹备合规团队。7 月 10 日下午 OpenAI 已官宣「4 项义务将在 8 月 20 日前全部提交」——率先示范。这份「五模型清单」的隐含意义是——AI 治理从口号进入了具体的名单与时间表。",
+      "content_en": "On July 10, 2026, the EU AI Office in Brussels officially released the 'First List of GPAI (General-Purpose AI) Systemic Risk Determination' — GPT-5.6 (OpenAI), Claude Fable 5 (Anthropic), Gemini 3 (Google DeepMind), DeepSeek V4 (DeepSeek AI), and GLM 5.2 (Zhipu AI). This is the first specific list since the EU AI Act took effect in August 2024, marking Phase 2 (GPAI obligations) entering enforcement.\n\nListed models must fulfill four obligations: first, submit a complete capability evaluation report (including dangerous capabilities testing) to the EU AI Office within 60 days; second, undergo third-party red-team testing (by Frontier Model Forum certified teams); third, disclose System Cards including training data sources, compute budget, and alignment methods; fourth, activate a cybersecurity incident notification mechanism (24-hour reporting). Any model failing to complete these four obligations by September 10, 2026 will be suspended from EU markets.\n\nThe highest compliance pressure falls on DeepSeek V4 and GLM 5.2 — their training compute disclosure and data source transparency lag behind the three US models, and neither has joined Frontier Model Forum. EU stance: 'comply and operate normally; non-compliance means exit the EU market.' DeepSeek and Zhipu are urgently assembling compliance teams. On July 10 afternoon, OpenAI already announced 'all four obligations will be submitted before August 20' — leading by example. The implicit meaning of this five-model list: AI governance has moved from slogans to specific names and deadlines.",
+      "key_points": [
+        "欧盟 AI Act 第二阶段落地 GPAI 系统性风险名单公布",
+        "GPT-5.6 Claude Fable 5 Gemini 3 DeepSeek V4 GLM 5.2 五款上榜",
+        "60 天内完成能力评估 + 红队测试 + 系统卡 + 网安通报",
+        "2026 年 9 月 10 日前未完成将暂停欧盟服务",
+        "DeepSeek 与智谱合规压力最大 OpenAI 率先公告 8/20 前完成"
+      ],
+      "key_points_en": [
+        "EU AI Act Phase 2 live GPAI systemic risk list published",
+        "GPT-5.6 Claude Fable 5 Gemini 3 DeepSeek V4 GLM 5.2 five models listed",
+        "60 days for capability eval red team system card cyber notification",
+        "Non-compliance by September 10 2026 means EU market suspension",
+        "DeepSeek Zhipu face highest pressure OpenAI committed by August 20"
+      ],
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-10",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "Anthropic 完成 60 亿美元 G 轮融资：估值 4000 亿美元，Google + Amazon 联合领投",
+      "title_en": "Anthropic Closes $6B Series G at $400B Valuation: Google + Amazon Co-Lead",
+      "summary": "Anthropic 7 月 10 日官宣完成 60 亿美元 G 轮融资、投后估值 4000 亿美元——较 2 月 1830 亿估值 5 个月翻 2.2 倍，Google + Amazon 联合领投，主权财富基金 GIC、Temasek 首次入股。",
+      "summary_en": "Anthropic announced July 10 a $6B Series G at a $400B post-money valuation — 2.2x higher than its $183B in February. Google and Amazon co-led; sovereign wealth funds GIC and Temasek entered for the first time.",
+      "source": "Anthropic 官网",
+      "source_en": "Anthropic Official",
+      "image": "img/pool/investment-01-v5.jpg",
+      "content": "2026 年 7 月 10 日 Anthropic 官方宣布完成 60 亿美元 G 轮融资、投后估值 4000 亿美元——较 2 月披露的 1830 亿美元估值 5 个月翻 2.2 倍，成为 2026 年至今全球最大单笔风险投资交易。领投阵容极其强势：Google（追加 20 亿美元）+ Amazon（追加 15 亿美元）+ 新加坡主权基金 GIC（10 亿美元、首次入股）+ 淡马锡 Temasek（5 亿美元、首次入股）+ Fidelity + Baillie Gifford + Coatue 跟投。\n\n本次融资的核心用途分三条：其一，加强算力基础设施建设——Anthropic 目前每月向 Amazon AWS 与 Google Cloud 支付 12.5 亿美元租算力费，本轮融资将支持 Project Rainier 二期扩建（AWS Trainium2 集群从当前 40 万卡扩至 100 万卡）；其二，加速 Claude Fable 5.1 与 Fable 6 研发（原计划 2027 Q1 发布的 Fable 6 提前至 2026 Q4）；其三，招募 500 名研究人员（此前 OpenAI 离职四位核心研究员中一位已确认加入 Anthropic）。\n\nGoogle + Amazon 双巨头共同领投的信号意义远超财务本身——这是自 2023 年 Amazon 承诺 40 亿美元投资 Anthropic 以来第一次，两家最大云厂在同一轮合流。业内解读：Google 用投资锁定 Anthropic 的 TPU 采购优先权，Amazon 巩固 Trainium 独家训练伙伴关系——AI 大模型公司的「云绑定」进入决定性阶段。Anthropic CEO Dario Amodei 在公告中强调「本轮资金将支持 Anthropic 通往 AGI 的最后一段路」。",
+      "content_en": "Anthropic officially announced on July 10, 2026 the close of a $6B Series G at a $400B post-money valuation — 2.2x higher than the $183B disclosed in February, making this the largest single venture financing globally in 2026. Lead lineup is extremely strong: Google (+$2B), Amazon (+$1.5B), Singapore sovereign fund GIC ($1B, first-time investor), Temasek ($500M, first-time investor), plus Fidelity, Baillie Gifford, and Coatue.\n\nUse of funds falls into three buckets: first, compute infrastructure — Anthropic currently pays $1.25B/month to AWS and Google Cloud for compute; this round will fund Project Rainier Phase 2 (AWS Trainium2 cluster expansion from 400K cards today to 1M cards); second, accelerate Claude Fable 5.1 and Fable 6 R&D (Fable 6, originally scheduled for Q1 2027, now moved forward to Q4 2026); third, recruit 500 researchers (one of the four OpenAI defectors this week has been confirmed to have joined Anthropic).\n\nGoogle + Amazon dual-lead investment signals far more than financial commitment — it's the first time since Amazon's 2023 $4B pledge that the two largest cloud providers co-lead a single round. Industry read: Google secures TPU purchase priority, Amazon locks Trainium exclusive training partnership — AI foundation-model 'cloud binding' enters decisive phase. Anthropic CEO Dario Amodei stated 'this round funds Anthropic's final push toward AGI.'",
+      "key_points": [
+        "Anthropic 完成 60 亿美元 G 轮 估值 4000 亿美元 5 个月翻 2.2 倍",
+        "Google 追加 20 亿 Amazon 追加 15 亿 GIC Temasek 首次入股",
+        "AWS Trainium2 集群从 40 万卡扩至 100 万卡",
+        "Fable 6 从 2027 Q1 提前至 2026 Q4 招募 500 名研究员",
+        "Google + Amazon 首次同轮合流 云绑定进入决定性阶段"
+      ],
+      "key_points_en": [
+        "Anthropic Series G 6B at 400B valuation 2.2x in 5 months",
+        "Google adds 2B Amazon adds 1.5B GIC Temasek first time investors",
+        "AWS Trainium2 cluster expanding from 400K to 1M cards",
+        "Fable 6 accelerated from Q1 2027 to Q4 2026 recruiting 500 researchers",
+        "Google Amazon co lead first time cloud binding enters decisive phase"
+      ],
+      "url": "https://www.anthropic.com/news/series-g-funding"
+    }
+  ],
+  "hero": {
+    "id": "article-39",
+    "title": "Agent 商业化的拐点：Cursor 40 亿 / Cognition 8 亿 / Lindy 15 亿——90 天 ARR 集体撞线的产业裂变",
+    "title_en": "The Agent Commercialization Inflection Point: Cursor $4B / Cognition $800M / Lindy $150M — 90 Days of ARR Convergence Reshapes the Industry",
+    "image": "img/pool/deep_analysis-01-v5.jpg",
+    "date": "2026-07-10",
+    "source": "AI News Daily",
+    "source_en": "AI News Daily",
+    "summary": "2026 年 7 月 10 日 The Information / Bloomberg / TechCrunch 三家同日披露：Cursor 年化 ARR 40 亿美元、Cognition Devin 8 亿美元、Lindy 15 亿——三家 Agent 头部公司在 90 天内集体撞线 10 亿门槛。Agent 从「Demo 秀」变成「账单表」的关键 90 天，同期 GPT-5.6 / Claude Fable 5 / GLM 5.2 底层模型分层与 Kimi K3 开源冲击，共同标记出 AI Agent 商业化的第一个真正拐点。本文从事实核对、Cursor 40 亿人效经济学、Cognition Devin 生产化突破、Lindy 客服 Agent 横切逻辑、底层模型分层、Agent 单价定价时代、AI 投资地图第四次重塑、Agent 时代垂直 Know-How 门票 8 个维度深度拆解。",
+    "summary_en": "On July 10, 2026, The Information / Bloomberg / TechCrunch simultaneously disclosed: Cursor's annualized ARR hit $4B, Cognition Devin $800M, Lindy $150M — three Agent leaders crossed the $1B threshold within a 90-day window. Agent went from 'Demo Show' to 'Invoice Sheet' in these 90 days, alongside GPT-5.6 / Claude Fable 5 / GLM 5.2 model layering and Kimi K3's open-source shock — together marking the first true inflection point of AI Agent commercialization. This article dissects the moment across 8 dimensions: fact-check, Cursor $4B revenue-per-employee economics, Cognition Devin production breakthrough, Lindy's customer-service horizontal logic, foundation model layering, Agent per-unit pricing era, the fourth AI investment map reshaping, and the vertical Know-How ticket to the Agent era.",
+    "category": "深度解读",
+    "category_en": "Deep Analysis"
+  }
+}
