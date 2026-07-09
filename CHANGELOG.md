@@ -4,6 +4,16 @@
 
 ---
 
+## 2026-07-09 08:20 · 侧边栏补丁
+
+### 🐛 修复
+- `index.html`：08:00 第二阶段合并时侧边栏漏插入 article-38，导致线上侧边栏最新一篇停留在 article-37（7/8）。08:20 补入 article-38（7/9），窗口恢复至 article-38 ~ article-29（10 篇稳定）
+- **commit**：2909c33（fix: 侧边栏补入 7/9 article-38）
+- **部署**：https://9f9542b0.ainewsdaily.pages.dev（wrangler 3.04s，555 files）
+- **验证**：`curl "https://ainewsdaily.asia/?_=timestamp"` 已返回 article-38.html（CDN 边缘缓存约 5-10 分钟后自然刷新）
+
+---
+
 ## 2026-07-09 · 日更三件套（网站 + 微信 + 头条）
 
 ### 🌐 网站 · article-38《去英伟达化的多米诺：DeepSeek + 智谱同日曝出自研推理芯片，一场全球 AI 算力生态的结构性裂变》
@@ -982,8 +992,4 @@
 - 预览：https://31f45f82.ainewsdaily.pages.dev/sitemap.xml
 - **重磅 hero**：中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标同步落地（来源：国家标准委 / 中国政府网）
 - **新增深度文章**：article-27《中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标，从底层算力到智能体协同的全栈规范化》中英双语
-- **news 10 条**：国标双发、GPT-5.6 Sol/Terra/Luna 三梯队、DeepSeek DSpark 开源、特斯拉接入豆包+DeepSeek、DeepSeek 胡润独角兽 3400 亿、工信部 L3/L4 强制性国标、阿里千问输入法 macOS、Anthropic Mythos 5、Marvell CXL 3.64x 压缩、RoboScience Visics 具身大模型
-- **侧边栏**：article-27 进首位，挤掉 article-16
-- **图片**：本次新增 11 张图标记 used（含 industry-smart-city.jpg / policy-data-privacy.jpg / llm-multimodal-v3.jpg / opensource-github-stars-v3.jpg / autonomous-vehicle-city.jpg / investment-ipo-v3.jpg / autonomous-truck-v3.jpg / llm-rag-v3.jpg / llm-evaluation-v3.jpg / chips-edge-ai-v3.jpg / robotics-humanoid-v3.jpg），used 总数 141，本地可用 63 张
-- **commit**: `75c0fb3` (feat(daily): 2026-06-28 update)
-- **部署**: https://5cd4b8a8.ainewsdaily.pages.dev
+- **news 10 条**：国标双发、GPT-5.6 Sol/Terra/Luna 三梯队、DeepSeek DSpark 开源、特斯拉接入豆包+DeepSeek、DeepSeek 胡润独角兽 3400 亿、工信部 L3/L4 强制性国标、阿里千问输入法 macOS、Anthropic Mythos 5、Marvell CXL 3.64x 压
