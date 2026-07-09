@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-09",
   "used_urls": [
     "https://ainewsdaily.asia/img/pool/autonomous-drone-v3.jpg",
     "https://ainewsdaily.asia/img/pool/blockchain-defi-v3.jpg",
@@ -217,7 +217,19 @@
     "img/pool/vr-ar-retail.jpg",
     "img/pool/vr-ar-surgery.jpg",
     "img/pool/vr-ar-training.jpg",
-    "img/pool/vr-technology.jpg"
+    "img/pool/vr-technology.jpg",
+    "https://ainewsdaily.asia/img/pool/AI_applications-01-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/LLM-01-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/LLM-02-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/chips-01-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/chips-04-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/deep_analysis-01-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/deep_analysis-02-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/industry-01-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/investment-01-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/open_source-01-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/policy-01-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/robotics-02-v5.jpg"
   ],
-  "total_used": 216
+  "total_used": 228
 }

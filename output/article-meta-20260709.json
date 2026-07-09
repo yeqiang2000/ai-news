@@ -1,0 +1,29 @@
+{
+  "id": "article-38",
+  "date": "2026-07-09",
+  "title_zh": "去英伟达化的多米诺：DeepSeek + 智谱同日曝出自研推理芯片，一场全球 AI 算力生态的结构性裂变",
+  "title_en": "The De-Nvidiafication Domino: DeepSeek and Zhipu Reveal Custom Chips the Same Day, and Global AI Compute Fractures",
+  "subtitle_zh": "路透 + The Information + SambaNova 三份独家在同一周合流，英伟达 5 月至今蒸发 1 万亿美元第一次有了完整的产业解释。本文从事实核对、DeepSeek 经济逻辑、智谱 ASIC 路径、SambaNova 挑战者阵营、英伟达估值塌陷、软件层去英伟达化、CUDA 护城河、投资地图重塑 8 个维度深度拆解。",
+  "subtitle_en": "Three independent exclusives from Reuters, The Information, and SambaNova converged in one week, giving Nvidia's USD 1T evaporation since May its first coherent industry explanation. Dissects across 8 axes: fact-check, DeepSeek economics, Zhipu ASIC path, SambaNova challenger camp, Nvidia valuation collapse, software-side de-Nvidiafication, CUDA moat, and reshaped investment map.",
+  "url_zh": "articles/article-38.html",
+  "url_en": "articles/en/article-38.html",
+  "summary_zh": "2026 年 7 月 7 日路透社与 The Information 同日抛出两颗重磅炸弹——DeepSeek 秘密造芯一年、智谱 AI 因 GLM-5.2 用量暴涨 27 倍启动 ASIC。次日 SambaNova 完成 10 亿美元 F 轮融资估值 110 亿，摩根大通部署 SN40L 与 SN50 替代 H100；同期英伟达从 5 月高点回撤 16%、市值蒸发约 1 万亿美元、前瞻 PE 跌至 18 倍七年新低；CNBC 与 OpenRouter 披露中国开源模型美国 API 市场周占比稳定 30% 峰值 46%。软件层与硬件层的去英伟达化在同一周合流，全球 AI 算力生态迎来 2020 年 CUDA 出海以来最深的一次结构性重估。",
+  "summary_en": "On July 7, 2026 Reuters and The Information dropped two exclusives on the same day: DeepSeek quietly building an inference chip for a year, Zhipu kicking off its own ASIC after GLM-5.2's 27x weekly token surge on Vercel. Next day SambaNova closed a USD 1B Series F at USD 11B, with JPMorgan deploying SN40L / SN50 to replace H100. During the same week Nvidia was down 16% from its May peak with ~USD 1T market cap evaporated and forward PE at 18x seven-year low; CNBC and OpenRouter data showed Chinese open models at 30-46% US API share. Software- and hardware-side de-Nvidiafication converge in the same week—the deepest structural repricing of global AI compute since CUDA went abroad in 2020.",
+  "category": "产业分析",
+  "category_en": "Industry Analysis",
+  "image": "img/pool/chips-04-v5.jpg",
+  "read_time_zh": "阅读约 18 分钟",
+  "read_time_en": "18 min read",
+  "key_sources": [
+    "路透社 2026-07-07 独家《DeepSeek quietly building custom AI inference chip》",
+    "The Information 2026-07-07 独家《Zhipu AI Kicks Off Its Own Chip Project》",
+    "SambaNova 官方公告 2026-07-08《SambaNova Closes USD 1B Series F》",
+    "CNBC 2026-07-07《Chinese AI models grab 30-46% of US API market》",
+    "OpenRouter 数据面板 2026-07-08（周度模型份额）",
+    "观察者网 2026-07-08《路透独家：DeepSeek 秘密造芯一年》",
+    "36 氪 2026-07-08《DeepSeek 与智谱同日造芯，AI 芯片赛道变天》",
+    "新浪科技 / 财联社 / 智通财经 2026-07-08 英伟达估值跟踪",
+    "华尔街见闻 2026-07-07 CNBC 报道中文版",
+    "央视财经 2026-07-08《中国开源大模型美国渗透 46%》"
+  ]
+}

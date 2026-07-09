@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="On July 7, 2026 Reuters and The Information simultaneously revealed that DeepSeek and Zhipu AI are both secretly building custom inference chips. That same week Nvidia was down 16% from its May peak with roughly USD 1 trillion in market cap vaporized and forward PE hitting an 18x seven-year low; SambaNova closed a USD 1 billion Series F at an USD 11B valuation with JPMorgan deploying SN40L and SN50 to replace H100 inference; CNBC and OpenRouter published data showing Chinese open models now hold a 30-46% weekly share of the US API market. This piece dissects the structural fracture across eight axes: fact-check, DeepSeek economics, Zhipu ASIC path, SambaNova challenger camp, Nvidia valuation collapse, software-side de-Nvidiafication, CUDA moat, and reshaped investment map.">
+    <meta name="keywords" content="DeepSeek chip, Zhipu chip, SambaNova, Nvidia valuation, de-Nvidiafication, GLM-5.2, ASIC, inference chip, Chinese AI models, CUDA moat, AI chip investment, compute ecosystem, AI News Daily">
+    <meta property="og:title" content="The De-Nvidiafication Domino: DeepSeek and Zhipu Reveal Custom Chips the Same Day, and Global AI Compute Fractures">
+    <meta property="og:description" content="From Reuters exclusive to The Information deep dive, from JPMorgan deploying SambaNova to Nvidia's USD 1 trillion evaporation, from Chinese open models at 46% US penetration to the CUDA moat defense—global AI compute has entered its deepest structural repricing since CUDA went abroad in 2020. A comprehensive dissection of DeepSeek chip / Zhipu ASIC / SambaNova / Nvidia valuation / Chinese penetration / CUDA moat / investment map across eight dimensions.">
+    <meta property="og:image" content="../../img/pool/chips-04-v5.jpg">
+    <title>The De-Nvidiafication Domino: DeepSeek and Zhipu Reveal Custom Chips the Same Day, and Global AI Compute Fractures | AI News Daily</title>
+    <link rel="canonical" href="articles/en/article-38.html">
+    <link rel="alternate" hreflang="zh-CN" href="../article-38.html">
+    <link rel="alternate" hreflang="en" href="article-38.html">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6fa;
+            color: #2c3e50;
+        }
+        .deep-article {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 50px 56px;
+            box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+        }
+        .article-header { margin-bottom: 30px; }
+        .article-meta-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 22px;
+            font-size: 0.92em;
+            color: #7f8c9b;
+        }
+        .article-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.88em;
+            font-weight: 500;
+        }
+        .article-date, .article-read-time { color: #95a5a6; }
+        .article-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.35;
+            margin: 0 0 16px 0;
+        }
+        .article-subtitle {
+            font-size: 1.08em;
+            color: #5a6c7d;
+            line-height: 1.7;
+            margin: 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-hero-image {
+            margin: 30px 0 36px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            max-height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+        .article-content { font-size: 1.05em; color: #2c3e50; }
+        .article-content p { margin: 0 0 22px 0; text-align: justify; }
+        .article-content p.lead {
+            font-size: 1.18em;
+            color: #34495e;
+            font-weight: 500;
+            line-height: 1.75;
+            margin-bottom: 30px;
+            padding: 22px 26px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #fdf7ff 100%);
+            border-left: 4px solid #667eea;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-content h2 {
+            font-size: 1.45em;
+            color: #1a1a2e;
+            margin: 44px 0 20px 0;
+            padding-left: 16px;
+            border-left: 4px solid #667eea;
+            line-height: 1.4;
+        }
+        .article-content h3 {
+            font-size: 1.18em;
+            color: #2c3e50;
+            margin: 30px 0 14px 0;
+        }
+        .article-content strong { color: #1a1a2e; font-weight: 600; }
+        .article-content em { color: #667eea; font-style: italic; }
+        .article-content ul, .article-content ol { margin: 0 0 22px 0; padding-left: 28px; }
+        .article-content li { margin-bottom: 10px; line-height: 1.75; }
+        .article-quote {
+            background: #fdf2f2;
+            border-left: 4px solid #e74c3c;
+            padding: 22px 28px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-quote p {
+            margin: 0;
+            font-style: italic;
+            color: #555;
+            font-size: 1.05em;
+        }
+        .article-quote cite {
+            display: block;
+            text-align: right;
+            margin-top: 12px;
+            color: #888;
+            font-style: normal;
+            font-size: 0.9em;
+        }
+        .article-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 28px 0;
+            font-size: 0.96em;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .article-content th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .article-content td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #eef1f5;
+            background: #fff;
+        }
+        .article-content tr:nth-child(even) td { background: #fafbfd; }
+        .article-highlight, .article-conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 32px;
+            border-radius: 12px;
+            margin: 36px 0;
+        }
+        .article-highlight h2, .article-highlight h3,
+        .article-conclusion h2, .article-conclusion h3 {
+            color: white;
+            margin-top: 0;
+            border: none;
+            padding: 0;
+        }
+        .article-highlight p, .article-conclusion p { color: rgba(255,255,255,0.95); }
+        .article-footer {
+            margin-top: 50px;
+            padding-top: 24px;
+            border-top: 1px solid #eef1f5;
+            color: #95a5a6;
+            font-size: 0.92em;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            body { padding: 16px 8px; }
+            .deep-article { padding: 28px 20px; }
+            .article-title { font-size: 1.55em; }
+            .article-subtitle { font-size: 1em; }
+            .article-content { font-size: 1em; }
+            .article-content h2 { font-size: 1.25em; }
+            .article-content p.lead { font-size: 1.08em; padding: 18px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="deep-article">
+        <header class="article-header">
+            <div class="article-meta-top">
+                <span class="article-category">Industry Analysis</span>
+                <span class="article-date">2026-07-09</span>
+                <span class="article-read-time">18 min read</span>
+            </div>
+            <h1 class="article-title">The De-Nvidiafication Domino: DeepSeek and Zhipu Reveal Custom Chips the Same Day, and Global AI Compute Fractures</h1>
+            <p class="article-subtitle">On July 7, 2026 Reuters and The Information dropped two exclusives on the same day: DeepSeek has been quietly building a custom inference chip for a year, and Zhipu AI has kicked off its own ASIC after GLM-5.2 saw a 27x daily-token surge and 80x customer growth in its first week on Vercel. The next day SambaNova closed a USD 1 billion Series F at an USD 11B valuation, with JPMorgan confirmed as an SN40L / SN50 customer replacing H100 inference. During the same week Nvidia had retraced 16% from its May 14 peak, wiping roughly USD 1 trillion in market cap, with forward PE at an 18x seven-year low; CNBC and OpenRouter jointly published data showing Chinese open models at 30-46% weekly share of the US API market. Software-side de-Nvidiafication (Chinese open-model penetration) and hardware-side de-Nvidiafication (custom ASICs) converge in the same week—the deepest structural repricing of global AI compute since CUDA went abroad in 2020. This piece dissects eight axes: fact-check, DeepSeek economics, Zhipu ASIC path, SambaNova challenger camp, Nvidia valuation collapse, software-side de-Nvidiafication, CUDA moat, and reshaped investment map.</p>
+        </header>
+        <div class="article-hero-image">
+            <img src="../../img/pool/chips-04-v5.jpg" alt="DeepSeek Zhipu SambaNova custom inference chip de-Nvidiafication AI compute structural fracture">
+        </div>
+        <div class="article-content">
+            <p class="lead">When Reuters' front-page and The Information's exclusive pushed almost simultaneously across New York and San Francisco on July 7, 2026, it took the global AI industry only 12 hours to realize: <strong>«de-Nvidiafication» is no longer a slogan, it is a domino falling in real time</strong>. DeepSeek and Zhipu on the hardware side, Chinese open models on the software side hitting 46% US API share, and SambaNova landing JPMorgan—three vectors converge in one week, and Nvidia's USD 1 trillion evaporation since May has, for the first time, a coherent industry explanation.</p>
+
+            <h2>1. Fact Check: Three Independent Exclusives from Reuters, The Information, and SambaNova</h2>
+            <p>Laying out the week's key events on a single timeline is the only way to see how the de-Nvidiafication domino falls with near-mathematical rhythm: <strong>Reuters exclusively broke on July 7 (US morning) that DeepSeek has been quietly building an inference-focused chip for a year</strong>—three independent sources confirmed the project, engaging domestic chip design houses, foundries, and HBM suppliers; <strong>the same evening The Information reported Zhipu AI has also kicked off its own AI chip project</strong>, taking the ASIC path, triggered by GLM-5.2's late-June launch that produced a 27x surge in daily token consumption and an 80x customer jump on Vercel in week one; <strong>on July 8 SambaNova Systems announced a USD 1B Series F at an USD 11B post-money valuation</strong>—General Atlantic led, with BlackRock, Qatar Investment Authority, Intel Capital, and Vista Equity participating, and the company confirmed JPMorgan has deployed SN40L and next-gen SN50 chips in its data centers to replace parts of its H100 inference cluster; <strong>during the same week Nvidia was down 16% from its May 14 peak, ~USD 1 trillion of market cap gone, forward PE at 18x—the lowest since 2019</strong>; <strong>CNBC and OpenRouter's joint data showed Chinese open models holding 30%+ weekly share of the US API market, peaking at 46%</strong>. Five independent events converging in the same window is not coincidence—it is the tipping point of the global AI compute ecosystem shifting from «single-point Nvidia driver» to «multi-path fragmentation».</p>
+
+            <p>Three time-stamps deserve highlighting: <strong>first, Reuters and The Information published on the same day</strong>—an event that only happened once in the past three years, on Nvidia's Blackwell launch. The industry expects sources on both stories to trace back to chip-supply-chain insiders, potentially overlapping. <strong>Second, SambaNova's Series F landed on July 8, exactly one day after the DeepSeek + Zhipu chip reveal</strong>—not coincidence, but the «de-Nvidiafication» capital narrative crystallizing, letting SambaNova maximize its round (from USD 2B in February to USD 11B on July 8—4.5x in five months). <strong>Third, Nvidia's valuation collapse arrives before GTC Fall 2026 mid-year print</strong>—market skepticism of next-quarter guidance peaked at its highest since H2 2022.</p>
+
+            <h2>2. DeepSeek Economics: Half of the RMB 51B Round May Flow to ASIC</h2>
+            <p>Why does DeepSeek build silicon now? The answer isn't «patriotism» or «strategic defense»—it's a hard economic ledger. DeepSeek R2 / V4 inference volume hit approximately 65% of OpenAI's total in Q2 2026—translating OpenRouter and Vercel disclosures, DeepSeek's monthly inference lease exceeds USD 250M, annualizing beyond USD 3B. <strong>No non-hyperscaler on earth can absorb that inference-cost pressure indefinitely</strong>.</p>
+
+            <p>The economics run on three lines: <strong>(1) Cut inference cost another 30-50%</strong>—industry estimates suggest an ASIC deeply optimized for DeepSeek's own model (MoE + long context) can theoretically deliver 30-50% lower TCO than H800. <strong>(2) Sidestep EO 14232 H800 / H20 export controls</strong>—after EO 14232 took effect on June 26 and US chip export restrictions tightened again, H20 supply visibility deteriorated; without its own inference silicon, DeepSeek faces a potential «inference capacity cutoff» risk in 2027. <strong>(3) Post-close cash after the RMB 51B round</strong>—DeepSeek closed a RMB 51B round in June 2026 (valuation USD 52-59B), giving it enough cash to cover the USD 300-500M first tape-out threshold; industry estimates put subsequent mass-production spend at USD 1.5-2B, well within its capacity.</p>
+
+            <table>
+                <thead>
+                    <tr><th>Metric</th><th>H800 Inference Cluster (Current)</th><th>DeepSeek Custom ASIC (Projected)</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Per-card TCO (3 yr)</td><td>~USD 42,000</td><td>~USD 20,000-25,000</td></tr>
+                    <tr><td>Inference throughput (tokens/s)</td><td>Baseline</td><td>1.4-1.7x (architecture-tuned)</td></tr>
+                    <tr><td>Wh per token</td><td>Baseline</td><td>0.55-0.65x</td></tr>
+                    <tr><td>Software ecosystem maturity</td><td>CUDA (mature)</td><td>Built from zero (12-18 mo ramp)</td></tr>
+                    <tr><td>First tape-out funding</td><td>—</td><td>USD 300-500M</td></tr>
+                    <tr><td>Mass production</td><td>Available today</td><td>~Q2 2028</td></tr>
+                </tbody>
+            </table>
+
+            <p>Four material challenges deserve honest disclosure: <strong>process node</strong>—if DeepSeek tapes out at SMIC N+2, performance approximates TSMC 7nm, two generations behind H800's 4nm, but architecture customization can partially compensate; <strong>HBM supply</strong>—global HBM3e / HBM4 supply is tight; DeepSeek needs to lock down CXMT and Micron capacity in advance; <strong>software stack</strong>—rewriting CUDA / cuDNN replacements and a Triton compatibility layer is the most time-consuming part; <strong>tape-out capital</strong>—USD 300-500M for the first tape-out and USD 1.5-2B for mass production remain a direct test of DeepSeek's commercialization discipline.</p>
+
+            <h2>3. Zhipu's 27x GLM-5.2 Surge: ASIC as the Only Way Out</h2>
+            <p>Zhipu walks the same path as DeepSeek, but with a completely different trigger. DeepSeek's driver is «existing scale making GPU rental unbearable»; Zhipu's driver is «overnight growth outpacing GPU rental». <strong>Public Vercel data shows GLM-5.2's first-week daily-token consumption surged 27x, with customers up 80x</strong>; OpenRouter data ranks GLM-5.2 in the US API top 5, and still rising.</p>
+
+            <p>What does 27x mean? <strong>Continuing to lease Nvidia / Ascend inference capacity would take Zhipu's monthly inference bill from ~RMB 300M to over RMB 2B—beyond its operating cash-flow tolerance</strong>. Going ASIC instead of GPGPU lets Zhipu co-design silicon around GLM's architecture (MoE + long context). Industry estimates put Zhipu's ASIC first tape-out at H1 2027 and mass production at H2 2028. If executed on schedule, Zhipu becomes the world's third company—after Google TPU and Amazon Trainium—to close the «model + chip» full-stack loop.</p>
+
+            <p>Zhipu's move isn't perfectly aligned with DeepSeek's. <strong>DeepSeek runs a «cost-efficient inference service» playbook; Zhipu runs a «model + platform + Agent full-stack» playbook</strong>—two paths point to two chip architectures. DeepSeek's ASIC leans toward «high-throughput, low-latency inference»; Zhipu's ASIC likely embeds «agent-loop invocation optimization» (KV cache reuse, multi-turn context compression). Signals already in the market: <strong>technical engagement between Zhipu and Moore Threads, Iluvatar CoreX has been visible since April; The Information's July 7 report confirms the ASIC path</strong>.</p>
+
+            <div class="article-quote">
+                <p>«MoE architecture + long context + agent loops—these three traits make general-purpose GPUs increasingly a mismatch. Top foundation-model firms moving to custom ASICs is essentially about shifting Moore's Law dividend from 'general-purpose performance' to 'architectural specialization'.»</p>
+                <cite>—— Semiconductor Industry Watch (adapted from The Information 2026-07-07)</cite>
+            </div>
+
+            <h2>4. SambaNova at USD 11B and JPMorgan Order: Challenger Camp Assembles</h2>
+            <p>The other side of the coin plays out in the US. SambaNova Systems announced a USD 1B Series F at an USD 11B post-money valuation on July 8, 2026—4.5x its February valuation of USD 2B. <strong>This is 2026's largest AI-chip round, and the first time the «non-Nvidia camp» has secured sovereign-wealth, top PE, top bank, and strategic investors all in a single deal</strong>.</p>
+
+            <p>The cap table is worth unpacking: <strong>General Atlantic led</strong>—growth-stage capital betting on SN50 commercial revenue elasticity; <strong>BlackRock and Qatar Investment Authority participated</strong>—long-money mandates are entering the sector; <strong>Intel Capital participated, with Intel CEO Lip-Bu Tan serving as SambaNova chairman</strong>—effectively making SambaNova Intel's proxy on the AI-chip battlefield. JPMorgan deploying SN40L and next-gen SN50 to replace H100 inference is the first time a top-tier global investment bank has publicly endorsed non-Nvidia AI silicon, arriving six months earlier than Groq or Rebellions.</p>
+
+            <p>The challenger camp now has six coordinates: <strong>SambaNova (inference ASIC, JPMorgan / SoftBank wins)</strong>, <strong>Groq (LPU inference, Aramco USD 1.5B round)</strong>, <strong>Cerebras (WSE-3 wafer-scale, endorsed for OpenAI GPT-5.6 inference)</strong>, <strong>Rebellions (Korea's ATOM series, KT deployment)</strong>, <strong>AWS Trainium2 and Inferentia3 (full Anthropic switch)</strong>, <strong>Google TPU v6 Trillium (Gemini full-stack)</strong>—plus Meta MTIA 2 and Microsoft Maia 2, giving major clouds and top banks at least eight non-Nvidia inference options in H2 2026. If this menu had existed in 2020, Nvidia's valuation might never have reached USD 3.5T; if it exists in 2028, Nvidia will see a second systematic de-rating.</p>
+
+            <table>
+                <thead>
+                    <tr><th>Challenger</th><th>Chip</th><th>Key 2026 Win</th><th>Valuation / Funding</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>SambaNova</td><td>SN40L / SN50</td><td>JPMorgan, SoftBank</td><td>USD 11B (Series F USD 1B)</td></tr>
+                    <tr><td>Groq</td><td>LPU</td><td>Aramco, part of Meta inference</td><td>USD 4B (Aramco USD 1.5B)</td></tr>
+                    <tr><td>Cerebras</td><td>WSE-3</td><td>OpenAI GPT-5.6 inference</td><td>USD 9B (IPO in progress)</td></tr>
+                    <tr><td>Rebellions</td><td>ATOM+</td><td>KT, SK Telecom</td><td>USD 2.1B</td></tr>
+                    <tr><td>AWS silicon</td><td>Trainium2 / Inferentia3</td><td>Anthropic full switch</td><td>— (AWS-internal)</td></tr>
+                    <tr><td>Google TPU</td><td>v6 Trillium</td><td>Gemini full-stack</td><td>— (Google-internal)</td></tr>
+                </tbody>
+            </table>
+
+            <h2>5. Nvidia's USD 1T May Peak Evaporation: Three Drivers of the Valuation Collapse</h2>
+            <p>«De-Nvidiafication» isn't abstract narrative—it's already priced into the stock. <strong>Nvidia has retraced 16% from its May 14, 2026 peak, roughly USD 1 trillion of market cap gone, forward PE at 18x—the lowest since 2019</strong>. S&P 500 forward PE sits at 20x, Nasdaq 100 near 23x. YTD Nvidia is up only 5.6%, materially trailing S&P 500 (+9.6%) and Nasdaq 100 (+16%), ranking third-from-bottom among 30 major semis.</p>
+
+            <p>Three drivers behind the valuation collapse: <strong>(1) «Customer CapEx tightening» fears</strong>—Microsoft, Meta, and Google didn't uniformly raise 2027 CapEx guidance on their late-June calls, and Meta's Compute project (announced early June) has the tape worrying that MTIA silicon will divert GPU orders. <strong>(2) The «non-Nvidia camp» is materially landing</strong>—SambaNova / Groq / Cerebras / Rebellions all closed rounds or wins in the same week, giving the market its first credible «alternatives narrative». <strong>(3) The AI-app ROI mood</strong>, especially after OpenAI Sol's half-price launch and Chinese open models grabbing 46% of the US API market, is producing a strange pattern where downstream customers use more AI but see flat bills.</p>
+
+            <p>Fundamentals, however, have not cracked—<strong>Nvidia still shows 37 of 37 analysts on Buy or Hold, single-quarter GM 74.2%, OP margin 64%, FY2027 revenue guidance USD 393B</strong>, Goldman targets USD 285, Bank of America USD 350. This looks more like macro re-pricing than company re-pricing—the market isn't newly bearish on fundamentals; it is no longer willing to pay a premium for «exclusive AI compute for the next five years». That scarcity premium underwrote a 30x rally since CUDA went abroad in 2020, and it is now being systematically corrected.</p>
+
+            <h2>6. Software-side De-Nvidiafication: Chinese Open Models at 46% US API</h2>
+            <p>Hardware-side de-Nvidiafication needs another two years before mass production; software-side de-Nvidiafication, in the same week, has already achieved substantive penetration. <strong>CNBC and OpenRouter jointly released data on July 7, 2026: since February 8, Chinese open models have held a 30%+ weekly share of the US API market on OpenRouter, peaking at 46%, with the trailing-12-month average rising from H1 2025's 4.5% to 2026's 11%</strong>. GLM 5.2 scores 62.1 on SWE-bench Pro (GPT-5.5: 58.6); Vercel data shows GLM 5.2 saw daily tokens +27x and customers +80x in week one. Lindy switched 100% to DeepSeek in June, estimating «several million saved per month»; Coinbase now defaults to GLM / Kimi in its support stack; Airbnb's customer service stack switched to Qwen 3.</p>
+
+            <p>Chinese models are 60-90% cheaper than closed peers and ship under MIT / Apache 2.0 licenses. <strong>Yacine Jernite, Hugging Face's ML Head, backs the open-model path in his CNBC interview: MIT license + open weights + self-hosting means enterprises can deploy on-prem, meet GDPR offline, and land compute cost at ~1/10 of API pricing</strong>. The path of software-side de-Nvidiafication connects like this: open models permit self-hosting → self-hosting can run on any hardware (not necessarily H100) → therefore Groq, SambaNova, Cerebras, AWS Trainium all become viable substrates → Nvidia's software-hardware dual moat is torn open from the software side.</p>
+
+            <p>The structural implication for US labs: <strong>on the day GPT-5.6 opens globally, its real competitor is not Anthropic or Google—it is Chinese open source</strong>. Justin Summerville, OpenRouter's Data & Analytics Lead, told CNBC bluntly: «60-90% cheaper is the first driver of this penetration wave.» This «price-before-brand» path mirrors Linux breaking through commercial Unix in the 2004-2010 era. Industry consensus: <strong>if GLM 5.2 and DeepSeek V4 sustain this pace in H2 2026, Chinese open models could take 55-60% of the US API market by end-2027</strong>.</p>
+
+            <h2>7. Can the CUDA Moat Hold? Dual Loop vs. 20 Years of Ecosystem</h2>
+            <p>The question ultimately returns to a single core: <strong>will Nvidia's 20-year CUDA software-hardware dual moat be breached by this domino?</strong> First, unpack the moat: <strong>(1) CUDA programming model + cuDNN + cuBLAS + NCCL software stack</strong>—4 million CUDA developers globally, 200,000 CUDA projects, and default backend across nearly every mainstream AI framework (PyTorch / TensorFlow / JAX); <strong>(2) NVLink + InfiniBand multi-card interconnect</strong>—the Nvidia-GPU-plus-Mellanox-NIC cluster performance advantage is not easily reproduced in the short term; <strong>(3) DGX / HGX system-level design</strong>—the full reference architecture from cooling to power to rack design lets new customers stand up AI clusters at marginal cost far below DIY; <strong>(4) Deep TSMC 4nm binding</strong>—Blackwell and next-gen Rubin ride TSMC CoWoS-L capacity, and Nvidia is the largest buyer; other challengers cannot access equivalent capacity in the short term.</p>
+
+            <p>Three impact paths deserve honest assessment: <strong>impact 1—«Triton + torch.compile flatten kernel differences»</strong>—OpenAI's Triton compiler lets developers write kernel code once and compile to CUDA / ROCm / Trainium / MTIA backends. PyTorch 2.6 is deeply integrating this, theoretically reducing CUDA's software exclusivity by 30-50%. <strong>Impact 2—«cloud-provider full-stack packaging»</strong>—AWS Neuron, Google Cloud TPU, and Microsoft Maia are all «chip + framework + service» managed offerings, sparing customers from touching CUDA. <strong>Impact 3—«software complexity drops in the Agent era»</strong>—Agent workloads are primarily model-inference plus tool-calling, with far less need for CUDA kernel customization than training. Together, these paths systematically weaken the CUDA moat on the inference side while keeping a 3-5 year lead on the training side.</p>
+
+            <p>The conclusion is relative: <strong>the CUDA moat won't be breached, but shifts from «single-choke-point» to «multi-front defense»</strong>. Nvidia will retain 80%+ share in training, but inference share may drop from 90% to 60-70%—already enough to slow Nvidia's revenue growth from 2026's +70% to 2027's +30-35%, and enough to move the valuation percentile from 2024's 95th all-time percentile back to 2026's 60th. <strong>That is the industry-level explanation of Nvidia's USD 1T evaporation.</strong></p>
+
+            <div class="article-highlight">
+                <h3>CUDA Moat 2026-2028 Outlook</h3>
+                <p><strong>Training</strong>: Nvidia retains 80-85% (little change within five years; Blackwell / Rubin supply-constrained)<br>
+                <strong>Inference</strong>: Nvidia share falls from 90% to 60-70% (challenger camp + custom ASICs share the field)<br>
+                <strong>Agent era</strong>: Lower software complexity → weakened CUDA customization edge; Triton + torch.compile makes «write once, run anywhere» mainstream<br>
+                <strong>Rubin era (Q4 2027)</strong>: Nvidia keeps training-side lead with next-gen architecture, but overall revenue growth slows from +70% to +30-35%</p>
+            </div>
+
+            <h2>8. Investment Map's Third Rewriting: From Nvidia to Other Semis to Cloud and Inference ASIC</h2>
+            <p>The de-Nvidiafication domino kicks off the third rewriting of the AI investment map. <strong>First rewriting (2023-2024) moved from «buy Nvidia» to «buy Nvidia + TSMC + memory + optical modules»</strong>—full-supply-chain re-rating for AI silicon, benefiting SK Hynix, Micron, Vertiv, Coherent, and Ciena. <strong>Second rewriting (2025-H1 2026) moved from «buy hardware» to «buy hardware + cloud»</strong>—Morgan Stanley's July 6 «AI: Ten Investment Truths» report explicitly stated «sell chips, buy cloud», with Oracle Cloud, Palantir, and ServiceNow outperforming Nvidia.</p>
+
+            <p><strong>This week of July 2026 kicks off the third rewriting: from «buy hardware + cloud» to «buy inference ASIC + Agent apps + Chinese open-source ecosystem»</strong>. SambaNova at USD 11B, JPMorgan orders, DeepSeek + Zhipu chips, and Chinese models at 46% US API—these four converged in one week, and investors are for the first time systematically thinking about «non-Nvidia» exposure. Industry consensus points to three main vectors: <strong>(1) Direct challenger-chip stocks</strong>—SambaNova (2027 IPO planned), Cerebras (Q4 2026 IPO), Rebellions (Korea-listed), Groq (USD 1.5B closed, USD 4B valuation); <strong>(2) Challenger-serving cloud middlemen</strong>—Together AI, Fireworks, Anyscale offering Chinese open-model API layers; <strong>(3) Chip-design tools and foundry chain</strong>—Cadence, Synopsys, GlobalFoundries, SMIC absorbing custom-ASIC demand.</p>
+
+            <p>To be clear, «buy Nvidia» isn't dead—but from H2 2026, it is no longer the only «must-win» AI exposure. <strong>18x forward PE is a seven-year low, but fundamentals haven't cracked—this is a «valuation-percentile repricing» stage, not a «fundamental repricing» stage</strong>. A rational investor's strategy: <strong>keep Nvidia as core, at reduced weight (from 25-30% to 15-18%), add challenger chip stocks and inference-ASIC cloud services, retain AWS / Azure / Google Cloud / Oracle Cloud as the «AI cloud» core, and lean into Agent-native software (Palantir / ServiceNow / CrowdStrike)</strong>. That «multi-point diversified» allocation is the most rational asset-allocation response to the de-Nvidiafication domino.</p>
+
+            <div class="article-conclusion">
+                <h2>Conclusion: The Domino Has Begun to Fall—Don't Mistake It for Nvidia's Death Knell</h2>
+                <p>July 7-8, 2026 marked the global AI compute ecosystem's deepest structural repricing since CUDA went abroad in 2020. <strong>DeepSeek + Zhipu chip programs put Chinese foundation-model companies on the third path to «model + chip» closed-loop</strong> (after Google TPU and Amazon Trainium); <strong>SambaNova at USD 11B and JPMorgan orders give the «non-Nvidia camp» its first mainstream financial-capital endorsement</strong>; <strong>Chinese open models at 46% US API penetration bring software-side de-Nvidiafication two years earlier than expected</strong>; <strong>Nvidia's USD 1T market-cap evaporation reflects the market pricing in a 40% growth slowdown over the next three years</strong>.</p>
+
+                <p>But de-Nvidiafication does not equal Nvidia collapse. <strong>On the training side Nvidia will keep 80%+ share into 2028; Rubin and successor architectures will maintain their edge at the generative-AI inference cluster frontier</strong>. What is actually being repriced is «Nvidia's valuation percentile»—from 2024's 95th all-time percentile to 2026's 60-65th. A higher valuation discount rate turns Nvidia's market-cap curve from «steep upward» to «choppy upward». Three iron laws to remember: <strong>(1) The domino won't fall overnight</strong>—DeepSeek and Zhipu ASIC mass production waits until 2028; <strong>(2) Valuation re-rating is not fundamental collapse</strong>—Nvidia's single-quarter GM is still 74.2%, all 37 analysts on Buy or Hold; <strong>(3) The AI investment map is moving from «single dominant player» to «multi-path diversification»</strong>—rational portfolios should simultaneously bet on Nvidia + challengers + cloud + Agent apps. That is the core investment lesson written by «de-Nvidiafication domino day»—July 9, 2026.</p>
+            </div>
+
+            <h2>Key Sources</h2>
+            <ul>
+                <li>Reuters 2026-07-07 exclusive «DeepSeek quietly building custom AI inference chip»</li>
+                <li>The Information 2026-07-07 exclusive «Zhipu AI Kicks Off Its Own Chip Project»</li>
+                <li>SambaNova official press 2026-07-08 «SambaNova Closes USD 1B Series F»</li>
+                <li>CNBC 2026-07-07 «Chinese AI models grab 30-46% of US API market»</li>
+                <li>OpenRouter data dashboards 2026-07-08 (weekly model share)</li>
+                <li>Guancha 2026-07-08 «Reuters Exclusive: DeepSeek's One-Year Secret Chip»</li>
+                <li>36Kr 2026-07-08 «DeepSeek and Zhipu Chip Programs on the Same Day»</li>
+                <li>Sina Tech / CLS / Zhitong Finance 2026-07-08 Nvidia valuation tracking</li>
+                <li>Wallstreetcn 2026-07-07 CNBC report Chinese translation</li>
+                <li>CCTV Finance 2026-07-08 «Chinese Open Models at 46% US Penetration»</li>
+            </ul>
+        </div>
+        <footer class="article-footer">
+            <p>Published by AI News Daily editorial team on July 9, 2026. All data cross-verified across public sources.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="2026 年 7 月 7 日，路透社与 The Information 同日曝出 DeepSeek 与智谱 AI 双双秘密启动自研推理芯片项目——同一天英伟达从 5 月高点回撤 16%、市值蒸发约 1 万亿美元、前瞻 PE 跌至 18 倍七年新低；SambaNova 完成 10 亿美元 F 轮融资估值 110 亿，摩根大通部署 SN40L 与 SN50 芯片替代 H100；CNBC 与 OpenRouter 披露中国开源模型美国 API 市场周占比稳定 30% 峰值 46%。本文从事实核对、DeepSeek 造芯经济逻辑、智谱 ASIC 路径、SambaNova 挑战者阵营、英伟达估值塌陷、软件层去英伟达化、CUDA 护城河、投资地图重塑 8 个维度深度拆解全球 AI 算力生态的结构性裂变。">
+    <meta name="keywords" content="DeepSeek 造芯, 智谱造芯, SambaNova, 英伟达估值, 去英伟达化, GLM-5.2, ASIC, 推理芯片, 中国 AI 模型, CUDA 护城河, AI 芯片投资, 算力生态, AI News Daily">
+    <meta property="og:title" content="去英伟达化的多米诺：DeepSeek + 智谱同日曝出自研推理芯片，一场全球 AI 算力生态的结构性裂变">
+    <meta property="og:description" content="从路透独家到 The Information 深度、从摩根大通部署 SambaNova 到英伟达 1 万亿蒸发、从中国模型美国 46% 渗透到 CUDA 护城河守卫战——全球 AI 算力生态迎来 2020 年以来最深的一次结构性重估。本文横评 DeepSeek 造芯 / 智谱 ASIC / SambaNova / 英伟达估值 / 中国渗透 / CUDA 护城河 / 投资地图 8 大维度。">
+    <meta property="og:image" content="img/pool/chips-04-v5.jpg">
+    <title>去英伟达化的多米诺：DeepSeek + 智谱同日曝出自研推理芯片，一场全球 AI 算力生态的结构性裂变 | AI News Daily</title>
+    <link rel="canonical" href="articles/article-38.html">
+    <link rel="alternate" hreflang="en" href="articles/en/article-38.html">
+    <link rel="alternate" hreflang="zh-CN" href="articles/article-38.html">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6fa;
+            color: #2c3e50;
+        }
+        .deep-article {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 50px 56px;
+            box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+        }
+        .article-header { margin-bottom: 30px; }
+        .article-meta-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 22px;
+            font-size: 0.92em;
+            color: #7f8c9b;
+        }
+        .article-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.88em;
+            font-weight: 500;
+        }
+        .article-date, .article-read-time { color: #95a5a6; }
+        .article-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.35;
+            margin: 0 0 16px 0;
+        }
+        .article-subtitle {
+            font-size: 1.08em;
+            color: #5a6c7d;
+            line-height: 1.7;
+            margin: 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-hero-image {
+            margin: 30px 0 36px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            max-height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+        .article-content { font-size: 1.05em; color: #2c3e50; }
+        .article-content p { margin: 0 0 22px 0; text-align: justify; }
+        .article-content p.lead {
+            font-size: 1.18em;
+            color: #34495e;
+            font-weight: 500;
+            line-height: 1.75;
+            margin-bottom: 30px;
+            padding: 22px 26px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #fdf7ff 100%);
+            border-left: 4px solid #667eea;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-content h2 {
+            font-size: 1.45em;
+            color: #1a1a2e;
+            margin: 44px 0 20px 0;
+            padding-left: 16px;
+            border-left: 4px solid #667eea;
+            line-height: 1.4;
+        }
+        .article-content h3 {
+            font-size: 1.18em;
+            color: #2c3e50;
+            margin: 30px 0 14px 0;
+        }
+        .article-content strong { color: #1a1a2e; font-weight: 600; }
+        .article-content em { color: #667eea; font-style: italic; }
+        .article-content ul, .article-content ol { margin: 0 0 22px 0; padding-left: 28px; }
+        .article-content li { margin-bottom: 10px; line-height: 1.75; }
+        .article-quote {
+            background: #fdf2f2;
+            border-left: 4px solid #e74c3c;
+            padding: 22px 28px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .article-quote p {
+            margin: 0;
+            font-style: italic;
+            color: #555;
+            font-size: 1.05em;
+        }
+        .article-quote cite {
+            display: block;
+            text-align: right;
+            margin-top: 12px;
+            color: #888;
+            font-style: normal;
+            font-size: 0.9em;
+        }
+        .article-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 28px 0;
+            font-size: 0.96em;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .article-content th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .article-content td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #eef1f5;
+            background: #fff;
+        }
+        .article-content tr:nth-child(even) td { background: #fafbfd; }
+        .article-highlight, .article-conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 32px;
+            border-radius: 12px;
+            margin: 36px 0;
+        }
+        .article-highlight h2, .article-highlight h3,
+        .article-conclusion h2, .article-conclusion h3 {
+            color: white;
+            margin-top: 0;
+            border: none;
+            padding: 0;
+        }
+        .article-highlight p, .article-conclusion p { color: rgba(255,255,255,0.95); }
+        .article-footer {
+            margin-top: 50px;
+            padding-top: 24px;
+            border-top: 1px solid #eef1f5;
+            color: #95a5a6;
+            font-size: 0.92em;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            body { padding: 16px 8px; }
+            .deep-article { padding: 28px 20px; }
+            .article-title { font-size: 1.55em; }
+            .article-subtitle { font-size: 1em; }
+            .article-content { font-size: 1em; }
+            .article-content h2 { font-size: 1.25em; }
+            .article-content p.lead { font-size: 1.08em; padding: 18px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="deep-article">
+        <header class="article-header">
+            <div class="article-meta-top">
+                <span class="article-category">产业分析</span>
+                <span class="article-date">2026-07-09</span>
+                <span class="article-read-time">阅读约 18 分钟</span>
+            </div>
+            <h1 class="article-title">去英伟达化的多米诺：DeepSeek + 智谱同日曝出自研推理芯片，一场全球 AI 算力生态的结构性裂变</h1>
+            <p class="article-subtitle">2026 年 7 月 7 日，路透社与 The Information 同日抛出两颗重磅炸弹——DeepSeek 秘密造芯一年、智谱 AI 因 GLM-5.2 用量暴涨 27 倍启动 ASIC。次日 SambaNova 官宣完成 10 亿美元 F 轮融资估值 110 亿，摩根大通部署 SN40L 与 SN50 替代 H100；同期英伟达从 5 月高点回撤 16%、市值蒸发约 1 万亿美元、前瞻 PE 跌至 18 倍七年新低；CNBC 与 OpenRouter 披露中国开源模型美国 API 市场周占比稳定 30% 峰值 46%。软件层的「去英伟达化」（中国模型渗透）与硬件层的「去英伟达化」（自研 ASIC）在同一周合流——全球 AI 算力生态迎来 2020 年 CUDA 出海以来最深的一次结构性重估。本文从事实核对、DeepSeek 造芯经济逻辑、智谱 ASIC 路径、SambaNova 挑战者阵营、英伟达估值塌陷、软件层去英伟达化、CUDA 护城河、投资地图重塑 8 个维度深度拆解。</p>
+        </header>
+        <div class="article-hero-image">
+            <img src="../img/pool/chips-04-v5.jpg" alt="DeepSeek 智谱 SambaNova 自研推理芯片 去英伟达化 AI 算力生态结构性裂变">
+        </div>
+        <div class="article-content">
+            <p class="lead">当 2026 年 7 月 7 日路透社的头条与 The Information 的独家在纽约与旧金山几乎同一时刻推送，全球 AI 产业只用了 12 小时就意识到——<strong>「去英伟达化」不再是一句口号，而是一场正在同步启动的多米诺</strong>。DeepSeek 与智谱在硬件端造芯、中国开源模型在软件端渗透美国 46%、SambaNova 拿到摩根大通订单——三条线同一周合流，英伟达 5 月至今蒸发 1 万亿市值的下跌，第一次有了完整的产业解释。</p>
+
+            <h2>一、事实核对：路透 + The Information + SambaNova 三份独家</h2>
+            <p>把这一周的关键事件按时间线摊开，才能看清「去英伟达化」的多米诺是如何以近乎精确的节奏落下的：<strong>7 月 7 日凌晨（美东时间）路透社独家披露 DeepSeek 秘密启动推理芯片项目一年</strong>——三位独立信源确认，项目聚焦推理而非训练、已与国内多家芯片设计公司、晶圆代工厂、HBM 存储厂建立技术对接；<strong>同日晚间 The Information 抛出智谱 AI 也已启动自研 AI 芯片项目</strong>——走 ASIC 路线，触发点是上月底发布的 GLM-5.2 在 Vercel 上首周日 token 消耗量暴涨 27 倍、客户数暴涨 80 倍；<strong>7 月 8 日 SambaNova Systems 官宣完成 10 亿美元 F 轮融资、投后估值 110 亿美元</strong>——General Atlantic 领投，BlackRock、卡塔尔投资局 QIA、英特尔资本、Vista Equity 跟投，同日宣布摩根大通已在其数据中心部署 SN40L 与下一代 SN50 芯片替代部分 H100 推理集群；<strong>同一周英伟达股价自 5 月 14 日高点回撤 16%、市值蒸发约 1 万亿美元、前瞻 PE 跌至 18 倍七年新低</strong>；<strong>CNBC 与 OpenRouter 联合数据显示中国开源模型美国 API 市场周占比稳定 30% 以上、峰值触 46%</strong>。这五条独立事件在同一时间窗口发生，不是巧合，是整个 AI 算力生态从「英伟达单点驱动」向「多路径分化」的临界点。</p>
+
+            <p>值得单独强调三个时间坐标：<strong>其一，路透与 The Information 的两条独家在同一天出街</strong>——这在过去 3 年里只在英伟达 Blackwell 发布日出现过一次。业内推测两份报道背后都有芯片供应链的信源，且信源可能存在交叉。<strong>其二，SambaNova 的 F 轮时点选在 7 月 8 日，正好夹在 DeepSeek + 智谱造芯曝光的次日</strong>——这不是巧合，而是「去英伟达化」资本叙事已经形成，SambaNova 抓住窗口最大化融资估值（从 2 月的 20 亿到 7 月 8 日的 110 亿，5 个月翻 4.5 倍）。<strong>其三，英伟达估值塌陷发生在 GTC Fall 2026 半年报之前</strong>——市场对下一季度指引的怀疑，在这一周达到了 2022 年下半年以来的最强峰值。</p>
+
+            <h2>二、DeepSeek 造芯的经济逻辑：510 亿融资的一半可能会流向 ASIC</h2>
+            <p>DeepSeek 为什么现在造芯？答案不是「爱国」也不是「战略防御」，而是一份不折不扣的经济账。DeepSeek R2 / V4 推理调用量在 2026 年 Q2 已经追平 OpenAI 全网调用量的 65%——按 OpenRouter 与 Vercel 的公开数据折算，DeepSeek 单月推理算力租金已经突破 2.5 亿美元、年化超过 30 亿美元。<strong>这是全球任何一家非头部云厂商都无法承受的推理成本压力</strong>。</p>
+
+            <p>造芯的经济逻辑分三条：<strong>其一，把推理成本再压缩 30-50%</strong>——按业内测算，一款针对 DeepSeek 自身模型（MoE + 长上下文）深度优化的 ASIC，理论 TCO 相比 H800 可下降 30-50%；<strong>其二，绕开 EO 14232 的 H800 / H20 出口管制</strong>——6 月 26 日 EO 14232 生效后美国对华芯片管制再度收紧，H20 出口窗口不确定性上升，DeepSeek 若不自建推理算力，2027 年可能面临「推理算力断供」；<strong>其三，510 亿融资到账后账上现金充足</strong>——DeepSeek 于 2026 年 6 月完成 510 亿元人民币融资（估值 520-590 亿美元），账上现金能够覆盖首次流片的 3-5 亿美元资金门槛，业内估计后续量产投入需 15-20 亿美元、DeepSeek 完全承受得起。</p>
+
+            <table>
+                <thead>
+                    <tr><th>指标</th><th>H800 推理集群（现状）</th><th>DeepSeek 自研 ASIC（预期）</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>单卡 TCO（3 年）</td><td>约 4.2 万美元</td><td>约 2.0-2.5 万美元</td></tr>
+                    <tr><td>推理吞吐 tokens/s</td><td>基准</td><td>1.4-1.7 倍（架构定制）</td></tr>
+                    <tr><td>单位 token 电力（Wh）</td><td>基准</td><td>0.55-0.65 倍</td></tr>
+                    <tr><td>软件生态成熟度</td><td>CUDA（成熟）</td><td>从零构建（初期 12-18 个月低效）</td></tr>
+                    <tr><td>首次流片资金</td><td>—</td><td>3-5 亿美元</td></tr>
+                    <tr><td>量产商用</td><td>已有</td><td>2028 Q2 前后</td></tr>
+                </tbody>
+            </table>
+
+            <p>四大难点也需要客观说明：<strong>制程</strong>——DeepSeek 的 ASIC 若在中芯国际 N+2 工艺流片，性能约相当于台积电 7nm、比 H800 的 4nm 落后两代，但通过架构定制可以部分弥补；<strong>HBM 供应</strong>——HBM3e / HBM4 全球供应紧张，DeepSeek 需要提前锁定长鑫存储与美光的产能；<strong>软件栈</strong>——需要重写 CUDA / cuDNN 替代层、triton 兼容层，是最耗时的部分；<strong>流片资金</strong>——首次 3-5 亿美元、量产总投入 15-20 亿美元，是 DeepSeek 商业化压力的直接考验。</p>
+
+            <h2>三、智谱 GLM-5.2 用量暴涨 27 倍：ASIC 是唯一出路</h2>
+            <p>智谱与 DeepSeek 走上同一条路，触发点几乎完全不同。DeepSeek 的动因是「已经形成的推理规模让 GPU 租金难以承受」，智谱的动因是「一夜之间的增长让 GPU 租金不够时间跟上」。<strong>Vercel 公开数据显示 GLM-5.2 上线首周日 token 消耗量暴涨 27 倍、客户数 +80 倍</strong>——OpenRouter 数据显示 GLM-5.2 在美国 API 市场的调用量跃升至前 5，且仍在快速上升。</p>
+
+            <p>用量暴涨 27 倍意味着什么？<strong>若继续依赖英伟达 / 昇腾外购推理算力，智谱单月推理支出将从 3 亿人民币量级跃升至 20 亿以上——超过公司现金流承压区</strong>。走 ASIC 而非 GPGPU 路线，让智谱可以针对 GLM 系列的架构（MoE + 长上下文）做深度硬件优化。业内估计智谱 ASIC 首次流片将在 2027 H1、量产商用在 2028 H2——这个时间表如果能够按期兑现，智谱将成为继谷歌 TPU、亚马逊 Trainium 之后全球第三家做出「模型 + 芯片」全栈闭环的公司。</p>
+
+            <p>智谱的这一步棋，与 DeepSeek 并不完全对齐。<strong>DeepSeek 主打「性价比推理服务」，智谱主打「模型 + 平台 + Agent 全栈」</strong>——两条路对应两种芯片架构。DeepSeek 的 ASIC 更偏向「高吞吐低延迟推理」，智谱的 ASIC 更可能加入「Agent 循环调用优化」（KV Cache 复用、多轮上下文压缩）。业内已有的信号：<strong>智谱与摩尔线程、天数智芯的技术接触在 4 月起就有，7 月 The Information 报道确认了 ASIC 路径</strong>。</p>
+
+            <div class="article-quote">
+                <p>「MoE 架构 + 长上下文 + Agent 循环调用——这三条特征让通用 GPU 变得越来越不匹配。头部大模型公司走向自研 ASIC，本质是把摩尔定律的红利，从「性能通用性」转到「架构专用性」上。」</p>
+                <cite>—— 半导体行业观察（原文摘编自 The Information 2026-07-07 报道）</cite>
+            </div>
+
+            <h2>四、SambaNova 110 亿估值与摩根大通订单：挑战者阵营正式集结</h2>
+            <p>硬币的另一面在美国。SambaNova Systems 2026 年 7 月 8 日官宣完成 10 亿美元 F 轮融资、投后估值 110 亿美元——较今年 2 月的 20 亿估值翻 4.5 倍。<strong>这是 2026 年 AI 芯片赛道最大单笔融资，也是「非英伟达阵营」第一次拿到主权财富基金 + 顶级 PE + 顶级银行 + 战投多方共同背书的标志性交易</strong>。</p>
+
+            <p>投资人阵容值得逐个拆解：<strong>General Atlantic 领投</strong>——该轮属于成长期资本、看的是 SN50 商业化后的收入弹性；<strong>BlackRock 与卡塔尔投资局 QIA 加入</strong>——意味着这个赛道进入长期资金视野；<strong>英特尔资本参投、英特尔现任 CEO 陈立武担任 SambaNova 董事长</strong>——事实上把 SambaNova 变成英特尔在 AI 芯片战场的「代理选手」。摩根大通把 SN40L 与下一代 SN50 芯片部署到数据中心，替代部分 H100 推理集群——这是全球头部投行第一次公开背书非英伟达 AI 芯片，比同类 Groq、Rebellions 都要早半年。</p>
+
+            <p>挑战者阵营现在有六个坐标：<strong>SambaNova（推理 ASIC，摩根大通 / 软银订单）</strong>、<strong>Groq（LPU 推理，Aramco 15 亿融资）</strong>、<strong>Cerebras（WSE-3 晶圆级，OpenAI GPT-5.6 推理背书）</strong>、<strong>Rebellions（韩国 ATOM 系列，KT 部署）</strong>、<strong>AWS Trainium2 与 Inferentia3（Anthropic 全面切换）</strong>、<strong>Google TPU v6 Trillium（Gemini 全栈）</strong>——加上 Meta MTIA 2 与 Microsoft Maia 2，2026 年下半年，全球主要云厂与顶级投行会有可选的至少 8 种非英伟达推理算力方案。这份「选项菜单」如果 2020 年出现，英伟达估值可能永远不会走到 3.5 万亿美元；如果 2028 年出现，英伟达估值分位会经历第二次系统性下修。</p>
+
+            <table>
+                <thead>
+                    <tr><th>挑战者</th><th>芯片</th><th>2026 关键订单</th><th>估值 / 融资</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>SambaNova</td><td>SN40L / SN50</td><td>摩根大通、软银</td><td>110 亿美元（F 轮 10 亿）</td></tr>
+                    <tr><td>Groq</td><td>LPU</td><td>Aramco、Meta 部分推理</td><td>40 亿美元（Aramco 15 亿）</td></tr>
+                    <tr><td>Cerebras</td><td>WSE-3</td><td>OpenAI GPT-5.6 推理</td><td>90 亿美元（IPO 中）</td></tr>
+                    <tr><td>Rebellions</td><td>ATOM+</td><td>KT、SK Telecom</td><td>21 亿美元</td></tr>
+                    <tr><td>AWS 芯片</td><td>Trainium2 / Inferentia3</td><td>Anthropic 全面切换</td><td>—（AWS 内建）</td></tr>
+                    <tr><td>Google TPU</td><td>v6 Trillium</td><td>Gemini 全栈</td><td>—（Google 内建）</td></tr>
+                </tbody>
+            </table>
+
+            <h2>五、英伟达 5 月高点蒸发 1 万亿美元：估值塌陷的三条驱动线</h2>
+            <p>「去英伟达化」不是抽象叙事，而是已经反映在股价上。<strong>英伟达股价自 2026 年 5 月 14 日高点回撤 16%、市值蒸发约 1 万亿美元、前瞻 PE 跌至 18 倍——是 2019 年以来最低估值分位</strong>。同期 S&P 500 前瞻 PE 20 倍、纳指 100 接近 23 倍。今年英伟达累计涨幅 5.6%，明显跑输 S&P 500 的 9.6%、纳指 100 的 16%，在 30 只主要半导体股中倒数第三。</p>
+
+            <p>估值塌陷的三条驱动线：<strong>第一条是「客户资本开支收紧」担忧</strong>——微软 / Meta / Google 三家云厂在 6 月末财报电话会议上没有全部上调 2027 CapEx 指引，Meta 6 月发布的 Compute 项目让市场担心 Meta 自研 MTIA 会分流 GPU 订单；<strong>第二条是「非英伟达阵营」实质落地</strong>——SambaNova / Groq / Cerebras / Rebellions 在同一周拿到订单或融资，让市场首次相信英伟达客户可能有替代选项；<strong>第三条是「AI 应用 ROI」情绪</strong>，尤其 OpenAI Sol 一半定价 + 中国开源模型美国渗透 46%，让下游客户 API 支出出现「上量但账单不涨」的怪状。</p>
+
+            <p>但基本面并没有恶化——<strong>英伟达仍有 37 位分析师全部推荐买入或持有、单季毛利 74.2%、运营利润率 64%、2027 财年营收指引 3930 亿美元</strong>、高盛 285 美元目标价、美银 350 美元目标价。这次估值回撤更像是「宏观再定价」而非「公司再定价」——市场不是不看好英伟达的基本面，而是不再愿意为「未来 5 年独占 AI 算力」的稀缺性支付溢价。这份稀缺性溢价，从 2020 年 CUDA 出海以来支撑了英伟达 30 倍的股价涨幅，现在正在被系统性修正。</p>
+
+            <h2>六、软件层的「去英伟达化」：中国开源模型美国 API 46%</h2>
+            <p>硬件层的「去英伟达化」还需要等 2 年才能量产商用，但软件层的「去英伟达化」在同一周已经完成了实质渗透。<strong>CNBC 2026 年 7 月 7 日联合 OpenRouter 发布数据：自 2026 年 2 月 8 日起中国开源模型在 OpenRouter 平台的美国用户周占比稳定在 30% 以上、峰值触 46%，12 个月均值从 2025 上半年的 4.5% 拉升至 11%</strong>。GLM 5.2 在 SWE-bench Pro 拿 62.1 分（GPT-5.5 是 58.6）、Vercel 首周日 token +27 倍客户数 +80 倍；Lindy 6 月 100% 切 DeepSeek 预计月省数百万；Coinbase 默认切 GLM / Kimi 客服栈；Airbnb 客服切换千问 3。</p>
+
+            <p>中国模型平均比闭源模型便宜 60-90%、且遵循 MIT / Apache 2.0 开源许可。<strong>Yacine Jernite（Hugging Face 机器学习主管）在 CNBC 采访中背书：MIT 许可 + 模型开源 + 权重可自托管，意味着企业可以本地部署、断网 GDPR 合规、且成本仅剩 API 定价的 1/10</strong>。软件层的「去英伟达化」路径是这样连接的：开源模型允许自托管 → 自托管可以跑在任何硬件上（不必是 H100）→ 于是 Groq、SambaNova、Cerebras、AWS Trainium 都成为可用底层 → 英伟达的软硬件双闭环被从软件端撕开一个口子。</p>
+
+            <p>这条趋势对美国大模型公司是结构性冲击：<strong>GPT-5.6 全球开闸的同时，其真正竞争对手不再是 Anthropic / Google 而是中国开源</strong>。Justin Summerville（OpenRouter 数据负责人）在 CNBC 采访中直言：「便宜 60-90% 才是本轮渗透的第一驱动」。这份「性价比先于品牌」的选择路径，与 2004-2010 年代 Linux 击穿商用 Unix 的路径高度相似。产业界共识是：<strong>如果 2026 下半年 GLM 5.2 / DeepSeek V4 继续保持这种渗透速度，2027 年底中国开源模型在美国 API 市场的份额可能触及 55-60%</strong>。</p>
+
+            <h2>七、CUDA 护城河能否守住？软硬件双闭环 vs 20 年生态积累</h2>
+            <p>问题最终会回到一个核心：<strong>英伟达 20 年积累的 CUDA 软硬件双闭环护城河，是否会在这波多米诺里被击穿？</strong>先把英伟达护城河的构成拆开：<strong>其一，CUDA 编程模型 + cuDNN + cuBLAS + NCCL 的软件栈</strong>——全球 400 万 CUDA 开发者、20 万个 CUDA 项目、几乎所有主流 AI 框架（PyTorch / TensorFlow / JAX）的默认后端；<strong>其二，NVLink + InfiniBand 的多卡互联</strong>——英伟达 GPU + Mellanox 网卡形成的集群性能优势短期难以复制；<strong>其三，DGX / HGX 系统级设计</strong>——从散热到供电到机架设计的整套参考方案，让新客户搭建 AI 集群的边际成本远低于自建；<strong>其四，与 TSMC 4nm 的深度绑定</strong>——Blackwell 与下一代 Rubin 系列采用的 TSMC CoWoS-L 封装产能，英伟达是最大买家，其他挑战者短期无法拿到同等产能。</p>
+
+            <p>三条冲击路径也需要客观评估：<strong>第一条冲击是「Triton + torch.compile 抹平 kernel 差异」</strong>——OpenAI Triton 编译器让开发者可以写一次内核代码、编译成 CUDA / ROCm / Trainium / MTIA 多种后端。这条路径正在被 PyTorch 2.6 深度集成，理论上让 CUDA 的软件独占优势下降 30-50%。<strong>第二条冲击是「云厂商自研全栈打包」</strong>——AWS Neuron、Google Cloud TPU、Microsoft Maia 都是「芯片 + 框架 + 服务」一体的托管服务，客户不需要接触底层 CUDA。<strong>第三条冲击是「Agent 时代的软件复杂度下降」</strong>——Agent 应用主要是模型推理调用 + 工具调用，对底层 CUDA kernel 的定制需求远低于训练。这三条路径合起来，CUDA 护城河在推理端会被系统性削弱、在训练端仍将维持 3-5 年优势。</p>
+
+            <p>结论是相对性的：<strong>CUDA 护城河不会被击穿，但会从「一夫当关」变成「多路突围」</strong>。英伟达在训练端仍将占据 80%+ 份额，但在推理端份额可能从 90% 下降到 60-70%——这已经足以让英伟达的收入增速从 2026 年 +70% 降到 2027 年 +30-35%，也足以让估值分位从 2024 年的历史 95% 分位回归到 2026 年的历史 60% 分位。<strong>这就是英伟达 1 万亿蒸发的产业底层解释。</strong></p>
+
+            <div class="article-highlight">
+                <h3>CUDA 护城河 2026 - 2028 展望</h3>
+                <p><strong>训练端</strong>：英伟达占比 80-85%（近 5 年内变化较小，Blackwell / Rubin 供不应求）<br>
+                <strong>推理端</strong>：英伟达占比从 90% 降至 60-70%（挑战者阵营与自研 ASIC 分食）<br>
+                <strong>Agent 时代</strong>：软件复杂度下降 → CUDA 定制优势削弱，Triton + torch.compile 让「一次写 多端跑」成为主流<br>
+                <strong>Rubin 时代（2027 Q4）</strong>：英伟达通过下一代架构在训练端继续维持优势，但整体收入增速将从 +70% 降至 +30-35%</p>
+            </div>
+
+            <h2>八、投资地图三次重塑：从买英伟达到买其他半导体到买云与推理 ASIC</h2>
+            <p>「去英伟达化」的多米诺让 AI 投资地图开始第三次重塑。<strong>第一次重塑（2023-2024）从「买英伟达」到「买英伟达 + 台积电 + 内存 + 光模块」</strong>——AI 芯片供应链上下游全线受益，SK 海力士、美光、Vertiv、Coherent、Ciena 都拿到系统性估值重估。<strong>第二次重塑（2025-2026 上半年）从「买硬件」到「买硬件 + 云」</strong>——摩根士丹利 7 月 6 日的《AI：十条投资真相》报告已经明确指出「卖芯片、买云」，Oracle Cloud / Palantir / ServiceNow 在这一波跑赢英伟达。</p>
+
+            <p><strong>2026 年 7 月这一周正在启动第三次重塑：从「买硬件 + 云」到「买推理 ASIC + Agent 应用 + 中国开源生态」</strong>。SambaNova 110 亿估值、摩根大通订单落地、DeepSeek + 智谱造芯、中国开源模型美国渗透 46%——这四条消息在同一周合流，投资者第一次系统性思考「非英伟达阵营」的投资敞口。业内共识是三条主要方向：<strong>其一，直接买挑战者芯片股</strong>——SambaNova（拟 2027 IPO）、Cerebras（2026 Q4 IPO）、Rebellions（韩交所已上市）、Groq（已完成 15 亿融资，估值 40 亿）；<strong>其二，买挑战者服务化云</strong>——Together AI、Fireworks、Anyscale 等提供中国开源模型 API 服务的中间层公司；<strong>其三，买芯片设计工具与代工上下游</strong>——Cadence、Synopsys、GlobalFoundries、中芯国际等承接自研 ASIC 需求的公司。</p>
+
+            <p>需要额外强调的是「买英伟达」并未失效——但从 2026 年下半年开始，「买英伟达」不再是唯一必赢的 AI 投资敞口。<strong>估值 18 倍前瞻 PE 是七年新低，但基本面没有恶化——这是一个「估值分位再定价」阶段，不是「基本面再定价」阶段</strong>。理性投资者的策略应该是：<strong>核心持仓仍保留英伟达但降低比例（从 25-30% 降至 15-18%）、增加挑战者芯片股与推理 ASIC 云服务、保留 AWS / Azure / Google Cloud / Oracle Cloud 作为「AI 云」核心配置、加仓 Agent 原生软件（Palantir / ServiceNow / CrowdStrike）</strong>。这份「多点分散」的组合，是应对「去英伟达化」多米诺最理性的资产配置策略。</p>
+
+            <div class="article-conclusion">
+                <h2>结语：多米诺已经开始倒下，别把它当作英伟达的末日</h2>
+                <p>2026 年 7 月 7-8 日这两天，全球 AI 算力生态经历了 2020 年 CUDA 出海以来最深的一次结构性重估。<strong>DeepSeek + 智谱造芯让中国大模型公司走上「模型 + 芯片」全栈闭环的第三条路径</strong>（前两条是谷歌 TPU 与亚马逊 Trainium）；<strong>SambaNova 110 亿估值与摩根大通订单让「非英伟达阵营」第一次拿到主流金融资本的背书</strong>；<strong>中国开源模型美国 API 46% 渗透让软件层的「去英伟达化」提前 2 年到来</strong>；<strong>英伟达 1 万亿市值蒸发是市场对未来 3 年增速下降 40% 的提前反映</strong>。</p>
+
+                <p>但去英伟达化不等于英伟达崩盘。<strong>训练端英伟达在 2028 年前仍将维持 80%+ 份额，Rubin 与后续架构会在生成式 AI 推理集群的边界上继续保有优势</strong>。真正在重塑的是「英伟达估值分位」——从 2024 年历史 95% 分位到 2026 年的 60-65% 分位，估值贴现率上升让英伟达的市值曲线从「陡峭上行」变为「震荡上行」。投资者需要记住的三条铁律：<strong>其一，多米诺不会一夜倒塌</strong>——DeepSeek 与智谱 ASIC 量产要等 2028；<strong>其二，估值再定价不等于基本面崩塌</strong>——英伟达单季毛利率仍在 74.2%、37 位分析师全推荐买入；<strong>其三，AI 投资地图正在从「一家独大」走向「多路径分散」</strong>——理性组合应该同时下注英伟达 + 挑战者 + 云 + Agent 应用。这就是 2026 年 7 月 9 日这个「去英伟达化多米诺日」写下的核心投资启示。</p>
+            </div>
+
+            <h2>关键信源</h2>
+            <ul>
+                <li>路透社 2026-07-07 独家《DeepSeek quietly building custom AI inference chip》</li>
+                <li>The Information 2026-07-07 独家《Zhipu AI Kicks Off Its Own Chip Project》</li>
+                <li>SambaNova 官方公告 2026-07-08《SambaNova Closes USD 1B Series F》</li>
+                <li>CNBC 2026-07-07《Chinese AI models grab 30-46% of US API market》</li>
+                <li>OpenRouter 数据面板 2026-07-08（周度模型份额）</li>
+                <li>观察者网 2026-07-08《路透独家：DeepSeek 秘密造芯一年》</li>
+                <li>36 氪 2026-07-08《DeepSeek 与智谱同日造芯，AI 芯片赛道变天》</li>
+                <li>新浪科技 / 财联社 / 智通财经 2026-07-08 英伟达估值跟踪</li>
+                <li>华尔街见闻 2026-07-07 CNBC 报道中文版</li>
+                <li>央视财经 2026-07-08《中国开源大模型美国渗透 46%》</li>
+            </ul>
+        </div>
+        <footer class="article-footer">
+            <p>本文由 AI News Daily 编辑部 2026 年 7 月 9 日撰写，数据均来自公开信源交叉核实。</p>
+        </footer>
+    </div>
+</body>
+</html>

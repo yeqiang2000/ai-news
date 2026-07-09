@@ -4,6 +4,39 @@
 
 ---
 
+## 2026-07-09 · 日更三件套（网站 + 微信 + 头条）
+
+### 🌐 网站 · article-38《去英伟达化的多米诺：DeepSeek + 智谱同日曝出自研推理芯片，一场全球 AI 算力生态的结构性裂变》
+- **切角**：路透 + The Information + SambaNova 三份独家在同一周合流——DeepSeek 秘密造芯一年、智谱因 GLM-5.2 用量暴涨 27 倍启动 ASIC、SambaNova 完成 10 亿美元 F 轮估值 110 亿；英伟达 5 月至今蒸发 1 万亿美元第一次有了完整的产业解释
+- **8 章节结构**：事实核对 / DeepSeek 经济逻辑 / 智谱 ASIC 路径 / SambaNova 挑战者阵营 / 英伟达估值塌陷 / 软件层去英伟达化 / CUDA 护城河松动 / 投资地图重塑
+- **文件**：`articles/article-38.html`（33,541B）+ `articles/en/article-38.html`（34,294B）
+- **hero 图**：`img/pool/chips-04-v5.jpg`
+- **信源交叉核实（7 源）**：路透 2026-07-07 / The Information 2026-07-07 / SambaNova 官方公告 2026-07-08 / 摩根大通 SN40L+SN50 部署披露 / CNBC 2026-07-07 / Reuters 2026-07-08 / 半导体行业观察 2026-07-08
+
+### 📱 微信 · 《王兴兴的 8 年：从浙江理工大学的 XDog 到 420 亿科创板「具身第一股」的路演日》
+- **切角**：宇树科技创始人个人叙事 + IPO 招股书细节（42.02 亿募资 / 8 年 3 次濒临破产 / 1998 生 XDog 起点）
+- **文件**：`wechat/wechat-2026-07-09.html`（30,527B，677px table 布局，`<div>=0`，12 tables + 36 tds + 49 border:none + 完整晓色原创声明）
+- **hero 图**：`img/pool/robotics-02-v5.jpg`
+- **信源（6 源）**：上交所科创板申报稿 / 21 世纪经济报道 2026-07-08 / 新华社 2026-07-08 / 澎湃新闻 2026-07-08 / 36 氪 2026-07-08 / 浙江理工大学官网
+
+### 📰 头条 · 《中国 AI 模型攻占美国 46%：Coinbase、Airbnb、Lindy 集体倒戈，一场硅谷账单革命》
+- **切角**：中国开源大模型在美 Token 份额结构性替代——OpenRouter 数据面板峰值 46%，硅谷公司集体倒戈
+- **文件**：`toutiao/toutiao-2026-07-09.md`（14,131B）
+- **信源（7 源）**：CNBC 2026-07-07 / 观察者网 2026-07-08 / IT之家 2026-07-08 / 华尔街见闻 2026-07-07 / 央视财经 2026-07-08 / OpenRouter 官方数据面板 / Hugging Face 官方博客
+
+### 📊 数据文件更新
+- `data/news.json`：`days[0]` 新增 2026-07-09（挤掉 2026-07-04），保留 5 天；`last_updated` = 2026-07-09 + 顶层 `hero` 同步为 `hero-2026-07-09`
+- `data/articles.json`：`article-38` 入首，总计 **37 篇**
+- `data/used-images.json`：本次 12 张 v5 图片全部新增，总计 **228 张**（216 → 228），`last_updated` 更新
+- `index.html`：侧边栏推送——加入 7/9 article-38，移除 6/29 article-28
+
+### 🔎 SEO · sitemap.xml
+- 全量重建至 **80 URL**（6 静态 + 37 article × 2 语言）
+- article-38 中英条目 hreflang zh-CN / en / x-default 三向互链
+- ⚠️ **待主人手动 GSC 操作**：为 `https://ainewsdaily.asia/articles/article-38.html` 和 `https://ainewsdaily.asia/articles/en/article-38.html` 请求编入索引
+
+---
+
 ## 2026-07-08 · 日更三件套（网站 + 微信 + 头条）
 
 ### 🌐 网站 · article-37《AI 投资的十条真相：摩根士丹利 7 月 6 日报告重塑万亿美元资本地图》
