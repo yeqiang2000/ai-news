@@ -2,7 +2,55 @@
 
 所有网站内容与功能的更新记录，每次更新时追加到本文档。
 
+## 2026-07-11 · 三件套日更 · article-40
+
+### 网站版：article-40 上线
+- **主题**：《AI 的成本反弹：从旗舰模型企业禁令到 Anthropic 企业市场反超 OpenAI——AI 支出结构的第一次系统性重构》
+- **切角**：Atlassian/Adobe/Amazon 禁用旗舰模型 + Anthropic 32% 首次反超 OpenAI 28% + Microsoft CO2 +25% + Meta Avocado 推迟 + UK 10 亿英镑主权算力 五合流 → 「按调用计费 → 岗位账单化 → 结构性成本反弹」拐点
+- **规模**：中文 33.9 KB + 英文 35.6 KB，含内联 style，18 分钟阅读
+- **累计**：articles.json 总数 38→39，sitemap.xml 82→84 URL
+
+### 微信版：LeCun 十二年
+- **主题**：《杨立昆的十二年：Meta 首席 AI 科学家离场与一个开源时代的谢幕》
+- **文件**：`wechat/wechat-2026-07-11.html`（23.7 KB，677px table，晓色原创声明）
+- **公开 URL**：`https://www.coze.cn/s/HNhuFPOeSzo/`
+
+### 头条版：NYT vs OpenAI
+- **主题**：《纽约时报 vs OpenAI 制裁动议——2000 万条对话日志「消失」的疑云》
+- **文件**：`toutiao/toutiao-2026-07-11.md`（12.3 KB）
+
+### 数据变更
+- `data/news.json`：days=[07-11..07-07], last_updated=2026-07-11, hero=hero-2026-07-11
+- `data/articles.json`：insert(0, article-40)，总数 39
+- `data/used-images.json`：total_used 236→247（+11 新增，0 历史合并）
+- `data/image-pool.json`：**遗留问题已修复** — 337 张相对路径 url 统一 normalize 为完整 URL，与 used-images.json 格式完全对齐，图池去重字符串比对恢复正常
+- `sitemap.xml`：6 静态 + 39 中 + 39 英 = 84 URL
+
+### SOP 遵循度（对照 2026-07-09 修订版）
+| 检查项 | 状态 |
+|-------|------|
+| §11.1 手动触发日清空日程 (count=0) | ✅ |
+| §8.0 派发前 5 检（sonnet/schema/防线/瘦身/日程） | ✅ 全绿 |
+| §8 第 3 步 侧边栏 grep=10 + 首条 article-40 | ✅（并发 edit 时首次失败，改串行后成功） |
+| §8 第 3 步 news.json 三项一致（days[0]/hero/last_updated） | ✅ |
+| §8 第 3 步 sitemap URL 数 = 6+文章×2 = 84 | ✅ |
+| §8 第 7 步 bash timeout=300 | ✅ |
+| §8 第 8 步 wrangler 部署 | ✅ 13 files new / 554 cached / 3.58s |
+| §8 第 9 步 3 次收敛 curl | ✅ sitemap 200 / article 308 / Yandex 302 |
+| §5 图池去重（字符串比对） | ✅ 格式修复后 236→247 无历史误合并 |
+
+### Git & 部署
+- commit `169eb05`（10 files, 3134 insertions, 505 deletions）
+- 部署 `https://2852541c.ainewsdaily.pages.dev`
+- 前一版 baseline: `e7b5d84`（07-10 CHANGELOG）→ `e6508ee`（07-10 数据）
+
+### 学习点
+- **并发 edit_file 冲突（新增红线）**：同一文件同时派发 2 个 edit_file 时，第一次的写入可能未生效但工具返回成功；本次侧边栏首次并发插入 article-40 + 删除 article-30 时，article-40 未写入，需要重新单独插入。修复为**串行 edit_file 同一文件的多次修改**，避免并发写冲突。
+
+---
+
 ## 2026-07-10 · 三件套日更 · article-39
+
 
 **commit**：`e6508ee feat: daily update 2026-07-10 (article-39: Agent 商业化拐点)`
 **部署**：`https://448380e0.ainewsdaily.pages.dev`（12 files new / 549 cached / 3.30s）
@@ -1006,34 +1054,4 @@
 - Cloudflare Pages部署成功：https://701956b1.ainewsdaily.pages.dev
 
 ### 交付物
-- 微信公众号图文：`wechat/wechat-2026-06-16.html`（供用户下载）
-- 头条文章：`toutiao/toutiao-2026-06-16.md`（供用户下载）
-
-### 累计进度
-- 网站深度文章：16篇（含article-16待发布）
-- 微信公众号：10篇（含待发布）
-- 头条文章：7篇（含待发布）
-
-## 2026-06-26 06:05 - 修复侧边栏深度好文样式
-- 补充 css/style.css 中 .sidebar-article-link / .sidebar-article-date / .sidebar-article-title 三个类的样式定义（此前漏写导致三条标题挤在一起）
-- 卡片式布局：日期色块徽章 + 标题2行截断，hover 时左边线变紫、整卡右移
-- Commit: 6e4e38c
-- 预览: https://f9cd5190.ainewsdaily.pages.dev
-
-## 2026-06-28（追加）
-- 微信版：《DeepSeek的「3400亿信仰」：一个杭州人，把中国AI送进了全球前12》（wechat-2026-06-28.html, 16143字节，677px table 布局，border 全合规）
-- 头条版：《自动驾驶L3/L4强制国标定档2027年7月：中国AI正式进入「合规元年」》（toutiao-2026-06-28.md, 7530字节）
-- 三平台主题独立：网站=国标双发产业分析 / 微信=DeepSeek人物事件 / 头条=合规元年热点趋势
-- 新规：自 6/28 起，「开始更新」指令默认产出当天三件套，主 Agent 不再分步等待
-- **sitemap.xml 全量重建**：从 6/3 的 2 篇升级到 60 URL（6 静态 + 27 中文 + 27 英文），含 hreflang 中英文互链 + x-default，commit e4da2c0
-- 修复：article-22 英文版命名从旧的 `article-22-en.html` 补齐 `article-22.html` 标准命名
-- robots.txt 校验：Sitemap 指令已正确指向 https://ainewsdaily.asia/sitemap.xml
-- Yandex ping 成功（HTTP 200）；Google/Bing ping endpoint 均已废弃（HTTP 410），改由主人手动 GSC 提交
-- 预览：https://31f45f82.ainewsdaily.pages.dev/sitemap.xml
-- **重磅 hero**：中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标同步落地（来源：国家标准委 / 中国政府网）
-- **新增深度文章**：article-27《中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标，从底层算力到智能体协同的全栈规范化》中英双语
-- **news 10 条**：国标双发、GPT-5.6 Sol/Terra/Luna 三梯队、DeepSeek DSpark 开源、特斯拉接入豆包+DeepSeek、DeepSeek 胡润独角兽 3400 亿、工信部 L3/L4 强制性国标、阿里千问输入法 macOS、Anthropic Mythos 5、Marvell CXL 3.64x 压缩、RoboScience Visics 具身大模型
-- **侧边栏**：article-27 进首位，挤掉 article-16
-- **图片**：本次新增 11 张图标记 used（含 industry-smart-city.jpg / policy-data-privacy.jpg / llm-multimodal-v3.jpg / opensource-github-stars-v3.jpg / autonomous-vehicle-city.jpg / investment-ipo-v3.jpg / autonomous-truck-v3.jpg / llm-rag-v3.jpg / llm-evaluation-v3.jpg / chips-edge-ai-v3.jpg / robotics-humanoid-v3.jpg），used 总数 141，本地可用 63 张
-- **commit**: `75c0fb3` (feat(daily): 2026-06-28 update)
-- **部署**: https://5cd4b8a8.ainewsdaily.pages.dev
+- 微信公众号图文：`wec
