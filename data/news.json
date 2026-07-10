@@ -1,6 +1,304 @@
 {
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "days": [
+    {
+      "date": "2026-07-11",
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-07-11",
+          "category": "产业",
+          "category_en": "Industry Analysis",
+          "title": "Atlassian、Adobe、Amazon 相继下架员工「旗舰 AI 模型」使用权，企业 AI 成本控制潮全面到来",
+          "title_en": "Atlassian, Adobe, Amazon Pull Flagship AI Models from Employee Access as Enterprise Cost Crackdown Goes Mainstream",
+          "summary": "AI Base 7 月 10 日披露：Atlassian、Adobe、Amazon 集体禁用员工调用 Claude Opus 4.1、GPT-5.6 等旗舰模型，强制切换 Haiku 4.5、GPT-5.6-mini 等低价替代。触发点是三家厂商在 Q2 悄然从「年费 seats」切换到「按调用付费」——单员工月账单从 60 美元冲到 400 美元，财务部门集体报警。",
+          "summary_en": "AiBase reported on July 10: Atlassian, Adobe and Amazon are collectively blocking employees from calling flagship AI models like Claude Opus 4.1 and GPT-5.6, forcing a switch to cheaper alternatives like Haiku 4.5 and GPT-5.6-mini. The trigger: all three vendors quietly pivoted in Q2 from annual seat licenses to pay-per-call billing, driving per-employee monthly invoices from $60 to $400 and setting off alarms across CFO offices.",
+          "source": "AiBase",
+          "source_en": "AiBase",
+          "image": "img/pool/investment-finance.jpg",
+          "content": "「旗舰模型禁令」在 7 月 10 日成为硅谷 CIO 的第一波关键词。Atlassian、Adobe、Amazon 三家企业内部 IT 组通过全员邮件明确：员工不再被允许通过公司账号调用 Claude Opus 4.1（105 美元/百万输入 tokens）、GPT-5.6（80 美元/百万输入 tokens）等旗舰款，一律降级到 Haiku 4.5（3.9 美元）或 GPT-5.6-mini（1.2 美元）。触发点极为一致：三家 AI 厂商在 Q2 均从「固定年费/席位」切换到「按调用付费」，单员工月账单从最初的 60 美元冲到 400 美元。财务复盘发现，工程师只是让 Cursor / Copilot 后台默认走了 Opus，实际使用效果与 Haiku 差异不到 8%，但账单差异 25 倍。这份「性能溢价 = 成本黑洞」的鲜明对比，正在推动整个企业 AI 支出结构快速重构。",
+          "content_en": "The 'flagship-model ban' became CIO shorthand across Silicon Valley on July 10. Internal IT teams at Atlassian, Adobe and Amazon issued all-hands emails stipulating that employees can no longer call Claude Opus 4.1 ($105 per million input tokens) or GPT-5.6 ($80) via corporate accounts—everything routes to Haiku 4.5 ($3.9) or GPT-5.6-mini ($1.2). The trigger is identical across the three vendors: in Q2 they all pivoted from fixed annual seat licenses to pay-per-call billing, and per-employee monthly bills spiked from $60 to $400. Post-mortem: engineers simply let Cursor and Copilot default to Opus, with the actual quality delta versus Haiku under 8% but the bill 25x higher. This 'performance premium = cost black hole' contrast is rapidly reshaping enterprise AI spend.",
+          "key_points": [
+            "Atlassian、Adobe、Amazon 三家同步禁用旗舰模型内部调用",
+            "触发点是 Q2 从「年费 seats」切换到「按调用付费」",
+            "单员工月账单从 60 美元冲到 400 美元",
+            "Haiku 4.5 vs Opus 4.1 效果差异不到 8%，账单差异 25 倍"
+          ],
+          "key_points_en": [
+            "Atlassian, Adobe and Amazon simultaneously block internal calls to flagship models",
+            "Trigger: Q2 pivot from annual seat licenses to pay-per-call billing",
+            "Per-employee monthly bills spiked from $60 to $400",
+            "Haiku 4.5 vs Opus 4.1 quality delta under 8%, bill delta 25x"
+          ],
+          "url": "https://www.aibase.com/news/ai-cost-control-flagship-models-luxury"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-07-11",
+          "category": "产业",
+          "category_en": "Industry Analysis",
+          "title": "Anthropic 企业市场份额首次超越 OpenAI，出口管制反成「稀缺性溢价」",
+          "title_en": "Anthropic's Enterprise Share Surpasses OpenAI for First Time, US Export Controls Ironically Become 'Scarcity Premium'",
+          "summary": "IDC + Gartner 7 月 7 日联合数据：Anthropic 在美国企业 AI 市场的份额首次超越 OpenAI（32% vs 28%）。反直觉的是——尽管 Fable 5 / Mythos 5 被特朗普政府强制下架海外，「供应链风险」的官方定性反而在企业客户端强化了 Claude 的「政府可控」形象，年框合同 6 月至 7 月环比 +41%。",
+          "summary_en": "Joint IDC + Gartner data on July 7: Anthropic's US enterprise AI market share surpassed OpenAI for the first time (32% vs 28%). Counter-intuitively, even though Fable 5 and Mythos 5 were force-pulled from foreign users by the Trump administration, the official 'supply chain risk' framing has strengthened Claude's 'government-approved' image in the enterprise, driving year-frame contracts up 41% month-over-month.",
+          "source": "IDC / Gartner",
+          "source_en": "IDC / Gartner",
+          "image": "img/pool/ai-assistant.jpg",
+          "content": "Anthropic 完成了一次极不寻常的市场超越——出口管制不但没有削弱它，反而在企业客户中成为「稀缺性护城河」。IDC 与 Gartner 7 月 7 日联合发布的《Enterprise AI Q2 Snapshot》显示，Anthropic 在美国企业市场（Fortune 2000）份额已达 32%，首次超过 OpenAI 的 28%——两年前这个数字是 8% vs 61%。加速因素有三：其一，Claude Fable 5 在编程与长上下文推理上口碑压倒 GPT-5.6；其二，Trump 政府 6 月强制 Anthropic 下架 Fable 5 / Mythos 5 海外访问，「政府亲手可控」被大企业理解为「合规优先候选」；其三，加州州长 Newsom 6 月 30 日与 Anthropic 签下「州政府 50% 折扣」协议，成为公部门跟进的强锚点。",
+          "content_en": "Anthropic just executed a highly unusual market reversal—US export controls, rather than weakening it, have become a 'scarcity moat' among enterprise buyers. IDC and Gartner's joint 'Enterprise AI Q2 Snapshot' released on July 7 puts Anthropic's Fortune 2000 share at 32%, edging past OpenAI's 28% for the first time—two years ago the ratio was 8% vs 61%. Three accelerants: (1) Claude Fable 5's programming and long-context reasoning have overtaken GPT-5.6 in enterprise trials; (2) the Trump administration's June order to pull Fable 5 / Mythos 5 from foreign users has been read by big buyers as 'government-approved—compliance-first'; (3) California Governor Newsom's June 30 deal granting state agencies a 50% Claude discount is anchoring public-sector uptake.",
+          "key_points": [
+            "Anthropic 美国企业市场份额 32%，首次超越 OpenAI 的 28%",
+            "两年前份额比是 8% vs 61%——两年差距完全翻转",
+            "出口管制被解读为「政府可控」，反而强化 B 端信任",
+            "加州州府 50% 折扣协议成为公部门跟进锚点"
+          ],
+          "key_points_en": [
+            "Anthropic US enterprise share hits 32%, edging past OpenAI's 28%",
+            "Two years ago the ratio was 8% vs 61%—complete reversal",
+            "Export controls reframed as 'government-approved', boosting enterprise trust",
+            "California 50% state discount deal anchoring public-sector adoption"
+          ],
+          "url": "https://www.idc.com/getdoc.jsp?containerId=US52887225"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-07-11",
+          "category": "深度解读",
+          "category_en": "Deep Analysis",
+          "title": "纽约时报牵头 17 家媒体申请制裁 OpenAI，2000 万条对话日志「消失」成核心争议",
+          "title_en": "NYT-Led Coalition of 17 News Organizations Seeks Sanctions Against OpenAI, 20 Million 'Deleted' Chat Logs at Core of Dispute",
+          "summary": "7 月 9 日纽约南区联邦地方法院：由《纽约时报》牵头的 17 家新闻机构联合提交制裁动议，指控 OpenAI 在版权诉讼中「藏匿证据、就技术能力做虚假陈述」，2000 万条本可证明侵权的 ChatGPT 输出日志「未被妥善保存或已被删除」。若制裁通过，法官可推定「被删除内容对 OpenAI 不利」，将实质改变案件走向。",
+          "summary_en": "On July 9 at the Southern District of New York, a coalition of 17 news organizations led by The New York Times filed a motion seeking sanctions against OpenAI in the ongoing copyright case, alleging the company 'concealed evidence and misrepresented its technical capabilities', with roughly 20 million ChatGPT output logs that could prove infringement 'not preserved or already deleted'. If granted, the court can instruct the jury to assume the missing evidence was unfavorable to OpenAI—a shift that could materially alter the trajectory of the case.",
+          "source": "Crypto Briefing / Quartz",
+          "source_en": "Crypto Briefing / Quartz",
+          "image": "img/pool/legal-regulation.jpg",
+          "content": "版权诉讼第一次向 OpenAI 亮出「毁灭证据」这张最重的牌。17 家新闻机构（含 NYT、纽约每日新闻、芝加哥论坛报）7 月 9 日向法院提交动议：其一，OpenAI 长达两年声称「无法在训练数据集中搜索受版权保护内容」，事实上具备这一能力却未披露；其二，约 2000 万条本可证明模型「复现或高度模仿」新闻文章的 ChatGPT 输出日志「未妥善保存或已被删除」。请求包括金钱制裁 + 律师费 + 「不利推定」——后者一旦获批，联邦法官可直接向陪审团指示「假定被删除内容对 OpenAI 不利」。案件核心版权主张已在 2025 年通过驳回动议，进入证据开示阶段。同一动议不针对微软（Co-defendant）。",
+          "content_en": "The copyright litigation just escalated to the heaviest card of all—evidence destruction. On July 9, a coalition of 17 news outlets (including NYT, New York Daily News, Chicago Tribune) filed with the court alleging: (1) OpenAI spent two years claiming it 'could not search training datasets for copyrighted material' when in fact it possessed the capability but never disclosed it; (2) roughly 20 million ChatGPT output logs that could prove the models 'reproduced or closely mimicked' news articles were 'not preserved or already deleted'. Relief sought includes monetary sanctions, attorneys' fees, and 'adverse inference'—the last, if granted, would let the federal judge instruct the jury to 'assume the missing content was unfavorable to OpenAI'. Core copyright claims survived motions to dismiss in 2025 and are now in discovery. This motion does not target Microsoft, the co-defendant.",
+          "key_points": [
+            "17 家新闻机构联合提交制裁动议，NYT 牵头",
+            "指控 OpenAI 隐瞒可搜索训练数据的技术能力两年之久",
+            "约 2000 万条 ChatGPT 输出日志「未妥善保存或已被删除」",
+            "「不利推定」若获批，将实质改变陪审团走向"
+          ],
+          "key_points_en": [
+            "17 news organizations file joint sanctions motion, led by NYT",
+            "Alleges OpenAI concealed searchable-training-data capability for two years",
+            "Roughly 20 million ChatGPT output logs 'not preserved or already deleted'",
+            "'Adverse inference' if granted would materially alter jury trajectory"
+          ],
+          "url": "https://cryptobriefing.com/nyt-media-group-sanctions-openai-copyright/"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-07-11",
+          "category": "大模型",
+          "category_en": "LLM",
+          "title": "Meta「牛油果」Avocado 推迟到 2026 Q1，Llama 开源时代或提前落幕",
+          "title_en": "Meta's 'Avocado' Successor Delayed to Q1 2026, Llama Open-Source Era May End Prematurely",
+          "summary": "36 氪 7 月 11 日报道：Meta 原计划年底发布的下一代前沿模型 Avocado 已被推迟至 2026 Q1，且更倾向以闭源形式推出。这意味着自 2023 年 Llama 系列以来的开源路线正面临逆转，Meta 官方虽坚称「按计划推进」，多位匿名工程师指出训练稳定性与推理泛化尚未达到商用层级。",
+          "summary_en": "Reported by 36Kr on July 11: Meta's next-generation frontier model 'Avocado', originally scheduled for year-end, has been pushed to Q1 2026 and increasingly leans toward a closed-source release. This signals a reversal of the open-source path Meta has walked since Llama debuted in 2023. Official comms insist 'training is on schedule', but multiple anonymous engineers say stability and inference generalization have not yet reached commercial grade.",
+          "source": "36Kr / 腾讯科技",
+          "source_en": "36Kr / Tencent Tech",
+          "image": "img/pool/ai-brain.jpg",
+          "content": "Avocado 的延期只是表象——真正的变化发生在 Meta AI 战略的最底层。Llama 4 反响平淡、Llama 架构被外部大规模复刻（含 DeepSeek R1 采用类 Llama 架构）后，扎克伯格于 2025 年夏天开始公开暗示「必须严格减轻风险」。7 月 11 日 36 氪最新披露：Avocado 训练目标从「开源标杆」重构为「闭源商用旗舰」，权重不再自由下载；配套动作包括 143 亿美元收购 Scale AI 拿下 Alexandr Wang 领衔的 MSL 实验室、Prometheus 超大规模数据中心加速建设、下一代自研 ASIC 推理芯片提前量产。这不是普通的战略微调——是继 2012 年拥抱移动互联网、2020 年押注元宇宙之后 Meta 的「第三次战略大迁徙」。",
+          "content_en": "The Avocado delay is only a surface signal—the real shift is happening at the deepest layer of Meta's AI strategy. After a lukewarm Llama 4 reception and external labs (including DeepSeek R1) reproducing the Llama architecture at scale, Zuckerberg began publicly hinting since summer 2025 that Meta 'must rigorously reduce risk'. 36Kr on July 11: Avocado's training target has been reframed from 'open-source benchmark' to 'closed-source commercial flagship', with weights no longer freely downloadable. Companion moves: a $14.3B Scale AI acquisition installing Alexandr Wang's MSL lab in the AI decision core, accelerated build-out of the Prometheus hyperscale data center, and next-generation in-house ASIC inference silicon pulled forward. This is not a routine strategy tweak—it is Meta's third grand migration after embracing mobile in 2012 and betting on the metaverse in 2020.",
+          "key_points": [
+            "Avocado 从年底推迟到 2026 Q1，倾向闭源发布",
+            "Llama 开源路线可能就此中断，Yann LeCun 已宣布离职创业",
+            "143 亿美元收购 Scale AI 换来 Alexandr Wang 领衔 MSL",
+            "Prometheus 数据中心 + 自研 ASIC 芯片同步加速"
+          ],
+          "key_points_en": [
+            "Avocado slips from year-end to Q1 2026, closed-source pivot leans in",
+            "Llama open-source path may end; Yann LeCun announces departure to start his own venture",
+            "$14.3B Scale AI acquisition installs Alexandr Wang as MSL lead",
+            "Prometheus data center and in-house ASIC inference chip both accelerate"
+          ],
+          "url": "https://m.36kr.com/p/3590943736627204"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-07-11",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing",
+          "title": "英国 10 亿英镑「本土 AI 芯片战」启动，阻止创业公司搬迁美国",
+          "title_en": "UK Launches £1B 'Sovereign AI Chip War' to Stop Startups Moving to US",
+          "summary": "7 月 10 日 London Tech Week 上，英国科技大臣 Liz Kendall 宣布 10 亿英镑本土 AI 芯片与半导体设备直接采购计划，核心目标是「阻止英国 AI 创业公司为了算力搬迁到美国」。",
+          "summary_en": "At London Tech Week on July 10, UK Technology Secretary Liz Kendall announced a £1B direct procurement plan for domestic AI chips and semiconductor equipment, aimed squarely at 'stopping UK AI startups from moving to the US in search of compute'.",
+          "source": "AI Base / London Tech Week",
+          "source_en": "AiBase / London Tech Week",
+          "image": "img/pool/gpu-cluster.jpg",
+          "content": "英国政府这次的动作足够直接——10 亿英镑不做补贴、不做减税，而是直接下场当买家。Liz Kendall 在 London Tech Week 主旨演讲中说：「过去 24 个月我们看着 Wayve、Isomorphic Labs、ARM Neoverse 的关键项目一个个把重心搬到美国，主要原因只有一个：算力买不到、买不起。」这份 10 亿英镑的采购包，将优先购买 Graphcore、Nvidia UK 供货、Google TPU 与 AMD MI400 系列，并向英国 AI 创业公司提供 3-6 年长期算力租约。业内解读：这是继欧盟《AI 法案》生效之后，欧洲第一份「主权算力」清晰行动方案，与法国《勇敢拥抱 AI》100% 大企业 AI 应用目标一起，构成 2026 年欧洲 AI 战略的双轮驱动。",
+          "content_en": "The UK's move is unusually direct—£1B not for subsidies or tax breaks, but for the government to become the buyer. Kendall's London Tech Week keynote: 'Over the past 24 months, we have watched Wayve, Isomorphic Labs and ARM Neoverse's key projects relocate to the US, and the reason is one thing only: compute either cannot be bought or cannot be afforded.' The £1B package will prioritize procurement from Graphcore, Nvidia UK, Google TPU and AMD MI400, and offer 3–6 year long-term compute leases to UK AI startups. Analyst read: this is the first concrete 'sovereign compute' action plan in Europe after the EU AI Act took effect, pairing with France's 'Brave Embrace of AI' 100%-enterprise-AI-adoption target to form a dual engine of European AI strategy for 2026.",
+          "key_points": [
+            "英国政府 10 亿英镑直接下场买芯片",
+            "核心目标是阻止本土 AI 创业公司搬迁美国",
+            "向创业公司提供 3-6 年长期算力租约",
+            "配合欧盟《AI 法案》构成欧洲主权算力双轮驱动"
+          ],
+          "key_points_en": [
+            "UK government commits £1B direct chip procurement",
+            "Core goal: prevent domestic AI startups from relocating to the US",
+            "3–6 year long-term compute leases for startups",
+            "Pairs with EU AI Act to form Europe's sovereign-compute dual engine"
+          ],
+          "url": "https://www.aibase.com/news/uk-ai-chip-1-billion-pounds"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-07-11",
+          "category": "AI 应用",
+          "category_en": "AI Applications",
+          "title": "微软 2025 年碳排放暴涨 25%，AI 数据中心把「2030 负碳承诺」逼到悬崖",
+          "title_en": "Microsoft's 2025 Emissions Surge 25%, AI Data Centers Push '2030 Net-Negative' Pledge to the Cliff Edge",
+          "summary": "微软 7 月 9 日发布可持续发展年报：2025 年公司范围二排放量从 1600 万吨飙升到 2000 万吨 CO2e（+25%），主因是 AI 训练/推理数据中心密集扩容 + 部分可再生能源信用额度暂停采购。西德州新建的天然气电厂已被环保组织点名。",
+          "summary_en": "Microsoft's July 9 sustainability annual report: 2025 Scope-2 emissions surged from 16M to 20M metric tons CO2e (+25%), driven by explosive AI training/inference data-center expansion plus a pause on certain renewable-energy credit purchases. The new natural-gas plant in West Texas is already named by environmental groups.",
+          "source": "The Daily News Now / Microsoft ESG",
+          "source_en": "The Daily News Now / Microsoft ESG",
+          "image": "img/pool/cloud-computing.jpg",
+          "content": "微软的「2030 年负碳」承诺是过去五年硅谷 ESG 叙事的头号招牌，如今被 AI 自己亲手打了折。7 月 9 日发布的可持续发展报告显示：2025 年公司排放同比 +25%——从 1600 万吨飙升到 2000 万吨 CO2e。数据中心的爆炸性增长是主因，但更微妙的是——微软主动承认「暂停采购一部分可再生能源信用额度」是排放上涨的重要原因，意味着公司在「补偿式脱碳」策略上主动收缩。西德州新建的天然气电厂给微软带来了额外的即时电力，但也让 2030 年净负碳承诺面临不到 5 年的兑现窗口。这份年报某种意义上是硅谷 AI 与 ESG 之间「宿命性冲突」的第一次公开摊牌。",
+          "content_en": "Microsoft's '2030 net-negative' pledge has been the flagship ESG narrative in Silicon Valley for five years—AI has now knocked a discount off it. The July 9 sustainability report: 2025 emissions up 25% YoY, from 16M to 20M metric tons CO2e. Data-center explosion is the primary driver, but more subtle: Microsoft explicitly conceded that 'pausing purchases of certain renewable-energy credits' contributed materially—signaling active retreat from an 'offset-first' decarbonization strategy. The new West Texas natural-gas plant brings incremental immediate power, but also compresses the 2030 net-negative promise to a sub-five-year window. This annual report is, in a sense, the first public reckoning of the fated conflict between AI and ESG in Silicon Valley.",
+          "key_points": [
+            "微软 2025 年 CO2 排放 +25%，从 1600 万吨到 2000 万吨",
+            "AI 数据中心密集扩容是首要驱动",
+            "主动暂停采购部分可再生能源信用额度",
+            "2030 年净负碳承诺兑现窗口不到 5 年"
+          ],
+          "key_points_en": [
+            "Microsoft 2025 CO2 emissions +25%, from 16M to 20M metric tons",
+            "Explosive AI data-center expansion is primary driver",
+            "Actively paused purchases of certain renewable-energy credits",
+            "Sub-five-year window remaining on 2030 net-negative pledge"
+          ],
+          "url": "https://sources.thednn.ai/b7149c37cb4ce933"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-07-11",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "阶跃星辰 Step 3 定档 7 月 31 日全球开源，首个原生多模态 MoE 推理旗舰",
+          "title_en": "Stepfun's Step 3 Set for Global Open-Source Release on July 31, First Native Multimodal MoE Reasoning Flagship",
+          "summary": "阶跃星辰 7 月 10 日官宣：新一代基础大模型 Step 3——首个「全尺寸、原生多模态、MoE 架构」推理旗舰将于 7 月 31 日面向全球企业与开发者开源。上下文长度 128K，专家总量 1024，激活参数 780 亿。",
+          "summary_en": "Stepfun announced on July 10: Step 3—its next-generation foundation model and first 'full-size, natively multimodal, MoE-architecture' reasoning flagship—will be open-sourced worldwide to enterprises and developers on July 31. Context length 128K, 1024 total experts, 78B activated parameters.",
+          "source": "阶跃星辰官方 / 界面新闻",
+          "source_en": "Stepfun Official / Jiemian",
+          "image": "img/pool/opensource-collab.jpg",
+          "content": "Step 3 的技术亮点被外界迅速拆解：MoE 架构 1024 专家 / 单次激活 780 亿参数，等于「大模型体量、小模型推理成本」；原生多模态意味着文本、图像、视频、音频四路输入在预训练阶段就已耦合，而非事后拼接；128K 上下文窗口对齐 Kimi K3 与 Claude Fable 5。开源许可采用 Apache 2.0——比 Kimi K3 的 MIT 稍严格，但商用无附加条款。中国大模型开源阵营在 7 月正在集中释放：快手 Auto Think（7 月 11 日）、Kimi K3（7 月 10 日）、Step 3（7 月 31 日）、上海 AI 实验室 Intern-S1（7 月 29 日），一个月内四款重量级开源模型密集上线。",
+          "content_en": "Step 3's technical highlights are already being dissected: MoE architecture with 1024 experts and 78B activated parameters per pass equals 'large-model capability at small-model inference cost'. Native multimodality means text/image/video/audio inputs are coupled at pre-training rather than glued on afterward. The 128K context window aligns with Kimi K3 and Claude Fable 5. Open-source license: Apache 2.0—slightly stricter than Kimi K3's MIT but with no commercial add-ons. China's open-source LLM bloc is releasing intensively this month: Kuaishou Auto Think (July 11), Kimi K3 (July 10), Step 3 (July 31), Shanghai AI Lab Intern-S1 (July 29)—four heavyweight open-source models landing within thirty days.",
+          "key_points": [
+            "Step 3 于 7 月 31 日全球开源，Apache 2.0 许可",
+            "MoE 架构 1024 专家 / 780 亿激活参数",
+            "原生多模态四路输入预训练阶段耦合",
+            "中国开源阵营一个月内密集释放 4 款重量级模型"
+          ],
+          "key_points_en": [
+            "Step 3 open-sourced worldwide July 31 under Apache 2.0",
+            "MoE with 1024 experts / 78B activated parameters",
+            "Native multimodality: four-input coupling at pre-training",
+            "Four heavyweight Chinese open-source models within one month"
+          ],
+          "url": "https://m.weibo.cn/detail/5319172113565300"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-07-11",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "RealSense 从英特尔剥离，5000 万美元融资押注「Physical AI 视觉」",
+          "title_en": "RealSense Completes Spinout from Intel, Raises $50M to Bet on 'Physical AI Vision'",
+          "summary": "7 月 11 日 Business Wire：Intel 旗下计算机视觉品牌 RealSense 正式完成分拆，独立公司获得 5000 万美元种子轮 + A 轮融资，估值未披露。核心方向是为人形机器人、自主车与「物理世界 AI」提供机器感知硬件。",
+          "summary_en": "Business Wire, July 11: Intel's RealSense computer-vision brand has completed spinout as an independent company with a $50M seed-plus-Series-A round, valuation undisclosed. Core direction: machine-perception hardware for humanoid robots, autonomous vehicles and 'physical-world AI'.",
+          "source": "Business Wire",
+          "source_en": "Business Wire",
+          "image": "img/pool/robotics-humanoid.jpg",
+          "content": "RealSense 的分拆是 Intel 近三年「非核心业务瘦身」的一环，也是「Physical AI」赛道的信号灯。分拆后 RealSense 保留了 D400、D500、L515 三条深度相机产品线 + 12 项核心专利，服务客户包括宇树科技、Figure AI、波士顿动力、比亚迪、蔚来。5000 万融资参投方含英特尔 Capital（保留少数股权）、Founders Fund、Khosla Ventures。CEO Nadav Orbach 表示，接下来 12 个月将把摄像头模组价格从 300 美元/台压到 120 美元/台，为「1000 万台/年人形机器人」量产窗口做准备。这份分拆某种程度是 Physical AI 供应链从「大厂内部业务」走向「独立高速公司」的又一转折点。",
+          "content_en": "RealSense's spinout is a chapter in Intel's three-year non-core-business slimming and also a signal-flare for the Physical AI category. Post-spinout, RealSense retains the D400/D500/L515 depth-camera lines and 12 core patents, with customer coverage spanning Unitree Robotics, Figure AI, Boston Dynamics, BYD and NIO. The $50M round includes Intel Capital (minority carry), Founders Fund and Khosla Ventures. CEO Nadav Orbach: over the next 12 months, module prices will fall from $300/unit to $120/unit to prepare for a '10-million-humanoid-per-year' mass-production window. In a real sense the spinout is another inflection point of Physical AI's supply chain moving from 'inside a mega-cap' to 'independent high-velocity company'.",
+          "key_points": [
+            "RealSense 完成从英特尔剥离，独立成为公司",
+            "5000 万美元种子 + A 轮，Founders Fund / Khosla 参投",
+            "客户覆盖宇树、Figure、波士顿动力、比亚迪、蔚来",
+            "12 个月内模组价格从 300 美元压到 120 美元"
+          ],
+          "key_points_en": [
+            "RealSense completes spinout from Intel as independent company",
+            "$50M seed + Series A, Founders Fund / Khosla participate",
+            "Customer coverage: Unitree, Figure, Boston Dynamics, BYD, NIO",
+            "Module price to drop from $300 to $120 within 12 months"
+          ],
+          "url": "https://aithority.com/news/realsense-spinout-intel-50m/"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-07-11",
+          "category": "AI 应用",
+          "category_en": "AI Applications",
+          "title": "HP 与 OpenAI 战略合作再升级：工程师效率首个可验证案例出炉",
+          "title_en": "HP and OpenAI Deepen Strategic Cooperation: First Verifiable Engineer-Productivity Case Ships",
+          "summary": "AI Base 7 月 11 日：HP 与 OpenAI 宣布扩大战略合作，围绕全球客户体验与内部运营转型。首批试点显示——HP 软件工程师在采用 OpenAI 深度集成后效率显著提升（未公布具体百分比但内部称「超预期」）。",
+          "summary_en": "AiBase, July 11: HP and OpenAI announced expanded strategic cooperation focused on global customer experience and internal operations transformation. First pilots show HP software engineers substantially more productive after deep OpenAI integration (specific percentage undisclosed but internally described as 'above expectation').",
+          "source": "AI Base",
+          "source_en": "AiBase",
+          "image": "img/pool/tech-innovation.jpg",
+          "content": "HP 与 OpenAI 的这次升级最值得关注的不是合作本身，而是「首批可验证案例」的存在。过去 24 个月，OpenAI 与惠普、戴尔、联想的合作被反复宣布，但从未有过工程师效率的公开量化数据。7 月 11 日发布会上，HP CTO Tuan Tran 说：「首批试点软件工程师人均效率提升幅度已经达到我们此前对 AI Agent 部署最乐观情境的上限。」更值得关注的是 HP 承诺——12 个月内将 OpenAI 深度集成覆盖全部 5.6 万名 HP 员工，成为继 Klarna（Anthropic + OpenAI 双底座）与 Coinbase（Lindy 500+ Agent）之后又一份「全员 AI 化」的企业级样本。",
+          "content_en": "The most noteworthy element of the HP-OpenAI expansion is not the deal itself but the existence of a first verifiable case. Over the past 24 months, OpenAI's partnerships with HP, Dell and Lenovo have been announced repeatedly without any public engineer-productivity numbers. At the July 11 event, HP CTO Tuan Tran: 'The productivity uplift for the first cohort of piloted software engineers has hit the upper bound of our most-optimistic prior AI-agent-deployment scenario.' More noteworthy: HP commits to extending deep OpenAI integration to all 56,000 HP employees within twelve months, joining Klarna (Anthropic + OpenAI dual base) and Coinbase (Lindy 500+ agents) as another 'company-wide AI-native' enterprise sample.",
+          "key_points": [
+            "HP 与 OpenAI 战略合作扩展，覆盖全球客户体验",
+            "首批工程师试点效率提升「超预期」",
+            "12 个月内将 OpenAI 集成推广至 5.6 万全员",
+            "延续 Klarna、Coinbase 的「全员 AI 化」企业样本"
+          ],
+          "key_points_en": [
+            "HP-OpenAI strategic cooperation expanded, global CX in scope",
+            "First engineer pilot 'above expectation' on productivity uplift",
+            "OpenAI integration rollout to all 56,000 HP employees within 12 months",
+            "Extends Klarna, Coinbase precedent as company-wide AI-native samples"
+          ],
+          "url": "https://www.aibase.com/news/hp-openai-strategic-cooperation"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-07-11",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "快手 Auto Think 开源：可自主调节思考深度的推理模型上线",
+          "title_en": "Kuaishou Open-Sources Auto Think: Reasoning Model That Autonomously Modulates Thought Depth",
+          "summary": "7 月 11 日快手开源 Auto Think 大模型——支持根据问题复杂度自动调节思考深度（从「秒回」到「深度慢思考」四档），推动 AI 内容生成与交互领域的效率-质量平衡创新。",
+          "summary_en": "On July 11, Kuaishou open-sourced its Auto Think LLM, which autonomously modulates reasoning depth by question complexity (four tiers from 'instant reply' to 'deep slow-think'), pushing forward the efficiency-quality balance in AI content generation and interaction.",
+          "source": "快手官方 / CSDN",
+          "source_en": "Kuaishou Official / CSDN",
+          "image": "img/pool/opensource-workshop.jpg",
+          "content": "Auto Think 的技术亮点是「思考深度自动路由」——模型在接到问题后先做一次 300 tokens 内的「元判断」，判断问题所需推理深度（快回/中等/深度/超深），再进入对应算力档位。这一机制在效果与效率之间做出更精细的平衡——简单问题 avg 延迟 0.4 秒（对比 GPT-5.6 mini 的 1.1 秒），复杂问题的推理链最大可展开 3200 tokens。快手同时发布 API 定价：输入 0.6 美元/百万、输出 2.4 美元/百万，比 Kimi K3 更便宜。这份「深度自适应」机制是继 DeepSeek R1 的「思维链暴露」、Kimi K3 的「300 万长上下文」之后中国开源模型第三条差异化路径。",
+          "content_en": "Auto Think's technical highlight is 'reasoning-depth autonomous routing'—upon receiving a question, the model first runs a sub-300-token 'meta-judgment' pass to decide required depth (fast/medium/deep/ultra-deep), then routes to the corresponding compute tier. This mechanism strikes a finer balance between quality and efficiency—simple questions average 0.4s latency (vs GPT-5.6-mini at 1.1s), complex reasoning chains can expand up to 3200 tokens. Kuaishou also published API pricing: $0.6 per million input / $2.4 per million output, undercutting Kimi K3. This 'adaptive depth' mechanism is the third differentiated path for Chinese open-source models after DeepSeek R1's exposed chain-of-thought and Kimi K3's 3M-long-context.",
+          "key_points": [
+            "Auto Think 开源，四档思考深度自动路由",
+            "简单问题 0.4 秒响应，复杂问题 3200 tokens 推理链",
+            "API 输入 0.6 美元 / 百万，输出 2.4 美元 / 百万",
+            "中国开源模型第三条差异化路径落地"
+          ],
+          "key_points_en": [
+            "Auto Think open-sourced with four-tier depth autonomous routing",
+            "0.4s latency on simple queries; up to 3200-token chain on complex",
+            "API: $0.6 per million input, $2.4 per million output",
+            "Third differentiated path for Chinese open-source LLMs materializes"
+          ],
+          "url": "https://blog.csdn.net/yuntongliangda/article/details/149845503"
+        }
+      ],
+      "hero": {
+        "id": "hero-2026-07-11",
+        "title": "AI 的成本反弹：从旗舰模型企业禁令到 Anthropic 企业市场反超 OpenAI——AI 支出结构的第一次系统性重构",
+        "title_en": "The AI Cost Reflex: From Flagship-Model Bans to Anthropic Overtaking OpenAI in Enterprise—The First Systemic Restructuring of AI Spend",
+        "image": "img/pool/investment-finance.jpg",
+        "date": "2026-07-11",
+        "source": "AI News Daily 综合",
+        "source_en": "AI News Daily Analysis",
+        "summary": "2026 年 7 月 10~11 日 AiBase / IDC / Gartner / 36 氪五份数据同日抛出——Atlassian/Adobe/Amazon 集体禁用旗舰模型、Anthropic 企业份额首次超越 OpenAI、Meta Avocado 推迟开源逆转、微软碳排放 +25%、英国 10 亿英镑主权算力。三份关键数据把 AI 产业推进了一个新阶段——「成本反弹」正在从边缘话题跃升为 CIO/CFO 议程头条。",
+        "summary_en": "Between July 10–11, 2026, five datasets from AiBase / IDC / Gartner / 36Kr converged: Atlassian/Adobe/Amazon ban flagship models, Anthropic's enterprise share surpasses OpenAI for the first time, Meta's Avocado delayed and open-source reversal deepens, Microsoft emissions up 25%, UK £1B sovereign compute. Three signals push the AI industry into a new phase—the 'cost reflex' is rising from a fringe topic to the top of CIO/CFO agendas.",
+        "category": "深度解读",
+        "category_en": "Deep Analysis"
+      }
+    },
     {
       "date": "2026-07-10",
       "articles": [
@@ -1272,336 +1570,18 @@
           "url": "https://reuters.com/anthropic-samsung-2nm-2026-07-05"
         }
       ]
-    },
-    {
-      "date": "2026-07-06",
-      "hero": {
-        "id": "hero-2026-07-06",
-        "title": "Meta Compute 官宣「算力对外租赁」、John Jumper 从 DeepMind 转会 Anthropic、Claude Code 被阿里全员卸载——AI 产业的三张切片同一周落地",
-        "title_en": "Meta Compute Announces GPU Rental, John Jumper Defects from DeepMind to Anthropic, Alibaba Orders Full Uninstall of Claude Code — Three Cross-Sections of AI Industry Landed in One Week",
-        "image": "img/pool/industry-neocloud-v4.jpg",
-        "date": "2026-07-06",
-        "source": "彭博社 / 36 氪 / 华尔街见闻 / 澎湃新闻 / 凤凰网 / 财新 / 麻省理工科技评论 / 都市快报 / 观察者网 / 金融界",
-        "source_en": "Bloomberg / 36Kr / Wall Street CN / The Paper / iFeng / Caixin / MIT Technology Review / Metropolis Express / Guancha / Financial World",
-        "summary": "7 月 1 日彭博社首爆 Meta 内部代号「Meta Compute」的云基础设施业务——把富余的 AI 算力对外出租，同时开放 Llama、Muse Spark 等模型的 API 调用；Meta 当日股价 +8.8%、市值涨 1270 亿美元，CoreWeave -13.92%、Nebius -17.01%。6 月 19 日 AlphaFold 主创、2024 年诺贝尔化学奖得主 John Jumper 宣布离开 DeepMind 9 年入职 Anthropic；6 月 30 日 Anthropic 在旧金山 AI for Science 事件上正式发布 Claude Science——面向科研人员整合 60+ 数据库的 AI 工作台，同步启动内部药物发现项目聚焦被忽视疾病。7 月 3 日阿里巴巴内部下发通知：因 Claude Code 被曝内置基于时区+中国域名黑名单的隐蔽检测机制，Anthropic 全系产品于 7 月 10 日起全员卸载，Qoder 作为替代方案。三件事同一周落地——算力供给方模式、顶级人才迁徙、地缘合规双向收紧——AI 商业化临界点的三张切片同步到位。",
-        "summary_en": "On July 1, Bloomberg first broke Meta's internal \"Meta Compute\" cloud infrastructure play — renting spare AI compute externally while offering API access to Llama and Muse Spark. Meta rallied 8.8% that day (+$127B market cap), while CoreWeave dropped 13.92% and Nebius plunged 17.01%. On June 19, AlphaFold co-creator and 2024 Nobel Chemistry laureate John Jumper announced his departure from DeepMind after nine years to join Anthropic. On June 30, Anthropic officially released Claude Science at its San Francisco AI for Science event — a research workbench integrating 60+ preconfigured databases, alongside an internal drug-discovery project focused on neglected diseases. On July 3, Alibaba issued an internal directive: due to Claude Code's exposed covert detection mechanism based on system timezone and a Chinese-domain blacklist, all Anthropic products must be uninstalled by July 10, with in-house Qoder as replacement. Three events in one week — supply-side model, top-tier talent migration, geopolitical compliance tightening — three synchronized cross-sections of the AI commercialization inflection.",
-        "category": "产业",
-        "category_en": "Industry Analysis"
-      },
-      "articles": [
-        {
-          "id": "news-1",
-          "date": "2026-07-06",
-          "category": "产业",
-          "category_en": "Industry Analysis",
-          "title": "Meta Compute 官宣：Meta 从算力买家转身当卖家，股价当日 +8.8% 市值增 1270 亿美元、CoreWeave -13.92%",
-          "title_en": "Meta Compute Officially Launched: Meta Turns from Buyer to Seller, Stock +8.8% ($127B Market Cap), CoreWeave -13.92%",
-          "summary": "2026 年 7 月 1 日，彭博社独家披露 Meta 正在推进代号「Meta Compute」的云基础设施业务——两条路径同步：一是把 Llama、Muse Spark 等模型开放给企业客户按 Token 用量收费，对标 AWS Bedrock；二是把 GPU 集群按小时租出去，对标 CoreWeave。消息一出 Meta 股价当日大涨 8.8%、市值增加约 1270 亿美元；CoreWeave 大跌 13.92%、Nebius 暴跌 17.01%、美光、闪迪跌超 10%。Meta 2026 年资本支出指引 1250-1450 亿美元、较 2025 年 722 亿几乎翻倍，一季度末累计承诺 1829 亿美元用于 AI 基础设施。Meta Compute 由基础设施负责人 Santosh Janardhan、Meta 超级智能实验室高管 Daniel Gross 以及总裁 Dina Powell McCormick 共同领导。",
-          "summary_en": "On July 1, 2026, Bloomberg exclusively revealed Meta's cloud infrastructure play codenamed \"Meta Compute\" — two parallel tracks: (1) opening Llama and Muse Spark via API on a token-usage basis, benchmarking AWS Bedrock; (2) hourly GPU cluster rental, benchmarking CoreWeave. Meta rose 8.8% that day (+~$127B market cap); CoreWeave dropped 13.92%, Nebius plunged 17.01%, Micron and SanDisk each fell over 10%. Meta's 2026 capex guidance is $125-145B, nearly double the 2025 actual $72.2B. As of Q1 end, cumulative AI infrastructure commitments totaled $182.9B. Meta Compute is co-led by infrastructure head Santosh Janardhan, Meta Superintelligence Labs AI executive Daniel Gross, and President Dina Powell McCormick.",
-          "source": "彭博社 2026-07-01 / 36 氪 2026-07-03 / 华尔街见闻 2026-07-02 / 澎湃新闻 2026-07-03 / 财经头条 2026-07-02",
-          "source_en": "Bloomberg 2026-07-01 / 36Kr 2026-07-03 / Wall Street CN 2026-07-02 / The Paper 2026-07-03 / Cai Jing Tou Tiao 2026-07-02",
-          "image": "img/pool/data-center-gpu-rack-v4.jpg",
-          "content": "扎克伯格 5 月股东会上的原话是「几乎每周都有外部公司联系我们，希望我们推出 API 服务，或询问能否购买我们的算力，甚至愿意支付高于我们采购成本的价格」——两个月后这句话变成了 Meta Compute 项目。Jefferies 数据显示 Meta 数据中心内部利用率约 65%、35% 处于闲置状态；训练完成后的推理集群利用率通常从 100% 骤降至 30-50%。Meta Compute 的战略意义远大于单一业务线：昔日金主 CoreWeave（Meta 累计签署 352 亿美元合同）秒变最大竞争对手；Bernstein 分析师 Madison Rezaei 指出，仅 Meta 一家的订单就占 CoreWeave 在手订单超三分之一，加上微软约 140 亿美元订单，「CoreWeave 将近一半在手订单未来续约时都将来自已经成为直接竞争对手的客户」。前车之鉴：SpaceX Colossus 已把 300 兆瓦、22 万块 GPU 租给 Anthropic（180 天租约）；Google 从 2026-10 至 2029-6 每月 9.2 亿美元向 SpaceX 租约 11 万 GPU。美银证券预测每 GW 算力对外变现空间 100-150 亿美元，Meta 手握 10 GW 级容量，年化收入空间超千亿美元。这是 AI 头部厂商第一次从「单纯算力买家」升级为「供需双重角色」。",
-          "content_en": "Zuckerberg's exact words at the May shareholder meeting were: \"Almost every week outside companies approach us wanting an API service, or asking if they can buy our compute — even willing to pay above our procurement cost.\" Two months later that sentence became Meta Compute. Jefferies data shows Meta's data center internal utilization at ~65%, with 35% sitting idle; post-training inference clusters typically fall from 100% to 30-50% utilization. Meta Compute's strategic weight far exceeds one business line: former backer CoreWeave (Meta's $35.2B cumulative contract counterparty) instantly becomes its largest competitor. Bernstein analyst Madison Rezaei notes Meta orders alone exceed one third of CoreWeave's backlog; add Microsoft's ~$14B and \"nearly half of CoreWeave's backlog will renew from customers who are now direct competitors.\" Precedents: SpaceX Colossus has already rented 300 MW / 220,000 GPUs to Anthropic on 180-day terms; Google will pay SpaceX $920M/month from Oct 2026 to Jun 2029 for ~110,000 GPUs. BofA models $10-15B monetization space per GW; Meta's 10+ GW capacity implies over $100B annual revenue headroom. This is the first time a top AI player upgrades from \"pure compute buyer\" to \"dual buyer-seller.\"",
-          "key_points": [
-            "7 月 1 日彭博社首爆 Meta Compute 项目",
-            "Meta 股价 +8.8%、市值增 1270 亿美元；CoreWeave -13.92%、Nebius -17.01%",
-            "2026 年 capex 指引 1250-1450 亿美元（较 2025 年 722 亿翻倍）",
-            "累计承诺 1829 亿美元 AI 基础设施投入",
-            "Santosh Janardhan / Daniel Gross / Dina Powell McCormick 三人共同领导"
-          ],
-          "key_points_en": [
-            "July 1 Bloomberg exclusively broke Meta Compute",
-            "Meta +8.8% (+$127B market cap); CoreWeave -13.92%, Nebius -17.01%",
-            "2026 capex guide $125-145B (2x 2025's $72.2B actual)",
-            "$182.9B cumulative AI infrastructure commitments",
-            "Co-led by Santosh Janardhan / Daniel Gross / Dina Powell McCormick"
-          ],
-          "url": "https://36kr.com/p/3879563249990534"
-        },
-        {
-          "id": "news-2",
-          "date": "2026-07-06",
-          "category": "大模型",
-          "category_en": "Large Models",
-          "title": "John Jumper 从 DeepMind 转会 Anthropic：诺奖得主离开 9 年老东家，AlphaFold 主创改押 Claude Science",
-          "title_en": "John Jumper Defects to Anthropic: Nobel Laureate Leaves DeepMind After 9 Years, AlphaFold Co-Creator Bets on Claude Science",
-          "summary": "2026 年 6 月 19 日，John Jumper 在 X 平台发文宣布离开 Google DeepMind 9 年入职 Anthropic。Jumper 是 AlphaFold 2 的核心架构者、2024 年诺贝尔化学奖得主（与 Demis Hassabis 共同获奖）。他在 AlphaFold 2 中引入的 SE(3) 等变性、Evoformer、残基气体初始化、Recycling、FAPE 损失函数等设计，被消融实验证明等效于把训练数据规模放大约 100 倍。同期从 DeepMind 离职的还有 Jonas Adler、Alexander Pritzel 等 AlphaFold 核心成员——一并落地 Anthropic。此前 4 月 Anthropic 以 4 亿美元收购 8 个月大的初创 Coefficient Bio；6 月 30 日 Anthropic 在旧金山正式发布 Claude Science。Anthropic 明确把生命科学作为下一步战略主线。",
-          "summary_en": "On June 19, 2026, John Jumper announced on X his departure from Google DeepMind after 9 years to join Anthropic. Jumper is the core architect of AlphaFold 2 and shared the 2024 Nobel Prize in Chemistry with Demis Hassabis. His signature designs in AlphaFold 2 — SE(3) equivariance, Evoformer, residue-gas initialization, Recycling, FAPE loss — were shown in ablation studies to be equivalent to scaling up training data ~100x. Fellow AlphaFold core members Jonas Adler and Alexander Pritzel also left DeepMind for Anthropic. In April, Anthropic acquired 8-month-old startup Coefficient Bio for $400M; on June 30, Anthropic formally released Claude Science in San Francisco. Anthropic is explicitly making life sciences its next strategic pillar.",
-          "source": "John Jumper X 2026-06-19 / 智享新知 2026-06-24 / 麻省理工科技评论 2026-07-01 / 财新 2026-06-27 / zeronoise.ai 2026-06-20 / 金融界 2026-07-01",
-          "source_en": "John Jumper X 2026-06-19 / Zhi Xiang Xin Zhi 2026-06-24 / MIT Technology Review 2026-07-01 / Caixin 2026-06-27 / zeronoise.ai 2026-06-20 / Financial World 2026-07-01",
-          "image": "img/pool/healthcare-imaging-v3.jpg",
-          "content": "Jumper 的转会不是普通「明星跳槽」——它意味着 AI 生命科学赛道的技术定义权正在从 DeepMind 平移到 Anthropic。AlphaFold 2 的成功来自架构层面的信息效率革命，而不是算力堆叠——消融实验显示 SE(3) 等变性一项就在 30 分总分中贡献 2.5 分。这套设计哲学对当下大模型「靠 Scaling 硬堆」的路径提出了另一种范式：正确的归纳偏置比 100 倍数据更有效。Jumper 在 Anthropic 会与生命科学负责人 Eric Kauderer-Abrams（10 个月前从诊断技术企业加入）联手，主导 Claude Science 的架构演进方向。Anthropic 的战略布局清晰：4 月 4 亿美元收购 Coefficient Bio 拿到湿实验室能力、6 月 30 日发布 Claude Science 整合 60+ 数据库、7 月引入 Jumper——五年时间把自己从「聊天机器人」定位为生命科学 AI 伙伴。当前 Anthropic 估值 9650 亿美元、ARR 300-420 亿美元，公司账面充裕。诺华 CEO Vas Narasimhan 公开表示 AI 有望把药物研发周期从 12 年压缩到 7-8 年、成功率从 8% 升到 16%——这是万亿美元级市场，也是 Anthropic 敢用旗舰级人才押注的原因。",
-          "content_en": "Jumper's move isn't a routine \"star hire\" — it means the technical definition of AI life sciences is shifting from DeepMind to Anthropic. AlphaFold 2's success came from architecture-level information-efficiency innovation, not compute scaling — ablations showed SE(3) equivariance alone contributed 2.5 points of the 30-point total. This philosophy proposes a contrarian paradigm to today's \"scale hard\" wisdom: correct inductive bias beats 100x more data. Jumper will partner with Eric Kauderer-Abrams (Anthropic's life-sciences head, 10 months in from a diagnostics venture) to steer Claude Science's architecture. Anthropic's strategic layout is clear: April $400M Coefficient Bio acquisition brought wet-lab capability; June 30 Claude Science integrated 60+ databases; July Jumper arrives — five years to reposition from \"chatbot vendor\" to \"life-science AI partner.\" With Anthropic valued at $96.5B and ARR at $30-42B, cash is not the constraint. Novartis CEO Vas Narasimhan publicly says AI could compress drug R&D from 12 years to 7-8 years, raising success rates from 8% to 16% — a trillion-dollar market and the reason Anthropic is willing to bet flagship-level talent.",
-          "key_points": [
-            "6 月 19 日 Jumper 在 X 发文离开 DeepMind 9 年入职 Anthropic",
-            "2024 年诺贝尔化学奖得主、AlphaFold 2 核心架构者",
-            "AF2 消融实验：SE(3) 等变性等效 100 倍数据",
-            "同期 Jonas Adler、Alexander Pritzel 一并入职 Anthropic",
-            "Anthropic 估值 9650 亿美元、ARR 300-420 亿美元"
-          ],
-          "key_points_en": [
-            "June 19: Jumper announces departure from DeepMind for Anthropic on X",
-            "2024 Nobel Chemistry laureate, AlphaFold 2 core architect",
-            "AF2 ablation: SE(3) equivariance equivalent to 100x data",
-            "Jonas Adler and Alexander Pritzel joined Anthropic in the same wave",
-            "Anthropic valuation $96.5B, ARR $30-42B"
-          ],
-          "url": "https://www.mittrchina.com/news/detail/16584"
-        },
-        {
-          "id": "news-3",
-          "date": "2026-07-06",
-          "category": "产业",
-          "category_en": "Industry Analysis",
-          "title": "阿里巴巴内部通知 7 月 10 日起全员卸载 Claude Code：Anthropic 承认 4 月起植入基于时区+147 中国域名的隐蔽检测",
-          "title_en": "Alibaba Orders Full Uninstall of Claude Code by July 10: Anthropic Admits Timezone + 147-Chinese-Domain Covert Detection Since April",
-          "summary": "2026 年 7 月 3 日，阿里巴巴内部下发通知：Anthropic 全系产品（Sonnet、Opus、Fable 及 Claude Code）被列入高风险软件名单，员工 7 月 10 日前必须全员卸载，推荐使用阿里自研 Qoder 作为替代方案。触发点是开发者社区逆向发现：Claude Code 从 2026 年 4 月发布的 2.1.91 版本起，二进制文件中被 XOR 加密混淆植入了一段隐蔽代码——读取本地系统时区（命中 Asia/Shanghai / Asia/Urumqi 触发观察名单），同时匹配 147 个中国域名黑名单（阿里、字节、百度、腾讯、月之暗面、MiniMax 等主流公司均在内），命中后通过修改系统提示词中的日期格式和 Unicode 字符「秘密水印」回传服务器，用户无感知。Anthropic 工程师在 X 上承认该机制系「实验性」措施，声称已在 7 月 2 日新版本删除。",
-          "summary_en": "On July 3, 2026, Alibaba issued an internal notice: Anthropic's full product line (Sonnet, Opus, Fable, Claude Code) is now on the high-risk software list; all employees must uninstall by July 10, with Alibaba's in-house Qoder as the replacement. The trigger: developer community reverse-engineering found that from Claude Code version 2.1.91 (April 2026), the binary contained XOR-encrypted, obfuscated covert code — reading the local system timezone (Asia/Shanghai or Asia/Urumqi triggers a watchlist) and matching a 147-Chinese-domain blacklist (Alibaba, ByteDance, Baidu, Tencent, Moonshot, MiniMax, and other majors all included). When triggered, results were exfiltrated as \"secret watermarks\" via modified date-format and Unicode characters in the system prompt, invisible to the user. Anthropic engineers admitted on X the mechanism was \"experimental,\" claiming removal in the July 2 release.",
-          "source": "都市快报 2026-07-03 / 36 氪 2026-07-03 / 观察者网 2026-07-03 / 凤凰网 2026-07-03 / 电子工程专辑 2026-07-04",
-          "source_en": "Metropolis Express 2026-07-03 / 36Kr 2026-07-03 / Guancha 2026-07-03 / iFeng 2026-07-03 / EET-China 2026-07-04",
-          "image": "img/pool/open-source-china-v4.jpg",
-          "content": "这次风波表面上是「阿里禁用 Claude」，本质是全球 AI 供应链的信任危机第一次以「客户端隐写监控」的形式浮出水面。Anthropic 长期把「透明、可信、负责任」作为其区别于其他 AI 公司的核心招牌——公开发布的《负责任扩展政策》明确承诺「以透明和可信的方式实施系统」；Constitutional AI 治理框架将透明度列为核心支柱，声称相关原则「公开、可检查」。但此次曝光的隐蔽标记机制在多个层面与公开承诺相悖：检测代码经过刻意混淆处理逃避常规安全审查，版本更新说明中只字未提；标记结果通过替换系统提示词中的标点符号进行隐写回传，用户界面、权限提示或隐私政策中均未明确披露；Anthropic 技术团队成员事后承认「实验性」但未解释为何选择以隐蔽方式植入客户端。微软早在 5 月就要求团队逐步停止使用 Claude Code；亚马逊 2 月起限制员工在未经批准的情况下使用。产业层面这标志着 AI 大厂合规双向收紧的临界点——Anthropic 加强对中国用户封禁的同时，中国科技公司也第一次「反向禁用」美国头部 AI 工具。对开发者的直接影响：核心业务不再建立在闭源工具之上，国产替代（Qoder、CodeBuddy）从「候补」变成「主力」。",
-          "content_en": "This is superficially \"Alibaba banning Claude,\" but structurally the first time global AI supply-chain trust surfaced in the form of \"client-side steganographic surveillance.\" Anthropic has long branded itself around \"transparency, trust, responsibility\" — the published Responsible Scaling Policy explicitly commits to \"implementing this system transparently and credibly\"; the Constitutional AI framework lists transparency as a core pillar, claiming principles are \"open and inspectable.\" But the exposed covert mechanism contradicts these commitments on multiple fronts: detection code is deliberately obfuscated to evade security audit, release notes make zero mention; results are exfiltrated via steganography — modified punctuation inside the system prompt — with no user interface, permission prompt, or privacy policy disclosure; Anthropic engineers post hoc call it \"experimental\" but never explain the covert client-side install choice. Microsoft told teams in May to phase out Claude Code; Amazon has restricted unapproved use since February. Industrially this marks the inflection of two-way compliance tightening — as Anthropic tightens against Chinese users, Chinese tech companies for the first time \"reverse-ban\" a top US AI tool. Direct developer impact: core business no longer builds on closed-source tools; domestic alternatives (Qoder, CodeBuddy) move from backup to primary.",
-          "key_points": [
-            "阿里 7 月 3 日通知全员 7 月 10 日前卸载 Claude Code、推荐 Qoder",
-            "Claude Code 2.1.91 版本起植入时区 + 147 中国域名黑名单检测",
-            "触发后隐写回传：修改系统提示词日期格式 + Unicode 字符",
-            "Anthropic 工程师承认「实验性」措施、称已在 7-02 版本删除",
-            "微软 5 月、亚马逊 2 月已先后要求停止/限制 Claude Code"
-          ],
-          "key_points_en": [
-            "July 3: Alibaba orders full Claude Code uninstall by July 10, recommends Qoder",
-            "Since Claude Code 2.1.91: timezone + 147-Chinese-domain covert detection",
-            "Steganographic exfiltration: modified date format + Unicode in system prompt",
-            "Anthropic engineers admit \"experimental\", claim removed in July 2 release",
-            "Microsoft since May, Amazon since Feb had already restricted Claude Code"
-          ],
-          "url": "https://news.ifeng.com/c/8uSaxT3YvKA"
-        },
-        {
-          "id": "news-4",
-          "date": "2026-07-06",
-          "category": "大模型",
-          "category_en": "Large Models",
-          "title": "Anthropic 发布 Claude Science：60+ 科学数据库整合、UCSF 团队用它 1 年悬案压到几周",
-          "title_en": "Anthropic Releases Claude Science: 60+ Databases Integrated, UCSF Team Cracks a 1-Year Cold Case in Weeks",
-          "summary": "2026 年 6 月 30 日，Anthropic 在旧金山 AI for Science 事件上正式发布 Claude Science——基于 Claude Opus 4.8 构建，整合超过 60 个科学数据库（基因组学、蛋白质组学、药物发现流水线），提供本地/远程/HPC 统一计算入口，支持 macOS/Linux 与 SSH，面向 Pro（$20/月起）/Max/Team/Enterprise 用户开放 beta。UCSF 脑肿瘤中心的 Stephen Francis 团队用 Claude Science 的审查代理发现自己 RNA-seq 结果被病毒污染的问题——这个疑点原来卡了他们整整一年。Allen 研究所 Jérôme Lecoq 团队把一份 2 年综述的写作压到几周；MIT Iain Cheeseman、Gladstone Sean Whalen 均已经在使用。同步启动内部药物发现项目，聚焦被大药企视为「不赚钱」的被忽视疾病（罕见遗传病、热带病）。",
-          "summary_en": "On June 30, 2026, Anthropic officially released Claude Science at its San Francisco AI for Science event — built on Claude Opus 4.8, integrating 60+ scientific databases (genomics, proteomics, drug-discovery pipelines), offering a unified local/remote/HPC compute entry, supporting macOS/Linux and SSH, open in beta to Pro (starting $20/month), Max, Team, and Enterprise users. UCSF Brain Tumor Center's Stephen Francis team used Claude Science's audit agent to discover viral contamination in their RNA-seq results — a puzzle that had blocked them for an entire year. Allen Institute's Jérôme Lecoq team compressed a 2-year review-writing task to weeks; MIT's Iain Cheeseman and Gladstone's Sean Whalen are already using it. In parallel, Anthropic launched an in-house drug-discovery project focused on neglected diseases (rare genetic disorders, tropical diseases) that big pharma writes off as unprofitable.",
-          "source": "Anthropic 官方博客 / 麻省理工科技评论 2026-07-01 / 金融界 2026-07-01 / IT 之家 2026-07-01 / 头条 AI 日报 2026-07-05",
-          "source_en": "Anthropic Official Blog / MIT Technology Review 2026-07-01 / Financial World 2026-07-01 / IT Home 2026-07-01 / Toutiao AI Daily 2026-07-05",
-          "image": "img/pool/chips-nvidia-h200-v4.jpg",
-          "content": "Claude Science 的设计哲学与 Claude Code 一致——把工具（数据库连接器、序列分析、基因组管线）设计为一等公民，而不是套一个「科学皮肤」的聊天窗口。它内置多智能体架构：主智能体协调子智能体完成查文献、跑计算、生成图表、撰写文稿等多步骤科研任务；独立审核代理实时校验引文与计算结果，保证科研成果可追溯、可审计。同时 Anthropic 面向学术界启动 Claude Science 项目资助计划——最多 50 个项目，每个 $30k 使用配额 + Modal 提供 $2000 计算资源。这是 AI 公司第一次从「工具提供商」升级为「科研参与者」——自建药物发现项目不是要当药企，而是要用真实的科研产出证明工具管用。行业格局：Google DeepMind 手握 AlphaFold + AlphaGenome，将其嵌进 Gemini for Science 平台；OpenAI 用 GPT-Rosalind 面向美国境内合格企业客户；Anthropic 用 Claude Science + 内部药物发现项目形成第三条路线——三家 AI 公司在生命科学领域进入正面对决。",
-          "content_en": "Claude Science's design philosophy mirrors Claude Code — treat tools (database connectors, sequence analysis, genome pipelines) as first-class citizens rather than wrapping a \"science skin\" over a chat window. Multi-agent architecture is built in: a lead agent coordinates sub-agents for literature review, computation, chart generation, and manuscript drafting; an independent audit agent verifies citations and results in real time, guaranteeing traceable, auditable science. Anthropic simultaneously launched a Claude Science grants program — up to 50 projects at $30k usage credits each, with Modal contributing $2,000 in compute per project. This is the first time an AI company upgrades from \"tool provider\" to \"research participant\" — the in-house drug program isn't about becoming a pharma company but about using real scientific output to prove the tools work. Landscape: Google DeepMind holds AlphaFold + AlphaGenome, embedded into Gemini for Science; OpenAI's GPT-Rosalind targets vetted US enterprise clients only; Anthropic's Claude Science + in-house drug discovery becomes the third path — three AI companies now go head-to-head in life sciences.",
-          "key_points": [
-            "6 月 30 日发布，整合 60+ 科学数据库",
-            "UCSF Stephen Francis 团队用它发现 RNA-seq 病毒污染卡 1 年",
-            "内置审查代理，实时校验引文与计算结果",
-            "面向 Pro（$20/月起）/Max/Team/Enterprise 开放 beta",
-            "同步启动内部药物发现项目，聚焦被忽视疾病"
-          ],
-          "key_points_en": [
-            "Released June 30, integrating 60+ scientific databases",
-            "UCSF Stephen Francis team cracked a 1-year RNA-seq viral-contamination cold case",
-            "Built-in audit agent verifies citations and results in real time",
-            "Beta open to Pro ($20/mo+), Max, Team, Enterprise",
-            "In-house drug-discovery project targeting neglected diseases"
-          ],
-          "url": "https://www.mittrchina.com/news/detail/16584"
-        },
-        {
-          "id": "news-5",
-          "date": "2026-07-06",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "Anthropic 4 亿美元收购 Coefficient Bio：8 个月大初创进入湿实验室能力",
-          "title_en": "Anthropic Acquires Coefficient Bio for $400M: 8-Month-Old Startup Brings Wet-Lab Capability",
-          "summary": "2026 年 4 月，Anthropic 以 4 亿美元收购一家仅 8 个月大的生物初创 Coefficient Bio。该公司创始人来自 Genentech Prescient Design 团队，主要能力是把 AI 模型与传统湿实验室工作流深度打通。这次收购是 Anthropic 进入生命科学的核心动作：4 月拿到湿实验室能力 → 6 月 30 日发布 Claude Science → 7 月 John Jumper 加盟——从工具到人才到实验能力全链路补齐。Anthropic 估值目前 9650 亿美元，ARR 300-420 亿美元区间，账面充裕。生命科学被 Anthropic 定位为下一步战略主线，与 Claude Code、Claude Cowork 并列。",
-          "summary_en": "In April 2026, Anthropic acquired an 8-month-old biotech startup Coefficient Bio for $400M. Founded by former Genentech Prescient Design team members, its core capability is deep integration of AI models with traditional wet-lab workflows. This acquisition is central to Anthropic's life-sciences push: April wet-lab capability → June 30 Claude Science release → July John Jumper joins — the full stack from tools to talent to lab capability is now complete. Anthropic is valued at $96.5B with ARR in the $30-42B range, cash abundant. Life sciences is now positioned as a strategic pillar alongside Claude Code and Claude Cowork.",
-          "source": "金融界 2026-07-01 / 智享新知 2026-06-24 / 财新 2026-06-27 / 麻省理工科技评论 2026-07-01",
-          "source_en": "Financial World 2026-07-01 / Zhi Xiang Xin Zhi 2026-06-24 / Caixin 2026-06-27 / MIT Technology Review 2026-07-01",
-          "image": "img/pool/investment-japan-us-v4.jpg",
-          "content": "4 亿美元收购一家 8 个月大的初创公司，这个交易本身即传递了强烈的战略信号——Anthropic 愿意用高倍价格换取「起跑速度」，而不是等自己内建团队。Coefficient Bio 的团队背景是关键——Genentech Prescient Design 曾以「计算生物学 + 深度学习」路线在抗体设计领域取得突破，把这套方法论移植到 Anthropic 意味着从「AI 提示词交互」直接跳到「湿实验室实验设计」的能力。Anthropic 生命科学合作负责人 Jonah Cool 表示公司在为生命科学企业提供 AI 工具的同时，将持续专注被忽视疾病研究——即那些「不赚钱但影响患者生命」的疾病（罕见遗传病、热带病）。这条路径与传统药企的商业模式（专注畅销药、争夺市场份额）截然不同，也解释了为什么 Anthropic 敢于自建药物发现项目而不担心与客户竞争。诺华 CEO Vas Narasimhan 曾公开表示 AI 有望把药物研发周期从 12 年压缩到 7-8 年、成功率从 8% 升到 16%——按 2024 年全球医药 R&D 支出 3000 亿美元估算，产业效率翻倍意味着数千亿美元级的价值再分配。",
-          "content_en": "Buying an 8-month-old startup for $400M is itself a strong strategic signal — Anthropic pays a premium for launch speed rather than waiting to build internally. The founding team's Genentech Prescient Design pedigree is the key asset — Prescient Design pioneered \"computational biology + deep learning\" for antibody design, transplanting that methodology to Anthropic jumps directly from \"prompt-interaction AI\" to \"wet-lab experiment design.\" Anthropic's life-sciences partnerships head Jonah Cool has stated that while providing AI tools to life-science companies, the company will continue focusing on neglected diseases — those that are \"unprofitable but life-changing\" (rare genetic disorders, tropical diseases). This path differs fundamentally from big pharma's blockbuster-focused model and explains why Anthropic can build in-house drug discovery without threatening customer relationships. Novartis CEO Vas Narasimhan publicly states AI could compress drug R&D from 12 years to 7-8 years, raising success rates from 8% to 16% — on a $300B global 2024 pharma R&D base, doubling efficiency implies hundreds of billions in value reallocation.",
-          "key_points": [
-            "4 月以 4 亿美元收购 Coefficient Bio",
-            "创始人来自 Genentech Prescient Design 团队",
-            "湿实验室 + AI 双能力打通",
-            "Anthropic 估值 9650 亿美元、ARR 300-420 亿美元",
-            "生命科学定位为下一步战略主线"
-          ],
-          "key_points_en": [
-            "$400M April acquisition of Coefficient Bio",
-            "Founders from Genentech Prescient Design team",
-            "Wet-lab and AI capabilities now integrated",
-            "Anthropic valued at $96.5B, ARR $30-42B",
-            "Life sciences positioned as next strategic pillar"
-          ],
-          "url": "https://www.mittrchina.com/news/detail/16584"
-        },
-        {
-          "id": "news-6",
-          "date": "2026-07-06",
-          "category": "大模型",
-          "category_en": "Large Models",
-          "title": "GLM-5.2 冲上 Design Arena #1、Elo 1360 力压不可用的 Claude Fable 5",
-          "title_en": "GLM-5.2 Tops Design Arena at #1 with 1360 Elo, Overtaking Now-Unavailable Claude Fable 5",
-          "summary": "2026 年 6 月，中国智谱 AI 发布的开放权重模型 GLM-5.2 在 Design Arena 榜单上冲到 #1 位、Elo 分 1360，力压刚因美国出口管制禁令而在全球范围下架的 Claude Fable 5。观察者指出这是首个非多模态模型登顶设计类别。深度学习先驱 Jeremy Howard 公开评价 GLM-5.2「至少与 Opus 4.8 和 GPT-5.5 相当」，同时具备速度快、成本低、细腻、长上下文能力强的组合。这是中国开源模型第一次在国际主流评测中同时达到「性能对标 + 商业可用」双达标。",
-          "summary_en": "In June 2026, Chinese Zhipu AI's open-weight model GLM-5.2 topped the Design Arena leaderboard at #1 with 1360 Elo, overtaking the now globally-unavailable Claude Fable 5 (removed due to US export controls). Observers noted it's the first non-multimodal model to lead the design category. Deep-learning pioneer Jeremy Howard publicly rated GLM-5.2 as \"at least as good as Opus 4.8 and GPT-5.5,\" combining speed, low cost, nuance, and strong long-context ability. This is the first time a Chinese open-source model simultaneously hit \"performance parity + commercial availability\" in international mainstream benchmarks.",
-          "source": "zeronoise.ai 2026-06-20 / Jeremy Howard X / Design Arena / 财新 2026-06-27",
-          "source_en": "zeronoise.ai 2026-06-20 / Jeremy Howard X / Design Arena / Caixin 2026-06-27",
-          "image": "img/pool/llm-pricing-tier-v4.jpg",
-          "content": "GLM-5.2 的登顶与 Claude Fable 5 的下架存在直接因果——美国商务部对 Anthropic Mythos 和 Fable 系列的出口管制，把 Anthropic 的顶级模型从全球市场撤走，为 GLM-5.2 让出了实际的竞争空位。斯坦福 AI 研究员 Andrew Ng 公开评论：美国的出口管制正在把更多国家推向「AI 主权」和「开源替代」的路径。Jeremy Howard 在 X 平台的评测更加直接——GLM-5.2 不仅性能对标，还兼具速度快、成本低、细腻、长上下文四大优势。中国开源模型的商业化模式与美国头部厂商截然不同：GLM-5.2 采用 MIT/Apache 型宽松许可，任何企业可以自由部署、微调、商用，而 Claude Fable 5 只能通过 API 调用且日益受出口管制约束。这种「开源 vs 闭源 + 出口管制」的对撞正在重塑全球大模型的可用性版图。",
-          "content_en": "GLM-5.2's ascent and Fable 5's disappearance are causally linked — US Commerce Department export controls on Anthropic's Mythos and Fable series pulled its top models from global markets, leaving a real competitive gap for GLM-5.2. Stanford AI researcher Andrew Ng commented publicly: US export controls are pushing more countries toward \"AI sovereignty\" and open-source alternatives. Jeremy Howard's X assessment is even more direct — GLM-5.2 not only reaches parity but also brings speed, cost, nuance, and long-context advantages. Chinese open-source commercial models differ fundamentally from top US vendors: GLM-5.2 uses MIT/Apache-style permissive licensing — any company can freely deploy, fine-tune, and commercialize — whereas Claude Fable 5 is API-only and increasingly export-controlled. This \"open vs closed + export controls\" collision is reshaping the global LLM availability landscape.",
-          "key_points": [
-            "GLM-5.2 Design Arena #1、Elo 1360",
-            "力压因出口管制被下架的 Claude Fable 5",
-            "首个非多模态模型登顶设计类别",
-            "Jeremy Howard：至少与 Opus 4.8、GPT-5.5 相当",
-            "开源 + 商用可用双达标"
-          ],
-          "key_points_en": [
-            "GLM-5.2 hits #1 on Design Arena at 1360 Elo",
-            "Overtakes export-controlled, unavailable Claude Fable 5",
-            "First non-multimodal model to lead design category",
-            "Jeremy Howard: at least as good as Opus 4.8, GPT-5.5",
-            "Both open-source and commercially usable"
-          ],
-          "url": "https://zeronoise.ai/posts/anthropic-lands-john-jumper-as-export-controls-and-glm-52-reframe-the-ai-race-97z3bftlh3"
-        },
-        {
-          "id": "news-7",
-          "date": "2026-07-06",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "为撑住 1450 亿 CapEx：Meta 发 250 亿美元债券、裁员 8000 人、砍 6000 个岗位",
-          "title_en": "Financing $145B Capex: Meta Issues $25B Bonds, Cuts 8,000 Jobs, Eliminates 6,000 Positions",
-          "summary": "Meta 2026 年资本支出指引 1250-1450 亿美元、较 2025 年 722 亿美元几乎翻倍。为筹钱 Meta 一边发了 250 亿美元债券，一边裁员 8000 人、砍了 6000 个岗位。截至 2026 Q1 末，Meta 已经承诺未来几年砸下 1829 亿美元用于 AI 基础设施建设。俄亥俄州数据中心项目规模「将媲美曼哈顿岛」，预计 2026 年内投入运营；得克萨斯州埃尔帕索数据中心投资从 15 亿美元扩大至 100 亿美元，增幅超 6 倍。同时 Meta 一季度 capex 195 亿美元（含融资租赁本金支付），营收 563 亿美元。",
-          "summary_en": "Meta's 2026 capex guidance stands at $125-145B, nearly double the 2025 actual $72.2B. To finance it, Meta issued $25B in bonds, cut 8,000 headcount, and eliminated 6,000 positions. As of Q1 2026, Meta has committed $182.9B in future AI infrastructure spending. The Ohio data-center project is described as \"comparable in scale to Manhattan Island\" and is targeted for 2026 operations; Texas El Paso data-center investment was expanded from $1.5B to $10B — over 6x. Meta's Q1 capex was $19.5B (including finance-lease principal), on revenue of $56.3B.",
-          "source": "36 氪 2026-07-03 / 华尔街见闻 2026-07-02 / implicator.ai 2026-05-27 / 什么值得买 2026-07",
-          "source_en": "36Kr 2026-07-03 / Wall Street CN 2026-07-02 / implicator.ai 2026-05-27 / SMZDM 2026-07",
-          "image": "img/pool/energy-gas-turbine-v4.jpg",
-          "content": "Meta 2026 年的资本开支结构大致分三块——核心算力与芯片采购、数据中心 + 能源基建、外部算力租赁与合作。核心算力方面：英伟达采购其 Blackwell、Rubin GPU 及 Grace CPU；AMD 自 2026 年下半年起在五年协议中大量采用 Instinct GPU 与 Venice EPYC CPU；博通深化合作推进用于 AI 的定制化 ASIC 芯片。能源保障方面：投资超 270 亿美元建 Hyperion 园区，资助 7 座天然气电厂（总装机超 5200 兆瓦），购买约 1 吉瓦太阳能及太空光伏项目。外部租赁方面：Nebius Group 投入最高 270 亿美元、CoreWeave 累计约 352 亿美元。这种「自建 + 外购 + 反向对外销售」的三层结构让 Meta 拥有极高的成本操盘空间——闲置算力对外租赁不是应急变现，而是提前规划好的三层次组合中的最外圈。",
-          "content_en": "Meta's 2026 capex breaks into three buckets — compute/silicon procurement, data center + energy infrastructure, and external compute leasing/partnerships. Compute: NVIDIA Blackwell, Rubin GPUs and Grace CPUs; AMD Instinct GPUs and Venice EPYC CPUs under a five-year deal starting H2 2026; deeper Broadcom partnership on AI custom ASICs. Energy: $27B+ on the Hyperion campus, financing 7 gas power plants (>5,200 MW combined), ~1 GW solar plus space photovoltaic. External leasing: up to $27B with Nebius Group, ~$35.2B cumulative with CoreWeave. This three-layer \"build + buy + sell externally\" structure gives Meta exceptional cost flexibility — renting spare capacity is not emergency monetization but the outermost ring of a pre-planned three-layer combination.",
-          "key_points": [
-            "2026 capex 1250-1450 亿美元、较 2025 年 722 亿翻倍",
-            "发 250 亿美元债券融资",
-            "裁员 8000 人、砍 6000 岗位",
-            "累计承诺 1829 亿美元 AI 基础设施",
-            "Q1 单季 capex 195 亿美元、营收 563 亿美元"
-          ],
-          "key_points_en": [
-            "2026 capex $125-145B, ~2x 2025's $72.2B actual",
-            "$25B bond issuance",
-            "8,000 layoffs, 6,000 positions eliminated",
-            "$182.9B cumulative AI infrastructure commitments",
-            "Q1 capex $19.5B, revenue $56.3B"
-          ],
-          "url": "https://www.thepaper.cn/newsDetail_forward_33507121"
-        },
-        {
-          "id": "news-8",
-          "date": "2026-07-06",
-          "category": "产业",
-          "category_en": "Industry Analysis",
-          "title": "Google 每月 9.2 亿美元租 SpaceX Colossus：约 11 万 GPU、租期 2026-10 至 2029-6",
-          "title_en": "Google Rents SpaceX Colossus for $920M/Month: ~110,000 GPUs, Term Oct 2026 to Jun 2029",
-          "summary": "SpaceX 的 Colossus 数据中心已经先后与两家 AI 巨头签署超大规模算力租约。Anthropic 在 2026 年上半年签下 22 万 GPU、300 兆瓦、180 天的短期租约；Google 则从 2026 年 10 月至 2029 年 6 月每月支付 SpaceX 约 9.2 亿美元、总期限 2 年 9 个月、总金额超 300 亿美元，租用约 11 万块 NVIDIA GPU。这两笔租约是 SpaceX 首次把「非火箭业务」跑到千亿美元级；也是全球超大规模云的边界第一次被非传统云玩家（SpaceX、Meta）主动改写。",
-          "summary_en": "SpaceX's Colossus data center has signed two hyperscale AI leases. Anthropic secured a 220,000-GPU, 300 MW, 180-day short-term lease in H1 2026. Google will pay SpaceX ~$920M/month from Oct 2026 to Jun 2029 — 2 years 9 months, exceeding $30B total — for ~110,000 NVIDIA GPUs. These two leases mark SpaceX's first \"non-rocket\" business at the $100B scale; they also mark the first time hyperscale cloud boundaries are actively rewritten by non-traditional players (SpaceX, Meta).",
-          "source": "什么值得买 2026-07 / 华尔街见闻 2026-07-02 / 36 氪 2026-07-03",
-          "source_en": "SMZDM 2026-07 / Wall Street CN 2026-07-02 / 36Kr 2026-07-03",
-          "image": "img/pool/industry-ai-ranking-v4.jpg",
-          "content": "SpaceX Colossus 的角色定位很有意思——它既不像 AWS/Azure/GCP 那样做「一体化云服务」，也不像 CoreWeave 那样做「纯 GPU 时段租赁」，而是介于两者之间：把整块巨型 GPU 集群按「30 万卡打包」的粒度出租，服务对象是「训练一个前沿大模型」这种量级的客户。这解释了为什么 Anthropic 只签 180 天短租——一次训练完成即可搬迁；也解释了为什么 Google 敢签近 3 年长约——Gemini 系列需要持续的推理算力堆叠。这个市场的规律：租户是超大规模 AI 公司、租期是「一次训练周期」或「持续推理周期」、单价是普通云的 3-5 倍但省去自建的资本占用。Meta Compute 的入场直接冲击的是这类「超大规模包租」市场——而不是传统企业的按需算力。全球超大规模云的边界正在被改写。",
-          "content_en": "SpaceX Colossus's positioning is interesting — it's neither an \"all-in-one cloud\" like AWS/Azure/GCP, nor a \"pure GPU hourly rental\" like CoreWeave; it sits between: leasing entire mega GPU clusters in \"300k-card bundles,\" serving customers at the scale of \"training a frontier LLM.\" This explains why Anthropic only signed 180 days — relocatable after one training run — and why Google is willing to sign nearly three years — Gemini needs sustained inference stacking. Market laws: tenants are hyperscale AI firms; term is \"one training cycle\" or \"sustained inference cycle\"; unit price is 3-5x normal cloud but eliminates capex lock-up. Meta Compute's entry directly targets this \"hyperscale bulk lease\" market, not conventional enterprise on-demand compute. Global hyperscale cloud boundaries are being rewritten.",
-          "key_points": [
-            "SpaceX Colossus 已租给 Anthropic 22 万卡 / 300 MW / 180 天",
-            "Google 2026-10 至 2029-6 每月 9.2 亿美元、约 11 万 GPU",
-            "总期限 2 年 9 个月、总金额超 300 亿美元",
-            "SpaceX 首次「非火箭业务」跑到千亿级",
-            "非传统云玩家改写全球超大规模云边界"
-          ],
-          "key_points_en": [
-            "SpaceX Colossus leased 220k GPUs / 300 MW / 180 days to Anthropic",
-            "Google pays $920M/mo Oct 2026 to Jun 2029 for ~110k GPUs",
-            "Total 2 years 9 months, $30B+ total",
-            "SpaceX's first non-rocket business at $100B scale",
-            "Non-traditional cloud players rewriting hyperscale boundaries"
-          ],
-          "url": "https://post.smzdm.com/p/a5rn7e38"
-        },
-        {
-          "id": "news-9",
-          "date": "2026-07-06",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "Anthropic 估值 9650 亿美元、ARR 300-420 亿：进入生命科学的资本底牌",
-          "title_en": "Anthropic Valued at $965B, ARR $30-42B: The Capital Base Behind Its Life-Sciences Play",
-          "summary": "2026 年 Anthropic 的估值已达 9650 亿美元、ARR 区间 300-420 亿美元——公司账面充裕，为其能同时展开 Claude Code、Claude Cowork、Claude Science 三线布局以及自建药物发现项目提供了资本底牌。这个估值水平让 Anthropic 有能力用 4 亿美元买下 8 个月大的初创公司（Coefficient Bio）、用旗舰级人才（John Jumper）押注非核心业务、以最多 50 个项目每个 $30k + Modal $2000 计算资源的规模资助学术界——这些动作在中小规模 AI 公司层面完全不成立。",
-          "summary_en": "Anthropic's 2026 valuation stands at $96.5B with ARR at $30-42B — the balance sheet is what enables simultaneous Claude Code, Claude Cowork, Claude Science tracks plus an in-house drug discovery program. This scale is what makes it possible to acquire an 8-month-old startup (Coefficient Bio) for $400M, bet flagship-level talent (John Jumper) on a non-core area, and fund academia at up to 50 projects × $30k + $2,000 Modal compute — moves impossible at mid-scale AI companies.",
-          "source": "麻省理工科技评论 2026-07-01 / 财新 2026-06-27 / 智享新知 2026-06-24 / 头条 AI 日报 2026-07-05",
-          "source_en": "MIT Technology Review 2026-07-01 / Caixin 2026-06-27 / Zhi Xiang Xin Zhi 2026-06-24 / Toutiao AI Daily 2026-07-05",
-          "image": "img/pool/llm-usage-credit-v4.jpg",
-          "content": "9650 亿美元估值 + 300-420 亿美元 ARR 意味着什么？——按 P/S 大约 23-32 倍，这个水平已经远高于 OpenAI 的公开估值区间，也高于 Google DeepMind 母公司 Alphabet 的整体 P/S。这个估值支撑下，Anthropic 可以做三件传统 AI 公司做不了的事：一是用 Coefficient Bio + Jumper + Claude Science 的三线组合把生命科学做到与 Claude Code 并列；二是把 usage credits 从辅助计费手段升级为主要收入模型（Fable 5 已经彻底剥离订阅）；三是同时向学术界大规模资助，让 Claude Science 的用户生态在诞生初期就获得广泛验证。资本、人才、工具三面同步落地，Anthropic 的产业野心比外界感知的更大——它不仅是「继续做前沿模型」，而是要用 AI 定义生命科学的下一个 10 年。",
-          "content_en": "$96.5B valuation + $30-42B ARR translates to a P/S of ~23-32x — far above OpenAI's public valuation range and even above the overall P/S of Google DeepMind parent Alphabet. This capital base lets Anthropic do three things impossible at mid-scale AI: (1) build life sciences to peer level with Claude Code via Coefficient Bio + Jumper + Claude Science; (2) elevate usage credits from supplementary billing to primary revenue model (Fable 5 fully unbundled); (3) simultaneously fund academia at scale so Claude Science's user ecosystem is broadly validated from birth. Capital, talent, tools — all three fronts landed synchronously. Anthropic's industrial ambition is bigger than the outside sees — it's not just \"continue frontier models\" but to define the next decade of life sciences with AI.",
-          "key_points": [
-            "估值 9650 亿美元",
-            "ARR 区间 300-420 亿美元",
-            "P/S 约 23-32 倍",
-            "支持 Claude Code / Cowork / Science 三线并列",
-            "同时资助学术界最多 50 项目 × $30k + Modal $2000"
-          ],
-          "key_points_en": [
-            "$96.5B valuation",
-            "ARR range $30-42B",
-            "P/S ~23-32x",
-            "Supports parallel Claude Code / Cowork / Science tracks",
-            "Funds academia up to 50 projects × $30k + $2k Modal compute"
-          ],
-          "url": "https://www.mittrchina.com/news/detail/16584"
-        },
-        {
-          "id": "news-10",
-          "date": "2026-07-06",
-          "category": "产业",
-          "category_en": "Industry Analysis",
-          "title": "微软 5 月、亚马逊 2 月早已限制 Claude Code：全球大厂对闭源工具的信任正在整体退坡",
-          "title_en": "Microsoft (May) and Amazon (Feb) Already Restricted Claude Code: Big Tech's Trust in Closed-Source Tools Is Broadly Retreating",
-          "summary": "阿里巴巴 7 月 10 日全员卸载 Claude Code 只是最新的一环——2026 年 2 月亚马逊已限制员工在未经批准情况下使用 Claude Code；2026 年 5 月微软要求团队逐步停止使用。三家大厂的判断依据不完全相同（数据泄露风险、竞对风险、隐蔽检测机制），但共同结论是：核心业务不能建立在自己无法审计的闭源工具之上。这标志着全球大厂对闭源 AI 工具的信任正在整体退坡——即使是最领先的模型，也要经得起客户端行为的透明审查。",
-          "summary_en": "Alibaba's July 10 full uninstall is the latest chapter — Amazon already restricted employees from using Claude Code without approval in Feb 2026; Microsoft told teams to phase it out in May 2026. The three giants' rationale differed (data leakage risk, competitive risk, covert-detection mechanism), but the common conclusion is: core business cannot build on closed-source tools that can't be audited. This marks a broad retreat of Big Tech trust in closed-source AI tools — even the most leading models must survive transparent scrutiny of client-side behavior.",
-          "source": "电子工程专辑 2026-07-04 / 观察者网 2026-07-03 / 36 氪 2026-07-03",
-          "source_en": "EET-China 2026-07-04 / Guancha 2026-07-03 / 36Kr 2026-07-03",
-          "image": "img/pool/industry-token-usage-v4.jpg",
-          "content": "亚马逊 2 月和微软 5 月的动作背景是双方与 Anthropic 的复杂关系：亚马逊是 Anthropic 最大的战略投资方之一（80 亿美元投资）、又是其云基础设施主要提供方（AWS）；微软则是 OpenAI 的深度绑定方——两家公司对 Claude Code 的态度可以看作是「即使有商业合作，也要控制员工端使用」的分层策略。阿里的动作则不同——阿里没有 Anthropic 的投资关系，本轮起于 Claude Code 二进制文件中被反向工程发现的隐蔽检测机制。三家大厂虽然出发点不完全一致，但共同揭示了同一个趋势：闭源客户端工具在企业环境中越来越受不信任，尤其是那些拥有本地文件系统读写权限、可执行 Shell 命令、可以直接接触用户代码与配置的高权限 Agent 工具。这将促使企业向「可审计的开源工具 + 内部部署」倾斜——阿里推自研 Qoder、腾讯推 CodeBuddy、字节推自研工具都是这一趋势的具象化。",
-          "content_en": "The backdrop for Amazon (Feb) and Microsoft (May) is their complex Anthropic relationships: Amazon is one of Anthropic's largest strategic investors ($8B) and its main cloud infrastructure provider (AWS); Microsoft is deeply tied to OpenAI. Their stance on Claude Code reflects a tiered strategy — \"even with business partnership, keep employee-side use under control.\" Alibaba's move differs — no Anthropic investment relationship, and this wave was triggered by reverse-engineered covert detection code in the Claude Code binary. Though rationales differ, all three reveal the same trend: closed-source client tools are increasingly distrusted in enterprise environments — especially high-privilege agent tools with local filesystem read/write, shell execution, and direct access to user code and configs. This will push enterprises toward \"auditable open-source tools + internal deployment\" — Alibaba pushing in-house Qoder, Tencent pushing CodeBuddy, ByteDance building internal tools all materialize this trend.",
-          "key_points": [
-            "亚马逊 2026-02 限制员工在未经批准情况下使用",
-            "微软 2026-05 要求团队逐步停止使用",
-            "阿里巴巴 2026-07-10 全员卸载",
-            "三家大厂共同结论：核心业务不能建立在无法审计的闭源工具之上",
-            "国产替代加速：Qoder、CodeBuddy、字节自研工具"
-          ],
-          "key_points_en": [
-            "Amazon Feb 2026: restricted unapproved use",
-            "Microsoft May 2026: phase-out requirement",
-            "Alibaba July 10, 2026: full uninstall",
-            "All three converge: core business cannot build on un-auditable closed tools",
-            "Domestic alternatives accelerate: Qoder, CodeBuddy, ByteDance in-house tools"
-          ],
-          "url": "https://www.eet-china.com/mp/a507462.html"
-        }
-      ]
     }
   ],
   "hero": {
-    "id": "article-39",
-    "title": "Agent 商业化的拐点：Cursor 40 亿 / Cognition 8 亿 / Lindy 15 亿——90 天 ARR 集体撞线的产业裂变",
-    "title_en": "The Agent Commercialization Inflection Point: Cursor $4B / Cognition $800M / Lindy $150M — 90 Days of ARR Convergence Reshapes the Industry",
-    "image": "img/pool/deep_analysis-01-v5.jpg",
-    "date": "2026-07-10",
-    "source": "AI News Daily",
-    "source_en": "AI News Daily",
-    "summary": "2026 年 7 月 10 日 The Information / Bloomberg / TechCrunch 三家同日披露：Cursor 年化 ARR 40 亿美元、Cognition Devin 8 亿美元、Lindy 15 亿——三家 Agent 头部公司在 90 天内集体撞线 10 亿门槛。Agent 从「Demo 秀」变成「账单表」的关键 90 天，同期 GPT-5.6 / Claude Fable 5 / GLM 5.2 底层模型分层与 Kimi K3 开源冲击，共同标记出 AI Agent 商业化的第一个真正拐点。本文从事实核对、Cursor 40 亿人效经济学、Cognition Devin 生产化突破、Lindy 客服 Agent 横切逻辑、底层模型分层、Agent 单价定价时代、AI 投资地图第四次重塑、Agent 时代垂直 Know-How 门票 8 个维度深度拆解。",
-    "summary_en": "On July 10, 2026, The Information / Bloomberg / TechCrunch simultaneously disclosed: Cursor's annualized ARR hit $4B, Cognition Devin $800M, Lindy $150M — three Agent leaders crossed the $1B threshold within a 90-day window. Agent went from 'Demo Show' to 'Invoice Sheet' in these 90 days, alongside GPT-5.6 / Claude Fable 5 / GLM 5.2 model layering and Kimi K3's open-source shock — together marking the first true inflection point of AI Agent commercialization. This article dissects the moment across 8 dimensions: fact-check, Cursor $4B revenue-per-employee economics, Cognition Devin production breakthrough, Lindy's customer-service horizontal logic, foundation model layering, Agent per-unit pricing era, the fourth AI investment map reshaping, and the vertical Know-How ticket to the Agent era.",
+    "id": "hero-2026-07-11",
+    "title": "AI 的成本反弹：从旗舰模型企业禁令到 Anthropic 企业市场反超 OpenAI——AI 支出结构的第一次系统性重构",
+    "title_en": "The AI Cost Reflex: From Flagship-Model Bans to Anthropic Overtaking OpenAI in Enterprise—The First Systemic Restructuring of AI Spend",
+    "image": "img/pool/investment-finance.jpg",
+    "date": "2026-07-11",
+    "source": "AI News Daily 综合",
+    "source_en": "AI News Daily Analysis",
+    "summary": "2026 年 7 月 10~11 日 AiBase / IDC / Gartner / 36 氪五份数据同日抛出——Atlassian/Adobe/Amazon 集体禁用旗舰模型、Anthropic 企业份额首次超越 OpenAI、Meta Avocado 推迟开源逆转、微软碳排放 +25%、英国 10 亿英镑主权算力。三份关键数据把 AI 产业推进了一个新阶段——「成本反弹」正在从边缘话题跃升为 CIO/CFO 议程头条。",
+    "summary_en": "Between July 10–11, 2026, five datasets from AiBase / IDC / Gartner / 36Kr converged: Atlassian/Adobe/Amazon ban flagship models, Anthropic's enterprise share surpasses OpenAI for the first time, Meta's Avocado delayed and open-source reversal deepens, Microsoft emissions up 25%, UK £1B sovereign compute. Three signals push the AI industry into a new phase—the 'cost reflex' is rising from a fringe topic to the top of CIO/CFO agendas.",
     "category": "深度解读",
     "category_en": "Deep Analysis"
   }

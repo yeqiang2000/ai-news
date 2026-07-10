@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-05",
+  "last_updated": "2026-07-11",
   "images": [
     {
       "id": "unsplash-1451187580459-43490279c0fa",
@@ -387,7 +387,7 @@
     },
     {
       "id": "gen-startup-team",
-      "url": "img/pool/startup-team.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/startup-team.jpg",
       "source": "generated",
       "category": [
         "investment",
@@ -397,7 +397,7 @@
     },
     {
       "id": "gen-robot-modern",
-      "url": "img/pool/robot-modern.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/robot-modern.jpg",
       "source": "generated",
       "category": [
         "robotics",
@@ -407,7 +407,7 @@
     },
     {
       "id": "gen-cybersecurity",
-      "url": "img/pool/cybersecurity.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/cybersecurity.jpg",
       "source": "generated",
       "category": [
         "policy",
@@ -417,7 +417,7 @@
     },
     {
       "id": "gen-quantum-computing",
-      "url": "img/pool/quantum-computing.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/quantum-computing.jpg",
       "source": "generated",
       "category": [
         "chips",
@@ -427,7 +427,7 @@
     },
     {
       "id": "gen-ai-healthcare",
-      "url": "img/pool/ai-healthcare.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-healthcare.jpg",
       "source": "generated",
       "category": [
         "AI_applications",
@@ -437,7 +437,7 @@
     },
     {
       "id": "gen-autonomous-vehicle",
-      "url": "img/pool/autonomous-vehicle.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-vehicle.jpg",
       "source": "generated",
       "category": [
         "AI_applications",
@@ -447,7 +447,7 @@
     },
     {
       "id": "gen-vr-technology",
-      "url": "img/pool/vr-technology.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/vr-technology.jpg",
       "source": "generated",
       "category": [
         "AI_applications",
@@ -457,7 +457,7 @@
     },
     {
       "id": "gen-green-energy",
-      "url": "img/pool/green-energy.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/green-energy.jpg",
       "source": "generated",
       "category": [
         "energy",
@@ -467,7 +467,7 @@
     },
     {
       "id": "gen-5g-tower",
-      "url": "img/pool/5g-tower.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/5g-tower.jpg",
       "source": "generated",
       "category": [
         "network",
@@ -477,7 +477,7 @@
     },
     {
       "id": "gen-chip-closeup",
-      "url": "img/pool/chip-closeup.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/chip-closeup.jpg",
       "source": "generated",
       "category": [
         "chips",
@@ -487,7 +487,7 @@
     },
     {
       "id": "gen-ai-education",
-      "url": "img/pool/ai-education.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-education.jpg",
       "source": "generated",
       "category": [
         "AI_applications",
@@ -497,7 +497,7 @@
     },
     {
       "id": "gen-blockchain",
-      "url": "img/pool/blockchain.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain.jpg",
       "source": "generated",
       "category": [
         "blockchain",
@@ -507,7 +507,7 @@
     },
     {
       "id": "gen-data-visualization",
-      "url": "img/pool/data-visualization.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/data-visualization.jpg",
       "source": "generated",
       "category": [
         "deep_analysis",
@@ -517,7 +517,7 @@
     },
     {
       "id": "gen-ai-ethics",
-      "url": "img/pool/ai-ethics.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-ethics.jpg",
       "source": "generated",
       "category": [
         "policy",
@@ -527,7 +527,7 @@
     },
     {
       "id": "gen-cloud-computing",
-      "url": "img/pool/cloud-computing.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/cloud-computing.jpg",
       "source": "generated",
       "category": [
         "data_center",
@@ -537,7 +537,7 @@
     },
     {
       "id": "gen-ai-brain",
-      "url": "img/pool/ai-brain.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-brain.jpg",
       "source": "generated",
       "category": [
         "LLM",
@@ -547,7 +547,7 @@
     },
     {
       "id": "gen-factory-automation",
-      "url": "img/pool/factory-automation.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/factory-automation.jpg",
       "source": "generated",
       "category": [
         "industry",
@@ -557,7 +557,7 @@
     },
     {
       "id": "gen-investment-finance",
-      "url": "img/pool/investment-finance.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-finance.jpg",
       "source": "generated",
       "category": [
         "investment",
@@ -567,7 +567,7 @@
     },
     {
       "id": "gen-open-source-code",
-      "url": "img/pool/open-source-code.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/open-source-code.jpg",
       "source": "generated",
       "category": [
         "open_source",
@@ -577,7 +577,7 @@
     },
     {
       "id": "gen-ai-assistant",
-      "url": "img/pool/ai-assistant.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-assistant.jpg",
       "source": "generated",
       "category": [
         "AI_applications",
@@ -587,7 +587,7 @@
     },
     {
       "id": "gen-legal-regulation",
-      "url": "img/pool/legal-regulation.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/legal-regulation.jpg",
       "source": "generated",
       "category": [
         "policy",
@@ -597,7 +597,7 @@
     },
     {
       "id": "gen-gpu-cluster",
-      "url": "img/pool/gpu-cluster.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/gpu-cluster.jpg",
       "source": "generated",
       "category": [
         "chips",
@@ -607,7 +607,7 @@
     },
     {
       "id": "gen-ai-creative",
-      "url": "img/pool/ai-creative.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-creative.jpg",
       "source": "generated",
       "category": [
         "AI_applications",
@@ -617,7 +617,7 @@
     },
     {
       "id": "gen-network-infrastructure",
-      "url": "img/pool/network-infrastructure.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/network-infrastructure.jpg",
       "source": "generated",
       "category": [
         "network",
@@ -627,7 +627,7 @@
     },
     {
       "id": "gen-ai-research",
-      "url": "img/pool/ai-research.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-research.jpg",
       "source": "generated",
       "category": [
         "deep_analysis",
@@ -637,7 +637,7 @@
     },
     {
       "id": "gen-digital-economy",
-      "url": "img/pool/digital-economy.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/digital-economy.jpg",
       "source": "generated",
       "category": [
         "investment",
@@ -647,7 +647,7 @@
     },
     {
       "id": "gen-smart-city",
-      "url": "img/pool/smart-city.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/smart-city.jpg",
       "source": "generated",
       "category": [
         "industry",
@@ -657,7 +657,7 @@
     },
     {
       "id": "gen-ai-governance",
-      "url": "img/pool/ai-governance.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-governance.jpg",
       "source": "generated",
       "category": [
         "policy",
@@ -667,7 +667,7 @@
     },
     {
       "id": "gen-tech-innovation",
-      "url": "img/pool/tech-innovation.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/tech-innovation.jpg",
       "source": "generated",
       "category": [
         "AI_applications",
@@ -677,7 +677,7 @@
     },
     {
       "id": "agnes-healthcare-ai-diagnosis",
-      "url": "img/pool/healthcare-ai-diagnosis.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-ai-diagnosis.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "healthcare",
@@ -687,7 +687,7 @@
     },
     {
       "id": "agnes-healthcare-robotics-surgery",
-      "url": "img/pool/healthcare-robotics-surgery.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-robotics-surgery.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "healthcare",
@@ -697,7 +697,7 @@
     },
     {
       "id": "agnes-healthcare-wearable",
-      "url": "img/pool/healthcare-wearable.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-wearable.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "healthcare",
@@ -707,7 +707,7 @@
     },
     {
       "id": "agnes-autonomous-delivery",
-      "url": "img/pool/autonomous-delivery.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-delivery.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "autonomous",
@@ -717,7 +717,7 @@
     },
     {
       "id": "agnes-autonomous-drone",
-      "url": "img/pool/autonomous-drone.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-drone.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "autonomous",
@@ -727,7 +727,7 @@
     },
     {
       "id": "agnes-autonomous-warehouse",
-      "url": "img/pool/autonomous-warehouse.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-warehouse.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "autonomous",
@@ -738,7 +738,7 @@
     },
     {
       "id": "agnes-vr-ar-meeting",
-      "url": "img/pool/vr-ar-meeting.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/vr-ar-meeting.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "vr_ar",
@@ -748,7 +748,7 @@
     },
     {
       "id": "agnes-vr-ar-training",
-      "url": "img/pool/vr-ar-training.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/vr-ar-training.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "vr_ar",
@@ -758,7 +758,7 @@
     },
     {
       "id": "agnes-vr-ar-retail",
-      "url": "img/pool/vr-ar-retail.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/vr-ar-retail.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "vr_ar",
@@ -769,7 +769,7 @@
     },
     {
       "id": "agnes-energy-solar-ai",
-      "url": "img/pool/energy-solar-ai.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/energy-solar-ai.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "energy",
@@ -779,7 +779,7 @@
     },
     {
       "id": "agnes-energy-smart-grid",
-      "url": "img/pool/energy-smart-grid.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/energy-smart-grid.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "energy",
@@ -790,7 +790,7 @@
     },
     {
       "id": "agnes-education-tutoring",
-      "url": "img/pool/education-tutoring.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/education-tutoring.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "education",
@@ -800,7 +800,7 @@
     },
     {
       "id": "agnes-education-campus",
-      "url": "img/pool/education-campus.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/education-campus.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "education",
@@ -810,7 +810,7 @@
     },
     {
       "id": "agnes-education-lab",
-      "url": "img/pool/education-lab.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/education-lab.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "education",
@@ -820,7 +820,7 @@
     },
     {
       "id": "agnes-startup-pitch",
-      "url": "img/pool/startup-pitch.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/startup-pitch.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "startup",
@@ -830,7 +830,7 @@
     },
     {
       "id": "agnes-startup-coworking",
-      "url": "img/pool/startup-coworking.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/startup-coworking.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "startup",
@@ -840,7 +840,7 @@
     },
     {
       "id": "agnes-blockchain-defi",
-      "url": "img/pool/blockchain-defi.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-defi.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "blockchain",
@@ -850,7 +850,7 @@
     },
     {
       "id": "agnes-blockchain-supply",
-      "url": "img/pool/blockchain-supply.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-supply.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "blockchain",
@@ -860,7 +860,7 @@
     },
     {
       "id": "agnes-robotics-humanoid",
-      "url": "img/pool/robotics-humanoid.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-humanoid.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "robotics",
@@ -870,7 +870,7 @@
     },
     {
       "id": "agnes-robotics-factory",
-      "url": "img/pool/robotics-factory.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-factory.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "robotics",
@@ -880,7 +880,7 @@
     },
     {
       "id": "agnes-policy-summit",
-      "url": "img/pool/policy-summit.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/policy-summit.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "policy",
@@ -890,7 +890,7 @@
     },
     {
       "id": "agnes-policy-regulation",
-      "url": "img/pool/policy-regulation.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/policy-regulation.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "policy",
@@ -900,7 +900,7 @@
     },
     {
       "id": "agnes-opensource-collab",
-      "url": "img/pool/opensource-collab.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/opensource-collab.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "open_source",
@@ -910,7 +910,7 @@
     },
     {
       "id": "agnes-opensource-workshop",
-      "url": "img/pool/opensource-workshop.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/opensource-workshop.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "open_source",
@@ -920,7 +920,7 @@
     },
     {
       "id": "agnes-network-5g-tower",
-      "url": "img/pool/network-5g-tower.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/network-5g-tower.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "network",
@@ -930,7 +930,7 @@
     },
     {
       "id": "agnes-network-edge",
-      "url": "img/pool/network-edge.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/network-edge.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "network",
@@ -941,7 +941,7 @@
     },
     {
       "id": "agnes-datacenter-cooling",
-      "url": "img/pool/datacenter-cooling.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/datacenter-cooling.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "data_center",
@@ -951,7 +951,7 @@
     },
     {
       "id": "agnes-datacenter-ai-chip",
-      "url": "img/pool/datacenter-ai-chip.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/datacenter-ai-chip.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "data_center",
@@ -961,7 +961,7 @@
     },
     {
       "id": "agnes-investment-ai-fund",
-      "url": "img/pool/investment-ai-fund.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-ai-fund.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "investment",
@@ -971,7 +971,7 @@
     },
     {
       "id": "agnes-investment-ipo",
-      "url": "img/pool/investment-ipo.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-ipo.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "investment",
@@ -981,7 +981,7 @@
     },
     {
       "id": "agnes-investment-market",
-      "url": "img/pool/investment-market.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-market.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "investment",
@@ -991,7 +991,7 @@
     },
     {
       "id": "agnes-llm-chatbot",
-      "url": "img/pool/llm-chatbot.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-chatbot.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1001,7 +1001,7 @@
     },
     {
       "id": "agnes-llm-training",
-      "url": "img/pool/llm-training.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-training.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "agnes-llm-multimodal",
-      "url": "img/pool/llm-multimodal.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-multimodal.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1022,7 +1022,7 @@
     },
     {
       "id": "agnes-ai-creative-art",
-      "url": "img/pool/ai-creative-art.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-creative-art.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "AI_applications",
@@ -1032,7 +1032,7 @@
     },
     {
       "id": "agnes-ai-code-assist",
-      "url": "img/pool/ai-code-assist.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-code-assist.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "AI_applications",
@@ -1042,7 +1042,7 @@
     },
     {
       "id": "agnes-ai-customer-service",
-      "url": "img/pool/ai-customer-service.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-customer-service.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "AI_applications",
@@ -1052,7 +1052,7 @@
     },
     {
       "id": "agnes-chip-wafer",
-      "url": "img/pool/chip-wafer.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/chip-wafer.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "chips",
@@ -1062,7 +1062,7 @@
     },
     {
       "id": "agnes-chip-design",
-      "url": "img/pool/chip-design.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/chip-design.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "chips",
@@ -1072,7 +1072,7 @@
     },
     {
       "id": "agnes-chip-packaging",
-      "url": "img/pool/chip-packaging.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/chip-packaging.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "chips",
@@ -1082,7 +1082,7 @@
     },
     {
       "id": "agnes-industry-smart-city",
-      "url": "img/pool/industry-smart-city.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/industry-smart-city.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "industry",
@@ -1093,7 +1093,7 @@
     },
     {
       "id": "agnes-industry-digital-twin",
-      "url": "img/pool/industry-digital-twin.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/industry-digital-twin.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "industry",
@@ -1103,7 +1103,7 @@
     },
     {
       "id": "agnes-deep-analysis-forecast",
-      "url": "img/pool/deep-analysis-forecast.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/deep-analysis-forecast.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "deep_analysis",
@@ -1113,7 +1113,7 @@
     },
     {
       "id": "agnes-deep-analysis-research",
-      "url": "img/pool/deep-analysis-research.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/deep-analysis-research.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "deep_analysis",
@@ -1123,7 +1123,7 @@
     },
     {
       "id": "agnes-deep-analysis-ai-ethics",
-      "url": "img/pool/deep-analysis-ai-ethics.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/deep-analysis-ai-ethics.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "deep_analysis",
@@ -1133,7 +1133,7 @@
     },
     {
       "id": "agnes-deep-analysis-market-trend",
-      "url": "img/pool/deep-analysis-market-trend.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/deep-analysis-market-trend.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "deep_analysis",
@@ -1143,7 +1143,7 @@
     },
     {
       "id": "agnes-deep-analysis-benchmark",
-      "url": "img/pool/deep-analysis-benchmark.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/deep-analysis-benchmark.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "deep_analysis",
@@ -1153,7 +1153,7 @@
     },
     {
       "id": "agnes-energy-battery-ai",
-      "url": "img/pool/energy-battery-ai.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/energy-battery-ai.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "energy",
@@ -1163,7 +1163,7 @@
     },
     {
       "id": "agnes-energy-carbon",
-      "url": "img/pool/energy-carbon.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/energy-carbon.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "energy",
@@ -1173,7 +1173,7 @@
     },
     {
       "id": "agnes-opensource-ai-framework",
-      "url": "img/pool/opensource-ai-framework.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/opensource-ai-framework.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "open_source",
@@ -1183,7 +1183,7 @@
     },
     {
       "id": "agnes-robotics-logistics",
-      "url": "img/pool/robotics-logistics.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-logistics.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "robotics",
@@ -1193,7 +1193,7 @@
     },
     {
       "id": "agnes-robotics-agriculture",
-      "url": "img/pool/robotics-agriculture.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-agriculture.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "robotics",
@@ -1203,7 +1203,7 @@
     },
     {
       "id": "agnes-healthcare-telemedicine",
-      "url": "img/pool/healthcare-telemedicine.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-telemedicine.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "healthcare",
@@ -1213,7 +1213,7 @@
     },
     {
       "id": "agnes-healthcare-drug-discovery",
-      "url": "img/pool/healthcare-drug-discovery.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-drug-discovery.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "healthcare",
@@ -1223,7 +1223,7 @@
     },
     {
       "id": "agnes-autonomous-vehicle-city",
-      "url": "img/pool/autonomous-vehicle-city.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-vehicle-city.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "autonomous",
@@ -1233,7 +1233,7 @@
     },
     {
       "id": "agnes-autonomous-ship",
-      "url": "img/pool/autonomous-ship.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-ship.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "autonomous",
@@ -1243,7 +1243,7 @@
     },
     {
       "id": "agnes-vr-ar-surgery",
-      "url": "img/pool/vr-ar-surgery.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/vr-ar-surgery.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "vr_ar",
@@ -1253,7 +1253,7 @@
     },
     {
       "id": "agnes-vr-ar-gaming",
-      "url": "img/pool/vr-ar-gaming.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/vr-ar-gaming.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "vr_ar",
@@ -1263,7 +1263,7 @@
     },
     {
       "id": "agnes-blockchain-ai-contract",
-      "url": "img/pool/blockchain-ai-contract.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-ai-contract.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "blockchain",
@@ -1273,7 +1273,7 @@
     },
     {
       "id": "agnes-blockchain-carbon",
-      "url": "img/pool/blockchain-carbon.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-carbon.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "blockchain",
@@ -1283,7 +1283,7 @@
     },
     {
       "id": "agnes-startup-ai-demo",
-      "url": "img/pool/startup-ai-demo.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/startup-ai-demo.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "startup",
@@ -1293,7 +1293,7 @@
     },
     {
       "id": "agnes-startup-accelerator",
-      "url": "img/pool/startup-accelerator.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/startup-accelerator.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "startup",
@@ -1303,7 +1303,7 @@
     },
     {
       "id": "agnes-policy-ai-safety",
-      "url": "img/pool/policy-ai-safety.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/policy-ai-safety.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "policy",
@@ -1313,7 +1313,7 @@
     },
     {
       "id": "agnes-policy-data-privacy",
-      "url": "img/pool/policy-data-privacy.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/policy-data-privacy.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "policy",
@@ -1323,7 +1323,7 @@
     },
     {
       "id": "agnes-llm-agentic-ai",
-      "url": "img/pool/llm-agentic-ai.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-agentic-ai.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1333,7 +1333,7 @@
     },
     {
       "id": "agnes-llm-reasoning",
-      "url": "img/pool/llm-reasoning.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-reasoning.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1343,7 +1343,7 @@
     },
     {
       "id": "agnes-llm-code-gen",
-      "url": "img/pool/llm-code-gen.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-code-gen.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1353,7 +1353,7 @@
     },
     {
       "id": "agnes-investment-vc-ai",
-      "url": "img/pool/investment-vc-ai.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-vc-ai.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "investment",
@@ -1363,7 +1363,7 @@
     },
     {
       "id": "agnes-investment-acquisition",
-      "url": "img/pool/investment-acquisition.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-acquisition.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "investment",
@@ -1373,7 +1373,7 @@
     },
     {
       "id": "agnes-network-satellite",
-      "url": "img/pool/network-satellite.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/network-satellite.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "network",
@@ -1383,7 +1383,7 @@
     },
     {
       "id": "agnes-network-quantum",
-      "url": "img/pool/network-quantum.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/network-quantum.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "network",
@@ -1393,7 +1393,7 @@
     },
     {
       "id": "agnes-education-vr-classroom",
-      "url": "img/pool/education-vr-classroom.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/education-vr-classroom.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "education",
@@ -1403,7 +1403,7 @@
     },
     {
       "id": "agnes-education-adaptive",
-      "url": "img/pool/education-adaptive.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/education-adaptive.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "education",
@@ -1413,7 +1413,7 @@
     },
     {
       "id": "agnes-datacenter-green",
-      "url": "img/pool/datacenter-green.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/datacenter-green.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "data_center",
@@ -1423,7 +1423,7 @@
     },
     {
       "id": "agnes-datacenter-security",
-      "url": "img/pool/datacenter-security.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/datacenter-security.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "data_center",
@@ -1433,7 +1433,7 @@
     },
     {
       "id": "agnes-chip-ai-accelerator",
-      "url": "img/pool/chip-ai-accelerator.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/chip-ai-accelerator.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "chips",
@@ -1443,7 +1443,7 @@
     },
     {
       "id": "agnes-chip-photonic",
-      "url": "img/pool/chip-photonic.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/chip-photonic.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "chips",
@@ -1453,7 +1453,7 @@
     },
     {
       "id": "agnes-industry-robot-arm",
-      "url": "img/pool/industry-robot-arm.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/industry-robot-arm.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "industry",
@@ -1463,7 +1463,7 @@
     },
     {
       "id": "agnes-industry-predictive",
-      "url": "img/pool/industry-predictive.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/industry-predictive.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "industry",
@@ -1473,7 +1473,7 @@
     },
     {
       "id": "agnes-ai-legal-assistant",
-      "url": "img/pool/ai-legal-assistant.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-legal-assistant.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "AI_applications",
@@ -1483,7 +1483,7 @@
     },
     {
       "id": "agnes-ai-fintech",
-      "url": "img/pool/ai-fintech.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/ai-fintech.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "AI_applications",
@@ -1493,7 +1493,7 @@
     },
     {
       "id": "agnes-opensource-hackathon",
-      "url": "img/pool/opensource-hackathon.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/opensource-hackathon.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "open_source",
@@ -1503,7 +1503,7 @@
     },
     {
       "id": "agnes-startup-pitch-v3",
-      "url": "img/pool/startup-pitch-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/startup-pitch-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "startup",
@@ -1513,7 +1513,7 @@
     },
     {
       "id": "agnes-startup-yc-batch-v3",
-      "url": "img/pool/startup-yc-batch-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/startup-yc-batch-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "startup",
@@ -1523,7 +1523,7 @@
     },
     {
       "id": "agnes-startup-unicorn-v3",
-      "url": "img/pool/startup-unicorn-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/startup-unicorn-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "startup",
@@ -1533,7 +1533,7 @@
     },
     {
       "id": "agnes-startup-product-launch-v3",
-      "url": "img/pool/startup-product-launch-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/startup-product-launch-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "startup",
@@ -1543,7 +1543,7 @@
     },
     {
       "id": "agnes-startup-cofounders-v3",
-      "url": "img/pool/startup-cofounders-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/startup-cofounders-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "startup",
@@ -1553,7 +1553,7 @@
     },
     {
       "id": "agnes-llm-multimodal-v3",
-      "url": "img/pool/llm-multimodal-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-multimodal-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1563,7 +1563,7 @@
     },
     {
       "id": "agnes-llm-finetune-v3",
-      "url": "img/pool/llm-finetune-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-finetune-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1573,7 +1573,7 @@
     },
     {
       "id": "agnes-llm-context-window-v3",
-      "url": "img/pool/llm-context-window-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-context-window-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1583,7 +1583,7 @@
     },
     {
       "id": "agnes-llm-rag-v3",
-      "url": "img/pool/llm-rag-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-rag-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1593,7 +1593,7 @@
     },
     {
       "id": "agnes-llm-evaluation-v3",
-      "url": "img/pool/llm-evaluation-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-evaluation-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1603,7 +1603,7 @@
     },
     {
       "id": "agnes-investment-ai-fund-v3",
-      "url": "img/pool/investment-ai-fund-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-ai-fund-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "investment",
@@ -1613,7 +1613,7 @@
     },
     {
       "id": "agnes-investment-ipo-v3",
-      "url": "img/pool/investment-ipo-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-ipo-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "investment",
@@ -1623,7 +1623,7 @@
     },
     {
       "id": "agnes-investment-mergers-v3",
-      "url": "img/pool/investment-mergers-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-mergers-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "investment",
@@ -1633,7 +1633,7 @@
     },
     {
       "id": "agnes-investment-portfolio-v3",
-      "url": "img/pool/investment-portfolio-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-portfolio-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "investment",
@@ -1643,7 +1643,7 @@
     },
     {
       "id": "agnes-opensource-github-stars-v3",
-      "url": "img/pool/opensource-github-stars-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/opensource-github-stars-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "open_source",
@@ -1653,7 +1653,7 @@
     },
     {
       "id": "agnes-opensource-huggingface-v3",
-      "url": "img/pool/opensource-huggingface-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/opensource-huggingface-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "open_source",
@@ -1663,7 +1663,7 @@
     },
     {
       "id": "agnes-opensource-contribution-v3",
-      "url": "img/pool/opensource-contribution-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/opensource-contribution-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "open_source",
@@ -1673,7 +1673,7 @@
     },
     {
       "id": "agnes-opensource-foundation-v3",
-      "url": "img/pool/opensource-foundation-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/opensource-foundation-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "open_source",
@@ -1683,7 +1683,7 @@
     },
     {
       "id": "agnes-robotics-humanoid-v3",
-      "url": "img/pool/robotics-humanoid-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-humanoid-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "robotics",
@@ -1693,7 +1693,7 @@
     },
     {
       "id": "agnes-robotics-factory-v3",
-      "url": "img/pool/robotics-factory-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-factory-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "robotics",
@@ -1703,7 +1703,7 @@
     },
     {
       "id": "agnes-robotics-surgery-v3",
-      "url": "img/pool/robotics-surgery-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-surgery-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "robotics",
@@ -1713,7 +1713,7 @@
     },
     {
       "id": "agnes-autonomous-robotaxi-v3",
-      "url": "img/pool/autonomous-robotaxi-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-robotaxi-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "autonomous",
@@ -1723,7 +1723,7 @@
     },
     {
       "id": "agnes-autonomous-truck-v3",
-      "url": "img/pool/autonomous-truck-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-truck-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "autonomous",
@@ -1733,7 +1733,7 @@
     },
     {
       "id": "agnes-autonomous-drone-v3",
-      "url": "img/pool/autonomous-drone-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-drone-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "autonomous",
@@ -1743,7 +1743,7 @@
     },
     {
       "id": "agnes-blockchain-defi-v3",
-      "url": "img/pool/blockchain-defi-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-defi-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "blockchain",
@@ -1753,7 +1753,7 @@
     },
     {
       "id": "agnes-blockchain-nft-ai-v3",
-      "url": "img/pool/blockchain-nft-ai-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-nft-ai-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "blockchain",
@@ -1763,7 +1763,7 @@
     },
     {
       "id": "agnes-blockchain-zk-proof-v3",
-      "url": "img/pool/blockchain-zk-proof-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-zk-proof-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "blockchain",
@@ -1773,7 +1773,7 @@
     },
     {
       "id": "agnes-chips-tpu-v3",
-      "url": "img/pool/chips-tpu-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/chips-tpu-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "chips",
@@ -1783,7 +1783,7 @@
     },
     {
       "id": "agnes-chips-edge-ai-v3",
-      "url": "img/pool/chips-edge-ai-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/chips-edge-ai-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "chips",
@@ -1793,7 +1793,7 @@
     },
     {
       "id": "agnes-policy-eu-ai-act-v3",
-      "url": "img/pool/policy-eu-ai-act-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/policy-eu-ai-act-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "policy",
@@ -1803,7 +1803,7 @@
     },
     {
       "id": "agnes-healthcare-imaging-v3",
-      "url": "img/pool/healthcare-imaging-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-imaging-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "healthcare",
@@ -1813,7 +1813,7 @@
     },
     {
       "id": "agnes-healthcare-genomics-v3",
-      "url": "img/pool/healthcare-genomics-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-genomics-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "healthcare",
@@ -1823,7 +1823,7 @@
     },
     {
       "id": "agnes-education-ai-tutor-v3",
-      "url": "img/pool/education-ai-tutor-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/education-ai-tutor-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "education",
@@ -1833,7 +1833,7 @@
     },
     {
       "id": "agnes-education-coding-camp-v3",
-      "url": "img/pool/education-coding-camp-v3.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/education-coding-camp-v3.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "education",
@@ -1843,7 +1843,7 @@
     },
     {
       "id": "agnes-llm-pricing-tier-v4",
-      "url": "img/pool/llm-pricing-tier-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-pricing-tier-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1853,7 +1853,7 @@
     },
     {
       "id": "agnes-llm-usage-credit-v4",
-      "url": "img/pool/llm-usage-credit-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/llm-usage-credit-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "LLM",
@@ -1863,7 +1863,7 @@
     },
     {
       "id": "agnes-industry-neocloud-v4",
-      "url": "img/pool/industry-neocloud-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/industry-neocloud-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "industry",
@@ -1873,7 +1873,7 @@
     },
     {
       "id": "agnes-data-center-gpu-rack-v4",
-      "url": "img/pool/data-center-gpu-rack-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/data-center-gpu-rack-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "data_center",
@@ -1883,7 +1883,7 @@
     },
     {
       "id": "agnes-investment-japan-us-v4",
-      "url": "img/pool/investment-japan-us-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/investment-japan-us-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "investment",
@@ -1893,7 +1893,7 @@
     },
     {
       "id": "agnes-energy-gas-turbine-v4",
-      "url": "img/pool/energy-gas-turbine-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/energy-gas-turbine-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "energy",
@@ -1903,7 +1903,7 @@
     },
     {
       "id": "agnes-chips-nvidia-h200-v4",
-      "url": "img/pool/chips-nvidia-h200-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/chips-nvidia-h200-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "chips",
@@ -1913,7 +1913,7 @@
     },
     {
       "id": "agnes-industry-ai-ranking-v4",
-      "url": "img/pool/industry-ai-ranking-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/industry-ai-ranking-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "industry",
@@ -1923,7 +1923,7 @@
     },
     {
       "id": "agnes-open-source-china-v4",
-      "url": "img/pool/open-source-china-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/open-source-china-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "open_source",
@@ -1933,7 +1933,7 @@
     },
     {
       "id": "agnes-industry-token-usage-v4",
-      "url": "img/pool/industry-token-usage-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/industry-token-usage-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "industry",
@@ -1943,7 +1943,7 @@
     },
     {
       "id": "agnes-policy-ai-benefit-v4",
-      "url": "img/pool/policy-ai-benefit-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/policy-ai-benefit-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "policy",
@@ -1953,13 +1953,1633 @@
     },
     {
       "id": "agnes-robotics-humanoid-lab-v4",
-      "url": "img/pool/robotics-humanoid-lab-v4.jpg",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-humanoid-lab-v4.jpg",
       "source": "agnes-image-2.1-flash",
       "category": [
         "robotics",
         "startup"
       ],
       "desc": "Humanoid robot in research lab with engineers testing motion control, embodied AI startup, professio"
+    },
+    {
+      "id": "agnes-AI_applications-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "Smart home dashboard with AI voice assistant controlling lights and thermostat, modern living room, "
+    },
+    {
+      "id": "agnes-AI_applications-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI-powered customer service kiosk in retail store with shopper interacting via touchscreen, professi"
+    },
+    {
+      "id": "agnes-AI_applications-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "Designer editing photos with AI generative fill tool on laptop, creative workspace with tablet and s"
+    },
+    {
+      "id": "agnes-AI_applications-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI live translation captions on conference screen during international meeting, professional event p"
+    },
+    {
+      "id": "agnes-AI_applications-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI generated art exhibition with visitors admiring digital paintings on large gallery screens, profe"
+    },
+    {
+      "id": "agnes-AI_applications-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI meal recommendation app on smartphone in bright kitchen with fresh ingredients, professional life"
+    },
+    {
+      "id": "agnes-AI_applications-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI travel planner interface on tablet showing itinerary map and destination cards, professional trav"
+    },
+    {
+      "id": "agnes-AI_applications-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI writing assistant on ultrawide monitor with productivity metrics dashboard, professional office p"
+    },
+    {
+      "id": "agnes-AI_applications-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI music composition studio with producer using neural sound generator plugin, professional recordin"
+    },
+    {
+      "id": "agnes-AI_applications-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI legal contract review software on lawyer desk with highlighted clauses and analytics, professiona"
+    },
+    {
+      "id": "agnes-LLM-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Large language model transformer architecture visualization on holographic display, professional tec"
+    },
+    {
+      "id": "agnes-LLM-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Neural network node graph glowing on dark server room wall with cabling, professional infrastructure"
+    },
+    {
+      "id": "agnes-LLM-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "LLM training loss curves on multi-monitor data science workstation, professional laboratory photo"
+    },
+    {
+      "id": "agnes-LLM-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Chatbot conversation interface on curved gaming monitor with detailed AI dialogue thread, profession"
+    },
+    {
+      "id": "agnes-LLM-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Prompt engineering workshop with developers writing prompts on glass whiteboard, professional office"
+    },
+    {
+      "id": "agnes-LLM-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Foundation model benchmark comparison chart on conference presentation stage screen, professional ev"
+    },
+    {
+      "id": "agnes-LLM-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Language model tokenizer visualization with colored subword segments on developer display, professio"
+    },
+    {
+      "id": "agnes-LLM-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Cloud LLM API dashboard showing request throughput and latency graphs, professional data operations "
+    },
+    {
+      "id": "agnes-LLM-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Fine-tuning experiment logs on developer terminal alongside GPU utilization graphs, professional cod"
+    },
+    {
+      "id": "agnes-LLM-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Multimodal LLM demo with image and text inputs on interactive touchscreen booth, professional tech d"
+    },
+    {
+      "id": "agnes-autonomous-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Autonomous car sensor pod with spinning lidar on highway at dusk, professional automotive photograph"
+    },
+    {
+      "id": "agnes-autonomous-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Self-driving robotaxi picking up passenger on busy downtown street, professional urban photo"
+    },
+    {
+      "id": "agnes-autonomous-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Autonomous trucking convoy with radar arrays on desert highway, professional transport photography"
+    },
+    {
+      "id": "agnes-autonomous-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Robotaxi remote operations center with staff monitoring fleet on large wall screens, professional te"
+    },
+    {
+      "id": "agnes-autonomous-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Autonomous delivery robot navigating city sidewalk past office buildings, professional street photog"
+    },
+    {
+      "id": "agnes-autonomous-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Self driving vehicle testing track with engineers observing at outdoor proving ground, professional "
+    },
+    {
+      "id": "agnes-autonomous-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Autonomous ship navigation bridge with digital charts and radar screens, professional maritime photo"
+    },
+    {
+      "id": "agnes-autonomous-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Driverless shuttle bus at university campus stop with students boarding, professional transit photo"
+    },
+    {
+      "id": "agnes-autonomous-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Autonomous tractor working golden wheat field with monitoring drone overhead, professional agricultu"
+    },
+    {
+      "id": "agnes-autonomous-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Self driving car simulation environment on developer screens showing 3D city model, professional dev"
+    },
+    {
+      "id": "agnes-blockchain-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Blockchain node network map on dark screen with rotating globe visualization, professional tech phot"
+    },
+    {
+      "id": "agnes-blockchain-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Cryptocurrency trader multi-monitor rig showing candlestick charts, professional finance photo"
+    },
+    {
+      "id": "agnes-blockchain-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Bitcoin mining farm with rows of ASIC miners in blue LED light, professional industrial photo"
+    },
+    {
+      "id": "agnes-blockchain-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Smart contract Solidity code review on developer monitor with syntax highlights, professional coding"
+    },
+    {
+      "id": "agnes-blockchain-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "NFT digital art marketplace on tablet showing abstract collectibles gallery, professional art photo"
+    },
+    {
+      "id": "agnes-blockchain-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Web3 wallet interface on smartphone with token balance and DeFi apps, professional mobile photo"
+    },
+    {
+      "id": "agnes-blockchain-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Ethereum validator staking hardware in home lab with terminal readouts, professional workspace photo"
+    },
+    {
+      "id": "agnes-blockchain-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Blockchain conference stage with speaker presenting decentralized network diagram, professional even"
+    },
+    {
+      "id": "agnes-blockchain-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Crypto exchange trading algorithm running on quant terminal with live order book, professional finan"
+    },
+    {
+      "id": "agnes-blockchain-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Distributed ledger data flow diagram on wall projector in corporate board meeting, professional corp"
+    },
+    {
+      "id": "agnes-chips-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/chips-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Semiconductor wafer handled by robotic arm inside cleanroom, professional fabrication photography"
+    },
+    {
+      "id": "agnes-chips-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/chips-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Silicon chip die close-up under microscope revealing intricate circuit patterns, professional macro "
+    },
+    {
+      "id": "agnes-chips-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/chips-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Chip packaging assembly line with pick and place machines placing components, professional manufactu"
+    },
+    {
+      "id": "agnes-chips-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/chips-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Technician slotting AI accelerator card into server motherboard, professional hardware photo"
+    },
+    {
+      "id": "agnes-chips-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/chips-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Photolithography scanner in fab producing next generation processors, professional semiconductor pho"
+    },
+    {
+      "id": "agnes-chips-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/chips-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Chip design engineer reviewing schematic on ultrawide monitor, professional office photo"
+    },
+    {
+      "id": "agnes-chips-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/chips-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Advanced packaging chiplet with stacked HBM memory close-up, professional tech photography"
+    },
+    {
+      "id": "agnes-chips-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/chips-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "GPU silicon wafer inspection with metrology equipment in cleanroom, professional lab photo"
+    },
+    {
+      "id": "agnes-chips-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/chips-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Bare die on ceramic substrate with wire bonds under magnification, professional macro photo"
+    },
+    {
+      "id": "agnes-chips-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/chips-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Semiconductor test lab bench with probe station analyzing chip on stage, professional lab photo"
+    },
+    {
+      "id": "agnes-data_center-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Hyperscale data center hall with endless server rows and blue accent lighting, professional aerial p"
+    },
+    {
+      "id": "agnes-data_center-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Liquid immersion cooling tanks with servers submerged in dielectric fluid, professional industrial p"
+    },
+    {
+      "id": "agnes-data_center-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Data center power distribution room with UPS batteries and switchgear panels, professional facility "
+    },
+    {
+      "id": "agnes-data_center-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Fiber optic backbone cables organized in data center hot aisle, professional infrastructure photo"
+    },
+    {
+      "id": "agnes-data_center-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Data center technician hot swapping disk drive in server rack, professional IT photo"
+    },
+    {
+      "id": "agnes-data_center-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Underwater data center modules being lowered into ocean from vessel, professional maritime photo"
+    },
+    {
+      "id": "agnes-data_center-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Modular data center container being craned onto desert site foundation, professional construction ph"
+    },
+    {
+      "id": "agnes-data_center-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Data center network operations center with wall of monitoring screens, professional NOC photo"
+    },
+    {
+      "id": "agnes-data_center-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Data center rooftop cooling towers with steam plumes at sunset, professional facility photo"
+    },
+    {
+      "id": "agnes-data_center-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Data center biometric security mantrap entrance with retinal scanner, professional security photo"
+    },
+    {
+      "id": "agnes-deep_analysis-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Financial analyst reviewing multi-panel dashboard on curved monitor at desk, professional office pho"
+    },
+    {
+      "id": "agnes-deep_analysis-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Data science team collaborating around whiteboard filled with equations, professional workspace phot"
+    },
+    {
+      "id": "agnes-deep_analysis-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Business intelligence quarterly report on wall projector during executive briefing, professional cor"
+    },
+    {
+      "id": "agnes-deep_analysis-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Late night analyst working on charts with coffee cup and notebook on desk, professional office photo"
+    },
+    {
+      "id": "agnes-deep_analysis-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Market research heat map visualization on interactive touchscreen wall, professional data photo"
+    },
+    {
+      "id": "agnes-deep_analysis-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Consulting slide deck showing strategic pyramid diagram on tablet, professional business photo"
+    },
+    {
+      "id": "agnes-deep_analysis-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Statistical regression output in jupyter notebook with plots on developer screen, professional data "
+    },
+    {
+      "id": "agnes-deep_analysis-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Trend forecasting graph with confidence intervals on large boardroom display, professional analytics"
+    },
+    {
+      "id": "agnes-deep_analysis-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Data visualization designer sketching dashboard wireframes on paper with markers, professional creat"
+    },
+    {
+      "id": "agnes-deep_analysis-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Analyst pointing at KPI dashboard while colleagues take notes in meeting, professional meeting photo"
+    },
+    {
+      "id": "agnes-education-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/education-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "AI classroom with students using tablets connected to interactive smartboard, professional education"
+    },
+    {
+      "id": "agnes-education-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/education-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "University lecture hall on machine learning with professor at whiteboard, professional academic phot"
+    },
+    {
+      "id": "agnes-education-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/education-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "Online coding bootcamp student learning from laptop at home desk, professional lifestyle photo"
+    },
+    {
+      "id": "agnes-education-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/education-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "STEM lab with children building robots at school workshop table, professional education photo"
+    },
+    {
+      "id": "agnes-education-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/education-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "AI research seminar with graduate students discussing paper around table, professional academic phot"
+    },
+    {
+      "id": "agnes-education-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/education-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "E-learning platform interface on tablet showing course library grid, professional edtech photo"
+    },
+    {
+      "id": "agnes-education-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/education-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "Educational VR headset used by student exploring virtual biology model, professional classroom photo"
+    },
+    {
+      "id": "agnes-education-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/education-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "AI tutoring app on smartphone helping teenager solve calculus problem, professional edtech photo"
+    },
+    {
+      "id": "agnes-education-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/education-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "Adaptive learning dashboard for teacher tracking student progress on laptop, professional classroom "
+    },
+    {
+      "id": "agnes-education-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/education-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "Campus AI lab open house with families exploring interactive exhibits, professional community photo"
+    },
+    {
+      "id": "agnes-energy-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/energy-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Solar panel farm with tracking mirrors under clear blue sky, professional aerial photography"
+    },
+    {
+      "id": "agnes-energy-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/energy-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Wind turbine array on rolling hillside at sunset with rotating blades, professional landscape photo"
+    },
+    {
+      "id": "agnes-energy-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/energy-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Nuclear power plant cooling tower with steam plume at dawn, professional industrial photo"
+    },
+    {
+      "id": "agnes-energy-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/energy-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Battery energy storage container facility next to grid substation, professional facility photo"
+    },
+    {
+      "id": "agnes-energy-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/energy-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Hydrogen fuel cell electrolyzer plant with green industrial piping, professional energy photo"
+    },
+    {
+      "id": "agnes-energy-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/energy-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Grid control center with real time power flow map on wall screens, professional operations photo"
+    },
+    {
+      "id": "agnes-energy-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/energy-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Rooftop solar installation crew mounting panels on residential home, professional trade photo"
+    },
+    {
+      "id": "agnes-energy-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/energy-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Geothermal plant piping system with steam vents in volcanic landscape, professional industrial photo"
+    },
+    {
+      "id": "agnes-energy-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/energy-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Small modular reactor construction site with cranes and workers, professional construction photo"
+    },
+    {
+      "id": "agnes-energy-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/energy-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Power engineer testing transformer with diagnostic instruments in field, professional field photo"
+    },
+    {
+      "id": "agnes-healthcare-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "AI radiology reading room with doctors reviewing CT scans on monitors, professional medical photogra"
+    },
+    {
+      "id": "agnes-healthcare-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Robotic surgery suite with da Vinci arms and surgical team operating, professional operating room ph"
+    },
+    {
+      "id": "agnes-healthcare-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Pharmaceutical drug discovery lab with scientists studying molecular models, professional research p"
+    },
+    {
+      "id": "agnes-healthcare-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Wearable health monitor on patient wrist showing heart rate display, professional lifestyle photo"
+    },
+    {
+      "id": "agnes-healthcare-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Hospital nursing station with AI patient dashboard on desk terminal, professional clinical photo"
+    },
+    {
+      "id": "agnes-healthcare-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Genome sequencing machine at biotech laboratory bench with tubes, professional science photo"
+    },
+    {
+      "id": "agnes-healthcare-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Telemedicine consultation on tablet at patient home living room, professional lifestyle photo"
+    },
+    {
+      "id": "agnes-healthcare-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Clinical trial data review with researchers around conference table, professional medical photo"
+    },
+    {
+      "id": "agnes-healthcare-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Medical device manufacturing cleanroom with technicians assembling monitors, professional industrial"
+    },
+    {
+      "id": "agnes-healthcare-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Ambulance dispatch center using AI routing map on large wall screen, professional emergency photo"
+    },
+    {
+      "id": "agnes-industry-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/industry-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Smart factory floor with robotic arms assembling electronic components, professional manufacturing p"
+    },
+    {
+      "id": "agnes-industry-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/industry-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Industrial IoT sensor dashboard in plant control room, professional operations photo"
+    },
+    {
+      "id": "agnes-industry-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/industry-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Automotive assembly line with robots welding car chassis in sparks, professional factory photo"
+    },
+    {
+      "id": "agnes-industry-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/industry-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Warehouse automation with AGV robots moving pallets under lighting, professional logistics photo"
+    },
+    {
+      "id": "agnes-industry-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/industry-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Oil refinery night view with lit pipelines and stacks against dark sky, professional industrial phot"
+    },
+    {
+      "id": "agnes-industry-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/industry-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Steel mill worker in protective gear watching molten metal pour, professional heavy industry photo"
+    },
+    {
+      "id": "agnes-industry-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/industry-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Semiconductor factory clean corridor with workers in bunny suits walking, professional fab photo"
+    },
+    {
+      "id": "agnes-industry-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/industry-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Chemical plant control room with SCADA screens and operators, professional operations photo"
+    },
+    {
+      "id": "agnes-industry-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/industry-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Aerospace manufacturing hangar with fuselage assembly jigs, professional aviation photo"
+    },
+    {
+      "id": "agnes-industry-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/industry-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "3D printing farm printing industrial parts overnight in workshop, professional additive manufacturin"
+    },
+    {
+      "id": "agnes-investment-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/investment-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "Venture capital firm boardroom with startup pitch presentation on screen, professional corporate pho"
+    },
+    {
+      "id": "agnes-investment-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/investment-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "Stock trading floor with brokers and giant ticker display overhead, professional finance photo"
+    },
+    {
+      "id": "agnes-investment-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/investment-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "Investment banker analyzing charts on multi-monitor Bloomberg terminal, professional finance photo"
+    },
+    {
+      "id": "agnes-investment-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/investment-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "Startup pitch competition on stage with judges panel and prize check, professional event photo"
+    },
+    {
+      "id": "agnes-investment-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/investment-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "Portfolio manager reviewing quarterly report on tablet in glass office, professional business photo"
+    },
+    {
+      "id": "agnes-investment-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/investment-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "Private equity handshake at deal closing with contracts on wooden table, professional business photo"
+    },
+    {
+      "id": "agnes-investment-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/investment-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "Hedge fund quant lab with algorithmic trading dashboards on curved monitors, professional finance ph"
+    },
+    {
+      "id": "agnes-investment-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/investment-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "IPO bell ringing ceremony on stock exchange balcony with confetti, professional event photo"
+    },
+    {
+      "id": "agnes-investment-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/investment-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "Angel investor meeting startup founder at cafe reviewing pitch deck on laptop, professional lifestyl"
+    },
+    {
+      "id": "agnes-investment-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/investment-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "Financial analyst market screen with fund flows sunburst visualization, professional office photo"
+    },
+    {
+      "id": "agnes-network-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/network-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "5G cell tower with panel antennas silhouetted against blue sky, professional telecom photography"
+    },
+    {
+      "id": "agnes-network-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/network-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Undersea fiber optic cable landing station with massive cable reels, professional infrastructure pho"
+    },
+    {
+      "id": "agnes-network-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/network-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Network operations center with global topology map on wall screens, professional NOC photo"
+    },
+    {
+      "id": "agnes-network-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/network-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Router switch blinking LED port panel in server rack close-up, professional IT photo"
+    },
+    {
+      "id": "agnes-network-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/network-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Satellite ground station with parabolic dishes tracking spacecraft, professional communications phot"
+    },
+    {
+      "id": "agnes-network-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/network-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Wi-Fi 7 access point installed on modern office ceiling grid, professional interior photo"
+    },
+    {
+      "id": "agnes-network-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/network-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Fiber optic splicing technician using fusion splicer on curb, professional field photo"
+    },
+    {
+      "id": "agnes-network-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/network-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Network engineer running diagnostics with cable tester in telecom closet, professional trade photo"
+    },
+    {
+      "id": "agnes-network-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/network-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Edge computing micro data center at base of cell tower, professional infrastructure photo"
+    },
+    {
+      "id": "agnes-network-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/network-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Internet exchange point with dense fiber patch panel array, professional data center photo"
+    },
+    {
+      "id": "agnes-open_source-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "GitHub contributor working on laptop with pull request review on screen, professional coding photogr"
+    },
+    {
+      "id": "agnes-open_source-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Open source conference hall with speaker presenting Linux kernel talk, professional event photo"
+    },
+    {
+      "id": "agnes-open_source-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Developer community meetup at coworking space with laptops open, professional tech photo"
+    },
+    {
+      "id": "agnes-open_source-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Terminal window showing git commit history on ultrawide monitor, professional coding photo"
+    },
+    {
+      "id": "agnes-open_source-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Open source project maintainer reviewing issues on desktop dual monitor, professional workspace phot"
+    },
+    {
+      "id": "agnes-open_source-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Hackathon team collaborating around table with sticky notes and coffee, professional event photo"
+    },
+    {
+      "id": "agnes-open_source-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Documentation writer editing markdown docs on dual monitor setup, professional office photo"
+    },
+    {
+      "id": "agnes-open_source-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Kubernetes dashboard on developer screen showing cluster status, professional devops photo"
+    },
+    {
+      "id": "agnes-open_source-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Open source AI model card readme rendered on developer laptop, professional coding photo"
+    },
+    {
+      "id": "agnes-open_source-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Programmer typing code on mechanical keyboard with green cursor terminal, professional coding photo"
+    },
+    {
+      "id": "agnes-policy-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/policy-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Government AI regulation congressional hearing with panel of witnesses, professional press photograp"
+    },
+    {
+      "id": "agnes-policy-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/policy-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Legislator signing tech policy bill at Capitol desk with pen, professional political photo"
+    },
+    {
+      "id": "agnes-policy-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/policy-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Policy research analyst reviewing report at think tank office, professional academic photo"
+    },
+    {
+      "id": "agnes-policy-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/policy-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "European flag with AI Act document at Brussels press conference podium, professional political photo"
+    },
+    {
+      "id": "agnes-policy-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/policy-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Data protection compliance meeting with lawyers around glass table, professional corporate photo"
+    },
+    {
+      "id": "agnes-policy-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/policy-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Court gavel resting on tech policy documents and law books, professional legal photo"
+    },
+    {
+      "id": "agnes-policy-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/policy-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Diplomat delivering AI safety speech at United Nations General Assembly, professional political phot"
+    },
+    {
+      "id": "agnes-policy-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/policy-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Congressional briefing room with expert testifying about AI risks, professional press photo"
+    },
+    {
+      "id": "agnes-policy-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/policy-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Government minister press conference announcing national AI strategy, professional political photo"
+    },
+    {
+      "id": "agnes-policy-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/policy-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Regulatory sandbox meeting between startup founders and government officials, professional business "
+    },
+    {
+      "id": "agnes-robotics-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Humanoid robot walking gait test in research laboratory, professional lab photography"
+    },
+    {
+      "id": "agnes-robotics-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Quadruped robot dog exploring outdoor terrain with sensors mounted, professional field photo"
+    },
+    {
+      "id": "agnes-robotics-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Industrial robotic arm precision welding on factory assembly line, professional manufacturing photo"
+    },
+    {
+      "id": "agnes-robotics-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Warehouse pick and pack robot with vacuum gripper handling parcel, professional logistics photo"
+    },
+    {
+      "id": "agnes-robotics-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Surgical robot in operating theater with team of surgeons around patient, professional medical photo"
+    },
+    {
+      "id": "agnes-robotics-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Underwater ROV robot exploring coral reef with bright lights, professional marine photography"
+    },
+    {
+      "id": "agnes-robotics-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Aerial delivery drone dropping package to customer backyard, professional aerial photo"
+    },
+    {
+      "id": "agnes-robotics-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Robotic exoskeleton worn by construction worker lifting heavy beam, professional trade photo"
+    },
+    {
+      "id": "agnes-robotics-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Robot barista serving coffee to customer at automated cafe counter, professional lifestyle photo"
+    },
+    {
+      "id": "agnes-robotics-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Robotics competition with teams testing bots on arena field, professional event photo"
+    },
+    {
+      "id": "agnes-startup-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/startup-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Startup founders working late at cafe with laptops and coffee cups, professional lifestyle photograp"
+    },
+    {
+      "id": "agnes-startup-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/startup-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Coworking space open floor with startup teams collaborating at desks, professional office photo"
+    },
+    {
+      "id": "agnes-startup-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/startup-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Startup accelerator demo day audience watching pitch presentation, professional event photo"
+    },
+    {
+      "id": "agnes-startup-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/startup-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Whiteboard brainstorming session with founders sketching product architecture, professional workspac"
+    },
+    {
+      "id": "agnes-startup-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/startup-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Startup office wall covered with sticky notes and product roadmap, professional workspace photo"
+    },
+    {
+      "id": "agnes-startup-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/startup-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Founder pitching to investor across long conference room table, professional business photo"
+    },
+    {
+      "id": "agnes-startup-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/startup-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Product launch team celebrating with confetti and balloons in office, professional event photo"
+    },
+    {
+      "id": "agnes-startup-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/startup-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Startup coding sprint with developers at standing desks, professional office photo"
+    },
+    {
+      "id": "agnes-startup-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/startup-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Startup team stand-up meeting around kanban board in morning, professional workspace photo"
+    },
+    {
+      "id": "agnes-startup-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/startup-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Y Combinator batch group photo of founders posing on stairs, professional group photo"
+    },
+    {
+      "id": "agnes-vr_ar-01-v5",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-01-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "Person wearing VR headset in living room exploring immersive virtual world, professional lifestyle p"
+    },
+    {
+      "id": "agnes-vr_ar-02-v5",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-02-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "AR smart glasses user viewing digital overlays on busy city street, professional urban photo"
+    },
+    {
+      "id": "agnes-vr_ar-03-v5",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-03-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "Mixed reality workspace with holographic monitors floating above desk, professional futuristic photo"
+    },
+    {
+      "id": "agnes-vr_ar-04-v5",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-04-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "VR arcade with multiple players in headsets battling in shared arena, professional entertainment pho"
+    },
+    {
+      "id": "agnes-vr_ar-05-v5",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-05-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "Industrial AR maintenance technician viewing overlay instructions on turbine machinery, professional"
+    },
+    {
+      "id": "agnes-vr_ar-06-v5",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-06-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "Architect using VR to walk through virtual building design model, professional design photo"
+    },
+    {
+      "id": "agnes-vr_ar-07-v5",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-07-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "Medical student learning anatomy with AR skeleton hologram floating in classroom, professional educa"
+    },
+    {
+      "id": "agnes-vr_ar-08-v5",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-08-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "VR fitness user doing boxing workout with virtual trainer in home, professional fitness photo"
+    },
+    {
+      "id": "agnes-vr_ar-09-v5",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-09-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "Museum visitor using AR app to view historical scene overlay on artifact, professional cultural phot"
+    },
+    {
+      "id": "agnes-vr_ar-10-v5",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-10-v5.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "Remote collaboration meeting in VR with team avatars around virtual table, professional business pho"
     }
   ]
 }

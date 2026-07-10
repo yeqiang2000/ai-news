@@ -1,0 +1,16 @@
+{
+  "id": "article-40",
+  "date": "2026-07-11",
+  "category": "深度解读",
+  "category_en": "Deep Analysis",
+  "title": "AI 的成本反弹：从旗舰模型企业禁令到 Anthropic 企业市场反超 OpenAI——AI 支出结构的第一次系统性重构",
+  "title_en": "The AI Cost Reflex: From Flagship-Model Bans to Anthropic Overtaking OpenAI in Enterprise—The First Systemic Restructuring of AI Spend",
+  "summary": "2026 年 7 月 10~11 日的三份关键数据揭示了 AI 产业最深的一次成本重估：Atlassian、Adobe、Amazon 集体禁用员工调用 Claude Opus 4.1、GPT-5.6 等旗舰款；IDC + Gartner 数据显示 Anthropic 在美国企业市场份额（32%）首次超越 OpenAI（28%）；同时 Microsoft CO2 排放 +25%、UK 10 亿英镑主权算力启动、Meta Avocado 推迟到 2026 Q1 且倾向闭源。三份数据合流指向一个共识——AI 产业进入「按调用计费 → 岗位账单化 → 结构性成本反弹」的临界点。本文从旗舰模型禁令、Anthropic 稀缺性溢价、Token 定价崩塌、Microsoft ESG 撞墙、Meta 战略大迁徙、AI 成本控制三级火箭、Cost-Aware Agent 时代来临 7 个维度深度拆解。",
+  "summary_en": "Three critical datasets from July 10–11 reveal the deepest AI-industry cost repricing to date: Atlassian, Adobe and Amazon collectively ban employees from calling Claude Opus 4.1 and GPT-5.6 flagship models; IDC + Gartner data show Anthropic's US enterprise share (32%) surpassing OpenAI's (28%) for the first time; simultaneously Microsoft CO2 emissions +25%, the UK launches its £1B sovereign-compute initiative, and Meta pushes Avocado to Q1 2026 with a closed-source lean. Three signals converge on one thesis—the AI industry has entered a critical juncture of 'pay-per-call → per-seat invoice → structural cost reflex'. This article breaks it down across seven axes: flagship-model bans, Anthropic scarcity premium, Token-pricing collapse, Microsoft ESG collision, Meta's strategic migration, the three-stage rocket of AI cost control, and the arrival of the Cost-Aware Agent era.",
+  "image": "img/pool/investment-finance.jpg",
+  "author": "AI News Daily",
+  "read_time": "阅读约 18 分钟",
+  "read_time_en": "Approximately 18 min read",
+  "url": "articles/article-40.html",
+  "url_en": "articles/en/article-40.html"
+}

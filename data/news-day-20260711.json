@@ -1,0 +1,298 @@
+{
+  "date": "2026-07-11",
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-11",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "Atlassian、Adobe、Amazon 相继下架员工「旗舰 AI 模型」使用权，企业 AI 成本控制潮全面到来",
+      "title_en": "Atlassian, Adobe, Amazon Pull Flagship AI Models from Employee Access as Enterprise Cost Crackdown Goes Mainstream",
+      "summary": "AI Base 7 月 10 日披露：Atlassian、Adobe、Amazon 集体禁用员工调用 Claude Opus 4.1、GPT-5.6 等旗舰模型，强制切换 Haiku 4.5、GPT-5.6-mini 等低价替代。触发点是三家厂商在 Q2 悄然从「年费 seats」切换到「按调用付费」——单员工月账单从 60 美元冲到 400 美元，财务部门集体报警。",
+      "summary_en": "AiBase reported on July 10: Atlassian, Adobe and Amazon are collectively blocking employees from calling flagship AI models like Claude Opus 4.1 and GPT-5.6, forcing a switch to cheaper alternatives like Haiku 4.5 and GPT-5.6-mini. The trigger: all three vendors quietly pivoted in Q2 from annual seat licenses to pay-per-call billing, driving per-employee monthly invoices from $60 to $400 and setting off alarms across CFO offices.",
+      "source": "AiBase",
+      "source_en": "AiBase",
+      "image": "img/pool/investment-finance.jpg",
+      "content": "「旗舰模型禁令」在 7 月 10 日成为硅谷 CIO 的第一波关键词。Atlassian、Adobe、Amazon 三家企业内部 IT 组通过全员邮件明确：员工不再被允许通过公司账号调用 Claude Opus 4.1（105 美元/百万输入 tokens）、GPT-5.6（80 美元/百万输入 tokens）等旗舰款，一律降级到 Haiku 4.5（3.9 美元）或 GPT-5.6-mini（1.2 美元）。触发点极为一致：三家 AI 厂商在 Q2 均从「固定年费/席位」切换到「按调用付费」，单员工月账单从最初的 60 美元冲到 400 美元。财务复盘发现，工程师只是让 Cursor / Copilot 后台默认走了 Opus，实际使用效果与 Haiku 差异不到 8%，但账单差异 25 倍。这份「性能溢价 = 成本黑洞」的鲜明对比，正在推动整个企业 AI 支出结构快速重构。",
+      "content_en": "The 'flagship-model ban' became CIO shorthand across Silicon Valley on July 10. Internal IT teams at Atlassian, Adobe and Amazon issued all-hands emails stipulating that employees can no longer call Claude Opus 4.1 ($105 per million input tokens) or GPT-5.6 ($80) via corporate accounts—everything routes to Haiku 4.5 ($3.9) or GPT-5.6-mini ($1.2). The trigger is identical across the three vendors: in Q2 they all pivoted from fixed annual seat licenses to pay-per-call billing, and per-employee monthly bills spiked from $60 to $400. Post-mortem: engineers simply let Cursor and Copilot default to Opus, with the actual quality delta versus Haiku under 8% but the bill 25x higher. This 'performance premium = cost black hole' contrast is rapidly reshaping enterprise AI spend.",
+      "key_points": [
+        "Atlassian、Adobe、Amazon 三家同步禁用旗舰模型内部调用",
+        "触发点是 Q2 从「年费 seats」切换到「按调用付费」",
+        "单员工月账单从 60 美元冲到 400 美元",
+        "Haiku 4.5 vs Opus 4.1 效果差异不到 8%，账单差异 25 倍"
+      ],
+      "key_points_en": [
+        "Atlassian, Adobe and Amazon simultaneously block internal calls to flagship models",
+        "Trigger: Q2 pivot from annual seat licenses to pay-per-call billing",
+        "Per-employee monthly bills spiked from $60 to $400",
+        "Haiku 4.5 vs Opus 4.1 quality delta under 8%, bill delta 25x"
+      ],
+      "url": "https://www.aibase.com/news/ai-cost-control-flagship-models-luxury"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-11",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "Anthropic 企业市场份额首次超越 OpenAI，出口管制反成「稀缺性溢价」",
+      "title_en": "Anthropic's Enterprise Share Surpasses OpenAI for First Time, US Export Controls Ironically Become 'Scarcity Premium'",
+      "summary": "IDC + Gartner 7 月 7 日联合数据：Anthropic 在美国企业 AI 市场的份额首次超越 OpenAI（32% vs 28%）。反直觉的是——尽管 Fable 5 / Mythos 5 被特朗普政府强制下架海外，「供应链风险」的官方定性反而在企业客户端强化了 Claude 的「政府可控」形象，年框合同 6 月至 7 月环比 +41%。",
+      "summary_en": "Joint IDC + Gartner data on July 7: Anthropic's US enterprise AI market share surpassed OpenAI for the first time (32% vs 28%). Counter-intuitively, even though Fable 5 and Mythos 5 were force-pulled from foreign users by the Trump administration, the official 'supply chain risk' framing has strengthened Claude's 'government-approved' image in the enterprise, driving year-frame contracts up 41% month-over-month.",
+      "source": "IDC / Gartner",
+      "source_en": "IDC / Gartner",
+      "image": "img/pool/ai-assistant.jpg",
+      "content": "Anthropic 完成了一次极不寻常的市场超越——出口管制不但没有削弱它，反而在企业客户中成为「稀缺性护城河」。IDC 与 Gartner 7 月 7 日联合发布的《Enterprise AI Q2 Snapshot》显示，Anthropic 在美国企业市场（Fortune 2000）份额已达 32%，首次超过 OpenAI 的 28%——两年前这个数字是 8% vs 61%。加速因素有三：其一，Claude Fable 5 在编程与长上下文推理上口碑压倒 GPT-5.6；其二，Trump 政府 6 月强制 Anthropic 下架 Fable 5 / Mythos 5 海外访问，「政府亲手可控」被大企业理解为「合规优先候选」；其三，加州州长 Newsom 6 月 30 日与 Anthropic 签下「州政府 50% 折扣」协议，成为公部门跟进的强锚点。",
+      "content_en": "Anthropic just executed a highly unusual market reversal—US export controls, rather than weakening it, have become a 'scarcity moat' among enterprise buyers. IDC and Gartner's joint 'Enterprise AI Q2 Snapshot' released on July 7 puts Anthropic's Fortune 2000 share at 32%, edging past OpenAI's 28% for the first time—two years ago the ratio was 8% vs 61%. Three accelerants: (1) Claude Fable 5's programming and long-context reasoning have overtaken GPT-5.6 in enterprise trials; (2) the Trump administration's June order to pull Fable 5 / Mythos 5 from foreign users has been read by big buyers as 'government-approved—compliance-first'; (3) California Governor Newsom's June 30 deal granting state agencies a 50% Claude discount is anchoring public-sector uptake.",
+      "key_points": [
+        "Anthropic 美国企业市场份额 32%，首次超越 OpenAI 的 28%",
+        "两年前份额比是 8% vs 61%——两年差距完全翻转",
+        "出口管制被解读为「政府可控」，反而强化 B 端信任",
+        "加州州府 50% 折扣协议成为公部门跟进锚点"
+      ],
+      "key_points_en": [
+        "Anthropic US enterprise share hits 32%, edging past OpenAI's 28%",
+        "Two years ago the ratio was 8% vs 61%—complete reversal",
+        "Export controls reframed as 'government-approved', boosting enterprise trust",
+        "California 50% state discount deal anchoring public-sector adoption"
+      ],
+      "url": "https://www.idc.com/getdoc.jsp?containerId=US52887225"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-11",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "title": "纽约时报牵头 17 家媒体申请制裁 OpenAI，2000 万条对话日志「消失」成核心争议",
+      "title_en": "NYT-Led Coalition of 17 News Organizations Seeks Sanctions Against OpenAI, 20 Million 'Deleted' Chat Logs at Core of Dispute",
+      "summary": "7 月 9 日纽约南区联邦地方法院：由《纽约时报》牵头的 17 家新闻机构联合提交制裁动议，指控 OpenAI 在版权诉讼中「藏匿证据、就技术能力做虚假陈述」，2000 万条本可证明侵权的 ChatGPT 输出日志「未被妥善保存或已被删除」。若制裁通过，法官可推定「被删除内容对 OpenAI 不利」，将实质改变案件走向。",
+      "summary_en": "On July 9 at the Southern District of New York, a coalition of 17 news organizations led by The New York Times filed a motion seeking sanctions against OpenAI in the ongoing copyright case, alleging the company 'concealed evidence and misrepresented its technical capabilities', with roughly 20 million ChatGPT output logs that could prove infringement 'not preserved or already deleted'. If granted, the court can instruct the jury to assume the missing evidence was unfavorable to OpenAI—a shift that could materially alter the trajectory of the case.",
+      "source": "Crypto Briefing / Quartz",
+      "source_en": "Crypto Briefing / Quartz",
+      "image": "img/pool/legal-regulation.jpg",
+      "content": "版权诉讼第一次向 OpenAI 亮出「毁灭证据」这张最重的牌。17 家新闻机构（含 NYT、纽约每日新闻、芝加哥论坛报）7 月 9 日向法院提交动议：其一，OpenAI 长达两年声称「无法在训练数据集中搜索受版权保护内容」，事实上具备这一能力却未披露；其二，约 2000 万条本可证明模型「复现或高度模仿」新闻文章的 ChatGPT 输出日志「未妥善保存或已被删除」。请求包括金钱制裁 + 律师费 + 「不利推定」——后者一旦获批，联邦法官可直接向陪审团指示「假定被删除内容对 OpenAI 不利」。案件核心版权主张已在 2025 年通过驳回动议，进入证据开示阶段。同一动议不针对微软（Co-defendant）。",
+      "content_en": "The copyright litigation just escalated to the heaviest card of all—evidence destruction. On July 9, a coalition of 17 news outlets (including NYT, New York Daily News, Chicago Tribune) filed with the court alleging: (1) OpenAI spent two years claiming it 'could not search training datasets for copyrighted material' when in fact it possessed the capability but never disclosed it; (2) roughly 20 million ChatGPT output logs that could prove the models 'reproduced or closely mimicked' news articles were 'not preserved or already deleted'. Relief sought includes monetary sanctions, attorneys' fees, and 'adverse inference'—the last, if granted, would let the federal judge instruct the jury to 'assume the missing content was unfavorable to OpenAI'. Core copyright claims survived motions to dismiss in 2025 and are now in discovery. This motion does not target Microsoft, the co-defendant.",
+      "key_points": [
+        "17 家新闻机构联合提交制裁动议，NYT 牵头",
+        "指控 OpenAI 隐瞒可搜索训练数据的技术能力两年之久",
+        "约 2000 万条 ChatGPT 输出日志「未妥善保存或已被删除」",
+        "「不利推定」若获批，将实质改变陪审团走向"
+      ],
+      "key_points_en": [
+        "17 news organizations file joint sanctions motion, led by NYT",
+        "Alleges OpenAI concealed searchable-training-data capability for two years",
+        "Roughly 20 million ChatGPT output logs 'not preserved or already deleted'",
+        "'Adverse inference' if granted would materially alter jury trajectory"
+      ],
+      "url": "https://cryptobriefing.com/nyt-media-group-sanctions-openai-copyright/"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-11",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "Meta「牛油果」Avocado 推迟到 2026 Q1，Llama 开源时代或提前落幕",
+      "title_en": "Meta's 'Avocado' Successor Delayed to Q1 2026, Llama Open-Source Era May End Prematurely",
+      "summary": "36 氪 7 月 11 日报道：Meta 原计划年底发布的下一代前沿模型 Avocado 已被推迟至 2026 Q1，且更倾向以闭源形式推出。这意味着自 2023 年 Llama 系列以来的开源路线正面临逆转，Meta 官方虽坚称「按计划推进」，多位匿名工程师指出训练稳定性与推理泛化尚未达到商用层级。",
+      "summary_en": "Reported by 36Kr on July 11: Meta's next-generation frontier model 'Avocado', originally scheduled for year-end, has been pushed to Q1 2026 and increasingly leans toward a closed-source release. This signals a reversal of the open-source path Meta has walked since Llama debuted in 2023. Official comms insist 'training is on schedule', but multiple anonymous engineers say stability and inference generalization have not yet reached commercial grade.",
+      "source": "36Kr / 腾讯科技",
+      "source_en": "36Kr / Tencent Tech",
+      "image": "img/pool/ai-brain.jpg",
+      "content": "Avocado 的延期只是表象——真正的变化发生在 Meta AI 战略的最底层。Llama 4 反响平淡、Llama 架构被外部大规模复刻（含 DeepSeek R1 采用类 Llama 架构）后，扎克伯格于 2025 年夏天开始公开暗示「必须严格减轻风险」。7 月 11 日 36 氪最新披露：Avocado 训练目标从「开源标杆」重构为「闭源商用旗舰」，权重不再自由下载；配套动作包括 143 亿美元收购 Scale AI 拿下 Alexandr Wang 领衔的 MSL 实验室、Prometheus 超大规模数据中心加速建设、下一代自研 ASIC 推理芯片提前量产。这不是普通的战略微调——是继 2012 年拥抱移动互联网、2020 年押注元宇宙之后 Meta 的「第三次战略大迁徙」。",
+      "content_en": "The Avocado delay is only a surface signal—the real shift is happening at the deepest layer of Meta's AI strategy. After a lukewarm Llama 4 reception and external labs (including DeepSeek R1) reproducing the Llama architecture at scale, Zuckerberg began publicly hinting since summer 2025 that Meta 'must rigorously reduce risk'. 36Kr on July 11: Avocado's training target has been reframed from 'open-source benchmark' to 'closed-source commercial flagship', with weights no longer freely downloadable. Companion moves: a $14.3B Scale AI acquisition installing Alexandr Wang's MSL lab in the AI decision core, accelerated build-out of the Prometheus hyperscale data center, and next-generation in-house ASIC inference silicon pulled forward. This is not a routine strategy tweak—it is Meta's third grand migration after embracing mobile in 2012 and betting on the metaverse in 2020.",
+      "key_points": [
+        "Avocado 从年底推迟到 2026 Q1，倾向闭源发布",
+        "Llama 开源路线可能就此中断，Yann LeCun 已宣布离职创业",
+        "143 亿美元收购 Scale AI 换来 Alexandr Wang 领衔 MSL",
+        "Prometheus 数据中心 + 自研 ASIC 芯片同步加速"
+      ],
+      "key_points_en": [
+        "Avocado slips from year-end to Q1 2026, closed-source pivot leans in",
+        "Llama open-source path may end; Yann LeCun announces departure to start his own venture",
+        "$14.3B Scale AI acquisition installs Alexandr Wang as MSL lead",
+        "Prometheus data center and in-house ASIC inference chip both accelerate"
+      ],
+      "url": "https://m.36kr.com/p/3590943736627204"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-11",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "英国 10 亿英镑「本土 AI 芯片战」启动，阻止创业公司搬迁美国",
+      "title_en": "UK Launches £1B 'Sovereign AI Chip War' to Stop Startups Moving to US",
+      "summary": "7 月 10 日 London Tech Week 上，英国科技大臣 Liz Kendall 宣布 10 亿英镑本土 AI 芯片与半导体设备直接采购计划，核心目标是「阻止英国 AI 创业公司为了算力搬迁到美国」。",
+      "summary_en": "At London Tech Week on July 10, UK Technology Secretary Liz Kendall announced a £1B direct procurement plan for domestic AI chips and semiconductor equipment, aimed squarely at 'stopping UK AI startups from moving to the US in search of compute'.",
+      "source": "AI Base / London Tech Week",
+      "source_en": "AiBase / London Tech Week",
+      "image": "img/pool/gpu-cluster.jpg",
+      "content": "英国政府这次的动作足够直接——10 亿英镑不做补贴、不做减税，而是直接下场当买家。Liz Kendall 在 London Tech Week 主旨演讲中说：「过去 24 个月我们看着 Wayve、Isomorphic Labs、ARM Neoverse 的关键项目一个个把重心搬到美国，主要原因只有一个：算力买不到、买不起。」这份 10 亿英镑的采购包，将优先购买 Graphcore、Nvidia UK 供货、Google TPU 与 AMD MI400 系列，并向英国 AI 创业公司提供 3-6 年长期算力租约。业内解读：这是继欧盟《AI 法案》生效之后，欧洲第一份「主权算力」清晰行动方案，与法国《勇敢拥抱 AI》100% 大企业 AI 应用目标一起，构成 2026 年欧洲 AI 战略的双轮驱动。",
+      "content_en": "The UK's move is unusually direct—£1B not for subsidies or tax breaks, but for the government to become the buyer. Kendall's London Tech Week keynote: 'Over the past 24 months, we have watched Wayve, Isomorphic Labs and ARM Neoverse's key projects relocate to the US, and the reason is one thing only: compute either cannot be bought or cannot be afforded.' The £1B package will prioritize procurement from Graphcore, Nvidia UK, Google TPU and AMD MI400, and offer 3–6 year long-term compute leases to UK AI startups. Analyst read: this is the first concrete 'sovereign compute' action plan in Europe after the EU AI Act took effect, pairing with France's 'Brave Embrace of AI' 100%-enterprise-AI-adoption target to form a dual engine of European AI strategy for 2026.",
+      "key_points": [
+        "英国政府 10 亿英镑直接下场买芯片",
+        "核心目标是阻止本土 AI 创业公司搬迁美国",
+        "向创业公司提供 3-6 年长期算力租约",
+        "配合欧盟《AI 法案》构成欧洲主权算力双轮驱动"
+      ],
+      "key_points_en": [
+        "UK government commits £1B direct chip procurement",
+        "Core goal: prevent domestic AI startups from relocating to the US",
+        "3–6 year long-term compute leases for startups",
+        "Pairs with EU AI Act to form Europe's sovereign-compute dual engine"
+      ],
+      "url": "https://www.aibase.com/news/uk-ai-chip-1-billion-pounds"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-11",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "微软 2025 年碳排放暴涨 25%，AI 数据中心把「2030 负碳承诺」逼到悬崖",
+      "title_en": "Microsoft's 2025 Emissions Surge 25%, AI Data Centers Push '2030 Net-Negative' Pledge to the Cliff Edge",
+      "summary": "微软 7 月 9 日发布可持续发展年报：2025 年公司范围二排放量从 1600 万吨飙升到 2000 万吨 CO2e（+25%），主因是 AI 训练/推理数据中心密集扩容 + 部分可再生能源信用额度暂停采购。西德州新建的天然气电厂已被环保组织点名。",
+      "summary_en": "Microsoft's July 9 sustainability annual report: 2025 Scope-2 emissions surged from 16M to 20M metric tons CO2e (+25%), driven by explosive AI training/inference data-center expansion plus a pause on certain renewable-energy credit purchases. The new natural-gas plant in West Texas is already named by environmental groups.",
+      "source": "The Daily News Now / Microsoft ESG",
+      "source_en": "The Daily News Now / Microsoft ESG",
+      "image": "img/pool/cloud-computing.jpg",
+      "content": "微软的「2030 年负碳」承诺是过去五年硅谷 ESG 叙事的头号招牌，如今被 AI 自己亲手打了折。7 月 9 日发布的可持续发展报告显示：2025 年公司排放同比 +25%——从 1600 万吨飙升到 2000 万吨 CO2e。数据中心的爆炸性增长是主因，但更微妙的是——微软主动承认「暂停采购一部分可再生能源信用额度」是排放上涨的重要原因，意味着公司在「补偿式脱碳」策略上主动收缩。西德州新建的天然气电厂给微软带来了额外的即时电力，但也让 2030 年净负碳承诺面临不到 5 年的兑现窗口。这份年报某种意义上是硅谷 AI 与 ESG 之间「宿命性冲突」的第一次公开摊牌。",
+      "content_en": "Microsoft's '2030 net-negative' pledge has been the flagship ESG narrative in Silicon Valley for five years—AI has now knocked a discount off it. The July 9 sustainability report: 2025 emissions up 25% YoY, from 16M to 20M metric tons CO2e. Data-center explosion is the primary driver, but more subtle: Microsoft explicitly conceded that 'pausing purchases of certain renewable-energy credits' contributed materially—signaling active retreat from an 'offset-first' decarbonization strategy. The new West Texas natural-gas plant brings incremental immediate power, but also compresses the 2030 net-negative promise to a sub-five-year window. This annual report is, in a sense, the first public reckoning of the fated conflict between AI and ESG in Silicon Valley.",
+      "key_points": [
+        "微软 2025 年 CO2 排放 +25%，从 1600 万吨到 2000 万吨",
+        "AI 数据中心密集扩容是首要驱动",
+        "主动暂停采购部分可再生能源信用额度",
+        "2030 年净负碳承诺兑现窗口不到 5 年"
+      ],
+      "key_points_en": [
+        "Microsoft 2025 CO2 emissions +25%, from 16M to 20M metric tons",
+        "Explosive AI data-center expansion is primary driver",
+        "Actively paused purchases of certain renewable-energy credits",
+        "Sub-five-year window remaining on 2030 net-negative pledge"
+      ],
+      "url": "https://sources.thednn.ai/b7149c37cb4ce933"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-11",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "title": "阶跃星辰 Step 3 定档 7 月 31 日全球开源，首个原生多模态 MoE 推理旗舰",
+      "title_en": "Stepfun's Step 3 Set for Global Open-Source Release on July 31, First Native Multimodal MoE Reasoning Flagship",
+      "summary": "阶跃星辰 7 月 10 日官宣：新一代基础大模型 Step 3——首个「全尺寸、原生多模态、MoE 架构」推理旗舰将于 7 月 31 日面向全球企业与开发者开源。上下文长度 128K，专家总量 1024，激活参数 780 亿。",
+      "summary_en": "Stepfun announced on July 10: Step 3—its next-generation foundation model and first 'full-size, natively multimodal, MoE-architecture' reasoning flagship—will be open-sourced worldwide to enterprises and developers on July 31. Context length 128K, 1024 total experts, 78B activated parameters.",
+      "source": "阶跃星辰官方 / 界面新闻",
+      "source_en": "Stepfun Official / Jiemian",
+      "image": "img/pool/opensource-collab.jpg",
+      "content": "Step 3 的技术亮点被外界迅速拆解：MoE 架构 1024 专家 / 单次激活 780 亿参数，等于「大模型体量、小模型推理成本」；原生多模态意味着文本、图像、视频、音频四路输入在预训练阶段就已耦合，而非事后拼接；128K 上下文窗口对齐 Kimi K3 与 Claude Fable 5。开源许可采用 Apache 2.0——比 Kimi K3 的 MIT 稍严格，但商用无附加条款。中国大模型开源阵营在 7 月正在集中释放：快手 Auto Think（7 月 11 日）、Kimi K3（7 月 10 日）、Step 3（7 月 31 日）、上海 AI 实验室 Intern-S1（7 月 29 日），一个月内四款重量级开源模型密集上线。",
+      "content_en": "Step 3's technical highlights are already being dissected: MoE architecture with 1024 experts and 78B activated parameters per pass equals 'large-model capability at small-model inference cost'. Native multimodality means text/image/video/audio inputs are coupled at pre-training rather than glued on afterward. The 128K context window aligns with Kimi K3 and Claude Fable 5. Open-source license: Apache 2.0—slightly stricter than Kimi K3's MIT but with no commercial add-ons. China's open-source LLM bloc is releasing intensively this month: Kuaishou Auto Think (July 11), Kimi K3 (July 10), Step 3 (July 31), Shanghai AI Lab Intern-S1 (July 29)—four heavyweight open-source models landing within thirty days.",
+      "key_points": [
+        "Step 3 于 7 月 31 日全球开源，Apache 2.0 许可",
+        "MoE 架构 1024 专家 / 780 亿激活参数",
+        "原生多模态四路输入预训练阶段耦合",
+        "中国开源阵营一个月内密集释放 4 款重量级模型"
+      ],
+      "key_points_en": [
+        "Step 3 open-sourced worldwide July 31 under Apache 2.0",
+        "MoE with 1024 experts / 78B activated parameters",
+        "Native multimodality: four-input coupling at pre-training",
+        "Four heavyweight Chinese open-source models within one month"
+      ],
+      "url": "https://m.weibo.cn/detail/5319172113565300"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-11",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "RealSense 从英特尔剥离，5000 万美元融资押注「Physical AI 视觉」",
+      "title_en": "RealSense Completes Spinout from Intel, Raises $50M to Bet on 'Physical AI Vision'",
+      "summary": "7 月 11 日 Business Wire：Intel 旗下计算机视觉品牌 RealSense 正式完成分拆，独立公司获得 5000 万美元种子轮 + A 轮融资，估值未披露。核心方向是为人形机器人、自主车与「物理世界 AI」提供机器感知硬件。",
+      "summary_en": "Business Wire, July 11: Intel's RealSense computer-vision brand has completed spinout as an independent company with a $50M seed-plus-Series-A round, valuation undisclosed. Core direction: machine-perception hardware for humanoid robots, autonomous vehicles and 'physical-world AI'.",
+      "source": "Business Wire",
+      "source_en": "Business Wire",
+      "image": "img/pool/robotics-humanoid.jpg",
+      "content": "RealSense 的分拆是 Intel 近三年「非核心业务瘦身」的一环，也是「Physical AI」赛道的信号灯。分拆后 RealSense 保留了 D400、D500、L515 三条深度相机产品线 + 12 项核心专利，服务客户包括宇树科技、Figure AI、波士顿动力、比亚迪、蔚来。5000 万融资参投方含英特尔 Capital（保留少数股权）、Founders Fund、Khosla Ventures。CEO Nadav Orbach 表示，接下来 12 个月将把摄像头模组价格从 300 美元/台压到 120 美元/台，为「1000 万台/年人形机器人」量产窗口做准备。这份分拆某种程度是 Physical AI 供应链从「大厂内部业务」走向「独立高速公司」的又一转折点。",
+      "content_en": "RealSense's spinout is a chapter in Intel's three-year non-core-business slimming and also a signal-flare for the Physical AI category. Post-spinout, RealSense retains the D400/D500/L515 depth-camera lines and 12 core patents, with customer coverage spanning Unitree Robotics, Figure AI, Boston Dynamics, BYD and NIO. The $50M round includes Intel Capital (minority carry), Founders Fund and Khosla Ventures. CEO Nadav Orbach: over the next 12 months, module prices will fall from $300/unit to $120/unit to prepare for a '10-million-humanoid-per-year' mass-production window. In a real sense the spinout is another inflection point of Physical AI's supply chain moving from 'inside a mega-cap' to 'independent high-velocity company'.",
+      "key_points": [
+        "RealSense 完成从英特尔剥离，独立成为公司",
+        "5000 万美元种子 + A 轮，Founders Fund / Khosla 参投",
+        "客户覆盖宇树、Figure、波士顿动力、比亚迪、蔚来",
+        "12 个月内模组价格从 300 美元压到 120 美元"
+      ],
+      "key_points_en": [
+        "RealSense completes spinout from Intel as independent company",
+        "$50M seed + Series A, Founders Fund / Khosla participate",
+        "Customer coverage: Unitree, Figure, Boston Dynamics, BYD, NIO",
+        "Module price to drop from $300 to $120 within 12 months"
+      ],
+      "url": "https://aithority.com/news/realsense-spinout-intel-50m/"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-11",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "HP 与 OpenAI 战略合作再升级：工程师效率首个可验证案例出炉",
+      "title_en": "HP and OpenAI Deepen Strategic Cooperation: First Verifiable Engineer-Productivity Case Ships",
+      "summary": "AI Base 7 月 11 日：HP 与 OpenAI 宣布扩大战略合作，围绕全球客户体验与内部运营转型。首批试点显示——HP 软件工程师在采用 OpenAI 深度集成后效率显著提升（未公布具体百分比但内部称「超预期」）。",
+      "summary_en": "AiBase, July 11: HP and OpenAI announced expanded strategic cooperation focused on global customer experience and internal operations transformation. First pilots show HP software engineers substantially more productive after deep OpenAI integration (specific percentage undisclosed but internally described as 'above expectation').",
+      "source": "AI Base",
+      "source_en": "AiBase",
+      "image": "img/pool/tech-innovation.jpg",
+      "content": "HP 与 OpenAI 的这次升级最值得关注的不是合作本身，而是「首批可验证案例」的存在。过去 24 个月，OpenAI 与惠普、戴尔、联想的合作被反复宣布，但从未有过工程师效率的公开量化数据。7 月 11 日发布会上，HP CTO Tuan Tran 说：「首批试点软件工程师人均效率提升幅度已经达到我们此前对 AI Agent 部署最乐观情境的上限。」更值得关注的是 HP 承诺——12 个月内将 OpenAI 深度集成覆盖全部 5.6 万名 HP 员工，成为继 Klarna（Anthropic + OpenAI 双底座）与 Coinbase（Lindy 500+ Agent）之后又一份「全员 AI 化」的企业级样本。",
+      "content_en": "The most noteworthy element of the HP-OpenAI expansion is not the deal itself but the existence of a first verifiable case. Over the past 24 months, OpenAI's partnerships with HP, Dell and Lenovo have been announced repeatedly without any public engineer-productivity numbers. At the July 11 event, HP CTO Tuan Tran: 'The productivity uplift for the first cohort of piloted software engineers has hit the upper bound of our most-optimistic prior AI-agent-deployment scenario.' More noteworthy: HP commits to extending deep OpenAI integration to all 56,000 HP employees within twelve months, joining Klarna (Anthropic + OpenAI dual base) and Coinbase (Lindy 500+ agents) as another 'company-wide AI-native' enterprise sample.",
+      "key_points": [
+        "HP 与 OpenAI 战略合作扩展，覆盖全球客户体验",
+        "首批工程师试点效率提升「超预期」",
+        "12 个月内将 OpenAI 集成推广至 5.6 万全员",
+        "延续 Klarna、Coinbase 的「全员 AI 化」企业样本"
+      ],
+      "key_points_en": [
+        "HP-OpenAI strategic cooperation expanded, global CX in scope",
+        "First engineer pilot 'above expectation' on productivity uplift",
+        "OpenAI integration rollout to all 56,000 HP employees within 12 months",
+        "Extends Klarna, Coinbase precedent as company-wide AI-native samples"
+      ],
+      "url": "https://www.aibase.com/news/hp-openai-strategic-cooperation"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-11",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "title": "快手 Auto Think 开源：可自主调节思考深度的推理模型上线",
+      "title_en": "Kuaishou Open-Sources Auto Think: Reasoning Model That Autonomously Modulates Thought Depth",
+      "summary": "7 月 11 日快手开源 Auto Think 大模型——支持根据问题复杂度自动调节思考深度（从「秒回」到「深度慢思考」四档），推动 AI 内容生成与交互领域的效率-质量平衡创新。",
+      "summary_en": "On July 11, Kuaishou open-sourced its Auto Think LLM, which autonomously modulates reasoning depth by question complexity (four tiers from 'instant reply' to 'deep slow-think'), pushing forward the efficiency-quality balance in AI content generation and interaction.",
+      "source": "快手官方 / CSDN",
+      "source_en": "Kuaishou Official / CSDN",
+      "image": "img/pool/opensource-workshop.jpg",
+      "content": "Auto Think 的技术亮点是「思考深度自动路由」——模型在接到问题后先做一次 300 tokens 内的「元判断」，判断问题所需推理深度（快回/中等/深度/超深），再进入对应算力档位。这一机制在效果与效率之间做出更精细的平衡——简单问题 avg 延迟 0.4 秒（对比 GPT-5.6 mini 的 1.1 秒），复杂问题的推理链最大可展开 3200 tokens。快手同时发布 API 定价：输入 0.6 美元/百万、输出 2.4 美元/百万，比 Kimi K3 更便宜。这份「深度自适应」机制是继 DeepSeek R1 的「思维链暴露」、Kimi K3 的「300 万长上下文」之后中国开源模型第三条差异化路径。",
+      "content_en": "Auto Think's technical highlight is 'reasoning-depth autonomous routing'—upon receiving a question, the model first runs a sub-300-token 'meta-judgment' pass to decide required depth (fast/medium/deep/ultra-deep), then routes to the corresponding compute tier. This mechanism strikes a finer balance between quality and efficiency—simple questions average 0.4s latency (vs GPT-5.6-mini at 1.1s), complex reasoning chains can expand up to 3200 tokens. Kuaishou also published API pricing: $0.6 per million input / $2.4 per million output, undercutting Kimi K3. This 'adaptive depth' mechanism is the third differentiated path for Chinese open-source models after DeepSeek R1's exposed chain-of-thought and Kimi K3's 3M-long-context.",
+      "key_points": [
+        "Auto Think 开源，四档思考深度自动路由",
+        "简单问题 0.4 秒响应，复杂问题 3200 tokens 推理链",
+        "API 输入 0.6 美元 / 百万，输出 2.4 美元 / 百万",
+        "中国开源模型第三条差异化路径落地"
+      ],
+      "key_points_en": [
+        "Auto Think open-sourced with four-tier depth autonomous routing",
+        "0.4s latency on simple queries; up to 3200-token chain on complex",
+        "API: $0.6 per million input, $2.4 per million output",
+        "Third differentiated path for Chinese open-source LLMs materializes"
+      ],
+      "url": "https://blog.csdn.net/yuntongliangda/article/details/149845503"
+    }
+  ],
+  "hero": {
+    "id": "hero-2026-07-11",
+    "title": "AI 的成本反弹：从旗舰模型企业禁令到 Anthropic 企业市场反超 OpenAI——AI 支出结构的第一次系统性重构",
+    "title_en": "The AI Cost Reflex: From Flagship-Model Bans to Anthropic Overtaking OpenAI in Enterprise—The First Systemic Restructuring of AI Spend",
+    "image": "img/pool/investment-finance.jpg",
+    "date": "2026-07-11",
+    "source": "AI News Daily 综合",
+    "source_en": "AI News Daily Analysis",
+    "summary": "2026 年 7 月 10~11 日 AiBase / IDC / Gartner / 36 氪五份数据同日抛出——Atlassian/Adobe/Amazon 集体禁用旗舰模型、Anthropic 企业份额首次超越 OpenAI、Meta Avocado 推迟开源逆转、微软碳排放 +25%、英国 10 亿英镑主权算力。三份关键数据把 AI 产业推进了一个新阶段——「成本反弹」正在从边缘话题跃升为 CIO/CFO 议程头条。",
+    "summary_en": "Between July 10–11, 2026, five datasets from AiBase / IDC / Gartner / 36Kr converged: Atlassian/Adobe/Amazon ban flagship models, Anthropic's enterprise share surpasses OpenAI for the first time, Meta's Avocado delayed and open-source reversal deepens, Microsoft emissions up 25%, UK £1B sovereign compute. Three signals push the AI industry into a new phase—the 'cost reflex' is rising from a fringe topic to the top of CIO/CFO agendas.",
+    "category": "深度解读",
+    "category_en": "Deep Analysis"
+  }
+}
