@@ -2,6 +2,47 @@
 
 所有网站内容与功能的更新记录，每次更新时追加到本文档。
 
+## 2026-07-12 · 三件套日更 · article-41
+
+### 网站版：article-41 上线
+- **主题**：《AI 电力霸权：数据中心撞穿电网天花板，AI 与国民电力的争夺战全面开启——从 xAI Memphis 断电到 HB-2401 到 AI 专用电价》
+- **切角**：xAI Memphis 二期 800MW 触发 TVA 三次紧急减载 + 爱尔兰 EPA 全国暂停数据中心批准至 2027 Q2 + 弗吉尼亚 HB-2401 取消 20 年税收减免 + 关西电力全球首份 AI 专用工业电价 +19.5% 四合流 → 「算力→电力→电网→国民电价」四层传导拐点
+- **规模**：中文 36.5 KB + 英文 36.4 KB，19 分钟阅读
+- **累计**：articles.json 总数 39→40，sitemap.xml 84→86 URL
+
+### 微信版：Aravind Srinivas 的 4 年
+- **主题**：《Aravind Srinivas 的 4 年：从 OpenAI 实习生的一个周末想法，到 Perplexity 250 亿美元估值的答案引擎战争》
+- **文件**：`wechat/wechat-2026-07-12.html`（22.6 KB，677px table，晓色原创声明）
+- **公开 URL**：`https://www.coze.cn/s/Pdmb3MheZlQ/`
+- **注**：子 agent 交付时未插 hero 图，主 agent 后处理补 `llm-chatbot.jpg` hero 图（贴合 Aravind 人物叙事主题）
+
+### 头条版：AI 眼镜元年
+- **主题**：《AI 眼镜元年——Meta/苹果/小米 H1 出货破亿的入口争夺战》（Ray-Ban Meta Gen4 Q2 超 iPhone 16 Plus + Apple 9/9 发布 + 小米 999 元）
+- **文件**：`toutiao/toutiao-2026-07-12.md`（12.0 KB）
+
+### 数据变更
+- `data/news.json`：days=[07-12..07-08], last_updated=2026-07-12, hero=hero-2026-07-12
+- `data/articles.json`：insert(0, article-41)，总数 40
+- `data/used-images.json`：total_used 247→259（+12 新增，0 历史合并）
+- `sitemap.xml`：6 静态 + 40 中 + 40 英 = 86 URL
+
+### SOP 遵循度（对照 2026-07-11 修订版：4 项前置检查）
+| 检查项 | 状态 |
+|-------|------|
+| §8.0 派发前 4 检（sonnet/schema/防线/瘦身，日程清空已废弃） | ✅ 全绿 |
+| §8 第 3 步 侧边栏 grep=10 + 首条 article-41 | ✅（串行 edit_file 一次通过，新规则生效） |
+| §8 第 3 步 news.json 三项一致（days[0]/hero/last_updated） | ✅ |
+| §8 第 3 步 sitemap URL 数 = 6+文章×2 = 86 | ✅ |
+| §8 第 7 步 bash timeout=300 | ✅ |
+| §8 第 8 步 wrangler 部署 | ✅ 10 files new / 305 cached / 3.03s |
+| §8 第 9 步 3 次收敛 curl | ✅ sitemap 200/xml / article 308 / Yandex 200 |
+| §5 图池去重（字符串比对） | ✅ 12 张全新增无历史误合并 |
+| 新规则「同一文件 edit_file 必须串行」 | ✅ 侧边栏两步串行执行，无覆盖冲突（对比 07-11 首次并发失败） |
+
+### 学习点
+- **子 agent 交付微信 HTML 时未自动插入 hero 图**（07-12 微信 `<img>=0` vs 07-11 `<img>=1`）——需要在任务卡中显式要求「微信 HTML 必须至少含 1 张 hero `<img>`（完整线上 URL）」，防止下次子 agent 遗漏
+- **7/12 起「日程清空前置」正式下线**（主人 07-11 明确要求），本次执行未 `calendar_search`，节省两次工具调用
+
 ## 2026-07-11 · 三件套日更 · article-40
 
 ### 网站版：article-40 上线
@@ -1054,4 +1095,34 @@
 - Cloudflare Pages部署成功：https://701956b1.ainewsdaily.pages.dev
 
 ### 交付物
-- 微信公众号图文：`wec
+- 微信公众号图文：`wechat/wechat-2026-06-16.html`（供用户下载）
+- 头条文章：`toutiao/toutiao-2026-06-16.md`（供用户下载）
+
+### 累计进度
+- 网站深度文章：16篇（含article-16待发布）
+- 微信公众号：10篇（含待发布）
+- 头条文章：7篇（含待发布）
+
+## 2026-06-26 06:05 - 修复侧边栏深度好文样式
+- 补充 css/style.css 中 .sidebar-article-link / .sidebar-article-date / .sidebar-article-title 三个类的样式定义（此前漏写导致三条标题挤在一起）
+- 卡片式布局：日期色块徽章 + 标题2行截断，hover 时左边线变紫、整卡右移
+- Commit: 6e4e38c
+- 预览: https://f9cd5190.ainewsdaily.pages.dev
+
+## 2026-06-28（追加）
+- 微信版：《DeepSeek的「3400亿信仰」：一个杭州人，把中国AI送进了全球前12》（wechat-2026-06-28.html, 16143字节，677px table 布局，border 全合规）
+- 头条版：《自动驾驶L3/L4强制国标定档2027年7月：中国AI正式进入「合规元年」》（toutiao-2026-06-28.md, 7530字节）
+- 三平台主题独立：网站=国标双发产业分析 / 微信=DeepSeek人物事件 / 头条=合规元年热点趋势
+- 新规：自 6/28 起，「开始更新」指令默认产出当天三件套，主 Agent 不再分步等待
+- **sitemap.xml 全量重建**：从 6/3 的 2 篇升级到 60 URL（6 静态 + 27 中文 + 27 英文），含 hreflang 中英文互链 + x-default，commit e4da2c0
+- 修复：article-22 英文版命名从旧的 `article-22-en.html` 补齐 `article-22.html` 标准命名
+- robots.txt 校验：Sitemap 指令已正确指向 https://ainewsdaily.asia/sitemap.xml
+- Yandex ping 成功（HTTP 200）；Google/Bing ping endpoint 均已废弃（HTTP 410），改由主人手动 GSC 提交
+- 预览：https://31f45f82.ainewsdaily.pages.dev/sitemap.xml
+- **重磅 hero**：中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标同步落地（来源：国家标准委 / 中国政府网）
+- **新增深度文章**：article-27《中国 AI 治理框架成型：40+ 项国标 + 智能体互联 7 项国标，从底层算力到智能体协同的全栈规范化》中英双语
+- **news 10 条**：国标双发、GPT-5.6 Sol/Terra/Luna 三梯队、DeepSeek DSpark 开源、特斯拉接入豆包+DeepSeek、DeepSeek 胡润独角兽 3400 亿、工信部 L3/L4 强制性国标、阿里千问输入法 macOS、Anthropic Mythos 5、Marvell CXL 3.64x 压缩、RoboScience Visics 具身大模型
+- **侧边栏**：article-27 进首位，挤掉 article-16
+- **图片**：本次新增 11 张图标记 used（含 industry-smart-city.jpg / policy-data-privacy.jpg / llm-multimodal-v3.jpg / opensource-github-stars-v3.jpg / autonomous-vehicle-city.jpg / investment-ipo-v3.jpg / autonomous-truck-v3.jpg / llm-rag-v3.jpg / llm-evaluation-v3.jpg / chips-edge-ai-v3.jpg / robotics-humanoid-v3.jpg），used 总数 141，本地可用 63 张
+- **commit**: `75c0fb3` (feat(daily): 2026-06-28 update)
+- **部署**: https://5cd4b8a8.ainewsdaily.pages.dev
