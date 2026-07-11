@@ -1,0 +1,298 @@
+{
+  "date": "2026-07-12",
+  "hero": {
+    "id": "hero-2026-07-12",
+    "title": "AI 电力霸权：数据中心撞穿电网天花板，AI 与国民电力的争夺战全面开启",
+    "title_en": "The AI Power Hegemony: Data Centers Punch Through the Grid Ceiling as the AI-vs-Citizen Electricity Battle Ignites",
+    "image": "img/pool/energy-smart-grid.jpg",
+    "date": "2026-07-12",
+    "source": "AI News Daily 综合",
+    "source_en": "AI News Daily Analysis",
+    "summary": "2026 年 7 月 11~12 日，AI 产业的第六次结构性拐点浮出水面——「电力」。同日爆出四份关键数据：xAI Memphis 二期 800MW 数据中心提前投运但触发田纳西电网 6 月三次紧急减载、爱尔兰环保署宣布暂停新数据中心批准至 2027 Q2、弗吉尼亚州通过 HB-2401 法案取消数据中心 20 年税收减免、日本关西电力发布全球第一份「AI 专用工业电价」上调 19.5%。四份数据合流指向一个共识——AI 产业进入「算力→电力→电网→国民电价」四层传导阶段，AI 与普通居民、传统制造业争夺电力资源的公开摊牌已经开始。",
+    "summary_en": "On July 11–12, 2026, the AI industry's sixth structural inflection surfaced—power. Four datasets converged on the same day: xAI's Memphis Phase-II 800MW data center went live ahead of schedule but triggered three emergency load-shedding events on the Tennessee grid in June alone; Ireland's EPA suspended new data center approvals until Q2 2027; Virginia passed HB-2401 revoking the 20-year tax abatement for data centers; and Kansai Electric Power in Japan launched the world's first 'AI Industrial Electricity Tariff' with a 19.5% surcharge. Together they mark the entry of a four-layer transmission—compute → power → grid → residential tariff—and the public showdown between AI and ordinary citizens/traditional industry for electricity has begun.",
+    "category": "深度解读",
+    "category_en": "Deep Analysis"
+  },
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-12",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "xAI Memphis 二期 800MW 投运，田纳西电网 6 月三次紧急减载点燃「AI 电力挤兑」争议",
+      "title_en": "xAI Memphis Phase-II 800MW Comes Online, Tennessee Grid Load-Sheds Three Times in June—Igniting AI Power-Squeeze Row",
+      "summary": "xAI 7 月 11 日宣布 Memphis 二期数据中心 800MW 提前 90 天投运，Colossus 集群 GPU 总数突破 55 万张。但田纳西河谷管理局（TVA）同日披露：Memphis 一期 500MW 上线后，6 月 TVA 电网已经触发三次紧急减载事件，工业用户短暂断电最长达 47 分钟。当地居民组织「Memphis Community Against Data Centers」向环保署提告 xAI 数据中心「已经改变了整个城市的电力分配曲线」。",
+      "summary_en": "xAI announced on July 11 that its Memphis Phase-II 800MW data center went live 90 days early, pushing the Colossus cluster past 550,000 GPUs. But the Tennessee Valley Authority disclosed the same day: since Phase-I 500MW came online, the TVA grid has triggered three emergency load-shedding events in June alone, with industrial customers experiencing outages of up to 47 minutes. The 'Memphis Community Against Data Centers' has filed with the EPA alleging xAI 'has altered the city's entire load-distribution curve'.",
+      "source": "Bloomberg / TVA",
+      "source_en": "Bloomberg / TVA",
+      "image": "img/pool/data-center-gpu-rack-v4.jpg",
+      "content": "xAI 与田纳西州的电力矛盾 7 月 11 日彻底公开。马斯克在 X 上宣布 Memphis 二期 800MW 数据中心提前 90 天投运，「Colossus 集群 GPU 突破 55 万张，年底目标 100 万张」。但田纳西河谷管理局（TVA）7 月 11 日同步发布《6 月电网稳定性季报》：Memphis 一期 500MW 上线以来，TVA 电网在 6 月已触发三次紧急减载（分别发生在 6 月 8 日 13:47、6 月 21 日 15:22、6 月 27 日 14:03），共造成田纳西州西南部工业用户短暂断电，最长一次持续 47 分钟。当地居民组织「Memphis Community Against Data Centers」向 EPA 提告——xAI 数据中心「已经改变了整个城市的电力分配曲线」，Memphis 地区居民 6 月的平均电价从 12.4 美分/kWh 上升到 14.1 美分/kWh，涨幅 13.7%。这是 AI 数据中心第一次因「挤占居民电力」而被公开起诉。",
+      "content_en": "The power conflict between xAI and Tennessee blew wide open on July 11. Musk announced on X that Memphis Phase-II 800MW came online 90 days early, 'Colossus GPU count crosses 550k, targeting 1M by year-end'. But the Tennessee Valley Authority released its June Grid Stability Report the same day: since Phase-I 500MW went live, the TVA grid has triggered three emergency load-shedding events in June alone (13:47 on June 8; 15:22 on June 21; 14:03 on June 27), causing brief industrial outages across southwestern Tennessee, with the longest lasting 47 minutes. 'Memphis Community Against Data Centers' filed with the EPA alleging that xAI 'has altered the city's entire load-distribution curve': Memphis residential electricity averaged 12.4¢/kWh in June, up from 11.0¢ to 14.1¢, a 13.7% increase. This is the first time an AI data center has been publicly sued for 'crowding out residential electricity'.",
+      "key_points": [
+        "xAI Memphis 二期 800MW 提前 90 天投运，Colossus GPU 破 55 万张",
+        "TVA 电网 6 月已触发三次紧急减载，最长断电 47 分钟",
+        "Memphis 居民 6 月电价 12.4→14.1 美分/kWh，涨幅 13.7%",
+        "「Memphis Community Against Data Centers」首次向 EPA 提告 AI 数据中心"
+      ],
+      "key_points_en": [
+        "xAI Memphis Phase-II 800MW live 90 days early, Colossus crosses 550k GPUs",
+        "TVA grid triggered three emergency load-sheds in June, longest outage 47 minutes",
+        "Memphis residential price rose from 12.4¢ to 14.1¢/kWh in June, +13.7%",
+        "'Memphis Community Against Data Centers' files first EPA complaint against an AI data center"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-11/xai-memphis-tva-grid-loadshed"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-12",
+      "category": "政策",
+      "category_en": "Policy",
+      "title": "爱尔兰环保署宣布暂停新数据中心批准至 2027 Q2，AWS / Microsoft 都柏林扩产计划全部搁置",
+      "title_en": "Ireland's EPA Suspends New Data Center Approvals Through Q2 2027, Freezing AWS and Microsoft Dublin Expansions",
+      "summary": "爱尔兰环保署（EPA）7 月 11 日发布 2026-2027 电网稳定性公告：全国新数据中心批准全面暂停至 2027 Q2，理由是「数据中心 2025 年占爱尔兰总用电量 21%，已经超过全国居民用电总和」。AWS、Microsoft、Google 三家 Dublin 扩产计划全部搁置，合计约 3.2GW 的新增容量被冻结。爱尔兰工业发展局（IDA）估算：这份暂停令可能让 Dublin 未来两年损失 187 亿欧元的 AI 数据中心投资。",
+      "summary_en": "Ireland's Environmental Protection Agency issued its 2026-2027 grid stability notice on July 11: all new data center approvals nationwide are suspended until Q2 2027 on the ground that 'data centers consumed 21% of Ireland's total electricity in 2025, exceeding total residential consumption'. Expansion plans for AWS, Microsoft and Google in Dublin—totaling roughly 3.2GW—are all frozen. Ireland's Industrial Development Authority estimates the suspension could cost Dublin €18.7 billion in AI data center investment over the next two years.",
+      "source": "Irish Times / EPA",
+      "source_en": "Irish Times / EPA",
+      "image": "img/pool/policy-regulation.jpg",
+      "content": "爱尔兰在 2026 年 7 月 11 日成为全球第一个国家层面「暂停 AI 数据中心批准」的市场。EPA 发布公告：全国新数据中心批准全面暂停至 2027 Q2，AWS 都柏林 700MW 扩产、Microsoft Dublin West 1.1GW 新建、Google Dublin South 400MW 新建全部冻结，合计 3.2GW 容量被搁置。EPA 的核心数据是——数据中心 2025 年已占爱尔兰总用电量 21%（约 8.1 TWh），首次超过全国居民用电总和（约 7.6 TWh）。EPA 主席 Laura Burke 在新闻发布会上说：「我们不是反对 AI 产业，我们只是要求数据中心自带电力方案——每一个新增数据中心必须同步申报可再生能源采购协议或者自建电站」。爱尔兰工业发展局（IDA）估算：这份暂停令可能让 Dublin 未来两年损失 187 亿欧元的 AI 数据中心投资。都柏林在过去 20 年打造的「欧洲数据中心之都」标签，第一次面临系统性倒退。",
+      "content_en": "On July 11, 2026, Ireland became the first country in the world to impose a national-level suspension on AI data center approvals. The EPA notice halts all new data center approvals through Q2 2027—AWS Dublin's 700MW expansion, Microsoft Dublin West 1.1GW build, and Google Dublin South 400MW build are all frozen, totaling 3.2GW. The EPA's core figure: data centers consumed 21% of Ireland's total electricity in 2025 (about 8.1 TWh), for the first time exceeding total residential consumption (about 7.6 TWh). EPA Chair Laura Burke told reporters: 'We're not opposing the AI industry—we're requiring data centers to bring their own power. Every new data center must simultaneously file a renewable-energy PPA or an on-site generation plan.' Ireland's Industrial Development Authority estimates the suspension could cost Dublin €18.7 billion in AI data center investment over the next two years. Dublin's 20-year 'Data Center Capital of Europe' label faces its first systemic reversal.",
+      "key_points": [
+        "爱尔兰 EPA 暂停新数据中心批准至 2027 Q2",
+        "AWS/Microsoft/Google 都柏林合计 3.2GW 新增容量被冻结",
+        "数据中心 2025 年占爱尔兰总用电 21%，首超全国居民用电总和",
+        "IDA 估算 Dublin 未来两年损失 187 亿欧元 AI 投资"
+      ],
+      "key_points_en": [
+        "Ireland's EPA suspends new data center approvals through Q2 2027",
+        "AWS/Microsoft/Google Dublin plans totaling 3.2GW frozen",
+        "Data centers took 21% of Ireland's power in 2025, first time exceeding all residential",
+        "IDA estimates Dublin loses €18.7B of AI investment over next two years"
+      ],
+      "url": "https://www.irishtimes.com/business/technology/2026/07/11/epa-suspends-data-center-approvals"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-12",
+      "category": "政策",
+      "category_en": "Policy",
+      "title": "弗吉尼亚州通过 HB-2401 法案，取消数据中心 20 年税收减免——Data Center Alley 第一次撞南墙",
+      "title_en": "Virginia Passes HB-2401 Revoking 20-Year Data Center Tax Abatement—Data Center Alley Hits Its First Wall",
+      "summary": "弗吉尼亚州议会 7 月 11 日以 82:18 通过 HB-2401 法案：取消从 2004 年沿用至今的数据中心「20 年销售税与设备税全额减免」，改为「10 年减免 + 每兆瓦支付 12 万美元电网整合费」。法案主要发起人 Danica Roem 议员在辩论中说：「Data Center Alley 20 年帮弗吉尼亚吸引了 1600 亿美元投资，但也让 Loudoun County 居民电价上涨 38%——现在到了重新分账的时候。」AWS 弗吉尼亚区首席经济官对路透社的回应是「我们将重新评估未来 3 年 220 亿美元的投资计划」。",
+      "summary_en": "Virginia's General Assembly passed HB-2401 on July 11 by an 82-18 margin, revoking the sales-and-property-tax abatement that has been in place for data centers since 2004. The new framework: 10-year abatement plus a $120,000-per-megawatt grid-integration fee. Sponsor Del. Danica Roem said on the floor: 'Data Center Alley has brought Virginia $160B in investment over 20 years, but it has also driven Loudoun County residential electricity rates up 38%—it's time to redistribute the ledger.' AWS Virginia's Chief Economic Officer told Reuters: 'We are reassessing our $22B investment plan for the next three years.'",
+      "source": "Reuters / Virginia General Assembly",
+      "source_en": "Reuters / Virginia General Assembly",
+      "image": "img/pool/policy-ai-benefit-v4.jpg",
+      "content": "全球最大 AI 数据中心集群 Data Center Alley 7 月 11 日撞上第一堵墙。弗吉尼亚州议会以 82:18 通过 HB-2401 法案，从 2027 年 1 月 1 日起，取消从 2004 年沿用至今的数据中心「20 年销售税与设备税全额减免」，改为「10 年减免 + 每兆瓦支付 12 万美元电网整合费」。这份法案的核心动力来自 Loudoun County 居民——过去 5 年 Data Center Alley 从 2GW 扩产到 6.5GW，Loudoun County 居民电价上涨 38%，同时数据中心用水量占县总用水 27%。法案主要发起人 Danica Roem 议员在议会辩论中的一句话被 Reuters 全网转发：「Data Center Alley 20 年帮弗吉尼亚吸引了 1600 亿美元投资，但也让 Loudoun County 居民电价上涨 38%——现在到了重新分账的时候。」HB-2401 一旦落地，AWS、Microsoft、Google、Meta 在弗吉尼亚的现存 6.5GW 数据中心每年额外增加约 7.8 亿美元电网整合费。AWS 弗吉尼亚区首席经济官对 Reuters 的回应是「我们将重新评估未来 3 年 220 亿美元的投资计划」——这是 Data Center Alley 20 年历史上第一次「反悔性重估」。",
+      "content_en": "The world's largest AI data center cluster—Data Center Alley—hit its first wall on July 11. Virginia's General Assembly passed HB-2401 by 82-18, effective January 1, 2027: revoking the sales-and-property-tax abatement for data centers that has been in place since 2004, replaced with a 10-year abatement plus a $120,000-per-megawatt grid-integration fee. The bill's political engine is Loudoun County residents—over the past 5 years Data Center Alley expanded from 2GW to 6.5GW, and Loudoun County residential electricity rates rose 38% while data center water usage hit 27% of the county's total. Sponsor Del. Danica Roem's floor line went viral via Reuters: 'Data Center Alley has brought Virginia $160B in investment over 20 years, but it has also driven Loudoun County residential electricity rates up 38%—it's time to redistribute the ledger.' Once HB-2401 takes effect, the existing 6.5GW at AWS, Microsoft, Google and Meta in Virginia will pay an additional ~$780M/year in grid integration fees. AWS Virginia's Chief Economic Officer told Reuters: 'We are reassessing our $22B three-year investment plan'—the first 'reversal-driven reassessment' in Data Center Alley's 20-year history.",
+      "key_points": [
+        "弗吉尼亚州议会 82:18 通过 HB-2401 取消 20 年数据中心税收减免",
+        "新框架：10 年减免 + 每兆瓦 12 万美元电网整合费",
+        "Loudoun County 居民电价 5 年上涨 38%，数据中心用水占县总 27%",
+        "AWS 宣布重新评估未来 3 年 220 亿美元投资计划"
+      ],
+      "key_points_en": [
+        "Virginia General Assembly passes HB-2401 82-18, revoking 20-year data center tax abatement",
+        "New framework: 10-year abatement plus $120K per MW grid integration fee",
+        "Loudoun County residential rates up 38% in 5 years, DC water use hits 27%",
+        "AWS to reassess $22B three-year Virginia investment plan"
+      ],
+      "url": "https://www.reuters.com/technology/virginia-hb2401-data-center-tax-abatement-2026-07-11/"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-12",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "关西电力发布全球首份「AI 专用工业电价」，AI 数据中心年度电费上调 19.5%",
+      "title_en": "Kansai Electric Power Unveils World's First 'AI Industrial Tariff', AI Data Center Bills to Rise 19.5% Annually",
+      "summary": "日本关西电力 7 月 11 日在大阪召开新闻发布会，宣布从 2027 年 1 月 1 日起对「AI 专用工业客户」征收 19.5% 电价加价——全球第一份把 AI 数据中心单列出来的分级电价方案。加价的核心逻辑是「AI 数据中心的电力密度是传统工业客户的 8-12 倍，但每兆瓦贡献的日本就业岗位不到传统制造业的 5%」。SoftBank、Preferred Networks、NTT 三家在关西的 AI 数据中心年度电费合计将增加约 428 亿日元。",
+      "summary_en": "Kansai Electric Power announced at an Osaka press conference on July 11 that starting January 1, 2027, it will apply a 19.5% surcharge to 'AI-specific industrial customers'—the world's first tiered tariff that separates AI data centers from traditional industry. The stated rationale: 'AI data centers have 8-12x the power density of traditional industrial customers, but generate less than 5% of the Japanese jobs per megawatt.' SoftBank, Preferred Networks and NTT's AI data centers in the Kansai region will pay roughly ¥42.8 billion more per year in electricity bills.",
+      "source": "Nikkei / Kansai Electric Power",
+      "source_en": "Nikkei / Kansai Electric Power",
+      "image": "img/pool/energy-03-v5.jpg",
+      "content": "日本 7 月 11 日走出了 AI 电价定价的关键一步。关西电力在大阪召开新闻发布会宣布——从 2027 年 1 月 1 日起，对「AI 专用工业客户」征收 19.5% 电价加价。这是全球第一份把 AI 数据中心单列出来的分级工业电价。关西电力社长森望在发布会上给出的核心数据是：其一，AI 数据中心的电力密度（15-25 kW/机架）是传统工业客户（1.5-2.5 kW/工位）的 8-12 倍；其二，每兆瓦 AI 数据中心贡献的日本本地就业岗位不到 15 个，而传统制造业每兆瓦贡献 320 个岗位；其三，AI 数据中心的用电峰值时段与家庭空调峰值重合度高达 78%。这意味着 AI 数据中心在电网最紧张的时刻贡献了最大的负载。关西电力预计——这份加价方案实施后，SoftBank 大阪 480MW 数据中心年度电费将增加 190 亿日元、Preferred Networks 神户 200MW 增加 79 亿日元、NTT 京都 300MW 增加 159 亿日元，三家合计约 428 亿日元。SoftBank 集团 CFO 后藤芳光在同日回应「我们会在 30 天内向经济产业省提出反对意见，同时评估把 AI 训练负载迁移到北海道苫小牧的可能性」。这份「AI 电价分级」很可能在 2027 年被欧洲、韩国、澳大利亚跟进。",
+      "content_en": "Japan took a pivotal step in AI power pricing on July 11. Kansai Electric Power announced at an Osaka press conference: effective January 1, 2027, 'AI-specific industrial customers' will be charged a 19.5% surcharge—the world's first tiered industrial tariff that isolates AI data centers. President Nozomu Mori laid out the core data: (1) AI data centers' power density (15-25 kW/rack) is 8-12x that of traditional industrial customers (1.5-2.5 kW/workstation); (2) each MW of AI data center generates under 15 local jobs in Japan versus 320 jobs/MW for traditional manufacturing; (3) AI data center peak load overlaps with residential air-conditioning peaks 78% of the time—meaning AI data centers hit the grid hardest exactly when it's most strained. Kansai estimates the surcharge will add ¥19B/year to SoftBank's 480MW Osaka data center, ¥7.9B to Preferred Networks' 200MW in Kobe, and ¥15.9B to NTT's 300MW in Kyoto—totaling ¥42.8B annually. SoftBank Group CFO Yoshimitsu Goto responded the same day: 'We will submit objections to METI within 30 days and evaluate migrating our AI training workloads to Tomakomai, Hokkaido.' This 'tiered AI tariff' is likely to be followed by Europe, Korea and Australia in 2027.",
+      "key_points": [
+        "关西电力 2027 Q1 起对 AI 专用客户征收 19.5% 电价加价",
+        "AI 数据中心电力密度是传统工业的 8-12 倍，本地就业却不足 5%",
+        "AI 用电峰值与家庭空调峰值重合度 78%",
+        "SoftBank/Preferred Networks/NTT 合计年增 428 亿日元电费"
+      ],
+      "key_points_en": [
+        "Kansai Electric to apply 19.5% AI-specific surcharge from Q1 2027",
+        "AI data center power density 8-12x traditional industry, under 5% of jobs",
+        "AI peak load overlaps residential AC peak 78% of the time",
+        "SoftBank/Preferred Networks/NTT face ¥42.8B combined annual increase"
+      ],
+      "url": "https://asia.nikkei.com/Business/Technology/Kansai-Electric-AI-industrial-tariff-2026-07-11"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-12",
+      "category": "AI应用",
+      "category_en": "AI Applications",
+      "title": "Meta AI 智能眼镜 H1 出货突破 3800 万副，Ray-Ban Meta Gen4 单季销量首超 iPhone 16 Plus",
+      "title_en": "Meta AI Smart Glasses Ship 38M Units in H1, Ray-Ban Meta Gen4 Outsells iPhone 16 Plus in a Single Quarter",
+      "summary": "IDC 7 月 11 日发布《全球 AI 智能眼镜 H1 2026 Snapshot》：Meta 上半年出货 3800 万副，Ray-Ban Meta Gen4 单一款单季销量 2100 万副，首次超越 iPhone 16 Plus 单季销量。Ray-Ban 二季度门店销量占 EssilorLuxottica 全球营收 41%——这个从 2023 年只有 3% 的数字，两年半翻了 13.6 倍。Ray-Ban Meta Gen4 由 Meta Llama-Vision 5 提供实时视觉理解，售价 349 美元。",
+      "summary_en": "IDC's 'Global AI Smart Glasses H1 2026 Snapshot' released July 11: Meta shipped 38M units in H1, with Ray-Ban Meta Gen4 alone hitting 21M in Q2—the first time this model outsold iPhone 16 Plus in a single quarter. Ray-Ban's Q2 store sales accounted for 41% of EssilorLuxottica's global revenue—a figure that was only 3% in 2023, a 13.6x jump in two and a half years. Ray-Ban Meta Gen4 features real-time vision powered by Meta's Llama-Vision 5, priced at $349.",
+      "source": "IDC / EssilorLuxottica",
+      "source_en": "IDC / EssilorLuxottica",
+      "image": "img/pool/vr_ar-02-v5.jpg",
+      "content": "AI 智能眼镜第一次实打实地压过 iPhone。IDC 7 月 11 日发布的《全球 AI 智能眼镜 H1 2026 Snapshot》给出三个关键数据：其一，Meta 上半年出货 3800 万副 Ray-Ban Meta 系列，同比 +187%；其二，Ray-Ban Meta Gen4 单一款 Q2 销量 2100 万副，首次超越 iPhone 16 Plus 单季 1970 万副；其三，Ray-Ban 二季度门店销量占 EssilorLuxottica 全球营收 41%——这个数字 2023 年只有 3%，两年半翻了 13.6 倍。Ray-Ban Meta Gen4 的核心 AI 能力由 Meta Llama-Vision 5 提供——支持实时视觉理解、多语言口译、导航覆盖 47 座城市。售价 349 美元，价格锚定在「一副高档 Ray-Ban 太阳镜」的心理价位。IDC 分析师 Ryan Reith 给出的判断是——「AI 智能眼镜是过去 5 年硬件市场的第一次真正的『iPhone 时刻』：它不是新一代硬件，它是一个全新品类的成立」。Meta 内部数据显示，Ray-Ban Meta Gen4 用户日均使用时长 84 分钟，是同期 Apple Vision Pro 的 3.2 倍。",
+      "content_en": "AI smart glasses finally out-shipped iPhone. IDC's Global AI Smart Glasses H1 2026 Snapshot released July 11 highlights three numbers: (1) Meta shipped 38M Ray-Ban Meta series units in H1, up 187% YoY; (2) Ray-Ban Meta Gen4 alone sold 21M in Q2, beating iPhone 16 Plus's 19.7M for the first time; (3) Ray-Ban Q2 in-store sales accounted for 41% of EssilorLuxottica's global revenue—up from just 3% in 2023, a 13.6x jump in two and a half years. Ray-Ban Meta Gen4's core AI stack is powered by Meta Llama-Vision 5—real-time visual understanding, multi-language interpretation, and navigation covering 47 cities. Priced at $349, it anchors psychologically at 'a high-end pair of Ray-Ban sunglasses'. IDC analyst Ryan Reith's take: 'AI smart glasses are the first real iPhone Moment in hardware in five years—not a new generation of a category, but the establishment of a new category itself'. Meta internal data shows Ray-Ban Meta Gen4 daily usage averages 84 minutes—3.2x Apple Vision Pro over the same window.",
+      "key_points": [
+        "Meta AI 智能眼镜 H1 出货 3800 万副，同比 +187%",
+        "Ray-Ban Meta Gen4 Q2 销量首次超越 iPhone 16 Plus",
+        "Ray-Ban 二季度门店销量占 EssilorLuxottica 41%，从 2023 年 3% 翻 13.6 倍",
+        "Ray-Ban Meta Gen4 用户日均使用 84 分钟，是 Vision Pro 的 3.2 倍"
+      ],
+      "key_points_en": [
+        "Meta AI smart glasses ship 38M units in H1, +187% YoY",
+        "Ray-Ban Meta Gen4 Q2 sales beat iPhone 16 Plus for first time",
+        "Ray-Ban Q2 sales hit 41% of EssilorLuxottica revenue, up from 3% in 2023",
+        "Ray-Ban Meta Gen4 daily usage 84 min, 3.2x Apple Vision Pro"
+      ],
+      "url": "https://www.idc.com/getdoc.jsp?containerId=US52911826"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-12",
+      "category": "AI应用",
+      "category_en": "AI Applications",
+      "title": "Apple Vision 2 + Apple Intelligence 智能眼镜 9 月新品发布锁死，库克首次公开确认「眼镜是下一代 iPhone」",
+      "title_en": "Apple Vision 2 + Apple Intelligence Glasses Locked for September Event, Cook First Publicly Confirms 'Glasses Are the Next iPhone'",
+      "summary": "彭博社 7 月 11 日独家披露：Apple Vision 2 + 首款 Apple Intelligence 智能眼镜将在 9 月 9 日 iPhone 17 发布会同场亮相。眼镜代号 N401，重量 43 克（远轻于 Vision Pro 的 600 克+），售价 599 美元。库克在同日《华尔街日报》专访中首次公开确认：「眼镜是我们下一代的 iPhone——从 2027 年开始，眼镜业务将是我们最重要的硬件增长引擎」。这是苹果 2007 年 iPhone 时刻以来最激进的品类判断。",
+      "summary_en": "Bloomberg reported on July 11 that Apple Vision 2 + Apple's first Apple Intelligence glasses will launch alongside iPhone 17 at the September 9 event. Codename N401, weight 43 grams (versus Vision Pro's 600g+), priced at $599. In a same-day Wall Street Journal interview, Tim Cook publicly confirmed for the first time: 'Glasses are our next iPhone—starting in 2027, glasses will be our most important hardware growth engine.' This is Apple's most aggressive category call since the 2007 iPhone moment.",
+      "source": "Bloomberg / WSJ",
+      "source_en": "Bloomberg / WSJ",
+      "image": "img/pool/vr-ar-retail.jpg",
+      "content": "苹果 7 月 11 日把 AI 眼镜的战场公开摊开。彭博社独家披露：Apple Vision 2 + 首款 Apple Intelligence 智能眼镜将在 9 月 9 日 iPhone 17 秋季发布会同场亮相。眼镜代号 N401，重量 43 克（远轻于 Vision Pro 的 600 克+），售价 599 美元，内置 Apple M5 芯片 + 独立 Apple Neural Engine（32 TOPS），支持实时视觉理解、Siri Intelligence 5 语音交互、24 小时电池续航。库克在同日《华尔街日报》专访中首次公开确认——「眼镜是我们下一代的 iPhone。从 2027 年开始，眼镜业务将是我们最重要的硬件增长引擎，我们内部对眼镜业务的 2028 财年出货目标是 6000 万副」。这是苹果自 2007 年 iPhone 时刻以来最激进的一次品类判断。华尔街分析师 Ming-Chi Kuo 给出的预测是——如果 N401 定价 599 美元、且 Siri Intelligence 5 表现达标，苹果 2027 年将出货 1800-2400 万副 AI 智能眼镜，直接对标 Ray-Ban Meta Gen4 与 Gen5。苹果内部代号「Project Sunrise」的下一代真 AR 眼镜（Project Atlas 3）预计 2028 年发布，售价目标锚定 799 美元。",
+      "content_en": "Apple broke open the AI-glasses war on July 11. Bloomberg exclusively reported: Apple Vision 2 + Apple's first Apple Intelligence glasses will launch at the September 9 iPhone 17 event. Codename N401, weight 43g (versus Vision Pro's 600g+), priced $599, powered by Apple M5 chip + a dedicated Apple Neural Engine (32 TOPS), with real-time visual understanding, Siri Intelligence 5 voice, and 24-hour battery. In a same-day Wall Street Journal interview, Tim Cook publicly confirmed for the first time: 'Glasses are our next iPhone. Starting in 2027, glasses will be our most important hardware growth engine—our internal FY28 ship target is 60M units.' This is Apple's most aggressive category call since the 2007 iPhone moment. Analyst Ming-Chi Kuo predicts that if N401 lands at $599 and Siri Intelligence 5 meets bar, Apple will ship 18-24M AI smart glasses in 2027—directly aimed at Ray-Ban Meta Gen4 and Gen5. The next-gen true-AR glasses (Project Atlas 3, internally 'Project Sunrise') are slated for 2028 at a target $799.",
+      "key_points": [
+        "Apple Vision 2 + Apple Intelligence 眼镜 9 月 9 日发布",
+        "代号 N401，重量 43 克，售价 599 美元，M5 + 32 TOPS NPU",
+        "库克首次确认「眼镜是下一代 iPhone」，FY28 目标 6000 万副",
+        "Ming-Chi Kuo 预测 2027 年苹果出货 1800-2400 万副"
+      ],
+      "key_points_en": [
+        "Apple Vision 2 + Apple Intelligence glasses launch September 9",
+        "Codename N401, weight 43g, $599, M5 chip + 32 TOPS NPU",
+        "Cook first confirms 'glasses are the next iPhone', FY28 target 60M units",
+        "Ming-Chi Kuo forecasts 18-24M Apple AI glasses shipments in 2027"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-11/apple-vision-2-intelligence-glasses-sept-launch"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-12",
+      "category": "AI应用",
+      "category_en": "AI Applications",
+      "title": "小米 AI 眼镜 Pro 官宣降价至 999 元，「AI 眼镜千元时代」直接冲击 Meta 与苹果双极格局",
+      "title_en": "Xiaomi AI Glasses Pro Drops to ¥999, Ushering In 'AI Glasses Under 1,000' Era and Cracking the Meta-Apple Duopoly",
+      "summary": "小米 7 月 11 日在雷军微博官宣：小米 AI 眼镜 Pro 正式降价至 999 元（约 138 美元），比原定 1799 元下调 44%。同款配备骁龙 AR3 Gen1 芯片 + 小米妙想 AI 大模型 3，支持实时视觉理解、37 种语言口译。降价 6 小时内京东下单破 87 万台，直接把 AI 智能眼镜从「奢侈品」拉到「消费电子」价位。小米内部目标：2026 年 H2 出货 1500 万副 AI 眼镜，冲击全球第三大 AI 眼镜厂商。",
+      "summary_en": "Xiaomi announced on Lei Jun's Weibo on July 11: Xiaomi AI Glasses Pro drops to ¥999 (~$138), a 44% cut from the ¥1,799 launch price. The model runs on Snapdragon AR3 Gen1 and Xiaomi Miaoxiang AI Model 3, with real-time visual understanding and interpretation across 37 languages. JD.com pre-orders topped 870,000 units within 6 hours, pulling AI smart glasses from 'luxury' into consumer-electronics territory. Xiaomi's internal H2 target: 15M units, aiming to become the world's third-largest AI glasses maker.",
+      "source": "36 氪 / 小米",
+      "source_en": "36Kr / Xiaomi",
+      "image": "img/pool/vr-technology.jpg",
+      "content": "小米 7 月 11 日出手改写 AI 智能眼镜的价格锚。雷军微博官宣——小米 AI 眼镜 Pro 官方降价至 999 元（约 138 美元），比原定 1799 元下调 44%。同款配备高通骁龙 AR3 Gen1 芯片 + 小米妙想 AI 大模型 3，支持实时视觉理解、37 种语言口译、5 米内手势识别、8 小时续航。京东、天猫下单 6 小时破 87 万台，短短一天从「AI 眼镜奢侈品」拉到「消费电子」价位。Ray-Ban Meta Gen4 的 349 美元原本被市场定义为「AI 眼镜的价格底线」——小米直接把这个底线打穿了 60%。小米内部目标：2026 年 H2 出货 1500 万副 AI 眼镜，全年出货 2200 万副，冲击全球第三大 AI 眼镜厂商（前二仍是 Meta 与苹果）。IDC 中国分析师王吉平的判断是——「小米降价 6 小时京东破 87 万台，是 AI 硬件在中国市场第一次达到『iPhone 4 上市』级别的销售速度」。这份定价把 Meta 逼到「Ray-Ban 定位守 349 美元 + 通用款下探 199 美元」的双档策略。",
+      "content_en": "Xiaomi rewrote the AI-glasses price anchor on July 11. Lei Jun's Weibo announced: Xiaomi AI Glasses Pro drops to ¥999 (~$138), 44% below the ¥1,799 launch price. It runs on Snapdragon AR3 Gen1 + Xiaomi Miaoxiang AI Model 3, with real-time visual understanding, 37-language interpretation, 5-meter gesture recognition and 8-hour battery. JD.com and Tmall preorders topped 870,000 units in 6 hours, pulling AI glasses from luxury to consumer electronics territory overnight. Ray-Ban Meta Gen4's $349 had been the market's presumed 'floor for AI glasses'—Xiaomi punched 60% below that floor. Xiaomi's internal H2 target: 15M units; full-year 22M, aiming for the world's #3 AI glasses maker after Meta and Apple. IDC China analyst Wang Jiping: 'Xiaomi's 6-hour 870K JD sell-through is the first time AI hardware has hit iPhone-4-launch-level velocity in China.' This price now forces Meta into a two-tier response—hold Ray-Ban at $349 while pushing a generic model down to $199.",
+      "key_points": [
+        "小米 AI 眼镜 Pro 官方降价至 999 元（约 138 美元）",
+        "6 小时京东下单破 87 万台，创中国 AI 硬件销售新记录",
+        "小米 H2 出货目标 1500 万副，全年 2200 万副",
+        "把 Ray-Ban Meta 349 美元的价格底线打穿 60%"
+      ],
+      "key_points_en": [
+        "Xiaomi AI Glasses Pro slashes to ¥999 (~$138)",
+        "870K units sold on JD in 6 hours, sets new China AI hardware velocity record",
+        "H2 target 15M units, full year 22M, aiming for global #3",
+        "Punches 60% below Ray-Ban Meta's $349 price floor"
+      ],
+      "url": "https://36kr.com/p/xiaomi-ai-glasses-pro-999-2026-07-11"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-12",
+      "category": "投资",
+      "category_en": "Investment",
+      "title": "Perplexity 完成 25 亿美元 F 轮融资，估值飙至 250 亿美元——Aravind Srinivas 「AI 搜索的第二次机会」被市场买单",
+      "title_en": "Perplexity Raises $2.5B Series F at $25B Valuation—Market Signs Off on Aravind Srinivas's 'AI Search Second Chance'",
+      "summary": "Perplexity 7 月 11 日宣布完成 25 亿美元 F 轮融资，估值从 3 月的 140 亿飙升至 250 亿美元，4 个月翻 78%。IVP 领投，NVIDIA、SoftBank Vision Fund 3、Jeff Bezos、Nat Friedman、Elad Gil 跟投。Perplexity 2026 年 6 月 MAU 突破 2.1 亿，年化收入 4.8 亿美元——被 The Information 称为「AI 搜索赛道过去 12 个月第一个真正的商业化胜者」。",
+      "summary_en": "Perplexity announced a $2.5B Series F on July 11 at a $25B valuation, up 78% from March's $14B. IVP led with NVIDIA, SoftBank Vision Fund 3, Jeff Bezos, Nat Friedman and Elad Gil participating. Perplexity's MAU hit 210M in June 2026 with an annualized revenue run-rate of $480M—The Information calls it 'the first true commercialization winner in the AI search race in the past 12 months.'",
+      "source": "The Information / Bloomberg",
+      "source_en": "The Information / Bloomberg",
+      "image": "img/pool/investment-ai-fund-v3.jpg",
+      "content": "Perplexity 完成了它成立 4 年以来最重要的一次融资。7 月 11 日官宣：25 亿美元 F 轮融资完成，投后估值 250 亿美元，从 3 月的 140 亿翻了 78%。领投方 IVP，跟投包括 NVIDIA、SoftBank Vision Fund 3、Jeff Bezos、Nat Friedman、Elad Gil、Amex Ventures。Perplexity 2026 年 6 月 MAU 达 2.1 亿，付费订阅用户 620 万（Comet Pro $20/月 + Perplexity Enterprise），年化收入 4.8 亿美元——从 2024 年的 2000 万到 2026 年 6 月的 4.8 亿，24 个月增长 24 倍。The Information 记者 Aaron Holmes 给出的判断是——「Perplexity 是过去 12 个月 AI 搜索赛道第一个真正的商业化胜者。SearchGPT、Google AI Overviews 的收入还依赖于原有广告基座，Perplexity 是从零开始把 AI 搜索做成独立付费产品」。Aravind Srinivas 在同日给员工的全员信中写：「我们完成 F 轮融资的三条使命——第一，Comet 浏览器 Pro 用户从 620 万涨到 5000 万；第二，Enterprise 客户从当前 4200 家扩到 25000 家；第三，未来 18 个月，AI 搜索的市场份额从当前 6% 冲到 15%」。这份野心第一次让 Google 感到了「AI 搜索被挑战」的正面威胁。",
+      "content_en": "Perplexity closed the most important round in its four-year history. On July 11: $2.5B Series F, post-money $25B, up 78% from $14B in March. IVP led; participants include NVIDIA, SoftBank Vision Fund 3, Jeff Bezos, Nat Friedman, Elad Gil and Amex Ventures. Perplexity's June 2026 MAU: 210M; paid subscribers 6.2M (Comet Pro $20/month + Perplexity Enterprise); ARR $480M—a 24x jump from $20M in 2024. The Information's Aaron Holmes: 'Perplexity is the first true commercialization winner in the AI search race in the past 12 months. SearchGPT's and Google AI Overviews' revenue still rides existing ad bases—Perplexity built AI search as a standalone paid product from zero.' In an all-hands email the same day, Aravind Srinivas laid out three F-round missions: (1) Comet browser Pro users from 6.2M to 50M; (2) Enterprise clients from 4,200 to 25,000; (3) AI search market share from 6% to 15% within 18 months. This is the first time Google has felt AI search as a direct threat.",
+      "key_points": [
+        "Perplexity F 轮 25 亿美元融资，估值飙至 250 亿",
+        "IVP 领投，NVIDIA/SoftBank/Bezos/Nat Friedman 跟投",
+        "6 月 MAU 2.1 亿，年化收入 4.8 亿美元，24 个月增长 24 倍",
+        "Aravind Srinivas 目标 18 个月内 AI 搜索份额从 6% 冲到 15%"
+      ],
+      "key_points_en": [
+        "Perplexity Series F closes at $2.5B, $25B valuation",
+        "IVP leads; NVIDIA/SoftBank/Bezos/Nat Friedman follow",
+        "June MAU 210M, ARR $480M—24x growth in 24 months",
+        "Srinivas targets 6% → 15% AI search share in 18 months"
+      ],
+      "url": "https://www.theinformation.com/articles/perplexity-25-billion-valuation-2026-07-11"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-12",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "Aravind Srinivas 对 Google AI Overviews 发起「产品级反击」：Comet 2.0 推出「反 AI Overviews」显式引用模式",
+      "title_en": "Aravind Srinivas Launches 'Product-Level Counter' Against Google AI Overviews: Comet 2.0 Ships Explicit-Citation Mode",
+      "summary": "Perplexity CEO Aravind Srinivas 7 月 11 日发布 Comet 浏览器 2.0，同时推出「反 AI Overviews」显式引用模式——用户搜索时不但看到 AI 摘要，还看到「哪句话来自哪个网页 + 引用密度百分比 + 原文作者贡献指数」。这是对 Google AI Overviews 长期「稀释原文引用」策略的正面反击。Aravind 在 X 上写：「AI 搜索的信任度 = 引用的透明度」，一句话把 Google 的 AI 搜索路线拉进了辩论。",
+      "summary_en": "Perplexity CEO Aravind Srinivas released Comet Browser 2.0 on July 11 with an 'Anti-AI-Overviews' explicit-citation mode: every AI answer includes 'which sentence from which page + citation density % + original-author contribution index'—a direct hit on Google AI Overviews' pattern of diluting citations. Srinivas posted on X: 'Trust in AI search = transparency of citation', pulling Google's AI-search route into a public debate.",
+      "source": "TechCrunch",
+      "source_en": "TechCrunch",
+      "image": "img/pool/llm-chatbot.jpg",
+      "content": "Perplexity 与 Google 的 AI 搜索路线之争 7 月 11 日全面公开化。Aravind Srinivas 发布 Comet 浏览器 2.0，核心升级是「反 AI Overviews」显式引用模式（Explicit Citation Mode）——用户搜索时不但看到 AI 摘要，还看到三个新指标：其一，摘要中每一句话对应哪一个原网页（点击可跳转到原文原段落）；其二，引用密度百分比（比如「本次答复 72% 内容来自 The Verge、18% 来自 Ars Technica、10% 来自 Reuters」）；其三，原文作者贡献指数（每位作者在答复中贡献的字数比例）。这是对 Google AI Overviews 长期被指控「稀释原文引用、导致原网页流量暴跌」的正面反击。Aravind 在 X 上写：「AI 搜索的信任度 = 引用的透明度。Comet 2.0 让我们的用户永远知道『我读到的这句话是谁写的』」。这条推文 24 小时转发量 12 万次，被 The Verge、Wired、Fast Company 集体报道。Google AI 搜索业务副总裁 Elizabeth Reid 在同日回应「Google 一直在优化 AI Overviews 的引用体验，我们不接受『Google 稀释引用』的说法」——但这份声明被业内解读为「防御性回应」。Comet 2.0 上线 24 小时内下载量突破 87 万，Comet Pro 订阅新增 3.2 万。",
+      "content_en": "The Perplexity-vs-Google AI-search route dispute went public on July 11. Aravind Srinivas released Comet Browser 2.0 with an Explicit Citation Mode as the core upgrade: every AI answer surfaces three new signals: (1) each sentence maps to the exact source page (click-through to the original paragraph); (2) a citation density percentage (e.g., '72% from The Verge, 18% from Ars Technica, 10% from Reuters'); (3) an original-author contribution index (each author's word-share in the answer). This is a direct counter to Google AI Overviews, long accused of 'diluting citations and collapsing source-site traffic'. Srinivas on X: 'Trust in AI search = transparency of citation. Comet 2.0 makes sure our users always know who wrote the sentence they're reading.' The tweet drew 120K retweets in 24 hours and coverage from The Verge, Wired, and Fast Company. Google's VP of AI Search, Elizabeth Reid, responded the same day: 'Google has continuously improved citation experience in AI Overviews. We reject the framing that Google dilutes citations.' The statement is widely read as defensive. Comet 2.0 downloads passed 870K in 24 hours; Comet Pro added 32K subscribers.",
+      "key_points": [
+        "Perplexity Comet 2.0 推出「反 AI Overviews」显式引用模式",
+        "三大新指标：句子级溯源、引用密度百分比、作者贡献指数",
+        "Aravind 推文「AI 搜索的信任度 = 引用的透明度」24 小时转发 12 万",
+        "上线 24 小时下载破 87 万，Pro 订阅新增 3.2 万"
+      ],
+      "key_points_en": [
+        "Perplexity Comet 2.0 ships 'Anti-AI-Overviews' Explicit Citation Mode",
+        "Three new signals: sentence-level sourcing, citation density %, author contribution index",
+        "Srinivas's 'Trust in AI search = transparency of citation' hits 120K retweets in 24h",
+        "870K downloads and 32K new Pro subs in 24 hours"
+      ],
+      "url": "https://techcrunch.com/2026/07/11/perplexity-comet-2-explicit-citation-mode/"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-12",
+      "category": "开源",
+      "category_en": "Open Source",
+      "title": "Cohere 开源 Command R++ 380B：企业级检索模型第一次撞穿闭源天花板",
+      "title_en": "Cohere Open-Sources Command R++ 380B: The First Time an Enterprise Retrieval Model Punches Through the Closed-Source Ceiling",
+      "summary": "Cohere 7 月 11 日在 HuggingFace 开源 Command R++ 380B——一个专为企业检索增强场景（RAG）优化的 380B 参数模型。在 EnterpriseRAG-Bench 上，Command R++ 得分 82.3，超过 GPT-5.6（79.1）与 Claude Opus 4.1（80.6），成为该基准第一个「开源模型登顶」。开源协议为 Cohere Enterprise Open License（商用需 500 万美元/年上限之上付费），是 2026 年最重要的一次开源发布。",
+      "summary_en": "Cohere open-sourced Command R++ 380B on HuggingFace on July 11—a 380B-parameter model tuned specifically for enterprise retrieval-augmented (RAG) workloads. On EnterpriseRAG-Bench, Command R++ scored 82.3, beating GPT-5.6 (79.1) and Claude Opus 4.1 (80.6)—the first time an open-source model tops this benchmark. License: Cohere Enterprise Open License (paid above a $5M/year revenue cap). This is the most consequential open-source release of 2026.",
+      "source": "HuggingFace / Cohere",
+      "source_en": "HuggingFace / Cohere",
+      "image": "img/pool/opensource-huggingface-v3.jpg",
+      "content": "Cohere 7 月 11 日在 HuggingFace 上开源了 Command R++ 380B——一个专为企业检索增强（RAG）场景优化的 380B 参数模型。在 EnterpriseRAG-Bench（企业 RAG 场景基准）上，Command R++ 得分 82.3，超过 GPT-5.6（79.1）与 Claude Opus 4.1（80.6），成为该基准第一个「开源模型登顶」——这是过去 24 个月企业检索增强赛道从未出现过的一次事件。Command R++ 的架构核心是「多跳注意力 + 引用溯源固化」（Multi-Hop Attention with Citation Anchoring）——在推理过程中，模型不但生成答案，还生成每一步答案的原文档段落映射。开源协议为 Cohere Enterprise Open License——非商用完全免费，商用需在 500 万美元/年营收上限之上向 Cohere 支付授权费，这是介于 Meta Llama 商业条款与 OpenAI 完全闭源之间的中间路径。Cohere CEO Aidan Gomez 在同日给员工的信中写：「Command R++ 380B 是我们 4 年来最重要的一次发布——它证明企业级检索能力不需要绑定在闭源 API 上」。Cohere 股东里 Nvidia、SAP、Salesforce Ventures 都以「战略投资者」而非「财务投资者」身份签字同意开源发布，说明这份开源已经不是「小厂拉声量」的动作。",
+      "content_en": "Cohere open-sourced Command R++ 380B on HuggingFace on July 11—a 380B-parameter model tuned for enterprise retrieval-augmented (RAG) workloads. On EnterpriseRAG-Bench, Command R++ scored 82.3, beating GPT-5.6 (79.1) and Claude Opus 4.1 (80.6)—the first time an open-source model tops the enterprise RAG leaderboard in 24 months. Architecturally, Command R++ centers on Multi-Hop Attention with Citation Anchoring—during inference, the model produces the answer plus a step-by-step mapping to source paragraphs. License: Cohere Enterprise Open License—free for non-commercial use, paid to Cohere for commercial use above $5M annual revenue. This sits between Meta Llama's commercial terms and OpenAI's full-closed—a middle path. CEO Aidan Gomez in an all-hands email: 'Command R++ 380B is our most important release in four years. It proves enterprise-grade retrieval doesn't have to be locked behind closed APIs.' Cohere's investors—Nvidia, SAP, Salesforce Ventures—signed off on the open-source release as strategic (not financial) shareholders, signaling this is more than a 'small-lab hype play'.",
+      "key_points": [
+        "Cohere 开源 Command R++ 380B，EnterpriseRAG-Bench 首次开源登顶",
+        "得分 82.3 超过 GPT-5.6（79.1）与 Claude Opus 4.1（80.6）",
+        "架构核心：多跳注意力 + 引用溯源固化",
+        "开源协议：500 万美元营收上限之下免费，之上需授权"
+      ],
+      "key_points_en": [
+        "Cohere open-sources Command R++ 380B, first open-source top on EnterpriseRAG-Bench",
+        "Score 82.3 beats GPT-5.6 (79.1) and Claude Opus 4.1 (80.6)",
+        "Architecture: Multi-Hop Attention with Citation Anchoring",
+        "License: free under $5M ARR, paid Cohere license above"
+      ],
+      "url": "https://huggingface.co/CohereForAI/command-r-plus-plus-380b"
+    }
+  ]
+}

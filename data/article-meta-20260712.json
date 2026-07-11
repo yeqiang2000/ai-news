@@ -1,0 +1,18 @@
+{
+  "id": "article-41",
+  "date": "2026-07-12",
+  "category": "深度解读",
+  "category_en": "Deep Analysis",
+  "title": "AI 电力霸权：数据中心撞穿电网天花板，AI 与国民电力的争夺战全面开启——从 xAI Memphis 断电到 HB-2401 到 AI 专用电价",
+  "title_en": "The AI Power Hegemony: Data Centers Punch Through the Grid Ceiling as the AI-vs-Citizen Electricity Battle Ignites—From xAI Memphis Outages to HB-2401 to AI Industrial Tariffs",
+  "summary": "2026 年 7 月 11~12 日四份关键数据揭示了 AI 产业的第六次结构性拐点——「电力」。xAI Memphis 二期 800MW 提前投运但触发 TVA 电网 6 月三次紧急减载，Memphis 居民电价单月上涨 13.7%；爱尔兰 EPA 全国暂停新数据中心批准至 2027 Q2，AWS/Microsoft/Google 都柏林 3.2GW 扩产被冻结；弗吉尼亚州 HB-2401 法案取消 20 年数据中心税收减免，Data Center Alley 20 年历史首次「反悔性重估」；日本关西电力发布全球第一份「AI 专用工业电价」+19.5%。四份数据合流指向一个共识——AI 产业进入「算力→电力→电网→国民电价」四层传导阶段。本文从事实核对、AI 电力挤兑三大症状、Data Center Alley 撞南墙、AI 专用电价定价学、Cost-Aware Compute 的电力维度、AI 电力霸权新格局、投资启示 7 个维度深度拆解。",
+  "summary_en": "Four datasets on July 11–12, 2026 reveal the AI industry's sixth structural inflection—power. xAI Memphis Phase-II 800MW came online early but triggered three emergency load-sheds on the TVA grid in June, with Memphis residential electricity rising 13.7% in one month; Ireland's EPA suspends all new data center approvals through Q2 2027, freezing 3.2GW of AWS/Microsoft/Google Dublin expansions; Virginia's HB-2401 revokes the 20-year data-center tax abatement, marking Data Center Alley's first 'reversal-driven reassessment'; Kansai Electric Power launches the world's first 'AI Industrial Electricity Tariff' at +19.5%. Four signals converge on one thesis: the industry has entered a four-layer transmission—compute → power → grid → residential tariff. This article breaks it down across seven axes: fact-check, three symptoms of AI power squeeze, Data Center Alley hitting its wall, the pricing science of AI-specific tariffs, the power dimension of Cost-Aware Compute, the new AI power hegemony landscape, and investment takeaways.",
+  "image": "img/pool/energy-gas-turbine-v4.jpg",
+  "author": "AI News Daily",
+  "read_time": "阅读约 19 分钟",
+  "read_time_en": "Approximately 19 min read",
+  "url": "articles/article-41.html",
+  "url_en": "articles/en/article-41.html",
+  "source": "AI News Daily 综合分析",
+  "source_en": "AI News Daily Analysis"
+}

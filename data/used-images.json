@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-11",
+  "last_updated": "2026-07-12",
   "used_urls": [
     "https://ainewsdaily.asia/img/pool/autonomous-drone-v3.jpg",
     "https://ainewsdaily.asia/img/pool/blockchain-defi-v3.jpg",
@@ -248,7 +248,19 @@
     "https://ainewsdaily.asia/img/pool/opensource-collab.jpg",
     "https://ainewsdaily.asia/img/pool/opensource-workshop.jpg",
     "https://ainewsdaily.asia/img/pool/robotics-humanoid.jpg",
-    "https://ainewsdaily.asia/img/pool/tech-innovation.jpg"
+    "https://ainewsdaily.asia/img/pool/tech-innovation.jpg",
+    "https://ainewsdaily.asia/img/pool/energy-smart-grid.jpg",
+    "https://ainewsdaily.asia/img/pool/energy-gas-turbine-v4.jpg",
+    "https://ainewsdaily.asia/img/pool/data-center-gpu-rack-v4.jpg",
+    "https://ainewsdaily.asia/img/pool/policy-regulation.jpg",
+    "https://ainewsdaily.asia/img/pool/policy-ai-benefit-v4.jpg",
+    "https://ainewsdaily.asia/img/pool/energy-03-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/vr_ar-02-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/vr-ar-retail.jpg",
+    "https://ainewsdaily.asia/img/pool/vr-technology.jpg",
+    "https://ainewsdaily.asia/img/pool/investment-ai-fund-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/llm-chatbot.jpg",
+    "https://ainewsdaily.asia/img/pool/opensource-huggingface-v3.jpg"
   ],
-  "total_used": 247
+  "total_used": 259
 }
