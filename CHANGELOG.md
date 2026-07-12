@@ -2,6 +2,40 @@
 
 所有网站内容与功能的更新记录，每次更新时追加到本文档。
 
+## 2026-07-13 · 网站+微信 · article-42（隔天规则首次落地，不写头条）
+
+### 网站版：article-42 上线
+- **主题**：《开源前沿撞开天花板：GLM-5.2 首破 SWE-Bench Pro，2026 年 7 月开源与闭源力量对比全面重构——从「跟随」到「攻顶」的产业拐点》
+- **切角**：智谱 GLM-5.2（744B MoE）以 68.5% 成为首个突破 SWE-Bench Pro 的开源模型 → 扩展至「开源攻顶 + 闭源变阵（GPT-5.6 Sol/Terra/Luna + Grok 4.5 + Claude Fable）+ 主权卡位（韩国 K-AI 2028 / WAIC 2026）」三线并存的产业格局
+- **规模**：中文 36.2 KB + 英文 36.6 KB，20 分钟阅读，正文 11,251 字
+- **累计**：articles.json 总数 40→41，sitemap.xml 86→88 URL，used-images 259→271
+
+### 微信版：张鹏（智谱 AI CEO）8 年攻顶叙事
+- **主题**：《张鹏 × GLM-5.2 · 8 年攻顶》（避开最近 4 期人物 Aravind/LeCun/Altman/王兴兴）
+- **文件**：`wechat/wechat-2026-07-13.html`（21.9 KB，677px table，10 tables / 54 tds / 0 divs / 1 hero `<img>` ✓ / 「晓色」原创声明 ✓）
+- **hero 图**：`https://ainewsdaily.asia/img/pool/startup-cofounders-v3.jpg`
+- **公开 URL**：`https://www.coze.cn/s/LMoIECjsQBE/`
+- **✅ 7/12 遗留学习点闭环**：微信 hero `<img>` 首次由子 agent 直接产出（≥1），主 agent 无需后处理补救；SOP §6.1 的新增要求在任务卡内验收环节生效
+
+### 头条版：不产出（7/13 奇数日按新规则跳过）
+
+### SOP 修订生效点（本次首次落地验证）
+1. **隔天规则**（2026-07-12 主人修订）：7/13 奇数日 → 网站 + 微信；头条留待 7/14 偶数日执行 ✓
+2. **微信 hero `<img>` 硬性要求**（2026-07-12 补入 SOP §6.1）：子 agent 直出 hero 图（完整线上 URL），主 agent 收敛验收 `grep -c '<img'` ≥1 ✓
+3. **同一文件 edit_file 串行**（2026-07-11 强制）：侧边栏 2 次 edit（插 42 → 删 32），中间态 grep=11 → 最终 10，首条 article-42 ✓
+
+### 部署与发布
+- **Git commit**：`b292bfd` (9 files, +697/-431)
+- **Cloudflare**：`https://0dec8806.ainewsdaily.pages.dev`（10 files new / 309 cached / 3.19s）
+- **线上验证**：sitemap.xml HTTP 200/xml ✓ / article-42.html HTTP 308（CF Pages 去 .html 正常）✓ / Yandex ping HTTP 200 ✓
+- **数据一致性**：sidebar=10 首条 article-42 / news.json last_updated=2026-07-13 hero=hero-2026-07-13 / sitemap 88 URL ✓
+
+### 本次学习点
+- **articles.json 字段命名不一致（历史遗留）**：老文章（article-22/23 等）用 `title`/`summary`/无 url 键；中期文章（article-1~）用 `url`；新文章（article-41~）用 `title_zh`/`url_zh`。sitemap 生成脚本需三重兜底：`url_zh` → `url` → `articles/{id}.html`。已在 07-13 sitemap 脚本落实，`article-22/23` 用兜底路径正常上榜（+4 URL 修复历史遗漏）。
+- **article-meta 字段命名（保持沿用）**：子 agent 用 `title`/`title_en`（不加 `_zh`），主 agent 合并 articles.json 时才做 `title → title_zh`、`summary → summary_zh` 转换 —— 与 07-11/07-12 一致，不改子 agent 端。
+
+---
+
 ## 2026-07-12 · 三件套日更 · article-41
 
 ### 网站版：article-41 上线
