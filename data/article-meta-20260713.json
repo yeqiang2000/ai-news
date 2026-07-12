@@ -1,0 +1,18 @@
+{
+  "id": "article-42",
+  "date": "2026-07-13",
+  "category": "深度解读",
+  "category_en": "Deep Analysis",
+  "title": "开源前沿撞开天花板：GLM-5.2 首破 SWE-Bench Pro，2026 年 7 月开源与闭源力量对比全面重构——从「跟随」到「攻顶」的产业拐点",
+  "title_en": "Open-Source Breaks Through the Ceiling: GLM-5.2 Tops SWE-Bench Pro, July 2026 Rewrites the Open-vs-Closed Balance—From 'Following' to 'Summit Assault'",
+  "summary": "2026 年 7 月 12 日 LLMCheck 开源指数正式发布——智谱 AI 的 GLM-5.2（744B MoE）以 68.5% 的成绩，成为历史上第一个在 SWE-Bench Pro 上同时击败 OpenAI GPT-5 与 Anthropic Claude 的开源大模型。同期 Qwen 4.1、DeepSeek R3、Llama 5 405B、Kimi K3 集体出手，30 天内 10 款开源前沿模型密集发布。叠加 GPT-5.6 Sol/Terra/Luna 全量放开、ChatGPT Work 智能体登场、Anthropic 三星 2nm 自研芯片曝光、Meta Muse Spark 1.1 首开 API、xAI 60 亿收购 Anysphere、韩国 5760 亿美元 K-AI 2028 计划、WAIC 2026 倒计时——7 月成为 AI 产业「开源攻顶、闭源变阵、主权卡位」三条主线同时爆发的月份。本文从事实核对、GLM-5.2 的技术拆解、开源攻顶的 3 条支撑逻辑、闭源变阵的 3 步收缩、主权卡位的 4 大板块、产业格局重构、投资启示 7 个维度，深度拆解开源 vs 闭源力量对比在 2026 年 7 月的这次系统性重估。",
+  "summary_en": "On July 12, 2026, LLMCheck's Open-Source Index made history: Zhipu AI's GLM-5.2 (744B MoE) scored 68.5% on SWE-Bench Pro—the first open-weights model ever to simultaneously beat OpenAI GPT-5 and Anthropic Claude on the hard agentic-coding benchmark. Alongside Qwen 4.1, DeepSeek R3, Llama 5 405B, and Kimi K3, ten flagship open-source models launched within 30 days. Layered with the full launch of GPT-5.6 Sol/Terra/Luna, ChatGPT Work's debut, Anthropic's Samsung 2nm chip disclosure, Meta Muse Spark 1.1 opening API, xAI's $60B Anysphere acquisition, Korea's $576B K-AI 2028 plan, and the WAIC 2026 countdown—July became the month when the AI industry's three inflections erupted at once: open-source summit assault, closed-lab reformation, and sovereign-AI positioning. This article breaks down the July 2026 open-vs-closed re-rating across seven axes: fact-check, GLM-5.2 technical anatomy, three pillars of the open assault, three steps of closed retreat, four sovereign blocs, industry restructuring, and investment takeaways.",
+  "image": "img/pool/opensource-ai-framework.jpg",
+  "author": "AI News Daily",
+  "read_time": "阅读约 20 分钟",
+  "read_time_en": "Approximately 20 min read",
+  "url": "articles/article-42.html",
+  "url_en": "articles/en/article-42.html",
+  "source": "AI News Daily 综合分析",
+  "source_en": "AI News Daily Analysis"
+}

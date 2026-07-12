@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-12",
+  "last_updated": "2026-07-13",
   "used_urls": [
     "https://ainewsdaily.asia/img/pool/autonomous-drone-v3.jpg",
     "https://ainewsdaily.asia/img/pool/blockchain-defi-v3.jpg",
@@ -260,7 +260,19 @@
     "https://ainewsdaily.asia/img/pool/vr-technology.jpg",
     "https://ainewsdaily.asia/img/pool/investment-ai-fund-v3.jpg",
     "https://ainewsdaily.asia/img/pool/llm-chatbot.jpg",
-    "https://ainewsdaily.asia/img/pool/opensource-huggingface-v3.jpg"
+    "https://ainewsdaily.asia/img/pool/opensource-huggingface-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/opensource-ai-framework.jpg",
+    "https://ainewsdaily.asia/img/pool/deep-analysis-benchmark.jpg",
+    "https://ainewsdaily.asia/img/pool/llm-multimodal.jpg",
+    "https://ainewsdaily.asia/img/pool/ai-code-assist.jpg",
+    "https://ainewsdaily.asia/img/pool/llm-training.jpg",
+    "https://ainewsdaily.asia/img/pool/datacenter-ai-chip.jpg",
+    "https://ainewsdaily.asia/img/pool/opensource-hackathon.jpg",
+    "https://ainewsdaily.asia/img/pool/open-source-code.jpg",
+    "https://ainewsdaily.asia/img/pool/investment-ai-fund.jpg",
+    "https://ainewsdaily.asia/img/pool/llm-code-gen.jpg",
+    "https://ainewsdaily.asia/img/pool/policy-summit.jpg",
+    "https://ainewsdaily.asia/img/pool/startup-cofounders-v3.jpg"
   ],
-  "total_used": 259
+  "total_used": 271
 }
