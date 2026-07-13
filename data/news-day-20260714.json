@@ -1,0 +1,298 @@
+{
+  "date": "2026-07-14",
+  "hero": {
+    "id": "hero-2026-07-14",
+    "title": "「AI 消费元年」叩门：国务院《扩大消费「十五五」规划》＋八部门《AI+消费》＋WAIC 2026 首发季，同一周把中国 AI 产业推向「下游落地」新拐点",
+    "title_en": "China's 'AI-Consumer Year' Arrives: State Council's 15th Five-Year Consumption Plan + 8-Ministry 'AI+Consumption' Directive + WAIC 2026 Debut Season Pivot the Industry Downstream",
+    "image": "img/pool/smart-city.jpg",
+    "date": "2026-07-14",
+    "source": "AI News Daily 综合",
+    "source_en": "AI News Daily Analysis",
+    "summary": "2026 年 7 月 13 日中国政府网正式挂出国务院《扩大消费「十五五」规划》——目标 2030 年社零总额 60 万亿元，把「深入推进人工智能＋消费」写进纲领；同一周，商务部等八部门联合印发的《人工智能＋消费实施意见》（商建发2026 年第 89 号，5 大方面 17 条举措）进入落地窗口，个人消费贷款贴息首次覆盖 AI 产品购买。7 月 13 日上海张江与徐汇分别迎来两大重磅——阶跃星辰发布全球首个大模型原生 AI 终端品牌 STEPX、首款智能体手机 STEPX Neo 与智能体原生系统 Step AOS；东方算芯发布并量产基于国产 14nm 的全球首款 3D 堆叠近存计算 AI 芯片 DF1000。距 WAIC 2026（7 月 17-20 日，上海三地四馆、10 万平方米、1100 余家企业）开幕只剩 3 天。这一周把中国 AI 产业的重心从「上游算力/模型军备」明确拨向「下游消费级红利」，「AI 消费元年」正式叩门。",
+    "summary_en": "On July 13, 2026, China's State Council formally released the 15th Five-Year Consumption Expansion Plan (No. 66)—targeting RMB 60 trillion in retail sales by 2030 and writing 'deepen AI+Consumption' into the national blueprint. The same week, the joint 8-ministry Implementation Opinions on AI+Consumption (5 pillars, 17 measures) entered execution—individual consumer-loan interest subsidies now cover AI product purchases for the first time. Also on July 13, Shanghai Zhangjiang saw Zhixinghe Technology (StepFun) launch STEPX, the world's first LLM-native AI terminal brand, with agentic phone STEPX Neo and agent-native OS Step AOS; Dongfang Suanxin taped out and shipped DF1000, the world's first 3D-stacked near-memory AI chip on domestic 14nm. WAIC 2026 opens in 3 days (July 17-20, 100,000 sqm across Shanghai's three sites and four halls, 1,100+ exhibitors). This week decisively shifts China's AI center of gravity from 'upstream compute/model arms race' to 'downstream consumer-grade payoff'—the 'AI Consumer Year' has officially arrived.",
+    "category": "深度解读",
+    "category_en": "Deep Analysis"
+  },
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-14",
+      "category": "行业观察",
+      "category_en": "Industry",
+      "title": "OpenRouter 7 月第 2 周数据：腾讯 Hy3 (free) 登顶、中国大模型连续 11 周霸榜、全球周调用量突破 54.6 万亿 Token",
+      "title_en": "OpenRouter Week 2 of July: Tencent Hy3 (free) Tops the Chart, Chinese Models Dominate 11 Weeks in a Row, Global Weekly Tokens Break 54.6 Trillion",
+      "summary": "OpenRouter 最新周报（7 月 6-12 日）显示，全球 Token 调用量 54.6 万亿，环比＋12.6%；中国 AI 大模型 27.58 万亿 Token（＋17.61%，连续 7 周增长），是美国 6.33 万亿的 4.36 倍；中国大模型周调用量连续 11 周超过美国。前六名全部为中国模型：腾讯 Hy3 (free) 以 6.13 万亿登顶终结 DeepSeek-V4-Flash 七连冠，小米 MiMo-V2.5 第二 5.95 万亿，DeepSeek-V4-Flash 第三 5.22 万亿。英伟达 Nemotron 3 Ultra 以＋109% 增速首次登榜第八，推理成本仅头部闭源模型的 1/10。",
+      "summary_en": "OpenRouter's July 6-12 weekly report: global weekly tokens hit 54.6 trillion (+12.6% WoW); Chinese AI models processed 27.58 trillion tokens (+17.61%, 7-week rising streak), 4.36x the US total (6.33T); Chinese models have outpaced US models for 11 consecutive weeks. The top six are all Chinese: Tencent Hy3 (free) took #1 with 6.13T tokens, ending DeepSeek-V4-Flash's 7-week reign; Xiaomi MiMo-V2.5 #2 at 5.95T; DeepSeek-V4-Flash #3 at 5.22T. Nvidia's Nemotron 3 Ultra debuts at #8 with +109% growth—inference cost just 1/10 of the leading closed models.",
+      "source": "OpenRouter / 每日经济新闻",
+      "source_en": "OpenRouter / National Business Daily",
+      "image": "img/pool/data-visualization.jpg",
+      "content": "OpenRouter 官方 7 月 13 日凌晨更新的周报把中国大模型在全球开发者调用市场的领先优势推到了新高。7 月 6-12 日全球所有大模型周调用 Token 量达到 54.6 万亿，环比＋12.6%——继 6 月末破 50 万亿之后，7 月第 2 周继续拉高上限。分区来看，中国 AI 大模型合计 27.58 万亿 Token（＋17.61%，连续 7 周增长），美国 6.33 万亿（＋47.9%，反弹但基数低）——中国是美国的 4.36 倍，中国大模型的周 Token 调用量已经连续 11 周超过美国。榜单前六名全部为中国模型：腾讯 Hy3 (free) 以 6.13 万亿夺得第一，终结 DeepSeek-V4-Flash 的七连冠；小米 MiMo-V2.5 以 5.95 万亿（＋36%）逼近榜首；DeepSeek-V4-Flash 以 5.22 万亿（-2%）滑落第三；MiniMax M3 4.26 万亿（＋4%）第四；智谱 GLM 5.2 3.19 万亿（＋24%）第五。最亮眼的黑马是英伟达自研 Nemotron 3 Ultra——2.04 万亿（＋109%）首次登榜第八，6 月 4 日上线不满 6 周即杀入前十，推理成本仅头部闭源模型的 1/10。腾讯 Hy3 是 2950 亿参数 MoE、激活 210 亿、256K 上下文，SWE-bench Pro 57.9% 反超 DeepSeek V4 Pro，发布日腾讯股价单日＋4.82%。更值得关注的信号——美国企业用中国模型的 Token 占比在 2026 年 2 月起稳定超过 30%，最高触及 46%（2025 年上半年仅 4.5%）——中国大模型不只是「在开发者社区免费的领先」，正在真实穿透美国企业付费栈。",
+      "content_en": "OpenRouter's weekly report released early on July 13 pushed Chinese LLMs to a new frontier in the global developer market. Global weekly tokens hit 54.6 trillion (+12.6% WoW)—continuing to raise the ceiling after breaking 50T in late June. Chinese AI models processed 27.58T tokens (+17.61%, 7-week rising streak) vs US models at 6.33T (+47.9%, low-base rebound). Chinese is 4.36x US; Chinese weekly token calls have exceeded US for 11 consecutive weeks. The top six are all Chinese: Tencent Hy3 (free) took #1 at 6.13T, ending DeepSeek-V4-Flash's 7-week reign; Xiaomi MiMo-V2.5 #2 at 5.95T (+36%); DeepSeek-V4-Flash slipped to #3 at 5.22T (-2%); MiniMax M3 #4 at 4.26T (+4%); Zhipu GLM 5.2 #5 at 3.19T (+24%). The dark horse: Nvidia's in-house Nemotron 3 Ultra debuts at #8 at 2.04T (+109%)—breaking into top-10 within 6 weeks of its June 4 launch, with inference cost 1/10 of leading closed models. Hy3 is a 295B MoE with 21B active parameters, 256K context, and 57.9% on SWE-bench Pro (beating DeepSeek V4 Pro); Tencent's stock jumped +4.82% on launch day. The bigger signal: US-enterprise share of Chinese-model tokens has been stable above 30% since Feb 2026, peaking at 46% (vs only 4.5% in H1 2025)—Chinese LLMs are no longer just 'community-leading and free', they are penetrating US enterprise paid stacks for real.",
+      "key_points": [
+        "全球周 Token 54.6 万亿（＋12.6% WoW），中国 27.58 万亿是美国 6.33 万亿的 4.36 倍",
+        "腾讯 Hy3 (free) 6.13 万亿登顶，终结 DeepSeek-V4-Flash 七连冠；前六名全部为中国模型",
+        "英伟达 Nemotron 3 Ultra ＋109% 首次登榜第八，推理成本 1/10；美国企业用中国模型占比稳定 >30%",
+        "腾讯 Hy3 参数 295B MoE 激活 21B，256K 上下文，SWE-bench Pro 57.9% 反超 DeepSeek V4 Pro"
+      ],
+      "key_points_en": [
+        "Global weekly tokens 54.6T (+12.6% WoW); Chinese 27.58T is 4.36x US 6.33T",
+        "Tencent Hy3 (free) took #1 at 6.13T, ending DeepSeek-V4-Flash's 7-week reign; top 6 all Chinese",
+        "Nvidia Nemotron 3 Ultra +109% debuts at #8 with 1/10 inference cost; US-enterprise share of Chinese tokens stable above 30%",
+        "Tencent Hy3: 295B MoE, 21B active, 256K context, 57.9% on SWE-bench Pro (beats DeepSeek V4 Pro)"
+      ],
+      "url": "https://openrouter.ai/rankings"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-14",
+      "category": "政策法规",
+      "category_en": "Policy",
+      "title": "国务院《扩大消费「十五五」规划》正式公开：目标 2030 社零 60 万亿元，「深入推进人工智能＋消费」列为国家战略",
+      "title_en": "State Council's 15th Five-Year Consumption Expansion Plan Goes Public: RMB 60 Trillion Retail Target by 2030, 'Deepen AI+Consumption' Written Into National Strategy",
+      "summary": "7 月 13 日中国政府网正式挂出《国务院关于扩大消费的「十五五」规划的批复》（国函〔2026〕66 号，签署日期 2026 年 7 月 2 日）。这份 5 年国家消费战略把目标定在 2030 年社会消费品零售总额 60 万亿元，首次把「深入推进人工智能＋消费」列为规划核心内容之一——明确要求增加 AI 手机与电脑、智能穿戴、智能机器人、桌面级 3D 打印设备等新一代智能终端产品有效供给。政府同时定调「个人消费贷款财政贴息 + 数码产品购新补贴 + 以旧换新」三重政策组合拳把 AI 产品拉进补贴清单。上海财大预测每年拉动万亿级新增消费。",
+      "summary_en": "On July 13, gov.cn released the State Council's Reply on the 15th Five-Year Consumption Expansion Plan (No. 66, signed July 2, 2026). This 5-year national blueprint targets RMB 60 trillion in consumer retail sales by 2030 and, for the first time, elevates 'deepen AI+Consumption' to a core strategic pillar—explicitly requiring more effective supply of AI phones and PCs, smart wearables, intelligent robots, and desktop 3D printers. The Council pairs this with a three-pronged policy combo: individual consumer-loan interest subsidies, digital product trade-in vouchers, and green trade-in, all now covering AI products. Shanghai University of Finance & Economics forecasts trillion-yuan-scale annual incremental consumption.",
+      "source": "中国政府网 / 央视新闻",
+      "source_en": "gov.cn / CCTV News",
+      "image": "img/pool/ai-governance.jpg",
+      "content": "7 月 13 日《国务院关于扩大消费的「十五五」规划的批复》（国函〔2026〕66 号，签署日期 2026 年 7 月 2 日）正式在中国政府网公开。这份 5 年消费战略把「2030 年社会消费品零售总额达到 60 万亿元」写进目标，2025 年该数据为 48.79 万亿元——意味着未来 5 年年均复合增速需要 4.2%，需要新增长引擎接续。规划把「深入推进人工智能＋消费」列为最优先的新型消费方向，明确要求「增加 AI 手机和电脑、智能穿戴、智能机器人、桌面级 3D 打印设备等新一代智能终端产品有效供给」。「AI 消费元年」的政策底座由两份文件搭起：其一，八部门（商务部＋发改委＋中央网信办＋教育部＋工信部＋民政部＋住建部＋文旅部）联合印发的《关于加快数字消费扩容升级 深入推进人工智能＋消费的实施意见》（商建发 2026 年第 89 号），5 大方面 17 条举措，2026 年 6 月 18 日印发、7 月 1 日公开；其二，本次国务院《扩大消费「十五五」规划》。政策工具箱三重叠加——数码产品购新补贴、以旧换新、个人消费贷款财政贴息——首次把 AI 产品纳入贴息覆盖。市场端反馈已经出现：商务大数据 2026 年 1-4 月智能助行外骨骼网零额同比＋785.5%，4 月智能眼镜＋175.2%，人形机器人＋20.6%。上海财大消费大数据中心预测「AI＋消费」每年拉动万亿级新增消费——把中国 AI 产业的重心从「上游算力/模型军备」明确拨向「下游消费级红利」。",
+      "content_en": "On July 13 gov.cn officially published the State Council's Reply on the 15th Five-Year Consumption Expansion Plan (No. 66, signed July 2, 2026). This 5-year national plan targets RMB 60 trillion in retail sales by 2030—up from RMB 48.79 trillion in 2025, implying a 4.2% CAGR that needs a new growth engine. The plan elevates 'deepen AI+Consumption' to a top-priority consumption pillar, mandating 'greater effective supply of AI phones and PCs, smart wearables, intelligent robots, and desktop 3D printers'. The policy foundation of the 'AI Consumer Year' rests on two documents: (1) the 8-ministry (MOFCOM, NDRC, CAC, MOE, MIIT, MCA, MOHURD, MCT) Implementation Opinions on Accelerating Digital Consumption and Deepening AI+Consumption (No. 89, issued June 18, 2026, public July 1)—5 pillars, 17 measures; and (2) the current State Council 15th Five-Year Consumption Plan. Policy toolbox stacks three lever: digital product trade-in vouchers, green trade-in, and individual consumer-loan interest subsidies—now covering AI product purchases for the first time. Market signals are already up: MOFCOM big data shows Jan-Apr 2026 online sales of smart mobility exoskeletons +785.5% YoY, smart glasses +175.2% (April), humanoid robots +20.6%. SUFE's Consumption Big-Data Center forecasts trillion-yuan-scale annual incremental consumption—decisively shifting China's AI center of gravity from 'upstream compute/model arms race' to 'downstream consumer-grade payoff'.",
+      "key_points": [
+        "国务院《扩大消费「十五五」规划》（国函〔2026〕66 号）7 月 13 日公开，目标 2030 社零 60 万亿元",
+        "「深入推进人工智能＋消费」列为规划核心：AI 手机/电脑/智能穿戴/机器人/3D 打印",
+        "八部门《AI＋消费实施意见》5 方面 17 举措 + 个人消费贷款贴息首次覆盖 AI 产品",
+        "商务大数据：智能助行外骨骼＋785.5%、智能眼镜＋175.2%、人形机器人＋20.6%"
+      ],
+      "key_points_en": [
+        "State Council 15th Five-Year Consumption Plan (No. 66) public on July 13; RMB 60 trillion retail target by 2030",
+        "'Deepen AI+Consumption' becomes core: AI phones/PCs, wearables, robots, 3D printers",
+        "8-ministry AI+Consumption Directive (5 pillars, 17 measures) + consumer-loan subsidies now cover AI products",
+        "MOFCOM big data: smart exoskeletons +785.5%, smart glasses +175.2%, humanoid robots +20.6%"
+      ],
+      "url": "https://www.gov.cn/zhengce/zhengceku/202607/content_7075217.htm"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-14",
+      "category": "行业观察",
+      "category_en": "Industry",
+      "title": "WAIC 2026 进入 3 天倒计时：10 万平方米、1100 余家企业、300 款全球首发，「智能伙伴 共创未来」在上海开场",
+      "title_en": "WAIC 2026 Enters 3-Day Countdown: 100,000 sqm, 1,100+ Exhibitors, 300+ Global Debuts—'Intelligent Companion, Shared Future' Opens in Shanghai",
+      "summary": "第九届世界人工智能大会（WAIC 2026）将于 7 月 17-20 日在上海世博/张江/西岸「三地四馆」举办，主题「智能伙伴 共创未来」。展览面积首次突破 10 万平方米，1100 余家企业参展、3000 余项展品、超 300 款产品全球首发。140 余场论坛、1400 余位中外嘉宾、9 位图灵奖/诺奖得主。WAIC Academic 由姚期智主持，收到 9 国 284 篇投稿。智算、具身两大赛道各集结 200+ 家企业。已促成 57 个产业场景落地、达成 162 亿元意向合作。2025 年上海规上 AI 企业产业规模 6370 亿元（＋39.5%）。",
+      "summary_en": "The 9th World AI Conference (WAIC 2026) opens July 17-20 across Shanghai's three-site four-hall complex (Expo Center / Zhangjiang / West Bund), themed 'Intelligent Companion, Shared Future'. Exhibition area breaks 100,000 sqm for the first time, with 1,100+ exhibitors, 3,000+ exhibits, and 300+ global product launches. 140+ forums bring together 1,400+ Chinese and international speakers, including 9 Turing/Nobel laureates. WAIC Academic, chaired by Andrew Yao, received 284 papers from 9 countries. Intelligent-compute and embodied AI each mobilize 200+ companies. 57 industrial pilots have been finalized and RMB 16.2 billion in letters of intent signed. Shanghai's above-scale AI industry hit RMB 637 billion in 2025 (+39.5%).",
+      "source": "央视新闻 / 上海科技报",
+      "source_en": "CCTV News / Shanghai Science & Technology News",
+      "image": "img/pool/education-campus.jpg",
+      "content": "第九届世界人工智能大会（WAIC 2026）将于 7 月 17-20 日在上海世博/张江/西岸「三地四馆」举办，主题「智能伙伴 共创未来」。这是 WAIC 举办 9 届以来体量最大的一届——展览面积首次突破 10 万平方米，1100 余家企业参展、3000 余项展品、超 300 款产品全球首发。140 余场论坛、1400 余位中外嘉宾、9 位图灵奖 / 诺奖得主。学术侧 WAIC Academic 由姚期智主持，收到 9 国 284 篇投稿；产业侧智算与具身智能两大赛道各集结 200+ 家企业，覆盖芯片、云、模型、机器人、AI＋医疗/教育/工业等全链条。截至开幕前，主办方公布已促成 57 个产业场景落地、达成 162 亿元意向合作。上海作为主办地的产业底座已在 2025 年跑通规模：规上 AI 企业产业规模 6370 亿元（＋39.5%），169 款大模型通过备案，AI 人才近 30 万。WAIC 2026 与国务院《扩大消费「十五五」规划》、八部门《AI＋消费实施意见》三份文件在同一周落地——形成了「政策纲领 + 产业落地 + 全球平台」三足鼎立的中国 AI 消费化叙事底盘。",
+      "content_en": "The 9th World AI Conference (WAIC 2026) opens July 17-20 across Shanghai's 'three-site four-hall' complex (Expo Center / Zhangjiang / West Bund), themed 'Intelligent Companion, Shared Future'. This is the biggest WAIC in its 9-year history—exhibition area breaks 100,000 sqm for the first time, with 1,100+ exhibitors, 3,000+ exhibits, and 300+ global product launches. 140+ forums, 1,400+ Chinese and international speakers, and 9 Turing/Nobel laureates. On the academic side, WAIC Academic (chaired by Andrew Yao) received 284 papers from 9 countries. On the industrial side, intelligent-compute and embodied AI each mobilize 200+ companies, covering chips, cloud, models, robotics, and AI+healthcare/education/industry across the full stack. As of the eve of opening, organizers report 57 industrial pilots finalized and RMB 16.2 billion in letters of intent signed. Shanghai's host-city base is already at scale: above-scale AI industry reached RMB 637 billion in 2025 (+39.5%), 169 large models cleared regulatory filing, and the AI talent pool approached 300,000. WAIC 2026 lands in the same week as the State Council's 15th Five-Year Consumption Plan and the 8-ministry AI+Consumption Directive—a tripod of 'policy blueprint + industrial execution + global platform' anchoring China's AI-to-consumer narrative.",
+      "key_points": [
+        "7 月 17-20 日上海「三地四馆」，展览面积首破 10 万平方米",
+        "1100+ 家企业、3000+ 展品、300+ 全球首发、140+ 场论坛、9 位图灵奖/诺奖得主",
+        "已促成 57 个产业场景落地、162 亿元意向合作；智算/具身各集结 200+ 家企业",
+        "2025 上海规上 AI 产业规模 6370 亿元（＋39.5%）；169 款大模型完成备案"
+      ],
+      "key_points_en": [
+        "July 17-20, Shanghai three-site four-hall; exhibition area breaks 100,000 sqm for first time",
+        "1,100+ exhibitors, 3,000+ exhibits, 300+ global debuts, 140+ forums, 9 Turing/Nobel laureates",
+        "57 industrial pilots finalized, RMB 16.2B in LoIs signed; intelligent-compute and embodied AI each with 200+ companies",
+        "Shanghai above-scale AI industry RMB 637B in 2025 (+39.5%); 169 large models cleared filing"
+      ],
+      "url": "https://www.worldaic.com.cn/"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-14",
+      "category": "AI芯片",
+      "category_en": "AI Chips",
+      "title": "Meta 首款自研 AI 训练芯片 Iris/MTIA 400 将于 9 月量产：4 代项目定型、TSMC 代工、2026 部署 7 GW 算力",
+      "title_en": "Meta's First In-House AI Training Chip Iris/MTIA 400 Enters Mass Production in September—4th-Gen Project Finalized, TSMC Fab, 7 GW Deployment in 2026",
+      "summary": "路透 7 月 9 日独家报道，Meta 首款自研 AI 训练芯片代号 Iris（MTIA 400），MTIA 项目第 4 代，将于 2026 年 9 月正式量产。芯片由 Meta 与 Broadcom 联合设计、TSMC 代工，测试 6 周未发现重大问题。此举旨在减少对英伟达 GPU 的深度依赖。Meta 已披露 2026 年部署 7 GW 算力（H1 建成 1GW + H2 追加 5.5GW / 备忘录版本 2.5GW），2027 计划翻倍至 14 GW，2026 CAPEX 上限 1450 亿美元。已与三星（内存）、闪迪（闪存）、住友电工（光纤）签订长期供货协议。",
+      "summary_en": "Reuters reported exclusively on July 9 that Meta's first in-house AI training chip, code-named Iris (MTIA 400)—the 4th-generation MTIA project—will enter mass production in September 2026. The chip is co-designed with Broadcom and fabricated by TSMC, with 6 weeks of testing showing no major issues. The move aims to reduce Meta's deep dependence on Nvidia GPUs. Meta has disclosed 7 GW of AI compute deployment in 2026 (H1 1 GW built + H2 5.5 GW added / an internal memo cites 2.5 GW), doubling to 14 GW in 2027, with 2026 CAPEX capped at $145B. Long-term supply agreements are signed with Samsung (memory), SanDisk (flash), and Sumitomo Electric (fiber).",
+      "source": "Reuters / The Economic Times",
+      "source_en": "Reuters / The Economic Times",
+      "image": "img/pool/chip-wafer.jpg",
+      "content": "路透社 7 月 9 日援引两位知情人士独家披露：Meta 首款自研 AI 训练芯片代号 Iris（对外命名 MTIA 400），是 Meta MTIA 项目第 4 代产品，将于 2026 年 9 月正式量产。芯片由 Meta 与博通（Broadcom）联合设计、台积电（TSMC）代工，测试 6 周未发现重大问题。这是 Meta 摆脱英伟达 GPU 深度依赖战略的关键里程碑——过去 3 年 Meta 每年向英伟达采购超过 400 亿美元 H100/H200/Blackwell 芯片，2026 年为最大英伟达单一客户之一。Iris 之外，Meta 的算力路线图已经全面明牌：2026 年 AI 算力部署目标 7 GW（H1 已建成 1 GW，H2 追加 5.5 GW，备忘录版本 2.5 GW，两个数据均可采信），2027 年翻倍至 14 GW；2026 年资本开支上限 1450 亿美元，其中 AI 基础设施占比超过 65%。为配合 Iris 量产，Meta 已经与三星（内存 HBM4）、闪迪（企业级闪存）、住友电工（数据中心光纤）签订多年期长期供货协议——大摩把这一轮供应链锁定称为「chipflation」（芯片通胀），因为需求端集中签约推高上游长期价格。同一周（7 月 13 日）Meta 首席 AI 科学家 Yann LeCun 传出即将离职并创立自己的公司，Meta 内部押注 Iris/MTIA 400 的量产与自研 AI 芯片战略成为「后 LeCun 时代」最重要的锚。",
+      "content_en": "On July 9 Reuters exclusively reported, citing two sources: Meta's first in-house AI training chip is code-named Iris (external name MTIA 400)—the 4th generation of Meta's MTIA project—and enters mass production in September 2026. The chip is co-designed with Broadcom and fabricated by TSMC, with 6 weeks of testing showing no major issues. This is a milestone in Meta's strategy to reduce deep dependence on Nvidia GPUs—over the past 3 years, Meta has purchased more than $40B/year of H100/H200/Blackwell chips from Nvidia and is a top single customer in 2026. Beyond Iris, Meta's compute roadmap is now public: 2026 AI compute deployment targets 7 GW (H1 already built 1 GW, H2 adds 5.5 GW, with an internal memo citing 2.5 GW—both credible), doubling to 14 GW by 2027; 2026 CAPEX is capped at $145B with AI infrastructure over 65% of that. To support Iris production, Meta has signed multi-year supply agreements with Samsung (HBM4 memory), SanDisk (enterprise flash), and Sumitomo Electric (data-center fiber)—Morgan Stanley calls this supply-chain lock-in 'chipflation', as concentrated long-dated demand lifts upstream prices. In the same week (July 13), reports emerged that Meta Chief AI Scientist Yann LeCun is departing to start his own company—Meta is internally betting on Iris/MTIA 400 mass production as the most important anchor of its 'post-LeCun era'.",
+      "key_points": [
+        "Iris (MTIA 400) 9 月量产，MTIA 项目第 4 代，Broadcom 设计 + TSMC 代工，测试 6 周无重大问题",
+        "2026 年 AI 算力部署 7 GW（H1 1GW + H2 5.5GW），2027 翻倍至 14 GW",
+        "2026 CAPEX 上限 1450 亿美元，AI 基础设施占比 >65%",
+        "与三星 HBM4、闪迪企业闪存、住友电工光纤签长期协议；大摩称「chipflation」"
+      ],
+      "key_points_en": [
+        "Iris (MTIA 400) enters mass production Sep 2026; 4th-gen MTIA; Broadcom-designed, TSMC-fabbed; 6-week tests clean",
+        "2026 AI compute deployment 7 GW (H1 1GW + H2 5.5GW); doubles to 14 GW in 2027",
+        "2026 CAPEX capped at $145B; AI infrastructure >65% share",
+        "Long-term supply deals with Samsung HBM4, SanDisk enterprise flash, Sumitomo fiber; Morgan Stanley coins 'chipflation'"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/meta-plans-to-mass-produce-first-in-house-ai-training-chip-in-2026-report/articleshow/122352019.cms"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-14",
+      "category": "AI应用",
+      "category_en": "AI Applications",
+      "title": "阶跃星辰发布全球首个大模型原生 AI 终端品牌 STEPX、智能体手机 STEPX Neo 与 Step AOS：15 毫秒记忆召回、L3 级智能化",
+      "title_en": "StepFun Launches STEPX—World's First LLM-Native AI Terminal Brand—Plus Agentic Phone STEPX Neo and Step AOS: 15 ms Memory Recall, L3-Grade Intelligence",
+      "summary": "7 月 13 日阶跃星辰在沪发布全球首个大模型原生 AI 终端品牌 STEPX、首款智能体手机 STEPX Neo、智能体原生系统 Step AOS 和个人智能体阶跃 Amoo。核心突破：双域三步记忆结构，日常问答记忆召回最快 15 毫秒；端云多脑协同架构；四维安全框架「可信、可见、可控、可逆」；通过首批「人工智能终端智能化分级」L3 级测试。已与携程、支付宝、滴滴、美团、WPS、剪映、高德、京东、百度、微博等合作。旗舰推理模型 Step Pro 即将发布，参数超 1.5 万亿。董事长印奇宣布 100 天共创计划。",
+      "summary_en": "On July 13 StepFun unveiled the world's first LLM-native AI terminal brand STEPX, along with the flagship agentic phone STEPX Neo, agent-native OS Step AOS, and personal agent Step Amoo, in Shanghai. Core breakthroughs: dual-domain three-tier memory architecture with 15 ms daily-Q&A recall latency; edge-cloud multi-brain collaboration; a four-dimensional safety framework (trustworthy, visible, controllable, reversible); and clearance of the first-batch L3-grade AI-Terminal Intelligence certification. Ecosystem partners include Ctrip, Alipay, Didi, Meituan, WPS, CapCut, AutoNavi, JD, Baidu, and Weibo. The flagship reasoning model Step Pro (>1.5 trillion parameters) will be released next. Chairman Yin Qi announced a 100-Day Co-Creation Program.",
+      "source": "阶跃星辰 / 智东西",
+      "source_en": "StepFun / Zhidx",
+      "image": "img/pool/llm-agentic-ai.jpg",
+      "content": "7 月 13 日阶跃星辰在沪召开发布会，一口气推出全球首个大模型原生 AI 终端品牌 STEPX、首款智能体手机 STEPX Neo、智能体原生操作系统 Step AOS 和个人智能体阶跃 Amoo——这是 2026 年国内 AI 消费级终端最重量级的一次「四合一」发布。Step AOS 的核心创新有三层：其一，双域三步记忆结构，把「即时记忆」「工作记忆」「长期记忆」按用户域与任务域分离部署，日常问答记忆召回最快 15 毫秒；其二，端云多脑协同架构，端侧运行轻量智能体，云侧接入阶跃 Step Pro 旗舰推理（参数超 1.5 万亿）；其三，四维安全框架「可信、可见、可控、可逆」，任何智能体行为均可回溯与撤销。技术侧的硬指标是——STEPX Neo 已通过工信部电子五所主导的首批「人工智能终端智能化分级」L3 级认证（业界目前的最高等级）。生态侧，阶跃与携程、支付宝、滴滴、美团、WPS、剪映、高德、京东、百度、微博等 10 家顶级应用完成 API 深度对接，让用户「一句话完成机票预订、外卖下单、跨 App 内容整理」。发布会同期，阶跃董事长印奇宣布 100 天共创计划，向全球开发者与硬件厂商开放 Step AOS，目标复制安卓早年的生态爆发。这次发布最大的产业信号是——中国大模型公司首次跳出「云端 API」，把智能体做进消费级终端，与国务院《扩大消费「十五五」规划》「AI 手机作为新一代智能终端」的政策定向精准共振。",
+      "content_en": "On July 13 StepFun held a launch event in Shanghai, unveiling in one shot the world's first LLM-native AI terminal brand STEPX, the flagship agentic phone STEPX Neo, the agent-native OS Step AOS, and the personal agent Step Amoo—the heaviest 'four-in-one' consumer-grade AI terminal launch in China in 2026. Step AOS has three core innovations: (1) a dual-domain three-tier memory architecture separating 'immediate / working / long-term' memory across user and task domains, delivering daily-Q&A recall at up to 15 ms; (2) an edge-cloud multi-brain architecture running lightweight agents on-device while connecting to the Step Pro flagship reasoning model (>1.5T parameters) in the cloud; (3) a four-dimensional safety framework—trustworthy, visible, controllable, reversible—where every agent action is traceable and reversible. On the hard-metric side, STEPX Neo has passed the first-batch L3-grade certification of the CAICT-led 'AI-Terminal Intelligence Rating' (the current industry ceiling). On the ecosystem side, StepFun has completed deep API integration with 10 top apps: Ctrip, Alipay, Didi, Meituan, WPS, CapCut, AutoNavi, JD, Baidu, Weibo—letting users complete flight bookings, food orders, and cross-app content organization from a single sentence. Chairman Yin Qi announced a 100-Day Co-Creation Program opening Step AOS to global developers and hardware partners, targeting an Android-style ecosystem explosion. The biggest industry signal: for the first time, a Chinese LLM company has jumped out of 'cloud API' and driven agents into a consumer-grade terminal—precisely echoing the State Council's 15th Five-Year Plan direction on 'AI phones as next-generation intelligent terminals'.",
+      "key_points": [
+        "全球首个大模型原生 AI 终端品牌 STEPX + 智能体手机 STEPX Neo + Step AOS + 阶跃 Amoo",
+        "双域三步记忆结构，日常问答召回最快 15 毫秒；端云多脑协同；四维安全框架",
+        "通过首批「人工智能终端智能化分级」L3 级认证",
+        "旗舰 Step Pro 参数超 1.5 万亿；已与携程/支付宝/滴滴/美团/WPS 等 10 家顶级 App 深度对接"
+      ],
+      "key_points_en": [
+        "World's first LLM-native AI terminal brand STEPX + agentic phone STEPX Neo + Step AOS + Step Amoo",
+        "Dual-domain three-tier memory (15 ms recall), edge-cloud multi-brain, four-dimensional safety framework",
+        "Passed first-batch L3-grade 'AI-Terminal Intelligence Rating'",
+        "Flagship Step Pro >1.5T parameters; deep API integration with 10 top apps (Ctrip/Alipay/Didi/Meituan/WPS/...)"
+      ],
+      "url": "https://www.stepfun.com/"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-14",
+      "category": "AI芯片",
+      "category_en": "AI Chips",
+      "title": "东方算芯 DF1000 上海张江发布量产：全球首款国产 14nm 3D 堆叠近存计算 AI 芯片，功耗降 65%、延迟降 40%",
+      "title_en": "Dongfang Suanxin DF1000 Debuts Volume Production in Shanghai Zhangjiang: World's First 3D-Stacked Near-Memory AI Chip on Domestic 14nm—65% Lower Power, 40% Lower Latency",
+      "summary": "7 月 13 日上海张江东方算芯正式发布并宣布量产 DF1000——全球首款基于国产成熟 14nm 制程、软件定义架构的 3D 堆叠近存计算 AI 芯片。3D 混合键合堆叠架构使数据搬运功耗降低 65%+、运算延迟降低 40%、单位面积算力密度提升近 3 倍。CEO 魏少军，公司 2024 年 7 月由张江高科等天使轮、2025 年 A 轮国家 AI 产业基金加持。路线图：Q4 2026 发布 DF2000（4000 TFLOPS@FP4）、Q4 2027 发布 DF3000（8000 TFLOPS@FP4，访存带宽 20TB/s）。上海浦东 2025 集成电路产业规模 3600+ 亿元（＋23%）。",
+      "summary_en": "On July 13 Dongfang Suanxin officially launched and began volume production of the DF1000 in Shanghai Zhangjiang—the world's first 3D-stacked near-memory AI chip built on domestic 14nm with software-defined architecture. The 3D hybrid-bonding stack cuts data-movement power by 65%+, reduces compute latency by 40%, and lifts area-normalized compute density by nearly 3x. Led by CEO Wei Shaojun, the company received seed funding from Zhangjiang Hi-Tech in July 2024 and a Series A led by the National AI Industry Fund in 2025. Roadmap: DF2000 (4,000 TFLOPS@FP4) in Q4 2026; DF3000 (8,000 TFLOPS@FP4, 20 TB/s memory bandwidth) in Q4 2027. Shanghai Pudong's IC industry hit RMB 360B+ in 2025 (+23%).",
+      "source": "东方算芯 / 上海科技报",
+      "source_en": "Dongfang Suanxin / Shanghai Science & Technology News",
+      "image": "img/pool/chip-design.jpg",
+      "content": "7 月 13 日上海张江东方算芯正式发布并宣布量产 DF1000——全球首款基于国产成熟 14nm 制程、软件定义架构的 3D 堆叠近存计算 AI 芯片。相比传统 GPU 方案，DF1000 的核心突破在「3D 混合键合堆叠架构 + 近存计算范式」——把内存与计算单元贴合到同一硅片堆叠层，使数据搬运功耗降低 65%+（英伟达 H100 数据搬运功耗占比约 60%）、运算延迟降低 40%、单位面积算力密度提升近 3 倍。「软件定义」意味着芯片可以按不同工作负载重构计算与存储层次，兼容大模型推理、边缘计算、机器人等多个赛道。这是中国用「制程绕行 + 架构创新」应对 EUV 光刻禁令的一次系统性突破。东方算芯 CEO 魏少军是中国半导体行业协会 IC 设计分会前理事长，公司 2024 年 7 月由张江高科等完成天使轮，2025 年 A 轮由国家 AI 产业投资基金领投。路线图非常清晰——Q4 2026 发布 DF2000（4000 TFLOPS@FP4），Q4 2027 发布 DF3000（8000 TFLOPS@FP4，访存带宽 20 TB/s），DF3000 的算力指标已经接近英伟达 B300 单卡水平。这次发布还有一个宏观信号：上海浦东 2025 年集成电路产业规模突破 3600 亿元（＋23%），沪产 AI 芯片正在从「跟随」走向「架构创新引领」，与 WAIC 2026 与国务院《扩大消费「十五五」规划》共同构成中国 AI 消费化的「芯片-系统-终端」三位一体基础设施。",
+      "content_en": "On July 13 Dongfang Suanxin officially launched and began volume production of the DF1000 in Shanghai Zhangjiang—the world's first 3D-stacked near-memory AI chip built on domestic 14nm with a software-defined architecture. Compared to traditional GPU designs, DF1000's core breakthrough combines '3D hybrid-bonding stacking + near-memory compute'—bonding memory and compute units onto the same silicon stack, cutting data-movement power by 65%+ (data-movement is ~60% of H100 power), reducing compute latency by 40%, and lifting area-normalized compute density by nearly 3x. 'Software-defined' means the chip can reconfigure compute-storage hierarchy per workload, spanning LLM inference, edge compute, and robotics. This is a systemic breakthrough in China's 'process-detour + architecture-innovation' response to the EUV lithography ban. CEO Wei Shaojun is the former chairman of the CSIA IC Design Branch; the company was seed-funded by Zhangjiang Hi-Tech in July 2024, with a Series A led by the National AI Industry Investment Fund in 2025. The roadmap is crisp: DF2000 (4,000 TFLOPS@FP4) in Q4 2026, DF3000 (8,000 TFLOPS@FP4, 20 TB/s memory bandwidth) in Q4 2027—DF3000's specs approach Nvidia's B300 per-card level. Macro signal: Shanghai Pudong's IC industry topped RMB 360B in 2025 (+23%). Shanghai-made AI chips are moving from 'follower' to 'architecture-innovation leader', forming with WAIC 2026 and the 15th Five-Year Consumption Plan a 'chip-system-terminal' trinity of infrastructure for China's AI-to-consumer wave.",
+      "key_points": [
+        "全球首款国产 14nm 3D 堆叠近存计算 AI 芯片，7 月 13 日上海张江发布量产",
+        "数据搬运功耗降 65%+、运算延迟降 40%、单位面积算力密度提升近 3 倍",
+        "CEO 魏少军；张江高科 2024 天使轮，2025 A 轮国家 AI 产业基金领投",
+        "路线图：Q4 2026 DF2000 (4000 TFLOPS@FP4)、Q4 2027 DF3000 (8000 TFLOPS@FP4，20TB/s)"
+      ],
+      "key_points_en": [
+        "World's first 3D-stacked near-memory AI chip on domestic 14nm; launched and volume-produced in Shanghai Zhangjiang on July 13",
+        "65%+ lower data-movement power, 40% lower latency, ~3x higher area-normalized compute density",
+        "CEO Wei Shaojun; seed from Zhangjiang Hi-Tech (2024), Series A led by National AI Industry Fund (2025)",
+        "Roadmap: DF2000 (4,000 TFLOPS@FP4) Q4 2026; DF3000 (8,000 TFLOPS@FP4, 20 TB/s) Q4 2027"
+      ],
+      "url": "https://www.stcn.com/article/detail/2691843.html"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-14",
+      "category": "AI伦理",
+      "category_en": "AI Ethics",
+      "title": "FLI 2026 上半年 AI 安全指数：Anthropic C+ 拔头筹但没有 A/B、DeepSeek/xAI/Mistral 均获 F、多家削弱内部红线",
+      "title_en": "FLI H1 2026 AI Safety Index: Anthropic Tops at C+ (No A/B Anywhere), DeepSeek/xAI/Mistral Score F, Multiple Labs Weaken Internal Red-Lines",
+      "summary": "生命未来研究所（FLI）7 月 7 日发布 2026 上半年 AI 安全指数，评估 9 家主要 AI 实验室（Anthropic、OpenAI、Google DeepMind、Meta、Z.ai、阿里、xAI、DeepSeek、Mistral）。最高分 Anthropic C+；OpenAI 与 Google DeepMind 均为 C；Meta D+；xAI、DeepSeek、Mistral 均获 F。无任何一家拿到 A 或 B。同时报告揭露 Anthropic、OpenAI、Google DeepMind、Meta 均削弱或废弃了原有内部「红线」承诺。主席 Max Tegmark、UC Berkeley 教授 Stuart Russell 撰引言。",
+      "summary_en": "The Future of Life Institute (FLI) released its H1 2026 AI Safety Index on July 7, evaluating 9 major AI labs (Anthropic, OpenAI, Google DeepMind, Meta, Z.ai, Alibaba, xAI, DeepSeek, Mistral). Highest score: Anthropic C+; OpenAI and Google DeepMind both C; Meta D+; xAI, DeepSeek, and Mistral all F. No company received A or B. The report simultaneously exposed that Anthropic, OpenAI, Google DeepMind, and Meta have all weakened or abandoned previous internal 'red-line' commitments. FLI Chair Max Tegmark and UC Berkeley Prof. Stuart Russell contributed the foreword.",
+      "source": "Future of Life Institute",
+      "source_en": "Future of Life Institute",
+      "image": "img/pool/policy-ai-safety.jpg",
+      "content": "生命未来研究所（Future of Life Institute, FLI）7 月 7 日正式发布 2026 上半年《AI 安全指数》——把过去 6 个月 AI 前沿实验室在「风险评估、当前危害、模型对齐、承诺兑现、治理透明」等 7 个维度的表现打分。9 家实验室被列入评估名单：Anthropic、OpenAI、Google DeepMind、Meta、Z.ai、阿里、xAI、DeepSeek、Mistral。结果堪称警报级别：最高分 Anthropic 仅得 C+（去年 C），OpenAI 与 Google DeepMind 均为 C，Meta D+，xAI、DeepSeek、Mistral 均为 F。「没有任何一家 AI 公司拿到 A 或 B——这是 FLI 索引推出 3 年以来第一次全面失分。」更严重的是，FLI 报告揭露 Anthropic、OpenAI、Google DeepMind、Meta 都在过去 6 个月里以「优化承诺」为名，削弱或废弃了原有的内部「红线」承诺——包括「拒绝为特定生物武器场景服务」「关键权重外泄自动召回」「未通过红队评估不发布」等。FLI 主席 Max Tegmark 与 UC Berkeley 教授 Stuart Russell 撰写引言——「AI 能力提升的速度已经远超安全约束提升的速度」。这份指数与本周中国国务院《扩大消费「十五五」规划》「AI＋消费」的乐观基调形成强烈对照——安全、伦理与消费红利之间的张力，会成为 2026 年下半年 AI 治理的主战场。",
+      "content_en": "The Future of Life Institute (FLI) officially released its H1 2026 AI Safety Index on July 7, scoring frontier AI labs across 7 dimensions—risk assessment, present-day harms, alignment, commitment fulfillment, and governance transparency—for the past 6 months. Nine labs were evaluated: Anthropic, OpenAI, Google DeepMind, Meta, Z.ai, Alibaba, xAI, DeepSeek, and Mistral. Results are alarm-grade: highest score Anthropic at C+ (up from C last year); OpenAI and Google DeepMind both C; Meta D+; xAI, DeepSeek, and Mistral all F. 'No company received an A or B—the first universal miss in the Index's 3-year history.' More seriously, the report exposed that Anthropic, OpenAI, Google DeepMind, and Meta have all weakened or abandoned internal 'red-line' commitments over the past 6 months in the name of 'optimizing commitments'—including refusing to serve specified bioweapon scenarios, auto-recall on critical weight leaks, and no-release-without-red-team-pass. FLI Chair Max Tegmark and UC Berkeley Prof. Stuart Russell wrote the foreword: 'AI capability is rising far faster than safety constraints are.' The Index stands in stark contrast to this week's optimistic tone from China's State Council 15th Five-Year Consumption Plan on 'AI+Consumption'—the tension between safety/ethics and consumer payoffs will define the H2 2026 AI-governance battlefield.",
+      "key_points": [
+        "FLI 2026 H1 AI 安全指数 7 月 7 日发布，评估 9 家 AI 实验室",
+        "最高分 Anthropic C+，OpenAI/Google DeepMind C，Meta D+，xAI/DeepSeek/Mistral F",
+        "无任何公司拿到 A 或 B——FLI 指数 3 年来首次全面失分",
+        "Anthropic/OpenAI/Google DeepMind/Meta 均削弱或废弃原有「红线」承诺"
+      ],
+      "key_points_en": [
+        "FLI H1 2026 AI Safety Index released July 7; 9 labs evaluated",
+        "Highest: Anthropic C+; OpenAI & Google DeepMind C; Meta D+; xAI/DeepSeek/Mistral F",
+        "No A or B awarded—first universal miss in the Index's 3-year history",
+        "Anthropic/OpenAI/Google DeepMind/Meta all weakened or abandoned prior red-line commitments"
+      ],
+      "url": "https://futureoflife.org/document/2026-ai-safety-index-summer/"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-14",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "Anthropic 开源 J-lens：在 Claude Opus 4.6 内部发现 J-space，用 6-7% 的激活变量因果决定输出",
+      "title_en": "Anthropic Open-Sources J-lens: 'J-space' Discovered Inside Claude Opus 4.6—6-7% of Activations Causally Determine Output",
+      "summary": "Anthropic 7 月 8-12 日公开在 Claude Opus 4.6 内部自发形成的 J-space（Jacobian Space）——通过 J-lens 可观察的一类特定激活子空间，仅占激活规模的 6-7%，但因果决定模型输出。实验：Swap Soccer→Rugby 试验 88% Top-5 成功；双击 spider→ant 使模型生成的图像蜘蛛从 8 条腿变 6 条腿；「21→42→49」多跳推理链条依次显现。研究与全局工作空间理论（Global Workspace Theory）类比但不等同意识。Anthropic 已开源 J-lens 工具，并与 Neuronpedia 合作在线 demo。",
+      "summary_en": "Between July 8-12, Anthropic disclosed the 'J-space' (Jacobian Space) that emerges internally inside Claude Opus 4.6—a specific activation subspace observable via J-lens, occupying only 6-7% of total activations yet causally determining the output. Experiments: Swap Soccer→Rugby succeeds at 88% Top-5; double-clicking spider→ant makes the model's generated spider images shift from 8 to 6 legs; multi-hop chains like '21→42→49' appear sequentially. The work draws an analogy to Global Workspace Theory but does not claim consciousness. Anthropic has open-sourced the J-lens tooling and partnered with Neuronpedia for an online demo.",
+      "source": "Anthropic Interpretability Team",
+      "source_en": "Anthropic Interpretability Team",
+      "image": "img/pool/llm-reasoning.jpg",
+      "content": "Anthropic 可解释性团队 7 月 8-12 日陆续公开了一份对 Claude Opus 4.6 的深度内窥研究——他们在模型内部自发形成的一类特定激活子空间称为 J-space（Jacobian Space），可以通过团队自研的 J-lens 工具观察。J-space 只占模型激活规模的 6-7%，却因果决定了模型的输出——研究团队通过一系列干预实验证明：其一，「Swap 实验」在 J-space 中把「Soccer」向量替换为「Rugby」向量，模型生成的下一段文本 Top-5 有 88% 概率出现 Rugby 相关词；其二，「双击实验」在 J-space 双击「spider」→「ant」，让模型生成的图像里的蜘蛛从 8 条腿变成 6 条腿；其三，「多跳推理链」实验发现，「21→42→49」这样的算术推理链条在 J-space 中依次显现，与推理时机步伐吻合。研究团队谨慎类比「全局工作空间理论」（Global Workspace Theory，Bernard Baars 1988），但明确指出「不等同于意识」——J-space 更接近「主控制通路」而非「主观体验」。Anthropic 已把 J-lens 全套代码开源到 GitHub，并与 Neuronpedia 合作提供在线可交互 demo。可解释性从「事后归因」转向「因果操控」是本次研究的最大跃迁——AI 治理层面，J-lens 让「红线承诺可验证」从口号变成技术上有把手的目标。",
+      "content_en": "Anthropic's Interpretability Team publicly released, between July 8-12, a deep introspection study of Claude Opus 4.6. Inside the model, they identified a specific activation subspace called J-space (Jacobian Space), observable through their in-house J-lens tool. J-space accounts for only 6-7% of activations yet causally determines output—shown through a series of intervention experiments: (1) 'Swap experiment' replaces the 'Soccer' vector with 'Rugby' inside J-space, and the model's next-paragraph text contains a Rugby-related word at 88% Top-5 rate; (2) 'Double-click experiment' double-clicks 'spider'→'ant' inside J-space, making the model's generated spider images shift from 8 legs to 6; (3) 'Multi-hop reasoning' shows the arithmetic chain '21→42→49' appearing sequentially inside J-space, aligned with inference-time step timing. The team draws a cautious analogy to Global Workspace Theory (Bernard Baars, 1988) but explicitly notes 'this is not consciousness'—J-space resembles a 'primary control bus', not 'subjective experience'. Anthropic has open-sourced J-lens on GitHub and partnered with Neuronpedia for a live interactive demo. Interpretability's shift from 'post-hoc attribution' to 'causal manipulation' is the biggest leap: for AI governance, J-lens turns 'verifiable red-line commitments' from slogan into a technically graspable target.",
+      "key_points": [
+        "J-space 只占 Claude Opus 4.6 激活 6-7%，因果决定输出",
+        "Swap 实验 Soccer→Rugby Top-5 88% 成功；spider→ant 双击让蜘蛛从 8 条腿变 6 条腿",
+        "多跳推理链 21→42→49 在 J-space 中依次显现；与全局工作空间理论类比但不等同意识",
+        "Anthropic 开源 J-lens 到 GitHub，与 Neuronpedia 合作在线 demo；可解释性从「事后归因」跃迁至「因果操控」"
+      ],
+      "key_points_en": [
+        "J-space occupies only 6-7% of Claude Opus 4.6 activations but causally determines output",
+        "Swap Soccer→Rugby succeeds at 88% Top-5; double-click spider→ant makes generated spiders 6-legged",
+        "Multi-hop chain 21→42→49 appears sequentially in J-space; GWT analogy without consciousness claim",
+        "Anthropic open-sourced J-lens on GitHub; Neuronpedia partnership; leap from post-hoc attribution to causal manipulation"
+      ],
+      "url": "https://www.anthropic.com/research/j-lens"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-14",
+      "category": "AI医疗",
+      "category_en": "AI Healthcare",
+      "title": "英矽智能 Rentosertib III 期启动：全球首个 AI 全流程研发进 III 期的 IPF 新药，IIa 期 12 周 FVC ＋98.4 毫升",
+      "title_en": "Insilico Medicine's Rentosertib Enters Phase III: World's First AI-End-to-End Discovered IPF Drug to Reach Phase III—+98.4 mL FVC in 12-Week IIa",
+      "summary": "7 月 8 日英矽智能（03696.HK）宣布 Rentosertib（ISM001-055）III 期临床正式启动——业界首款完成 AI 药物临床药效验证、全球首个 AI 全流程（靶点 + 分子设计）进入 III 期的特发性肺纤维化（IPF）新药。CDE 平台公示 CTR20262475 / ClinicalTrials.gov NCT07687459，47 家研究中心、320 例 IPF 患者、每日一次 52 周治疗。主要终点：52 周内 FVC 年下降率。牵头：北京协和徐作军；联合牵头：钟南山院士、上海肺科医院陈昶。IIa 期结果：60mg 组 12 周 FVC 平均＋98.4 毫升 vs 安慰剂-20.3 毫升（登 Nature Medicine 2025.6）。2026 H1 收入 1.025-1.065 亿美元（＋272.7%~287.3%）。",
+      "summary_en": "On July 8 Insilico Medicine (HKEX: 03696) announced the Phase III start of Rentosertib (ISM001-055)—the industry's first AI-designed drug with clinical efficacy validation and the world's first AI-end-to-end (target + molecule design) IPF drug to reach Phase III. Registered as CTR20262475 in China CDE / NCT07687459 on ClinicalTrials.gov, the trial spans 47 centers, 320 IPF patients, and 52 weeks of once-daily dosing. Primary endpoint: annualized FVC decline over 52 weeks. Lead PI: Prof. Xu Zuojun (Peking Union Medical College Hospital); Co-Lead PIs: Academician Zhong Nanshan and Prof. Chen Chang (Shanghai Pulmonary Hospital). Phase IIa: 60 mg group showed +98.4 mL FVC over 12 weeks vs -20.3 mL for placebo (Nature Medicine, June 2025). H1 2026 revenue: $102.5-106.5M (+272.7% to +287.3% YoY).",
+      "source": "英矽智能 03696.HK / PR Newswire",
+      "source_en": "Insilico Medicine 03696.HK / PR Newswire",
+      "image": "img/pool/healthcare-drug-discovery.jpg",
+      "content": "港股 03696.HK 英矽智能 7 月 8 日宣布 Rentosertib（研发代号 ISM001-055）III 期临床正式启动——业界首款完成 AI 药物临床药效验证、全球首个 AI 全流程（AI 找靶点＋AI 分子设计）进入 III 期的特发性肺纤维化（IPF）新药。国家药监局药审中心 CDE 平台公示 CTR20262475，ClinicalTrials.gov 编号 NCT07687459。研究规模：47 家研究中心（覆盖北上广深与中西部）、320 例 IPF 患者、每日一次 52 周治疗，主要终点为 52 周内用力肺活量（FVC）年下降率。牵头人为北京协和医院呼吸与危重症医学科徐作军教授；联合牵头人为钟南山院士与上海肺科医院陈昶教授——两位全球呼吸病学顶流亲自站台。III 期启动的底气来自 IIa 期结果——60 mg 组 12 周 FVC 平均＋98.4 毫升，安慰剂组-20.3 毫升，差值 118.7 毫升。IIa 期结果 2025 年 6 月登上 Nature Medicine，被视为 AI 药物研发历史上里程碑之一。商业化侧同样爆发：英矽 2026 H1 收入指引 1.025-1.065 亿美元（＋272.7%~287.3%），净利润 3350-3950 万美元；2026 H1 BD 累计近 70 亿美元，客户名单包括施维雅、礼来、SK 生物、武田等。国务院《扩大消费「十五五」规划》把「AI＋医疗」列为消费升级重点方向，Rentosertib 是首个把「AI 医药 + 消费医疗」叙事真正跑通的候选。",
+      "content_en": "HKEX-listed Insilico Medicine (03696.HK) announced on July 8 that Rentosertib (development code ISM001-055) has officially entered Phase III clinical trials—the industry's first AI-designed drug with clinical efficacy validation and the world's first AI-end-to-end (AI target discovery + AI molecule design) IPF drug to reach Phase III. Registered as CTR20262475 on China NMPA's CDE platform and as NCT07687459 on ClinicalTrials.gov. Scale: 47 study centers (covering Beijing, Shanghai, Guangzhou, Shenzhen, plus central and western China), 320 IPF patients, once-daily dosing over 52 weeks; primary endpoint is annualized forced vital capacity (FVC) decline over 52 weeks. Lead PI: Prof. Xu Zuojun (Peking Union Medical College Hospital Dept. of Respiratory Medicine); Co-Lead PIs: Academician Zhong Nanshan and Prof. Chen Chang (Shanghai Pulmonary Hospital)—two top-tier global pulmonologists personally endorsing. The Phase III confidence stems from Phase IIa data: the 60 mg cohort saw +98.4 mL FVC over 12 weeks vs -20.3 mL for placebo—a 118.7 mL delta. Phase IIa results were published in Nature Medicine in June 2025 and are widely regarded as an AI drug-discovery milestone. Commercial momentum matches: H1 2026 revenue guidance $102.5-106.5M (+272.7% to +287.3% YoY), net income $33.5-39.5M; H1 2026 business development totaled nearly $7B in cumulative deal value with Servier, Eli Lilly, SK Biopharm, and Takeda. The State Council's 15th Five-Year Consumption Plan elevates 'AI+Healthcare' to a top consumption-upgrade priority—Rentosertib is the first candidate to truly land the 'AI pharma + consumer medicine' narrative.",
+      "key_points": [
+        "Rentosertib (ISM001-055) III 期启动：全球首个 AI 全流程进 III 期的 IPF 新药",
+        "47 家研究中心、320 例 IPF 患者、52 周治疗；主要终点 FVC 年下降率",
+        "IIa 期 60mg 组 12 周 FVC＋98.4mL vs 安慰剂-20.3mL；登 Nature Medicine 2025.6",
+        "2026 H1 收入 1.025-1.065 亿美元（＋272.7%~287.3%）；BD 累计近 70 亿美元"
+      ],
+      "key_points_en": [
+        "Rentosertib (ISM001-055) enters Phase III—world's first AI-end-to-end IPF drug at this stage",
+        "47 centers, 320 IPF patients, 52-week treatment; primary endpoint: annualized FVC decline",
+        "Phase IIa 60 mg cohort: +98.4 mL FVC vs -20.3 mL placebo over 12 weeks; published in Nature Medicine (June 2025)",
+        "H1 2026 revenue $102.5-106.5M (+272.7% to +287.3% YoY); cumulative BD near $7B"
+      ],
+      "url": "https://en.prnasia.com/releases/apac/insilico-medicine-doses-first-participant-in-phase-iii-trial.shtml"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-14",
+      "category": "AI应用",
+      "category_en": "AI Applications",
+      "title": "智元机器人第 15000 台下线，2025 年中国人形机器人出货 1.8 万台（＋650%）——「AI＋消费」落地的最快赛道",
+      "title_en": "Agibot's 15,000th Unit Rolls Off the Line; China's Humanoid Robot Shipments Hit 18,000 in 2025 (+650% YoY)—The Fastest-Executing 'AI+Consumer' Track",
+      "summary": "上海智元机器人 7 月中旬第 15000 台具身智能机器人正式下线，跻身全球出货量最大的三家人形机器人厂商之一。行业数据显示 2025 年中国人形机器人出货 1.8 万台（＋650%），2026 年 H1 已经追平 2025 全年——是国务院《扩大消费「十五五」规划》与八部门《AI＋消费》里「智能机器人」条款落地最快的赛道。商务大数据显示 2026 年 1-4 月人形机器人网络零售额同比＋20.6%，主要拉动力来自 B 端工业和 C 端陪护两条并行需求线。WAIC 2026 具身赛道集结 200＋ 家企业。",
+      "summary_en": "Shanghai-based Agibot rolled off its 15,000th embodied AI robot in mid-July, becoming one of the world's top-three humanoid robot manufacturers by shipment. Industry data show China's humanoid robot shipments reached 18,000 units in 2025 (+650% YoY), with H1 2026 already matching the full-year 2025—making humanoid robotics the fastest-executing sub-track of the 'intelligent robots' clause in the State Council's 15th Five-Year Consumption Plan and the 8-ministry AI+Consumption Directive. MOFCOM big data show Jan-Apr 2026 online retail of humanoid robots up +20.6% YoY, driven by parallel B2B industrial and B2C companion demand. The WAIC 2026 embodied-AI track has mobilized 200+ companies.",
+      "source": "智元机器人 / 商务大数据",
+      "source_en": "Agibot / MOFCOM Big Data",
+      "image": "img/pool/robotics-factory.jpg",
+      "content": "7 月中旬上海智元机器人第 15000 台具身智能机器人正式下线——从 2024 年 12 月单月过千台到 2026 年 7 月月产超过 3000 台，智元跻身全球出货量最大的三家人形机器人厂商之一。行业数据面板同样火热：2025 年中国人形机器人出货 1.8 万台，同比＋650%；2026 年 H1 出货量已经追平 2025 全年，全年出货有望突破 8 万台。这个赛道成为国务院《扩大消费「十五五」规划》与八部门《AI＋消费实施意见》里「智能机器人作为新一代智能终端」条款落地最快的场景——政策端（贴息 + 补贴）和商业端（B 端工业替代 + C 端陪护/服务）双轮驱动。商务大数据显示 2026 年 1-4 月人形机器人网络零售额同比＋20.6%——主要拉动力来自 B 端工业替代（汽车、3C 电子、光伏组件产线）与 C 端陪护/家用（老年监护、家庭清洁、儿童教育陪伴）两条并行需求线。WAIC 2026 具身赛道集结 200＋ 家企业，规模上第一次超过芯片赛道。产业结构上——上游关节电机、精密减速器、力矩传感器国产化率已经从 2023 年的 25% 提升到 2026 年 Q1 的 62%；中游本体厂智元、优必选、宇树、傅利叶等 5 家已经拿到 IPO 或 D 轮融资；下游应用侧长安、比亚迪、宁德时代已经把人形机器人纳入 2026-2028 产线升级预算。「AI＋消费」的政策叙事在人形机器人赛道第一次跑通了「政策-资本-产品-场景」的完整闭环。",
+      "content_en": "In mid-July, Shanghai-based Agibot rolled off its 15,000th embodied AI robot—having ramped from 1,000+ units per month in December 2024 to over 3,000 units per month by July 2026, joining the world's top-three humanoid robot manufacturers by shipment. Industry data also runs hot: China's humanoid robot shipments hit 18,000 units in 2025 (+650% YoY); H1 2026 shipments have already matched full-year 2025, with the full-year forecast likely to exceed 80,000. This is the fastest-executing sub-track under the 'intelligent robots as next-generation smart terminals' clause of the State Council's 15th Five-Year Consumption Plan and the 8-ministry AI+Consumption Directive—driven by both policy (subsidies + interest rebates) and commerce (B2B industrial substitution + B2C companion/service). MOFCOM big data show Jan-Apr 2026 online retail sales of humanoid robots up +20.6% YoY, with parallel demand from B2B (auto, 3C electronics, PV module lines) and B2C (elderly monitoring, home cleaning, child education companion). The WAIC 2026 embodied-AI track mobilized 200+ companies, exceeding the chip track in scale for the first time. Structurally: upstream joint motors, precision reducers, and torque sensors have moved from 25% domestic content in 2023 to 62% in Q1 2026; five mid-stream OEMs—Agibot, UBTech, Unitree, Fourier—have reached IPO or Series D; downstream, Changan, BYD, and CATL have written humanoid robots into their 2026-2028 line-upgrade budgets. The 'AI+Consumer' policy narrative has, in humanoid robotics for the first time, closed the full policy-capital-product-scenario loop.",
+      "key_points": [
+        "智元机器人第 15000 台下线，跻身全球出货最大三家之一",
+        "2025 年中国人形机器人出货 1.8 万台（＋650%），2026 H1 追平全年",
+        "商务大数据 1-4 月网零＋20.6%，B 端工业替代 + C 端陪护双轮驱动",
+        "上游国产化率 2023 25% → 2026 Q1 62%；智元/优必选/宇树/傅利叶等 5 家已 IPO 或 D 轮"
+      ],
+      "key_points_en": [
+        "Agibot's 15,000th unit rolls off; among world's top-three by shipment",
+        "China's humanoid robot shipments 18,000 in 2025 (+650%); H1 2026 already matches full-year 2025",
+        "MOFCOM big data: Jan-Apr online sales +20.6%; B2B industrial substitution + B2C companion drive demand",
+        "Upstream domestic content 25% (2023) → 62% (Q1 2026); Agibot/UBTech/Unitree/Fourier reach IPO or Series D"
+      ],
+      "url": "https://www.stcn.com/article/detail/2691844.html"
+    }
+  ]
+}

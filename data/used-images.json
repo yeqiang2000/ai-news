@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-14",
   "used_urls": [
     "https://ainewsdaily.asia/img/pool/autonomous-drone-v3.jpg",
     "https://ainewsdaily.asia/img/pool/blockchain-defi-v3.jpg",
@@ -272,7 +272,18 @@
     "https://ainewsdaily.asia/img/pool/investment-ai-fund.jpg",
     "https://ainewsdaily.asia/img/pool/llm-code-gen.jpg",
     "https://ainewsdaily.asia/img/pool/policy-summit.jpg",
-    "https://ainewsdaily.asia/img/pool/startup-cofounders-v3.jpg"
+    "https://ainewsdaily.asia/img/pool/startup-cofounders-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/smart-city.jpg",
+    "https://ainewsdaily.asia/img/pool/data-visualization.jpg",
+    "https://ainewsdaily.asia/img/pool/ai-governance.jpg",
+    "https://ainewsdaily.asia/img/pool/education-campus.jpg",
+    "https://ainewsdaily.asia/img/pool/chip-wafer.jpg",
+    "https://ainewsdaily.asia/img/pool/llm-agentic-ai.jpg",
+    "https://ainewsdaily.asia/img/pool/chip-design.jpg",
+    "https://ainewsdaily.asia/img/pool/policy-ai-safety.jpg",
+    "https://ainewsdaily.asia/img/pool/llm-reasoning.jpg",
+    "https://ainewsdaily.asia/img/pool/healthcare-drug-discovery.jpg",
+    "https://ainewsdaily.asia/img/pool/robotics-factory.jpg"
   ],
-  "total_used": 271
+  "total_used": 282
 }
