@@ -2,6 +2,38 @@
 
 所有网站内容与功能的更新记录，每次更新时追加到本文档。
 
+## 2026-07-14 · 网站+头条 · article-43（隔天规则第 2 次落地，头条首次生成，不写微信）
+
+### 网站版：article-43 上线
+- **主题**：《「AI 消费元年」叩门：国务院《扩大消费「十五五」规划》＋八部门《AI＋消费》＋WAIC 2026 首发季——中国 AI 产业范式从「上游军备」切换到「下游红利」》
+- **切角**：国务院《扩大消费「十五五」规划》（国函〔2026〕66 号，07-02 签署 07-13 公开）+ 八部门《AI+消费实施意见》（商建发 2026 年第 89 号）+ 阶跃 STEPX Neo/Step AOS + 东方算芯 DF1000（14nm 3D 堆叠近存）+ WAIC 2026（7/17-20，10 万平方米、1100+ 企业、300+ 全球首发）7 大维度产业分析。**与最近 7 篇（article-36~42 上游竞争主题）清晰区隔**——从上游算力/开源/成本竞赛切换到下游消费红利
+- **规模**：中文 31.8 KB + 英文 33.8 KB，20 分钟阅读
+- **累计**：articles.json 总数 41→42，sitemap.xml 88→90 URL，used-images 271→282
+
+### 头条版：toutiao-2026-07-14.md（本项目首次生成头条）
+- **主题**：《OpenRouter 7 月第 2 周数据——腾讯 Hy3 (free) 空降登顶、中国大模型连续 11 周霸榜、英伟达 Nemotron 首次登榜》
+- **切角**：OpenRouter 全球单周 54.6 万亿 Token（环比 +12.6%）+ 中国 27.58 万亿（+17.61%）连续 11 周霸榜 + 腾讯 Hy3 (free) 6.13 万亿终结 DeepSeek-V4-Flash 七连冠 + 英伟达 Nemotron 3 Ultra 首次登榜第八（+109%）
+- **文件**：`toutiao/toutiao-2026-07-14.md`（7.2 KB，纯 Markdown 短段落 + 加粗数字 + 数据卡片）
+- **不上传 GitHub**（SOP §七），本地生成 → computer:// 协议交付主人
+
+### 微信版：不产出（7/14 偶数日按隔天规则跳过）
+
+### SOP 修订生效点（本次继续验证 + 首次头条落地）
+1. **隔天规则**（2026-07-12 主人修订）：7/14 偶数日 → 网站 + 头条；微信留待 7/15 奇数日执行 ✓（第 2 次落地，规则稳定）
+2. **头条 Markdown 首次由子 agent 直出**（SOP §七）：短段落、加粗、数据卡片全套 ✓
+3. **同一文件 edit_file 串行**（2026-07-11 强制）：侧边栏 3 次 edit（插 43 → 删 33 → 修复孤立 `</a>`），最终 sidebar=10、首条 article-43、`<a>/</a>` 平衡 ✓
+4. **articles.json 字段命名 14 键对齐 article-42**：`title→title_zh、summary→summary_zh、url→url_zh、subtitle_zh=""、subtitle_en=""`，删 author/read_time_en/source/source_en ✓
+
+### 部署与发布
+- **Git commit**：`7886daf feat: daily update 2026-07-14 (article-43: AI 消费元年——中国 AI 产业范式从上游军备切换到下游红利)` (9 files, +1654/-686)
+- **Cloudflare**：`https://af7a839e.ainewsdaily.pages.dev`（14 files new / 569 cached / 3.57s）
+- **线上验证**：sitemap.xml HTTP 200/xml ✓ / article-43.html HTTP 200 ✓ / Yandex ping HTTP 302 ✓
+
+### 本次新学习点
+- **子 agent 违规上报「11 张图全新」但实际都在 used-images.json 内**：查明是 used-images.json 数据历史混乱——155 条相对路径（`img/pool/xxx.jpg`）+ 116 条完整 URL（`https://ainewsdaily.asia/img/pool/xxx.jpg`），子 agent 用相对路径匹配"全新"过关但主 agent 精确核对时命中相对路径版本。**决策**：查最近 5 天历史 news-day 无冲突，判定「实际未在近期使用」→ 接受分配；本次追加完整 URL 版本至 used-images.json（统一格式，避免未来微信/头条要求完整 URL 时误判）。**下次任务卡应明确要求子 agent 用完整 URL 而非相对路径匹配**
+- **侧边栏 edit_file 第 2 步孤立 `</a>` 陷阱**：删末尾 article-33 时 new_string 复用 `</a>\n        </div>` 会与 article-34 自带的 `</a>` 重复；SOP §8 第 3 步 grep 只检查 count=10 无法发现，需增加「`<a href` 数 == `</a>` 数」平衡检查（本次已发现并修复）
+- **头条首次生成路径**：toutiao/ 目录事先存在（本次不新建）；无历史头条文件，本次是**本项目首次头条产物**；主人可下发 GSC 手动提交时无须包含头条 URL（头条不上 GitHub）
+
 ## 2026-07-13 · 网站+微信 · article-42（隔天规则首次落地，不写头条）
 
 ### 网站版：article-42 上线
