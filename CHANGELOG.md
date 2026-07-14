@@ -2,6 +2,43 @@
 
 所有网站内容与功能的更新记录，每次更新时追加到本文档。
 
+## 2026-07-15 · 网站+微信 · article-44（隔天规则第 3 次落地，恢复微信，不写头条）
+
+### 网站版：article-44 上线
+- **主题**：《中国 AI「反向出口」拐点：从 46% 到 63 家 Fortune 500，Doubao Seed 3 / Qwen 上 AWS / GLM-5.2 拿下欧盟——2026 年 7 月这一周把中国大模型推到全球企业栈中央》
+- **切角**：OpenRouter 数据 46% 美国企业开发者用中国模型 + 63 家 Fortune 500 部署 Qwen/Doubao/GLM + 字节 Doubao Seed 3 全球化 + Qwen 上架 AWS Marketplace + GLM-5.2 拿下欧盟合规采购 + UAE 500 亿美元采购 + Meta 采购中国模型给 Llama 5 蒸馏。**与 article-43「AI 消费元年（内需导向）」构成"内需 vs 外销"对偶**，与 article-37~42 主题清晰区隔
+- **规模**：中文 33.6 KB + 英文 34.1 KB，20 分钟阅读
+- **累计**：articles.json 总数 42→43，sitemap.xml 90→92 URL，used-images 282→294
+
+### 微信版：wechat-2026-07-15.html（人物叙事 · 恢复微信）
+- **主题**：《梁文锋的 20 年：从广东湛江的物理天才少年，到把中国大模型第一次推进硅谷 App 层的男人》
+- **切角**：梁文锋成长脉络（湛江物理天才 → 浙大 → 幻方量化 → DeepSeek → V3/R1/V4 → 反向出口）
+- **规模**：29.2 KB，含 1 张 hero `<img>`（deep_analysis-04-v5.jpg）
+- **本地留存，不进 GitHub**（SOP §七）
+- **避重**：不在近 6 期（李开复/王兴兴/Sam Altman/Yann LeCun/Aravind Srinivas/张鹏）内
+
+### 头条版：不产出（7/15 奇数日按隔天规则跳过）
+
+### SOP 修订生效点（本次继续验证 + 图片 URL 匹配升级）
+1. **隔天规则**（2026-07-12 主人修订）：7/15 奇数日 → 网站 + 微信；头条留待 7/16 偶数日执行 ✓（第 3 次落地，规则完全稳定）
+2. **图片 URL 完整匹配升级**（2026-07-14 新学习点应用）：本次任务卡明确要求子 agent 用完整线上 URL 匹配 used-images.json → 12 张图双维度（完整 URL + 文件名规范化）全 NEW ✓，未再触发 07-14 的误判问题
+3. **侧边栏 edit_file 从 3 步降到 2 步**（07-14 教训应用）：直接把 `article-35 + article-34` 完整 4 行块作为 old_string，new_string 只留 article-35，一次性删除末尾避免孤立 `</a>` → sidebar=10、首条 article-44、`<a>/</a>` 平衡 10=10 ✓
+4. **articles.json 字段命名 14 键对齐 article-43**：`title→title_zh、summary→summary_zh、url→url_zh、subtitle_zh=""、subtitle_en=""`，删 author/read_time_en/source/source_en ✓
+5. **微信 hero `<img>` 存在**（2026-07-12 主人闭环规则）：`https://ainewsdaily.asia/img/pool/deep_analysis-04-v5.jpg` ✓
+
+### 部署与发布
+- **Git commit**：`0fb8284 feat: daily update 2026-07-15 (article-44: 中国 AI「反向出口」拐点——46% 美国企业用中国大模型、Doubao/Qwen 上 AWS、GLM-5.2 拿下欧盟)` (9 files)
+- **Cloudflare**：`https://0075410b.ainewsdaily.pages.dev`（11 files new / 577 cached / 3.23s）
+- **线上验证**：sitemap.xml HTTP 200/xml ✓ / article-44.html HTTP 308 → 200 text/html ✓ / Yandex ping HTTP 200 Ok ✓
+- **article 308 说明**：CF Pages 默认 url-rewrite 到无后缀（`/articles/article-44` 无 `.html`），跟随重定向后正常 200 text/html，属正常行为
+- **图池余量**：376 - 294 = **82 张剩余**（阈值 40 前无需 batch-2）
+
+### 本次新学习点（2 条）
+1. **侧边栏 edit 一步删末尾条目更干净**（07-14 教训升级）：删除末尾时不要把 `</a>\n</div>` 作为 new_string 尾巴（会与前一条自带 `</a>` 重复），改为把「前一条 + 末尾条 + `</div>`」整块作为 old_string，new_string 只保留「前一条 + `</div>`」，一步到位无孤立标签
+2. **CF Pages url-rewrite 行为**：静态 HTML 通过 `.html` URL 访问会被 308 到无后缀 URL，跟随后 200 正常；curl -I 单跳看到 308 不是错误，需 `curl -IL` 跟随查看最终状态码
+
+---
+
 ## 2026-07-14 · 网站+头条 · article-43（隔天规则第 2 次落地，头条首次生成，不写微信）
 
 ### 网站版：article-43 上线
