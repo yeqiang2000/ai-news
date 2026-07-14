@@ -1,0 +1,18 @@
+{
+  "id": "article-44",
+  "date": "2026-07-15",
+  "category": "深度解读",
+  "category_en": "Deep Analysis",
+  "title": "中国 AI「反向出口」拐点：从 46% 到 63 家 Fortune 500，Doubao Seed 3 / Qwen 上 AWS / GLM-5.2 拿下欧盟——2026 年 7 月这一周把中国大模型推到全球企业栈中央",
+  "title_en": "China AI's 'Reverse-Export' Inflection: From 46% Share to 63 Fortune 500—Doubao Seed 3 / Qwen on AWS / GLM-5.2 Cleared for the EU—The Week China's LLMs Move to the Center of the Global Enterprise Stack",
+  "summary": "2026 年 7 月 14-15 日中国大模型的「反向出口」在同一周里完成质变——OpenRouter 最新数据显示美国企业开发者用中国大模型的 Token 占比稳定在 46%（15 个月增长 10 倍）；《The Information》头版报道至少 63 家 Fortune 500 已经在生产环境部署中国大模型；字节 Doubao Seed 3 全球化上线（旧金山/法兰克福/迪拜/圣保罗/新加坡五地同步）；阿里 Qwen 4.1 首个进入 AWS Marketplace + Bedrock；DeepSeek V4 Pro 与 Perplexity/Cursor/Windsurf 三家硅谷 AI 应用官方集成；智谱 GLM-5.2 首个通过 EU AI Act 审查、与 SAP/Mistral 拿下欧盟 3200 家企业目标；UAE MGX 500 亿美元中国 AI 基础设施合作签约；印度 Reliance Jio 与阿里云 50 亿合资「印度 AI 云」；美国众议院 ASCTA 草案推出。WAIC 2026 距开幕 2 天，海外参展 45 家一线首次到场。本文从事实盘点、四条主要动因、三大区域打法（美国/欧盟/中东印度非洲）、Silent Adoption 现象、Anthropic/OpenAI 反应、投资清单与风险 7 个维度深度拆解——中国 AI 产业的第三条主线「全球企业栈的反向出口」，如何在 2026 年 7 月这一周从「暗流」变成「显性拐点」。",
+  "summary_en": "The week of July 14-15, 2026 delivered a qualitative leap in China's LLM 'reverse-export'—OpenRouter's latest data shows US enterprise-developer usage of Chinese models has stabilized at 46% (10x in 15 months); The Information's front-page investigation confirms at least 63 Fortune 500 companies run Chinese LLMs in production; ByteDance's Doubao Seed 3 went global (simultaneously launched in San Francisco/Frankfurt/Dubai/São Paulo/Singapore); Alibaba Qwen 4.1 became the first Chinese LLM on AWS Marketplace + Bedrock; DeepSeek V4 Pro completed native integrations with Perplexity/Cursor/Windsurf; Zhipu GLM-5.2 became the first Chinese LLM to pass EU AI Act review, partnering with SAP/Mistral to target 3,200 EU enterprises; UAE's MGX signed a $50B China-AI-infrastructure deal; India's Reliance Jio and Alibaba Cloud closed a $5B 'India AI Cloud' JV; the US House introduced the ASCTA draft; WAIC 2026 is 2 days out with 45 overseas top-AI first-timers. This article dissects across seven axes—fact-check, four core drivers, three regional playbooks (US / EU / Middle-East-India-Africa), the Silent Adoption phenomenon, Anthropic/OpenAI responses, investment checklist, and risk map—how China AI's third macro line 'reverse-export to the global enterprise stack' transformed from 'undercurrent' to 'visible inflection' in this single week of July 2026.",
+  "image": "img/pool/network-03-v5.jpg",
+  "author": "AI News Daily",
+  "read_time": "阅读约 20 分钟",
+  "read_time_en": "Approximately 20 min read",
+  "url": "articles/article-44.html",
+  "url_en": "articles/en/article-44.html",
+  "source": "AI News Daily 综合分析",
+  "source_en": "AI News Daily Analysis"
+}
