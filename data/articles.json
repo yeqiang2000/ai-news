@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "article-45",
+      "date": "2026-07-16",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "title": "WAIC 2026 开幕前瞻——习近平主席出席开幕并发表主旨演讲，1100+ 企业参展、300+ 全球首发、9 位图灵/诺奖得主到场：中国 AI 产业从「模型竞赛」到「应用落地」的年度检阅礼",
+      "title_en": "WAIC 2026 Preview—President Xi Attends Opening Ceremony, 1,100+ Exhibitors, 300+ Global Debuts, 9 Turing/Nobel Laureates: China AI's Annual Review from 'Model Race' to 'Application Landing'",
+      "summary": "WAIC 2026（世界人工智能大会）7 月 17 日在上海开幕，习近平主席出席开幕式并发表主旨演讲——这是习近平首次在 WAIC 发表主旨演讲。1100+ 家企业参展（海外 210 家）、300+ 全球首发、10 万平方米展区、9 位图灵奖/诺奖得主到场。华为 Atlas 950 超节点真机首展、全球首款 AI 智能体手机（努比亚豆包）、阶跃 Step AOS 智能体操作系统、108 款芯片 + 261 款大模型 + 208 款具身智能终端集中亮相。本届 WAIC 的核心叙事从「模型竞赛」转向「应用落地」，中国 AI 产业完成了从上游技术突破到下游场景渗透的年度检阅。本文从习近平演讲核心信号、华为 Atlas 950 产业意义、AI 智能体操作系统、具身智能爆发、展品结构转型、全球 AI 治理四大文件等维度，深度拆解中国 AI 2026 年的「应用落地」元年。",
+      "summary_en": "WAIC 2026 opens in Shanghai on July 17, with President Xi Jinping attending the opening ceremony and delivering a keynote—his first-ever WAIC keynote. 1,100+ exhibitors (210 overseas), 300+ global debuts, 100,000 sqm exhibition space, 9 Turing/Nobel laureates in attendance. Huawei Atlas 950 supernode physical debut, world's first AI-agent smartphone (Nubia Doubao), Stepfun Step AOS agent operating system, 108 chips + 261 LLMs + 208 embodied-AI terminals showcased together. The core narrative of WAIC 2026 shifts from 'model race' to 'application landing'—China AI completes its annual review from upstream technology breakthroughs to downstream scenario penetration. This article dissects Xi's keynote signals, the industrial significance of Atlas 950, the AI agent OS, the embodied-AI explosion, the structural shift in exhibits, and the four defining AI-governance documents, providing a deep analysis of China AI's 'application landing' year in 2026.",
+      "image": "https://ainewsdaily.asia/img/pool/industry-02-v5.jpg",
+      "author": "AI News Daily",
+      "read_time": "阅读约 18 分钟",
+      "read_time_en": "Approximately 18 min read",
+      "url": "articles/article-45.html",
+      "url_en": "articles/en/article-45.html",
+      "source": "AI News Daily 综合分析",
+      "source_en": "AI News Daily Analysis"
+    },
+    {
       "id": "article-44",
       "date": "2026-07-15",
       "category": "深度解读",
@@ -667,5 +685,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-07-15"
+  "last_updated": "2026-07-16"
 }

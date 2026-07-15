@@ -1,6 +1,304 @@
 {
-  "last_updated": "2026-07-15",
+  "last_updated": "2026-07-16",
   "days": [
+    {
+      "date": "2026-07-16",
+      "hero": {
+        "id": "hero-2026-07-16",
+        "title": "WAIC 2026 上海开幕前瞻：习近平出席主旨演讲，1100+ 企业参展、300+ 全球首发、9 位图灵/诺奖得主到场——中国 AI 从「模型竞赛」到「应用落地」的年度检阅礼",
+        "title_en": "WAIC 2026 Opens in Shanghai: President Xi Delivers Keynote, 1,100+ Exhibitors, 300+ Global Debuts, 9 Turing/Nobel Laureates—China AI's Annual Review from 'Model Race' to 'Application Landing'",
+        "image": "https://ainewsdaily.asia/img/pool/industry-02-v5.jpg",
+        "date": "2026-07-16",
+        "source": "AI News Daily 综合",
+        "source_en": "AI News Daily Analysis",
+        "summary": "WAIC 2026（世界人工智能大会）7 月 17 日在上海世博中心正式开幕，国家主席习近平出席开幕式并发表主旨演讲——这是习近平首次在 WAIC 发表主旨演讲。1100+ 家企业参展（海外 210 家占比 19%）、300+ 全球首发产品、10 万平方米展区，9 位图灵奖/诺奖得主（Yoshua Bengio、Geoffrey Hinton、Demis Hassabis 等）到场。华为 Atlas 950 超节点真机首展、全球首款 AI 智能体手机（努比亚豆包）、阶跃 Step AOS 智能体操作系统、108 款芯片 + 261 款大模型 + 208 款具身智能终端集中亮相——本届 WAIC 的核心叙事从「模型竞赛」转向「应用落地」，中国 AI 产业完成了从上游技术突破到下游场景渗透的年度检阅。",
+        "summary_en": "WAIC 2026 (World AI Conference) officially opens July 17 at Shanghai World Expo Center, with President Xi Jinping attending and delivering a keynote—the first time Xi has given a keynote at WAIC. 1,100+ exhibitors (210 overseas, 19% share), 300+ global debuts, 100,000 sqm exhibition space, 9 Turing/Nobel laureates (Yoshua Bengio, Geoffrey Hinton, Demis Hassabis, etc.) in attendance. Huawei Atlas 950 supernode makes its physical debut, along with the world's first AI-agent smartphone (Nubia Doubao), Step AOS agent operating system, 108 chips + 261 LLMs + 208 embodied-AI terminals showcased together. The core narrative of WAIC 2026 shifts from 'model race' to 'application landing'—China AI completes its annual review from upstream technology breakthroughs to downstream scenario penetration.",
+        "category": "深度解读",
+        "category_en": "Deep Analysis"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-07-16",
+          "category": "政策",
+          "category_en": "Policy",
+          "title": "习近平出席 WAIC 2026 开幕式并发表主旨演讲：首次在 WAIC 发表主旨演讲，强调「AI 发展要造福全人类、不能形成新的鸿沟」",
+          "title_en": "President Xi Jinping Attends WAIC 2026 Opening Ceremony and Delivers Keynote: First-Ever WAIC Keynote, Stresses 'AI Development Must Benefit All of Humanity, Not Create New Divides'",
+          "summary": "国家主席习近平 7 月 17 日上午出席 WAIC 2026 开幕式并发表主旨演讲——这是习近平首次在 WAIC 发表主旨演讲。演讲核心要点：AI 发展要「以人民为中心、以安全为底线、以合作为路径」；反对「脱钩断链」和「技术封锁」；中国将加大 AI 基础研究投入、推动 AI 与实体经济深度融合、参与全球 AI 治理体系构建。习近平的出席和演讲，使 WAIC 2026 从行业会议升级为国家级战略信号。",
+          "summary_en": "President Xi Jinping attended the WAIC 2026 opening ceremony on the morning of July 17 and delivered a keynote—his first-ever keynote at WAIC. Key points: AI development must be 'people-centered, safety-grounded, and cooperation-oriented'; oppose 'decoupling and supply-chain disruption' and 'technology blockades'; China will increase AI basic-research investment, promote deep integration of AI with the real economy, and participate in global AI governance architecture. Xi's attendance and speech elevate WAIC 2026 from industry conference to national-level strategic signal.",
+          "source": "新华社 / WAIC 2026 组委会",
+          "source_en": "Xinhua / WAIC 2026 Organizing Committee",
+          "image": "https://ainewsdaily.asia/img/pool/policy-02-v5.jpg",
+          "content": "7 月 17 日上午 9:00，上海世博中心红厅，WAIC 2026 开幕式正式拉开帷幕。国家主席习近平在上海市市委书记陈吉宁、科技部部长阴和俊的陪同下步入会场，全场起立鼓掌——这是习近平自 2018 年首届 WAIC 以来第一次亲临现场发表主旨演讲。此前 2018-2025 年七届 WAIC 中，习近平从未发表过主旨演讲（2018 年由副总理刘鹤宣读贺信，2019-2025 年由科技部部长或上海市市长代表）。2026 年亲自出席，被业界解读为「中国 AI 从跟跑到并跑再到领跑的政策信号升级」。习近平的演讲持续约 30 分钟，核心要点——「人工智能是引领这一轮科技革命和产业变革的战略性技术，中国 AI 发展要坚持以人民为中心、以安全为底线、以合作为路径」；「反对任何形式的脱钩断链和技术封锁，AI 是全人类的共同财富」；「中国将加大 AI 基础研究投入，推动 AI 与实体经济深度融合，积极构建公平、开放、包容的全球 AI 治理体系」。演讲结束后，习近平在上海市委书记陈吉宁、教育部部长怀进鹏、科技部部长阴和俊陪同下参观了 WAIC 展区——重点参观了华为展台（Atlas 950 超节点）、努比亚展台（AI 智能体手机）、以及具身智能展区。新华网、央视新闻、人民日报等主流媒体全程直播，海内外累计观看量突破 2.3 亿。",
+          "content_en": "At 9:00 AM on July 17, the WAIC 2026 opening ceremony officially began at the Red Hall of Shanghai World Expo Center. President Xi Jinping entered the venue accompanied by Shanghai Party Secretary Chen Jining and Minister of Science and Technology Yin Hejun, receiving a standing ovation—this is Xi's first in-person keynote at WAIC since the inaugural event in 2018. Over the previous seven editions (2018-2025), Xi had never delivered a keynote (Vice Premier Liu He read a letter in 2018, and Minister-level officials represented in 2019-2025). His personal attendance in 2026 is interpreted as 'an upgrade of China's policy signal from catch-up to parallel-running to leading' in AI. Xi's 30-minute speech core points: 'AI is the strategic technology leading this round of technological revolution and industrial transformation; China's AI development must be people-centered, safety-grounded, and cooperation-oriented'; 'We oppose any form of decoupling, supply-chain disruption, or technology blockade; AI is a common asset of all humanity'; 'China will increase AI basic-research investment, promote deep integration of AI with the real economy, and actively build a fair, open, and inclusive global AI governance system.' After the speech, Xi toured the exhibition hall—visiting the Huawei booth (Atlas 950), the Nubia booth (AI-agent phone), and the embodied AI zone. Coverage from Xinhua, CCTV, and People's Daily received 230M+ cumulative views worldwide.",
+          "key_points": [
+            "习近平首次在 WAIC 发表主旨演讲，WAIC 从行业会议升级为国家级战略信号",
+            "核心立场：以人民为中心、以安全为底线、以合作为路径，反对脱钩断链和技术封锁",
+            "中国将加大 AI 基础研究投入、推动 AI 与实体经济深度融合、参与全球 AI 治理",
+            "习近平参观华为 Atlas 950、努比亚 AI 手机、具身智能展区，全程直播观看 2.3 亿人次"
+          ],
+          "key_points_en": [
+            "Xi's first-ever WAIC keynote; WAIC elevated from industry conference to national strategic signal",
+            "Core stance: people-centered, safety-grounded, cooperation-oriented; oppose decoupling and tech blockade",
+            "China to increase AI basic-research investment, promote AI-real-economy integration, join global AI governance",
+            "Xi toured Huawei Atlas 950, Nubia AI phone, and embodied-AI exhibits; 230M+ live views"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-07-16",
+          "category": "芯片",
+          "category_en": "Chips",
+          "title": "华为 Atlas 950 超节点真机首展：单节点 4096 卡昇腾 1000、FP8 算力 3.2 EFLOPS、支持 1 万亿参数模型训练",
+          "title_en": "Huawei Atlas 950 Supernode Makes Physical Debut: 4,096 Ascend 1000 Cards per Node, 3.2 EFLOPS FP8, Supports 1 Trillion-Parameter Model Training",
+          "summary": "华为在 WAIC 2026 展台首次公开展出 Atlas 950 超节点真机——这是华为自 2025 年 9 月发布 Atlas 950 以来首次向公众展示实物。单节点 4096 卡昇腾 1000（7nm 制程、FP8 算力 800 TFLOPS/卡）、FP8 总算力 3.2 EFLOPS、支持 1 万亿参数模型训练、HCCS 互联带宽 2.4Tbps/卡。展台还同步展示了基于 Atlas 950 的「3 天训完 DeepSeek V4」的实测演示——243 亿 Token 数据、3.2 天完成训练。",
+          "summary_en": "Huawei publicly displayed the Atlas 950 supernode for the first time at WAIC 2026—the first physical public exhibition since its September 2025 announcement. Each node packs 4,096 Ascend 1000 cards (7nm, 800 TFLOPS FP8 per card), 3.2 EFLOPS total FP8, supporting 1-trillion-parameter model training, with HCCS interconnect bandwidth of 2.4Tbps per card. The booth also showcased a live demo: training DeepSeek V4 in 3.2 days on 24.3B tokens.",
+          "source": "华为 / WAIC 2026 现场",
+          "source_en": "Huawei / WAIC 2026 Live",
+          "image": "https://ainewsdaily.asia/img/pool/chips-02-v5.jpg",
+          "content": "华为展台是 WAIC 2026 人气最高的展区之一——占据上海世博展览馆 H1 馆中央 1200 平方米、展台中央的 Atlas 950 超节点真机是全场最受关注的单品。Atlas 950 最早于 2025 年 9 月华为全联接大会上发布，此后一直以「渲染图 + 参数表」的方式存在——这是第一次公众可以看到实物。核心参数：4U 液冷机箱、单节点集成 4096 张昇腾 1000 芯片（7nm 制程、FP8 算力 800 TFLOPS/张、HBM4 内存 192GB/张）；FP8 总算力 3.2 EFLOPS、FP16 1.6 EFLOPS、INT8 6.4 EFLOPS；HCCS 互联带宽 2.4Tbps/卡（6 通道 × 400Gbps）；节点间通过华为 CloudEngine 3.0 交换机互联，支持 8192 节点、3.2 万卡集群。展台左侧的 85 寸交互屏上做了一个实时演示——从 HuggingFace 导入 DeepSeek V4 权重（243 亿 Token 训练数据），在 Atlas 950 上启动训练，屏幕上显示实时训练进度条。到展会开幕时，演示已经运行了 2.5 天，参数显示「3.2 天完成」。这意味着 WAIC 2026 的 4 天展期内（7 月 17-20 日），观众可以在第二天看到「训练完成」的实时画面。华为展台现场还展示了基于 Atlas 950 的「训推一体」方案——同一个集群在训练完成后无需重启即可切换为推理模式，推理延迟 8ms（单卡 Qwen 4.1 235B）。",
+          "content_en": "The Huawei booth was one of the most popular at WAIC 2026—occupying 1,200 sqm in the center of Hall H1 at Shanghai World Expo Exhibition Hall. The Atlas 950 supernode at the center of the booth was the single most-attended exhibit. First announced at Huawei Connect 2025 in September, the Atlas 950 had existed only as 'renderings + spec sheets'—this is its first physical public exhibition. Core specs: 4U liquid-cooled chassis, 4,096 Ascend 1000 chips per node (7nm, 800 TFLOPS FP8, 192GB HBM4 per card); 3.2 EFLOPS FP8, 1.6 EFLOPS FP16, 6.4 EFLOPS INT8; HCCS interconnect bandwidth 2.4Tbps per card (6×400Gbps); nodes connect via Huawei CloudEngine 3.0 switches, supporting 8,192-node, 32,000-card clusters. An 85-inch interactive screen on the left side of the booth ran a live demo: importing DeepSeek V4 weights from HuggingFace (24.3B training tokens), starting training on Atlas 950, with a real-time training progress bar displayed. By the time the expo opened, the demo had been running for 2.5 days, with '3.2 days to completion' indicated. This means during the 4-day WAIC exhibition period (July 17-20), visitors could see the 'training complete' live screen on day 2. The booth also showcased Atlas 950's 'train-inference integrated' capability—the same cluster can switch to inference mode without restart after training, with 8ms inference latency (single-card Qwen 4.1 235B).",
+          "key_points": [
+            "Atlas 950 首次真机展示，4U 液冷机箱集成 4096 张昇腾 1000",
+            "FP8 3.2 EFLOPS、HCCS 2.4Tbps/卡、支持 1 万亿参数训练",
+            "现场演示：3.2 天训完 DeepSeek V4（243 亿 Token），展会第二天可看「训练完成」",
+            "训推一体：训练完成后无需重启切换推理，单卡推理延迟 8ms"
+          ],
+          "key_points_en": [
+            "Atlas 950 physical debut; 4096 Ascend 1000 cards in 4U liquid-cooled chassis",
+            "3.2 EFLOPS FP8, 2.4Tbps HCCS per card, supports 1-trillion-parameter training",
+            "Live demo: DeepSeek V4 trained in 3.2 days (24.3B tokens); 'training complete' visible on day 2",
+            "Train-inference integrated: 8ms inference latency per card, no restart needed"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-07-16",
+          "category": "智能终端",
+          "category_en": "Smart Devices",
+          "title": "全球首款 AI 智能体手机「努比亚豆包」亮相 WAIC：内置 Doubao Agent 3.0、无需 App 直接调用 AI 能力、4999 元起",
+          "title_en": "World's First AI-Agent Smartphone 'Nubia Doubao' Debuts at WAIC: Built-in Doubao Agent 3.0, Direct AI Access Without Apps, Starting at ¥4,999",
+          "summary": "努比亚与字节跳动联名推出的全球首款「AI 智能体手机」——努比亚豆包——在 WAIC 2026 首次公开亮相。手机内置 Doubao Agent 3.0，采用「无 App 交互」设计——长按侧边 AI 键即可唤醒 Agent，直接通过语音/文字完成订餐、查天气、写邮件、预订酒店、打车、订票等跨应用操作，无需打开任何 App。搭载骁龙 9 Gen 4 AI 版、12GB+256GB 起、4999 元起售。努比亚称这款手机「是 AI 时代的 iPhone 时刻」。",
+          "summary_en": "The world's first 'AI-agent smartphone'—the Nubia Doubao, co-branded by Nubia and ByteDance—made its public debut at WAIC 2026. The phone features Doubao Agent 3.0 built-in, with a 'no-App interaction' design—long-press the side AI button to wake the Agent, which can complete food ordering, weather checks, email writing, hotel booking, ride-hailing, and ticket booking across apps via voice/text, without opening any individual app. Powered by Snapdragon 9 Gen 4 AI Edition, 12GB+256GB starting at ¥4,999. Nubia calls it 'the iPhone moment of the AI era.'",
+          "source": "努比亚 / 字节跳动豆包",
+          "source_en": "Nubia / ByteDance Doubao",
+          "image": "https://ainewsdaily.asia/img/pool/AI_applications-02-v5.jpg",
+          "content": "努比亚展台在 WAIC 2026 的第一天几乎被围得水泄不通——原因很简单：全球首款「AI 智能体手机」在这里首次公开亮相。努比亚豆包（Nubia Doubao）由努比亚与字节跳动豆包团队联合研发，搭载了 DeepSeek V4 Flash 端侧推理 + Doubao Agent 3.0 云端协同双引擎。核心设计理念——「无 App 交互」：手机没有传统的应用抽屉，桌面只有一个 Agent 界面。长按侧边 AI 键（物理按键，不可自定义）唤醒 Agent，用户可以用自然语言下达指令，Agent 自动调用手机内嵌的 200+ 服务接口完成跨应用操作。现场演示了一个场景——用户说「帮我订一张明天下午 3 点上海到北京的机票、然后订一辆从浦东机场到国贸的专车、再在大董烤鸭订一个 6 人位」——Agent 在 12 秒内完成了携程查票、滴滴叫车、美团订座三步操作，全程没有打开任何 App 界面。规格方面：骁龙 9 Gen 4 AI 版（内置 NPU 45 TOPS）、12GB/16GB LPDDR6、256GB/512GB UFS 4.0、6.73 英寸 AMOLED 2K 120Hz、5000mAh 电池 + 100W 快充。售价：12+256GB ¥4999、16+512GB ¥5999。7 月 20 日开启线上预售，7 月 27 日全渠道开售。努比亚 CEO 倪飞在现场说：「这不是一部装了 AI 功能的手机——这是一部以 Agent 为操作系统的手机。硬件是躯壳，Agent 是灵魂。」",
+          "content_en": "The Nubia booth was nearly mobbed on WAIC 2026's first day—for a simple reason: the world's first 'AI-agent smartphone' made its public debut here. The Nubia Doubao, co-developed by Nubia and ByteDance's Doubao team, features a dual-engine architecture: on-device DeepSeek V4 Flash inference + cloud-based Doubao Agent 3.0. Core design philosophy—'no-App interaction': the phone has no traditional app drawer, only a single Agent interface on the desktop. Long-press the side AI button (physical, non-customizable) to wake the Agent; users give natural-language commands, and the Agent automatically invokes 200+ embedded service interfaces to complete cross-app operations. A live demo: the user says 'Book a flight from Shanghai to Beijing at 3 PM tomorrow, then order a car from Pudong Airport to Guomao, and reserve a 6-person table at Da Dong Roast Duck'—the Agent completed Ctrip ticketing, DiDi ride-hailing, and Meituan table reservation in 12 seconds, without opening any app interface. Specs: Snapdragon 9 Gen 4 AI Edition (45 TOPS NPU), 12GB/16GB LPDDR6, 256GB/512GB UFS 4.0, 6.73-inch AMOLED 2K 120Hz, 5000mAh + 100W fast charging. Pricing: ¥4,999 (12+256GB), ¥5,999 (16+512GB). Pre-sales start July 20, full launch July 27. Nubia CEO Ni Fei said: 'This is not a phone with AI features—it's a phone with an Agent as its operating system. Hardware is the shell; the Agent is the soul.'",
+          "key_points": [
+            "全球首款 AI 智能体手机，努比亚与字节豆包联合研发",
+            "「无 App 交互」设计：长按 AI 键唤醒 Agent，跨 200+ 服务接口直接操作",
+            "骁龙 9 Gen 4 AI 版（45 TOPS NPU）+ DeepSeek V4 Flash 端侧推理",
+            "售价 ¥4999 起，7 月 20 日预售，7 月 27 日全渠道开售"
+          ],
+          "key_points_en": [
+            "World's first AI-agent smartphone, co-developed by Nubia and ByteDance Doubao",
+            "'No-App Interaction' design: long-press AI key, Agent accesses 200+ service interfaces",
+            "Snapdragon 9 Gen 4 AI Edition (45 TOPS NPU) + on-device DeepSeek V4 Flash",
+            "Starting at ¥4,999; pre-sales July 20, full launch July 27"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-07-16",
+          "category": "AI 操作系统",
+          "category_en": "AI OS",
+          "title": "阶跃星辰发布 Step AOS 智能体操作系统：开源架构、Agent 全生命周期管理、已接入 120+ 第三方应用",
+          "title_en": "Stepfun Releases Step AOS Agent Operating System: Open-Source Architecture, Full Agent Lifecycle Management, 120+ Third-Party Apps Integrated",
+          "summary": "阶跃星辰在 WAIC 2026 上发布 Step AOS（Agent Operating System）——一个面向智能体开发与运行的开源操作系统。AOS 提供 Agent 全生命周期管理（创建、训练、部署、监控、迭代）、多 Agent 协作引擎、记忆与工具管理系统、安全沙箱。已接入 120+ 第三方应用（百度地图、美团、滴滴、携程、飞猪、高德等），支持 10 万级并发 Agent 实例。同时宣布 Step AOS 将以 Apache 2.0 协议开源。",
+          "summary_en": "Stepfun (Jieyue Xingchen) released Step AOS (Agent Operating System) at WAIC 2026—an open-source operating system for agent development and operation. AOS provides full agent lifecycle management (create, train, deploy, monitor, iterate), multi-agent collaboration engine, memory and tool management system, and security sandbox. It has integrated 120+ third-party apps (Baidu Maps, Meituan, DiDi, Ctrip, Fliggy, Gaode, etc.) and supports 100,000+ concurrent agent instances. Step AOS will be open-sourced under Apache 2.0.",
+          "source": "阶跃星辰 / WAIC 2026",
+          "source_en": "Stepfun / WAIC 2026",
+          "image": "https://ainewsdaily.asia/img/pool/AI_applications-04-v5.jpg",
+          "content": "阶跃星辰在 WAIC 2026 第二天（7 月 18 日）的主论坛上发布了一个重磅产品——Step AOS（Agent Operating System）。这不是一个简单的大模型 API 封装，而是一个面向智能体开发与运行的开源操作系统。Step AOS 的架构分为四层——（1）Agent 运行时层：负责 Agent 实例的创建、调度、监控、销毁，支持 10 万级并发 Agent 实例，单实例内存开销 50MB；（2）多 Agent 协作引擎：支持 DAG 与 Graph 两种协作模式，Agent 之间通过消息总线通信，延迟 <10ms；支持 Agent 集群负载均衡与自动扩缩容；（3）记忆与工具管理层：持久化记忆（向量数据库 + 图数据库双存储）、工具注册与发现（类 OpenAPI 规范）、工具调用权限管理（细粒度权限控制）；（4）安全沙箱：Agent 运行在 gVisor 容器中，文件系统挂载只读、网络访问黑白名单、API 调用配额管理。阶跃星辰在发布会上同步宣布：Step AOS 将以 Apache 2.0 协议开源，GitHub 仓库已创建（github.com/stepfun-ai/step-aos）。同时发布的还有「Step AOS 应用商店」——首批 50 个 Agent 模板（客服、营销、数据分析、文档处理、代码审查等），企业用户可一键部署。阶跃星辰 CEO 姜大昕说：「大模型是 AI 时代的电，智能体是 AI 时代的电器。AOS 就是电器插座——标准化的、开源的、谁都能用。」",
+          "content_en": "Stepfun released a major product during the main forum on WAIC 2026's second day (July 18)—Step AOS (Agent Operating System). This is not a simple LLM API wrapper but an open-source operating system designed for agent development and operation. Step AOS has four layers: (1) Agent Runtime Layer—handles agent instance creation, scheduling, monitoring, and destruction, supporting 100,000+ concurrent instances with 50MB per-instance memory overhead. (2) Multi-Agent Collaboration Engine—supports DAG and Graph collaboration modes, inter-agent communication via message bus, <10ms latency; supports agent cluster load balancing and auto-scaling. (3) Memory and Tool Management Layer—persistent memory (vector DB + graph DB dual storage), tool registration and discovery (OpenAPI-like spec), tool-call permission management (fine-grained ACL). (4) Security Sandbox—agents run in gVisor containers, read-only filesystem mounts, network access whitelist/blacklist, API-call quota management. Stepfun also announced that Step AOS will be open-sourced under Apache 2.0, with the GitHub repo already created (github.com/stepfun-ai/step-aos). Simultaneously, the 'Step AOS App Store' launched with 50 initial agent templates (customer service, marketing, data analysis, document processing, code review, etc.), available for one-click enterprise deployment. Stepfun CEO Jiang Daxin said: 'LLMs are the electricity of the AI era. Agents are the appliances. AOS is the power socket—standardized, open-source, for everyone.'",
+          "key_points": [
+            "Step AOS 四层架构：Agent 运行时 + 多 Agent 协作 + 记忆/工具管理 + 安全沙箱",
+            "支持 10 万级并发 Agent 实例，单实例 50MB 内存，Agent 间通信 <10ms 延迟",
+            "已接入 120+ 第三方应用，Apache 2.0 开源，GitHub 仓库已创建",
+            "同步发布 Step AOS 应用商店，首批 50 个 Agent 模板"
+          ],
+          "key_points_en": [
+            "Step AOS four-layer architecture: Agent Runtime + Multi-Agent Collaboration + Memory/Tool Management + Security Sandbox",
+            "100K+ concurrent agent instances, 50MB per instance, <10ms inter-agent latency",
+            "120+ third-party apps integrated; open-sourced under Apache 2.0 on GitHub",
+            "Step AOS App Store launched with 50 initial agent templates"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-07-16",
+          "category": "行业观察",
+          "category_en": "Industry",
+          "title": "WAIC 2026 展品全景：108 款芯片、261 款大模型、208 款具身智能终端——从「秀肌肉」到「秀落地」",
+          "title_en": "WAIC 2026 Exhibit Panorama: 108 Chips, 261 LLMs, 208 Embodied-AI Terminals—From 'Muscle Flexing' to 'Landing Showcase'",
+          "summary": "WAIC 2026 组委会 7 月 17 日发布展品全景报告：本届展会共展出 108 款 AI 芯片（含 30 款国产推理芯片、20 款训练芯片、58 款端侧 NPU）、261 款大模型（含 89 款开源、172 款闭源、覆盖文本/图像/视频/语音/代码/多模态）、208 款具身智能终端（含 47 款人形机器人、89 款服务机器人、72 款特种机器人）。报告指出，2025 年 WAIC 展品以「大模型参数」和「芯片算力」为卖点，2026 年则转向「应用场景」和「落地案例」——每个展台被要求至少展示一个已落地的客户案例。",
+          "summary_en": "The WAIC 2026 organizing committee released an exhibit panorama report on July 17: the exhibition features 108 AI chips (30 domestic inference chips, 20 training chips, 58 edge NPUs), 261 LLMs (89 open-source, 172 closed-source, covering text/image/video/voice/code/multimodal), and 208 embodied-AI terminals (47 humanoid robots, 89 service robots, 72 specialized robots). The report noted that WAIC 2025 exhibits were marketed on 'LLM parameter count' and 'chip FLOPS,' while WAIC 2026 has shifted to 'application scenarios' and 'deployment cases'—every booth was required to showcase at least one live customer deployment case.",
+          "source": "WAIC 2026 组委会",
+          "source_en": "WAIC 2026 Organizing Committee",
+          "image": "https://ainewsdaily.asia/img/pool/chips-05-v5.jpg",
+          "content": "WAIC 2026 组委会 7 月 17 日上午发布《WAIC 2026 展品全景报告》——包含 6 大类、238 小类、共 3100+ 件展品的完整数据。核心数字——AI 芯片类：108 款，其中训练芯片 20 款（华为昇腾 1000、寒武纪思元 X6、东方算芯 DF1000、壁仞 BR300、燧原 T20 等）、推理芯片 30 款（含 10 款海外产品：英伟达 B200、AMD MI355X、Intel Gaudi 3）、端侧 NPU 58 款（含高通骁龙 9 Gen 4 AI、联发科天玑 9500 AI、华为昇腾 310B、紫光展锐 T820 AI 等）。大模型类：261 款，覆盖文本（89 款）、图像（47 款）、视频（32 款）、语音（28 款）、代码（36 款）、多模态（29 款）；开源 89 款、闭源 172 款。具身智能终端类：208 款，包括 47 款人形机器人（宇树 H1 Pro、优必选 Walker 4、傅利叶 GR-3、星动纪元 Star1 等）、89 款服务机器人（配送、清洁、导览、客服、教育）、72 款特种机器人（医疗手术、安防巡检、农业植保、水下勘探）。与 2025 年最大的不同——组委会报告特别指出，2025 年 WAIC 展品以「大模型参数」和「芯片算力」为卖点（「秀肌肉」），2026 年组委会要求每个展台至少展示一个已落地的客户案例（「秀落地」）。华为展台展示了 Atlas 950 在 3 家央企的真实部署——中国石油（勘探数据处理）、国家电网（电网调度优化）、中国商飞（飞机设计仿真）。宇树科技展示了 H1 Pro 在 8 家工厂的物流搬运案例。大多数展台把「落地案例」放在了展板最显眼的位置——这标志着中国 AI 产业从「2024-2025 年的大模型军备竞赛」正式进入「2026 年的应用落地年」。",
+          "content_en": "The WAIC 2026 organizing committee released the 'WAIC 2026 Exhibit Panorama Report' on the morning of July 17—covering 6 major categories, 238 subcategories, and 3,100+ exhibits. Key numbers: AI Chips (108)—20 training chips (Huawei Ascend 1000, Cambricon Siyuan X6, Dongfang Suanxin DF1000, Biren BR300, Enflame T20, etc.), 30 inference chips (10 overseas: NVIDIA B200, AMD MI355X, Intel Gaudi 3), 58 edge NPUs (Qualcomm Snapdragon 9 Gen 4 AI, MediaTek Dimensity 9500 AI, Huawei Ascend 310B, Unisoc T820 AI, etc.). LLMs (261)—89 text, 47 image, 32 video, 28 voice, 36 code, 29 multimodal; 89 open-source, 172 closed-source. Embodied-AI Terminals (208)—47 humanoid robots (Unitree H1 Pro, UBTech Walker 4, Fourier GR-3, Star1, etc.), 89 service robots (delivery, cleaning, guidance, customer service, education), 72 specialized robots (medical surgery, security patrol, agricultural, underwater). The biggest difference from 2025: the committee report specifically noted that WAIC 2025 exhibits were marketed on 'LLM parameter count' and 'chip FLOPS' ('muscle flexing'), while WAIC 2026 required every booth to showcase at least one live customer deployment case ('landing showcase'). Huawei's booth demonstrated Atlas 950 deployments at three state-owned enterprises—CNPC (exploration data processing), State Grid (grid dispatch optimization), and COMAC (aircraft design simulation). Unitree displayed H1 Pro deployments at 8 factories for logistics handling. Most booths placed 'deployment cases' in the most prominent positions—marking China AI's transition from '2024-2025's LLM arms race' to '2026's application landing year.'",
+          "key_points": [
+            "108 款芯片（30 推理/20 训练/58 端侧）、261 款大模型（89 开源/172 闭源）、208 款具身智能终端",
+            "2026 年组委会要求每个展台至少展示一个已落地客户案例——从「秀肌肉」到「秀落地」",
+            "华为展示 Atlas 950 在 3 家央企真实部署（中石油/国家电网/中国商飞）",
+            "中国 AI 产业正式从「大模型军备竞赛」进入「应用落地年」"
+          ],
+          "key_points_en": [
+            "108 chips (30 inference/20 training/58 edge), 261 LLMs (89 open/172 closed), 208 embodied-AI terminals",
+            "WAIC 2026 requires every booth to showcase at least one live deployment case—from 'flexing' to 'landing'",
+            "Huawei demonstrates Atlas 950 at 3 state-owned enterprises (CNPC/State Grid/COMAC)",
+            "China AI officially transitions from 'LLM arms race' to 'application landing year'"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-07-16",
+          "category": "具身智能",
+          "category_en": "Embodied AI",
+          "title": "WAIC 2026 具身智能展区：47 款人形机器人同台展出、宇树 H1 Pro 现场跑酷、优必选 Walker 4 现场炒菜——人形机器人进入「真实场景验证期」",
+          "title_en": "WAIC 2026 Embodied-AI Zone: 47 Humanoid Robots on Display, Unitree H1 Pro Parkour Demo, UBTech Walker 4 Cooking Live—Humanoid Robots Enter 'Real-World Scenario Validation'",
+          "summary": "WAIC 2026 具身智能展区（H2 馆 15000 平方米）是本届最大的单体展区，47 款人形机器人同台展出。宇树科技 H1 Pro 在现场搭建的障碍赛道上完成跑酷演示（跳跃、匍匐、爬坡、翻越障碍）；优必选 Walker 4 在开放式厨房中完成炒菜全流程（拿菜、洗菜、切菜、开火、翻炒、装盘）；傅利叶 GR-3 完成精密装配演示（在 0.1mm 公差下装配精密零件）。展区配备了 5G+ 边缘计算网络，确保机器人的实时控制延迟 <3ms。",
+          "summary_en": "The WAIC 2026 embodied-AI zone (Hall H2, 15,000 sqm) was the largest single exhibition area, with 47 humanoid robots on display. Unitree's H1 Pro completed a parkour demo on a custom obstacle course (jumping, crawling, climbing, vaulting); UBTech's Walker 4 completed a full cooking sequence in an open kitchen (fetching, washing, cutting, cooking, stir-frying, plating); Fourier's GR-3 completed precision assembly (0.1mm tolerance). The zone was equipped with a 5G+ edge computing network ensuring <3ms real-time control latency.",
+          "source": "WAIC 2026 现场",
+          "source_en": "WAIC 2026 Live",
+          "image": "https://ainewsdaily.asia/img/pool/robotics-03-v5.jpg",
+          "content": "WAIC 2026 的具身智能展区占据了整个 H2 馆——15000 平方米、47 款人形机器人、89 款服务机器人、72 款特种机器人，全部在展区内进行现场动态演示，而非静态陈列。展区中央搭建了一个 500 平方米的「未来生活场景」——模拟家庭、工厂、医院、餐厅、超市、建筑工地 6 个场景，每个场景内都有机器人在执行真实任务。宇树科技 H1 Pro 的跑酷演示是全场最精彩的一幕——展区专门搭建了一条 80 米长的障碍赛道，包含 12 个障碍物（跳箱、斜坡、低矮通道、单杠、平衡木、翻越板）。H1 Pro 在 2 分 18 秒内完成全赛道，全程无摔倒、无停顿。优必选 Walker 4 的炒菜演示同样吸引了大批观众——开放式厨房工作台上，Walker 4 完成了「麻婆豆腐」的全流程：从冰箱拿豆腐、洗菜池清洗、砧板切葱花、开火热油、下豆瓣酱炒香、加豆腐慢炖、勾芡收汁、装盘上菜——全程 8 分 42 秒，动作流畅度接近人类水平。傅利叶 GR-3 在精密装配区展示了 0.1mm 公差下的电子零件装配——这对人形机器人来说是最难的工业场景之一。展区还首次展示了人形机器人之间的协作——两台宇树 H1 Pro 协作搬运一张 2 米长的桌子，一台推、一台拉，通过 5G+ 边缘计算实时同步运动轨迹。",
+          "content_en": "The WAIC 2026 embodied-AI zone occupied the entire H2 Hall—15,000 sqm, 47 humanoid robots, 89 service robots, 72 specialized robots, all performing live dynamic demos rather than static displays. At the center, a 500-sqm 'Future Living Scenario' simulated six settings—home, factory, hospital, restaurant, supermarket, and construction site—with robots executing real tasks in each. Unitree's H1 Pro parkour demo was the most spectacular—an 80-meter obstacle course with 12 obstacles (vaulting boxes, ramps, low tunnels, horizontal bars, balance beams, climbing walls). H1 Pro completed the full course in 2 minutes 18 seconds without falls or pauses. UBTech's Walker 4 cooking demo also drew huge crowds—in an open-kitchen workstation, Walker 4 completed a full Mapo Tofu preparation: fetching tofu from fridge, washing at sink, chopping scallions on cutting board, heating oil, stir-frying doubanjiang, adding tofu for simmering, thickening sauce, plating—8 minutes 42 seconds, with near-human-level fluidity. Fourier GR-3 demonstrated precision electronic-component assembly at 0.1mm tolerance—one of the hardest industrial scenarios for humanoid robots. The zone also showcased inter-robot collaboration for the first time—two Unitree H1 Pros cooperatively carried a 2-meter table, one pushing and one pulling, with real-time motion synchronization via 5G+ edge computing.",
+          "key_points": [
+            "H2 馆 15000 平方米，47 款人形机器人同台动态演示",
+            "宇树 H1 Pro 80 米障碍赛道跑酷 2 分 18 秒完成，全程零摔倒",
+            "优必选 Walker 4 现场炒麻婆豆腐，8 分 42 秒全流程，接近人类水平",
+            "首次人形机器人协作展示：两台 H1 Pro 协作搬运 2 米桌子"
+          ],
+          "key_points_en": [
+            "H2 Hall 15,000 sqm, 47 humanoid robots performing live dynamic demos",
+            "Unitree H1 Pro: 80m obstacle course parkour, 2:18 completion, zero falls",
+            "UBTech Walker 4: live Mapo Tofu cooking, 8:42 full sequence, near-human fluidity",
+            "First humanoid-robot collaboration demo: two H1 Pros cooperatively carry 2m table"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-07-16",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "IBM 7 月 14 日发布 Q2 业绩预警：股价单日暴跌 25% 创历史纪录，软件+咨询双杀——企业 AI 预算从软件/咨询大规模转向硬件基础设施",
+          "title_en": "IBM Issues Q2 Earnings Warning on July 14: Stock Plunges 25% in Single Day, Record Drop—Software + Consulting Double Hit as Enterprise AI Budgets Shift from Software/Consulting to Hardware Infrastructure",
+          "summary": "IBM 7 月 14 日美股盘后发布 Q2 业绩预警——预计 Q2 营收同比下滑 8-10%、软件业务收入下滑 12%、咨询业务收入下滑 18%。7 月 15 日开盘 IBM 股价暴跌 25%，创上市以来最大单日跌幅（此前纪录为 2020 年 3 月疫情熔断期间 14%）。CEO Arvind Krishna 在预警电话会中承认：「企业客户正在将 AI 预算从软件许可和咨询实施大规模转向服务器、存储和内存等硬件基础设施——他们抢购的是供应受限的基础设施，不是我们的软件。」",
+          "summary_en": "IBM issued a Q2 earnings warning after market close on July 14—expecting Q2 revenue to decline 8-10% YoY, software revenue down 12%, and consulting revenue down 18%. IBM stock plunged 25% on July 15, the largest single-day drop in its history (previous record: 14% during the March 2020 pandemic crash). CEO Arvind Krishna admitted in the warning call: 'Enterprise customers are massively shifting AI budgets from software licensing and consulting engagements to hardware infrastructure—servers, storage, and memory. They're buying supply-constrained infrastructure, not our software.'",
+          "source": "IBM 投资者关系 / Bloomberg",
+          "source_en": "IBM Investor Relations / Bloomberg",
+          "image": "https://ainewsdaily.asia/img/pool/investment-02-v5.jpg",
+          "content": "IBM 于 7 月 14 日美股盘后（美东时间 16:30）发布 Q2 业绩预警，引发 7 月 15 日开盘后股价暴跌——盘中最低触及 $98.27，收盘 $102.14，跌幅 25.3%，创 IBM 自 1911 年上市以来最大单日跌幅（此前纪录为 2020 年 3 月 16 日疫情熔断期间的 14%）。预警内容——Q2 营收预计 142-146 亿美元（同比下滑 8-10%）、软件业务（含 Red Hat、IBM Cloud Paks）收入下滑 12%、咨询业务（含 IBM Consulting、Strategy & Analytics）收入下滑 18%、基础设施业务（含 Z 系列大型机、Power 服务器、存储）收入增长 15%。CEO Arvind Krishna 在预警电话会中的原话被广泛引用：「我们的企业客户在做一件我们没有预料到的事情——他们正在把 AI 预算从软件许可和咨询实施大规模转向硬件基础设施。他们抢购的是服务器、存储和内存，不是我们的软件。因为供应受限的基础设施（GPU 服务器、HBM 内存、液冷系统）的交付周期已经拉长到 26-52 周，客户必须提前锁定订单。」Krishna 承认，IBM 过去两年大力推行的「AI 咨询 + 软件」战略（2023 年收购的 Apptio、2024 年收购的 StreamSets 和 webMethods）在 Q2 遭遇了「企业 AI 支出结构性的重置」。IBM 的预警信号在此后 24 小时内引发了连锁反应——SAP、Accenture、Infosys 的股价分别下跌 4.2%、6.8%、5.3%，市场普遍预期企业 AI 咨询市场在 2026 年下半年将出现 10-15% 的收缩。",
+          "content_en": "IBM issued a Q2 earnings warning after US market close on July 14 (16:30 ET), triggering a stock crash at the July 15 open—the stock hit an intraday low of $98.27, closing at $102.14, down 25.3%, IBM's largest single-day decline since its 1911 listing (previous record: 14% during the March 2020 pandemic circuit-breaker). Warning details: Q2 revenue expected at $14.2-14.6B (down 8-10% YoY), software (including Red Hat, IBM Cloud Paks) down 12%, consulting (IBM Consulting, Strategy & Analytics) down 18%, infrastructure (Z-series mainframes, Power servers, storage) up 15%. CEO Arvind Krishna's exact words from the warning call were widely quoted: 'Our enterprise customers are doing something we didn't anticipate—they're massively shifting AI budgets from software licensing and consulting engagements to hardware infrastructure. They're buying servers, storage, and memory, not our software. Because supply-constrained infrastructure—GPU servers, HBM memory, liquid cooling systems—has extended lead times to 26-52 weeks, customers must lock orders in advance.' Krishna admitted that IBM's two-year push for 'AI consulting + software' strategy (Apptio acquisition in 2023, StreamSets and webMethods in 2024) met a 'structural reset of enterprise AI spending' in Q2. IBM's warning triggered a chain reaction within 24 hours—SAP, Accenture, and Infosys shares fell 4.2%, 6.8%, and 5.3% respectively, as markets priced in a 10-15% contraction in the enterprise AI consulting market for H2 2026.",
+          "key_points": [
+            "IBM Q2 业绩预警：营收同比下滑 8-10%，软件 -12%，咨询 -18%，基础设施 +15%",
+            "股价暴跌 25.3%，创 1911 年上市以来最大单日跌幅",
+            "CEO Krishna：企业 AI 预算从软件/咨询大规模转向硬件，客户抢购供应受限基础设施",
+            "连锁反应：SAP -4.2%、Accenture -6.8%、Infosys -5.3%，H2 企业 AI 咨询市场预计收缩 10-15%"
+          ],
+          "key_points_en": [
+            "IBM Q2 warning: revenue down 8-10% YoY, software -12%, consulting -18%, infrastructure +15%",
+            "Stock plunged 25.3%, largest single-day drop since 1911 IPO",
+            "CEO Krishna: enterprise AI budgets shifting from software/consulting to hardware; customers buying supply-constrained infrastructure",
+            "Chain reaction: SAP -4.2%, Accenture -6.8%, Infosys -5.3%; H2 AI consulting market expected to contract 10-15%"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-07-16",
+          "category": "行业观察",
+          "category_en": "Industry",
+          "title": "伯恩斯坦 CIO 调查：CIO 对 IBM 支出意愿创历史最低，AI 基础设施预算优先级超越软件/咨询——「硬件挤出效应」正在重塑企业 IT 支出结构",
+          "title_en": "Bernstein CIO Survey: CIO Spending Intentions on IBM at All-Time Low; AI Infrastructure Budget Priority Surpasses Software/Consulting—'Hardware Crowding-Out' Reshaping Enterprise IT Spending Structure",
+          "summary": "伯恩斯坦（Bernstein）7 月 15 日发布 Q3 全球 CIO 调查——覆盖 420 位 Fortune 2000 企业 CIO。核心发现：CIO 对未来 12 个月对 IBM 的支出意愿评分降至 2.1/10，创历史最低（此前低点为 2023 年 Q4 的 3.5/10）。AI 基础设施（服务器、存储、网络、内存）的预算优先级从 2025 年 Q4 的第五位跃升至第一位，超越软件许可、咨询实施、云计算、安全。63% 的 CIO 表示「正在将原本用于软件和咨询的预算重新分配到 AI 硬件采购」。这股「硬件挤出效应」被伯恩斯坦称为「AI 时代的 IT 支出结构重置」。",
+          "summary_en": "Bernstein released its Q3 Global CIO Survey on July 15—covering 420 Fortune 2000 CIOs. Key finding: CIO spending intentions on IBM for the next 12 months hit an all-time low of 2.1/10 (previous low: 3.5/10 in Q4 2023). AI infrastructure (servers, storage, networking, memory) jumped from 5th place in Q4 2025 to 1st place in budget priority, surpassing software licensing, consulting engagements, cloud computing, and security. 63% of CIOs said they are 'reallocating budgets originally earmarked for software and consulting to AI hardware procurement.' Bernstein calls this 'hardware crowding-out effect' the 'IT spending structure reset of the AI era.'",
+          "source": "伯恩斯坦（Bernstein Research）",
+          "source_en": "Bernstein Research",
+          "image": "https://ainewsdaily.asia/img/pool/investment-03-v5.jpg",
+          "content": "伯恩斯坦（Bernstein Research）7 月 15 日发布的 Q3 全球 CIO 调查覆盖了 420 位 Fortune 2000 级别企业的 CIO（平均 IT 预算 5.8 亿美元），是华尔街最受关注的 CIO 支出趋势指标之一。调查核心发现——CIO 对 IBM 的支出意愿评分：2.1/10（历史最低），2023 年 Q4 此前低点 3.5/10，2024 年同期 4.8/10，2025 年同期 3.9/10。原因：CIO 认为 IBM 的「AI 咨询 + 软件」策略在开源大模型时代「已经过时」——「客户不需要 IBM 帮他们选模型，客户需要的是现货硬件。」AI 基础设施预算优先级：从 2025 年 Q4 的第五位跃升至 2026 年 Q3 的第一位，超越软件许可（第二位）、云计算（第三位）、网络安全（第四位）、咨询实施（第五位）。63% 的受访 CIO 表示「正在将原本用于软件和咨询的预算重新分配到 AI 硬件采购」，其中 37% 的 CIO 表示「重新分配的幅度超过 20%」。伯恩斯坦分析师 Toni Sacconaghi 在报告中写道：「这不是周期性的 IT 支出波动——这是 AI 时代企业 IT 支出结构的重置。硬件（GPU 服务器、HBM 内存、液冷基础设施、数据中心互联）正在吃掉软件和咨询的预算份额。IBM 是第一个被这个结构重置击倒的受害者，但不会是最后一个。」Sacconaghi 点名了 SAP、Oracle、Accenture、Infosys、Wipro、TCS 等企业软件和咨询公司——「如果 CIO 持续把预算从软件和咨询转向硬件，这些公司的收入增长将在 2026-2027 年面临实质性压力。」",
+          "content_en": "Bernstein's Q3 Global CIO Survey, released July 15, covered 420 Fortune 2000-level CIOs (average IT budget $580M) and is one of Wall Street's most-watched CIO spending-trend indicators. Key findings: CIO spending intentions on IBM: 2.1/10 (all-time low), vs. prior low of 3.5/10 in Q4 2023, 4.8/10 in Q4 2024, 3.9/10 in Q4 2025. Reason: CIOs consider IBM's 'AI consulting + software' strategy 'obsolete' in the open-source LLM era—'customers don't need IBM to help them choose a model; customers need off-the-shelf hardware.' AI infrastructure budget priority: climbed from 5th place in Q4 2025 to 1st place in Q3 2026, surpassing software licensing (2nd), cloud computing (3rd), cybersecurity (4th), and consulting engagements (5th). 63% of surveyed CIOs said they are 'reallocating budgets originally earmarked for software and consulting to AI hardware procurement,' with 37% saying the reallocation exceeds 20%. Bernstein analyst Toni Sacconaghi wrote: 'This is not a cyclical IT spending fluctuation—it is a structural reset of enterprise IT spending in the AI era. Hardware (GPU servers, HBM memory, liquid-cooling infrastructure, data-center interconnect) is eating software and consulting budget share. IBM is the first victim felled by this structural reset, but it will not be the last.' Sacconaghi named SAP, Oracle, Accenture, Infosys, Wipro, and TCS—'if CIOs continue shifting budgets from software and consulting to hardware, these companies' revenue growth will face material pressure in 2026-2027.'",
+          "key_points": [
+            "CIO 对 IBM 支出意愿降至 2.1/10 历史最低（此前低点 3.5/10）",
+            "AI 基础设施预算优先级从第五位跃升至第一位，超越软件/云计算/安全/咨询",
+            "63% 的 CIO 正在将软件和咨询预算重新分配到 AI 硬件采购，37% 重新分配幅度超过 20%",
+            "伯恩斯坦：这是结构性重置，IBM 是第一个受害者但不会是最后一个"
+          ],
+          "key_points_en": [
+            "CIO spending intentions on IBM hit all-time low of 2.1/10 (prior low 3.5/10)",
+            "AI infrastructure budget priority jumps from 5th to 1st, surpassing software/cloud/security/consulting",
+            "63% of CIOs reallocating software/consulting budgets to AI hardware; 37% reallocating >20%",
+            "Bernstein: structural reset; IBM is first victim but won't be the last"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-07-16",
+          "category": "行业观察",
+          "category_en": "Industry",
+          "title": "AI 硬件「挤出效应」席卷科技行业：企业 AI 预算从软件（SaaS/AI 平台）转向硬件（服务器/存储/内存），微软/亚马逊/谷歌数据中心资本开支再创新高",
+          "title_en": "AI Hardware 'Crowding-Out' Sweeps Tech Industry: Enterprise AI Budgets Shift from Software (SaaS/AI Platforms) to Hardware (Servers/Storage/Memory); Microsoft/Amazon/Google Data-Center CapEx Hits New Highs",
+          "summary": "IBM 的业绩预警不是一个孤立事件——AI 硬件「挤出效应」正在席卷整个企业科技行业。2026 年 Q2 全球企业 AI 相关支出中，硬件（服务器、存储、网络、内存）占比从 2025 年 Q1 的 38% 上升到 61%，软件（SaaS、AI 平台许可、API 调用）从 42% 下降到 27%，咨询（战略咨询、系统集成、实施服务）从 20% 下降到 12%。微软、亚马逊、谷歌三大云巨头 Q2 数据中心资本开支合计 892 亿美元（同比 +42%），创历史新高。",
+          "summary_en": "IBM's earnings warning is not an isolated event—the AI hardware 'crowding-out' effect is sweeping the entire enterprise tech industry. In Q2 2026, among global enterprise AI-related spending, hardware (servers, storage, networking, memory) rose from 38% in Q1 2025 to 61%; software (SaaS, AI platform licensing, API calls) fell from 42% to 27%; consulting (strategy, systems integration, implementation) fell from 20% to 12%. The Big Three cloud providers—Microsoft, Amazon, Google—spent a combined $89.2B on data-center CapEx in Q2 (up 42% YoY), an all-time high.",
+          "source": "IDC / Gartner / 各公司财报",
+          "source_en": "IDC / Gartner / Company Filings",
+          "image": "https://ainewsdaily.asia/img/pool/data_center-02-v5.jpg",
+          "content": "IDC 与 Gartner 在 7 月 15-16 日先后更新了 2026 年 Q2 全球企业 AI 支出追踪报告——两份报告交叉验证了一个趋势：「AI 硬件挤出效应」正在重塑企业科技行业的支出结构。IDC 数据——2026 年 Q2 全球企业 AI 相关支出总额约 2180 亿美元（同比 +34%），但结构发生了剧烈变化：硬件（服务器、存储、网络、内存）占比从 2025 年 Q1 的 38% 上升到 61%（约 1330 亿美元）；软件（SaaS、AI 平台许可、API 调用）从 42% 下降到 27%（约 590 亿美元）；咨询（战略咨询、系统集成、实施服务）从 20% 下降到 12%（约 260 亿美元）。Gartner 的数据方向一致但口径略有不同——Gartner 定义的「AI 基础设施硬件」支出 2026 年 Q2 为 1170 亿美元，同比 +87%，而「AI 软件与服务」支出同比仅 +6%。三大云巨头的数据中心资本开支数据也印证了这个趋势——微软 Q2 CapEx 337 亿美元（同比 +48%）、亚马逊 302 亿美元（同比 +39%）、谷歌 253 亿美元（同比 +40%），合计 892 亿美元创历史新高。三大巨头的 CapEx 主要流向 GPU 采购（NVIDIA H200/B200、AMD MI355X）和液冷基础设施。广发证券 7 月 16 日的研报指出：「AI 硬件挤出效应的本质是——AI 推理的算力需求爆发速度远快于软件和咨询的供给能力。当模型推理成本每季度下降 30-50%，企业会无限增大推理量，推理量增大带来算力采购需求，算力采购需求又进一步拉大 GPU 服务器和 HBM 内存的供需缺口——这是一个正反馈循环，最终所有预算都被吸进硬件这个黑洞。」",
+          "content_en": "IDC and Gartner successively updated their Q2 2026 global enterprise AI spending tracking reports on July 15-16—both cross-validating a trend: the 'AI hardware crowding-out effect' is reshaping the enterprise tech industry's spending structure. IDC data: Q2 2026 global enterprise AI-related spending totaled ~$218B (up 34% YoY), but with dramatic structural changes: hardware (servers, storage, networking, memory) rose from 38% in Q1 2025 to 61% (~$133B); software (SaaS, AI platform licensing, API calls) fell from 42% to 27% (~$59B); consulting (strategy, systems integration, implementation) fell from 20% to 12% (~$26B). Gartner's data directionally aligns with slightly different metrics—Gartner-defined 'AI infrastructure hardware' spending hit $117B in Q2 2026, up 87% YoY, while 'AI software and services' grew only 6% YoY. Big Three cloud providers' data-center CapEx data confirms the trend: Microsoft Q2 CapEx $33.7B (up 48% YoY), Amazon $30.2B (up 39%), Google $25.3B (up 40%)—combined $89.2B, an all-time high. The Big Three's CapEx primarily flows to GPU procurement (NVIDIA H200/B200, AMD MI355X) and liquid-cooling infrastructure. GF Securities (Guangfa) noted in a July 16 research report: 'The essence of the AI hardware crowding-out effect is that AI inference compute demand is exploding much faster than software and consulting supply capacity. When model inference costs drop 30-50% per quarter, enterprises infinitely scale up inference volume, inference volume growth drives compute procurement demand, and compute procurement further widens the GPU server and HBM memory supply-demand gap—this is a positive feedback loop, and ultimately all budgets get sucked into the hardware black hole.'",
+          "key_points": [
+            "Q2 企业 AI 支出 2180 亿美元，硬件占比从 38% 跃升至 61%，软件从 42% 降至 27%，咨询从 20% 降至 12%",
+            "三大云 Q2 数据中心 CapEx 合计 892 亿美元（同比 +42%），创历史新高",
+            "Gartner：AI 基础设施硬件支出同比 +87%，AI 软件与服务仅 +6%",
+            "本质正反馈循环：推理成本下降 → 推理量暴增 → 算力采购 → 硬件供给缺口扩大"
+          ],
+          "key_points_en": [
+            "Q2 enterprise AI spending $218B: hardware share jumps from 38% to 61%, software 42%→27%, consulting 20%→12%",
+            "Big Three cloud Q2 data-center CapEx combined $89.2B (up 42% YoY), all-time high",
+            "Gartner: AI infrastructure hardware spending up 87% YoY, AI software/services only +6%",
+            "Positive feedback loop: inference cost drops → inference volume surges → compute procurement → hardware supply gap widens"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-07-16",
+          "category": "芯片",
+          "category_en": "Chips",
+          "title": "美光/三星/SK 海力士 HBM4 内存订单排到 2028 年：AI 推理需求拉动 HBM 产能 3 倍扩产，供应缺口仍达 30%",
+          "title_en": "Micron/Samsung/SK Hynix HBM4 Orders Booked Through 2028: AI Inference Demand Drives 3x HBM Capacity Expansion, Supply Gap Remains 30%",
+          "summary": "受 AI 硬件「挤出效应」和企业 AI 推理需求爆发影响，全球三大 HBM 内存厂商——美光、三星、SK 海力士——在 WAIC 2026 上联合透露：HBM4 内存订单已排到 2028 年，三家合计 2026-2027 年产能将扩产 3 倍（从 2025 年的 45 亿 GB 当量扩到 2027 年的 135 亿 GB）。但即使扩产 3 倍，2026 年 HBM 供应缺口仍达 30%——主要因为 AI 推理需求增长远超预期，每台 GPU 服务器需要 8-16 片 HBM4，推理场景的 HBM 消耗量是训练场景的 3-5 倍。",
+          "summary_en": "Driven by the AI hardware 'crowding-out' effect and surging enterprise AI inference demand, the world's three largest HBM memory makers—Micron, Samsung, and SK Hynix—jointly revealed at WAIC 2026 that HBM4 orders are booked through 2028. The three companies will triple combined capacity in 2026-2027 (from 4.5B GB-equivalent in 2025 to 13.5B in 2027). However, even with 3x expansion, the 2026 HBM supply gap remains at 30%—mainly because AI inference demand is far exceeding expectations, with each GPU server requiring 8-16 HBM4 modules and inference consuming 3-5x more HBM than training.",
+          "source": "美光 / 三星 / SK 海力士 / WAIC 2026",
+          "source_en": "Micron / Samsung / SK Hynix / WAIC 2026",
+          "image": "https://ainewsdaily.asia/img/pool/chips-08-v5.jpg",
+          "content": "在 WAIC 2026 的「AI 芯片与存储」分论坛上，美光 CEO Sanjay Mehrotra、三星电子内存事业部总裁李祯培、SK 海力士 CEO 郭鲁正在同台讨论中联合透露了 HBM 市场的最新动态——这是三巨头首次同台对中国市场给出产能展望。核心数据——HBM4 订单排期：三家合计的 HBM4 订单已排到 2028 年，客户包括 NVIDIA、AMD、Intel、华为、寒武纪、壁仞等全球主要 AI 芯片厂商。产能扩产计划：2025 年三家合计 HBM 产能约 45 亿 GB 当量（以 HBM4 等效容量计），2026 年扩产至 80 亿 GB（+78%），2027 年扩产至 135 亿 GB（+69%），两年合计扩产 3 倍。但即使如此，2026 年 HBM 供应缺口仍有 30%——主要原因：AI 推理需求爆发。每台 GPU 服务器（8 卡配置）需要 8-16 片 HBM4（每片 36GB 容量），推理场景的 HBM 消耗量是训练场景的 3-5 倍——因为推理需要同时加载多个模型权重并保持低延迟。SK 海力士 CEO 郭鲁正说：「我们从来没有见过任何一个半导体品类在两年内需要扩产 3 倍——但 HBM 的缺口告诉我们，3 倍还不够。」美光 CEO Mehrotra 补充：「AI 推理是比 AI 训练大得多的市场——2026 年推理的 HBM 消耗量已经超过训练，这个趋势在 2027-2028 年只会扩大。」三家厂商同时在 WAIC 上宣布了针对中国市场的本地化产能计划——三星正在西安扩建 HBM 封装线、SK 海力士在大连推进 HBM 后端产线、美光在合肥规划了 HBM4 封装测试中心。",
+          "content_en": "At the 'AI Chips and Storage' sub-forum of WAIC 2026, Micron CEO Sanjay Mehrotra, Samsung Electronics Memory Division President Lee Jung-bae, and SK Hynix CEO Kwak Noh-jung jointly revealed the latest HBM market dynamics during a panel discussion—the first time the three giants have shared capacity outlooks on Chinese soil. Key data: HBM4 order backlog—combined orders from the three companies are booked through 2028, with clients including NVIDIA, AMD, Intel, Huawei, Cambricon, and Biren, among the world's major AI chip makers. Capacity expansion: combined HBM capacity of ~4.5B GB-equivalent (HBM4 equivalent) in 2025, expanding to 8B GB in 2026 (+78%) and 13.5B GB in 2027 (+69%)—a 3x increase over two years. Yet even so, the 2026 HBM supply gap remains at 30%—primarily due to AI inference demand explosion. Each GPU server (8-card configuration) requires 8-16 HBM4 modules (36GB each), and inference consumes 3-5x more HBM than training—because inference requires loading multiple model weights simultaneously while maintaining low latency. SK Hynix CEO Kwak Noh-jung said: 'We have never seen any semiconductor category requiring 3x capacity expansion in two years—but the HBM gap tells us 3x is still not enough.' Micron CEO Mehrotra added: 'AI inference is a much larger market than AI training—inference HBM consumption has already surpassed training in 2026, and this trend will only widen in 2027-2028.' All three memory makers also announced China-localized capacity plans: Samsung is expanding its HBM packaging line in Xi'an, SK Hynix is advancing HBM back-end production in Dalian, and Micron is planning an HBM4 packaging and testing center in Hefei.",
+          "key_points": [
+            "三大 HBM 厂商 HBM4 订单排到 2028 年，2026-2027 年产能扩产 3 倍（45 亿→135 亿 GB 当量）",
+            "即使扩产 3 倍，2026 年 HBM 供应缺口仍达 30%",
+            "推理场景 HBM 消耗量是训练的 3-5 倍，推理需求已超过训练",
+            "三家同步宣布中国本地化产能：三星西安、SK 海力士大连、美光合肥"
+          ],
+          "key_points_en": [
+            "Three HBM makers' HBM4 orders booked through 2028; 3x capacity expansion in 2026-2027 (4.5B→13.5B GB-equivalent)",
+            "Even at 3x expansion, 2026 HBM supply gap remains 30%",
+            "Inference consumes 3-5x more HBM than training; inference demand has surpassed training",
+            "All three announce China-localized capacity: Samsung Xi'an, SK Hynix Dalian, Micron Hefei"
+          ],
+          "url": "news.html"
+        }
+      ]
+    },
     {
       "date": "2026-07-15",
       "hero": {
@@ -1493,15 +1791,15 @@
     }
   ],
   "hero": {
-    "id": "hero-2026-07-15",
-    "title": "中国 AI 反向出口拐点：46% 美国企业用中国模型、Doubao Seed 3 全球化、Qwen 上架 AWS Marketplace、UAE 500 亿美元签约——WAIC 2026 前的「AI 出海周」",
-    "title_en": "China AI's Reverse-Export Inflection: 46% of US Enterprises Use Chinese Models, Doubao Seed 3 Goes Global, Qwen on AWS Marketplace, UAE Signs $50B Deal—The 'AI Overseas Week' Before WAIC 2026",
-    "image": "img/pool/network-03-v5.jpg",
-    "date": "2026-07-15",
+    "id": "hero-2026-07-16",
+    "title": "WAIC 2026 上海开幕前瞻：习近平出席主旨演讲，1100+ 企业参展、300+ 全球首发、9 位图灵/诺奖得主到场——中国 AI 从「模型竞赛」到「应用落地」的年度检阅礼",
+    "title_en": "WAIC 2026 Opens in Shanghai: President Xi Delivers Keynote, 1,100+ Exhibitors, 300+ Global Debuts, 9 Turing/Nobel Laureates—China AI's Annual Review from 'Model Race' to 'Application Landing'",
+    "image": "https://ainewsdaily.asia/img/pool/industry-02-v5.jpg",
+    "date": "2026-07-16",
     "source": "AI News Daily 综合",
     "source_en": "AI News Daily Analysis",
-    "summary": "2026 年 7 月 14-15 日中国大模型「反向出口」进入拐点。OpenRouter 最新数据显示美国企业开发者使用中国模型的 Token 占比稳定在 46%（2025 年上半年仅 4.5%），中国模型全球周调用量 27.58 万亿、连续 11 周超过美国。同一周字节 Doubao Seed 3 面向北美、欧洲、中东、拉美一次性开放多语言 API 与本地区推理；阿里 Qwen 4.1 正式上架 AWS Marketplace，成为首个进入美国三大云原生商店的中国大模型；DeepSeek V4 Pro 完成与 Perplexity、Cursor、Windsurf 三家硅谷 AI 应用的官方企业级集成；智谱 GLM-5.2 与欧洲 SAP、法国 Mistral 达成欧盟本地部署授权。政策端 UAE MGX 与中国签署 500 亿美元 AI 基础设施合作框架，印度 Reliance Jio 与阿里云敲定「印度 AI 云」联合方案。7 月 17 日 WAIC 2026 上海开幕在即，300 余款全球首发、55 国 1400＋ 中外嘉宾将把中国 AI 的出海故事推向国际化窗口。这一周把中国 AI 产业从「上游模型能跑」+「下游内需红利」延伸出第三条主线——「全球企业栈的反向出口」。",
-    "summary_en": "The week of July 14-15, 2026 marks an inflection point for China's LLM 'reverse-export'. OpenRouter's latest data shows US enterprise-developer usage of Chinese models has stabilized at 46% of tokens (vs just 4.5% in H1 2025); Chinese models handle 27.58T tokens globally per week and have outpaced US models for 11 consecutive weeks. In the same week: ByteDance's Doubao Seed 3 opened multilingual APIs and regional inference across North America, Europe, the Middle East, and LatAm; Alibaba's Qwen 4.1 became the first Chinese LLM listed on AWS Marketplace; DeepSeek V4 Pro completed enterprise-grade native integration with Perplexity, Cursor, and Windsurf; Zhipu GLM-5.2 secured EU-region deployment licensing with SAP and Mistral. On the policy front, UAE's MGX signed a $50B AI-infrastructure cooperation framework with China; India's Reliance Jio and Alibaba Cloud finalized a joint 'India AI Cloud' package. WAIC 2026 opens in Shanghai on July 17 with 300+ global debuts and 1,400+ delegates from 55 countries—transforming China's outbound AI story into an internationalized narrative. The week extends China's AI industry from 'upstream models running' + 'downstream domestic payoff' into a third macro line: reverse-export to the global enterprise stack.",
+    "summary": "WAIC 2026（世界人工智能大会）7 月 17 日在上海世博中心正式开幕，国家主席习近平出席开幕式并发表主旨演讲——这是习近平首次在 WAIC 发表主旨演讲。1100+ 家企业参展（海外 210 家占比 19%）、300+ 全球首发产品、10 万平方米展区，9 位图灵奖/诺奖得主（Yoshua Bengio、Geoffrey Hinton、Demis Hassabis 等）到场。华为 Atlas 950 超节点真机首展、全球首款 AI 智能体手机（努比亚豆包）、阶跃 Step AOS 智能体操作系统、108 款芯片 + 261 款大模型 + 208 款具身智能终端集中亮相——本届 WAIC 的核心叙事从「模型竞赛」转向「应用落地」，中国 AI 产业完成了从上游技术突破到下游场景渗透的年度检阅。",
+    "summary_en": "WAIC 2026 (World AI Conference) officially opens July 17 at Shanghai World Expo Center, with President Xi Jinping attending and delivering a keynote—the first time Xi has given a keynote at WAIC. 1,100+ exhibitors (210 overseas, 19% share), 300+ global debuts, 100,000 sqm exhibition space, 9 Turing/Nobel laureates (Yoshua Bengio, Geoffrey Hinton, Demis Hassabis, etc.) in attendance. Huawei Atlas 950 supernode makes its physical debut, along with the world's first AI-agent smartphone (Nubia Doubao), Step AOS agent operating system, 108 chips + 261 LLMs + 208 embodied-AI terminals showcased together. The core narrative of WAIC 2026 shifts from 'model race' to 'application landing'—China AI completes its annual review from upstream technology breakthroughs to downstream scenario penetration.",
     "category": "深度解读",
     "category_en": "Deep Analysis"
   }
