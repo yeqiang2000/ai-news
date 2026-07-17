@@ -1,0 +1,16 @@
+{
+  "id": "article-34",
+  "date": "2026-07-05",
+  "title_zh": "Anthropic 的临界点：Claude Fable 5 剥离订阅，AI 旗舰模型进入按量计费时代",
+  "title_en": "Anthropic's Inflection Point: Claude Fable 5 Unbundled from Subscriptions, AI Flagship Enters the Usage-Based Era",
+  "subtitle_zh": "7 月 1 日 Claude Fable 5 限时回归、订阅用户获 7 天 50% 周额度、7 月 7 日之后彻底剥离订阅转按 usage credits 计费——这是继 6 月 15 日 Agent SDK 剥离方案在最后一刻叫停之后，Anthropic 第一次把真正落地的「剥离」动作放到旗舰模型身上；也是继 7 月 2 日 OpenAI 推理成本腰斩之后，大模型商业化又一次范式撕裂。本文从事实核对、剥离机制、成本经济学、开发者账单、三家横评、监管与地缘 6 个维度，拆解订阅制走到临界点之后的产业选择。",
+  "subtitle_en": "On July 1, Claude Fable 5 returned to subscribers for a seven-day promotional window at 50% weekly quota; after July 7 PT 23:59:59, Fable 5 is fully unbundled from every subscription tier and switches to usage credits. This is the first shipped unbundling since the Agent SDK plan was halted at the last minute on June 15, and it lands in the same week OpenAI's inference cost was reported to have fallen 50%. This piece dissects the subscription-model inflection across six dimensions — fact check, unbundling mechanics, cost economics, developer bills, three-way benchmark, and regulation/geopolitics.",
+  "url_zh": "articles/article-34.html",
+  "url_en": "articles/en/article-34.html",
+  "summary_zh": "2026 年 7 月的第一周，Anthropic 用一份看起来只有 7 天的「限时优惠」把一件酝酿三个月的产业转折做实——Claude Fable 5 从 7 月 1 日开始向订阅用户开放但每周只有 50% 额度、7 月 7 日 PT 23:59:59 之后彻底退出所有订阅套餐、转为按 usage credits 计费；API 挂牌价输入 $10 / 输出 $50 每百万 Token（约 Opus 4.8 的 2 倍）；美国境内推理加价 1.1 倍且仅在美国基础设施推理；Fable 5 单任务 Token 消耗约为 Opus 4.8 的 2 倍——总账单达 4 倍。这是继 6 月 15 日 Agent SDK 剥离方案生效当天叫停之后，Anthropic 第一次让「按模型级别剥离」真正落地；也是继 7 月 2 日 OpenAI 推理成本腰斩、DeepSeek V4 峰谷定价 7 月中旬上线之后，大模型商业化又一次范式撕裂——三家 AI 头部厂商在同一个窗口做出三种截然不同的选择。本文从事实核对、剥离机制、成本经济学、开发者账单、三家横评、监管与地缘 6 个维度，拆解订阅制走到临界点之后的产业选择，并提出「普及层-专业层-尖端层」三层结构的 SaaS 计费新逻辑。",
+  "summary_en": "In the first week of July 2026, Anthropic used what looks like a seven-day promotional window to lock in an industry turn three months in the making: Claude Fable 5 opens to subscribers on July 1 at only 50% weekly quota, and after July 7 PT 23:59:59 it exits every subscription tier and moves to usage credits — API list at $10 input / $50 output per million tokens (~2x Opus 4.8), with US workloads marked up 1.1x and run only on US infrastructure. Per-task token consumption on Fable 5 is ~2x Opus 4.8, meaning total bills are ~4x. This is the first shipped per-model unbundling after Anthropic halted its June 15 Agent SDK unbundling on the day it was supposed to go live; it also lands in the same window as OpenAI's reported 50% inference cost cut and DeepSeek V4's mid-July peak-and-trough pricing — three top AI vendors making three fundamentally different choices at the same time. This piece dissects the subscription-model inflection across six dimensions — fact check, unbundling mechanics, cost economics, developer bills, three-way benchmark, and regulation/geopolitics — and proposes a new three-layer SaaS billing logic: popularization, professional, frontier.",
+  "category": "产业",
+  "category_en": "Industry Analysis",
+  "image": "img/pool/llm-pricing-tier-v4.jpg",
+  "read_time": "15 min read"
+}

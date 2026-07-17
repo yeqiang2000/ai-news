@@ -1,0 +1,298 @@
+{
+  "date": "2026-07-01",
+  "hero": {
+    "id": "hero-2026-07-01",
+    "title": "国产 AI 算力闭环时刻：美团 1.6 万亿 LongCat-2.0 全栈国产芯片训练 + 寒武纪同日万亿市值",
+    "title_en": "The Domestic AI Compute Loop Closes: Meituan's 1.6T LongCat-2.0 Trained Fully on Chinese Chips, Cambricon Hits $1T Cap Same Day",
+    "image": "img/pool/chip-photonic.jpg",
+    "date": "2026-07-01",
+    "source": "综合编译",
+    "source_en": "AI News Daily Editorial",
+    "summary": "6 月 30 日，美团正式开源 1.6 万亿参数 MoE 大模型 LongCat-2.0——业界首个在 5 万张国产 AI 芯片集群上完成训练 + 推理全流程的万亿大模型，原生 1M 超长上下文，35 万亿 token 预训练；同一天，国产 AI ASIC 龙头寒武纪市值首破万亿元人民币，成为科创板首家万亿级算力芯片企业。模型自主与芯片自主的「双万亿」共振，标志着中国 AI 产业正式从「依赖海外 GPU」过渡期迈入自主可控的 AI 2.0 时代。",
+    "summary_en": "On June 30, Meituan open-sourced LongCat-2.0, a 1.6 trillion-parameter MoE model — the first trillion-scale model in the industry to complete both training and inference on a fully domestic chip cluster of over 50,000 Chinese AI accelerators, natively supporting 1M context and pre-trained on 35 trillion tokens. On the same day, China's leading AI ASIC maker Cambricon became the first STAR Market company to cross the 1 trillion yuan market-cap line. The dual-trillion resonance of model autonomy and silicon autonomy marks China's official transition from GPU dependence into the self-controllable AI 2.0 era.",
+    "category": "产业",
+    "category_en": "Industry Analysis"
+  },
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-01",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "美团开源 LongCat-2.0：1.6 万亿参数、5 万张国产卡训练，业界首个训推全栈国产化万亿模型",
+      "title_en": "Meituan Open-Sources LongCat-2.0: 1.6T Parameters, Trained on 50,000 Domestic Chips — First Trillion-Scale Model Fully Off Nvidia",
+      "summary": "6 月 30 日，美团正式发布并开源新一代万亿参数大模型 LongCat-2.0：总参数 1.6T、平均激活 480 亿（动态范围 33B–56B），原生支持 1M 超长上下文。它是业界首个在 5 万张国产 AI 芯片集群上从零开始完成训练与推理全流程的万亿模型，预训练消耗 35 万亿 token，预览版已跻身 OpenRouter 全球调用量前三。",
+      "summary_en": "On June 30, Meituan released and open-sourced LongCat-2.0, a next-generation trillion-parameter MoE model with 1.6T total parameters, an average of 48B active (dynamic range 33B–56B), and native 1M-token context. It is the industry's first trillion-scale model trained and served end-to-end on a 50,000-card domestic AI accelerator cluster, with 35T tokens of pre-training. The preview version already ranks top-3 in global API call volume on OpenRouter.",
+      "source": "美团官网 / 36 氪",
+      "source_en": "Meituan Official / 36Kr",
+      "image": "img/pool/opensource-hackathon.jpg",
+      "content": "LongCat-2.0 的工程意义远超模型本身。过去三年，国产大模型尽管在推理端逐步适配国产硬件，但最核心、最考验硬件稳定性的预训练环节始终离不开英伟达 A100/H100 生态。LongCat-2.0 一次性完成了「5 万卡国产集群预训练 + 推理全链路」的工程闭环，意味着国产 AI 芯片首次具备了承载全球顶级万亿参数模型的工业级能力。技术层面，团队针对长上下文设计了 LongCat Sparse Attention（LSA）——通过流感知索引、跨层索引和分层索引，让长文本推理的 KV 读取更连续、相邻层之间可复用部分索引；同时集成 1350 亿参数的 5-gram 嵌入模块，用前置嵌入降低 MoE 路由对大 batch 显存的压力。在 SWE-bench Pro 等主流 Agent 与代码评测中，LongCat-2.0 表现已逼近甚至超越部分主流闭源模型，月调用量在 Hermes、Claude Code、OpenClaw 三大 Agent 平台分列全球第 1、第 2、第 3。",
+      "content_en": "The engineering significance of LongCat-2.0 goes well beyond the model itself. For the past three years, Chinese LLM teams gradually adapted inference to domestic silicon, but the most demanding pre-training stage still depended on Nvidia's A100/H100 ecosystem. LongCat-2.0 closes that loop in one shot: a 50,000-card domestic cluster handles both pre-training and serving end-to-end, proving for the first time that Chinese AI accelerators can carry a frontier-grade trillion-parameter model at industrial scale. On the technical side, the team introduces LongCat Sparse Attention (LSA) — a sparse-index design that uses flow-aware, cross-layer, and hierarchical indexing to make long-context KV reads sequential and reusable across adjacent layers. A 135B-parameter 5-gram embedding module also reduces MoE routing pressure on memory under large-batch inference. On SWE-bench Pro and other agentic-coding benchmarks, LongCat-2.0 closes in on — and in some cases surpasses — leading closed-source models. Its preview version already ranks #1, #2 and #3 by monthly API calls on the Hermes, Claude Code, and OpenClaw agent platforms respectively.",
+      "key_points": [
+        "1.6T 总参数 MoE，平均激活 48B（动态 33B–56B），原生 1M 超长上下文",
+        "业界首个 5 万张国产 AI 芯片集群完成训练 + 推理全流程的万亿大模型",
+        "35 万亿 token 预训练，LSA 稀疏注意力 + 1350 亿 5-gram 嵌入双优化",
+        "预览版跻身 OpenRouter 全球调用量前三，已对外开源"
+      ],
+      "key_points_en": [
+        "1.6T total parameters MoE, ~48B active (dynamic 33B–56B), native 1M context",
+        "First trillion-scale model in the industry trained and served end-to-end on a 50,000-card domestic cluster",
+        "Pre-trained on 35T tokens, with LSA sparse attention and a 135B-parameter 5-gram embedding module",
+        "Preview version already top-3 in OpenRouter global call volume; fully open-sourced"
+      ],
+      "url": "https://www.meituan.com/news/NN260630164005904"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-01",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "寒武纪市值首破万亿，成为科创板首家万亿级 AI 算力芯片企业",
+      "title_en": "Cambricon Crosses $1 Trillion Yuan Market Cap, Becomes First Trillion-Yuan AI Chip Stock on STAR Market",
+      "summary": "6 月 30 日，国产 AI ASIC 龙头寒武纪市值正式突破 1 万亿元人民币，成为科创板首家万亿级算力芯片企业。资本市场用万亿定价，与同日发布的美团 LongCat-2.0 国产算力训练共同标志着「AI 自主可控」从产业故事正式变成产业现实——国产算力闭环不仅是工程能力，也是市场共识。",
+      "summary_en": "On June 30, China's leading AI ASIC vendor Cambricon crossed 1 trillion yuan in market cap, becoming the first trillion-yuan AI chip stock on the STAR Market. The capital-market verdict, arriving the same day as Meituan's LongCat-2.0 trained on domestic silicon, signals that AI self-sufficiency in China has moved from an industry narrative to an industry reality — the domestic compute loop is now both an engineering and a market consensus.",
+      "source": "财联社 / 林毅观察",
+      "source_en": "Cailian Press / Lin Yi Observer",
+      "image": "img/pool/network-5g-tower.jpg",
+      "content": "寒武纪万亿市值的关键意义在于「定价确权」。过去 18 个月，国产 AI ASIC 经历了「发布即跑通—中小客户试用—头部模型适配—资本市场承认」四阶段，寒武纪万亿市值是其中第四阶段的终点。同日，美团 LongCat-2.0 用 5 万张国产卡完成训练，国信、华为昇腾、海光等国产算力厂商在过去一周也相继公布大客户合同。从产业角度，这一万亿市值落到的不是某个单一芯片型号，而是「AI 芯片厂商作为算力底座」的资本范畴——它意味着未来三年国产晶圆产能、半导体设备、半导体材料三层供应链都将进入扩产周期，AI 2.0 的硬制造主线正式成型。",
+      "content_en": "Cambricon's trillion-yuan cap matters because it is a pricing event — capital markets formally accepting domestic AI silicon as a new asset class. Over the past 18 months, Chinese AI ASIC vendors moved through four stages — production-ready launch, mid-tier customer adoption, frontier-model compatibility, and capital-market endorsement — and Cambricon's trillion-yuan cap closes that final stage. On the same day, Meituan completed LongCat-2.0's training on 50,000 domestic cards, and Huawei Ascend, Hygon, and others all announced fresh enterprise contracts. Crucially, the trillion-yuan figure is not anchored to a single chip SKU but to the whole category of «AI silicon as compute substrate», setting up a multi-year capacity expansion cycle across fabs, equipment and materials.",
+      "key_points": [
+        "寒武纪市值首破 1 万亿元人民币，科创板首家万亿级算力芯片企业",
+        "与同日美团 LongCat-2.0 国产算力训练形成「模型自主 + 芯片自主」双万亿共振",
+        "标志国产 AI 算力从产业故事变成市场共识，捕获资本市场万亿定价",
+        "晶圆 / 设备 / 材料三层产业链进入 3–5 年扩产周期"
+      ],
+      "key_points_en": [
+        "Cambricon first to cross 1 trillion yuan ($140B) market cap among STAR Market AI chip stocks",
+        "Resonates with same-day domestic-silicon training of Meituan LongCat-2.0 as a «model + chip» dual-trillion event",
+        "Marks the transition of domestic AI silicon from industry story to market consensus",
+        "Wafer / equipment / materials supply chain enters a 3–5 year capacity expansion cycle"
+      ],
+      "url": "https://www.toutiao.com/article/7657227671499276842/"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-01",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "贾扬清离职英伟达，7 亿美元收购仅一年告吹——Lepton 开源承诺成最大裂痕",
+      "title_en": "Yangqing Jia Departs Nvidia One Year After $700M Acquisition — Broken Open-Source Promise the Decisive Rift",
+      "summary": "6 月 29 日，SemiAnalysis 爆料 Lepton AI 创始人、英伟达系统软件副总裁贾扬清已从英伟达离职——距黄仁勋 7 亿美元收购仅一年。报道指出，直接导火索是英伟达搁置了收购时承诺的 2026 年开源 Lepton 核心平台计划；贾扬清已于 6 月 9 日以顾问身份加入去中心化 GPU 算力市场 Hyperbolic Labs。",
+      "summary_en": "On June 29, SemiAnalysis reported that Yangqing Jia, founder of Lepton AI and Nvidia's VP of system software, has left Nvidia — just one year after Jensen Huang's $700M acquisition. The trigger, per the report, was Nvidia shelving its acquisition-time commitment to open-source Lepton's core platform by 2026. Jia had already joined decentralised GPU marketplace Hyperbolic Labs as an advisor on June 9.",
+      "source": "SemiAnalysis / 新智元 / 36 氪",
+      "source_en": "SemiAnalysis / Xinzhiyuan / 36Kr",
+      "image": "img/pool/investment-acquisition.jpg",
+      "content": "这是一场从签字那天就埋下分歧的婚姻。贾扬清职业生涯的核心作品——Caffe、PyTorch、ONNX、search_with_lepton——无一不开源；而英伟达的核心商业模式是销售 GPU 硬件，开源 Lepton 意味着 AMD、国产 GPU 也能接入这套调度器，等同于自毁护城河。收购完成一年来，DGX Lepton 平台被降格为云调度器、原 LeptonAI 独立云一个月内被关停、开源承诺被黄仁勋最终否决。SemiAnalysis 还指出，AMD 工程师 Anush 用 10–12 个 Claude Code Agent 一夜重写了 Slurm 替代品 Spur，每周消耗 65 亿 token——这条独立信号说明：英伟达「花 7 亿买的东西」，开源社区现在用 AI agent 几天就能重建。英伟达想买的从来不是 Lepton 这家小公司，而是整个开源 AI 基础设施社区对贾扬清十年来的信任——这部分恰恰是钱买不来的。",
+      "content_en": "This was a marriage with cracks visible from the day the deal was signed. Yangqing Jia's signature works — Caffe, PyTorch, ONNX, search_with_lepton — were all open-source. Nvidia's core business is selling GPUs; open-sourcing Lepton would let AMD and Chinese GPU vendors plug into the same scheduler, directly eroding Nvidia's moat. In the year after the deal, DGX Lepton was demoted from a full cloud platform to a GPU-workload scheduler, the original LeptonAI cloud was shut down within a month, and Jensen ultimately vetoed the open-source plan. SemiAnalysis also pointed out that AMD engineer Anush used 10–12 Claude Code agents to rebuild a Slurm alternative called Spur overnight, burning 6.5 billion tokens a week — a separate signal that the open-source community can now reconstruct in days what Nvidia bought for $700M. What Nvidia really wanted to buy was a decade of trust the open-source community had placed in Jia. That, it turns out, is the one thing money cannot acquire.",
+      "key_points": [
+        "Lepton AI 创始人贾扬清确认离英伟达，入职时长仅一年",
+        "直接导火索：英伟达搁置 2026 年开源 Lepton 核心平台承诺",
+        "DGX Lepton 平台运营效果不及黄仁勋预期，原独立云一个月内被关停",
+        "贾扬清 6 月 9 日已以顾问身份加入去中心化 GPU 算力市场 Hyperbolic"
+      ],
+      "key_points_en": [
+        "Lepton AI founder Yangqing Jia leaves Nvidia after just one year",
+        "Trigger: Nvidia shelves its commitment to open-source Lepton's core platform by 2026",
+        "DGX Lepton underperformed Jensen Huang's expectations; original LeptonAI cloud was shut down within a month",
+        "Jia joined decentralised GPU marketplace Hyperbolic as an advisor on June 9"
+      ],
+      "url": "https://36kr.com/p/3873792306762756"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-01",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "title": "DeepSeek V4 正式版 7 月中旬上线，首引「峰谷定价」——高峰时段 API 价格翻倍",
+      "title_en": "DeepSeek V4 Goes GA Mid-July with First-of-Kind «Peak/Off-Peak» Pricing — API Cost Doubles in Working Hours",
+      "summary": "6 月 30 日，DeepSeek 官方通知 V4 正式版将于 7 月中旬上线，并同步引入大模型 API 行业首例「峰谷定价」机制：每日 9–12 时和 14–18 时为高峰时段，调用价格为平时段的 2 倍；非高峰时段维持原价。此举被视为大模型从「统一报价」走向「按算力供需弹性定价」的关键拐点。",
+      "summary_en": "On June 30, DeepSeek announced that V4 GA will launch in mid-July and introduce the LLM API industry's first peak/off-peak pricing scheme: daily 9–12 and 14–18 Beijing time will be peak hours at 2x off-peak rates. Off-peak rates remain unchanged. The move marks a pivotal shift from flat-rate LLM pricing to elastic, supply-driven pricing.",
+      "source": "红星资本局 / 第一财经 / DeepSeek 官网",
+      "source_en": "Red Star Capital / Yicai / DeepSeek Official",
+      "image": "img/pool/policy-eu-ai-act-v3.jpg",
+      "content": "DeepSeek V4 Pro 百万 tokens 输入（缓存命中）平时 0.025 元、高峰 0.05 元；输入（缓存未命中）平时 3 元、高峰 6 元；输出平时 6 元、高峰 12 元。V4 Flash 价格更低，但峰谷比例相同。开发者反应分化：一部分认为峰谷区间只覆盖 7 小时，可错峰使用；另一部分指出 9-18 点恰好是国内开发者主要工作时间，实时客服 / 办公 Agent 类业务成本将显著上行。从行业意义看，这是把「电力市场的峰谷电价」搬到 token 经济的首次尝试——一旦头部模型跟进，将倒逼开发者把批处理、训练任务调度到夜间，任务编排能力成为新的成本竞争力。",
+      "content_en": "Pricing per million tokens for V4 Pro: cache-hit input rises from RMB 0.025 to 0.05; cache-miss input from RMB 3 to 6; output from RMB 6 to 12. V4 Flash follows a lower base but the same 2x ratio. Developer reactions split: some praise the 7-hour peak window as manageable; others note 9–18 covers the working day for Chinese teams, materially raising costs for real-time customer-support and office agents. Strategically, this is the first time the «peak/off-peak» electricity-market pricing model has been ported into the token economy. Once frontier API vendors follow, developers will be pushed to schedule batch and training workloads at night, making task scheduling a new competitive cost discipline.",
+      "key_points": [
+        "DeepSeek V4 正式版 7 月中旬上线，引入大模型 API 行业首例峰谷定价",
+        "高峰时段定义：每日 9:00–12:00 与 14:00–18:00（共 7 小时），价格翻倍",
+        "V4 Pro 百万 tokens 输出价：平时 6 元 / 高峰 12 元",
+        "行业首次把「峰谷电价模式」复制到 token 经济，预计带动其他模型跟进"
+      ],
+      "key_points_en": [
+        "DeepSeek V4 GA in mid-July introduces the LLM API industry's first peak/off-peak pricing",
+        "Peak window: 9:00–12:00 and 14:00–18:00 Beijing time (7 hours), 2x off-peak rate",
+        "V4 Pro output: RMB 6 off-peak / RMB 12 peak per million tokens",
+        "First time the «time-of-use» power-market model is ported into token economics"
+      ],
+      "url": "https://m.stnn.cc/c/2026-06-30/4117213.shtml"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-01",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "Anthropic 发布 Claude Science：60+ 预置技能 + 审核 Agent，杀入科研 AI 工作台",
+      "title_en": "Anthropic Launches Claude Science: 60+ Built-In Skills with a Dedicated Review Agent for End-to-End Scientific Workflows",
+      "summary": "7 月 1 日，Anthropic 正式发布 Claude Science——一款面向科学家的 AI 工作台，把分散的科研工具整合到统一环境，由协调 Agent 调用 60+ 预置技能与连接器，覆盖基因组学、蛋白质组学、结构生物学和化学信息学；独立审核 Agent 实时检查引文与计算，应对模型「捏造引用」的痼疾。这是 Anthropic 冲刺 IPO 前在企业级科研市场最重要的一次产品布局。",
+      "summary_en": "On July 1, Anthropic officially unveiled Claude Science — an AI workbench for scientists that consolidates fragmented research tools into a single environment. A coordinator agent orchestrates 60+ built-in skills and connectors spanning genomics, proteomics, structural biology and cheminformatics, while a separate review agent checks citations and calculations in real time to combat the chronic «fabricated reference» problem. The release is Anthropic's most strategic enterprise-research bet ahead of its IPO push.",
+      "source": "Anthropic / 环球市场播报",
+      "source_en": "Anthropic / Global Market Report",
+      "image": "img/pool/healthcare-genomics-v3.jpg",
+      "content": "Claude Science 不是新模型，而是一套基于现有 Claude 模型构建的工作流产品。其核心是一个协调 Agent，可调用 60 多个预置技能与连接器，并能根据任务自动生成子 Agent，包括用户自建专业 Agent；独立的审核 Agent 负责对每一条引文和每一项计算做实时核查、标记并自动纠错。这一设计直接回应了 AI 模型在科研场景的最大痛点——「自信地编造引用」。Anthropic 首席执行官在内部信中强调，Claude Science 将与 AWS、Microsoft Foundry、Google Cloud 三大云生态深度耦合，目标客户为头部药企、生物科技初创、CRO 与学术机构。这意味着 Anthropic 把竞争焦点从「通用对话」彻底转向「企业级专业工作流」。",
+      "content_en": "Claude Science is not a new model but a workflow product layered on top of existing Claude models. At its core is a coordinator agent that can invoke 60+ built-in skills and connectors, spawn task-specific sub-agents (including user-defined specialised agents), while a separate review agent verifies citations and calculations in real time and corrects errors automatically. The design directly targets a chronic LLM weakness in scientific contexts — confidently fabricating references. Anthropic's CEO emphasised in an internal memo that Claude Science will be tightly integrated with AWS, Microsoft Foundry and Google Cloud, with top pharma, biotech startups, CROs and academic institutions as the primary buyers. The launch signals Anthropic's decisive pivot from general chatbot competition to specialised enterprise workflows.",
+      "key_points": [
+        "面向科学家的 AI 工作台，协调 Agent + 60+ 预置技能与连接器",
+        "独立审核 Agent 实时检查引文 / 计算，应对 AI 捏造引用顽疾",
+        "覆盖基因组学、蛋白质组学、结构生物学、化学信息学等核心赛道",
+        "Anthropic IPO 前最重要的企业级专业产品布局"
+      ],
+      "key_points_en": [
+        "AI workbench for scientists with a coordinator agent and 60+ built-in skills/connectors",
+        "Separate review agent verifies citations and computations in real time to fight LLM hallucinations",
+        "Covers genomics, proteomics, structural biology, and cheminformatics",
+        "Anthropic's most strategic enterprise product release ahead of its IPO push"
+      ],
+      "url": "https://www.toutiao.com/article/7657309270815310371/"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-01",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "title": "百度开源 Unlimited OCR：5 天 GitHub Star 破万，端到端 OCR 基准刷新 SOTA",
+      "title_en": "Baidu Open-Sources Unlimited OCR: 10K GitHub Stars in 5 Days, Sets New SOTA on End-to-End Document Parsing",
+      "summary": "百度近日正式开源端到端 OCR 模型 Unlimited OCR——总参数 3B、推理激活仅 570M，仓库地址 github.com/baidu/Unlimited-OCR，发布次日即登顶 GitHub Daily Trending 与 HuggingFace 多模态趋势榜，GitHub Star 仅 5 天破 1 万。在 OmniDocBench v1.6 基准上取得 93.92% 综合得分，刷新端到端 OCR SOTA；首创 R-SWA 参考滑动窗口注意力机制，让 KV Cache 保持恒定，可单次前向解析数十页 PDF。",
+      "summary_en": "Baidu has open-sourced Unlimited OCR — a 3B-parameter end-to-end document model with ~570M active parameters at inference, available at github.com/baidu/Unlimited-OCR. The repo topped GitHub Daily Trending and the HuggingFace multimodal trends list one day after launch, and crossed 10,000 GitHub stars in 5 days. It hits 93.92% on OmniDocBench v1.6, setting a new end-to-end SOTA, and introduces R-SWA (Reference Sliding Window Attention) — a constant-KV-cache mechanism that lets one forward pass parse dozens of PDF pages.",
+      "source": "魔搭 ModelScope / 量子位 / 36 氪",
+      "source_en": "ModelScope / QbitAI / 36Kr",
+      "image": "img/pool/startup-cofounders-v3.jpg",
+      "content": "Unlimited OCR 的核心突破是 R-SWA（Reference Sliding Window Attention）：模型始终关注全部参考 Token（视觉 + 提示词），输出端只保留最近 128 个历史 Token 参与注意力——KV Cache 因此始终保持恒定长度，无论生成 5000 还是 50000 Token，显存与推理速度都不随输出长度增长。基准上，Unlimited OCR 综合得分相对 DeepSeek OCR 提升 +6.22%，文本编辑距离下降 0.035；推理速度方面，真实文档场景比 DeepSeek OCR 快 12.7%，输出达 6000 tokens 时优势扩大到 35%。技术报告核心作者疑似前 DeepSeek 研究员魏浩然，致谢部分专门提及 DeepSeek OCR 与 PaddleOCR——这条研究路线在开源生态中正式形成完整接力。",
+      "content_en": "Unlimited OCR's central breakthrough is R-SWA (Reference Sliding Window Attention): the decoder always attends to the full visual + prompt reference tokens, while only the most recent 128 output tokens participate in attention on the generation side. The result is a constant KV cache — whether the model produces 5K or 50K tokens, memory and inference speed do not grow with output length. On benchmarks, Unlimited OCR's overall score is +6.22% higher than DeepSeek OCR, with text edit distance down 0.035. Real-document inference is 12.7% faster than DeepSeek OCR, and at ~6,000 output tokens the speed advantage stretches to 35%. The lead author appears to be former DeepSeek researcher Wei Haoran, and the project explicitly credits DeepSeek OCR and PaddleOCR — the open-source line of work is now picking up a baton in front of the whole community.",
+      "key_points": [
+        "总参 3B、推理激活仅 570M，仓库 github.com/baidu/Unlimited-OCR",
+        "5 天 GitHub Star 破 1 万，登顶 GitHub Daily Trending 与 HuggingFace 多模态趋势榜",
+        "OmniDocBench v1.6 综合得分 93.92%，刷新端到端 OCR SOTA",
+        "首创 R-SWA 机制实现恒定 KV Cache，单次前向解析数十页 PDF"
+      ],
+      "key_points_en": [
+        "3B total / ~570M active parameters; repo at github.com/baidu/Unlimited-OCR",
+        "10K GitHub stars in 5 days; #1 on GitHub Daily Trending and HuggingFace multimodal trends",
+        "OmniDocBench v1.6 score 93.92%, new end-to-end OCR SOTA",
+        "Introduces R-SWA for constant KV cache — parses dozens of PDF pages in one forward pass"
+      ],
+      "url": "https://modelscope.csdn.net/6a3b427910ee7a33f2818f7e.html"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-01",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "月之暗面 Kimi ARR 突破 3 亿美元，新一轮融资投前估值跳至 315 亿美元",
+      "title_en": "Moonshot's Kimi Hits $300M ARR, New Funding Round Pre-Money Jumps to $31.5B",
+      "summary": "据知情人士透露，月之暗面（Kimi）上一轮 200 亿美元估值融资已完成交割，新一轮融资已启动、投前估值跳至 315 亿美元；6 月中旬 Kimi 年度经常性收入（ARR）突破 3 亿美元，主要来自模型迭代驱动的开发者使用与 API 收入，API 收入已占整体 70% 以上并持续走高，曲线被部分投资人解读为「Anthropic 早期商业化阶段的特征」。",
+      "summary_en": "According to people familiar with the matter, Moonshot AI (Kimi) has closed its previous $20B-valuation round, with a new round already launched at a pre-money of $31.5B. By mid-June, Kimi's ARR crossed $300M, driven mainly by developer adoption and API revenue from model iteration. API revenue now accounts for more than 70% of total revenue and continues climbing — a curve that several investors are now comparing to Anthropic's early commercialisation phase.",
+      "source": "36 氪 / 财联社",
+      "source_en": "36Kr / Cailian Press",
+      "image": "img/pool/investment-ai-fund-v3.jpg",
+      "content": "Kimi 这条曲线最值得注意的不是绝对数字，而是结构——70% 以上来自 API 与开发者付费，意味着收入侧已经摆脱「免费 C 端拉新 + 广告变现」的早期路径，进入更接近 Anthropic 的「企业 + 开发者付费」模式。这条路径的特征是：客单价高、增长稳、对模型能力差异化敏感。在国内市场，Kimi 与智谱 GLM、阿里 Qwen、DeepSeek 共同构成「头部国产开源 / 半开源」第一梯队，K2.7 系列在 Coinbase 等海外上市公司开始作为默认模型，反过来又会强化 API 收入的杠杆。315 亿美元的投前估值如能落地，将使月之暗面正式进入全球大模型公司估值前五。",
+      "content_en": "What makes Kimi's curve interesting is structure, not absolute numbers — over 70% of revenue now comes from APIs and developer subscriptions, not consumer freemium or ad revenue. That mirrors Anthropic's early commercialisation pattern: high ACV, steady growth, and high sensitivity to model differentiation. Domestically, Kimi sits in China's open / semi-open frontier tier alongside Zhipu GLM, Alibaba Qwen and DeepSeek; K2.7 is becoming a default model at U.S.-listed customers such as Coinbase, which in turn levers API revenue further. If the $31.5B pre-money closes, Moonshot will enter the global top-5 by frontier-lab valuation.",
+      "key_points": [
+        "Kimi 6 月中旬 ARR 突破 3 亿美元，API 收入占比超 70%",
+        "新一轮融资启动，投前估值跳至 315 亿美元",
+        "上一轮 200 亿美元估值融资已完成交割",
+        "收入结构被对标 Anthropic 早期商业化阶段"
+      ],
+      "key_points_en": [
+        "Kimi ARR crosses $300M in mid-June, with API revenue >70% of total",
+        "New funding round launched at $31.5B pre-money valuation",
+        "Previous $20B-valuation round has closed",
+        "Revenue mix mirrors Anthropic's early commercialisation phase"
+      ],
+      "url": "https://www.coze.cn/share-article/201782796079305792"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-01",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "OpenAI 内部演示新优化方案：模型推理成本「腰斩」",
+      "title_en": "OpenAI Demos Internal Optimisation: Model Inference Cost Cut by More Than Half",
+      "summary": "据财联社、金十数据 6 月 30 日援引知情人士消息，OpenAI 工程师本月早些时候向部分同事展示了一套全新的推理优化方案，能将模型推理成本削减一半以上。这是继 DeepSeek 上周开源 DSpark 框架（单用户提速 60%–85%、整体吞吐 +400%）之后，行业本月内出现的第二条「软件层推理效率重大突破」信号。",
+      "summary_en": "Per Cailian Press and Jin10 on June 30, citing people familiar, OpenAI engineers demonstrated to colleagues earlier this month a new optimisation stack capable of cutting model inference cost by more than half. It is the second major «software-layer inference efficiency» breakthrough surfaced this month, following DeepSeek's open-sourced DSpark framework last week (60–85% single-user speedup, 4x total throughput).",
+      "source": "财联社 / 金十数据",
+      "source_en": "Cailian Press / Jin10 Data",
+      "image": "img/pool/datacenter-security.jpg",
+      "content": "知情人士透露，OpenAI 这套方案融合了多项内部新研技术，目的是在 GPT-5.6 系列（Sol/Terra/Luna）逐案审批节奏导致的「外部模型扩张受阻」背景下，先把单位推理成本压下去，为后续大规模 API 降价腾出空间。叠加上周 DSpark 在 DeepSeek V4-Flash 真实流量中实现的 4 倍吞吐提升，行业本月已经出现两条独立的「推理效率非线性跃升」信号——这意味着 AI 厂商之间的成本竞争正从「算力堆叠」彻底转向「软件层逆袭」。短期看，OpenAI 内部腰斩 + DeepSeek 推理 4 倍的双重压力，将迫使 Anthropic、xAI 等其他头部厂商加速跟进推理框架优化，否则将在 token 单价战中失去身位。",
+      "content_en": "Sources say OpenAI's new stack combines several internal research advances and is designed to lower per-token inference cost ahead of any large API price cut — necessary headroom given that the GPT-5.6 series (Sol/Terra/Luna) is now released under per-case U.S. government approval. Combined with DSpark's 4x throughput gain on DeepSeek V4-Flash production traffic last week, this is now the second independent signal in the same month that inference efficiency is jumping non-linearly — a clear sign that the cost war among AI labs is shifting from «stacking compute» to «software-layer counterattack». Anthropic and xAI will be under pressure to follow, or risk losing position in the per-token price war.",
+      "key_points": [
+        "OpenAI 工程师本月内部演示新方案：推理成本削减一半以上",
+        "本月行业第二条「软件层推理效率非线性跃升」信号（前一条为 DSpark）",
+        "应对 GPT-5.6 系列被政府逐案审批后的市场扩张限制",
+        "倒逼 Anthropic / xAI 等头部厂商加速跟进推理框架优化"
+      ],
+      "key_points_en": [
+        "OpenAI engineers demonstrated an internal stack cutting inference cost by more than half",
+        "Second non-linear inference-efficiency signal of the month (DSpark being the first)",
+        "Compensates for slowed external rollout of the GPT-5.6 series under per-case U.S. approval",
+        "Will pressure Anthropic and xAI to accelerate their own inference-framework upgrades"
+      ],
+      "url": "https://www.coze.cn/share-article/201782828933981664"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-01",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "亚马逊云科技投 10 亿美元成立「前线派驻工程部」，工程师直接入驻客户企业",
+      "title_en": "AWS Spins Up $1B Forward-Deployed Engineering Unit, Embedding Engineers Directly Inside Customer Companies",
+      "summary": "亚马逊云科技 6 月 30 日宣布，将斥资 10 亿美元成立「前线派驻工程部」（Forward-Deployed Engineering），专门派遣工程师直接入驻企业客户内部，加速 AI 系统的搭建与落地。前线派驻工程师（FDE）模式最早由军工软件企业 Palantir 提出，今年早些时候 OpenAI、Anthropic 已联合银行 / PE / 咨询机构组建专属 FDE 服务公司，亚马逊云科技此次正式入局。",
+      "summary_en": "Amazon Web Services announced on June 30 that it will spend $1 billion to build a Forward-Deployed Engineering (FDE) unit, sending engineers directly inside enterprise customers to accelerate AI deployment. The FDE model — pioneered by defense-software firm Palantir more than a decade ago — was rebooted earlier this year by OpenAI and Anthropic in joint ventures with banks, PE firms and consultancies. AWS is now formally entering the same race.",
+      "source": "环球市场播报 / 财联社",
+      "source_en": "Global Market Report / Cailian Press",
+      "image": "img/pool/startup-accelerator.jpg",
+      "content": "FDE 模式的核心是：技术供应商不再只卖 API 或卖云，而是把工程师直接派到客户公司内部，跟客户一起拆问题、改业务流、部署 Agent。这套模式最早被 Palantir 用于把军工软件卖进美国政府，每个 FDE 实际承担「外包 CTO」的角色。在 2025 年下半年开始，OpenAI 与摩根大通、KKR、麦肯锡等共同设立专属 FDE 服务公司；Anthropic 也有类似动作。亚马逊云科技 10 亿美元入局，意味着「企业级 AI 落地」已经从 SaaS 自助模式正式过渡到「人 + 软件 + 算力」的高客单价托管交付模式——同时它也直接抬高了头部云厂商的服务定价天花板。",
+      "content_en": "The essence of FDE is that the vendor no longer just sells an API or cloud capacity — it embeds engineers directly inside the customer, jointly diagnosing problems, redesigning workflows and deploying agents. Palantir pioneered this model selling defense software into the U.S. government, where each FDE effectively acts as the customer's outsourced CTO. Since H2 2025, OpenAI has launched dedicated FDE joint ventures with JPMorgan, KKR and McKinsey; Anthropic has done similar deals. AWS's $1B move means enterprise AI deployment is officially shifting from self-serve SaaS to a high-ACV «people + software + compute» managed-delivery model — and is materially raising the service-pricing ceiling for hyperscalers.",
+      "key_points": [
+        "AWS 斥资 10 亿美元成立前线派驻工程部（FDE）",
+        "工程师直接入驻企业客户内部，加速 AI 系统落地",
+        "FDE 模式源自 Palantir，今年已被 OpenAI / Anthropic 复用",
+        "标志企业级 AI 从 SaaS 自助过渡到「人 + 软件 + 算力」托管交付模式"
+      ],
+      "key_points_en": [
+        "AWS pledges $1B to launch a Forward-Deployed Engineering (FDE) unit",
+        "Engineers embedded directly inside enterprise customers to deploy AI",
+        "FDE model originated at Palantir; reused by OpenAI / Anthropic earlier this year",
+        "Marks the shift of enterprise AI from self-serve SaaS to a «people + software + compute» managed-delivery model"
+      ],
+      "url": "https://www.toutiao.com/article/7657309270815310371/"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-01",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "中昊芯英发布全自研 TPU 芯片「须臾」及泰则 2.0 智算平台",
+      "title_en": "Zhonghao Xinying Unveils Fully Self-Developed TPU Chip «Xuyu» and the Taize 2.0 AI Compute Platform",
+      "summary": "6 月 30 日，国内 TPU 架构 AI 芯片厂商中昊芯英对外推出两款新品——新一代全自研高性能 TPU AI 专用算力芯片「须臾」，以及搭载该芯片的软硬件一体化智算底座「泰则 2.0」。相较初代「刹那」与泰则 1.0 智算服务器，新品在底层架构、算力峰值、片上存储、集群互联、计算能效五大维度全面升级。",
+      "summary_en": "On June 30, Zhonghao Xinying, one of China's early TPU-architecture AI chip vendors, launched two new products — the next-generation fully self-developed TPU «Xuyu», and the integrated «Taize 2.0» AI compute platform built on top of it. Compared with its first-generation «Shana» chip and Taize 1.0 servers, the new generation is upgraded across architecture, peak compute, on-chip memory, cluster interconnect and energy efficiency.",
+      "source": "中昊芯英官网 / 公开通稿",
+      "source_en": "Zhonghao Xinying Official",
+      "image": "img/pool/healthcare-drug-discovery.jpg",
+      "content": "中昊芯英是国内较早布局 TPU 架构 AI 芯片的玩家。「须臾」相对初代「刹那」在底层指令集、片上存储与集群互联三方面做了完整翻新，对外提供 BF16 / FP8 双精度，单卡算力峰值与能效比官方表态「行业领先」。配套软件栈「泰则 2.0」直接面向万卡级训练 / 推理一体化场景。这是继寒武纪、华为昇腾、海光之后又一个国产 AI ASIC 厂商完成「发布即跑通」的工程闭环——叠加同日美团 LongCat-2.0 在 5 万张国产卡上完成万亿训练，中国 AI 算力底座正在以「多家厂商同时上量」的方式快速补齐供给。",
+      "content_en": "Zhonghao Xinying was an early entrant in China's TPU-architecture AI silicon. «Xuyu» upgrades the previous-generation «Shana» across instruction set, on-chip memory and cluster interconnect, offering BF16 / FP8 dual precision; the company claims «industry-leading» peak per-card compute and energy efficiency. The companion software stack Taize 2.0 targets unified training-and-inference workloads at the 10K-card scale. After Cambricon, Huawei Ascend and Hygon, this is yet another Chinese AI ASIC vendor reaching production-ready scale — together with Meituan's same-day trillion-parameter training on 50,000 domestic chips, it shows that China's AI compute substrate is now scaling on multiple vendors simultaneously.",
+      "key_points": [
+        "全自研高性能 TPU AI 专用芯片「须臾」正式发布",
+        "搭载「须臾」的软硬件一体化智算底座「泰则 2.0」同步推出",
+        "相比初代「刹那」+ 泰则 1.0，五大维度全面升级",
+        "国产 AI ASIC 多厂商同时上量，算力供给侧加速补齐"
+      ],
+      "key_points_en": [
+        "Fully self-developed TPU «Xuyu» officially released",
+        "«Taize 2.0» integrated AI compute platform built on Xuyu launches alongside",
+        "Upgraded across five dimensions versus prior-gen «Shana» + Taize 1.0",
+        "Domestic AI ASIC vendors are scaling production capacity in parallel"
+      ],
+      "url": "https://www.coze.cn/share-article/201782827892484576"
+    }
+  ]
+}

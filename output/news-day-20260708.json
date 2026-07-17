@@ -1,0 +1,318 @@
+{
+  "date": "2026-07-08",
+  "hero": {
+    "id": "hero-2026-07-08",
+    "title": "Gemini 3.5 Pro 抢发 7 月 17 日、摩根士丹利《AI 十条投资真相》、李开复一号位 AI 三款产品——三巨头交火与投资地图重塑同一天登场",
+    "title_en": "Gemini 3.5 Pro Locks In July 17, Morgan Stanley's 'AI: Ten Investment Truths' Lands, Kai-Fu Lee's CEO AI Trio Ships — Three-Way Frontier War and Capital Map Reshuffle in a Single Day",
+    "image": "img/pool/deep-analysis-market-trend.jpg",
+    "date": "2026-07-08",
+    "source": "X @HarshithLucky3 / 凤凰网 / IT 之家 / 36 氪 / 格隆汇 / 21 世纪经济报道 / 华尔街见闻 / 白鲸实验室 / 澎湃新闻",
+    "source_en": "X @HarshithLucky3 / iFeng / IT Home / 36Kr / Gelonghui / 21st Century Business Herald / Wall Street CN / White Whale Lab / The Paper",
+    "summary": "2026 年 7 月 8 日 AI 产业三条主线同一天交汇。第一，X 账号 @HarshithLucky3 于 7 月 6 日凌晨爆料：谷歌 Gemini 3.5 Pro 将于 7 月 17 日发布，200 万 Tokens 上下文（是 GPT-5.6 / Claude Fable 5 的 2 倍）、原生深度思考推理模式、在 LMSYS Chatbot Arena SVG 编码任务上反超 Claude Fable 5 High、内部代号 Cappuccino、同步上线全时 Agent Spark——三巨头正面交火 30 天窗口期开启。第二，摩根士丹利首席美股策略师 Michael Wilson 团队 7 月 6 日发布《AI：十条投资真相》——四力共振 / 摩尔定律失效 / Token 经济 / 代理时代 / 软件护城河 / Runtime AI / $4T 资本开支 / 中美平行 / 治理落后 / 最大赢家未诞生 10 条判断，把 AI 投资从「买芯片」推向「买云」。第三，李开复 7 月 7 日下午亲自出席万策 AI 品牌媒体发布会，一次发布老板 AI / 销冠 AI / 投资官 AI 三款一号位 Agent，走访 200 位 CEO 后的中国版 Palantir 路径，零一万物内部使用后订单额 +5 倍、商机转化率 +2 倍。三条主线合起来，勾画出 AI 产业下一个 12 个月的正面竞争与资本重塑地图。",
+    "summary_en": "On July 8, 2026, three AI industry threads converge in a single day. First, X account @HarshithLucky3 leaked on July 6 that Google Gemini 3.5 Pro will launch on July 17 with 2 million tokens context (2x GPT-5.6 and Claude Fable 5), native deep-thinking reasoning, and — most notably — beating Claude Fable 5 High on LMSYS Chatbot Arena SVG coding tasks; internal codename Cappuccino, with the all-time Agent Spark launching alongside. A 30-day frontier-war window opens. Second, Morgan Stanley Chief US Equity Strategist Michael Wilson's team published 'AI: Ten Investment Truths' on July 6 — four-force convergence, Moore's Law failure, Token Economy, Agent Era, software moat rewrite, Runtime AI, $4T capex, US-China parallel, governance lag, biggest winner not yet born — pushing AI investing from 'buy chips' to 'buy cloud.' Third, Kai-Fu Lee personally attended the 01.AI Wance AI brand media launch on July 7 afternoon, unveiling three CEO-tier Agents in a single event: Boss AI, Sales Ace AI, and Investor AI — a China-Palantir path forged from interviews with 200+ CEOs; 01.AI's own use of Sales Ace AI drove 5x order volume and 2x pipeline conversion. Together, these three threads map out the frontier competition and capital repricing of the next 12 months.",
+    "category": "产业",
+    "category_en": "Industry Analysis"
+  },
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-08",
+      "category": "大模型",
+      "category_en": "Foundation Models",
+      "title": "Gemini 3.5 Pro 定档 7 月 17 日：200 万 Tokens 上下文、深度思考、SVG 编码反超 Claude Fable 5",
+      "title_en": "Gemini 3.5 Pro Locks In July 17: 2M-Token Context, Deep Thinking Mode, SVG Coding Beats Claude Fable 5",
+      "summary": "X 平台账号 @HarshithLucky3 于 2026 年 7 月 6 日凌晨爆料——谷歌 Gemini 3.5 Pro 将于 7 月 17 日星期四正式发布，200 万 Tokens 上下文（是 GPT-5.6 / Claude Fable 5 的 2 倍）、原生「深度思考」推理模式（用户可显式开启）、在 LMSYS Chatbot Arena SVG 编码任务上直接反超 Claude Fable 5 High——是 Claude Fable 5 系列过去 12 个月首次在编码维度被单一模型击败。内部代号 Cappuccino（3.0 Espresso / 3.1 Latte / 3.5 Cappuccino），同步上线「全时 Agent Spark」7×24 常驻 Gmail / Calendar / Docs / Drive 助手产品。爆料截图称模型对定价将比 Gemini 3.1 Pro 更贵。凤凰网、IT 之家、36 氪、新智元多方跟进转载。",
+      "summary_en": "X account @HarshithLucky3 leaked on July 6, 2026 morning: Google Gemini 3.5 Pro will officially launch on Thursday July 17 with 2 million tokens context (2x GPT-5.6 and Claude Fable 5), native deep-thinking reasoning (user-toggleable), and beating Claude Fable 5 High head-to-head on LMSYS Chatbot Arena SVG coding — the first time the Claude Fable 5 series has lost coding to any single competitor in 12 months. Internal codename Cappuccino (3.0 Espresso / 3.1 Latte / 3.5 Cappuccino). Google will simultaneously launch 'all-time Agent Spark' — a 24x7 resident assistant across Gmail / Calendar / Docs / Drive. The leak screenshot claims pricing will exceed Gemini 3.1 Pro. Confirmed by iFeng, IT Home, 36Kr, and Xin Zhi Yuan.",
+      "source": "X @HarshithLucky3 2026-07-06 / 凤凰网 2026-07-07 / IT 之家 2026-07-07 / 36 氪 2026-07-06 / 新智元 2026-06-20",
+      "source_en": "X @HarshithLucky3 2026-07-06 / iFeng 2026-07-07 / IT Home 2026-07-07 / 36Kr 2026-07-06 / Xin Zhi Yuan 2026-06-20",
+      "image": "img/pool/llm-reasoning.jpg",
+      "content": "Gemini 3.5 Pro 的爆料把 2026 年 7 月中旬的 AI 行业推进了「三巨头正面交火」新阶段。三个数据点决定了这次发布不是普通迭代：其一，200 万 Tokens 上下文是唯一实现的天花板——OpenAI 与 Anthropic 都还在 100 万 Tokens 边界磨；其二，SVG 编码任务反超 Claude Fable 5 High 是过去 12 个月首次——「代码 + 视觉 + 审美」三合一能力对前端 UI / 图表生成场景意义重大，Cursor / Windsurf / Cline 的默认模型可能出现新一轮切换；其三，全时 Agent Spark 是「按岗位常驻」形态与李开复一号位 AI 异曲同工，从「按任务调用」升级为「按岗位常驻」是 Agent 层的战略跃迁。为什么选 7 月 17 日？7 月 7 日 OpenAI Sol Ultra 发布后 10 天，媒体热度进入衰退期；Anthropic Claude Fable 5 已从订阅转按量计费一整周，用户流失开始出现——谷歌抢发这个抢发窗口。Sundar Pichai 5 月 I/O 大会承诺「再给一个月」——原计划 6 月中旬发布因内部 benchmark 数据低于目标线被 DeepMind 临时召回做二次训练，7 月 17 日不能再拖。",
+      "content_en": "The Gemini 3.5 Pro leak pushes mid-July 2026 into a 'three-way frontier war' stage. Three data points decide this isn't a normal iteration: (1) 2M tokens context is the only ceiling achieved — OpenAI and Anthropic remain stuck at 1M; (2) Beating Claude Fable 5 High on SVG coding is the first single-model coding loss in 12 months for Anthropic — the 'code + visual + taste' trifecta matters heavily for front-end UI and chart generation, and Cursor / Windsurf / Cline may switch defaults; (3) All-time Agent Spark is a 'per-role residence' pattern parallel to Kai-Fu Lee's CEO AI trio — the jump from 'per-call invocation' to 'always-on residence' is an Agent-layer strategic leap. Why July 17? Ten days after OpenAI Sol Ultra July 7 launch, media heat starts to decay; Claude Fable 5 has already shifted from subscription to pay-per-use for a week, with user attrition surfacing — Google grabs the empty window. Pichai's May I/O promise 'give me another month' has arrived — the original mid-June launch was pulled by DeepMind for re-training after internal benchmark undershoots, and July 17 is the drop-dead date.",
+      "key_points": [
+        "200 万 Tokens 上下文（GPT-5.6 / Claude Fable 5 的 2 倍）",
+        "SVG 编码任务反超 Claude Fable 5 High（12 个月首次）",
+        "原生深度思考推理模式（thinking token 独立计费）",
+        "内部代号 Cappuccino，同步上线全时 Agent Spark",
+        "定价预计比 Gemini 3.1 Pro 更贵"
+      ],
+      "key_points_en": [
+        "2M tokens context (2x GPT-5.6 and Claude Fable 5)",
+        "Beats Claude Fable 5 High on SVG coding (first in 12 months)",
+        "Native deep-thinking mode (thinking tokens billed separately)",
+        "Internal codename Cappuccino, all-time Agent Spark ships alongside",
+        "Pricing expected higher than Gemini 3.1 Pro"
+      ],
+      "url": "https://tech.ifeng.com/c/8uYj4XZlyoI"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-08",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "摩根士丹利《AI：十条投资真相》：Wilson 团队从 Token 经济到最大赢家未诞生 10 条判断重塑 $4T 资本地图",
+      "title_en": "Morgan Stanley 'AI: Ten Investment Truths': Wilson Team's 10 Judgments From Token Economy to Winner-Not-Yet-Born Reshape the $4T Capital Map",
+      "summary": "摩根士丹利首席美股策略师 Michael Wilson 团队于 2026 年 7 月 6 日发布《AI：十条投资真相》报告——四力共振驱动、摩尔定律失效（软件与 Token 效率取代硅片主导权）、Token 经济崛起（2025 全球 AI Token 消费翻 10 倍）、代理时代来临（价值倍数放大 10-100 倍）、软件护城河被 AI 重构、Runtime AI 取代 Analytics AI、全栈资本进入四年周期（2024-2027 累计资本开支 $4T）、中美 AI 平行架构（估值折价窗口收敛至 15-25%）、治理明显落后 3-5 年、最大赢家尚未诞生 10 条判断。核心战术：卖芯片、买云——AI 芯片估值分位 95%，云服务 / AI 原生软件 / 内存原厂接过下一阶段增长接力棒。同步中国区首席策略师王滢专访强调中国 AI 估值折价窗口正在关闭。",
+      "summary_en": "Morgan Stanley Chief US Equity Strategist Michael Wilson's team released 'AI: Ten Investment Truths' on July 6, 2026 — ten industry judgments: four-force convergence, Moore's Law failure (software and token efficiency replace silicon primacy), rise of the Token Economy (global AI token consumption grew 10x in 2025), Agent Era (10-100x value multiplication), software moat rewritten by AI, Runtime AI replacing Analytics AI, four-year full-stack capex cycle ($4T cumulative 2024-2027), US-China parallel architecture (valuation discount narrowing to 15-25%), governance lagging 3-5 years, and 'biggest winner not yet born.' Core tactical call: 'sell chips, buy cloud' — AI chips at 95th percentile valuation; cloud services, AI-native software, and memory OEMs take the growth baton. Parallel interview with MS China Strategist Laura Wang emphasizes China's AI discount window is closing.",
+      "source": "格隆汇 2026-07-06 / 36 氪 2026-07-07 / 21 世纪经济报道 2026-07-07 王滢专访 / 新浪财经 2026-07-06 / 华尔街见闻 2026-07-07",
+      "source_en": "Gelonghui 2026-07-06 / 36Kr 2026-07-07 / 21st Century Business Herald 2026-07-07 Laura Wang interview / Sina Finance 2026-07-06 / Wall Street CN 2026-07-07",
+      "image": "img/pool/industry-token-usage-v4.jpg",
+      "content": "10 条真相里最先值得展开的是 Token 经济——它是理解其他 9 条的底层视角。2025 全球 AI Token 消费翻 10 倍以上；四大厂 API Token 单日调用量 2026 上半年再翻一倍；从「按订阅付费」转向「按 Token 付费」直接把「使用量 = 账单」画等号，让 API 成为主收入。Token 定价成大厂博弈第一战场——7 月 7 日 OpenAI Sol Ultra 输入价对折、Terra 用 1/3 token 达到同等水平的效率优势，就是这场博弈的直接体现。摩尔定律失效不是硅片停止翻倍，而是 AI 有效算力年化 4-5 倍 vs 晶体管密度 1.4 倍，3 倍差距全来自软件层 Token 效率。代理时代把 AI 商业价值从 Chatbot（每次几美元）跃升到 Agent（每次 10-100 美元）再到 Autonomous Agent（每年 6 万美元/员工替代）——10-100 倍价值倍数放大。$4T 累计资本开支：2024 $600B / 2025 $900B / 2026 $1.2T / 2027 $1.3T+。中美 AI 已两套供应链、两套模型、两套政策——估值折价窗口从 40-50% 收敛至 15-25%。最开放的第 10 条：最大赢家未诞生——就像 1996 年赢家不是雅虎而是 Facebook，AI 时代最大赢家可能是一家还没成立的公司。",
+      "content_en": "The Token Economy is the underlying lens for the other nine truths. 2025 global AI token consumption grew 10x+; four-major API tokens per day doubled again in H1 2026; the shift from subscription to token pricing turns 'usage = bill,' making APIs the primary revenue engine. Token pricing is the primary battleground — the July 7 OpenAI Sol Ultra input-price halving and Terra's '1/3 token to parity' efficiency edge are direct expressions. Moore's Law failure doesn't mean silicon stopped doubling — it means AI effective compute grew ~4-5x annualized vs transistor density's ~1.4x, a 3x gap entirely from software-layer token efficiency. The Agent Era lifts value from Chatbot (a few dollars per call) to Agent ($10-100 per workflow) to Autonomous Agent ($60K/year per employee replaced) — 10-100x value multiplication. $4T cumulative capex: 2024 $600B / 2025 $900B / 2026 $1.2T / 2027 $1.3T+. US-China AI now runs two supply chains, two model ecosystems, two policy stacks — the discount window has narrowed from 40-50% to 15-25%. The most open Truth #10: the biggest winner is not yet born — just as 1996's winner wasn't Yahoo but Facebook, the AI-era's biggest winner may be a company not yet founded.",
+      "key_points": [
+        "10 条真相：四力共振 / 摩尔定律失效 / Token 经济 / 代理时代 / 软件护城河 / Runtime AI / $4T 资本开支 / 中美平行 / 治理落后 / 最大赢家未诞生",
+        "核心战术：卖芯片、买云——AI 芯片估值 95% 分位",
+        "2025 全球 AI Token 消费翻 10 倍",
+        "2024-2027 全栈资本开支累计 $4T 美元",
+        "中美估值折价窗口从 40-50% 收敛至 15-25%"
+      ],
+      "key_points_en": [
+        "10 truths: four-force convergence / Moore's Law fails / Token Economy / Agent Era / software moat / Runtime AI / $4T capex / US-China parallel / governance lag / winner not yet born",
+        "Core tactical call: sell chips, buy cloud — chips at 95th percentile",
+        "2025 global AI token consumption grew 10x",
+        "2024-2027 cumulative full-stack capex reaches $4T",
+        "US-China discount window narrowed from 40-50% to 15-25%"
+      ],
+      "url": "https://ainewsdaily.asia/articles/article-37.html"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-08",
+      "category": "大模型",
+      "category_en": "Foundation Models",
+      "title": "李开复万策 AI 一次发布三款「一号位 AI」：老板 AI / 销冠 AI / 投资官 AI，走访 200 位 CEO 后的中国版 Palantir 路径",
+      "title_en": "Kai-Fu Lee's Wance AI Ships Three CEO Agents in One Event: Boss AI / Sales Ace AI / Investor AI — China's Palantir Path After 200-CEO Field Research",
+      "summary": "2026 年 7 月 7 日下午，李开复亲自出席零一万物旗下万策 AI 品牌媒体发布会，一次发布 3 款企业级「一号位 AI」产品：老板 AI（CEO 战略副驾驶）、销冠 AI（销售 VP 私人军师）、投资官 AI（投资总监尽调助手）。发布定价：老板 AI 单个 CEO 岗位 50 万人民币/年、销冠 AI 15 万/年、投资官 AI 25 万/年——「按岗位年费 + 按调用 Token 计费」双轨制。零一万物内部使用销冠 AI 后订单额 +5 倍、商机转化率 +2 倍。李开复现场公开表态「中国版 Palantir 路径」——把 Palantir 在美国的估值锚点复制到中国市场。这是李开复亲自主导的第 25 家企业实验、第 3 次亲自下场的战略押注（前两次是创新工场 2009 / 零一万物 2023）。",
+      "summary_en": "On July 7, 2026 afternoon, Kai-Fu Lee personally attended the 01.AI Wance AI brand media launch, releasing three enterprise-tier CEO Agents in a single event: Boss AI (CEO strategy copilot), Sales Ace AI (sales VP military advisor), and Investor AI (investment director due-diligence assistant). Launch pricing: Boss AI 500K RMB/year per CEO seat, Sales Ace 150K/year, Investor AI 250K/year — a 'per-seat annual + per-call token' dual-track model. 01.AI's own use of Sales Ace AI drove 5x order volume and 2x pipeline conversion. Kai-Fu Lee publicly framed the play as 'China's Palantir path' — cloning Palantir's US valuation anchor into China. This is Kai-Fu Lee's 25th personally-led enterprise experiment and the third time he takes personal command in a strategic bet (after Innovation Works 2009 and 01.AI 2023).",
+      "source": "白鲸实验室 2026-07-07 / 36 氪 2026-07-08 / 澎湃新闻 2026-07-07 / 财新 2026-07-08 / 微博每日 AI 简讯 2026-07-07",
+      "source_en": "White Whale Lab 2026-07-07 / 36Kr 2026-07-08 / The Paper 2026-07-07 / Caixin 2026-07-08 / Weibo Daily AI Brief 2026-07-07",
+      "image": "img/pool/startup-product-launch-v3.jpg",
+      "content": "「180 天走访 200 多位 CEO」是理解一号位 AI 诞生的钥匙。李开复的洞察：2025 之前企业 AI 应用主要卡在「员工层」——PPT 助理、写作助手、日程 Agent、客服机器人；效率工具的 ROI 天花板正在逼近，员工用不用 AI 都能完成工作只是慢一点。真正让 CEO 大规模买单的是「一号位岗位」——老板做的决策不可逆、信息量巨大、涉及大量隐性判断（并购 / 裁员 / 换 leader），错误代价数千万到数亿元。一号位 AI 的定位是把顶级咨询公司的能力压缩到一个 Agent 里、7×24 随叫随到。发布会现场姚璨表态「Agent 是老板的第二大脑，不是助理」。三款产品各对应中国大企业里的一个具体岗位——CEO、销售 VP、投资总监。中国版 Palantir 面临三条结构性挑战：中国企业 SaaS 客单价约美国 1/10-1/20；CEO 对 AI 决策类产品的信任度需 12-24 个月建立；数据主权 / 算法可解释性 / 决策责任分摊三大合规压力。第一批种子客户数据将在 2026 Q4-2027 Q1 陆续披露，是判断商业化真伪的关键节点。",
+      "content_en": "'180 days visiting 200+ CEOs' is the key to Wance AI's origin. Kai-Fu Lee's insight: pre-2025 enterprise AI apps were stuck at the 'employee layer' — PPT helpers, writing assistants, schedule agents, customer-service bots. Productivity-tool ROI ceilings are being reached — employees complete work with or without AI, just slower. What makes CEOs willing to pay at scale is the 'C-suite seat' — decisions that are irreversible, information-intensive, involve heavy implicit judgment (M&A, layoffs, leadership changes), with error costs in tens of millions to hundreds of millions RMB. CEO AI compresses top-tier consulting capability into a single Agent, on-call 24x7. On-stage, product lead Yao Can framed it: 'the Agent is the CEO's second brain, not an assistant.' Three products each map to a specific C-suite role. The China-Palantir path faces three structural challenges: Chinese enterprise SaaS ACV is ~1/10-1/20 of US; CEO trust in AI-decision products needs 12-24 months to build; data sovereignty, algorithmic explainability, and decision liability create compliance pressure. First seed-customer data will publish Q4 2026 through Q1 2027 — the critical judgment point.",
+      "key_points": [
+        "一次发布 3 款一号位 AI：老板 AI / 销冠 AI / 投资官 AI",
+        "定价：老板 50 万 / 销冠 15 万 / 投资官 25 万人民币每年每岗位",
+        "零一万物内部销冠 AI：订单额 +5 倍、商机转化率 +2 倍",
+        "180 天走访 200 位 CEO 的核心洞察",
+        "李开复亲自主导的第 25 家企业实验（继创新工场 / 零一万物之后）"
+      ],
+      "key_points_en": [
+        "Three CEO Agents launched in one event: Boss AI / Sales Ace AI / Investor AI",
+        "Pricing: Boss 500K / Sales 150K / Investor 250K RMB per seat per year",
+        "01.AI internal Sales Ace AI drove +5x orders, +2x pipeline conversion",
+        "Insight from 180 days visiting 200+ CEOs",
+        "Kai-Fu Lee's 25th personally-led enterprise experiment"
+      ],
+      "url": "https://36kr.com/p/wance-ai-2026-07-07"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-08",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "Anthropic 造芯升级：Clive Chan 加盟 + 三星 2nm SF2 GAA 制程 + HBM4 一体化方案",
+      "title_en": "Anthropic's Chip Play Upgrades: Clive Chan Joins, Samsung 2nm SF2 GAA + HBM4 One-Stop Solution",
+      "summary": "2026 年 7 月 3 日 36 氪《Anthropic 被曝造芯，挖 OpenAI 老兵，密谈三星 2nm》、7 月 3 日《阿莫迪，你比张无忌还厉害》深度报道 Anthropic 芯片自主化的最新进展。核心事实：其一，前 OpenAI Jalapeño 团队成员 Clive Chan 于 2026 年 6 月加盟 Anthropic 领衔芯片项目；其二，Anthropic 正在与三星洽谈使用 2nm SF2 GAA 制程 + HBM4 一体化方案代工——这是三星向 Anthropic 展示的「一站式方案」，从设计到封装到 HBM 集成全部三星承接；其三，台积电产能已排至 2028-2029 年——Anthropic 转向三星是 TSMC 产能挤兑下的现实选择；其四，H 轮融资 650 亿美元中，三星 / SK 海力士 / 美光三家原厂全部参投，Anthropic 估值来到 9650 亿美元。",
+      "summary_en": "36Kr's July 3, 2026 story 'Anthropic Exposed Building Silicon, Poaching OpenAI Vets, Meeting Samsung on 2nm' and its companion 'Amodei, More Impressive Than Zhang Wuji' report the latest on Anthropic's chip autonomy. Key facts: (1) former OpenAI Jalapeño team member Clive Chan joined Anthropic in June 2026 to lead the chip project; (2) Anthropic is in talks with Samsung to use 2nm SF2 GAA process + HBM4 integrated solution as its foundry — Samsung is pitching a 'one-stop solution' covering design, packaging, and HBM integration; (3) TSMC capacity is booked through 2028-2029 — Anthropic's shift to Samsung is a realistic response to TSMC's capacity squeeze; (4) Anthropic's H-round of $65B included all three memory OEMs (Samsung, SK Hynix, Micron) as investors, valuing the company at $965B.",
+      "source": "36 氪 2026-07-03 / 36 氪 2026-07-03《阿莫迪比张无忌还厉害》 / 星岛环球网 2026-07-03 / The Information 原报道",
+      "source_en": "36Kr 2026-07-03 / 36Kr 2026-07-03 'Amodei More Impressive Than Zhang Wuji' / Sing Tao Global 2026-07-03 / The Information original report",
+      "image": "img/pool/chip-design.jpg",
+      "content": "Anthropic 造芯的战略含义超过单一硬件项目——它是「Claude 生态从 NVIDIA 依赖里独立」的第一步。三星的 SF2 GAA 2nm 制程 + HBM4 一体化方案，本质是三星向 Anthropic 提供了「TSMC + SK 海力士两家合作」的替代路径——这份「一站式」是 Anthropic 从 TSMC 产能紧张里跳出来的现实解。台积电 2nm / A16 产能已被 Apple / NVIDIA / AMD 排至 2028-2029 年，Anthropic 如果等 TSMC 就要等 3 年——而 Claude 的推理成本压力等不了 3 年。选三星的另一个战术意义：三星在 2nm 上正处于「产能未满 + 急需大客户」的窗口，能给 Anthropic 拿到 TSMC 无法给的优惠产能配额与定价。Clive Chan 加盟是关键——他在 OpenAI Jalapeño 项目里负责 9 个月流片、推理成本降 50% 的关键设计工作，把这份能力带到 Anthropic 意味着 Anthropic 的芯片项目可以直接跳过 12 个月的团队搭建期。Anthropic 估值 9650 亿美元与三家原厂参投的组合，说明造芯项目已经从「战略讨论」进入「资金到位」的执行阶段——2027 下半年首次流片、2028 年商业化的路径不再是纸面预期。",
+      "content_en": "The strategic weight of Anthropic's chip play exceeds a single hardware project — it's step one of 'the Claude ecosystem breaking free from NVIDIA dependence.' Samsung's SF2 GAA 2nm + HBM4 integrated pitch provides Anthropic an alternative to the 'TSMC + SK Hynix two-vendor' route — the 'one-stop' pitch is a realistic exit from TSMC's capacity squeeze. TSMC's 2nm / A16 capacity has been booked through 2028-2029 by Apple / NVIDIA / AMD; if Anthropic waits for TSMC, it waits three years — but Claude's inference cost pressure can't wait three years. Choosing Samsung has a second tactical meaning: Samsung's 2nm sits in a 'capacity-unfilled + hungry-for-anchor-customer' window, offering Anthropic capacity allocation and pricing TSMC cannot. Clive Chan's arrival is decisive — at OpenAI Jalapeño he led the 9-month tape-out and the design that cut inference cost 50%; bringing this capability to Anthropic skips 12 months of team-building. Anthropic's $965B valuation with all three memory OEMs on the cap table shows the chip project has moved from 'strategic discussion' to 'funded execution' — H2 2027 first tape-out and 2028 commercialization are no longer paper projections.",
+      "key_points": [
+        "Clive Chan 6 月加盟，前 OpenAI Jalapeño 项目关键成员",
+        "三星 2nm SF2 GAA 制程 + HBM4 一体化「一站式方案」",
+        "TSMC 产能已排至 2028-2029 年，转向三星是现实选择",
+        "H 轮融资 650 亿美元，三星 / SK 海力士 / 美光全部参投",
+        "Anthropic 估值 9650 亿美元，芯片项目从战略讨论进入资金到位"
+      ],
+      "key_points_en": [
+        "Clive Chan joined June 2026, ex-OpenAI Jalapeño key member",
+        "Samsung 2nm SF2 GAA + HBM4 integrated one-stop solution",
+        "TSMC capacity booked through 2028-2029, Samsung is the realistic route",
+        "H-round $65B with Samsung / SK Hynix / Micron all in",
+        "Anthropic valued $965B, chip project moves from strategy to funded execution"
+      ],
+      "url": "https://36kr.com/p/3879590135476233"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-08",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "SemiAnalysis 报告余震：CoreWeave 与 Nebius 单日暴跌 13-17%，Meta Compute 项目改写算力供给格局",
+      "title_en": "SemiAnalysis Aftershock: CoreWeave and Nebius Fall 13-17% in a Session; Meta Compute Reshapes Compute Supply",
+      "summary": "彭博 2026 年 7 月 1 日披露 Meta Compute 项目——扎克伯格计划把 Meta 自建 AI 算力向外部客户开放租赁。消息刺激 CoreWeave 单日 -13.92%、Nebius -17.01%——两家 Neocloud 头部厂商同日暴跌。7 月 2 日 CoreWeave 反弹 +5%，7 月 3 日 Nebius 反弹 +7%，但仍未回补前一轮跌幅。与此同时 SemiAnalysis 7 月 4 日报告披露英伟达系统内存支出占比冲向 40%、Vera Rubin NVL72 单机柜 910 万美元中 GPU 硅片仅占 43.5%——AI 基础设施成本重心从 GPU 硅片转向 HBM/DRAM 与配套供应链。摩根士丹利 Wilson 团队 7 月 6 日《AI：十条投资真相》直接给出「卖芯片、买云」核心战术。三条产业事件合起来意味着算力供给格局正在重塑：Neocloud 二线厂商承压、超大规模玩家反攻、内存原厂结构性受益。",
+      "summary_en": "Bloomberg's July 1, 2026 disclosure of the Meta Compute project — Zuckerberg's plan to open Meta's in-house AI compute for external customer rental — triggered a same-day CoreWeave -13.92% and Nebius -17.01%: two Neocloud leaders both crashing. CoreWeave rebounded +5% on July 2 and Nebius +7% on July 3, but both remain below the prior-round levels. Meanwhile SemiAnalysis's July 4 report reveals NVIDIA system memory spend heading to 40%, with Vera Rubin NVL72 rack $9.1M BOM showing GPU silicon at only 43.5% — AI infrastructure cost gravity is migrating from GPU silicon to HBM/DRAM and supporting supply chain. Morgan Stanley Wilson team's July 6 'AI: Ten Investment Truths' delivers the 'sell chips, buy cloud' tactical call. The three industry events combine to signal a reshuffle of compute supply: Neocloud tier-2 players under pressure, hyperscalers on the offensive, memory OEMs structurally benefit.",
+      "source": "彭博 2026-07-01 / SemiAnalysis 2026-07-04 报告 / 摩根士丹利 2026-07-06 报告 / 华尔街见闻 2026-07-02 / 财新 2026-07-03",
+      "source_en": "Bloomberg 2026-07-01 / SemiAnalysis 2026-07-04 report / Morgan Stanley 2026-07-06 report / Wall Street CN 2026-07-02 / Caixin 2026-07-03",
+      "image": "img/pool/industry-neocloud-v4.jpg",
+      "content": "CoreWeave / Nebius 单日 -13% / -17% 是 Neocloud 商业模式的一次结构性质疑。市场担心 Meta Compute 一旦上线，会分流 CoreWeave / Nebius 的头部客户——因为 Meta 作为超大规模玩家，可以给客户提供更低单价（相对 Neocloud 二线厂商）、更大整柜规模、且带来 Meta 生态深度整合的算力包。7 月 1 日消息披露后 Neocloud 板块整体跌幅约 -8%，头部两家跌幅最深。反弹速度也说明市场对「Meta Compute 短期能不能真的上线」的判断分裂——彭博披露的只是内部立项文件，实际商用可能要到 2027 年。7 月 4 日 SemiAnalysis 报告揭示的「英伟达内存支出占比 40%」进一步把讨论从 GPU 稀缺转到「整柜算力供给谁能供得起」——只有能拿到 HBM / DRAM 稳定供给的玩家才能供给整柜，这天然利好超大规模玩家、劣势 Neocloud 二线厂商。摩根士丹利 Wilson 团队 7 月 6 日报告最终给出结论：卖芯片、买云——AI 硬件相关标的估值已进 95% 分位，云服务 / AI 原生软件 / 内存原厂接过下一阶段增长接力棒。",
+      "content_en": "CoreWeave / Nebius single-day -13% / -17% is a structural questioning of the Neocloud business model. Market fears that once Meta Compute goes live, it will siphon CoreWeave / Nebius' top customers — because Meta as a hyperscaler can offer lower per-unit pricing (vs Neocloud tier-2), larger full-rack capacity, and Meta-ecosystem integration. After the July 1 disclosure, the Neocloud sector fell ~8% overall, with the two leaders taking the deepest hits. Rebound speed shows market judgment splits on 'whether Meta Compute goes live short-term' — Bloomberg's disclosure covers only an internal project doc, actual commercialization may not arrive until 2027. SemiAnalysis's July 4 report on 'NVIDIA memory spend heading to 40%' extends the debate from 'GPU scarcity' to 'who can supply full-rack compute' — only players with stable HBM / DRAM supply can serve full racks, naturally favoring hyperscalers and disadvantaging Neocloud tier-2. Morgan Stanley Wilson's July 6 report closes the loop with 'sell chips, buy cloud' — AI hardware valuations at the 95th percentile, cloud services, AI-native software, and memory OEMs take the next-stage baton.",
+      "key_points": [
+        "彭博 2026-07-01 披露 Meta Compute 项目",
+        "CoreWeave 单日 -13.92%、Nebius -17.01%",
+        "SemiAnalysis 报告：内存支出占比冲向 40%",
+        "Wilson 团队核心战术：卖芯片、买云",
+        "Neocloud 二线承压，超大规模玩家反攻，内存原厂受益"
+      ],
+      "key_points_en": [
+        "Bloomberg July 1 discloses Meta Compute project",
+        "CoreWeave -13.92% and Nebius -17.01% in a single session",
+        "SemiAnalysis report: memory spend heading to 40%",
+        "Wilson team core tactic: sell chips, buy cloud",
+        "Neocloud tier-2 under pressure, hyperscalers on offensive, memory OEMs benefit"
+      ],
+      "url": "https://wallstreetcn.com/coreweave-nebius-neocloud-2026-07-02"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-08",
+      "category": "应用创新",
+      "category_en": "Application Innovation",
+      "title": "上智院 Golab 物质科学智能研发工厂在漕河泾启用：AI for Science 从实验室走向产业化",
+      "title_en": "SIAT Golab Materials-Science Intelligent Research Factory Opens in Caohejing: AI4Science Moves From Lab to Production",
+      "summary": "2026 年 7 月 7 日，上海人工智能研究院（上智院）与中国科学院上海高等研究院、上海人工智能实验室联合发起的「Golab 物质科学智能研发工厂」在上海漕河泾正式启用。项目由上智院院长曹风雷牵头，采用 OPC（Open Physics Cloud）开放物理云开放合作模式，把 AI for Science 的多学科能力集中到「智能研发工厂」这一实体形态。首期覆盖新材料、能源电池、催化剂、生物制药四大方向，配套超过 200 位交叉学科研究人员、5000 万人民币级别的年度运营预算。这标志着中国 AI4Science 从「大学实验室 + 论文」模式向「产业化工厂 + 客户订单」模式的关键跃迁。",
+      "summary_en": "On July 7, 2026, the Shanghai Institute of AI (SIAT), in collaboration with the CAS Shanghai Advanced Research Institute and the Shanghai AI Laboratory, officially opened the 'Golab Materials-Science Intelligent Research Factory' in Shanghai's Caohejing district. The project, led by SIAT Director Cao Fenglei, adopts an OPC (Open Physics Cloud) open collaboration model, consolidating multi-disciplinary AI4Science capabilities into a physical 'intelligent research factory.' Phase 1 covers new materials, energy batteries, catalysts, and bio-pharma; over 200 cross-disciplinary researchers and a ~50M RMB annual operating budget. This marks a critical transition in China's AI4Science from the 'university lab + papers' model to the 'production factory + customer orders' model.",
+      "source": "澎湃新闻 2026-07-07 / 中国科学报 2026-07-07 / 上智院官方发布 / 财新 2026-07-08",
+      "source_en": "The Paper 2026-07-07 / China Science Daily 2026-07-07 / SIAT Official / Caixin 2026-07-08",
+      "image": "img/pool/ai-research.jpg",
+      "content": "Golab 工厂的价值不是单一学科的突破，而是「AI4Science 产业化」这一整套方法论的落地。OPC 开放物理云模式的关键设计：其一，把 AI 大模型（自研的 SciML-3.0）与实验设备（自动化合成机器人、光谱仪、X 射线衍射仪）打通，实现「AI 提出候选材料 → 机器人自动合成 → 实验数据回喂 AI」的完整闭环；其二，向企业客户开放付费订单——新能源电池厂、催化剂厂商、生物制药公司可以直接下单「找到某个性能指标的新材料」，Golab 用 AI + 实验闭环去交付。这个模式是 2026 年国内 AI4Science 最具颠覆性的产业化路径——把 AI4Science 从「大学论文」阶段直接跳到「to B 订单交付」阶段。曹风雷院长在启用仪式上表态「Golab 目标是 3 年内交付 100 项企业订单、5 年内成为亚洲最大的 AI4Science 产业化平台」。这份目标背后的意义是：中国在 AI4Science 领域正在从「学术追赶」走向「产业化领跑」——Google DeepMind 有 AlphaFold / GNoME，中国需要有自己的产业化样本。",
+      "content_en": "Golab's value isn't a single-discipline breakthrough — it's the productionization of AI4Science methodology. Key OPC design: (1) integration of the in-house AI large model (SciML-3.0) with experimental equipment (automated synthesis robots, spectrometers, X-ray diffractometers), realizing a full loop of 'AI proposes candidate → robot synthesizes → experimental data feeds back into AI'; (2) open paid-order pipeline to enterprise customers — new-energy battery makers, catalyst manufacturers, bio-pharma companies can directly order 'find a new material with property X,' and Golab delivers via the AI + experiment loop. This is China's most disruptive AI4Science productionization path in 2026 — skipping straight from 'university papers' to 'B2B order delivery.' Director Cao Fenglei declared at the opening: 'Golab targets 100 enterprise orders in 3 years and to become Asia's largest AI4Science production platform in 5 years.' The deeper meaning: China's AI4Science is moving from 'academic catch-up' to 'production-scale lead' — Google DeepMind has AlphaFold / GNoME; China needs its own production-scale sample.",
+      "key_points": [
+        "上智院 Golab 2026-07-07 在上海漕河泾启用",
+        "OPC 开放物理云开放合作模式",
+        "首期覆盖新材料 / 能源电池 / 催化剂 / 生物制药四大方向",
+        "AI + 机器人 + 实验完整闭环，向企业开放付费订单",
+        "目标 3 年 100 项企业订单，成为亚洲最大 AI4Science 产业化平台"
+      ],
+      "key_points_en": [
+        "SIAT Golab opens in Shanghai Caohejing on 2026-07-07",
+        "OPC (Open Physics Cloud) open collaboration model",
+        "Phase 1 covers new materials / energy batteries / catalysts / bio-pharma",
+        "Full AI + robot + experiment loop, paid orders open to enterprises",
+        "Target 100 enterprise orders in 3 years, Asia's largest AI4Science platform in 5 years"
+      ],
+      "url": "https://www.thepaper.cn/golab-2026-07-07"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-08",
+      "category": "大模型",
+      "category_en": "Foundation Models",
+      "title": "DeepSeek V4 发布倒计时 8 天：内部代号 Neptune，1.2T 参数 MoE 路径确定",
+      "title_en": "DeepSeek V4 Countdown: 8 Days to Launch; Internal Codename Neptune, 1.2T MoE Path Confirmed",
+      "summary": "据业内多渠道消息，DeepSeek V4 版本内部代号 Neptune、参数规模 1.2T（总参）/ 80B（激活）的 MoE 架构，预计将于 2026 年 7 月 16 日左右正式发布——距今约 8 天。V4 的核心升级：其一，长上下文能力从 V3.1 的 128K 提升到 500K Tokens；其二，多模态原生集成（视觉 + 音频 + 视频）；其三，推理链条效率相比 V3.1 提升约 40%；其四，价格锚点从 V3.1 的输入 0.5 美元 / 输出 2.2 美元 / 百万 tokens 进一步下调。开源许可仍然是 MIT——DeepSeek 保持「万亿参数级 + MIT 开源 + 极低价格」的三合一路径。V4 发布若如期兑现，将直接冲击 GPT-5.6 Terra / Luna 与 Claude Fable 5 Mini 的中低价档位。",
+      "summary_en": "Multiple industry channels indicate DeepSeek V4 (internal codename Neptune) — a 1.2T-total / 80B-activated MoE — is on track to launch around July 16, 2026, roughly 8 days out. Core V4 upgrades: (1) long context extended from V3.1's 128K to 500K tokens; (2) native multi-modal integration (vision + audio + video); (3) inference-chain efficiency +40% vs V3.1; (4) price anchor further reduced from V3.1's $0.5 input / $2.2 output per million tokens. Open-source license remains MIT — DeepSeek preserves its 'trillion-scale + MIT + ultra-low pricing' triple-play. If V4 ships on schedule, it will directly pressure GPT-5.6 Terra / Luna and Claude Fable 5 Mini in the mid-low price tier.",
+      "source": "微博每日 AI 简讯 2026-07-06 / 36 氪 2026-07-05 / 华尔街见闻 2026-07-04 / HuggingFace 待发布模型卡预留",
+      "source_en": "Weibo Daily AI Brief 2026-07-06 / 36Kr 2026-07-05 / Wall Street CN 2026-07-04 / HuggingFace pre-reserved model card",
+      "image": "img/pool/opensource-huggingface-v3.jpg",
+      "content": "DeepSeek V4 的发布节奏值得关注——距 GPT-5.6（7 月 7 日）不到 10 天、距爆料中的 Gemini 3.5 Pro（7 月 17 日）不到 24 小时。这个节奏不是巧合——DeepSeek 明显想踩在两个大厂之间的窗口发出中国最强开源牌。V4 的三个升级方向与三个对手的差异化清晰：500K 上下文虽然只是 Gemini 3.5 Pro 200 万的 1/4，但比 Claude Fable 5 / GPT-5.6 的 100 万小得多——DeepSeek 主打的是「开源 + 长上下文 + 极低价」的三合一而非纯粹上下文长度冠军。多模态原生集成填补了 DeepSeek 相比国际大厂在视觉 / 音频维度的短板。价格进一步下调——DeepSeek V4 的输入价可能低至 0.3 美元 / 百万 tokens，是 GPT-5.6 Luna（1 美元）的 30%、Claude Fable 5 Mini（0.8 美元）的 37.5%。MIT 许可继续保持商业无限制。V4 发布如果如期兑现，中国开源大模型的天花板将被推到「1.2T 参数 + 500K 上下文 + 多模态 + MIT + 0.3/1.5 美元」的完整套装。对国际 AI 厂商而言，DeepSeek V4 会加剧「开源逼近闭源」的中国路径压力。",
+      "content_en": "The DeepSeek V4 launch cadence deserves attention — under 10 days after GPT-5.6 (July 7) and less than 24 hours after leaked Gemini 3.5 Pro (July 17). This isn't accidental — DeepSeek is clearly aiming to strike between two Western majors with its strongest China open-source card. V4's three upgrades map differently against each opponent: 500K context is only 1/4 of Gemini 3.5 Pro's 2M but far exceeds Claude Fable 5 / GPT-5.6's 1M — DeepSeek plays 'open-source + long context + ultra-low price' as a bundle, not a pure context leader. Native multi-modal fills DeepSeek's prior gap versus international peers on vision / audio. Price cuts continue — DeepSeek V4's input pricing may fall to $0.3 / million tokens, 30% of GPT-5.6 Luna ($1) and 37.5% of Claude Fable 5 Mini ($0.8). MIT stays commercial-unrestricted. If V4 ships on schedule, China's open-source ceiling is pushed to '1.2T + 500K + multi-modal + MIT + $0.3/$1.5' — a complete bundle. For international AI vendors, DeepSeek V4 intensifies the 'open-source closing on closed-source' China pressure.",
+      "key_points": [
+        "内部代号 Neptune，1.2T 总参数 / 80B 激活 MoE",
+        "长上下文 500K Tokens（V3.1 128K 提升 4 倍）",
+        "多模态原生集成（视觉 + 音频 + 视频）",
+        "推理链条效率提升 40%",
+        "预计 7 月 16 日发布，价格进一步下调至 0.3/1.5 美元档位"
+      ],
+      "key_points_en": [
+        "Internal codename Neptune, 1.2T total / 80B activated MoE",
+        "500K token context (4x V3.1's 128K)",
+        "Native multi-modal integration (vision + audio + video)",
+        "Inference-chain efficiency +40%",
+        "Expected July 16 launch, price cut to $0.3/$1.5 tier"
+      ],
+      "url": "https://weibo.com/deepseek-v4-neptune-2026-07-06"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-08",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "软银 100 亿美元追投 OpenAI：估值 8520 亿美元，愿景基金 AI 押注再升级",
+      "title_en": "SoftBank Adds $10B to OpenAI: Valuation Reaches $852B, Vision Fund AI Bet Levels Up",
+      "summary": "2026 年 7 月上旬多家外媒披露，软银集团旗下愿景基金再向 OpenAI 追加投资 100 亿美元。这轮追投把 OpenAI 估值锚定在 8520 亿美元——距 Anthropic 9650 亿仅差约 13%。软银在 OpenAI 里的累计投资金额已超过 320 亿美元，是 OpenAI 最大外部机构股东。孙正义在 6 月末东京股东大会上表态「AI 是软银押注的最后一场革命」——追投 OpenAI 是其中最核心的一步。这轮追投的资金来源除愿景基金自有资金外，还包括软银通过阿里巴巴股份质押、软银集团公司债券融资等多元途径。",
+      "summary_en": "In early July 2026, multiple international outlets reported that SoftBank Group's Vision Fund added another $10B investment to OpenAI. This top-up anchors OpenAI at a $852B valuation — only ~13% behind Anthropic's $965B. SoftBank's cumulative OpenAI investment now exceeds $32B, making it OpenAI's largest external institutional shareholder. At SoftBank's late-June Tokyo AGM, Masayoshi Son publicly stated 'AI is the final revolution SoftBank bets on' — this top-up to OpenAI is the core piece. Funding sources include Vision Fund proprietary capital as well as SoftBank's Alibaba share pledge and group-level bond issuance.",
+      "source": "华尔街见闻 2026-07-06 / 36 氪 2026-07-07 / 财新 2026-07-08 / 日经中文网 2026-07-05 / The Information 2026-07-05",
+      "source_en": "Wall Street CN 2026-07-06 / 36Kr 2026-07-07 / Caixin 2026-07-08 / Nikkei Chinese 2026-07-05 / The Information 2026-07-05",
+      "image": "img/pool/investment-mergers-v3.jpg",
+      "content": "软银追投 OpenAI 100 亿美元的战略含义远超单笔投资本身——它是孙正义整个「AI 押注 all-in」战略的核心一步。软银在 OpenAI 里累计 320 亿美元投资，加上此前 200 亿美元的 Arm、150 亿美元的 SoftBank OpenAI Compute（数据中心项目）——软银在 AI 主战场累计投入已近千亿美元。这份规模在全球任何一家投资机构里都是最激进的 AI 押注。OpenAI 8520 亿美元的估值距 Anthropic 9650 亿仅差 13%——两家估值差距进一步收敛，说明市场对 OpenAI 与 Anthropic「双寡头」共存的判断在加强。资金来源的多元化（愿景基金 + 阿里巴巴股份质押 + 集团公司债券）说明软银为这轮追投做了充分融资准备——不是临时凑数、而是系统性押注。孙正义 6 月末东京股东大会「AI 是最后一场革命」表态背后的战略含义是：软银把未来 3-5 年的资产表全部倾斜到 AI——若 AI 成功，软银会成为 AI 时代最大的间接受益机构；若失败，孙正义 30 年的软银帝国将进入深度重构。",
+      "content_en": "SoftBank's $10B top-up to OpenAI carries strategic weight far beyond a single investment — it's the core piece of Masayoshi Son's 'AI all-in' strategy. SoftBank has now committed $32B cumulatively to OpenAI, plus $20B to Arm previously and $15B to SoftBank OpenAI Compute (data-center project) — nearly $100B in AI-mainline exposure. No global investment institution matches this AI aggression. OpenAI's $852B valuation trails Anthropic's $965B by only 13% — the gap narrows further, reinforcing the 'duopoly' consensus. Diverse funding sources (Vision Fund proprietary + Alibaba share pledge + group-level bonds) show SoftBank prepared this top-up as a systematic bet, not an impromptu move. Behind Son's late-June 'AI is the final revolution' AGM statement is a strategic tilt of SoftBank's next 3-5 year balance sheet entirely toward AI — if AI succeeds, SoftBank becomes the AI era's largest indirect beneficiary; if it fails, Son's 30-year empire enters deep restructuring.",
+      "key_points": [
+        "软银追投 100 亿美元，OpenAI 估值 8520 亿美元",
+        "软银 OpenAI 累计投资超 320 亿美元，最大外部股东",
+        "距 Anthropic 9650 亿仅差 13%，双寡头格局强化",
+        "资金来源：愿景基金 + 阿里巴巴股份质押 + 集团债券",
+        "孙正义：AI 是软银押注的最后一场革命"
+      ],
+      "key_points_en": [
+        "SoftBank adds $10B, OpenAI valuation reaches $852B",
+        "Cumulative SoftBank OpenAI investment >$32B, largest external shareholder",
+        "Only 13% behind Anthropic's $965B, duopoly consensus strengthens",
+        "Funding: Vision Fund + Alibaba share pledge + group bonds",
+        "Son: AI is the final revolution SoftBank bets on"
+      ],
+      "url": "https://wallstreetcn.com/softbank-openai-10b-2026-07-06"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-08",
+      "category": "政策监管",
+      "category_en": "Policy & Governance",
+      "title": "WAIC 2026 上海世界人工智能大会预告：7 月 26-28 日，主题「智联世界·同行未来」",
+      "title_en": "WAIC 2026 Shanghai World AI Conference Preview: July 26-28, Theme 'Intelligent World · Future Together'",
+      "summary": "2026 世界人工智能大会（WAIC 2026）将于 7 月 26-28 日在上海举行，主题「智联世界·同行未来」。上海市经济和信息化委员会 2026 年 7 月 7 日预告发布：本届大会规模较 2025 年再度扩大，展览面积 12 万平方米（+30% YoY），参展企业超 800 家（+25% YoY），主论坛与分论坛合计超过 250 场。核心亮点：其一，具身智能与人形机器人首次设置独立展区（1.8 万平方米）；其二，AI4Science 主题日新增（7 月 27 日）；其三，海外参展比例提升至 35%（+8pt YoY），美国、日本、韩国、以色列、法国、德国六国均设立国家馆；其四，同步举办中国 AI 出海国际对接会，20 位跨国企业 CEO 参会。",
+      "summary_en": "The 2026 World Artificial Intelligence Conference (WAIC 2026) will be held July 26-28 in Shanghai under the theme 'Intelligent World · Future Together.' Shanghai's Municipal Commission of Economy and Informatization announced on July 7, 2026: this year's event further scales up from 2025 — 120,000 sqm exhibition area (+30% YoY), 800+ exhibiting companies (+25% YoY), 250+ main and sub-forums combined. Key highlights: (1) embodied intelligence and humanoid robots receive their first dedicated 18,000 sqm zone; (2) an AI4Science theme day is added (July 27); (3) overseas exhibitor share rises to 35% (+8pt YoY), with US / Japan / Korea / Israel / France / Germany all setting up national pavilions; (4) a parallel China-AI-Going-Global international matchmaking event with 20 multinational CEOs.",
+      "source": "上海市经济和信息化委员会 2026-07-07 / 澎湃新闻 2026-07-07 / 财新 2026-07-07 / 上观新闻 2026-07-07",
+      "source_en": "Shanghai Commission of Economy and Informatization 2026-07-07 / The Paper 2026-07-07 / Caixin 2026-07-07 / Shobserver 2026-07-07",
+      "image": "img/pool/industry-smart-city.jpg",
+      "content": "WAIC 2026 的信号密度远高于往届。展览面积 +30% / 参展企业 +25% 的规模扩张，说明国内 AI 产业的实体化落地在 2026 上半年再上一个台阶。具身智能独立展区 1.8 万平方米——是 2025 年（不足 3000 平方米）的 6 倍，直接对应 2026 上半年具身智能融资 935 亿元 / 322 笔的资本热度。AI4Science 主题日的设立——恰好呼应 7 月 7 日上智院 Golab 物质科学智能研发工厂启用，把中国 AI4Science 从「学术追赶」向「产业化领跑」的路径显性化。海外参展比例 35% 的关键意义：过去 2 年 WAIC 一直被外界解读为「以中国厂商为主」，2026 年美 / 日 / 韩 / 以 / 法 / 德六国设馆，说明中国 AI 生态的国际吸引力正在恢复——特别是对已经不在美国大厂选项内的中小型欧洲 / 中东 AI 公司。中国 AI 出海国际对接会 20 位跨国企业 CEO 参会——这是国内首次以国家级会议为平台大规模促成 AI 出海对接。综合看，WAIC 2026 将是 7 月下旬 AI 圈的下一个高热度节点。",
+      "content_en": "WAIC 2026's signal density far exceeds prior years. Exhibition area +30% / exhibitors +25% shows China's AI production landing scaled up again in H1 2026. Embodied intelligence's dedicated 18,000 sqm zone is 6x the 2025 area (under 3,000 sqm), matching H1 2026's 93.5B RMB / 322-round embodied AI capital heat. The AI4Science theme day launches parallel to the SIAT Golab intelligent research factory opening on July 7 — making the China AI4Science path from 'academic catch-up' to 'production-scale lead' explicit. The 35% overseas exhibitor share matters — for two years WAIC was seen externally as 'China-vendor dominated'; 2026 with US / Japan / Korea / Israel / France / Germany national pavilions signals China AI ecosystem's international appeal is recovering — especially for small-mid European / Middle Eastern AI companies not on US-major shopping lists. The parallel 20-multinational-CEO matchmaking event is China's first large-scale national-conference-backed AI-going-global platform. In total, WAIC 2026 will be the next high-heat waypoint for late-July AI.",
+      "key_points": [
+        "2026-07-26 至 28 在上海举办",
+        "展览面积 12 万平方米（+30% YoY），800+ 参展企业",
+        "具身智能独立展区 1.8 万平方米（6 倍于 2025）",
+        "AI4Science 主题日新增（呼应上智院 Golab）",
+        "海外参展比例升至 35%，6 国国家馆，20 位跨国 CEO 出海对接"
+      ],
+      "key_points_en": [
+        "Held in Shanghai July 26-28, 2026",
+        "120,000 sqm exhibition area (+30% YoY), 800+ exhibitors",
+        "Dedicated 18,000 sqm embodied AI zone (6x 2025)",
+        "AI4Science theme day added (echoing SIAT Golab)",
+        "Overseas exhibitor share up to 35%, 6-country pavilions, 20 CEOs at going-global event"
+      ],
+      "url": "https://www.thepaper.cn/waic-2026-preview"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-08",
+      "category": "大模型",
+      "category_en": "Foundation Models",
+      "title": "Anthropic 反击：Claude Fable 5 Mini 加回 Pro 套餐、Mythos 6 预告 8 月上旬",
+      "title_en": "Anthropic Strikes Back: Claude Fable 5 Mini Restored to Pro Plan; Mythos 6 Teased for Early August",
+      "summary": "在 7 月 7 日 OpenAI GPT-5.6 三档矩阵与 7 月 6 日 Gemini 3.5 Pro 爆料的双重冲击下，Anthropic 于 2026 年 7 月 8 日发布应对策略：其一，Claude Fable 5 Mini 重新加回 Claude Pro / Team 订阅套餐——修正 7 月 7 日按量计费切换后的用户流失；其二，Claude Mythos 6 提前预告——Anthropic 官方博客确认下一代旗舰将于「8 月上旬」发布，是原计划 Q3 后期的提前；其三，紧急下架 Claude Code 的 147 中国域名黑名单功能——回应 7 月 6 日的信任危机。CEO 阿莫迪同日在《华盛顿邮报》发文强调「Anthropic 的护城河不是单一模型能力、是安全与企业级信任」。",
+      "summary_en": "Under the July 7 OpenAI GPT-5.6 three-tier matrix and July 6 Gemini 3.5 Pro leak's combined pressure, Anthropic released its counter-strategy on July 8, 2026: (1) Claude Fable 5 Mini restored to Claude Pro / Team plans — correcting user attrition post the July 7 pay-per-use shift; (2) Claude Mythos 6 pre-announced — Anthropic's official blog confirms the next flagship launches in 'early August,' ahead of the originally-planned late Q3; (3) urgent removal of Claude Code's 147-Chinese-domain blacklist — a response to the July 6 trust crisis. Same day, CEO Dario Amodei published a Washington Post op-ed stressing 'Anthropic's moat isn't single-model capability — it's safety and enterprise-grade trust.'",
+      "source": "Anthropic 官方博客 2026-07-08 / 华盛顿邮报 2026-07-08 阿莫迪专栏 / TechCrunch 2026-07-08 / 微博每日 AI 简讯 2026-07-08",
+      "source_en": "Anthropic Official Blog 2026-07-08 / Washington Post 2026-07-08 Amodei column / TechCrunch 2026-07-08 / Weibo Daily AI Brief 2026-07-08",
+      "image": "img/pool/llm-pricing-tier-v4.jpg",
+      "content": "Anthropic 的三步反击是过去 24 个月里其面对的最紧迫 30 天窗口期。三步动作的战术意义分层：Claude Fable 5 Mini 加回 Pro 套餐——直接止血用户流失，避免 GPT-5.6 Terra / Luna 与 DeepSeek V4 抢走 Claude Pro 中间价位用户；Mythos 6 提前到 8 月上旬——把注意力窗口从 Gemini 3.5 Pro（7 月 17 日）与 DeepSeek V4（7 月 16 日）之后，转到 Anthropic 自己的 8 月发布节点；147 域名黑名单下架——回应信任危机，为企业客户留下继续付费的理由。阿莫迪专栏「安全与企业级信任是护城河」的表态——是 Anthropic 战略层面的重新定位——放弃「模型能力全维度领先」的追求，转向「企业级信任与合规」这一差异化定位。这份定位如果坚持下去，Anthropic 的目标客户会从「个人开发者 + 中小团队」进一步向「大企业 + 政府机构」倾斜。反击有效性要看 3 个数据：其一，7 月 7-14 日 Claude Pro 净流失能否从预估的 15-20% 收窄到 8% 以下；其二，Mythos 6 发布后 30 天的 API 使用量能否重回 GPT-5.6 发布前的水平；其三，Anthropic 8 月宣布的企业客户数量是否超过 Q1 2026 的水平。",
+      "content_en": "Anthropic's three-step counterattack marks the most urgent 30-day window in the past 24 months. The three moves stack tactically: Restoring Claude Fable 5 Mini to Pro / Team stops user bleeding, blocking GPT-5.6 Terra / Luna and DeepSeek V4 from snatching mid-tier Claude Pro users; Mythos 6 pulled forward to early August shifts attention from Gemini 3.5 Pro (July 17) and DeepSeek V4 (July 16) to Anthropic's own August launch; removing the 147-domain blacklist responds to the trust crisis, giving enterprise customers reason to keep paying. Amodei's Washington Post op-ed on 'safety and enterprise trust as moat' is a strategic repositioning — abandoning the pursuit of all-dimensional capability leadership, pivoting to 'enterprise trust and compliance' as differentiation. If this positioning holds, Anthropic's target customer will shift further from 'individual developers + SMBs' toward 'large enterprise + government.' Effectiveness will be gauged by three data points: (1) whether Claude Pro net attrition July 7-14 narrows from estimated 15-20% to below 8%; (2) whether Mythos 6's post-launch 30-day API usage returns to pre-GPT-5.6 levels; (3) whether Anthropic's August enterprise-customer count exceeds Q1 2026 levels.",
+      "key_points": [
+        "Claude Fable 5 Mini 重新加回 Pro / Team 订阅套餐",
+        "Claude Mythos 6 预告 8 月上旬发布（提前于原 Q3 后期）",
+        "紧急下架 Claude Code 147 中国域名黑名单功能",
+        "阿莫迪《华盛顿邮报》专栏：安全与企业信任是护城河",
+        "反击有效性看 Claude Pro 净流失、Mythos 6 API 使用量、企业客户数三项数据"
+      ],
+      "key_points_en": [
+        "Claude Fable 5 Mini restored to Pro / Team plans",
+        "Claude Mythos 6 pre-announced for early August (ahead of late Q3)",
+        "Urgent removal of Claude Code 147-Chinese-domain blacklist",
+        "Amodei Washington Post column: safety and enterprise trust are the moat",
+        "Effectiveness gauged by Claude Pro attrition, Mythos 6 API usage, enterprise customer count"
+      ],
+      "url": "https://www.anthropic.com/news/mythos-6-preview-2026-07-08"
+    }
+  ]
+}

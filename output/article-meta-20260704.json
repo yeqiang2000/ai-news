@@ -1,0 +1,16 @@
+{
+  "id": "article-33",
+  "date": "2026-07-04",
+  "title_zh": "微软的代理战争：Copilot 整合 + 付费 Autopilot 上线，$37B 年化背后的商业化拐点",
+  "title_en": "Microsoft's Agent War: Copilot Consolidation and Paid Autopilots — the $37B Annualized Inflection Behind Agentic Commercialization",
+  "subtitle_zh": "Build 2026 之后 30 天，微软把 Copilot Chat + Cowork + Code + Autopilots 打包成一张矩阵，Scout 成为第一个真正付费的 Autopilot，M365 Copilot 席位破 2000 万、AI 年化收入 $37B（+123% YoY）——而同一时间 OpenAI ChatGPT Agent 与 Google Gemini Enterprise 各自调价、Project Mariner 五月悄然关停。本文从产品矩阵、定价体系、代理能力、商业化数据、三家横评、Nadella 与 Suleyman 表态 6 个维度，拆解「从应用到代理」的第一场真正规模战。",
+  "subtitle_en": "Thirty days after Build 2026, Microsoft has bundled Copilot Chat, Cowork, Code and Autopilots into a single matrix — Scout is now the first Autopilot that actually charges, M365 Copilot seats crossed 20 million, and AI annualized revenue hit $37B (+123% YoY). Meanwhile OpenAI's ChatGPT Agent and Google's Gemini Enterprise repriced separately, and Project Mariner was quietly shut down in May. This article unpacks the first real scale battle of «apps to agents» across six angles: product matrix, pricing, agent capability, commercialization data, three-way benchmark, and executive positioning from Nadella and Suleyman.",
+  "url_zh": "articles/article-33.html",
+  "url_en": "articles/en/article-33.html",
+  "summary_zh": "Build 2026 之后 30 天，微软完成了整个 Copilot 产品线的第二次大整合：Copilot Chat 免费、M365 Copilot $30/席位/月保持不变、新推出 Cowork $30 起 + $0.01/credit 用量计费、Copilot Studio $200/月 25000 credits、E7 Frontier Suite $99/月、Agent 365 $15/席位/月——首个可对外收费的 Autopilot「Scout」正式 GA。FY26 Q3 财报显示 AI 业务年化收入达 $37B（+123% YoY），M365 Copilot 席位突破 2000 万，Copilot Studio 覆盖 230,000+ 组织，Fortune 500 中 90% 使用微软 AI 产品。同一时间 OpenAI 将 ChatGPT Pro 调至 $200/月、Google 关停 Project Mariner、Gemini Enterprise Standard $30/席位/月上线。本文从产品整合、定价矩阵、代理能力清单、商业化数据、三家横评、高管表态 6 个维度，拆解微软在「代理商业化」上如何率先跑通规模化通道，以及智能代理定价战正在如何重塑 SaaS 计费逻辑。",
+  "summary_en": "Thirty days after Build 2026, Microsoft has completed the second major consolidation of the Copilot product line: Copilot Chat remains free, M365 Copilot stays at $30 per seat per month, and the newly launched Cowork combines a $30 base with $0.01-per-credit usage billing. Copilot Studio is priced at $200 per month for 25,000 credits, E7 Frontier Suite at $99 per month, Agent 365 at $15 per seat per month, and Scout — the first commercially chargeable Autopilot — has entered general availability. Microsoft's FY26 Q3 earnings show AI annualized revenue reaching $37B (+123% YoY), M365 Copilot seats crossing 20 million, Copilot Studio adoption in 230,000+ organizations, and 90% of the Fortune 500 using Microsoft AI products. In parallel, OpenAI raised ChatGPT Pro to $200 per month, Google shut down Project Mariner, and Gemini Enterprise Standard launched at $30 per seat per month. This article unpacks Microsoft's early scale playbook for agentic commercialization across six angles — product consolidation, pricing matrix, agent capabilities, commercialization data, three-way benchmark, and executive positioning — and how the pricing war for AI agents is reshaping SaaS billing logic.",
+  "category": "产业",
+  "category_en": "Industry Analysis",
+  "image": "img/pool/startup-product-launch-v3.jpg",
+  "read_time": "14 min read"
+}

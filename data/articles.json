@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "id": "article-46",
+      "date": "2026-07-17",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "title": "Google Gemini 3.5 Pro 延期——编程能力未达目标，旗舰模型推迟数月，内部派系斗争浮出水面，AI 编程格局加速洗牌：深度分析谷歌 AI 旗舰模型背后的技术、组织与竞争三重困境",
+      "title_en": "Google Gemini 3.5 Pro Delayed—Coding Capabilities Miss Target, Flagship Model Slips Months, Internal Factional Struggles Surface, AI Coding Landscape Accelerates: Deep Analysis of Google's Triple Dilemma—Technical, Organizational, and Competitive",
+      "subtitle": "从 5 月 I/O 高调发布到 7 月被迫延期，Gemini 3.5 Pro 的困境是 Google AI 战略的缩影——编程能力瓶颈、内部派系斗争、AI 编程工具各自为战，而 OpenAI 与 Meta 在代码领域加速拉开差距。",
+      "subtitle_en": "From a high-profile I/O launch in May to a forced delay in July, Gemini 3.5 Pro's困境 is a microcosm of Google's AI strategy—coding capability bottlenecks, internal factional struggles, AI coding tools operating in silos, while OpenAI and Meta accelerate their lead in code.",
+      "summary": "Google 原定 6 月推出的 Gemini 3.5 Pro 旗舰模型因编程能力未达内部目标而推迟数月。6 月底更新训练数据后测试结果仍然不达标，Alphabet 股价 7/16 暴跌 4.4%。本文从技术、组织和竞争三个维度深度拆解——为什么编程能力成为最大的卡点？谷歌内部云/DeepMind/Android 三大 AI 编程工具各自为战意味着什么？OpenAI Codex 2.0 和 Meta Code Llama 5 如何在 SWE-Bench 上拉开差距？联合创始人布林与安全团队的内部分歧将如何影响 Gemini 系列的未来？Gemini 3.5 Flash 客户评价两极分化又揭示了什么？本文从 7 个维度全面分析 Google AI 旗舰模型延期背后的深层原因与产业影响。",
+      "summary_en": "Google's Gemini 3.5 Pro flagship model, originally scheduled for June, has been delayed for months as coding capabilities fail to meet internal targets. Updated training data in late June still fell short. Alphabet stock plunged 4.4% on July 16. This article dissects from three dimensions—technical, organizational, and competitive: Why has coding capability become the biggest bottleneck? What does Google's internal Cloud/DeepMind/Android triple AI coding tool silo mean? How are OpenAI Codex 2.0 and Meta Code Llama 5 pulling ahead on SWE-Bench? How will the internal conflict between co-founder Brin and safety teams impact Gemini's future? What does the polarized customer feedback on Gemini 3.5 Flash reveal? Seven dimensions of comprehensive analysis.",
+      "image": "https://ainewsdaily.asia/img/pool/LLM-03-v5.jpg",
+      "author": "AI News Daily",
+      "read_time": "阅读约 18 分钟",
+      "read_time_en": "Approximately 18 min read",
+      "url": "articles/article-46.html",
+      "url_en": "articles/en/article-46.html",
+      "source": "AI News Daily 综合分析",
+      "source_en": "AI News Daily Analysis"
+    },
+    {
       "id": "article-45",
       "date": "2026-07-16",
       "category": "深度解读",
@@ -685,5 +705,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-07-16"
+  "last_updated": "2026-07-17"
 }

@@ -1,6 +1,304 @@
 {
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-17",
   "days": [
+    {
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-07-17",
+          "category": "大模型",
+          "category_en": "LLM",
+          "title": "Google Gemini 3.5 Pro 确认延期：编程能力为主要卡点，6 月底更新训练数据后测试仍未达标，内部评估称「至少还需数月」",
+          "title_en": "Google Gemini 3.5 Pro Confirmed Delayed: Coding Capabilities the Main Bottleneck, Updated Training Data in Late June Still Failed Benchmarks, Internal Assessment Says 'At Least Several Months'",
+          "summary": "The Information 7 月 17 日独家报道，Google 原定 6 月推出的 Gemini 3.5 Pro 旗舰模型因编程能力未达内部目标而推迟，6 月底更新训练数据后测试结果仍然不达标，内部评估称至少还需要数月才能达到发布标准。这是 Google 自 Gemini 系列推出以来面临的最严重产品延迟。",
+          "summary_en": "The Information exclusively reported on July 17 that Google's Gemini 3.5 Pro flagship model, originally scheduled for June, has been delayed due to coding capabilities failing to meet internal targets. Even after updated training data in late June, benchmark results still fell short. Internal assessment says at least several more months are needed. This is Google's most serious product delay since the Gemini series launched.",
+          "source": "The Information / Bloomberg",
+          "source_en": "The Information / Bloomberg",
+          "image": "https://ainewsdaily.asia/img/pool/deep_analysis-03-v5.jpg",
+          "content": "The Information 7 月 17 日独家报道，Google 原定于 2026 年 6 月推出的 Gemini 3.5 Pro 旗舰模型因编程能力未达内部目标而推迟。据知情人士透露，Google 在 5 月的 I/O 大会上高调宣布 Gemini 3.5 Pro，当时内部时间表已经非常紧张。6 月中旬，团队对模型进行了最后一次大规模训练数据更新，但 SWE-Bench Verified 和 Codeforces 等编程基准测试的结果仍然低于内部设定的「发布门槛」。更严重的是，部分测试结果甚至低于 2025 年底发布的 Gemini 3.0 Ultra。Alphabet 股价 7 月 16 日下跌 4.4%，市值蒸发约 850 亿美元，分析师普遍认为这与 Gemini 3.5 Pro 的延期消息直接相关。",
+          "content_en": "The Information exclusively reported on July 17 that Google's Gemini 3.5 Pro flagship model, originally scheduled for June 2026, has been delayed due to coding capabilities failing to meet internal targets. According to sources, Google's high-profile announcement at I/O in May was already on an aggressive timeline. In mid-June, the team conducted a final large-scale training data update, but results on SWE-Bench Verified and Codeforces coding benchmarks still fell below the internal 'release threshold.' Worse, some results were below those of Gemini 3.0 Ultra released in late 2025. Alphabet stock dropped 4.4% on July 16, wiping out approximately $85B in market cap, widely attributed to the Gemini 3.5 Pro delay.",
+          "key_points": [
+            "Gemini 3.5 Pro 原定 6 月推出，因编程能力未达标而推迟",
+            "6 月底更新训练数据后测试结果仍不达标，内部评估需数月",
+            "Alphabet 股价 7/16 下跌 4.4%，市值蒸发约 850 亿美元",
+            "部分测试结果低于 2025 年底的 Gemini 3.0 Ultra"
+          ],
+          "key_points_en": [
+            "Gemini 3.5 Pro originally scheduled for June, delayed over coding capabilities",
+            "Updated training data in late June still failed benchmarks; months needed",
+            "Alphabet stock dropped 4.4% on July 16, ~$85B market cap wiped out",
+            "Some results below Gemini 3.0 Ultra from late 2025"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-07-17",
+          "category": "政策",
+          "category_en": "Policy",
+          "title": "WAIC 2026 在上海正式开幕：习近平出席开幕式并发表主旨演讲，1100+ 企业参展、300+ 全球首发",
+          "title_en": "WAIC 2026 Officially Opens in Shanghai: President Xi Attends Opening Ceremony with Keynote, 1,100+ Exhibitors, 300+ Global Debuts",
+          "summary": "WAIC 2026（世界人工智能大会）7 月 17 日在上海世博中心正式开幕。国家主席习近平出席开幕式并发表主旨演讲——这是习近平首次在 WAIC 发表主旨演讲，强调 AI 发展要「以人民为中心、以安全为底线、以合作为路径」。1100+ 家企业参展（海外 210 家）、300+ 全球首发产品、10 万平方米展区，9 位图灵奖/诺奖得主到场。",
+          "summary_en": "WAIC 2026 officially opened on July 17 at the Shanghai World Expo Center. President Xi Jinping attended and delivered a keynote—his first-ever WAIC keynote, stressing AI development must be 'people-centered, safety-grounded, and cooperation-oriented.' 1,100+ exhibitors (210 overseas), 300+ global debuts, 100,000 sqm exhibition space, 9 Turing/Nobel laureates in attendance.",
+          "source": "新华社 / WAIC 2026 组委会",
+          "source_en": "Xinhua / WAIC 2026 Organizing Committee",
+          "image": "https://ainewsdaily.asia/img/pool/policy-03-v5.jpg",
+          "content": "7 月 17 日上午 9:00，WAIC 2026 在上海世博中心正式开幕。国家主席习近平出席开幕式并发表主旨演讲——这是习近平自 2018 年首届 WAIC 以来首次亲临现场发表主旨演讲。习近平在演讲中强调「人工智能是引领这一轮科技革命和产业变革的战略性技术」，中国 AI 发展要「以人民为中心、以安全为底线、以合作为路径」，反对「任何形式的脱钩断链和技术封锁」。演讲结束后，习近平参观了华为、努比亚等展台。",
+          "content_en": "WAIC 2026 officially opened at 9:00 AM on July 17 at the Shanghai World Expo Center. President Xi Jinping attended the opening ceremony and delivered a keynote—his first in-person keynote at WAIC since 2018. Xi emphasized that 'AI is the strategic technology leading this round of technological revolution and industrial transformation,' and that China's AI development must be 'people-centered, safety-grounded, and cooperation-oriented,' opposing 'any form of decoupling and technology blockade.' After the speech, Xi toured the Huawei and Nubia exhibition booths.",
+          "key_points": [
+            "习近平首次在 WAIC 发表主旨演讲，WAIC 升级为国家级战略信号",
+            "核心立场：以人民为中心、以安全为底线、以合作为路径",
+            "1100+ 家企业参展，300+ 全球首发，9 位图灵/诺奖得主到场",
+            "习近平参观华为 Atlas 950、努比亚 AI 手机等展台"
+          ],
+          "key_points_en": [
+            "Xi's first-ever WAIC keynote; WAIC elevated to national strategic signal",
+            "Core stance: people-centered, safety-grounded, cooperation-oriented",
+            "1,100+ exhibitors, 300+ global debuts, 9 Turing/Nobel laureates",
+            "Xi toured Huawei Atlas 950 and Nubia AI phone booths"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-07-17",
+          "category": "芯片",
+          "category_en": "Chips",
+          "title": "华为 Atlas 950 超节点 WAIC 真机首展：4096 卡昇腾 1000、FP8 3.2 EFLOPS、现场演示 3.2 天训完 DeepSeek V4",
+          "title_en": "Huawei Atlas 950 Supernode Makes Physical Debut at WAIC: 4,096 Ascend 1000 Cards, 3.2 EFLOPS FP8, Live Demo Training DeepSeek V4 in 3.2 Days",
+          "summary": "华为在 WAIC 2026 展台首次公开展出 Atlas 950 超节点真机——4U 液冷机箱集成 4096 张昇腾 1000 芯片、FP8 总算力 3.2 EFLOPS、支持 1 万亿参数模型训练。展台现场演示了基于 Atlas 950 的 DeepSeek V4 训练——243 亿 Token 数据、3.2 天完成，展会期间观众可看到「训练完成」的实时画面。",
+          "summary_en": "Huawei publicly displayed the Atlas 950 supernode for the first time at WAIC 2026—4U liquid-cooled chassis with 4,096 Ascend 1000 chips, 3.2 EFLOPS FP8, supporting 1-trillion-parameter model training. A live demo showed DeepSeek V4 training on 24.3B tokens completing in 3.2 days, visible to visitors throughout the exhibition.",
+          "source": "华为 / WAIC 2026 现场",
+          "source_en": "Huawei / WAIC 2026 Live",
+          "image": "https://ainewsdaily.asia/img/pool/chips-03-v5.jpg",
+          "content": "华为展台是 WAIC 2026 人气最高的展区之一，Atlas 950 超节点真机是全场最受关注的单品。Atlas 950 最早于 2025 年 9 月华为全联接大会上发布，但此前一直以「渲染图+参数表」的方式存在，这是第一次公众可以看到实物。展台左侧的 85 寸交互屏上运行着实时演示——从 HuggingFace 导入 DeepSeek V4 权重，在 Atlas 950 上启动训练，到展会开幕时已经运行了 2.5 天，显示「3.2 天完成」。华为还展示了训推一体方案——训练完成后无需重启即可切换推理模式。",
+          "content_en": "The Huawei booth was one of the most popular at WAIC 2026, with the Atlas 950 supernode as the most-attended single exhibit. First announced at Huawei Connect in September 2025, the Atlas 950 previously existed only as 'renderings + spec sheets.' An 85-inch interactive screen ran a live demo: importing DeepSeek V4 weights from HuggingFace, starting training on Atlas 950, with '3.2 days to completion' indicated. By the time the expo opened, the demo had been running for 2.5 days. Huawei also showcased train-inference integration—the same cluster can switch to inference mode without restart.",
+          "key_points": [
+            "Atlas 950 首次真机展示，4U 液冷机箱集成 4096 张昇腾 1000",
+            "FP8 3.2 EFLOPS、HCCS 2.4Tbps/卡、支持 1 万亿参数训练",
+            "现场演示：3.2 天训完 DeepSeek V4，展会期间可看实时进度",
+            "训推一体：训练完成后无需重启切换推理"
+          ],
+          "key_points_en": [
+            "Atlas 950 physical debut, 4096 Ascend 1000 cards in 4U liquid-cooled chassis",
+            "3.2 EFLOPS FP8, 2.4Tbps HCCS per card, supports 1-trillion-parameter training",
+            "Live demo: DeepSeek V4 trained in 3.2 days, real-time progress visible",
+            "Train-inference integrated: no restart needed to switch modes"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-07-17",
+          "category": "智能终端",
+          "category_en": "Smart Devices",
+          "title": "全球首款 AI 智能体手机「努比亚豆包」WAIC 亮相：无 App 交互、内置 Doubao Agent 3.0、4999 元起",
+          "title_en": "World's First AI-Agent Smartphone 'Nubia Doubao' Debuts at WAIC: No-App Interaction, Doubao Agent 3.0 Built-in, Starting at ¥4,999",
+          "summary": "努比亚与字节跳动联名推出的全球首款 AI 智能体手机——努比亚豆包——在 WAIC 2026 首次公开亮相。手机采用「无 App 交互」设计，长按侧边 AI 键唤醒 Agent，直接通过语音/文字完成跨应用操作。搭载骁龙 9 Gen 4 AI 版、12GB+256GB 起、4999 元起售。7 月 20 日开启预售。",
+          "summary_en": "The world's first AI-agent smartphone—the Nubia Doubao, co-branded by Nubia and ByteDance—made its public debut at WAIC 2026. The phone features a 'no-App interaction' design—long-press the side AI key to wake the Agent for cross-app operations via voice/text. Powered by Snapdragon 9 Gen 4 AI Edition, 12GB+256GB starting at ¥4,999. Pre-sales begin July 20.",
+          "source": "努比亚 / 字节跳动豆包",
+          "source_en": "Nubia / ByteDance Doubao",
+          "image": "https://ainewsdaily.asia/img/pool/AI_applications-06-v5.jpg",
+          "content": "努比亚展台在 WAIC 2026 第一天几乎被围得水泄不通。努比亚豆包（Nubia Doubao）由努比亚与字节跳动豆包团队联合研发，搭载 DeepSeek V4 Flash 端侧推理 + Doubao Agent 3.0 云端协同双引擎。核心设计理念——「无 App 交互」：手机没有传统的应用抽屉，桌面只有一个 Agent 界面。现场演示中，Agent 在 12 秒内完成了携程查票、滴滴叫车、美团订座三步操作。售价：12+256GB ¥4999、16+512GB ¥5999。",
+          "content_en": "The Nubia booth was nearly mobbed on WAIC 2026's first day. The Nubia Doubao, co-developed by Nubia and ByteDance's Doubao team, features a dual-engine architecture: on-device DeepSeek V4 Flash inference + cloud-based Doubao Agent 3.0. Core design philosophy: 'no-App interaction'—the phone has no traditional app drawer, only a single Agent interface. A live demo showed the Agent completing Ctrip ticketing, DiDi ride-hailing, and Meituan table reservation in 12 seconds. Pricing: ¥4,999 (12+256GB), ¥5,999 (16+512GB).",
+          "key_points": [
+            "全球首款 AI 智能体手机，努比亚与字节豆包联合研发",
+            "「无 App 交互」设计：长按 AI 键唤醒 Agent 跨应用操作",
+            "骁龙 9 Gen 4 AI 版 + DeepSeek V4 Flash 端侧推理",
+            "售价 ¥4999 起，7 月 20 日预售"
+          ],
+          "key_points_en": [
+            "World's first AI-agent smartphone, co-developed by Nubia and ByteDance Doubao",
+            "'No-App Interaction' design: long-press AI key for cross-app operations",
+            "Snapdragon 9 Gen 4 AI Edition + on-device DeepSeek V4 Flash",
+            "Starting at ¥4,999; pre-sales July 20"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-07-17",
+          "category": "AI 操作系统",
+          "category_en": "AI OS",
+          "title": "阶跃星辰 Step AOS 智能体操作系统 WAIC 开源发布：Apache 2.0、已接入 120+ 第三方应用",
+          "title_en": "Stepfun's Step AOS Agent OS Open-Sourced at WAIC: Apache 2.0, 120+ Third-Party Apps Integrated",
+          "summary": "阶跃星辰在 WAIC 2026 上发布 Step AOS（Agent Operating System）——面向智能体开发与运行的开源操作系统，提供 Agent 全生命周期管理、多 Agent 协作引擎、记忆与工具管理系统、安全沙箱。已接入 120+ 第三方应用，支持 10 万级并发 Agent 实例，以 Apache 2.0 协议开源。",
+          "summary_en": "Stepfun released Step AOS (Agent Operating System) at WAIC 2026—an open-source operating system for agent development and operation, providing full agent lifecycle management, multi-agent collaboration engine, memory and tool management system, and security sandbox. Integrated with 120+ third-party apps, supporting 100K+ concurrent agent instances, open-sourced under Apache 2.0.",
+          "source": "阶跃星辰 / WAIC 2026",
+          "source_en": "Stepfun / WAIC 2026",
+          "image": "https://ainewsdaily.asia/img/pool/industry-05-v5.jpg",
+          "content": "阶跃星辰在 WAIC 2026 主论坛上发布 Step AOS。架构分为四层——Agent 运行时层（支持 10 万级并发，单实例 50MB）、多 Agent 协作引擎（DAG 与 Graph 两种模式，延迟 <10ms）、记忆与工具管理层（向量+图数据库双存储）、安全沙箱（gVisor 容器隔离）。Step AOS 将以 Apache 2.0 开源，GitHub 仓库已创建。同步发布 Step AOS 应用商店，首批 50 个 Agent 模板。",
+          "content_en": "Stepfun released Step AOS at the WAIC 2026 main forum. The architecture has four layers: Agent Runtime (100K+ concurrent instances, 50MB per instance), Multi-Agent Collaboration Engine (DAG and Graph modes, <10ms latency), Memory and Tool Management (vector + graph DB dual storage), and Security Sandbox (gVisor container isolation). Step AOS will be open-sourced under Apache 2.0 with the GitHub repo already created. The Step AOS App Store launched with 50 initial agent templates.",
+          "key_points": [
+            "Step AOS 四层架构：运行时 + 协作 + 记忆/工具 + 安全沙箱",
+            "支持 10 万级并发 Agent 实例，单实例 50MB 内存",
+            "已接入 120+ 第三方应用，Apache 2.0 开源",
+            "同步发布 Step AOS 应用商店，首批 50 个 Agent 模板"
+          ],
+          "key_points_en": [
+            "Step AOS four-layer architecture: Runtime + Collaboration + Memory/Tool + Security",
+            "100K+ concurrent agent instances, 50MB per instance",
+            "120+ third-party apps integrated; open-sourced under Apache 2.0",
+            "Step AOS App Store launched with 50 initial agent templates"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-07-17",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "Alphabet 股价 7/16 暴跌 4.4%，Gemini 3.5 Pro 延期引发市场对 Google AI 竞争力的广泛质疑",
+          "title_en": "Alphabet Stock Plunges 4.4% on July 16 as Gemini 3.5 Pro Delay Sparks Broad Questions About Google AI Competitiveness",
+          "summary": "Alphabet 股价 7 月 16 日收盘下跌 4.4%，市值蒸发约 850 亿美元，创下自 2024 年初以来最大单日跌幅。分析师普遍认为 Gemini 3.5 Pro 延期是导火索，但更深层的原因是市场对 Google AI 战略整体竞争力的担忧——从 AI 编程工具到旗舰模型，Google 在多个关键领域正在被 OpenAI 和 Anthropic 拉开差距。",
+          "summary_en": "Alphabet stock closed down 4.4% on July 16, wiping out approximately $85B in market cap—the largest single-day drop since early 2024. Analysts widely attribute the trigger to the Gemini 3.5 Pro delay, but the deeper concern is about Google's overall AI strategy competitiveness—from AI coding tools to flagship models, Google is falling behind OpenAI and Anthropic in multiple key areas.",
+          "source": "Bloomberg / CNBC",
+          "source_en": "Bloomberg / CNBC",
+          "image": "https://ainewsdaily.asia/img/pool/investment-04-v5.jpg",
+          "content": "Alphabet 股价 7 月 16 日收盘下跌 4.4% 至 162.37 美元，市值蒸发约 850 亿美元。这是自 2024 年初以来 Alphabet 最大单日跌幅。市场分析指出，Gemini 3.5 Pro 延期不仅是一个单一产品的推迟，更暴露了 Google 在 AI 领域更深层的结构性问题——多个部门各自为战、内部派系斗争、AI 编程工具重复建设。摩根士丹利分析师将 Alphabet 评级从「增持」下调至「中性」，目标价从 195 美元下调至 175 美元。",
+          "content_en": "Alphabet stock closed at $162.37 on July 16, down 4.4% and wiping out approximately $85B in market cap—the largest single-day drop since early 2024. Market analysis indicates the Gemini 3.5 Pro delay is not just a single product postponement but exposes deeper structural issues within Google AI—multiple departments operating in silos, internal factional struggles, and redundant AI coding tool development. Morgan Stanley analysts downgraded Alphabet from 'Overweight' to 'Equal-weight,' cutting the target price from $195 to $175.",
+          "key_points": [
+            "Alphabet 股价 7/16 下跌 4.4%，市值蒸发约 850 亿美元",
+            "2024 年初以来最大单日跌幅",
+            "摩根士丹利下调评级，目标价从 195 降至 175 美元",
+            "市场担忧 Google AI 战略整体竞争力而非单一产品"
+          ],
+          "key_points_en": [
+            "Alphabet stock down 4.4% on July 16, ~$85B market cap wiped out",
+            "Largest single-day drop since early 2024",
+            "Morgan Stanley downgraded; target price cut from $195 to $175",
+            "Market concerns over Google AI overall strategy, not just single product"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-07-17",
+          "category": "行业观察",
+          "category_en": "Industry",
+          "title": "谷歌内部 AI 编程工具各自为战：云/DeepMind/Android 三线并行，重复建设严重，联合创始人布林主张加速引发安全派反弹",
+          "title_en": "Google's Internal AI Coding Tools War: Cloud/DeepMind/Android Three Parallel Lines, Severe Redundancy, Co-founder Brin's Acceleration Push Triggers Safety Backlash",
+          "summary": "The Information 深度报道揭示 Google 内部 AI 编程工具乱象——谷歌云、DeepMind、Android 三大部门各自开发 AI 编程工具，互不兼容。75% 的新代码由 AI 生成，但重要代码必须人类编写。联合创始人谢尔盖·布林主张加速推进 AI 编程，但安全团队坚持关键代码必须人工审查，内部矛盾在 Gemini 3.5 Pro 延期后进一步激化。",
+          "summary_en": "The Information's deep dive reveals Google's internal AI coding tool chaos—Google Cloud, DeepMind, and Android each developing their own AI coding tools, incompatible with each other. 75% of new code is AI-generated but critical code must be human-written. Co-founder Sergey Brin pushes for acceleration while safety teams insist on human review for critical code, with internal conflicts escalating after the Gemini 3.5 Pro delay.",
+          "source": "The Information",
+          "source_en": "The Information",
+          "image": "https://ainewsdaily.asia/img/pool/industry-03-v5.jpg",
+          "content": "The Information 7 月 17 日的深度报道揭开了 Google 内部 AI 编程工具的神秘面纱。谷歌云团队开发了基于 Gemini 3.0 的编程助手 Cloud Code Assist，DeepMind 团队打造了 AlphaCode 2，Android 团队则有自己的 Android Studio AI 插件——三个工具互不兼容、使用不同的底层模型、甚至有独立的收费体系。更令人震惊的是，Google 内部 75% 的新代码由 AI 生成，但一项内部政策要求「任何涉及核心算法的代码必须由人类工程师逐行审查」。联合创始人谢尔盖·布林在 6 月的内部会议上主张「大幅放宽 AI 代码审查门槛」，遭到安全团队和部分工程高管的强烈反对。布林甚至直言「如果我们继续这样，OpenAI 的 Codex 会吃掉我们」。",
+          "content_en": "The Information's July 17 deep dive reveals Google's internal AI coding tool chaos. Google Cloud's team built Cloud Code Assist based on Gemini 3.0, DeepMind created AlphaCode 2, and Android has its own Android Studio AI plugin—three tools incompatible with each other, using different underlying models, with independent pricing systems. Even more shocking: 75% of Google's new code is AI-generated, but an internal policy requires 'any code involving core algorithms to be reviewed line-by-line by human engineers.' Co-founder Sergey Brin pushed at a June internal meeting to 'significantly relax the AI code review threshold,' facing strong opposition from safety teams and senior engineering executives. Brin reportedly said, 'If we continue like this, OpenAI's Codex will eat us alive.'",
+          "key_points": [
+            "谷歌云/DeepMind/Android 三线各自开发 AI 编程工具，互不兼容",
+            "75% 新代码由 AI 生成，但核心算法代码必须人类逐行审查",
+            "布林主张放宽限制，安全团队强烈反对，内部矛盾激化",
+            "Gemini 3.5 Pro 延期成为内部矛盾的集中爆发点"
+          ],
+          "key_points_en": [
+            "Google Cloud/DeepMind/Android each developing incompatible AI coding tools",
+            "75% of new code AI-generated, but core algorithm code requires human review",
+            "Brin pushes for relaxed rules, safety teams strongly oppose, conflict escalates",
+            "Gemini 3.5 Pro delay becomes the flashpoint for internal conflicts"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-07-17",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "前 OpenAI CTO Mira Murati 创办 Thinking Machines Lab 发布 Inkling 模型：9750 亿参数 MoE、Apache 2.0 开放权重、美国开放权重模型第一",
+          "title_en": "Former OpenAI CTO Mira Murati's Thinking Machines Lab Releases Inkling: 975B MoE, Apache 2.0 Open Weights, #1 US Open-Weight Model",
+          "summary": "前 OpenAI CTO Mira Murati 于 2025 年 2 月创办的 Thinking Machines Lab 在 7 月 15 日发布首个开放权重模型 Inkling——9750 亿参数 MoE 架构（410 亿激活参数）、1M 上下文窗口、Apache 2.0 许可。Artificial Analysis 综合评分 41，美国开放权重模型第一。公司 7 月获 20 亿美元融资（a16z/Nvidia/Accel 领投），估值 120 亿美元。",
+          "summary_en": "Thinking Machines Lab, founded by former OpenAI CTO Mira Murati in February 2025, released its first open-weight model Inkling on July 15—975B parameter MoE (41B activated parameters), 1M context window, Apache 2.0 license. Artificial Analysis composite score of 41, #1 US open-weight model. The company raised $2B in July (led by a16z/Nvidia/Accel) at a $12B valuation.",
+          "source": "Thinking Machines Lab / TechCrunch",
+          "source_en": "Thinking Machines Lab / TechCrunch",
+          "image": "https://ainewsdaily.asia/img/pool/open_source-02-v5.jpg",
+          "content": "前 OpenAI CTO Mira Murati 于 2025 年 2 月创办的 Thinking Machines Lab 在 7 月 15 日正式发布首个模型 Inkling。Inkling 采用 9750 亿参数 MoE 架构（每次推理激活 410 亿参数），上下文窗口 100 万 token，以 Apache 2.0 协议开放权重。模型借鉴 DeepSeek-V3 架构，使用 Kimi K2.5 数据优化，从零训练耗时 9 个月。Artificial Analysis 综合评分 41，在所有美国开放权重模型中排名第一。7 月公司完成 20 亿美元融资，a16z、Nvidia、Accel 联合领投，估值 120 亿美元。联合创始人翁荔（前 OpenAI 安全 VP）负责安全与对齐。",
+          "content_en": "Thinking Machines Lab, founded by former OpenAI CTO Mira Murati in February 2025, officially released its first model Inkling on July 15. Inkling features a 975B-parameter MoE architecture (41B activated parameters per inference), 1M-token context window, and Apache 2.0 open weights. The model draws on DeepSeek-V3 architecture, optimized with Kimi K2.5 data, trained from scratch in 9 months. Artificial Analysis composite score of 41, ranking #1 among all US open-weight models. The company raised $2B in July led by a16z, Nvidia, and Accel at a $12B valuation. Co-founder Weng Li (former OpenAI Safety VP) leads safety and alignment.",
+          "key_points": [
+            "Inkling：9750 亿参数 MoE、410 亿激活、1M 上下文、Apache 2.0",
+            "9 个月从零训练，借鉴 DeepSeek-V3 架构 + Kimi K2.5 数据优化",
+            "Artificial Analysis 综合评分 41，美国开放权重模型第一",
+            "7 月完成 20 亿美元融资，估值 120 亿美元"
+          ],
+          "key_points_en": [
+            "Inkling: 975B MoE, 41B activated, 1M context, Apache 2.0",
+            "9 months from scratch training, DeepSeek-V3 architecture + Kimi K2.5 data",
+            "Artificial Analysis composite score 41, #1 US open-weight model",
+            "$2B raised in July at $12B valuation"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-07-17",
+          "category": "大模型",
+          "category_en": "LLM",
+          "title": "Gemini 3.5 Flash 已上线但客户评价两极分化：Figma 好评、Platzi 转向 Anthropic——Google 面临「中端强旗舰弱」的尴尬局面",
+          "title_en": "Gemini 3.5 Flash Goes Live but Customer Reviews Polarized: Figma Praises, Platzi Migrates to Anthropic—Google Faces 'Strong Mid-Tier, Weak Flagship' Dilemma",
+          "summary": "谷歌 Gemini 3.5 Flash 已在 6 月底上线，但客户反馈呈现明显的两极分化。Figma 团队表示 Flash 版本在 UI 生成任务上表现优异，称「比 GPT-5.6 mini 更高效」。但在线教育平台 Platzi 却宣布将主力推理引擎从 Gemini 3.5 Flash 切换到 Anthropic Claude Opus 4.8，原因是「在复杂编程任务上的准确率不够稳定」。Google 正面临「中端模型强、旗舰模型弱」的尴尬局面。",
+          "summary_en": "Google's Gemini 3.5 Flash went live in late June, but customer feedback is sharply polarized. Figma's team praised the Flash version for UI generation tasks, calling it 'more efficient than GPT-5.6 mini.' However, online education platform Platzi announced it would switch its main inference engine from Gemini 3.5 Flash to Anthropic Claude Opus 4.8, citing 'unstable accuracy on complex programming tasks.' Google faces an awkward 'strong mid-tier, weak flagship' situation.",
+          "source": "TechCrunch / Platzi 官方博客",
+          "source_en": "TechCrunch / Platzi Official Blog",
+          "image": "https://ainewsdaily.asia/img/pool/LLM-06-v5.jpg",
+          "content": "Gemini 3.5 Flash 于 6 月底上线后，市场反馈呈现出鲜明的两极分化。Figma 的 AI 工程副总裁在 X 上发文称「Gemini 3.5 Flash 在 UI 代码生成方面比 GPT-5.6 mini 更高效，尤其是在 Figma-to-Code 任务中，生成代码的可编辑性明显更好」。但 Platzi 却在 7 月 15 日的博客中宣布将主力推理引擎从 Gemini 3.5 Flash 切换到 Anthropic Claude Opus 4.8，原因是「在涉及多步推理的复杂编程任务上，Gemini 3.5 Flash 的准确率不够稳定，尤其是在代码审查和调试场景中」。这种两极分化的反馈让 Google 面临一个尴尬的局面——中小模型表现出色，但旗舰模型无法如期交付。",
+          "content_en": "Since Gemini 3.5 Flash launched in late June, market feedback has been sharply polarized. Figma's VP of AI Engineering posted on X: 'Gemini 3.5 Flash is more efficient than GPT-5.6 mini for UI code generation, especially in Figma-to-Code tasks where the generated code is significantly more editable.' However, Platzi announced in a July 15 blog post that it would switch its main inference engine from Gemini 3.5 Flash to Anthropic Claude Opus 4.8, citing 'unstable accuracy on complex programming tasks involving multi-step reasoning, especially in code review and debugging scenarios.' This polarized feedback leaves Google facing an awkward situation—strong mid-tier models but an inability to deliver a flagship.",
+          "key_points": [
+            "Gemini 3.5 Flash 6 月底上线，客户反馈两极分化",
+            "Figma 好评：UI 代码生成比 GPT-5.6 mini 更高效",
+            "Platzi 转向 Anthropic：复杂编程任务准确率不够稳定",
+            "Google 面临「中端强旗舰弱」的尴尬局面"
+          ],
+          "key_points_en": [
+            "Gemini 3.5 Flash launched late June, sharply polarized feedback",
+            "Figma praises: more efficient than GPT-5.6 mini for UI code generation",
+            "Platzi migrates to Anthropic: unstable accuracy on complex coding tasks",
+            "Google faces 'strong mid-tier, weak flagship' dilemma"
+          ],
+          "url": "news.html"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-07-17",
+          "category": "大模型",
+          "category_en": "LLM",
+          "title": "OpenAI Codex 与 Meta Code Llama 在 AI 编程领域加速，与 Google 的差距在 SWE-Bench 上持续扩大",
+          "title_en": "OpenAI Codex and Meta Code Llama Accelerate in AI Coding, Gap with Google Widens on SWE-Bench",
+          "summary": "SWE-Bench Verified 最新排行榜显示，OpenAI Codex 2.0 以 76.3% 的通过率位居第一，Meta Code Llama 5 以 72.1% 位居第二，而 Google 最强的编程模型 Gemini 3.0 Ultra 仅以 58.4% 排名第五，落后于 Anthropic Claude 4.0 和 DeepSeek R3。在 Gemini 3.5 Pro 延期的情况下，Google 在 AI 编程领域的差距正在加速扩大。",
+          "summary_en": "The latest SWE-Bench Verified leaderboard shows OpenAI Codex 2.0 ranking first with 76.3% pass rate, Meta Code Llama 5 second at 72.1%, while Google's strongest coding model Gemini 3.0 Ultra ranks only fifth at 58.4%, behind Anthropic Claude 4.0 and DeepSeek R3. With Gemini 3.5 Pro delayed, Google's gap in AI coding is accelerating.",
+          "source": "SWE-Bench / 各公司博客",
+          "source_en": "SWE-Bench / Company Blogs",
+          "image": "https://ainewsdaily.asia/img/pool/chips-03-v5.jpg",
+          "content": "SWE-Bench Verified 最新排行榜于 7 月 16 日更新，数据显示 OpenAI 与 Meta 在 AI 编程领域的领先优势正在持续扩大。OpenAI Codex 2.0 以 76.3% 的通过率稳居榜首，该模型是 OpenAI 专门针对编程任务优化的旗舰模型，深度集成在 Cursor 和 Windsurf 等 Agent 工具中。Meta Code Llama 5 以 72.1% 排名第二，得益于 Meta 在代码数据集的持续投入。相比之下，Google 最强的编程模型 Gemini 3.0 Ultra 仅以 58.4% 排名第五，甚至落后于 Anthropic Claude 4.0（67.8%）和 DeepSeek R3（63.2%）。分析师指出，如果 Gemini 3.5 Pro 不能在 2026 年底之前交付并显著提升编程能力，Google 在 AI 编程这个关键赛道上可能面临结构性落后。",
+          "content_en": "The latest SWE-Bench Verified leaderboard, updated on July 16, shows OpenAI and Meta's lead in AI coding continuing to widen. OpenAI Codex 2.0 leads with 76.3% pass rate, optimized specifically for coding tasks and deeply integrated into Agent tools like Cursor and Windsurf. Meta Code Llama 5 ranks second at 72.1%, benefiting from Meta's sustained investment in code datasets. By contrast, Google's strongest coding model, Gemini 3.0 Ultra, ranks only fifth at 58.4%, trailing even Anthropic Claude 4.0 (67.8%) and DeepSeek R3 (63.2%). Analysts note that if Gemini 3.5 Pro cannot deliver by end of 2026 with significant coding capability improvements, Google may face a structural disadvantage in the critical AI coding赛道.",
+          "key_points": [
+            "SWE-Bench 最新排行：OpenAI Codex 2.0 76.3% 第一、Meta Code Llama 5 72.1% 第二",
+            "Google Gemini 3.0 Ultra 仅 58.4% 排名第五，落后 Anthropic 和 DeepSeek",
+            "Gemini 3.5 Pro 延期将进一步扩大 Google 在 AI 编程领域的差距",
+            "分析师警告：若年底前无法交付，Google 可能面临结构性落后"
+          ],
+          "key_points_en": [
+            "SWE-Bench latest: OpenAI Codex 2.0 76.3% #1, Meta Code Llama 5 72.1% #2",
+            "Google Gemini 3.0 Ultra only 58.4% #5, behind Anthropic and DeepSeek",
+            "Gemini 3.5 Pro delay will further widen Google's AI coding gap",
+            "Analysts warn: if unable to deliver by year-end, Google may face structural disadvantage"
+          ],
+          "url": "news.html"
+        }
+      ],
+      "hero": {
+        "id": "hero-2026-07-17",
+        "title": "Google Gemini 3.5 Pro 延期——编程能力未达目标，旗舰模型推迟数月，内部派系斗争浮出水面，AI 编程格局加速洗牌",
+        "title_en": "Google Gemini 3.5 Pro Delayed—Coding Capabilities Miss Target, Flagship Model Slips Months, Internal Factional Struggles Surface, AI Coding Landscape Shifts",
+        "image": "https://ainewsdaily.asia/img/pool/deep_analysis-03-v5.jpg",
+        "date": "2026-07-17",
+        "source": "AI News Daily 综合",
+        "source_en": "AI News Daily Analysis",
+        "summary": "Google 原定 6 月推出的 Gemini 3.5 Pro 旗舰模型因编程能力未达内部目标而推迟数月。6 月底更新训练数据后测试结果仍然不达标，Alphabet 股价 7/16 下跌 4.4%。更严重的是内部问题——谷歌云、DeepMind、Android 各自开发 AI 编程工具，75% 新代码由 AI 生成但重要代码必须人类编写，派系斗争让 Gemini 3.5 Pro 成为最大牺牲品。OpenAI 与 Meta 在 AI 编程领域加速拉开差距。",
+        "summary_en": "Google's Gemini 3.5 Pro flagship model, originally scheduled for June, has been delayed for months as coding capabilities fail to meet internal targets. Updated training data in late June still fell short. Alphabet stock dropped 4.4% on July 16. More critically, internal struggles—Google Cloud, DeepMind, and Android each developing their own AI coding tools, 75% of new code AI-generated but critical code must be human-written—have made Gemini 3.5 Pro the biggest casualty. OpenAI and Meta are accelerating their lead in AI coding.",
+        "category": "深度解读",
+        "category_en": "Deep Analysis"
+      },
+      "date": "2026-07-17"
+    },
     {
       "date": "2026-07-16",
       "hero": {
@@ -1192,614 +1490,18 @@
           "url": "https://www.worldaic.com.cn/2026"
         }
       ]
-    },
-    {
-      "date": "2026-07-12",
-      "hero": {
-        "id": "hero-2026-07-12",
-        "title": "AI 电力霸权：数据中心撞穿电网天花板，AI 与国民电力的争夺战全面开启",
-        "title_en": "The AI Power Hegemony: Data Centers Punch Through the Grid Ceiling as the AI-vs-Citizen Electricity Battle Ignites",
-        "image": "img/pool/energy-smart-grid.jpg",
-        "date": "2026-07-12",
-        "source": "AI News Daily 综合",
-        "source_en": "AI News Daily Analysis",
-        "summary": "2026 年 7 月 11~12 日，AI 产业的第六次结构性拐点浮出水面——「电力」。同日爆出四份关键数据：xAI Memphis 二期 800MW 数据中心提前投运但触发田纳西电网 6 月三次紧急减载、爱尔兰环保署宣布暂停新数据中心批准至 2027 Q2、弗吉尼亚州通过 HB-2401 法案取消数据中心 20 年税收减免、日本关西电力发布全球第一份「AI 专用工业电价」上调 19.5%。四份数据合流指向一个共识——AI 产业进入「算力→电力→电网→国民电价」四层传导阶段，AI 与普通居民、传统制造业争夺电力资源的公开摊牌已经开始。",
-        "summary_en": "On July 11–12, 2026, the AI industry's sixth structural inflection surfaced—power. Four datasets converged on the same day: xAI's Memphis Phase-II 800MW data center went live ahead of schedule but triggered three emergency load-shedding events on the Tennessee grid in June alone; Ireland's EPA suspended new data center approvals until Q2 2027; Virginia passed HB-2401 revoking the 20-year tax abatement for data centers; and Kansai Electric Power in Japan launched the world's first 'AI Industrial Electricity Tariff' with a 19.5% surcharge. Together they mark the entry of a four-layer transmission—compute → power → grid → residential tariff—and the public showdown between AI and ordinary citizens/traditional industry for electricity has begun.",
-        "category": "深度解读",
-        "category_en": "Deep Analysis"
-      },
-      "articles": [
-        {
-          "id": "news-1",
-          "date": "2026-07-12",
-          "category": "产业",
-          "category_en": "Industry Analysis",
-          "title": "xAI Memphis 二期 800MW 投运，田纳西电网 6 月三次紧急减载点燃「AI 电力挤兑」争议",
-          "title_en": "xAI Memphis Phase-II 800MW Comes Online, Tennessee Grid Load-Sheds Three Times in June—Igniting AI Power-Squeeze Row",
-          "summary": "xAI 7 月 11 日宣布 Memphis 二期数据中心 800MW 提前 90 天投运，Colossus 集群 GPU 总数突破 55 万张。但田纳西河谷管理局（TVA）同日披露：Memphis 一期 500MW 上线后，6 月 TVA 电网已经触发三次紧急减载事件，工业用户短暂断电最长达 47 分钟。当地居民组织「Memphis Community Against Data Centers」向环保署提告 xAI 数据中心「已经改变了整个城市的电力分配曲线」。",
-          "summary_en": "xAI announced on July 11 that its Memphis Phase-II 800MW data center went live 90 days early, pushing the Colossus cluster past 550,000 GPUs. But the Tennessee Valley Authority disclosed the same day: since Phase-I 500MW came online, the TVA grid has triggered three emergency load-shedding events in June alone, with industrial customers experiencing outages of up to 47 minutes. The 'Memphis Community Against Data Centers' has filed with the EPA alleging xAI 'has altered the city's entire load-distribution curve'.",
-          "source": "Bloomberg / TVA",
-          "source_en": "Bloomberg / TVA",
-          "image": "img/pool/data-center-gpu-rack-v4.jpg",
-          "content": "xAI 与田纳西州的电力矛盾 7 月 11 日彻底公开。马斯克在 X 上宣布 Memphis 二期 800MW 数据中心提前 90 天投运，「Colossus 集群 GPU 突破 55 万张，年底目标 100 万张」。但田纳西河谷管理局（TVA）7 月 11 日同步发布《6 月电网稳定性季报》：Memphis 一期 500MW 上线以来，TVA 电网在 6 月已触发三次紧急减载（分别发生在 6 月 8 日 13:47、6 月 21 日 15:22、6 月 27 日 14:03），共造成田纳西州西南部工业用户短暂断电，最长一次持续 47 分钟。当地居民组织「Memphis Community Against Data Centers」向 EPA 提告——xAI 数据中心「已经改变了整个城市的电力分配曲线」，Memphis 地区居民 6 月的平均电价从 12.4 美分/kWh 上升到 14.1 美分/kWh，涨幅 13.7%。这是 AI 数据中心第一次因「挤占居民电力」而被公开起诉。",
-          "content_en": "The power conflict between xAI and Tennessee blew wide open on July 11. Musk announced on X that Memphis Phase-II 800MW came online 90 days early, 'Colossus GPU count crosses 550k, targeting 1M by year-end'. But the Tennessee Valley Authority released its June Grid Stability Report the same day: since Phase-I 500MW went live, the TVA grid has triggered three emergency load-shedding events in June alone (13:47 on June 8; 15:22 on June 21; 14:03 on June 27), causing brief industrial outages across southwestern Tennessee, with the longest lasting 47 minutes. 'Memphis Community Against Data Centers' filed with the EPA alleging that xAI 'has altered the city's entire load-distribution curve': Memphis residential electricity averaged 12.4¢/kWh in June, up from 11.0¢ to 14.1¢, a 13.7% increase. This is the first time an AI data center has been publicly sued for 'crowding out residential electricity'.",
-          "key_points": [
-            "xAI Memphis 二期 800MW 提前 90 天投运，Colossus GPU 破 55 万张",
-            "TVA 电网 6 月已触发三次紧急减载，最长断电 47 分钟",
-            "Memphis 居民 6 月电价 12.4→14.1 美分/kWh，涨幅 13.7%",
-            "「Memphis Community Against Data Centers」首次向 EPA 提告 AI 数据中心"
-          ],
-          "key_points_en": [
-            "xAI Memphis Phase-II 800MW live 90 days early, Colossus crosses 550k GPUs",
-            "TVA grid triggered three emergency load-sheds in June, longest outage 47 minutes",
-            "Memphis residential price rose from 12.4¢ to 14.1¢/kWh in June, +13.7%",
-            "'Memphis Community Against Data Centers' files first EPA complaint against an AI data center"
-          ],
-          "url": "https://www.bloomberg.com/news/articles/2026-07-11/xai-memphis-tva-grid-loadshed"
-        },
-        {
-          "id": "news-2",
-          "date": "2026-07-12",
-          "category": "政策",
-          "category_en": "Policy",
-          "title": "爱尔兰环保署宣布暂停新数据中心批准至 2027 Q2，AWS / Microsoft 都柏林扩产计划全部搁置",
-          "title_en": "Ireland's EPA Suspends New Data Center Approvals Through Q2 2027, Freezing AWS and Microsoft Dublin Expansions",
-          "summary": "爱尔兰环保署（EPA）7 月 11 日发布 2026-2027 电网稳定性公告：全国新数据中心批准全面暂停至 2027 Q2，理由是「数据中心 2025 年占爱尔兰总用电量 21%，已经超过全国居民用电总和」。AWS、Microsoft、Google 三家 Dublin 扩产计划全部搁置，合计约 3.2GW 的新增容量被冻结。爱尔兰工业发展局（IDA）估算：这份暂停令可能让 Dublin 未来两年损失 187 亿欧元的 AI 数据中心投资。",
-          "summary_en": "Ireland's Environmental Protection Agency issued its 2026-2027 grid stability notice on July 11: all new data center approvals nationwide are suspended until Q2 2027 on the ground that 'data centers consumed 21% of Ireland's total electricity in 2025, exceeding total residential consumption'. Expansion plans for AWS, Microsoft and Google in Dublin—totaling roughly 3.2GW—are all frozen. Ireland's Industrial Development Authority estimates the suspension could cost Dublin €18.7 billion in AI data center investment over the next two years.",
-          "source": "Irish Times / EPA",
-          "source_en": "Irish Times / EPA",
-          "image": "img/pool/policy-regulation.jpg",
-          "content": "爱尔兰在 2026 年 7 月 11 日成为全球第一个国家层面「暂停 AI 数据中心批准」的市场。EPA 发布公告：全国新数据中心批准全面暂停至 2027 Q2，AWS 都柏林 700MW 扩产、Microsoft Dublin West 1.1GW 新建、Google Dublin South 400MW 新建全部冻结，合计 3.2GW 容量被搁置。EPA 的核心数据是——数据中心 2025 年已占爱尔兰总用电量 21%（约 8.1 TWh），首次超过全国居民用电总和（约 7.6 TWh）。EPA 主席 Laura Burke 在新闻发布会上说：「我们不是反对 AI 产业，我们只是要求数据中心自带电力方案——每一个新增数据中心必须同步申报可再生能源采购协议或者自建电站」。爱尔兰工业发展局（IDA）估算：这份暂停令可能让 Dublin 未来两年损失 187 亿欧元的 AI 数据中心投资。都柏林在过去 20 年打造的「欧洲数据中心之都」标签，第一次面临系统性倒退。",
-          "content_en": "On July 11, 2026, Ireland became the first country in the world to impose a national-level suspension on AI data center approvals. The EPA notice halts all new data center approvals through Q2 2027—AWS Dublin's 700MW expansion, Microsoft Dublin West 1.1GW build, and Google Dublin South 400MW build are all frozen, totaling 3.2GW. The EPA's core figure: data centers consumed 21% of Ireland's total electricity in 2025 (about 8.1 TWh), for the first time exceeding total residential consumption (about 7.6 TWh). EPA Chair Laura Burke told reporters: 'We're not opposing the AI industry—we're requiring data centers to bring their own power. Every new data center must simultaneously file a renewable-energy PPA or an on-site generation plan.' Ireland's Industrial Development Authority estimates the suspension could cost Dublin €18.7 billion in AI data center investment over the next two years. Dublin's 20-year 'Data Center Capital of Europe' label faces its first systemic reversal.",
-          "key_points": [
-            "爱尔兰 EPA 暂停新数据中心批准至 2027 Q2",
-            "AWS/Microsoft/Google 都柏林合计 3.2GW 新增容量被冻结",
-            "数据中心 2025 年占爱尔兰总用电 21%，首超全国居民用电总和",
-            "IDA 估算 Dublin 未来两年损失 187 亿欧元 AI 投资"
-          ],
-          "key_points_en": [
-            "Ireland's EPA suspends new data center approvals through Q2 2027",
-            "AWS/Microsoft/Google Dublin plans totaling 3.2GW frozen",
-            "Data centers took 21% of Ireland's power in 2025, first time exceeding all residential",
-            "IDA estimates Dublin loses €18.7B of AI investment over next two years"
-          ],
-          "url": "https://www.irishtimes.com/business/technology/2026/07/11/epa-suspends-data-center-approvals"
-        },
-        {
-          "id": "news-3",
-          "date": "2026-07-12",
-          "category": "政策",
-          "category_en": "Policy",
-          "title": "弗吉尼亚州通过 HB-2401 法案，取消数据中心 20 年税收减免——Data Center Alley 第一次撞南墙",
-          "title_en": "Virginia Passes HB-2401 Revoking 20-Year Data Center Tax Abatement—Data Center Alley Hits Its First Wall",
-          "summary": "弗吉尼亚州议会 7 月 11 日以 82:18 通过 HB-2401 法案：取消从 2004 年沿用至今的数据中心「20 年销售税与设备税全额减免」，改为「10 年减免 + 每兆瓦支付 12 万美元电网整合费」。法案主要发起人 Danica Roem 议员在辩论中说：「Data Center Alley 20 年帮弗吉尼亚吸引了 1600 亿美元投资，但也让 Loudoun County 居民电价上涨 38%——现在到了重新分账的时候。」AWS 弗吉尼亚区首席经济官对路透社的回应是「我们将重新评估未来 3 年 220 亿美元的投资计划」。",
-          "summary_en": "Virginia's General Assembly passed HB-2401 on July 11 by an 82-18 margin, revoking the sales-and-property-tax abatement that has been in place for data centers since 2004. The new framework: 10-year abatement plus a $120,000-per-megawatt grid-integration fee. Sponsor Del. Danica Roem said on the floor: 'Data Center Alley has brought Virginia $160B in investment over 20 years, but it has also driven Loudoun County residential electricity rates up 38%—it's time to redistribute the ledger.' AWS Virginia's Chief Economic Officer told Reuters: 'We are reassessing our $22B investment plan for the next three years.'",
-          "source": "Reuters / Virginia General Assembly",
-          "source_en": "Reuters / Virginia General Assembly",
-          "image": "img/pool/policy-ai-benefit-v4.jpg",
-          "content": "全球最大 AI 数据中心集群 Data Center Alley 7 月 11 日撞上第一堵墙。弗吉尼亚州议会以 82:18 通过 HB-2401 法案，从 2027 年 1 月 1 日起，取消从 2004 年沿用至今的数据中心「20 年销售税与设备税全额减免」，改为「10 年减免 + 每兆瓦支付 12 万美元电网整合费」。这份法案的核心动力来自 Loudoun County 居民——过去 5 年 Data Center Alley 从 2GW 扩产到 6.5GW，Loudoun County 居民电价上涨 38%，同时数据中心用水量占县总用水 27%。法案主要发起人 Danica Roem 议员在议会辩论中的一句话被 Reuters 全网转发：「Data Center Alley 20 年帮弗吉尼亚吸引了 1600 亿美元投资，但也让 Loudoun County 居民电价上涨 38%——现在到了重新分账的时候。」HB-2401 一旦落地，AWS、Microsoft、Google、Meta 在弗吉尼亚的现存 6.5GW 数据中心每年额外增加约 7.8 亿美元电网整合费。AWS 弗吉尼亚区首席经济官对 Reuters 的回应是「我们将重新评估未来 3 年 220 亿美元的投资计划」——这是 Data Center Alley 20 年历史上第一次「反悔性重估」。",
-          "content_en": "The world's largest AI data center cluster—Data Center Alley—hit its first wall on July 11. Virginia's General Assembly passed HB-2401 by 82-18, effective January 1, 2027: revoking the sales-and-property-tax abatement for data centers that has been in place since 2004, replaced with a 10-year abatement plus a $120,000-per-megawatt grid-integration fee. The bill's political engine is Loudoun County residents—over the past 5 years Data Center Alley expanded from 2GW to 6.5GW, and Loudoun County residential electricity rates rose 38% while data center water usage hit 27% of the county's total. Sponsor Del. Danica Roem's floor line went viral via Reuters: 'Data Center Alley has brought Virginia $160B in investment over 20 years, but it has also driven Loudoun County residential electricity rates up 38%—it's time to redistribute the ledger.' Once HB-2401 takes effect, the existing 6.5GW at AWS, Microsoft, Google and Meta in Virginia will pay an additional ~$780M/year in grid integration fees. AWS Virginia's Chief Economic Officer told Reuters: 'We are reassessing our $22B three-year investment plan'—the first 'reversal-driven reassessment' in Data Center Alley's 20-year history.",
-          "key_points": [
-            "弗吉尼亚州议会 82:18 通过 HB-2401 取消 20 年数据中心税收减免",
-            "新框架：10 年减免 + 每兆瓦 12 万美元电网整合费",
-            "Loudoun County 居民电价 5 年上涨 38%，数据中心用水占县总 27%",
-            "AWS 宣布重新评估未来 3 年 220 亿美元投资计划"
-          ],
-          "key_points_en": [
-            "Virginia General Assembly passes HB-2401 82-18, revoking 20-year data center tax abatement",
-            "New framework: 10-year abatement plus $120K per MW grid integration fee",
-            "Loudoun County residential rates up 38% in 5 years, DC water use hits 27%",
-            "AWS to reassess $22B three-year Virginia investment plan"
-          ],
-          "url": "https://www.reuters.com/technology/virginia-hb2401-data-center-tax-abatement-2026-07-11/"
-        },
-        {
-          "id": "news-4",
-          "date": "2026-07-12",
-          "category": "产业",
-          "category_en": "Industry Analysis",
-          "title": "关西电力发布全球首份「AI 专用工业电价」，AI 数据中心年度电费上调 19.5%",
-          "title_en": "Kansai Electric Power Unveils World's First 'AI Industrial Tariff', AI Data Center Bills to Rise 19.5% Annually",
-          "summary": "日本关西电力 7 月 11 日在大阪召开新闻发布会，宣布从 2027 年 1 月 1 日起对「AI 专用工业客户」征收 19.5% 电价加价——全球第一份把 AI 数据中心单列出来的分级电价方案。加价的核心逻辑是「AI 数据中心的电力密度是传统工业客户的 8-12 倍，但每兆瓦贡献的日本就业岗位不到传统制造业的 5%」。SoftBank、Preferred Networks、NTT 三家在关西的 AI 数据中心年度电费合计将增加约 428 亿日元。",
-          "summary_en": "Kansai Electric Power announced at an Osaka press conference on July 11 that starting January 1, 2027, it will apply a 19.5% surcharge to 'AI-specific industrial customers'—the world's first tiered tariff that separates AI data centers from traditional industry. The stated rationale: 'AI data centers have 8-12x the power density of traditional industrial customers, but generate less than 5% of the Japanese jobs per megawatt.' SoftBank, Preferred Networks and NTT's AI data centers in the Kansai region will pay roughly ¥42.8 billion more per year in electricity bills.",
-          "source": "Nikkei / Kansai Electric Power",
-          "source_en": "Nikkei / Kansai Electric Power",
-          "image": "img/pool/energy-03-v5.jpg",
-          "content": "日本 7 月 11 日走出了 AI 电价定价的关键一步。关西电力在大阪召开新闻发布会宣布——从 2027 年 1 月 1 日起，对「AI 专用工业客户」征收 19.5% 电价加价。这是全球第一份把 AI 数据中心单列出来的分级工业电价。关西电力社长森望在发布会上给出的核心数据是：其一，AI 数据中心的电力密度（15-25 kW/机架）是传统工业客户（1.5-2.5 kW/工位）的 8-12 倍；其二，每兆瓦 AI 数据中心贡献的日本本地就业岗位不到 15 个，而传统制造业每兆瓦贡献 320 个岗位；其三，AI 数据中心的用电峰值时段与家庭空调峰值重合度高达 78%。这意味着 AI 数据中心在电网最紧张的时刻贡献了最大的负载。关西电力预计——这份加价方案实施后，SoftBank 大阪 480MW 数据中心年度电费将增加 190 亿日元、Preferred Networks 神户 200MW 增加 79 亿日元、NTT 京都 300MW 增加 159 亿日元，三家合计约 428 亿日元。SoftBank 集团 CFO 后藤芳光在同日回应「我们会在 30 天内向经济产业省提出反对意见，同时评估把 AI 训练负载迁移到北海道苫小牧的可能性」。这份「AI 电价分级」很可能在 2027 年被欧洲、韩国、澳大利亚跟进。",
-          "content_en": "Japan took a pivotal step in AI power pricing on July 11. Kansai Electric Power announced at an Osaka press conference: effective January 1, 2027, 'AI-specific industrial customers' will be charged a 19.5% surcharge—the world's first tiered industrial tariff that isolates AI data centers. President Nozomu Mori laid out the core data: (1) AI data centers' power density (15-25 kW/rack) is 8-12x that of traditional industrial customers (1.5-2.5 kW/workstation); (2) each MW of AI data center generates under 15 local jobs in Japan versus 320 jobs/MW for traditional manufacturing; (3) AI data center peak load overlaps with residential air-conditioning peaks 78% of the time—meaning AI data centers hit the grid hardest exactly when it's most strained. Kansai estimates the surcharge will add ¥19B/year to SoftBank's 480MW Osaka data center, ¥7.9B to Preferred Networks' 200MW in Kobe, and ¥15.9B to NTT's 300MW in Kyoto—totaling ¥42.8B annually. SoftBank Group CFO Yoshimitsu Goto responded the same day: 'We will submit objections to METI within 30 days and evaluate migrating our AI training workloads to Tomakomai, Hokkaido.' This 'tiered AI tariff' is likely to be followed by Europe, Korea and Australia in 2027.",
-          "key_points": [
-            "关西电力 2027 Q1 起对 AI 专用客户征收 19.5% 电价加价",
-            "AI 数据中心电力密度是传统工业的 8-12 倍，本地就业却不足 5%",
-            "AI 用电峰值与家庭空调峰值重合度 78%",
-            "SoftBank/Preferred Networks/NTT 合计年增 428 亿日元电费"
-          ],
-          "key_points_en": [
-            "Kansai Electric to apply 19.5% AI-specific surcharge from Q1 2027",
-            "AI data center power density 8-12x traditional industry, under 5% of jobs",
-            "AI peak load overlaps residential AC peak 78% of the time",
-            "SoftBank/Preferred Networks/NTT face ¥42.8B combined annual increase"
-          ],
-          "url": "https://asia.nikkei.com/Business/Technology/Kansai-Electric-AI-industrial-tariff-2026-07-11"
-        },
-        {
-          "id": "news-5",
-          "date": "2026-07-12",
-          "category": "AI应用",
-          "category_en": "AI Applications",
-          "title": "Meta AI 智能眼镜 H1 出货突破 3800 万副，Ray-Ban Meta Gen4 单季销量首超 iPhone 16 Plus",
-          "title_en": "Meta AI Smart Glasses Ship 38M Units in H1, Ray-Ban Meta Gen4 Outsells iPhone 16 Plus in a Single Quarter",
-          "summary": "IDC 7 月 11 日发布《全球 AI 智能眼镜 H1 2026 Snapshot》：Meta 上半年出货 3800 万副，Ray-Ban Meta Gen4 单一款单季销量 2100 万副，首次超越 iPhone 16 Plus 单季销量。Ray-Ban 二季度门店销量占 EssilorLuxottica 全球营收 41%——这个从 2023 年只有 3% 的数字，两年半翻了 13.6 倍。Ray-Ban Meta Gen4 由 Meta Llama-Vision 5 提供实时视觉理解，售价 349 美元。",
-          "summary_en": "IDC's 'Global AI Smart Glasses H1 2026 Snapshot' released July 11: Meta shipped 38M units in H1, with Ray-Ban Meta Gen4 alone hitting 21M in Q2—the first time this model outsold iPhone 16 Plus in a single quarter. Ray-Ban's Q2 store sales accounted for 41% of EssilorLuxottica's global revenue—a figure that was only 3% in 2023, a 13.6x jump in two and a half years. Ray-Ban Meta Gen4 features real-time vision powered by Meta's Llama-Vision 5, priced at $349.",
-          "source": "IDC / EssilorLuxottica",
-          "source_en": "IDC / EssilorLuxottica",
-          "image": "img/pool/vr_ar-02-v5.jpg",
-          "content": "AI 智能眼镜第一次实打实地压过 iPhone。IDC 7 月 11 日发布的《全球 AI 智能眼镜 H1 2026 Snapshot》给出三个关键数据：其一，Meta 上半年出货 3800 万副 Ray-Ban Meta 系列，同比 +187%；其二，Ray-Ban Meta Gen4 单一款 Q2 销量 2100 万副，首次超越 iPhone 16 Plus 单季 1970 万副；其三，Ray-Ban 二季度门店销量占 EssilorLuxottica 全球营收 41%——这个数字 2023 年只有 3%，两年半翻了 13.6 倍。Ray-Ban Meta Gen4 的核心 AI 能力由 Meta Llama-Vision 5 提供——支持实时视觉理解、多语言口译、导航覆盖 47 座城市。售价 349 美元，价格锚定在「一副高档 Ray-Ban 太阳镜」的心理价位。IDC 分析师 Ryan Reith 给出的判断是——「AI 智能眼镜是过去 5 年硬件市场的第一次真正的『iPhone 时刻』：它不是新一代硬件，它是一个全新品类的成立」。Meta 内部数据显示，Ray-Ban Meta Gen4 用户日均使用时长 84 分钟，是同期 Apple Vision Pro 的 3.2 倍。",
-          "content_en": "AI smart glasses finally out-shipped iPhone. IDC's Global AI Smart Glasses H1 2026 Snapshot released July 11 highlights three numbers: (1) Meta shipped 38M Ray-Ban Meta series units in H1, up 187% YoY; (2) Ray-Ban Meta Gen4 alone sold 21M in Q2, beating iPhone 16 Plus's 19.7M for the first time; (3) Ray-Ban Q2 in-store sales accounted for 41% of EssilorLuxottica's global revenue—up from just 3% in 2023, a 13.6x jump in two and a half years. Ray-Ban Meta Gen4's core AI stack is powered by Meta Llama-Vision 5—real-time visual understanding, multi-language interpretation, and navigation covering 47 cities. Priced at $349, it anchors psychologically at 'a high-end pair of Ray-Ban sunglasses'. IDC analyst Ryan Reith's take: 'AI smart glasses are the first real iPhone Moment in hardware in five years—not a new generation of a category, but the establishment of a new category itself'. Meta internal data shows Ray-Ban Meta Gen4 daily usage averages 84 minutes—3.2x Apple Vision Pro over the same window.",
-          "key_points": [
-            "Meta AI 智能眼镜 H1 出货 3800 万副，同比 +187%",
-            "Ray-Ban Meta Gen4 Q2 销量首次超越 iPhone 16 Plus",
-            "Ray-Ban 二季度门店销量占 EssilorLuxottica 41%，从 2023 年 3% 翻 13.6 倍",
-            "Ray-Ban Meta Gen4 用户日均使用 84 分钟，是 Vision Pro 的 3.2 倍"
-          ],
-          "key_points_en": [
-            "Meta AI smart glasses ship 38M units in H1, +187% YoY",
-            "Ray-Ban Meta Gen4 Q2 sales beat iPhone 16 Plus for first time",
-            "Ray-Ban Q2 sales hit 41% of EssilorLuxottica revenue, up from 3% in 2023",
-            "Ray-Ban Meta Gen4 daily usage 84 min, 3.2x Apple Vision Pro"
-          ],
-          "url": "https://www.idc.com/getdoc.jsp?containerId=US52911826"
-        },
-        {
-          "id": "news-6",
-          "date": "2026-07-12",
-          "category": "AI应用",
-          "category_en": "AI Applications",
-          "title": "Apple Vision 2 + Apple Intelligence 智能眼镜 9 月新品发布锁死，库克首次公开确认「眼镜是下一代 iPhone」",
-          "title_en": "Apple Vision 2 + Apple Intelligence Glasses Locked for September Event, Cook First Publicly Confirms 'Glasses Are the Next iPhone'",
-          "summary": "彭博社 7 月 11 日独家披露：Apple Vision 2 + 首款 Apple Intelligence 智能眼镜将在 9 月 9 日 iPhone 17 发布会同场亮相。眼镜代号 N401，重量 43 克（远轻于 Vision Pro 的 600 克+），售价 599 美元。库克在同日《华尔街日报》专访中首次公开确认：「眼镜是我们下一代的 iPhone——从 2027 年开始，眼镜业务将是我们最重要的硬件增长引擎」。这是苹果 2007 年 iPhone 时刻以来最激进的品类判断。",
-          "summary_en": "Bloomberg reported on July 11 that Apple Vision 2 + Apple's first Apple Intelligence glasses will launch alongside iPhone 17 at the September 9 event. Codename N401, weight 43 grams (versus Vision Pro's 600g+), priced at $599. In a same-day Wall Street Journal interview, Tim Cook publicly confirmed for the first time: 'Glasses are our next iPhone—starting in 2027, glasses will be our most important hardware growth engine.' This is Apple's most aggressive category call since the 2007 iPhone moment.",
-          "source": "Bloomberg / WSJ",
-          "source_en": "Bloomberg / WSJ",
-          "image": "img/pool/vr-ar-retail.jpg",
-          "content": "苹果 7 月 11 日把 AI 眼镜的战场公开摊开。彭博社独家披露：Apple Vision 2 + 首款 Apple Intelligence 智能眼镜将在 9 月 9 日 iPhone 17 秋季发布会同场亮相。眼镜代号 N401，重量 43 克（远轻于 Vision Pro 的 600 克+），售价 599 美元，内置 Apple M5 芯片 + 独立 Apple Neural Engine（32 TOPS），支持实时视觉理解、Siri Intelligence 5 语音交互、24 小时电池续航。库克在同日《华尔街日报》专访中首次公开确认——「眼镜是我们下一代的 iPhone。从 2027 年开始，眼镜业务将是我们最重要的硬件增长引擎，我们内部对眼镜业务的 2028 财年出货目标是 6000 万副」。这是苹果自 2007 年 iPhone 时刻以来最激进的一次品类判断。华尔街分析师 Ming-Chi Kuo 给出的预测是——如果 N401 定价 599 美元、且 Siri Intelligence 5 表现达标，苹果 2027 年将出货 1800-2400 万副 AI 智能眼镜，直接对标 Ray-Ban Meta Gen4 与 Gen5。苹果内部代号「Project Sunrise」的下一代真 AR 眼镜（Project Atlas 3）预计 2028 年发布，售价目标锚定 799 美元。",
-          "content_en": "Apple broke open the AI-glasses war on July 11. Bloomberg exclusively reported: Apple Vision 2 + Apple's first Apple Intelligence glasses will launch at the September 9 iPhone 17 event. Codename N401, weight 43g (versus Vision Pro's 600g+), priced $599, powered by Apple M5 chip + a dedicated Apple Neural Engine (32 TOPS), with real-time visual understanding, Siri Intelligence 5 voice, and 24-hour battery. In a same-day Wall Street Journal interview, Tim Cook publicly confirmed for the first time: 'Glasses are our next iPhone. Starting in 2027, glasses will be our most important hardware growth engine—our internal FY28 ship target is 60M units.' This is Apple's most aggressive category call since the 2007 iPhone moment. Analyst Ming-Chi Kuo predicts that if N401 lands at $599 and Siri Intelligence 5 meets bar, Apple will ship 18-24M AI smart glasses in 2027—directly aimed at Ray-Ban Meta Gen4 and Gen5. The next-gen true-AR glasses (Project Atlas 3, internally 'Project Sunrise') are slated for 2028 at a target $799.",
-          "key_points": [
-            "Apple Vision 2 + Apple Intelligence 眼镜 9 月 9 日发布",
-            "代号 N401，重量 43 克，售价 599 美元，M5 + 32 TOPS NPU",
-            "库克首次确认「眼镜是下一代 iPhone」，FY28 目标 6000 万副",
-            "Ming-Chi Kuo 预测 2027 年苹果出货 1800-2400 万副"
-          ],
-          "key_points_en": [
-            "Apple Vision 2 + Apple Intelligence glasses launch September 9",
-            "Codename N401, weight 43g, $599, M5 chip + 32 TOPS NPU",
-            "Cook first confirms 'glasses are the next iPhone', FY28 target 60M units",
-            "Ming-Chi Kuo forecasts 18-24M Apple AI glasses shipments in 2027"
-          ],
-          "url": "https://www.bloomberg.com/news/articles/2026-07-11/apple-vision-2-intelligence-glasses-sept-launch"
-        },
-        {
-          "id": "news-7",
-          "date": "2026-07-12",
-          "category": "AI应用",
-          "category_en": "AI Applications",
-          "title": "小米 AI 眼镜 Pro 官宣降价至 999 元，「AI 眼镜千元时代」直接冲击 Meta 与苹果双极格局",
-          "title_en": "Xiaomi AI Glasses Pro Drops to ¥999, Ushering In 'AI Glasses Under 1,000' Era and Cracking the Meta-Apple Duopoly",
-          "summary": "小米 7 月 11 日在雷军微博官宣：小米 AI 眼镜 Pro 正式降价至 999 元（约 138 美元），比原定 1799 元下调 44%。同款配备骁龙 AR3 Gen1 芯片 + 小米妙想 AI 大模型 3，支持实时视觉理解、37 种语言口译。降价 6 小时内京东下单破 87 万台，直接把 AI 智能眼镜从「奢侈品」拉到「消费电子」价位。小米内部目标：2026 年 H2 出货 1500 万副 AI 眼镜，冲击全球第三大 AI 眼镜厂商。",
-          "summary_en": "Xiaomi announced on Lei Jun's Weibo on July 11: Xiaomi AI Glasses Pro drops to ¥999 (~$138), a 44% cut from the ¥1,799 launch price. The model runs on Snapdragon AR3 Gen1 and Xiaomi Miaoxiang AI Model 3, with real-time visual understanding and interpretation across 37 languages. JD.com pre-orders topped 870,000 units within 6 hours, pulling AI smart glasses from 'luxury' into consumer-electronics territory. Xiaomi's internal H2 target: 15M units, aiming to become the world's third-largest AI glasses maker.",
-          "source": "36 氪 / 小米",
-          "source_en": "36Kr / Xiaomi",
-          "image": "img/pool/vr-technology.jpg",
-          "content": "小米 7 月 11 日出手改写 AI 智能眼镜的价格锚。雷军微博官宣——小米 AI 眼镜 Pro 官方降价至 999 元（约 138 美元），比原定 1799 元下调 44%。同款配备高通骁龙 AR3 Gen1 芯片 + 小米妙想 AI 大模型 3，支持实时视觉理解、37 种语言口译、5 米内手势识别、8 小时续航。京东、天猫下单 6 小时破 87 万台，短短一天从「AI 眼镜奢侈品」拉到「消费电子」价位。Ray-Ban Meta Gen4 的 349 美元原本被市场定义为「AI 眼镜的价格底线」——小米直接把这个底线打穿了 60%。小米内部目标：2026 年 H2 出货 1500 万副 AI 眼镜，全年出货 2200 万副，冲击全球第三大 AI 眼镜厂商（前二仍是 Meta 与苹果）。IDC 中国分析师王吉平的判断是——「小米降价 6 小时京东破 87 万台，是 AI 硬件在中国市场第一次达到『iPhone 4 上市』级别的销售速度」。这份定价把 Meta 逼到「Ray-Ban 定位守 349 美元 + 通用款下探 199 美元」的双档策略。",
-          "content_en": "Xiaomi rewrote the AI-glasses price anchor on July 11. Lei Jun's Weibo announced: Xiaomi AI Glasses Pro drops to ¥999 (~$138), 44% below the ¥1,799 launch price. It runs on Snapdragon AR3 Gen1 + Xiaomi Miaoxiang AI Model 3, with real-time visual understanding, 37-language interpretation, 5-meter gesture recognition and 8-hour battery. JD.com and Tmall preorders topped 870,000 units in 6 hours, pulling AI glasses from luxury to consumer electronics territory overnight. Ray-Ban Meta Gen4's $349 had been the market's presumed 'floor for AI glasses'—Xiaomi punched 60% below that floor. Xiaomi's internal H2 target: 15M units; full-year 22M, aiming for the world's #3 AI glasses maker after Meta and Apple. IDC China analyst Wang Jiping: 'Xiaomi's 6-hour 870K JD sell-through is the first time AI hardware has hit iPhone-4-launch-level velocity in China.' This price now forces Meta into a two-tier response—hold Ray-Ban at $349 while pushing a generic model down to $199.",
-          "key_points": [
-            "小米 AI 眼镜 Pro 官方降价至 999 元（约 138 美元）",
-            "6 小时京东下单破 87 万台，创中国 AI 硬件销售新记录",
-            "小米 H2 出货目标 1500 万副，全年 2200 万副",
-            "把 Ray-Ban Meta 349 美元的价格底线打穿 60%"
-          ],
-          "key_points_en": [
-            "Xiaomi AI Glasses Pro slashes to ¥999 (~$138)",
-            "870K units sold on JD in 6 hours, sets new China AI hardware velocity record",
-            "H2 target 15M units, full year 22M, aiming for global #3",
-            "Punches 60% below Ray-Ban Meta's $349 price floor"
-          ],
-          "url": "https://36kr.com/p/xiaomi-ai-glasses-pro-999-2026-07-11"
-        },
-        {
-          "id": "news-8",
-          "date": "2026-07-12",
-          "category": "投资",
-          "category_en": "Investment",
-          "title": "Perplexity 完成 25 亿美元 F 轮融资，估值飙至 250 亿美元——Aravind Srinivas 「AI 搜索的第二次机会」被市场买单",
-          "title_en": "Perplexity Raises $2.5B Series F at $25B Valuation—Market Signs Off on Aravind Srinivas's 'AI Search Second Chance'",
-          "summary": "Perplexity 7 月 11 日宣布完成 25 亿美元 F 轮融资，估值从 3 月的 140 亿飙升至 250 亿美元，4 个月翻 78%。IVP 领投，NVIDIA、SoftBank Vision Fund 3、Jeff Bezos、Nat Friedman、Elad Gil 跟投。Perplexity 2026 年 6 月 MAU 突破 2.1 亿，年化收入 4.8 亿美元——被 The Information 称为「AI 搜索赛道过去 12 个月第一个真正的商业化胜者」。",
-          "summary_en": "Perplexity announced a $2.5B Series F on July 11 at a $25B valuation, up 78% from March's $14B. IVP led with NVIDIA, SoftBank Vision Fund 3, Jeff Bezos, Nat Friedman and Elad Gil participating. Perplexity's MAU hit 210M in June 2026 with an annualized revenue run-rate of $480M—The Information calls it 'the first true commercialization winner in the AI search race in the past 12 months.'",
-          "source": "The Information / Bloomberg",
-          "source_en": "The Information / Bloomberg",
-          "image": "img/pool/investment-ai-fund-v3.jpg",
-          "content": "Perplexity 完成了它成立 4 年以来最重要的一次融资。7 月 11 日官宣：25 亿美元 F 轮融资完成，投后估值 250 亿美元，从 3 月的 140 亿翻了 78%。领投方 IVP，跟投包括 NVIDIA、SoftBank Vision Fund 3、Jeff Bezos、Nat Friedman、Elad Gil、Amex Ventures。Perplexity 2026 年 6 月 MAU 达 2.1 亿，付费订阅用户 620 万（Comet Pro $20/月 + Perplexity Enterprise），年化收入 4.8 亿美元——从 2024 年的 2000 万到 2026 年 6 月的 4.8 亿，24 个月增长 24 倍。The Information 记者 Aaron Holmes 给出的判断是——「Perplexity 是过去 12 个月 AI 搜索赛道第一个真正的商业化胜者。SearchGPT、Google AI Overviews 的收入还依赖于原有广告基座，Perplexity 是从零开始把 AI 搜索做成独立付费产品」。Aravind Srinivas 在同日给员工的全员信中写：「我们完成 F 轮融资的三条使命——第一，Comet 浏览器 Pro 用户从 620 万涨到 5000 万；第二，Enterprise 客户从当前 4200 家扩到 25000 家；第三，未来 18 个月，AI 搜索的市场份额从当前 6% 冲到 15%」。这份野心第一次让 Google 感到了「AI 搜索被挑战」的正面威胁。",
-          "content_en": "Perplexity closed the most important round in its four-year history. On July 11: $2.5B Series F, post-money $25B, up 78% from $14B in March. IVP led; participants include NVIDIA, SoftBank Vision Fund 3, Jeff Bezos, Nat Friedman, Elad Gil and Amex Ventures. Perplexity's June 2026 MAU: 210M; paid subscribers 6.2M (Comet Pro $20/month + Perplexity Enterprise); ARR $480M—a 24x jump from $20M in 2024. The Information's Aaron Holmes: 'Perplexity is the first true commercialization winner in the AI search race in the past 12 months. SearchGPT's and Google AI Overviews' revenue still rides existing ad bases—Perplexity built AI search as a standalone paid product from zero.' In an all-hands email the same day, Aravind Srinivas laid out three F-round missions: (1) Comet browser Pro users from 6.2M to 50M; (2) Enterprise clients from 4,200 to 25,000; (3) AI search market share from 6% to 15% within 18 months. This is the first time Google has felt AI search as a direct threat.",
-          "key_points": [
-            "Perplexity F 轮 25 亿美元融资，估值飙至 250 亿",
-            "IVP 领投，NVIDIA/SoftBank/Bezos/Nat Friedman 跟投",
-            "6 月 MAU 2.1 亿，年化收入 4.8 亿美元，24 个月增长 24 倍",
-            "Aravind Srinivas 目标 18 个月内 AI 搜索份额从 6% 冲到 15%"
-          ],
-          "key_points_en": [
-            "Perplexity Series F closes at $2.5B, $25B valuation",
-            "IVP leads; NVIDIA/SoftBank/Bezos/Nat Friedman follow",
-            "June MAU 210M, ARR $480M—24x growth in 24 months",
-            "Srinivas targets 6% → 15% AI search share in 18 months"
-          ],
-          "url": "https://www.theinformation.com/articles/perplexity-25-billion-valuation-2026-07-11"
-        },
-        {
-          "id": "news-9",
-          "date": "2026-07-12",
-          "category": "大模型",
-          "category_en": "LLM",
-          "title": "Aravind Srinivas 对 Google AI Overviews 发起「产品级反击」：Comet 2.0 推出「反 AI Overviews」显式引用模式",
-          "title_en": "Aravind Srinivas Launches 'Product-Level Counter' Against Google AI Overviews: Comet 2.0 Ships Explicit-Citation Mode",
-          "summary": "Perplexity CEO Aravind Srinivas 7 月 11 日发布 Comet 浏览器 2.0，同时推出「反 AI Overviews」显式引用模式——用户搜索时不但看到 AI 摘要，还看到「哪句话来自哪个网页 + 引用密度百分比 + 原文作者贡献指数」。这是对 Google AI Overviews 长期「稀释原文引用」策略的正面反击。Aravind 在 X 上写：「AI 搜索的信任度 = 引用的透明度」，一句话把 Google 的 AI 搜索路线拉进了辩论。",
-          "summary_en": "Perplexity CEO Aravind Srinivas released Comet Browser 2.0 on July 11 with an 'Anti-AI-Overviews' explicit-citation mode: every AI answer includes 'which sentence from which page + citation density % + original-author contribution index'—a direct hit on Google AI Overviews' pattern of diluting citations. Srinivas posted on X: 'Trust in AI search = transparency of citation', pulling Google's AI-search route into a public debate.",
-          "source": "TechCrunch",
-          "source_en": "TechCrunch",
-          "image": "img/pool/llm-chatbot.jpg",
-          "content": "Perplexity 与 Google 的 AI 搜索路线之争 7 月 11 日全面公开化。Aravind Srinivas 发布 Comet 浏览器 2.0，核心升级是「反 AI Overviews」显式引用模式（Explicit Citation Mode）——用户搜索时不但看到 AI 摘要，还看到三个新指标：其一，摘要中每一句话对应哪一个原网页（点击可跳转到原文原段落）；其二，引用密度百分比（比如「本次答复 72% 内容来自 The Verge、18% 来自 Ars Technica、10% 来自 Reuters」）；其三，原文作者贡献指数（每位作者在答复中贡献的字数比例）。这是对 Google AI Overviews 长期被指控「稀释原文引用、导致原网页流量暴跌」的正面反击。Aravind 在 X 上写：「AI 搜索的信任度 = 引用的透明度。Comet 2.0 让我们的用户永远知道『我读到的这句话是谁写的』」。这条推文 24 小时转发量 12 万次，被 The Verge、Wired、Fast Company 集体报道。Google AI 搜索业务副总裁 Elizabeth Reid 在同日回应「Google 一直在优化 AI Overviews 的引用体验，我们不接受『Google 稀释引用』的说法」——但这份声明被业内解读为「防御性回应」。Comet 2.0 上线 24 小时内下载量突破 87 万，Comet Pro 订阅新增 3.2 万。",
-          "content_en": "The Perplexity-vs-Google AI-search route dispute went public on July 11. Aravind Srinivas released Comet Browser 2.0 with an Explicit Citation Mode as the core upgrade: every AI answer surfaces three new signals: (1) each sentence maps to the exact source page (click-through to the original paragraph); (2) a citation density percentage (e.g., '72% from The Verge, 18% from Ars Technica, 10% from Reuters'); (3) an original-author contribution index (each author's word-share in the answer). This is a direct counter to Google AI Overviews, long accused of 'diluting citations and collapsing source-site traffic'. Srinivas on X: 'Trust in AI search = transparency of citation. Comet 2.0 makes sure our users always know who wrote the sentence they're reading.' The tweet drew 120K retweets in 24 hours and coverage from The Verge, Wired, and Fast Company. Google's VP of AI Search, Elizabeth Reid, responded the same day: 'Google has continuously improved citation experience in AI Overviews. We reject the framing that Google dilutes citations.' The statement is widely read as defensive. Comet 2.0 downloads passed 870K in 24 hours; Comet Pro added 32K subscribers.",
-          "key_points": [
-            "Perplexity Comet 2.0 推出「反 AI Overviews」显式引用模式",
-            "三大新指标：句子级溯源、引用密度百分比、作者贡献指数",
-            "Aravind 推文「AI 搜索的信任度 = 引用的透明度」24 小时转发 12 万",
-            "上线 24 小时下载破 87 万，Pro 订阅新增 3.2 万"
-          ],
-          "key_points_en": [
-            "Perplexity Comet 2.0 ships 'Anti-AI-Overviews' Explicit Citation Mode",
-            "Three new signals: sentence-level sourcing, citation density %, author contribution index",
-            "Srinivas's 'Trust in AI search = transparency of citation' hits 120K retweets in 24h",
-            "870K downloads and 32K new Pro subs in 24 hours"
-          ],
-          "url": "https://techcrunch.com/2026/07/11/perplexity-comet-2-explicit-citation-mode/"
-        },
-        {
-          "id": "news-10",
-          "date": "2026-07-12",
-          "category": "开源",
-          "category_en": "Open Source",
-          "title": "Cohere 开源 Command R++ 380B：企业级检索模型第一次撞穿闭源天花板",
-          "title_en": "Cohere Open-Sources Command R++ 380B: The First Time an Enterprise Retrieval Model Punches Through the Closed-Source Ceiling",
-          "summary": "Cohere 7 月 11 日在 HuggingFace 开源 Command R++ 380B——一个专为企业检索增强场景（RAG）优化的 380B 参数模型。在 EnterpriseRAG-Bench 上，Command R++ 得分 82.3，超过 GPT-5.6（79.1）与 Claude Opus 4.1（80.6），成为该基准第一个「开源模型登顶」。开源协议为 Cohere Enterprise Open License（商用需 500 万美元/年上限之上付费），是 2026 年最重要的一次开源发布。",
-          "summary_en": "Cohere open-sourced Command R++ 380B on HuggingFace on July 11—a 380B-parameter model tuned specifically for enterprise retrieval-augmented (RAG) workloads. On EnterpriseRAG-Bench, Command R++ scored 82.3, beating GPT-5.6 (79.1) and Claude Opus 4.1 (80.6)—the first time an open-source model tops this benchmark. License: Cohere Enterprise Open License (paid above a $5M/year revenue cap). This is the most consequential open-source release of 2026.",
-          "source": "HuggingFace / Cohere",
-          "source_en": "HuggingFace / Cohere",
-          "image": "img/pool/opensource-huggingface-v3.jpg",
-          "content": "Cohere 7 月 11 日在 HuggingFace 上开源了 Command R++ 380B——一个专为企业检索增强（RAG）场景优化的 380B 参数模型。在 EnterpriseRAG-Bench（企业 RAG 场景基准）上，Command R++ 得分 82.3，超过 GPT-5.6（79.1）与 Claude Opus 4.1（80.6），成为该基准第一个「开源模型登顶」——这是过去 24 个月企业检索增强赛道从未出现过的一次事件。Command R++ 的架构核心是「多跳注意力 + 引用溯源固化」（Multi-Hop Attention with Citation Anchoring）——在推理过程中，模型不但生成答案，还生成每一步答案的原文档段落映射。开源协议为 Cohere Enterprise Open License——非商用完全免费，商用需在 500 万美元/年营收上限之上向 Cohere 支付授权费，这是介于 Meta Llama 商业条款与 OpenAI 完全闭源之间的中间路径。Cohere CEO Aidan Gomez 在同日给员工的信中写：「Command R++ 380B 是我们 4 年来最重要的一次发布——它证明企业级检索能力不需要绑定在闭源 API 上」。Cohere 股东里 Nvidia、SAP、Salesforce Ventures 都以「战略投资者」而非「财务投资者」身份签字同意开源发布，说明这份开源已经不是「小厂拉声量」的动作。",
-          "content_en": "Cohere open-sourced Command R++ 380B on HuggingFace on July 11—a 380B-parameter model tuned for enterprise retrieval-augmented (RAG) workloads. On EnterpriseRAG-Bench, Command R++ scored 82.3, beating GPT-5.6 (79.1) and Claude Opus 4.1 (80.6)—the first time an open-source model tops the enterprise RAG leaderboard in 24 months. Architecturally, Command R++ centers on Multi-Hop Attention with Citation Anchoring—during inference, the model produces the answer plus a step-by-step mapping to source paragraphs. License: Cohere Enterprise Open License—free for non-commercial use, paid to Cohere for commercial use above $5M annual revenue. This sits between Meta Llama's commercial terms and OpenAI's full-closed—a middle path. CEO Aidan Gomez in an all-hands email: 'Command R++ 380B is our most important release in four years. It proves enterprise-grade retrieval doesn't have to be locked behind closed APIs.' Cohere's investors—Nvidia, SAP, Salesforce Ventures—signed off on the open-source release as strategic (not financial) shareholders, signaling this is more than a 'small-lab hype play'.",
-          "key_points": [
-            "Cohere 开源 Command R++ 380B，EnterpriseRAG-Bench 首次开源登顶",
-            "得分 82.3 超过 GPT-5.6（79.1）与 Claude Opus 4.1（80.6）",
-            "架构核心：多跳注意力 + 引用溯源固化",
-            "开源协议：500 万美元营收上限之下免费，之上需授权"
-          ],
-          "key_points_en": [
-            "Cohere open-sources Command R++ 380B, first open-source top on EnterpriseRAG-Bench",
-            "Score 82.3 beats GPT-5.6 (79.1) and Claude Opus 4.1 (80.6)",
-            "Architecture: Multi-Hop Attention with Citation Anchoring",
-            "License: free under $5M ARR, paid Cohere license above"
-          ],
-          "url": "https://huggingface.co/CohereForAI/command-r-plus-plus-380b"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-11",
-      "articles": [
-        {
-          "id": "news-1",
-          "date": "2026-07-11",
-          "category": "产业",
-          "category_en": "Industry Analysis",
-          "title": "Atlassian、Adobe、Amazon 相继下架员工「旗舰 AI 模型」使用权，企业 AI 成本控制潮全面到来",
-          "title_en": "Atlassian, Adobe, Amazon Pull Flagship AI Models from Employee Access as Enterprise Cost Crackdown Goes Mainstream",
-          "summary": "AI Base 7 月 10 日披露：Atlassian、Adobe、Amazon 集体禁用员工调用 Claude Opus 4.1、GPT-5.6 等旗舰模型，强制切换 Haiku 4.5、GPT-5.6-mini 等低价替代。触发点是三家厂商在 Q2 悄然从「年费 seats」切换到「按调用付费」——单员工月账单从 60 美元冲到 400 美元，财务部门集体报警。",
-          "summary_en": "AiBase reported on July 10: Atlassian, Adobe and Amazon are collectively blocking employees from calling flagship AI models like Claude Opus 4.1 and GPT-5.6, forcing a switch to cheaper alternatives like Haiku 4.5 and GPT-5.6-mini. The trigger: all three vendors quietly pivoted in Q2 from annual seat licenses to pay-per-call billing, driving per-employee monthly invoices from $60 to $400 and setting off alarms across CFO offices.",
-          "source": "AiBase",
-          "source_en": "AiBase",
-          "image": "img/pool/investment-finance.jpg",
-          "content": "「旗舰模型禁令」在 7 月 10 日成为硅谷 CIO 的第一波关键词。Atlassian、Adobe、Amazon 三家企业内部 IT 组通过全员邮件明确：员工不再被允许通过公司账号调用 Claude Opus 4.1（105 美元/百万输入 tokens）、GPT-5.6（80 美元/百万输入 tokens）等旗舰款，一律降级到 Haiku 4.5（3.9 美元）或 GPT-5.6-mini（1.2 美元）。触发点极为一致：三家 AI 厂商在 Q2 均从「固定年费/席位」切换到「按调用付费」，单员工月账单从最初的 60 美元冲到 400 美元。财务复盘发现，工程师只是让 Cursor / Copilot 后台默认走了 Opus，实际使用效果与 Haiku 差异不到 8%，但账单差异 25 倍。这份「性能溢价 = 成本黑洞」的鲜明对比，正在推动整个企业 AI 支出结构快速重构。",
-          "content_en": "The 'flagship-model ban' became CIO shorthand across Silicon Valley on July 10. Internal IT teams at Atlassian, Adobe and Amazon issued all-hands emails stipulating that employees can no longer call Claude Opus 4.1 ($105 per million input tokens) or GPT-5.6 ($80) via corporate accounts—everything routes to Haiku 4.5 ($3.9) or GPT-5.6-mini ($1.2). The trigger is identical across the three vendors: in Q2 they all pivoted from fixed annual seat licenses to pay-per-call billing, and per-employee monthly bills spiked from $60 to $400. Post-mortem: engineers simply let Cursor and Copilot default to Opus, with the actual quality delta versus Haiku under 8% but the bill 25x higher. This 'performance premium = cost black hole' contrast is rapidly reshaping enterprise AI spend.",
-          "key_points": [
-            "Atlassian、Adobe、Amazon 三家同步禁用旗舰模型内部调用",
-            "触发点是 Q2 从「年费 seats」切换到「按调用付费」",
-            "单员工月账单从 60 美元冲到 400 美元",
-            "Haiku 4.5 vs Opus 4.1 效果差异不到 8%，账单差异 25 倍"
-          ],
-          "key_points_en": [
-            "Atlassian, Adobe and Amazon simultaneously block internal calls to flagship models",
-            "Trigger: Q2 pivot from annual seat licenses to pay-per-call billing",
-            "Per-employee monthly bills spiked from $60 to $400",
-            "Haiku 4.5 vs Opus 4.1 quality delta under 8%, bill delta 25x"
-          ],
-          "url": "https://www.aibase.com/news/ai-cost-control-flagship-models-luxury"
-        },
-        {
-          "id": "news-2",
-          "date": "2026-07-11",
-          "category": "产业",
-          "category_en": "Industry Analysis",
-          "title": "Anthropic 企业市场份额首次超越 OpenAI，出口管制反成「稀缺性溢价」",
-          "title_en": "Anthropic's Enterprise Share Surpasses OpenAI for First Time, US Export Controls Ironically Become 'Scarcity Premium'",
-          "summary": "IDC + Gartner 7 月 7 日联合数据：Anthropic 在美国企业 AI 市场的份额首次超越 OpenAI（32% vs 28%）。反直觉的是——尽管 Fable 5 / Mythos 5 被特朗普政府强制下架海外，「供应链风险」的官方定性反而在企业客户端强化了 Claude 的「政府可控」形象，年框合同 6 月至 7 月环比 +41%。",
-          "summary_en": "Joint IDC + Gartner data on July 7: Anthropic's US enterprise AI market share surpassed OpenAI for the first time (32% vs 28%). Counter-intuitively, even though Fable 5 and Mythos 5 were force-pulled from foreign users by the Trump administration, the official 'supply chain risk' framing has strengthened Claude's 'government-approved' image in the enterprise, driving year-frame contracts up 41% month-over-month.",
-          "source": "IDC / Gartner",
-          "source_en": "IDC / Gartner",
-          "image": "img/pool/ai-assistant.jpg",
-          "content": "Anthropic 完成了一次极不寻常的市场超越——出口管制不但没有削弱它，反而在企业客户中成为「稀缺性护城河」。IDC 与 Gartner 7 月 7 日联合发布的《Enterprise AI Q2 Snapshot》显示，Anthropic 在美国企业市场（Fortune 2000）份额已达 32%，首次超过 OpenAI 的 28%——两年前这个数字是 8% vs 61%。加速因素有三：其一，Claude Fable 5 在编程与长上下文推理上口碑压倒 GPT-5.6；其二，Trump 政府 6 月强制 Anthropic 下架 Fable 5 / Mythos 5 海外访问，「政府亲手可控」被大企业理解为「合规优先候选」；其三，加州州长 Newsom 6 月 30 日与 Anthropic 签下「州政府 50% 折扣」协议，成为公部门跟进的强锚点。",
-          "content_en": "Anthropic just executed a highly unusual market reversal—US export controls, rather than weakening it, have become a 'scarcity moat' among enterprise buyers. IDC and Gartner's joint 'Enterprise AI Q2 Snapshot' released on July 7 puts Anthropic's Fortune 2000 share at 32%, edging past OpenAI's 28% for the first time—two years ago the ratio was 8% vs 61%. Three accelerants: (1) Claude Fable 5's programming and long-context reasoning have overtaken GPT-5.6 in enterprise trials; (2) the Trump administration's June order to pull Fable 5 / Mythos 5 from foreign users has been read by big buyers as 'government-approved—compliance-first'; (3) California Governor Newsom's June 30 deal granting state agencies a 50% Claude discount is anchoring public-sector uptake.",
-          "key_points": [
-            "Anthropic 美国企业市场份额 32%，首次超越 OpenAI 的 28%",
-            "两年前份额比是 8% vs 61%——两年差距完全翻转",
-            "出口管制被解读为「政府可控」，反而强化 B 端信任",
-            "加州州府 50% 折扣协议成为公部门跟进锚点"
-          ],
-          "key_points_en": [
-            "Anthropic US enterprise share hits 32%, edging past OpenAI's 28%",
-            "Two years ago the ratio was 8% vs 61%—complete reversal",
-            "Export controls reframed as 'government-approved', boosting enterprise trust",
-            "California 50% state discount deal anchoring public-sector adoption"
-          ],
-          "url": "https://www.idc.com/getdoc.jsp?containerId=US52887225"
-        },
-        {
-          "id": "news-3",
-          "date": "2026-07-11",
-          "category": "深度解读",
-          "category_en": "Deep Analysis",
-          "title": "纽约时报牵头 17 家媒体申请制裁 OpenAI，2000 万条对话日志「消失」成核心争议",
-          "title_en": "NYT-Led Coalition of 17 News Organizations Seeks Sanctions Against OpenAI, 20 Million 'Deleted' Chat Logs at Core of Dispute",
-          "summary": "7 月 9 日纽约南区联邦地方法院：由《纽约时报》牵头的 17 家新闻机构联合提交制裁动议，指控 OpenAI 在版权诉讼中「藏匿证据、就技术能力做虚假陈述」，2000 万条本可证明侵权的 ChatGPT 输出日志「未被妥善保存或已被删除」。若制裁通过，法官可推定「被删除内容对 OpenAI 不利」，将实质改变案件走向。",
-          "summary_en": "On July 9 at the Southern District of New York, a coalition of 17 news organizations led by The New York Times filed a motion seeking sanctions against OpenAI in the ongoing copyright case, alleging the company 'concealed evidence and misrepresented its technical capabilities', with roughly 20 million ChatGPT output logs that could prove infringement 'not preserved or already deleted'. If granted, the court can instruct the jury to assume the missing evidence was unfavorable to OpenAI—a shift that could materially alter the trajectory of the case.",
-          "source": "Crypto Briefing / Quartz",
-          "source_en": "Crypto Briefing / Quartz",
-          "image": "img/pool/legal-regulation.jpg",
-          "content": "版权诉讼第一次向 OpenAI 亮出「毁灭证据」这张最重的牌。17 家新闻机构（含 NYT、纽约每日新闻、芝加哥论坛报）7 月 9 日向法院提交动议：其一，OpenAI 长达两年声称「无法在训练数据集中搜索受版权保护内容」，事实上具备这一能力却未披露；其二，约 2000 万条本可证明模型「复现或高度模仿」新闻文章的 ChatGPT 输出日志「未妥善保存或已被删除」。请求包括金钱制裁 + 律师费 + 「不利推定」——后者一旦获批，联邦法官可直接向陪审团指示「假定被删除内容对 OpenAI 不利」。案件核心版权主张已在 2025 年通过驳回动议，进入证据开示阶段。同一动议不针对微软（Co-defendant）。",
-          "content_en": "The copyright litigation just escalated to the heaviest card of all—evidence destruction. On July 9, a coalition of 17 news outlets (including NYT, New York Daily News, Chicago Tribune) filed with the court alleging: (1) OpenAI spent two years claiming it 'could not search training datasets for copyrighted material' when in fact it possessed the capability but never disclosed it; (2) roughly 20 million ChatGPT output logs that could prove the models 'reproduced or closely mimicked' news articles were 'not preserved or already deleted'. Relief sought includes monetary sanctions, attorneys' fees, and 'adverse inference'—the last, if granted, would let the federal judge instruct the jury to 'assume the missing content was unfavorable to OpenAI'. Core copyright claims survived motions to dismiss in 2025 and are now in discovery. This motion does not target Microsoft, the co-defendant.",
-          "key_points": [
-            "17 家新闻机构联合提交制裁动议，NYT 牵头",
-            "指控 OpenAI 隐瞒可搜索训练数据的技术能力两年之久",
-            "约 2000 万条 ChatGPT 输出日志「未妥善保存或已被删除」",
-            "「不利推定」若获批，将实质改变陪审团走向"
-          ],
-          "key_points_en": [
-            "17 news organizations file joint sanctions motion, led by NYT",
-            "Alleges OpenAI concealed searchable-training-data capability for two years",
-            "Roughly 20 million ChatGPT output logs 'not preserved or already deleted'",
-            "'Adverse inference' if granted would materially alter jury trajectory"
-          ],
-          "url": "https://cryptobriefing.com/nyt-media-group-sanctions-openai-copyright/"
-        },
-        {
-          "id": "news-4",
-          "date": "2026-07-11",
-          "category": "大模型",
-          "category_en": "LLM",
-          "title": "Meta「牛油果」Avocado 推迟到 2026 Q1，Llama 开源时代或提前落幕",
-          "title_en": "Meta's 'Avocado' Successor Delayed to Q1 2026, Llama Open-Source Era May End Prematurely",
-          "summary": "36 氪 7 月 11 日报道：Meta 原计划年底发布的下一代前沿模型 Avocado 已被推迟至 2026 Q1，且更倾向以闭源形式推出。这意味着自 2023 年 Llama 系列以来的开源路线正面临逆转，Meta 官方虽坚称「按计划推进」，多位匿名工程师指出训练稳定性与推理泛化尚未达到商用层级。",
-          "summary_en": "Reported by 36Kr on July 11: Meta's next-generation frontier model 'Avocado', originally scheduled for year-end, has been pushed to Q1 2026 and increasingly leans toward a closed-source release. This signals a reversal of the open-source path Meta has walked since Llama debuted in 2023. Official comms insist 'training is on schedule', but multiple anonymous engineers say stability and inference generalization have not yet reached commercial grade.",
-          "source": "36Kr / 腾讯科技",
-          "source_en": "36Kr / Tencent Tech",
-          "image": "img/pool/ai-brain.jpg",
-          "content": "Avocado 的延期只是表象——真正的变化发生在 Meta AI 战略的最底层。Llama 4 反响平淡、Llama 架构被外部大规模复刻（含 DeepSeek R1 采用类 Llama 架构）后，扎克伯格于 2025 年夏天开始公开暗示「必须严格减轻风险」。7 月 11 日 36 氪最新披露：Avocado 训练目标从「开源标杆」重构为「闭源商用旗舰」，权重不再自由下载；配套动作包括 143 亿美元收购 Scale AI 拿下 Alexandr Wang 领衔的 MSL 实验室、Prometheus 超大规模数据中心加速建设、下一代自研 ASIC 推理芯片提前量产。这不是普通的战略微调——是继 2012 年拥抱移动互联网、2020 年押注元宇宙之后 Meta 的「第三次战略大迁徙」。",
-          "content_en": "The Avocado delay is only a surface signal—the real shift is happening at the deepest layer of Meta's AI strategy. After a lukewarm Llama 4 reception and external labs (including DeepSeek R1) reproducing the Llama architecture at scale, Zuckerberg began publicly hinting since summer 2025 that Meta 'must rigorously reduce risk'. 36Kr on July 11: Avocado's training target has been reframed from 'open-source benchmark' to 'closed-source commercial flagship', with weights no longer freely downloadable. Companion moves: a $14.3B Scale AI acquisition installing Alexandr Wang's MSL lab in the AI decision core, accelerated build-out of the Prometheus hyperscale data center, and next-generation in-house ASIC inference silicon pulled forward. This is not a routine strategy tweak—it is Meta's third grand migration after embracing mobile in 2012 and betting on the metaverse in 2020.",
-          "key_points": [
-            "Avocado 从年底推迟到 2026 Q1，倾向闭源发布",
-            "Llama 开源路线可能就此中断，Yann LeCun 已宣布离职创业",
-            "143 亿美元收购 Scale AI 换来 Alexandr Wang 领衔 MSL",
-            "Prometheus 数据中心 + 自研 ASIC 芯片同步加速"
-          ],
-          "key_points_en": [
-            "Avocado slips from year-end to Q1 2026, closed-source pivot leans in",
-            "Llama open-source path may end; Yann LeCun announces departure to start his own venture",
-            "$14.3B Scale AI acquisition installs Alexandr Wang as MSL lead",
-            "Prometheus data center and in-house ASIC inference chip both accelerate"
-          ],
-          "url": "https://m.36kr.com/p/3590943736627204"
-        },
-        {
-          "id": "news-5",
-          "date": "2026-07-11",
-          "category": "芯片算力",
-          "category_en": "Chips & Computing",
-          "title": "英国 10 亿英镑「本土 AI 芯片战」启动，阻止创业公司搬迁美国",
-          "title_en": "UK Launches £1B 'Sovereign AI Chip War' to Stop Startups Moving to US",
-          "summary": "7 月 10 日 London Tech Week 上，英国科技大臣 Liz Kendall 宣布 10 亿英镑本土 AI 芯片与半导体设备直接采购计划，核心目标是「阻止英国 AI 创业公司为了算力搬迁到美国」。",
-          "summary_en": "At London Tech Week on July 10, UK Technology Secretary Liz Kendall announced a £1B direct procurement plan for domestic AI chips and semiconductor equipment, aimed squarely at 'stopping UK AI startups from moving to the US in search of compute'.",
-          "source": "AI Base / London Tech Week",
-          "source_en": "AiBase / London Tech Week",
-          "image": "img/pool/gpu-cluster.jpg",
-          "content": "英国政府这次的动作足够直接——10 亿英镑不做补贴、不做减税，而是直接下场当买家。Liz Kendall 在 London Tech Week 主旨演讲中说：「过去 24 个月我们看着 Wayve、Isomorphic Labs、ARM Neoverse 的关键项目一个个把重心搬到美国，主要原因只有一个：算力买不到、买不起。」这份 10 亿英镑的采购包，将优先购买 Graphcore、Nvidia UK 供货、Google TPU 与 AMD MI400 系列，并向英国 AI 创业公司提供 3-6 年长期算力租约。业内解读：这是继欧盟《AI 法案》生效之后，欧洲第一份「主权算力」清晰行动方案，与法国《勇敢拥抱 AI》100% 大企业 AI 应用目标一起，构成 2026 年欧洲 AI 战略的双轮驱动。",
-          "content_en": "The UK's move is unusually direct—£1B not for subsidies or tax breaks, but for the government to become the buyer. Kendall's London Tech Week keynote: 'Over the past 24 months, we have watched Wayve, Isomorphic Labs and ARM Neoverse's key projects relocate to the US, and the reason is one thing only: compute either cannot be bought or cannot be afforded.' The £1B package will prioritize procurement from Graphcore, Nvidia UK, Google TPU and AMD MI400, and offer 3–6 year long-term compute leases to UK AI startups. Analyst read: this is the first concrete 'sovereign compute' action plan in Europe after the EU AI Act took effect, pairing with France's 'Brave Embrace of AI' 100%-enterprise-AI-adoption target to form a dual engine of European AI strategy for 2026.",
-          "key_points": [
-            "英国政府 10 亿英镑直接下场买芯片",
-            "核心目标是阻止本土 AI 创业公司搬迁美国",
-            "向创业公司提供 3-6 年长期算力租约",
-            "配合欧盟《AI 法案》构成欧洲主权算力双轮驱动"
-          ],
-          "key_points_en": [
-            "UK government commits £1B direct chip procurement",
-            "Core goal: prevent domestic AI startups from relocating to the US",
-            "3–6 year long-term compute leases for startups",
-            "Pairs with EU AI Act to form Europe's sovereign-compute dual engine"
-          ],
-          "url": "https://www.aibase.com/news/uk-ai-chip-1-billion-pounds"
-        },
-        {
-          "id": "news-6",
-          "date": "2026-07-11",
-          "category": "AI 应用",
-          "category_en": "AI Applications",
-          "title": "微软 2025 年碳排放暴涨 25%，AI 数据中心把「2030 负碳承诺」逼到悬崖",
-          "title_en": "Microsoft's 2025 Emissions Surge 25%, AI Data Centers Push '2030 Net-Negative' Pledge to the Cliff Edge",
-          "summary": "微软 7 月 9 日发布可持续发展年报：2025 年公司范围二排放量从 1600 万吨飙升到 2000 万吨 CO2e（+25%），主因是 AI 训练/推理数据中心密集扩容 + 部分可再生能源信用额度暂停采购。西德州新建的天然气电厂已被环保组织点名。",
-          "summary_en": "Microsoft's July 9 sustainability annual report: 2025 Scope-2 emissions surged from 16M to 20M metric tons CO2e (+25%), driven by explosive AI training/inference data-center expansion plus a pause on certain renewable-energy credit purchases. The new natural-gas plant in West Texas is already named by environmental groups.",
-          "source": "The Daily News Now / Microsoft ESG",
-          "source_en": "The Daily News Now / Microsoft ESG",
-          "image": "img/pool/cloud-computing.jpg",
-          "content": "微软的「2030 年负碳」承诺是过去五年硅谷 ESG 叙事的头号招牌，如今被 AI 自己亲手打了折。7 月 9 日发布的可持续发展报告显示：2025 年公司排放同比 +25%——从 1600 万吨飙升到 2000 万吨 CO2e。数据中心的爆炸性增长是主因，但更微妙的是——微软主动承认「暂停采购一部分可再生能源信用额度」是排放上涨的重要原因，意味着公司在「补偿式脱碳」策略上主动收缩。西德州新建的天然气电厂给微软带来了额外的即时电力，但也让 2030 年净负碳承诺面临不到 5 年的兑现窗口。这份年报某种意义上是硅谷 AI 与 ESG 之间「宿命性冲突」的第一次公开摊牌。",
-          "content_en": "Microsoft's '2030 net-negative' pledge has been the flagship ESG narrative in Silicon Valley for five years—AI has now knocked a discount off it. The July 9 sustainability report: 2025 emissions up 25% YoY, from 16M to 20M metric tons CO2e. Data-center explosion is the primary driver, but more subtle: Microsoft explicitly conceded that 'pausing purchases of certain renewable-energy credits' contributed materially—signaling active retreat from an 'offset-first' decarbonization strategy. The new West Texas natural-gas plant brings incremental immediate power, but also compresses the 2030 net-negative promise to a sub-five-year window. This annual report is, in a sense, the first public reckoning of the fated conflict between AI and ESG in Silicon Valley.",
-          "key_points": [
-            "微软 2025 年 CO2 排放 +25%，从 1600 万吨到 2000 万吨",
-            "AI 数据中心密集扩容是首要驱动",
-            "主动暂停采购部分可再生能源信用额度",
-            "2030 年净负碳承诺兑现窗口不到 5 年"
-          ],
-          "key_points_en": [
-            "Microsoft 2025 CO2 emissions +25%, from 16M to 20M metric tons",
-            "Explosive AI data-center expansion is primary driver",
-            "Actively paused purchases of certain renewable-energy credits",
-            "Sub-five-year window remaining on 2030 net-negative pledge"
-          ],
-          "url": "https://sources.thednn.ai/b7149c37cb4ce933"
-        },
-        {
-          "id": "news-7",
-          "date": "2026-07-11",
-          "category": "开源动态",
-          "category_en": "Open Source",
-          "title": "阶跃星辰 Step 3 定档 7 月 31 日全球开源，首个原生多模态 MoE 推理旗舰",
-          "title_en": "Stepfun's Step 3 Set for Global Open-Source Release on July 31, First Native Multimodal MoE Reasoning Flagship",
-          "summary": "阶跃星辰 7 月 10 日官宣：新一代基础大模型 Step 3——首个「全尺寸、原生多模态、MoE 架构」推理旗舰将于 7 月 31 日面向全球企业与开发者开源。上下文长度 128K，专家总量 1024，激活参数 780 亿。",
-          "summary_en": "Stepfun announced on July 10: Step 3—its next-generation foundation model and first 'full-size, natively multimodal, MoE-architecture' reasoning flagship—will be open-sourced worldwide to enterprises and developers on July 31. Context length 128K, 1024 total experts, 78B activated parameters.",
-          "source": "阶跃星辰官方 / 界面新闻",
-          "source_en": "Stepfun Official / Jiemian",
-          "image": "img/pool/opensource-collab.jpg",
-          "content": "Step 3 的技术亮点被外界迅速拆解：MoE 架构 1024 专家 / 单次激活 780 亿参数，等于「大模型体量、小模型推理成本」；原生多模态意味着文本、图像、视频、音频四路输入在预训练阶段就已耦合，而非事后拼接；128K 上下文窗口对齐 Kimi K3 与 Claude Fable 5。开源许可采用 Apache 2.0——比 Kimi K3 的 MIT 稍严格，但商用无附加条款。中国大模型开源阵营在 7 月正在集中释放：快手 Auto Think（7 月 11 日）、Kimi K3（7 月 10 日）、Step 3（7 月 31 日）、上海 AI 实验室 Intern-S1（7 月 29 日），一个月内四款重量级开源模型密集上线。",
-          "content_en": "Step 3's technical highlights are already being dissected: MoE architecture with 1024 experts and 78B activated parameters per pass equals 'large-model capability at small-model inference cost'. Native multimodality means text/image/video/audio inputs are coupled at pre-training rather than glued on afterward. The 128K context window aligns with Kimi K3 and Claude Fable 5. Open-source license: Apache 2.0—slightly stricter than Kimi K3's MIT but with no commercial add-ons. China's open-source LLM bloc is releasing intensively this month: Kuaishou Auto Think (July 11), Kimi K3 (July 10), Step 3 (July 31), Shanghai AI Lab Intern-S1 (July 29)—four heavyweight open-source models landing within thirty days.",
-          "key_points": [
-            "Step 3 于 7 月 31 日全球开源，Apache 2.0 许可",
-            "MoE 架构 1024 专家 / 780 亿激活参数",
-            "原生多模态四路输入预训练阶段耦合",
-            "中国开源阵营一个月内密集释放 4 款重量级模型"
-          ],
-          "key_points_en": [
-            "Step 3 open-sourced worldwide July 31 under Apache 2.0",
-            "MoE with 1024 experts / 78B activated parameters",
-            "Native multimodality: four-input coupling at pre-training",
-            "Four heavyweight Chinese open-source models within one month"
-          ],
-          "url": "https://m.weibo.cn/detail/5319172113565300"
-        },
-        {
-          "id": "news-8",
-          "date": "2026-07-11",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "RealSense 从英特尔剥离，5000 万美元融资押注「Physical AI 视觉」",
-          "title_en": "RealSense Completes Spinout from Intel, Raises $50M to Bet on 'Physical AI Vision'",
-          "summary": "7 月 11 日 Business Wire：Intel 旗下计算机视觉品牌 RealSense 正式完成分拆，独立公司获得 5000 万美元种子轮 + A 轮融资，估值未披露。核心方向是为人形机器人、自主车与「物理世界 AI」提供机器感知硬件。",
-          "summary_en": "Business Wire, July 11: Intel's RealSense computer-vision brand has completed spinout as an independent company with a $50M seed-plus-Series-A round, valuation undisclosed. Core direction: machine-perception hardware for humanoid robots, autonomous vehicles and 'physical-world AI'.",
-          "source": "Business Wire",
-          "source_en": "Business Wire",
-          "image": "img/pool/robotics-humanoid.jpg",
-          "content": "RealSense 的分拆是 Intel 近三年「非核心业务瘦身」的一环，也是「Physical AI」赛道的信号灯。分拆后 RealSense 保留了 D400、D500、L515 三条深度相机产品线 + 12 项核心专利，服务客户包括宇树科技、Figure AI、波士顿动力、比亚迪、蔚来。5000 万融资参投方含英特尔 Capital（保留少数股权）、Founders Fund、Khosla Ventures。CEO Nadav Orbach 表示，接下来 12 个月将把摄像头模组价格从 300 美元/台压到 120 美元/台，为「1000 万台/年人形机器人」量产窗口做准备。这份分拆某种程度是 Physical AI 供应链从「大厂内部业务」走向「独立高速公司」的又一转折点。",
-          "content_en": "RealSense's spinout is a chapter in Intel's three-year non-core-business slimming and also a signal-flare for the Physical AI category. Post-spinout, RealSense retains the D400/D500/L515 depth-camera lines and 12 core patents, with customer coverage spanning Unitree Robotics, Figure AI, Boston Dynamics, BYD and NIO. The $50M round includes Intel Capital (minority carry), Founders Fund and Khosla Ventures. CEO Nadav Orbach: over the next 12 months, module prices will fall from $300/unit to $120/unit to prepare for a '10-million-humanoid-per-year' mass-production window. In a real sense the spinout is another inflection point of Physical AI's supply chain moving from 'inside a mega-cap' to 'independent high-velocity company'.",
-          "key_points": [
-            "RealSense 完成从英特尔剥离，独立成为公司",
-            "5000 万美元种子 + A 轮，Founders Fund / Khosla 参投",
-            "客户覆盖宇树、Figure、波士顿动力、比亚迪、蔚来",
-            "12 个月内模组价格从 300 美元压到 120 美元"
-          ],
-          "key_points_en": [
-            "RealSense completes spinout from Intel as independent company",
-            "$50M seed + Series A, Founders Fund / Khosla participate",
-            "Customer coverage: Unitree, Figure, Boston Dynamics, BYD, NIO",
-            "Module price to drop from $300 to $120 within 12 months"
-          ],
-          "url": "https://aithority.com/news/realsense-spinout-intel-50m/"
-        },
-        {
-          "id": "news-9",
-          "date": "2026-07-11",
-          "category": "AI 应用",
-          "category_en": "AI Applications",
-          "title": "HP 与 OpenAI 战略合作再升级：工程师效率首个可验证案例出炉",
-          "title_en": "HP and OpenAI Deepen Strategic Cooperation: First Verifiable Engineer-Productivity Case Ships",
-          "summary": "AI Base 7 月 11 日：HP 与 OpenAI 宣布扩大战略合作，围绕全球客户体验与内部运营转型。首批试点显示——HP 软件工程师在采用 OpenAI 深度集成后效率显著提升（未公布具体百分比但内部称「超预期」）。",
-          "summary_en": "AiBase, July 11: HP and OpenAI announced expanded strategic cooperation focused on global customer experience and internal operations transformation. First pilots show HP software engineers substantially more productive after deep OpenAI integration (specific percentage undisclosed but internally described as 'above expectation').",
-          "source": "AI Base",
-          "source_en": "AiBase",
-          "image": "img/pool/tech-innovation.jpg",
-          "content": "HP 与 OpenAI 的这次升级最值得关注的不是合作本身，而是「首批可验证案例」的存在。过去 24 个月，OpenAI 与惠普、戴尔、联想的合作被反复宣布，但从未有过工程师效率的公开量化数据。7 月 11 日发布会上，HP CTO Tuan Tran 说：「首批试点软件工程师人均效率提升幅度已经达到我们此前对 AI Agent 部署最乐观情境的上限。」更值得关注的是 HP 承诺——12 个月内将 OpenAI 深度集成覆盖全部 5.6 万名 HP 员工，成为继 Klarna（Anthropic + OpenAI 双底座）与 Coinbase（Lindy 500+ Agent）之后又一份「全员 AI 化」的企业级样本。",
-          "content_en": "The most noteworthy element of the HP-OpenAI expansion is not the deal itself but the existence of a first verifiable case. Over the past 24 months, OpenAI's partnerships with HP, Dell and Lenovo have been announced repeatedly without any public engineer-productivity numbers. At the July 11 event, HP CTO Tuan Tran: 'The productivity uplift for the first cohort of piloted software engineers has hit the upper bound of our most-optimistic prior AI-agent-deployment scenario.' More noteworthy: HP commits to extending deep OpenAI integration to all 56,000 HP employees within twelve months, joining Klarna (Anthropic + OpenAI dual base) and Coinbase (Lindy 500+ agents) as another 'company-wide AI-native' enterprise sample.",
-          "key_points": [
-            "HP 与 OpenAI 战略合作扩展，覆盖全球客户体验",
-            "首批工程师试点效率提升「超预期」",
-            "12 个月内将 OpenAI 集成推广至 5.6 万全员",
-            "延续 Klarna、Coinbase 的「全员 AI 化」企业样本"
-          ],
-          "key_points_en": [
-            "HP-OpenAI strategic cooperation expanded, global CX in scope",
-            "First engineer pilot 'above expectation' on productivity uplift",
-            "OpenAI integration rollout to all 56,000 HP employees within 12 months",
-            "Extends Klarna, Coinbase precedent as company-wide AI-native samples"
-          ],
-          "url": "https://www.aibase.com/news/hp-openai-strategic-cooperation"
-        },
-        {
-          "id": "news-10",
-          "date": "2026-07-11",
-          "category": "开源动态",
-          "category_en": "Open Source",
-          "title": "快手 Auto Think 开源：可自主调节思考深度的推理模型上线",
-          "title_en": "Kuaishou Open-Sources Auto Think: Reasoning Model That Autonomously Modulates Thought Depth",
-          "summary": "7 月 11 日快手开源 Auto Think 大模型——支持根据问题复杂度自动调节思考深度（从「秒回」到「深度慢思考」四档），推动 AI 内容生成与交互领域的效率-质量平衡创新。",
-          "summary_en": "On July 11, Kuaishou open-sourced its Auto Think LLM, which autonomously modulates reasoning depth by question complexity (four tiers from 'instant reply' to 'deep slow-think'), pushing forward the efficiency-quality balance in AI content generation and interaction.",
-          "source": "快手官方 / CSDN",
-          "source_en": "Kuaishou Official / CSDN",
-          "image": "img/pool/opensource-workshop.jpg",
-          "content": "Auto Think 的技术亮点是「思考深度自动路由」——模型在接到问题后先做一次 300 tokens 内的「元判断」，判断问题所需推理深度（快回/中等/深度/超深），再进入对应算力档位。这一机制在效果与效率之间做出更精细的平衡——简单问题 avg 延迟 0.4 秒（对比 GPT-5.6 mini 的 1.1 秒），复杂问题的推理链最大可展开 3200 tokens。快手同时发布 API 定价：输入 0.6 美元/百万、输出 2.4 美元/百万，比 Kimi K3 更便宜。这份「深度自适应」机制是继 DeepSeek R1 的「思维链暴露」、Kimi K3 的「300 万长上下文」之后中国开源模型第三条差异化路径。",
-          "content_en": "Auto Think's technical highlight is 'reasoning-depth autonomous routing'—upon receiving a question, the model first runs a sub-300-token 'meta-judgment' pass to decide required depth (fast/medium/deep/ultra-deep), then routes to the corresponding compute tier. This mechanism strikes a finer balance between quality and efficiency—simple questions average 0.4s latency (vs GPT-5.6-mini at 1.1s), complex reasoning chains can expand up to 3200 tokens. Kuaishou also published API pricing: $0.6 per million input / $2.4 per million output, undercutting Kimi K3. This 'adaptive depth' mechanism is the third differentiated path for Chinese open-source models after DeepSeek R1's exposed chain-of-thought and Kimi K3's 3M-long-context.",
-          "key_points": [
-            "Auto Think 开源，四档思考深度自动路由",
-            "简单问题 0.4 秒响应，复杂问题 3200 tokens 推理链",
-            "API 输入 0.6 美元 / 百万，输出 2.4 美元 / 百万",
-            "中国开源模型第三条差异化路径落地"
-          ],
-          "key_points_en": [
-            "Auto Think open-sourced with four-tier depth autonomous routing",
-            "0.4s latency on simple queries; up to 3200-token chain on complex",
-            "API: $0.6 per million input, $2.4 per million output",
-            "Third differentiated path for Chinese open-source LLMs materializes"
-          ],
-          "url": "https://blog.csdn.net/yuntongliangda/article/details/149845503"
-        }
-      ],
-      "hero": {
-        "id": "hero-2026-07-11",
-        "title": "AI 的成本反弹：从旗舰模型企业禁令到 Anthropic 企业市场反超 OpenAI——AI 支出结构的第一次系统性重构",
-        "title_en": "The AI Cost Reflex: From Flagship-Model Bans to Anthropic Overtaking OpenAI in Enterprise—The First Systemic Restructuring of AI Spend",
-        "image": "img/pool/investment-finance.jpg",
-        "date": "2026-07-11",
-        "source": "AI News Daily 综合",
-        "source_en": "AI News Daily Analysis",
-        "summary": "2026 年 7 月 10~11 日 AiBase / IDC / Gartner / 36 氪五份数据同日抛出——Atlassian/Adobe/Amazon 集体禁用旗舰模型、Anthropic 企业份额首次超越 OpenAI、Meta Avocado 推迟开源逆转、微软碳排放 +25%、英国 10 亿英镑主权算力。三份关键数据把 AI 产业推进了一个新阶段——「成本反弹」正在从边缘话题跃升为 CIO/CFO 议程头条。",
-        "summary_en": "Between July 10–11, 2026, five datasets from AiBase / IDC / Gartner / 36Kr converged: Atlassian/Adobe/Amazon ban flagship models, Anthropic's enterprise share surpasses OpenAI for the first time, Meta's Avocado delayed and open-source reversal deepens, Microsoft emissions up 25%, UK £1B sovereign compute. Three signals push the AI industry into a new phase—the 'cost reflex' is rising from a fringe topic to the top of CIO/CFO agendas.",
-        "category": "深度解读",
-        "category_en": "Deep Analysis"
-      }
     }
   ],
   "hero": {
-    "id": "hero-2026-07-16",
-    "title": "WAIC 2026 上海开幕前瞻：习近平出席主旨演讲，1100+ 企业参展、300+ 全球首发、9 位图灵/诺奖得主到场——中国 AI 从「模型竞赛」到「应用落地」的年度检阅礼",
-    "title_en": "WAIC 2026 Opens in Shanghai: President Xi Delivers Keynote, 1,100+ Exhibitors, 300+ Global Debuts, 9 Turing/Nobel Laureates—China AI's Annual Review from 'Model Race' to 'Application Landing'",
-    "image": "https://ainewsdaily.asia/img/pool/industry-02-v5.jpg",
-    "date": "2026-07-16",
+    "id": "hero-2026-07-17",
+    "title": "Google Gemini 3.5 Pro 延期——编程能力未达目标，旗舰模型推迟数月，内部派系斗争浮出水面，AI 编程格局加速洗牌",
+    "title_en": "Google Gemini 3.5 Pro Delayed—Coding Capabilities Miss Target, Flagship Model Slips Months, Internal Factional Struggles Surface, AI Coding Landscape Shifts",
+    "image": "https://ainewsdaily.asia/img/pool/deep_analysis-03-v5.jpg",
+    "date": "2026-07-17",
     "source": "AI News Daily 综合",
     "source_en": "AI News Daily Analysis",
-    "summary": "WAIC 2026（世界人工智能大会）7 月 17 日在上海世博中心正式开幕，国家主席习近平出席开幕式并发表主旨演讲——这是习近平首次在 WAIC 发表主旨演讲。1100+ 家企业参展（海外 210 家占比 19%）、300+ 全球首发产品、10 万平方米展区，9 位图灵奖/诺奖得主（Yoshua Bengio、Geoffrey Hinton、Demis Hassabis 等）到场。华为 Atlas 950 超节点真机首展、全球首款 AI 智能体手机（努比亚豆包）、阶跃 Step AOS 智能体操作系统、108 款芯片 + 261 款大模型 + 208 款具身智能终端集中亮相——本届 WAIC 的核心叙事从「模型竞赛」转向「应用落地」，中国 AI 产业完成了从上游技术突破到下游场景渗透的年度检阅。",
-    "summary_en": "WAIC 2026 (World AI Conference) officially opens July 17 at Shanghai World Expo Center, with President Xi Jinping attending and delivering a keynote—the first time Xi has given a keynote at WAIC. 1,100+ exhibitors (210 overseas, 19% share), 300+ global debuts, 100,000 sqm exhibition space, 9 Turing/Nobel laureates (Yoshua Bengio, Geoffrey Hinton, Demis Hassabis, etc.) in attendance. Huawei Atlas 950 supernode makes its physical debut, along with the world's first AI-agent smartphone (Nubia Doubao), Step AOS agent operating system, 108 chips + 261 LLMs + 208 embodied-AI terminals showcased together. The core narrative of WAIC 2026 shifts from 'model race' to 'application landing'—China AI completes its annual review from upstream technology breakthroughs to downstream scenario penetration.",
+    "summary": "Google 原定 6 月推出的 Gemini 3.5 Pro 旗舰模型因编程能力未达内部目标而推迟数月。6 月底更新训练数据后测试结果仍然不达标，Alphabet 股价 7/16 下跌 4.4%。更严重的是内部问题——谷歌云、DeepMind、Android 各自开发 AI 编程工具，75% 新代码由 AI 生成但重要代码必须人类编写，派系斗争让 Gemini 3.5 Pro 成为最大牺牲品。OpenAI 与 Meta 在 AI 编程领域加速拉开差距。",
+    "summary_en": "Google's Gemini 3.5 Pro flagship model, originally scheduled for June, has been delayed for months as coding capabilities fail to meet internal targets. Updated training data in late June still fell short. Alphabet stock dropped 4.4% on July 16. More critically, internal struggles—Google Cloud, DeepMind, and Android each developing their own AI coding tools, 75% of new code AI-generated but critical code must be human-written—have made Gemini 3.5 Pro the biggest casualty. OpenAI and Meta are accelerating their lead in AI coding.",
     "category": "深度解读",
     "category_en": "Deep Analysis"
   }

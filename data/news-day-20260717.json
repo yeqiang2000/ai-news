@@ -1,0 +1,297 @@
+{
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-17",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "Google Gemini 3.5 Pro 确认延期：编程能力为主要卡点，6 月底更新训练数据后测试仍未达标，内部评估称「至少还需数月」",
+      "title_en": "Google Gemini 3.5 Pro Confirmed Delayed: Coding Capabilities the Main Bottleneck, Updated Training Data in Late June Still Failed Benchmarks, Internal Assessment Says 'At Least Several Months'",
+      "summary": "The Information 7 月 17 日独家报道，Google 原定 6 月推出的 Gemini 3.5 Pro 旗舰模型因编程能力未达内部目标而推迟，6 月底更新训练数据后测试结果仍然不达标，内部评估称至少还需要数月才能达到发布标准。这是 Google 自 Gemini 系列推出以来面临的最严重产品延迟。",
+      "summary_en": "The Information exclusively reported on July 17 that Google's Gemini 3.5 Pro flagship model, originally scheduled for June, has been delayed due to coding capabilities failing to meet internal targets. Even after updated training data in late June, benchmark results still fell short. Internal assessment says at least several more months are needed. This is Google's most serious product delay since the Gemini series launched.",
+      "source": "The Information / Bloomberg",
+      "source_en": "The Information / Bloomberg",
+      "image": "https://ainewsdaily.asia/img/pool/deep_analysis-03-v5.jpg",
+      "content": "The Information 7 月 17 日独家报道，Google 原定于 2026 年 6 月推出的 Gemini 3.5 Pro 旗舰模型因编程能力未达内部目标而推迟。据知情人士透露，Google 在 5 月的 I/O 大会上高调宣布 Gemini 3.5 Pro，当时内部时间表已经非常紧张。6 月中旬，团队对模型进行了最后一次大规模训练数据更新，但 SWE-Bench Verified 和 Codeforces 等编程基准测试的结果仍然低于内部设定的「发布门槛」。更严重的是，部分测试结果甚至低于 2025 年底发布的 Gemini 3.0 Ultra。Alphabet 股价 7 月 16 日下跌 4.4%，市值蒸发约 850 亿美元，分析师普遍认为这与 Gemini 3.5 Pro 的延期消息直接相关。",
+      "content_en": "The Information exclusively reported on July 17 that Google's Gemini 3.5 Pro flagship model, originally scheduled for June 2026, has been delayed due to coding capabilities failing to meet internal targets. According to sources, Google's high-profile announcement at I/O in May was already on an aggressive timeline. In mid-June, the team conducted a final large-scale training data update, but results on SWE-Bench Verified and Codeforces coding benchmarks still fell below the internal 'release threshold.' Worse, some results were below those of Gemini 3.0 Ultra released in late 2025. Alphabet stock dropped 4.4% on July 16, wiping out approximately $85B in market cap, widely attributed to the Gemini 3.5 Pro delay.",
+      "key_points": [
+        "Gemini 3.5 Pro 原定 6 月推出，因编程能力未达标而推迟",
+        "6 月底更新训练数据后测试结果仍不达标，内部评估需数月",
+        "Alphabet 股价 7/16 下跌 4.4%，市值蒸发约 850 亿美元",
+        "部分测试结果低于 2025 年底的 Gemini 3.0 Ultra"
+      ],
+      "key_points_en": [
+        "Gemini 3.5 Pro originally scheduled for June, delayed over coding capabilities",
+        "Updated training data in late June still failed benchmarks; months needed",
+        "Alphabet stock dropped 4.4% on July 16, ~$85B market cap wiped out",
+        "Some results below Gemini 3.0 Ultra from late 2025"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-17",
+      "category": "政策",
+      "category_en": "Policy",
+      "title": "WAIC 2026 在上海正式开幕：习近平出席开幕式并发表主旨演讲，1100+ 企业参展、300+ 全球首发",
+      "title_en": "WAIC 2026 Officially Opens in Shanghai: President Xi Attends Opening Ceremony with Keynote, 1,100+ Exhibitors, 300+ Global Debuts",
+      "summary": "WAIC 2026（世界人工智能大会）7 月 17 日在上海世博中心正式开幕。国家主席习近平出席开幕式并发表主旨演讲——这是习近平首次在 WAIC 发表主旨演讲，强调 AI 发展要「以人民为中心、以安全为底线、以合作为路径」。1100+ 家企业参展（海外 210 家）、300+ 全球首发产品、10 万平方米展区，9 位图灵奖/诺奖得主到场。",
+      "summary_en": "WAIC 2026 officially opened on July 17 at the Shanghai World Expo Center. President Xi Jinping attended and delivered a keynote—his first-ever WAIC keynote, stressing AI development must be 'people-centered, safety-grounded, and cooperation-oriented.' 1,100+ exhibitors (210 overseas), 300+ global debuts, 100,000 sqm exhibition space, 9 Turing/Nobel laureates in attendance.",
+      "source": "新华社 / WAIC 2026 组委会",
+      "source_en": "Xinhua / WAIC 2026 Organizing Committee",
+      "image": "https://ainewsdaily.asia/img/pool/policy-03-v5.jpg",
+      "content": "7 月 17 日上午 9:00，WAIC 2026 在上海世博中心正式开幕。国家主席习近平出席开幕式并发表主旨演讲——这是习近平自 2018 年首届 WAIC 以来首次亲临现场发表主旨演讲。习近平在演讲中强调「人工智能是引领这一轮科技革命和产业变革的战略性技术」，中国 AI 发展要「以人民为中心、以安全为底线、以合作为路径」，反对「任何形式的脱钩断链和技术封锁」。演讲结束后，习近平参观了华为、努比亚等展台。",
+      "content_en": "WAIC 2026 officially opened at 9:00 AM on July 17 at the Shanghai World Expo Center. President Xi Jinping attended the opening ceremony and delivered a keynote—his first in-person keynote at WAIC since 2018. Xi emphasized that 'AI is the strategic technology leading this round of technological revolution and industrial transformation,' and that China's AI development must be 'people-centered, safety-grounded, and cooperation-oriented,' opposing 'any form of decoupling and technology blockade.' After the speech, Xi toured the Huawei and Nubia exhibition booths.",
+      "key_points": [
+        "习近平首次在 WAIC 发表主旨演讲，WAIC 升级为国家级战略信号",
+        "核心立场：以人民为中心、以安全为底线、以合作为路径",
+        "1100+ 家企业参展，300+ 全球首发，9 位图灵/诺奖得主到场",
+        "习近平参观华为 Atlas 950、努比亚 AI 手机等展台"
+      ],
+      "key_points_en": [
+        "Xi's first-ever WAIC keynote; WAIC elevated to national strategic signal",
+        "Core stance: people-centered, safety-grounded, cooperation-oriented",
+        "1,100+ exhibitors, 300+ global debuts, 9 Turing/Nobel laureates",
+        "Xi toured Huawei Atlas 950 and Nubia AI phone booths"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-17",
+      "category": "芯片",
+      "category_en": "Chips",
+      "title": "华为 Atlas 950 超节点 WAIC 真机首展：4096 卡昇腾 1000、FP8 3.2 EFLOPS、现场演示 3.2 天训完 DeepSeek V4",
+      "title_en": "Huawei Atlas 950 Supernode Makes Physical Debut at WAIC: 4,096 Ascend 1000 Cards, 3.2 EFLOPS FP8, Live Demo Training DeepSeek V4 in 3.2 Days",
+      "summary": "华为在 WAIC 2026 展台首次公开展出 Atlas 950 超节点真机——4U 液冷机箱集成 4096 张昇腾 1000 芯片、FP8 总算力 3.2 EFLOPS、支持 1 万亿参数模型训练。展台现场演示了基于 Atlas 950 的 DeepSeek V4 训练——243 亿 Token 数据、3.2 天完成，展会期间观众可看到「训练完成」的实时画面。",
+      "summary_en": "Huawei publicly displayed the Atlas 950 supernode for the first time at WAIC 2026—4U liquid-cooled chassis with 4,096 Ascend 1000 chips, 3.2 EFLOPS FP8, supporting 1-trillion-parameter model training. A live demo showed DeepSeek V4 training on 24.3B tokens completing in 3.2 days, visible to visitors throughout the exhibition.",
+      "source": "华为 / WAIC 2026 现场",
+      "source_en": "Huawei / WAIC 2026 Live",
+      "image": "https://ainewsdaily.asia/img/pool/chips-03-v5.jpg",
+      "content": "华为展台是 WAIC 2026 人气最高的展区之一，Atlas 950 超节点真机是全场最受关注的单品。Atlas 950 最早于 2025 年 9 月华为全联接大会上发布，但此前一直以「渲染图+参数表」的方式存在，这是第一次公众可以看到实物。展台左侧的 85 寸交互屏上运行着实时演示——从 HuggingFace 导入 DeepSeek V4 权重，在 Atlas 950 上启动训练，到展会开幕时已经运行了 2.5 天，显示「3.2 天完成」。华为还展示了训推一体方案——训练完成后无需重启即可切换推理模式。",
+      "content_en": "The Huawei booth was one of the most popular at WAIC 2026, with the Atlas 950 supernode as the most-attended single exhibit. First announced at Huawei Connect in September 2025, the Atlas 950 previously existed only as 'renderings + spec sheets.' An 85-inch interactive screen ran a live demo: importing DeepSeek V4 weights from HuggingFace, starting training on Atlas 950, with '3.2 days to completion' indicated. By the time the expo opened, the demo had been running for 2.5 days. Huawei also showcased train-inference integration—the same cluster can switch to inference mode without restart.",
+      "key_points": [
+        "Atlas 950 首次真机展示，4U 液冷机箱集成 4096 张昇腾 1000",
+        "FP8 3.2 EFLOPS、HCCS 2.4Tbps/卡、支持 1 万亿参数训练",
+        "现场演示：3.2 天训完 DeepSeek V4，展会期间可看实时进度",
+        "训推一体：训练完成后无需重启切换推理"
+      ],
+      "key_points_en": [
+        "Atlas 950 physical debut, 4096 Ascend 1000 cards in 4U liquid-cooled chassis",
+        "3.2 EFLOPS FP8, 2.4Tbps HCCS per card, supports 1-trillion-parameter training",
+        "Live demo: DeepSeek V4 trained in 3.2 days, real-time progress visible",
+        "Train-inference integrated: no restart needed to switch modes"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-17",
+      "category": "智能终端",
+      "category_en": "Smart Devices",
+      "title": "全球首款 AI 智能体手机「努比亚豆包」WAIC 亮相：无 App 交互、内置 Doubao Agent 3.0、4999 元起",
+      "title_en": "World's First AI-Agent Smartphone 'Nubia Doubao' Debuts at WAIC: No-App Interaction, Doubao Agent 3.0 Built-in, Starting at ¥4,999",
+      "summary": "努比亚与字节跳动联名推出的全球首款 AI 智能体手机——努比亚豆包——在 WAIC 2026 首次公开亮相。手机采用「无 App 交互」设计，长按侧边 AI 键唤醒 Agent，直接通过语音/文字完成跨应用操作。搭载骁龙 9 Gen 4 AI 版、12GB+256GB 起、4999 元起售。7 月 20 日开启预售。",
+      "summary_en": "The world's first AI-agent smartphone—the Nubia Doubao, co-branded by Nubia and ByteDance—made its public debut at WAIC 2026. The phone features a 'no-App interaction' design—long-press the side AI key to wake the Agent for cross-app operations via voice/text. Powered by Snapdragon 9 Gen 4 AI Edition, 12GB+256GB starting at ¥4,999. Pre-sales begin July 20.",
+      "source": "努比亚 / 字节跳动豆包",
+      "source_en": "Nubia / ByteDance Doubao",
+      "image": "https://ainewsdaily.asia/img/pool/AI_applications-06-v5.jpg",
+      "content": "努比亚展台在 WAIC 2026 第一天几乎被围得水泄不通。努比亚豆包（Nubia Doubao）由努比亚与字节跳动豆包团队联合研发，搭载 DeepSeek V4 Flash 端侧推理 + Doubao Agent 3.0 云端协同双引擎。核心设计理念——「无 App 交互」：手机没有传统的应用抽屉，桌面只有一个 Agent 界面。现场演示中，Agent 在 12 秒内完成了携程查票、滴滴叫车、美团订座三步操作。售价：12+256GB ¥4999、16+512GB ¥5999。",
+      "content_en": "The Nubia booth was nearly mobbed on WAIC 2026's first day. The Nubia Doubao, co-developed by Nubia and ByteDance's Doubao team, features a dual-engine architecture: on-device DeepSeek V4 Flash inference + cloud-based Doubao Agent 3.0. Core design philosophy: 'no-App interaction'—the phone has no traditional app drawer, only a single Agent interface. A live demo showed the Agent completing Ctrip ticketing, DiDi ride-hailing, and Meituan table reservation in 12 seconds. Pricing: ¥4,999 (12+256GB), ¥5,999 (16+512GB).",
+      "key_points": [
+        "全球首款 AI 智能体手机，努比亚与字节豆包联合研发",
+        "「无 App 交互」设计：长按 AI 键唤醒 Agent 跨应用操作",
+        "骁龙 9 Gen 4 AI 版 + DeepSeek V4 Flash 端侧推理",
+        "售价 ¥4999 起，7 月 20 日预售"
+      ],
+      "key_points_en": [
+        "World's first AI-agent smartphone, co-developed by Nubia and ByteDance Doubao",
+        "'No-App Interaction' design: long-press AI key for cross-app operations",
+        "Snapdragon 9 Gen 4 AI Edition + on-device DeepSeek V4 Flash",
+        "Starting at ¥4,999; pre-sales July 20"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-17",
+      "category": "AI 操作系统",
+      "category_en": "AI OS",
+      "title": "阶跃星辰 Step AOS 智能体操作系统 WAIC 开源发布：Apache 2.0、已接入 120+ 第三方应用",
+      "title_en": "Stepfun's Step AOS Agent OS Open-Sourced at WAIC: Apache 2.0, 120+ Third-Party Apps Integrated",
+      "summary": "阶跃星辰在 WAIC 2026 上发布 Step AOS（Agent Operating System）——面向智能体开发与运行的开源操作系统，提供 Agent 全生命周期管理、多 Agent 协作引擎、记忆与工具管理系统、安全沙箱。已接入 120+ 第三方应用，支持 10 万级并发 Agent 实例，以 Apache 2.0 协议开源。",
+      "summary_en": "Stepfun released Step AOS (Agent Operating System) at WAIC 2026—an open-source operating system for agent development and operation, providing full agent lifecycle management, multi-agent collaboration engine, memory and tool management system, and security sandbox. Integrated with 120+ third-party apps, supporting 100K+ concurrent agent instances, open-sourced under Apache 2.0.",
+      "source": "阶跃星辰 / WAIC 2026",
+      "source_en": "Stepfun / WAIC 2026",
+      "image": "https://ainewsdaily.asia/img/pool/industry-05-v5.jpg",
+      "content": "阶跃星辰在 WAIC 2026 主论坛上发布 Step AOS。架构分为四层——Agent 运行时层（支持 10 万级并发，单实例 50MB）、多 Agent 协作引擎（DAG 与 Graph 两种模式，延迟 <10ms）、记忆与工具管理层（向量+图数据库双存储）、安全沙箱（gVisor 容器隔离）。Step AOS 将以 Apache 2.0 开源，GitHub 仓库已创建。同步发布 Step AOS 应用商店，首批 50 个 Agent 模板。",
+      "content_en": "Stepfun released Step AOS at the WAIC 2026 main forum. The architecture has four layers: Agent Runtime (100K+ concurrent instances, 50MB per instance), Multi-Agent Collaboration Engine (DAG and Graph modes, <10ms latency), Memory and Tool Management (vector + graph DB dual storage), and Security Sandbox (gVisor container isolation). Step AOS will be open-sourced under Apache 2.0 with the GitHub repo already created. The Step AOS App Store launched with 50 initial agent templates.",
+      "key_points": [
+        "Step AOS 四层架构：运行时 + 协作 + 记忆/工具 + 安全沙箱",
+        "支持 10 万级并发 Agent 实例，单实例 50MB 内存",
+        "已接入 120+ 第三方应用，Apache 2.0 开源",
+        "同步发布 Step AOS 应用商店，首批 50 个 Agent 模板"
+      ],
+      "key_points_en": [
+        "Step AOS four-layer architecture: Runtime + Collaboration + Memory/Tool + Security",
+        "100K+ concurrent agent instances, 50MB per instance",
+        "120+ third-party apps integrated; open-sourced under Apache 2.0",
+        "Step AOS App Store launched with 50 initial agent templates"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-17",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "Alphabet 股价 7/16 暴跌 4.4%，Gemini 3.5 Pro 延期引发市场对 Google AI 竞争力的广泛质疑",
+      "title_en": "Alphabet Stock Plunges 4.4% on July 16 as Gemini 3.5 Pro Delay Sparks Broad Questions About Google AI Competitiveness",
+      "summary": "Alphabet 股价 7 月 16 日收盘下跌 4.4%，市值蒸发约 850 亿美元，创下自 2024 年初以来最大单日跌幅。分析师普遍认为 Gemini 3.5 Pro 延期是导火索，但更深层的原因是市场对 Google AI 战略整体竞争力的担忧——从 AI 编程工具到旗舰模型，Google 在多个关键领域正在被 OpenAI 和 Anthropic 拉开差距。",
+      "summary_en": "Alphabet stock closed down 4.4% on July 16, wiping out approximately $85B in market cap—the largest single-day drop since early 2024. Analysts widely attribute the trigger to the Gemini 3.5 Pro delay, but the deeper concern is about Google's overall AI strategy competitiveness—from AI coding tools to flagship models, Google is falling behind OpenAI and Anthropic in multiple key areas.",
+      "source": "Bloomberg / CNBC",
+      "source_en": "Bloomberg / CNBC",
+      "image": "https://ainewsdaily.asia/img/pool/investment-04-v5.jpg",
+      "content": "Alphabet 股价 7 月 16 日收盘下跌 4.4% 至 162.37 美元，市值蒸发约 850 亿美元。这是自 2024 年初以来 Alphabet 最大单日跌幅。市场分析指出，Gemini 3.5 Pro 延期不仅是一个单一产品的推迟，更暴露了 Google 在 AI 领域更深层的结构性问题——多个部门各自为战、内部派系斗争、AI 编程工具重复建设。摩根士丹利分析师将 Alphabet 评级从「增持」下调至「中性」，目标价从 195 美元下调至 175 美元。",
+      "content_en": "Alphabet stock closed at $162.37 on July 16, down 4.4% and wiping out approximately $85B in market cap—the largest single-day drop since early 2024. Market analysis indicates the Gemini 3.5 Pro delay is not just a single product postponement but exposes deeper structural issues within Google AI—multiple departments operating in silos, internal factional struggles, and redundant AI coding tool development. Morgan Stanley analysts downgraded Alphabet from 'Overweight' to 'Equal-weight,' cutting the target price from $195 to $175.",
+      "key_points": [
+        "Alphabet 股价 7/16 下跌 4.4%，市值蒸发约 850 亿美元",
+        "2024 年初以来最大单日跌幅",
+        "摩根士丹利下调评级，目标价从 195 降至 175 美元",
+        "市场担忧 Google AI 战略整体竞争力而非单一产品"
+      ],
+      "key_points_en": [
+        "Alphabet stock down 4.4% on July 16, ~$85B market cap wiped out",
+        "Largest single-day drop since early 2024",
+        "Morgan Stanley downgraded; target price cut from $195 to $175",
+        "Market concerns over Google AI overall strategy, not just single product"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-17",
+      "category": "行业观察",
+      "category_en": "Industry",
+      "title": "谷歌内部 AI 编程工具各自为战：云/DeepMind/Android 三线并行，重复建设严重，联合创始人布林主张加速引发安全派反弹",
+      "title_en": "Google's Internal AI Coding Tools War: Cloud/DeepMind/Android Three Parallel Lines, Severe Redundancy, Co-founder Brin's Acceleration Push Triggers Safety Backlash",
+      "summary": "The Information 深度报道揭示 Google 内部 AI 编程工具乱象——谷歌云、DeepMind、Android 三大部门各自开发 AI 编程工具，互不兼容。75% 的新代码由 AI 生成，但重要代码必须人类编写。联合创始人谢尔盖·布林主张加速推进 AI 编程，但安全团队坚持关键代码必须人工审查，内部矛盾在 Gemini 3.5 Pro 延期后进一步激化。",
+      "summary_en": "The Information's deep dive reveals Google's internal AI coding tool chaos—Google Cloud, DeepMind, and Android each developing their own AI coding tools, incompatible with each other. 75% of new code is AI-generated but critical code must be human-written. Co-founder Sergey Brin pushes for acceleration while safety teams insist on human review for critical code, with internal conflicts escalating after the Gemini 3.5 Pro delay.",
+      "source": "The Information",
+      "source_en": "The Information",
+      "image": "https://ainewsdaily.asia/img/pool/industry-03-v5.jpg",
+      "content": "The Information 7 月 17 日的深度报道揭开了 Google 内部 AI 编程工具的神秘面纱。谷歌云团队开发了基于 Gemini 3.0 的编程助手 Cloud Code Assist，DeepMind 团队打造了 AlphaCode 2，Android 团队则有自己的 Android Studio AI 插件——三个工具互不兼容、使用不同的底层模型、甚至有独立的收费体系。更令人震惊的是，Google 内部 75% 的新代码由 AI 生成，但一项内部政策要求「任何涉及核心算法的代码必须由人类工程师逐行审查」。联合创始人谢尔盖·布林在 6 月的内部会议上主张「大幅放宽 AI 代码审查门槛」，遭到安全团队和部分工程高管的强烈反对。布林甚至直言「如果我们继续这样，OpenAI 的 Codex 会吃掉我们」。",
+      "content_en": "The Information's July 17 deep dive reveals Google's internal AI coding tool chaos. Google Cloud's team built Cloud Code Assist based on Gemini 3.0, DeepMind created AlphaCode 2, and Android has its own Android Studio AI plugin—three tools incompatible with each other, using different underlying models, with independent pricing systems. Even more shocking: 75% of Google's new code is AI-generated, but an internal policy requires 'any code involving core algorithms to be reviewed line-by-line by human engineers.' Co-founder Sergey Brin pushed at a June internal meeting to 'significantly relax the AI code review threshold,' facing strong opposition from safety teams and senior engineering executives. Brin reportedly said, 'If we continue like this, OpenAI's Codex will eat us alive.'",
+      "key_points": [
+        "谷歌云/DeepMind/Android 三线各自开发 AI 编程工具，互不兼容",
+        "75% 新代码由 AI 生成，但核心算法代码必须人类逐行审查",
+        "布林主张放宽限制，安全团队强烈反对，内部矛盾激化",
+        "Gemini 3.5 Pro 延期成为内部矛盾的集中爆发点"
+      ],
+      "key_points_en": [
+        "Google Cloud/DeepMind/Android each developing incompatible AI coding tools",
+        "75% of new code AI-generated, but core algorithm code requires human review",
+        "Brin pushes for relaxed rules, safety teams strongly oppose, conflict escalates",
+        "Gemini 3.5 Pro delay becomes the flashpoint for internal conflicts"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-17",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "title": "前 OpenAI CTO Mira Murati 创办 Thinking Machines Lab 发布 Inkling 模型：9750 亿参数 MoE、Apache 2.0 开放权重、美国开放权重模型第一",
+      "title_en": "Former OpenAI CTO Mira Murati's Thinking Machines Lab Releases Inkling: 975B MoE, Apache 2.0 Open Weights, #1 US Open-Weight Model",
+      "summary": "前 OpenAI CTO Mira Murati 于 2025 年 2 月创办的 Thinking Machines Lab 在 7 月 15 日发布首个开放权重模型 Inkling——9750 亿参数 MoE 架构（410 亿激活参数）、1M 上下文窗口、Apache 2.0 许可。Artificial Analysis 综合评分 41，美国开放权重模型第一。公司 7 月获 20 亿美元融资（a16z/Nvidia/Accel 领投），估值 120 亿美元。",
+      "summary_en": "Thinking Machines Lab, founded by former OpenAI CTO Mira Murati in February 2025, released its first open-weight model Inkling on July 15—975B parameter MoE (41B activated parameters), 1M context window, Apache 2.0 license. Artificial Analysis composite score of 41, #1 US open-weight model. The company raised $2B in July (led by a16z/Nvidia/Accel) at a $12B valuation.",
+      "source": "Thinking Machines Lab / TechCrunch",
+      "source_en": "Thinking Machines Lab / TechCrunch",
+      "image": "https://ainewsdaily.asia/img/pool/open_source-02-v5.jpg",
+      "content": "前 OpenAI CTO Mira Murati 于 2025 年 2 月创办的 Thinking Machines Lab 在 7 月 15 日正式发布首个模型 Inkling。Inkling 采用 9750 亿参数 MoE 架构（每次推理激活 410 亿参数），上下文窗口 100 万 token，以 Apache 2.0 协议开放权重。模型借鉴 DeepSeek-V3 架构，使用 Kimi K2.5 数据优化，从零训练耗时 9 个月。Artificial Analysis 综合评分 41，在所有美国开放权重模型中排名第一。7 月公司完成 20 亿美元融资，a16z、Nvidia、Accel 联合领投，估值 120 亿美元。联合创始人翁荔（前 OpenAI 安全 VP）负责安全与对齐。",
+      "content_en": "Thinking Machines Lab, founded by former OpenAI CTO Mira Murati in February 2025, officially released its first model Inkling on July 15. Inkling features a 975B-parameter MoE architecture (41B activated parameters per inference), 1M-token context window, and Apache 2.0 open weights. The model draws on DeepSeek-V3 architecture, optimized with Kimi K2.5 data, trained from scratch in 9 months. Artificial Analysis composite score of 41, ranking #1 among all US open-weight models. The company raised $2B in July led by a16z, Nvidia, and Accel at a $12B valuation. Co-founder Weng Li (former OpenAI Safety VP) leads safety and alignment.",
+      "key_points": [
+        "Inkling：9750 亿参数 MoE、410 亿激活、1M 上下文、Apache 2.0",
+        "9 个月从零训练，借鉴 DeepSeek-V3 架构 + Kimi K2.5 数据优化",
+        "Artificial Analysis 综合评分 41，美国开放权重模型第一",
+        "7 月完成 20 亿美元融资，估值 120 亿美元"
+      ],
+      "key_points_en": [
+        "Inkling: 975B MoE, 41B activated, 1M context, Apache 2.0",
+        "9 months from scratch training, DeepSeek-V3 architecture + Kimi K2.5 data",
+        "Artificial Analysis composite score 41, #1 US open-weight model",
+        "$2B raised in July at $12B valuation"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-17",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "Gemini 3.5 Flash 已上线但客户评价两极分化：Figma 好评、Platzi 转向 Anthropic——Google 面临「中端强旗舰弱」的尴尬局面",
+      "title_en": "Gemini 3.5 Flash Goes Live but Customer Reviews Polarized: Figma Praises, Platzi Migrates to Anthropic—Google Faces 'Strong Mid-Tier, Weak Flagship' Dilemma",
+      "summary": "谷歌 Gemini 3.5 Flash 已在 6 月底上线，但客户反馈呈现明显的两极分化。Figma 团队表示 Flash 版本在 UI 生成任务上表现优异，称「比 GPT-5.6 mini 更高效」。但在线教育平台 Platzi 却宣布将主力推理引擎从 Gemini 3.5 Flash 切换到 Anthropic Claude Opus 4.8，原因是「在复杂编程任务上的准确率不够稳定」。Google 正面临「中端模型强、旗舰模型弱」的尴尬局面。",
+      "summary_en": "Google's Gemini 3.5 Flash went live in late June, but customer feedback is sharply polarized. Figma's team praised the Flash version for UI generation tasks, calling it 'more efficient than GPT-5.6 mini.' However, online education platform Platzi announced it would switch its main inference engine from Gemini 3.5 Flash to Anthropic Claude Opus 4.8, citing 'unstable accuracy on complex programming tasks.' Google faces an awkward 'strong mid-tier, weak flagship' situation.",
+      "source": "TechCrunch / Platzi 官方博客",
+      "source_en": "TechCrunch / Platzi Official Blog",
+      "image": "https://ainewsdaily.asia/img/pool/LLM-06-v5.jpg",
+      "content": "Gemini 3.5 Flash 于 6 月底上线后，市场反馈呈现出鲜明的两极分化。Figma 的 AI 工程副总裁在 X 上发文称「Gemini 3.5 Flash 在 UI 代码生成方面比 GPT-5.6 mini 更高效，尤其是在 Figma-to-Code 任务中，生成代码的可编辑性明显更好」。但 Platzi 却在 7 月 15 日的博客中宣布将主力推理引擎从 Gemini 3.5 Flash 切换到 Anthropic Claude Opus 4.8，原因是「在涉及多步推理的复杂编程任务上，Gemini 3.5 Flash 的准确率不够稳定，尤其是在代码审查和调试场景中」。这种两极分化的反馈让 Google 面临一个尴尬的局面——中小模型表现出色，但旗舰模型无法如期交付。",
+      "content_en": "Since Gemini 3.5 Flash launched in late June, market feedback has been sharply polarized. Figma's VP of AI Engineering posted on X: 'Gemini 3.5 Flash is more efficient than GPT-5.6 mini for UI code generation, especially in Figma-to-Code tasks where the generated code is significantly more editable.' However, Platzi announced in a July 15 blog post that it would switch its main inference engine from Gemini 3.5 Flash to Anthropic Claude Opus 4.8, citing 'unstable accuracy on complex programming tasks involving multi-step reasoning, especially in code review and debugging scenarios.' This polarized feedback leaves Google facing an awkward situation—strong mid-tier models but an inability to deliver a flagship.",
+      "key_points": [
+        "Gemini 3.5 Flash 6 月底上线，客户反馈两极分化",
+        "Figma 好评：UI 代码生成比 GPT-5.6 mini 更高效",
+        "Platzi 转向 Anthropic：复杂编程任务准确率不够稳定",
+        "Google 面临「中端强旗舰弱」的尴尬局面"
+      ],
+      "key_points_en": [
+        "Gemini 3.5 Flash launched late June, sharply polarized feedback",
+        "Figma praises: more efficient than GPT-5.6 mini for UI code generation",
+        "Platzi migrates to Anthropic: unstable accuracy on complex coding tasks",
+        "Google faces 'strong mid-tier, weak flagship' dilemma"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-17",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "OpenAI Codex 与 Meta Code Llama 在 AI 编程领域加速，与 Google 的差距在 SWE-Bench 上持续扩大",
+      "title_en": "OpenAI Codex and Meta Code Llama Accelerate in AI Coding, Gap with Google Widens on SWE-Bench",
+      "summary": "SWE-Bench Verified 最新排行榜显示，OpenAI Codex 2.0 以 76.3% 的通过率位居第一，Meta Code Llama 5 以 72.1% 位居第二，而 Google 最强的编程模型 Gemini 3.0 Ultra 仅以 58.4% 排名第五，落后于 Anthropic Claude 4.0 和 DeepSeek R3。在 Gemini 3.5 Pro 延期的情况下，Google 在 AI 编程领域的差距正在加速扩大。",
+      "summary_en": "The latest SWE-Bench Verified leaderboard shows OpenAI Codex 2.0 ranking first with 76.3% pass rate, Meta Code Llama 5 second at 72.1%, while Google's strongest coding model Gemini 3.0 Ultra ranks only fifth at 58.4%, behind Anthropic Claude 4.0 and DeepSeek R3. With Gemini 3.5 Pro delayed, Google's gap in AI coding is accelerating.",
+      "source": "SWE-Bench / 各公司博客",
+      "source_en": "SWE-Bench / Company Blogs",
+      "image": "https://ainewsdaily.asia/img/pool/chips-03-v5.jpg",
+      "content": "SWE-Bench Verified 最新排行榜于 7 月 16 日更新，数据显示 OpenAI 与 Meta 在 AI 编程领域的领先优势正在持续扩大。OpenAI Codex 2.0 以 76.3% 的通过率稳居榜首，该模型是 OpenAI 专门针对编程任务优化的旗舰模型，深度集成在 Cursor 和 Windsurf 等 Agent 工具中。Meta Code Llama 5 以 72.1% 排名第二，得益于 Meta 在代码数据集的持续投入。相比之下，Google 最强的编程模型 Gemini 3.0 Ultra 仅以 58.4% 排名第五，甚至落后于 Anthropic Claude 4.0（67.8%）和 DeepSeek R3（63.2%）。分析师指出，如果 Gemini 3.5 Pro 不能在 2026 年底之前交付并显著提升编程能力，Google 在 AI 编程这个关键赛道上可能面临结构性落后。",
+      "content_en": "The latest SWE-Bench Verified leaderboard, updated on July 16, shows OpenAI and Meta's lead in AI coding continuing to widen. OpenAI Codex 2.0 leads with 76.3% pass rate, optimized specifically for coding tasks and deeply integrated into Agent tools like Cursor and Windsurf. Meta Code Llama 5 ranks second at 72.1%, benefiting from Meta's sustained investment in code datasets. By contrast, Google's strongest coding model, Gemini 3.0 Ultra, ranks only fifth at 58.4%, trailing even Anthropic Claude 4.0 (67.8%) and DeepSeek R3 (63.2%). Analysts note that if Gemini 3.5 Pro cannot deliver by end of 2026 with significant coding capability improvements, Google may face a structural disadvantage in the critical AI coding赛道.",
+      "key_points": [
+        "SWE-Bench 最新排行：OpenAI Codex 2.0 76.3% 第一、Meta Code Llama 5 72.1% 第二",
+        "Google Gemini 3.0 Ultra 仅 58.4% 排名第五，落后 Anthropic 和 DeepSeek",
+        "Gemini 3.5 Pro 延期将进一步扩大 Google 在 AI 编程领域的差距",
+        "分析师警告：若年底前无法交付，Google 可能面临结构性落后"
+      ],
+      "key_points_en": [
+        "SWE-Bench latest: OpenAI Codex 2.0 76.3% #1, Meta Code Llama 5 72.1% #2",
+        "Google Gemini 3.0 Ultra only 58.4% #5, behind Anthropic and DeepSeek",
+        "Gemini 3.5 Pro delay will further widen Google's AI coding gap",
+        "Analysts warn: if unable to deliver by year-end, Google may face structural disadvantage"
+      ],
+      "url": "news.html"
+    }
+  ],
+  "hero": {
+    "id": "hero-2026-07-17",
+    "title": "Google Gemini 3.5 Pro 延期——编程能力未达目标，旗舰模型推迟数月，内部派系斗争浮出水面，AI 编程格局加速洗牌",
+    "title_en": "Google Gemini 3.5 Pro Delayed—Coding Capabilities Miss Target, Flagship Model Slips Months, Internal Factional Struggles Surface, AI Coding Landscape Shifts",
+    "image": "https://ainewsdaily.asia/img/pool/deep_analysis-03-v5.jpg",
+    "date": "2026-07-17",
+    "source": "AI News Daily 综合",
+    "source_en": "AI News Daily Analysis",
+    "summary": "Google 原定 6 月推出的 Gemini 3.5 Pro 旗舰模型因编程能力未达内部目标而推迟数月。6 月底更新训练数据后测试结果仍然不达标，Alphabet 股价 7/16 下跌 4.4%。更严重的是内部问题——谷歌云、DeepMind、Android 各自开发 AI 编程工具，75% 新代码由 AI 生成但重要代码必须人类编写，派系斗争让 Gemini 3.5 Pro 成为最大牺牲品。OpenAI 与 Meta 在 AI 编程领域加速拉开差距。",
+    "summary_en": "Google's Gemini 3.5 Pro flagship model, originally scheduled for June, has been delayed for months as coding capabilities fail to meet internal targets. Updated training data in late June still fell short. Alphabet stock dropped 4.4% on July 16. More critically, internal struggles—Google Cloud, DeepMind, and Android each developing their own AI coding tools, 75% of new code AI-generated but critical code must be human-written—have made Gemini 3.5 Pro the biggest casualty. OpenAI and Meta are accelerating their lead in AI coding.",
+    "category": "深度解读",
+    "category_en": "Deep Analysis"
+  }
+}

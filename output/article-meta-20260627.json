@@ -1,0 +1,13 @@
+{
+  "id": "article-26",
+  "title": "开源大模型的中国新平衡：GLM-5.2登顶与DeepSeek 510亿的产业共振",
+  "title_en": "China's New Equilibrium in Open-Source LLMs: GLM-5.2 Tops Charts as DeepSeek Closes $51B Round",
+  "date": "2026-06-27",
+  "category": "产业分析",
+  "category_en": "Industry Analysis",
+  "summary": "GLM-5.2登顶IndexShare、DeepSeek完成510亿美元A轮融资、字节豆包专业版三档定价、招商银行日均330亿Token——四个看似独立的事件，正在中国AI产业激起同一场共振：开源能力、商业化定价、行业落地、资本估值，正在以前所未有的速度互相校准。",
+  "summary_en": "GLM-5.2 tops the IndexShare leaderboard, DeepSeek closes a $51B Series A, ByteDance Doubao Pro launches three-tier pricing, and China Merchants Bank hits 33B daily tokens — four seemingly separate events resonate to reshape China's open-source LLM equilibrium across capability, pricing, deployment, and valuation.",
+  "image": "img/pool/llm-code-gen.jpg",
+  "url": "articles/article-26.html",
+  "url_en": "articles/en/article-26.html"
+}

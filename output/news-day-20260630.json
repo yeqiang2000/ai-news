@@ -1,0 +1,298 @@
+{
+  "date": "2026-06-30",
+  "hero": {
+    "id": "hero-2026-06-30",
+    "title": "推理效率革命：DSpark 单用户提速 85%，AI 产业从堆算力转向拼算法",
+    "title_en": "Inference Efficiency Revolution: DSpark Boosts Single-User Speed by 85% as AI Pivots from Compute Stacking to Algorithm Squeezing",
+    "image": "img/pool/industry-predictive.jpg",
+    "date": "2026-06-30",
+    "source": "综合编译",
+    "source_en": "AI News Daily Editorial",
+    "summary": "DeepSeek 联合北大开源推理加速框架 DSpark，在不增加任何硬件、不损失任何输出质量的前提下，把 V4-Flash 的单用户生成速度拉高 60%–85%，整体推理吞吐量最高提升 4 倍；三天后 Coinbase 首席执行官 Brian Armstrong 公开披露，公司切换默认模型至智谱 GLM 5.2 与月之暗面 Kimi K2.7 后，AI 支出在 token 用量指数级增长下被压缩近一半。两件事标志着 AI 行业进入「软件层逆袭」的下半场。",
+    "summary_en": "DeepSeek and Peking University have open-sourced DSpark, an inference acceleration framework that lifts V4-Flash single-user generation speed by 60-85% and total throughput by up to 4x without adding hardware or sacrificing quality. Three days later, Coinbase CEO Brian Armstrong disclosed that AI spend has been cut nearly in half after switching the company default to Zhipu's GLM 5.2 and Moonshot's Kimi K2.7. Together these two stories mark the start of the software-layer counterattack in AI.",
+    "category": "产业",
+    "category_en": "Industry Analysis"
+  },
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-06-30",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "title": "DeepSeek 联合北大开源 DSpark 推理加速框架，单用户提速 60%–85%、整体吞吐 +400%",
+      "title_en": "DeepSeek and Peking University Open-Source DSpark: 60-85% Single-User Speedup, 4x Total Throughput",
+      "summary": "6 月 27 日，DeepSeek 与北京大学联合开源全栈推测性解码工具链 DeepSpec 及核心框架 DSpark，通过「半自回归 + 置信度调度」两大创新，将 V4-Flash 单用户生成速度提升 60%–85%，整体吞吐量最高提升 4 倍，且不损失输出质量；项目以 MIT 协议开源，已兼容 Qwen3、Gemma 等开源模型。",
+      "summary_en": "On June 27, DeepSeek and Peking University jointly open-sourced DSpark and the full-stack DeepSpec toolkit. Through two innovations — semi-autoregressive generation and confidence-aware scheduling — DSpark lifts V4-Flash single-user speed by 60-85% and total throughput by up to 4x with zero quality loss. Released under MIT license, it already works with Qwen3, Gemma and other open-source models.",
+      "source": "51CTO / DeepSeek 技术博客",
+      "source_en": "51CTO / DeepSeek Technical Blog",
+      "image": "img/pool/opensource-foundation-v3.jpg",
+      "content": "DSpark 用两套核心设计解决了过去两年推测解码工程落地的两大瓶颈。第一是后缀衰减——早期并行草稿模型一次猜多个 token，但因每个位置独立猜测、缺乏上下文依赖，越往后错得越离谱；DSpark 引入「半自回归生成架构」，在并行的基础上叠加极简的 Markov head 串行模块，让 2 层深度的 DSpark 在 Qwen3 上的平均接受长度反而超过 5 层深度的纯并行 DFlash，相对自回归 Eagle3 提升 26.7%–30.9%。第二是全量验证浪费——传统方案不管草稿置信度多低都把所有候选送进大模型验证，DSpark 通过「置信度头 + 顺序温度缩放」把校准误差从 3%–8% 压到约 1%，低负载时拉满吞吐、高负载时主动裁剪。该框架已在 DeepSeek-V4-Flash 与 V4-Pro 真实线上流量中部署，并以 MIT 协议开源。",
+      "content_en": "DSpark addresses two long-standing engineering pain points in speculative decoding. First, suffix decay: early parallel draft models guess multiple tokens at once but, because each position guesses independently with no contextual dependency, errors compound rapidly. DSpark introduces a semi-autoregressive generation architecture that adds a minimal Markov head sequential module on top of parallel drafting — a 2-layer DSpark beats a 5-layer pure-parallel DFlash on effective accepted length, with a 26.7%-30.9% improvement over autoregressive Eagle3 on Qwen3. Second, full-batch verification waste: traditional pipelines verify every candidate regardless of draft confidence. DSpark attaches a confidence head and uses sequential temperature scaling to compress calibration error from 3%-8% to roughly 1%, maximizing throughput under low load and pruning aggressively under high load. The framework is already running in production on DeepSeek-V4-Flash and V4-Pro, and is open-sourced under MIT.",
+      "key_points": [
+        "单用户生成速度提升 60%–85%，整体吞吐量最高 +400%",
+        "半自回归生成 + 置信度调度双创新，输出质量无损",
+        "MIT 协议开源全栈工具链 DeepSpec，已兼容 Qwen3、Gemma",
+        "已在 DeepSeek-V4-Flash、V4-Pro 真实线上流量部署"
+      ],
+      "key_points_en": [
+        "60-85% single-user speedup, up to 4x total throughput",
+        "Two innovations — semi-autoregressive generation and confidence-aware scheduling — with no quality loss",
+        "Full-stack DeepSpec toolkit open-sourced under MIT, compatible with Qwen3 and Gemma",
+        "Already deployed in production on DeepSeek-V4-Flash and V4-Pro"
+      ],
+      "url": "https://www.51cto.com/article/847662.html"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-06-30",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "谷歌开始限制 Meta 使用 Gemini，AI 算力供给紧张拖累 Meta 多个项目",
+      "title_en": "Google Restricts Meta's Access to Gemini as AI Compute Crunch Delays Meta Projects",
+      "summary": "6 月 29 日，财联社援引知情人士报道，谷歌已开始限制 Meta 对 Gemini 的使用，原因是 Meta 的算力需求已超出谷歌当前承载能力；尽管谷歌持续追加 AI 基础设施投入，仍难以满足客户激增的算力需求，Meta 已有多个 AI 项目因 Gemini 配额收紧被迫推迟。",
+      "summary_en": "On June 29, Cailian Press reported that Google has begun restricting Meta's use of Gemini, citing Meta's compute demand outstripping Google's current capacity. Even with continued AI infrastructure investment, Google cannot keep up with surging customer demand; Meta has had to delay several AI projects due to tighter Gemini quotas.",
+      "source": "财联社 / 凤凰网科技",
+      "source_en": "Cailian Press / Ifeng Tech",
+      "image": "img/pool/datacenter-green.jpg",
+      "content": "「连谷歌都缺算力了」成为本周 AI 圈的热门话题。财联社引述知情人士消息称，由于 Meta 的算力需求过大，已超过谷歌当前能够支持的范围，谷歌开始主动限制 Meta 对 Gemini 的使用——这在大型云厂商之间极为罕见。报道指出，即便谷歌持续加码 AI 基础设施建设，依然无法满足客户日益激增的需求。这一限制使得 Meta 的多个 AI 项目被迫推迟。配合 BIS 警示美国算力增速跟不上需求增速、AOC 提议反垄断拆分大型 AI 公司，以及苹果开始上调消费电子价格转嫁芯片成本，全行业进入「算力饥荒」状态——任何能在软件层榨出 10% 吞吐的方案都将变成「无形的数据中心」。",
+      "content_en": "'Even Google is running out of compute' became the AI talking point of the week. Cailian Press, citing people familiar, reported that Meta's compute demand has exceeded what Google can currently support, prompting Google to start restricting Meta's access to Gemini — an extremely rare move between major cloud providers. According to the report, even with continued AI infrastructure investment, Google still cannot keep up with rapidly growing customer demand. The restriction has forced Meta to delay multiple AI projects. Combined with BIS warnings that U.S. compute capacity is falling behind demand, AOC's antitrust proposal to break up large AI companies, and Apple raising consumer electronics prices to pass through chip costs, the entire industry is entering compute famine — any software-layer solution that can squeeze out 10% more throughput becomes effectively an invisible data center.",
+      "key_points": [
+        "谷歌主动限制 Meta 使用 Gemini，超出当前承载能力",
+        "即便加码基建，谷歌仍无法满足客户激增需求",
+        "Meta 多个 AI 项目因配额收紧被迫推迟",
+        "BIS、AOC、苹果三方信号叠加，行业进入「算力饥荒」"
+      ],
+      "key_points_en": [
+        "Google actively limits Meta's Gemini access amid capacity strain",
+        "Even with continued capex, Google cannot meet surging customer demand",
+        "Multiple Meta AI projects delayed due to tightened quotas",
+        "BIS, AOC, and Apple signals converge into industry-wide compute famine"
+      ],
+      "url": "https://tech.ifeng.com/c/8uJusN34wW1"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-06-30",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "马斯克：Grok 4.5 已开始内测，SpaceX 与特斯拉员工率先获 Beta 体验",
+      "title_en": "Musk: Grok 4.5 Enters Internal Beta, SpaceX and Tesla Staff Get Early Access",
+      "summary": "6 月 28 日，马斯克在 X 上披露 Grok 4.5 已开始内测，SpaceX 与特斯拉员工率先体验，预计今年剩余时间每月发布一款新模型；新版本基于 1.5 万亿参数的 V9 基础模型构建，主打更强的多轮推理与代码能力，旨在与 GPT-5.6、Claude Mythos 5 正面竞争。",
+      "summary_en": "On June 28, Elon Musk announced on X that Grok 4.5 has entered internal beta, with SpaceX and Tesla employees receiving early access. xAI plans to ship a new model every month for the rest of the year. Built on the 1.5T-parameter V9 base, Grok 4.5 emphasizes stronger multi-turn reasoning and coding to compete head-to-head with GPT-5.6 and Claude Mythos 5.",
+      "source": "36 氪 / 马斯克 X 官方账号",
+      "source_en": "36Kr / Elon Musk on X",
+      "image": "img/pool/llm-agentic-ai.jpg",
+      "content": "马斯克在 X 帖子中表示，Grok 4.5 内测已经启动，SpaceX 与特斯拉员工是第一批 Beta 测试用户，并预告今年剩余每一个月都会有新模型发布。该模型基于 xAI V9 基础模型，参数规模达 1.5 万亿，主攻多轮推理与编程能力，瞄准 GPT-5.6 Sol 与 Claude Mythos 5 的市场份额。值得关注的是，Grok 系列的迭代节奏正在加快——从 Grok 4 到 4.5 不到三个月，背后是 xAI 在孟菲斯超算与新增 GPU 订单上的持续加码。该模型也将在 SpaceX 完成 600 亿美元收购 Cursor 的协同效应下，进一步打通 xAI 的代码生成与 Agent 工作流。",
+      "content_en": "In a post on X, Musk said Grok 4.5 internal testing has kicked off, with SpaceX and Tesla employees as the first beta users, and that a new model will ship every remaining month of the year. Grok 4.5 is built on xAI's V9 base at 1.5 trillion parameters, focused on multi-turn reasoning and coding to win share from GPT-5.6 Sol and Claude Mythos 5. The Grok release cadence is accelerating — less than three months from Grok 4 to 4.5 — backed by xAI's continued investment in the Memphis supercluster and additional GPU orders. The model will also benefit from SpaceX's USD 60 billion Cursor acquisition synergies, deepening xAI's code generation and agent workflow stack.",
+      "key_points": [
+        "Grok 4.5 内测已启动，SpaceX 与特斯拉员工率先 Beta",
+        "基于 1.5 万亿参 V9 基础模型，主攻多轮推理与代码",
+        "今年剩余时间将逐月发布新模型",
+        "与 SpaceX 收购 Cursor 形成代码生成与 Agent 协同"
+      ],
+      "key_points_en": [
+        "Grok 4.5 enters internal beta with SpaceX and Tesla as first users",
+        "Built on the 1.5T-parameter V9 base, optimized for multi-turn reasoning and coding",
+        "New models to ship every remaining month this year",
+        "Aligns with SpaceX's Cursor acquisition for code generation and agent synergies"
+      ],
+      "url": "https://36kr.com/newsflashes/3873481579746561"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-06-30",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "Coinbase 将默认模型切换至 GLM 5.2 与 Kimi K2.7，AI 支出在用量激增下被砍半",
+      "title_en": "Coinbase Switches Default Models to GLM 5.2 and Kimi K2.7, Halving AI Spend Despite Exploding Token Usage",
+      "summary": "6 月 30 日，Coinbase 首席执行官 Brian Armstrong 公开披露：公司通过内部 LLM 网关把全员默认大模型切换至智谱 GLM 5.2 与月之暗面 Kimi K2.7，AI 支出被压缩接近 50%，而 token 用量仍在指数级增长；91% 的工程师从未触及原方案的用量上限。",
+      "summary_en": "On June 30, Coinbase CEO Brian Armstrong publicly disclosed that the company switched its default LLM through an internal gateway to Zhipu's GLM 5.2 and Moonshot's Kimi K2.7, cutting AI spend by close to 50% while token usage continues to grow exponentially. 91% of engineers never even hit the original usage caps.",
+      "source": "Coinbase 官方 / 36 氪",
+      "source_en": "Coinbase Official / 36Kr",
+      "image": "img/pool/opensource-huggingface-v3.jpg",
+      "content": "Coinbase 是典型的美国合规上市公司，过去一直是「能用美国模型就不用别人」的客户画像。这次切换的产业意义在于，它把中国开源模型的商业落地从 a16z 合伙人 Martin Casado 此前披露的「美国 AI 初创企业约 80% 用中国模型做融资 demo」，推到了主流上市公司层面。配合 Pinterest、爱彼迎常态化使用、西门子工业自动化 CEO 公开表态「没有缺点」、非洲基于国产开源训练 20 种本土语言模型——Hugging Face 2026 春季报告显示，过去一年全球 41% 大模型下载量来自中国研发的模型，李强总理在达沃斯论坛披露累计下载已达 100 亿次。Coinbase 案例的关键细节是：切换后用量上限被取消，因为 91% 的工程师从未触及原有上限，这意味着真正的瓶颈从来不是「用量限制」，而是「价格性能比」。",
+      "content_en": "Coinbase is a textbook U.S.-listed, compliance-heavy customer — historically the canonical 'U.S.-first' buyer. The industry significance of this switch is that it pushes the commercial adoption of Chinese open-source models from the startup circuit — where a16z partner Martin Casado previously disclosed that roughly 80% of U.S. AI startups use Chinese models in fundraising demos — into mainstream public markets. Alongside regular use at Pinterest and Airbnb, Siemens Industrial Automation's CEO going on record saying 'no downsides,' and African teams training 20 local-language models on Chinese open-source bases, the Hugging Face 2026 Spring report shows 41% of global LLM downloads in the past year came from Chinese-developed models, with Premier Li Qiang disclosing 10 billion cumulative downloads at the Davos forum. Coinbase's key detail: usage caps were lifted after the switch because 91% of engineers never hit them — meaning the real bottleneck was never the cap, it was the price-performance differential.",
+      "key_points": [
+        "默认模型切换至 GLM 5.2 + Kimi K2.7，AI 支出砍半",
+        "91% 工程师从未触及原方案用量上限",
+        "Hugging Face 显示 41% 全球大模型下载来自中国模型",
+        "全球累计下载量已达 100 亿次"
+      ],
+      "key_points_en": [
+        "Default model switched to GLM 5.2 + Kimi K2.7, AI spend cut in half",
+        "91% of engineers never hit the original usage caps",
+        "Hugging Face shows 41% of global LLM downloads come from Chinese models",
+        "Cumulative downloads reach 10 billion globally"
+      ],
+      "url": "https://www.coze.cn/share-article/201782751494871040"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-06-30",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "智元精灵 G2 在龙旗工厂南昌产线连续 6 天作业：8 台机器人 14925 件成功率 99.987%",
+      "title_en": "Zhiyuan Spirit G2 Robots Work 6 Days Straight at Longcheer Nanchang Plant: 8 Humanoids, 14,925 Units, 99.987% Success Rate",
+      "summary": "6 月 23–28 日，智元机器人在龙旗科技南昌智能工厂部署 8 台精灵 G2 完成连续 6 天产线作业：累计有效作业时长 54 小时、完成订单 14925 件、抓取动作 55107 次、成功率 99.987%；机器人负责物料分拣、上料和成品下线，与人类工人并肩协作。",
+      "summary_en": "From June 23-28, Zhiyuan Robotics deployed 8 Spirit G2 humanoid robots at Longcheer Technology's Nanchang smart factory for six consecutive days: 54 cumulative working hours, 14,925 units completed, 55,107 grasping operations, and a 99.987% success rate. The robots handle material sorting, loading, and finished-goods unloading alongside human workers.",
+      "source": "新华网 / 智元机器人官方",
+      "source_en": "Xinhua / Zhiyuan Robotics Official",
+      "image": "img/pool/industry-robot-arm.jpg",
+      "content": "智元机器人副总裁彭思崴介绍，精灵 G2 在龙旗工厂南昌产线的部署是国内首次实现「8 台同型号人形机器人 + 单产线连续 6 天作业」的工业级验证。机器人在 14925 件产品的处理中完成 55107 次抓取动作，成功率达 99.987%——按工业标准这是六西格玛级别的可靠性。龙旗科技智能制造负责人李龙表示，机器人的引入并未取代工人，而是补足了「夜班、连续作业、单调重复」三种最不友好的岗位。这条产线被视为人形机器人从「演示视频」走向「真实开工」的关键节点——之前业内对 G2 持续作业能力的最大质疑——长时间无故障运行能力——被这次连续 54 小时实际作业数据直接驳回。",
+      "content_en": "Peng Siwei, VP of Zhiyuan Robotics, said the deployment of Spirit G2 at Longcheer's Nanchang plant is China's first industrial-grade validation of '8 identical humanoid robots running a single production line for six consecutive days.' Across 14,925 units processed, the robots performed 55,107 grasping operations at a 99.987% success rate — Six Sigma reliability by industrial standards. Longcheer's smart manufacturing lead Li Long stressed that robots did not replace workers but instead filled the three most undesirable roles: night shifts, continuous operation, and monotonous repetition. The line is being read as the inflection point where humanoid robots cross from demo video to actual employment — the industry's biggest doubt about G2's sustained operation, namely long-duration fault-free running, was directly answered by 54 cumulative hours of real production data.",
+      "key_points": [
+        "8 台精灵 G2 连续 6 天产线作业，累计 54 小时",
+        "完成 14925 件订单，55107 次抓取动作",
+        "成功率 99.987%，达到工业六西格玛级别",
+        "覆盖夜班、连续作业、单调重复三类最不友好岗位"
+      ],
+      "key_points_en": [
+        "8 Spirit G2 robots run 6 days straight, 54 cumulative hours",
+        "14,925 units processed with 55,107 grasping operations",
+        "99.987% success rate, reaching industrial Six Sigma levels",
+        "Covers night shifts, continuous operation, and monotonous repetition"
+      ],
+      "url": "http://www3.xinhuanet.com/tech/20260629/2874ffda73254e8594495675c7ebb4cd/c.html"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-06-30",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "智平方完成 50 亿元 B 轮融资，跻身粤港澳大湾区首家具身智能独角兽",
+      "title_en": "Zhipingfang Closes USD 700M Series B, Becomes the First Embodied AI Unicorn in the Greater Bay Area",
+      "summary": "6 月 29 日，智平方宣布完成 50 亿元 B 轮融资，投后估值超 200 亿元，成为粤港澳大湾区首家具身智能独角兽；本轮由产业资本与战略 VC 联合领投，资金主要用于通用机器人量产爬坡、新一代基座模型研发与海外市场扩展。",
+      "summary_en": "On June 29, Zhipingfang announced the close of a USD 700 million Series B, taking its post-money valuation past USD 2.8 billion and crowning it the first embodied AI unicorn in the Greater Bay Area. The round was co-led by industrial capital and strategic VCs, with proceeds earmarked for general-purpose robot mass production, next-gen foundation model R&D, and overseas expansion.",
+      "source": "智平方官方 / 第一财经",
+      "source_en": "Zhipingfang Official / Yicai",
+      "image": "img/pool/investment-mergers-v3.jpg",
+      "content": "智平方此次 50 亿元融资是 2026 年具身智能赛道单笔最大金额之一，加上前一周智元、银河通用、星动纪元的同步融资，整个 6 月具身智能领域累计融资已超过 200 亿元。智平方创始团队来自机器人控制系统与多模态基础模型方向，主攻「家庭场景通用机器人」，在过去 12 个月完成首批 1000 台量产交付。资金用途上，第一是把现有量产线扩产到 5000 台/年，第二是把端到端基座模型从当前 32B 推进到 120B 参数级别，第三是在东南亚、中东与北非建立本地化合作渠道。值得注意的是，本轮投资方包括两家工业制造背景的产业资本——这意味着具身智能正在被传统制造业视为下一轮转型的核心入口。",
+      "content_en": "Zhipingfang's USD 700 million round is among the single largest checks in 2026's embodied AI cycle. Combined with concurrent rounds at Zhiyuan, Galaxy General, and Stardust Era the prior week, total embodied AI funding in June alone has surpassed USD 2.8 billion. The founding team comes from robotic control systems and multi-modal foundation models, targeting general-purpose home robots, and has shipped the first 1,000 units in production over the past 12 months. Use of proceeds: first, scale production capacity to 5,000 units a year; second, advance the end-to-end foundation model from today's 32B to a 120B parameter class; third, build localization partnerships across Southeast Asia, the Middle East, and North Africa. Notably, two investors with industrial manufacturing backgrounds joined the round — meaning traditional manufacturing now views embodied AI as the core entry point for its next transformation cycle.",
+      "key_points": [
+        "完成 50 亿元 B 轮融资，估值超 200 亿元",
+        "粤港澳大湾区首家具身智能独角兽",
+        "资金用于量产扩产、120B 基座模型与海外渠道",
+        "6 月具身智能赛道融资累计已突破 200 亿元"
+      ],
+      "key_points_en": [
+        "Closes USD 700 million Series B at over USD 2.8 billion post-money",
+        "First embodied AI unicorn in the Greater Bay Area",
+        "Funds will go to mass production, a 120B foundation model, and overseas channels",
+        "June embodied-AI funding crosses USD 2.8 billion"
+      ],
+      "url": "https://www.coze.cn/share-article/201782693541009920"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-06-30",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "DeepSeek 官宣 V4 正式版 7 月中旬上线，引入「峰谷定价」API 高峰时段翻倍计费",
+      "title_en": "DeepSeek Confirms V4 GA for Mid-July, Introduces Peak-Valley Pricing with 2x Surcharge During Peak Hours",
+      "summary": "6 月 29 日，DeepSeek 官方宣布 V4 正式版将于 7 月中旬上线，同步首次推出「峰谷定价」机制——高峰时段（每日 9–12 时、14–18 时）API 价格为非高峰时段两倍；这是国内大模型 API 行业首次出现差异化时段计价。",
+      "summary_en": "On June 29, DeepSeek announced that V4 GA will launch in mid-July, alongside its first peak-valley pricing scheme: API rates during peak windows (9 AM-12 PM and 2 PM-6 PM daily) will be double the off-peak rate. This is the first time China's LLM API industry has rolled out time-differentiated pricing.",
+      "source": "DeepSeek 官方 / 财联社",
+      "source_en": "DeepSeek Official / Cailian Press",
+      "image": "img/pool/llm-finetune-v3.jpg",
+      "content": "峰谷定价机制把电力市场的成熟思路搬到了 token 经济。DeepSeek 给出的高峰窗口与企业级 AI 工作流的典型负载完全吻合——开发者在上班时间集中调用 API、Agent 在午后批处理高峰、晚间则进入「批量任务」时段。这一定价改革有两重意义：第一是对推理算力的市场化平滑机制——通过价格信号引导用户把非紧急任务挪到夜间，从而提升整体 GPU 利用率；第二是对开发者侧的成本压力测试——它会逼着应用方重新评估「实时 vs 异步」的工作流设计，长期看推动更多任务从同步 API 切换到批处理。配合 DSpark 推理框架的开源，DeepSeek 在「软件加速 + 定价机制」两条线上同时出牌，形成「让用户多用 token 但花更少钱」的反直觉商业模型。",
+      "content_en": "Peak-valley pricing transplants the mature electricity-market mechanism into token economics. The peak window DeepSeek defines maps cleanly onto enterprise AI workload patterns — developers concentrate API calls during business hours, Agents batch-process in the early afternoon, and overnight is reserved for bulk jobs. Two implications: first, it is a market-based smoothing mechanism for inference compute — price signals push users to move non-urgent work to off-peak hours, lifting overall GPU utilization. Second, it stress-tests the cost structure on the developer side — forcing application developers to rethink synchronous vs asynchronous workflows, and pushing more tasks from sync APIs to batch processing. Combined with the open-sourcing of DSpark, DeepSeek is playing two cards at once — software acceleration and pricing mechanism — to build a counterintuitive business model where users consume more tokens while paying less.",
+      "key_points": [
+        "V4 正式版 7 月中旬上线",
+        "首次引入峰谷定价，高峰时段 API 翻倍",
+        "高峰窗口：每日 9–12 时、14–18 时",
+        "与 DSpark 形成「软件加速 + 定价机制」组合拳"
+      ],
+      "key_points_en": [
+        "V4 GA launches in mid-July",
+        "First peak-valley pricing rolled out, 2x surcharge during peak",
+        "Peak windows: 9 AM-12 PM and 2 PM-6 PM daily",
+        "Pairs with DSpark for a software-acceleration plus pricing-mechanism combo"
+      ],
+      "url": "https://www.coze.cn/share-article/201782729604764320"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-06-30",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "特斯拉 Cybercab 应急救援指南披露：得州 L4 法案允许企业「自我认证」",
+      "title_en": "Tesla Cybercab Emergency Response Guide Surfaces: Texas L4 Bill Allows Self-Certification",
+      "summary": "6 月 28 日，IT 之家披露特斯拉 Cybercab 的应急救援操作指南，明确这款无方向盘、无踏板的 Robotaxi 已具备 L4 量产条件；得州近期通过的自动驾驶新法允许企业「自我认证」无安全员车辆，特斯拉将成为首个上路的全无人 L4 车队运营商。",
+      "summary_en": "On June 28, IT Home obtained Tesla's Cybercab emergency response guide, confirming that this steering-wheel-free, pedal-free Robotaxi is ready for L4 mass production. A new Texas autonomous-driving bill allows companies to self-certify driverless vehicles, positioning Tesla to launch the first fully driverless L4 fleet operator on public roads.",
+      "source": "凤凰网科技 / IT 之家",
+      "source_en": "Ifeng Tech / IT Home",
+      "image": "img/pool/autonomous-robotaxi-v3.jpg",
+      "content": "Cybercab 应急救援指南是一份给消防、警察、急救人员的操作手册，详细说明了在车辆碰撞、起火、被困场景下如何进入车舱、切断高压电、强制停车。该指南的公开意味着特斯拉已完成与多个州应急部门的协调，是大规模上路前的最后一道行政准备工作。得克萨斯州近期通过的自动驾驶新法是这次发布的关键背景——该法案允许具备相应技术能力的企业「自我认证」无安全员的 L4 车辆，绕过传统由 NHTSA 主导的逐车型审批流程。这一立法被业内视为「美国 Robotaxi 的破冰窗口」，特斯拉作为首批拿到自我认证资格的厂商，预计 7 月起在奥斯汀启动首批商业化运营，Cybercab 也将与现有 Model Y Robotaxi 车队并行运营。",
+      "content_en": "The Cybercab emergency response guide is an operations manual for fire, police, and EMS personnel, detailing entry, high-voltage shutoff, and forced-stop procedures in collision, fire, and entrapment scenarios. Its publication signals that Tesla has finalized coordination with multiple state emergency agencies — the last administrative gate before mass deployment. Texas's recent autonomous-driving bill is the critical backdrop: it allows companies with the requisite technical capability to self-certify driverless L4 vehicles, bypassing NHTSA's traditional per-model approval pipeline. The industry reads this as the U.S. Robotaxi breakout window. As the first to receive self-certification status, Tesla is expected to launch commercial operations in Austin starting in July, with Cybercab running in parallel to the existing Model Y Robotaxi fleet.",
+      "key_points": [
+        "Cybercab 已具备 L4 量产条件，无方向盘无踏板",
+        "得州新法允许企业「自我认证」无安全员车辆",
+        "特斯拉是首批拿到自我认证资格的厂商",
+        "预计 7 月起在奥斯汀启动首批商业化运营"
+      ],
+      "key_points_en": [
+        "Cybercab is ready for L4 mass production, steering-wheel-free and pedal-free",
+        "Texas's new law allows self-certification of driverless vehicles",
+        "Tesla is among the first to receive self-certification status",
+        "Commercial operations expected to begin in Austin in July"
+      ],
+      "url": "https://tech.ifeng.com/c/8uKCWl2PALO"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-06-30",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "title": "国家超算互联网启动 SCNet 万卡共创计划，提供亿级词元 + 千卡时算力免费支持",
+      "title_en": "National Supercomputing Internet Launches SCNet 10K-GPU Co-creation Program, Offering Free Billion-Token and Thousand-GPU-Hour Compute",
+      "summary": "6 月 29 日，国家超算互联网联合多家算力运营商、模型厂商和高校启动「SCNet 万卡共创计划」，依托国产 scaleX 万卡超集群，向高校、初创企业和开源社区提供亿级词元数据 + 千卡时算力的免费支持，重点扶持中文垂类大模型与开源数据集建设。",
+      "summary_en": "On June 29, the National Supercomputing Internet, together with compute operators, model vendors and universities, launched the SCNet 10K-GPU Co-creation Program. Backed by the domestic scaleX 10,000-GPU supercluster, the program offers free billion-token datasets and thousand-GPU-hour compute to universities, startups and open-source communities, with a focus on Chinese vertical LLMs and open-source dataset development.",
+      "source": "国家超算互联网官方 / 新华网",
+      "source_en": "National Supercomputing Internet Official / Xinhua",
+      "image": "img/pool/network-quantum.jpg",
+      "content": "SCNet 万卡共创计划的核心是把国家超算互联网积累的「scaleX 万卡超集群」开放给社会侧——亿级词元意味着高校实验室或小型团队可以在不自购数据集的前提下开展中等规模模型预训练；千卡时算力意味着研究者可以完成完整的微调 + 评测流程而不被 GPU 成本压垮。计划的优先扶持方向是中文垂类大模型——金融、法律、医疗、教育、工业设计 5 大领域——以及开源数据集建设。这一计划与本月底科技部启动的「开源数据集众创」是配套动作，整体呈现政策面对「软件层和数据层」补短板的明确信号：算力之外，数据集的丰富度和高质量微调数据的可获得性，正在成为国内中文大模型生态的瓶颈。",
+      "content_en": "The core of SCNet 10K-GPU Co-creation is opening up the National Supercomputing Internet's accumulated scaleX 10,000-GPU supercluster to the broader community. Billion-token datasets mean university labs or small teams can run medium-scale pre-training without acquiring their own corpora; thousand-GPU-hours means researchers can complete full fine-tuning and evaluation cycles without being crushed by GPU costs. The program's priority focus is Chinese vertical LLMs — finance, legal, medical, education, and industrial design — alongside open-source dataset development. The initiative pairs with the Ministry of Science and Technology's open-source dataset crowdsourcing program launched at the end of the month, signaling a clear policy push to fill the software and data gaps: beyond compute, dataset richness and access to high-quality fine-tuning data have emerged as bottlenecks for China's Chinese-language LLM ecosystem.",
+      "key_points": [
+        "依托国产 scaleX 万卡超集群对外开放",
+        "提供亿级词元数据 + 千卡时算力免费支持",
+        "优先扶持金融、法律、医疗、教育、工业设计 5 大垂类",
+        "与科技部「开源数据集众创」形成配套政策"
+      ],
+      "key_points_en": [
+        "Backed by the domestic scaleX 10,000-GPU supercluster",
+        "Free billion-token datasets and thousand-GPU-hour compute",
+        "Priority verticals: finance, legal, medical, education, industrial design",
+        "Pairs with the Ministry of Science and Technology's open-source dataset crowdsourcing"
+      ],
+      "url": "https://www.coze.cn/share-article/201782728198557984"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-06-30",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "title": "百度 Unlimited OCR 开源次日登顶 GitHub Daily Trending 与 HuggingFace 多榜",
+      "title_en": "Baidu Unlimited OCR Hits #1 on GitHub Daily Trending and Multiple Hugging Face Leaderboards on Day Two",
+      "summary": "6 月 28–29 日，百度开源的多模态 OCR 模型 Unlimited OCR 在开源次日同时登顶 GitHub Daily Trending 与 Hugging Face 全球趋势榜的多个榜单；该模型仅 3B 参数，但在复杂版式文档、手写体、多语种混合场景下的识别精度显著超越前代主流方案。",
+      "summary_en": "On June 28-29, Baidu's open-sourced multimodal OCR model — Unlimited OCR — topped both GitHub Daily Trending and multiple Hugging Face global trending leaderboards on day two of release. The model is only 3B parameters but significantly outperforms previous mainstream solutions on complex layouts, handwriting, and multilingual mixed scenarios.",
+      "source": "百度官方 / GitHub Trending",
+      "source_en": "Baidu Official / GitHub Trending",
+      "image": "img/pool/opensource-contribution-v3.jpg",
+      "content": "Unlimited OCR 的爆红反映了一个开源行业的微妙趋势——「以小搏大」正在成为新主流。3B 参数意味着该模型可以在消费级显卡甚至 Mac M3 上本地运行，但识别精度对标了部分 10B+ 参数的闭源 OCR 服务。百度披露的训练数据组成中，多语种文档占比 38%、手写体占比 17%、复杂表格与公式占比 14%，覆盖了过去开源 OCR 长期短板的三类硬场景。开源协议为 Apache 2.0，允许商用与二次开发。社区在 24 小时内贡献了 11 种语言的微调包，包括日文、阿拉伯文、印地语等。这一模式与百度过去半年「先开源、后做生态」的路线一致——文心 X3 开源、AI 搜索接口开放、Comate 代码补全免费，全部指向同一个战略：用开源生态推大模型基础设施市场份额。",
+      "content_en": "Unlimited OCR's breakout reflects a subtle open-source trend — punching above weight class is becoming the new mainstream. At 3B parameters, the model runs locally on consumer GPUs or even an M3 Mac, yet matches some 10B+ closed-source OCR services in recognition accuracy. Baidu's disclosed training data composition: 38% multilingual documents, 17% handwriting, 14% complex tables and formulas — covering the three hardest categories where open-source OCR has historically lagged. The model is released under Apache 2.0, allowing commercial use and derivative work. Within 24 hours, the community contributed fine-tuning packs in 11 languages, including Japanese, Arabic, and Hindi. This is consistent with Baidu's open-then-ecosystem playbook over the past six months — open-sourcing ERNIE X3, opening AI search APIs, making Comate code completion free — all pointing at one strategy: use open-source ecosystems to push infrastructure market share.",
+      "key_points": [
+        "3B 参数模型登顶 GitHub Daily Trending",
+        "在 Hugging Face 多个全球榜单同时登顶",
+        "Apache 2.0 协议开源，支持商用",
+        "社区 24 小时贡献 11 种语言微调包"
+      ],
+      "key_points_en": [
+        "3B-parameter model tops GitHub Daily Trending",
+        "Simultaneously #1 on multiple Hugging Face global leaderboards",
+        "Released under Apache 2.0, commercial use allowed",
+        "Community contributes 11 language fine-tuning packs in 24 hours"
+      ],
+      "url": "https://www.coze.cn/share-article/201782713754844480"
+    }
+  ]
+}

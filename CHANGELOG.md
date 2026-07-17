@@ -1229,3 +1229,34 @@
 - **图片**：本次新增 11 张图标记 used（含 industry-smart-city.jpg / policy-data-privacy.jpg / llm-multimodal-v3.jpg / opensource-github-stars-v3.jpg / autonomous-vehicle-city.jpg / investment-ipo-v3.jpg / autonomous-truck-v3.jpg / llm-rag-v3.jpg / llm-evaluation-v3.jpg / chips-edge-ai-v3.jpg / robotics-humanoid-v3.jpg），used 总数 141，本地可用 63 张
 - **commit**: `75c0fb3` (feat(daily): 2026-06-28 update)
 - **部署**: https://5cd4b8a8.ainewsdaily.pages.dev
+## 2026-07-16 · 网站+头条 · article-45（隔天规则第 4 次落地，偶数日跳过微信）
+
+### 网站版：article-45 上线
+- **主题**：《WAIC 2026 开幕前瞻——习近平主席出席开幕并发表主旨演讲，1100+ 企业参展、300+ 全球首发、9 位图灵/诺奖得主到场：中国 AI 产业从「模型竞赛」到「应用落地」的年度检阅礼》
+- **切角**：WAIC 2026 7/17 开幕，习近平首次在 WAIC 发表主旨演讲；华为 Atlas 950 超节点真机首展、努比亚全球首款 AI 智能体手机、阶跃 Step AOS 智能体操作系统；108 款芯片 + 261 款大模型 + 208 款具身智能终端集中亮相。核心叙事从「模型竞赛」转向「应用落地」
+- **规模**：中文 28 KB + 英文 29 KB，18 分钟阅读
+- **与 article-38~44 隔天主题区隔**：WAIC 开幕 vs 去英伟达化/AI 消费元年/开源攻顶/AI 电力霸权/AI 成本反弹/Agent 商业化/反向出口
+- **hero 图**：`img/pool/industry-02-v5.jpg`（WAIC 会场风格）
+
+### 头条版：toutiao-2026-07-16.md
+- **主题**：《IBM Q2 业绩预警暴跌 25%：AI 预算从软件转向硬件的「挤出效应」》
+- **切角**：IBM 7/14 业绩预警致股价单日暴跌 25% 创历史最大跌幅；伯恩斯坦 CIO 调查 63% 计划 2026 下半年削减 AI 软件预算增加硬件支出；HBM 排期已排到 2028 年；硬件挤出效应全球蔓延
+- **避重检查**：最近 3 篇头条（07-10 视频生成 / 07-12 AI 眼镜 / 07-14 OpenRouter 调用榜）均未重复
+
+### 数据更新
+- news.json 新填 07-16 日数据（10 条 + hero），days 总数 6
+- articles.json 新增 article-45，累计 44 篇
+- used-images.json 新增 11 张，总使用 305 张，剩余 71 张
+- sitemap.xml 新增 article-45 中英文 URL，共 94 URL
+- 侧边栏：article-45 进首位，article-35 挤出
+
+### 学习点
+- **侧边栏 2 步法（复用 07-15 经验）**：插新→整块删末尾，保持 10 条
+- **隔天规则第 4 次落地**：07-16 偶数日网站+头条，跳过微信，规则持续稳定
+
+### 技术细节
+- 模型：Deepseek-v4-flash（系统切换）
+- commit: `557f75a`
+- 部署: https://02009903.ainewsdaily.pages.dev
+- 生产域: https://ainewsdaily.asia
+- SEO 更新：sitemap.xml 已追加 article-45 中英文 URL，Yandex ping 失败（exit code 56，服务方网络问题），Google/Bing 需主人手动 GSC 提交

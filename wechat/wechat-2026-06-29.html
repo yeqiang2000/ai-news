@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>39亿美元买下150个人：Chris Lattner带着Mojo，捅向了CUDA</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f5f5f5;">
+<table width="677" border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse; margin: 0 auto; background-color: #ffffff;">
+  <tr><td style="border: none; padding: 40px 30px 20px 30px; text-align: center;">
+    <span style="font-size: 28px; font-weight: bold; color: #1a1a1a; line-height: 1.5;">39亿美元买下150个人</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 0 30px; text-align: center;">
+    <span style="font-size: 22px; font-weight: bold; color: #555; line-height: 1.5;">Chris Lattner带着Mojo，捅向了CUDA</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 0 30px; text-align: center;">
+    <span style="font-size: 14px; color: #999;">2026年6月29日 | AI News Daily</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 20px 30px 0 30px; text-align: center;">
+    <table width="60" border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse; margin: 0 auto;"><tr><td style="border: none; height: 3px; background: linear-gradient(90deg, #6366f1, #8b5cf6); border-radius: 2px;"></td></tr></table>
+  </td></tr>
+
+  <!-- 段一：2600万一个人 -->
+  <tr><td style="border: none; border-left: 4px solid #6366f1; padding-left: 15px; font-size: 18px; font-weight: bold; color: #1a1a1a; padding-top: 25px;">2600万美元买一个人，硅谷在算一道什么样的数学题</td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">2026年6月24日，圣地亚哥。高通投资者日的现场，黄仁勋还没开口，CEO Cristiano Amon先扔下了一颗炸弹——<b>高通将以39.2亿美元、全股票方式收购AI软件初创公司Modular Inc.</b></span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">公告甩出来，整个硅谷在算同一道数学题：<b>39亿美元，除以150个员工，等于2600万美元一个人</b>。9个月前Modular的估值是16亿美元，9个月后翻了将近3倍。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; font-weight: bold; display: block;">这笔账，怎么算都不像常规的并购。除非——高通买的根本不是一家公司，是一根插进NVIDIA护城河的楔子。</span>
+  </td></tr>
+
+  <!-- 数据卡片 -->
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;"><tr>
+      <td style="border: none; background-color: #f0f4ff; border-radius: 8px; padding: 15px 20px; text-align: center; width: 33%;">
+        <span style="font-size: 28px; font-weight: bold; color: #6366f1;">39亿</span><br>
+        <span style="font-size: 13px; color: #666;">收购对价（美元，全股票）</span>
+      </td>
+      <td style="border: none; width: 2%;"></td>
+      <td style="border: none; background-color: #f0f4ff; border-radius: 8px; padding: 15px 20px; text-align: center; width: 33%;">
+        <span style="font-size: 28px; font-weight: bold; color: #6366f1;">150人</span><br>
+        <span style="font-size: 13px; color: #666;">Modular总员工数</span>
+      </td>
+      <td style="border: none; width: 2%;"></td>
+      <td style="border: none; background-color: #f0f4ff; border-radius: 8px; padding: 15px 20px; text-align: center; width: 33%;">
+        <span style="font-size: 28px; font-weight: bold; color: #6366f1;">9个月</span><br>
+        <span style="font-size: 13px; color: #666;">估值翻3倍周期</span>
+      </td>
+    </tr></table>
+  </td></tr>
+
+  <!-- 段二：Lattner -->
+  <tr><td style="border: none; border-left: 4px solid #6366f1; padding-left: 15px; font-size: 18px; font-weight: bold; color: #1a1a1a; padding-top: 25px;">编程语言界的达尔文：Chris Lattner是谁</td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">要理解这笔交易，绕不开一个名字——<b>Chris Lattner</b>，Modular的创始人兼CEO，编程语言领域当之无愧的活化石。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">这个名字背后是一串能让任何一家科技巨头流口水的履历：<b>Clang/LLVM编译器之父</b>（直接取代了主导30年的GCC，今天几乎所有现代编程语言的编译器后端都建立在它上面）、<b>Swift语言发明人</b>（苹果iOS生态的核心语言）、<b>MLIR推动者</b>（机器学习编译器的事实标准）、前Google Brain TPU负责人、前特斯拉自动驾驶副总裁、前SiFive芯片公司高级副总裁。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">在编程语言这片江湖，Lattner的地位就像生物学里的达尔文——<b>他不是写代码的，他是设计「写代码的规则」的人</b>。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;"><tr>
+      <td style="border: none; background-color: #f8f9ff; border-radius: 8px; padding: 20px;">
+        <span style="font-size: 15px; color: #555; line-height: 1.8; font-style: italic; display: block;">「Modular做的事，不是要再造一个CUDA，而是要让CUDA变得不再必要。一份代码，编译后能跑在NVIDIA、AMD、高通、Arm任何硅片上——这才是真正的AI软件中立。」</span>
+        <span style="font-size: 14px; color: #6366f1; display: block; text-align: right; margin-top: 10px;">—— Chris Lattner，2025年HackerNews访谈</span>
+      </td>
+    </tr></table>
+  </td></tr>
+
+  <!-- 段三：CUDA的真正护城河 -->
+  <tr><td style="border: none; border-left: 4px solid #6366f1; padding-left: 15px; font-size: 18px; font-weight: bold; color: #1a1a1a; padding-top: 25px;">真正的NVIDIA护城河，藏在芯片之外</td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">谈起AI芯片，所有人的第一反应是NVIDIA。市场份额80%以上、H100/B200供不应求、黄仁勋在台上举起芯片的画面成了这个时代的标志性镜头。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">但NVIDIA最深的壁垒，藏在芯片之下——<b>CUDA</b>。这个2006年发布的编程框架，经过近二十年迭代，早已长成一棵巨大的生态树：PyTorch的底层跑的是cuBLAS、做卷积靠cuDNN、推理优化用TensorRT，数以百万计的开发者在这个生态里写代码、调参数、部署模型。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">换句话说，你以为自己在用PyTorch，其实你在用CUDA；你以为自己选择了NVIDIA的GPU，其实是CUDA替你做了这个选择。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">过去几年，CUDA的挑战者排了一长列队伍：AMD的ROCm、Intel的oneAPI、Google开源的Triton——<b>全都撞了南墙</b>。问题不是技术，而是迁移成本：让千万开发者把熟练掌握的工具栈整体搬家，这是一场极不对等的战争。</span>
+  </td></tr>
+
+  <!-- 段四：Mojo + MAX -->
+  <tr><td style="border: none; border-left: 4px solid #6366f1; padding-left: 15px; font-size: 18px; font-weight: bold; color: #1a1a1a; padding-top: 25px;">Mojo的杀招：让Python程序员零成本通吃所有硅片</td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">Lattner的破局思路彻底不同——<b>不让开发者迁移，而是让代码自己迁移</b>。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">Modular的两件武器：</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; display: block;"><b>① Mojo</b> ——专为AI设计的编程语言。它是Python的超集，<b>保留了所有Python语法</b>（AI开发者最熟悉的语言），同时加入了系统编程能力：静态类型、内存安全、零成本抽象。开发者不需要学新语言，就能写出接近C++性能的代码。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; display: block;"><b>② MAX</b> ——硬件无关的图编译器和推理引擎。开发者写一次代码，MAX 在编译时为不同硬件生成特化版本。<b>NVIDIA GPU、AMD GPU、高通NPU、Arm服务器CPU——同一份代码，自动适配</b>。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">如果说CUDA的胜利在于「绑定开发者」，Mojo+MAX的进攻在于「绑定代码」——一旦Python代码可以零成本编译到任何硬件，那么GPU选择权就不再是CUDA替开发者做的决定，而是采购成本和能效比的纯粹竞争。</span>
+  </td></tr>
+
+  <!-- 段五：扎克伯格站台 -->
+  <tr><td style="border: none; border-left: 4px solid #6366f1; padding-left: 15px; font-size: 18px; font-weight: bold; color: #1a1a1a; padding-top: 25px;">扎克伯格亲临现场：Meta和微软已经下单</td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">如果说39亿美元的对价还不够有说服力，那么<b>扎克伯格本人在6月24日高通投资者日的现身</b>给出了更响亮的回答。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">扎克伯格亲自上台宣布Meta与高通签署多代CPU供应协议——<b>这是Meta史上首次承认把数据中心CPU供应商分散到NVIDIA之外</b>。他还公开表示：「这项合作对于将个人超级智能带给全世界至关重要。」</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">高通CFO进一步确认：<b>至少两家hyperscaler客户（Meta已公开，另一家未公开）将在一年内贡献至少10亿美元收入</b>。首批芯片2026年底前出货。与此同时，据报道<b>微软也在测试和下单高通的Dragonfly数据中心产品线</b>——包括250+核Arm架构C1000服务器CPU和AI300推理加速器。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;"><tr>
+      <td style="border: none; background-color: #f8f9ff; border-radius: 8px; padding: 20px;">
+        <span style="font-size: 15px; color: #555; line-height: 1.8; font-style: italic; display: block;">「Hyperscaler用真金白银投票，比任何PPT都管用。AI正在从训练阶段转向大规模推理部署。训练时你可能别无选择，但推理阶段，每一毫瓦的功耗、每一美分的成本都在放大。」</span>
+        <span style="font-size: 14px; color: #6366f1; display: block; text-align: right; margin-top: 10px;">—— 一位匿名hyperscaler高管，对Stratechery</span>
+      </td>
+    </tr></table>
+  </td></tr>
+
+  <!-- 段六：留下的疑问 -->
+  <tr><td style="border: none; border-left: 4px solid #6366f1; padding-left: 15px; font-size: 18px; font-weight: bold; color: #1a1a1a; padding-top: 25px;">芯片公司控制软件中立平台，悖论会持续多久</td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">高通在官方新闻稿中强调将继续支持「<b>厂商中立的开发者生态</b>」——这是必须说的话。如果Modular变成「只为高通优化」的工具，它的跨平台价值就归零了。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">但市场上已经在传一个尖锐的提问：<b>一家芯片公司，拥有了一个声称「硅无关」的软件平台，中立性能维持多久？</b></span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">参考Google收购Android后，整个移动生态最后是怎么走向的——平台中立性，往往是收购后第一个被悄悄削弱的承诺。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 15px 30px 0 30px;">
+    <span style="font-size: 15px; color: #333333; line-height: 1.9; text-indent: 2em; display: block;">但即便如此，<b>这场战役的真正意义已经发生了</b>：过去十年，每当有人挑战CUDA，行业的反应是「不可能」；现在，当扎克伯格亲自下单、高通砸出39亿美元、微软开始测试，反应变成了「也许可以」。</span>
+  </td></tr>
+
+  <!-- 段七：The End -->
+  <tr><td style="border: none; padding: 30px 30px 20px 30px; text-align: center;">
+    <span style="font-size: 18px; font-weight: bold; color: #6366f1; letter-spacing: 2px;">The End</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 0 30px 20px 30px;">
+    <span style="font-size: 15px; color: #555555; line-height: 1.9; text-indent: 2em; display: block; font-style: italic;">CUDA并不会一夜倒下。一棵长了二十年的生态树，根系太深、信徒太多。但当编程语言界的达尔文带着一把刻有「Python超集」的剑站到舞台中央，当扎克伯格用真金白银替他背书，AI硬件世界的多极化就已经从「论文里的可能性」变成了「采购合同里的事实」。</span>
+  </td></tr>
+  <tr><td style="border: none; padding: 0 30px 20px 30px;">
+    <span style="font-size: 15px; color: #555555; line-height: 1.9; text-indent: 2em; display: block; font-style: italic;">2600万美元买一个人，硅谷算的不是数学题，是<b>从CUDA帝国分一杯羹</b>的入场券。</span>
+  </td></tr>
+
+  <!-- 原创声明 -->
+  <tr><td style="border: none; padding: 0 30px 20px 30px;">
+    <table width="617" cellpadding="0" cellspacing="0" border="0" align="center" style="border:none;border-collapse:collapse;margin:0 auto;background-color:#f8fafc;border-radius:8px;">
+      <tr style="border:none;">
+        <td style="border:none;padding:20px;text-align:center;">
+          <p style="margin:0 0 10px 0;font-size:14px;color:#6366f1;font-weight:bold;">✦ 原创声明 ✦</p>
+          <p style="margin:0 0 8px 0;font-size:15px;color:#6366f1;font-weight:bold;">晓色</p>
+          <p style="margin:0;font-size:12px;color:#888888;">未经授权禁止转载，侵权必究</p>
+        </td>
+      </tr>
+    </table>
+  </td></tr>
+
+  <!-- Footer -->
+  <tr><td style="border: none; padding: 20px 30px 30px 30px; text-align: center; background-color: #fafafa;">
+    <span style="font-size: 12px; color: #999999; display: block; line-height: 1.8;">AI News Daily · 每日AI深度内容 · ainewsdaily.asia</span>
+  </td></tr>
+</table>
+</body>
+</html>

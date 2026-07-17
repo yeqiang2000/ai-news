@@ -1,0 +1,16 @@
+{
+  "id": "article-35",
+  "date": "2026-07-06",
+  "title_zh": "Meta Compute 的临界点：AI 头部厂商第一次从算力买家转身为算力卖家",
+  "title_en": "Meta Compute's Inflection Point: Top AI Vendor Turns from Compute Buyer to Compute Seller for the First Time",
+  "subtitle_zh": "2026 年 7 月 1 日彭博社独家披露 Meta 内部代号 Meta Compute 的云基础设施业务——两条路径：一是把 Llama、Muse Spark 等模型开放给企业客户按 Token 用量收费，二是把 GPU 集群按小时租出去；Meta 当日股价 +8.8%、市值 +1270 亿美元，CoreWeave -13.92%、Nebius -17.01%。本文从事实核对、算力供给曲线、双轨模式经济学、生态位重塑、前车之鉴、监管与地缘 6 个维度，拆解 AI 头部厂商第一次从「单一买家」转身为「供需双重角色」的产业拐点。",
+  "subtitle_en": "On July 1, 2026, Bloomberg exclusively broke Meta's internal cloud infrastructure play codenamed Meta Compute — two parallel tracks: (1) opening Llama and Muse Spark via API on a token-usage basis, (2) hourly GPU cluster rental. Meta rose 8.8% that day (+$127B market cap); CoreWeave -13.92%, Nebius -17.01%. This piece dissects the inflection where a top AI vendor first transitions from \"single buyer\" to \"dual buyer-seller\" across six dimensions: fact check, compute supply curve, dual-track economics, ecosystem repositioning, precedents, regulation and geopolitics.",
+  "url_zh": "articles/article-35.html",
+  "url_en": "articles/en/article-35.html",
+  "summary_zh": "2026 年 7 月 1 日，彭博社独家披露 Meta 内部推进代号 Meta Compute 的云基础设施业务——两条路径同步推进：一是把 Llama、Muse Spark 等模型开放给企业客户按 Token 用量收费，对标 AWS Bedrock；二是把 GPU 集群按小时租出去，对标 CoreWeave。消息一出资本市场当场投票——Meta 股价 +8.8%、市值增加约 1270 亿美元；CoreWeave 大跌 13.92%、Nebius 暴跌 17.01%、美光、闪迪跌超 10%；市场逻辑很简单：Meta 既是它们最大的客户之一，如今又要变成最直接的竞争对手。Meta 2026 年 capex 指引 1250-1450 亿美元、较 2025 年 722 亿几乎翻倍；一季度末累计承诺 1829 亿美元用于 AI 基础设施；Jefferies 数据显示 Meta 数据中心内部利用率约 65%、35% 闲置。项目由基础设施负责人 Santosh Janardhan、Meta Superintelligence Labs AI 部门 Daniel Gross、总裁 Dina Powell McCormick 共同领导。这是 AI 头部厂商第一次从「单纯算力买家」升级为「供需双重角色」，标志着算力供给曲线的根本性重塑。本文从事实核对、算力供给曲线、双轨模式经济学、生态位重塑、前车之鉴、监管与地缘 6 个维度全面拆解。",
+  "summary_en": "On July 1, 2026, Bloomberg exclusively broke Meta's internal cloud infrastructure play codenamed Meta Compute — two parallel tracks: (1) opening Llama, Muse Spark via API on a token-usage basis, benchmarking AWS Bedrock; (2) hourly GPU cluster rental, benchmarking CoreWeave. The market voted instantly — Meta +8.8% (+$127B market cap); CoreWeave -13.92%, Nebius -17.01%, Micron and SanDisk each down over 10%. The logic is simple: Meta is both their largest customer and about to become their most direct competitor. Meta's 2026 capex guidance is $125-145B, nearly double the 2025 actual $72.2B; Q1 end cumulative $182.9B AI infrastructure commitments; Jefferies data shows internal utilization ~65% with 35% idle. The project is co-led by infrastructure head Santosh Janardhan, Meta Superintelligence Labs AI executive Daniel Gross, and President Dina Powell McCormick. This is the first time a top AI vendor upgrades from \"pure compute buyer\" to \"dual buyer-seller,\" marking a fundamental reshaping of the compute supply curve. This piece dissects across six dimensions: fact check, compute supply curve, dual-track economics, ecosystem repositioning, precedents, regulation and geopolitics.",
+  "category": "产业",
+  "category_en": "Industry Analysis",
+  "image": "img/pool/industry-neocloud-v4.jpg",
+  "read_time": "16 min read"
+}
