@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-07-18",
   "used_urls": [
     "https://ainewsdaily.asia/img/pool/autonomous-drone-v3.jpg",
     "https://ainewsdaily.asia/img/pool/blockchain-defi-v3.jpg",
@@ -314,7 +314,20 @@
     "https://ainewsdaily.asia/img/pool/industry-03-v5.jpg",
     "https://ainewsdaily.asia/img/pool/open_source-02-v5.jpg",
     "https://ainewsdaily.asia/img/pool/LLM-06-v5.jpg",
-    "https://ainewsdaily.asia/img/pool/chips-03-v5.jpg"
+    "https://ainewsdaily.asia/img/pool/chips-03-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/LLM-07-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/policy-07-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/deep_analysis-05-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/policy-10-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/deep_analysis-06-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/AI_applications-06-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/chips-06-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/investment-05-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/industry-04-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/investment-07-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/investment-08-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/LLM-09-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/chips-07-v5.jpg"
   ],
-  "total_used": 313
+  "total_used": 326
 }

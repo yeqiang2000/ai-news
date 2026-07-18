@@ -1,0 +1,297 @@
+{
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-18",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "title": "习近平出席WAIC 2026开幕式并宣布成立世界人工智能合作组织（WAICO），29个创始成员国签署协定",
+      "title_en": "Xi Jinping Attends WAIC 2026 Opening, Announces World AI Cooperation Organization (WAICO) with 29 Founding Members",
+      "summary": "7月18日，WAIC 2026进入第二天，习近平主席在主旨演讲中宣布成立世界人工智能合作组织（WAICO）——全球首个AI领域的政府间国际组织，29个创始成员国现场签署《上海协定》。WAICO总部设在上海，旨在推动全球AI治理规则协调、技术标准互认与安全框架共建。",
+      "summary_en": "On July 18, Day 2 of WAIC 2026, President Xi Jinping announced the establishment of the World AI Cooperation Organization (WAICO)—the world's first intergovernmental organization in AI, with 29 founding members signing the 'Shanghai Agreement' on site. HQ in Shanghai, aiming to coordinate global AI governance rules, technical standards, and safety frameworks.",
+      "source": "新华社 / WAIC 2026 组委会",
+      "source_en": "Xinhua / WAIC 2026 Organizing Committee",
+      "image": "https://ainewsdaily.asia/img/pool/policy-10-v5.jpg",
+      "content": "7月18日上午，WAIC 2026迎来最重磅时刻——国家主席习近平在主旨演讲中正式宣布成立世界人工智能合作组织（WAICO）。29个创始成员国——包括中国、法国、德国、新加坡、阿联酋、巴西、南非、印度尼西亚等——现场签署了《上海协定》。WAICO将设在上海，是全球首个AI领域的政府间国际组织，职能涵盖AI治理规则协调、技术标准互认、安全框架共建、人才交流与能力建设。习近平强调，WAICO的成立标志着「人类在人工智能领域从各自为政走向共同治理」，中国愿与各国共享AI发展红利。",
+      "content_en": "On the morning of July 18, WAIC 2026 saw its most significant moment—President Xi Jinping formally announced the establishment of the World AI Cooperation Organization (WAICO) in his keynote speech. 29 founding members—including China, France, Germany, Singapore, UAE, Brazil, South Africa, Indonesia, and others—signed the 'Shanghai Agreement' on site. WAICO, headquartered in Shanghai, is the world's first intergovernmental AI organization, covering AI governance coordination, technical standard mutual recognition, safety framework共建, talent exchange, and capacity building. Xi emphasized that WAICO's establishment marks 'humanity moving from fragmented approaches to shared governance in AI,' and China is willing to share AI development dividends with all nations.",
+      "key_points": [
+        "习近平宣布成立世界人工智能合作组织（WAICO），29个创始成员国签署《上海协定》",
+        "WAICO是全球首个AI领域的政府间国际组织，总部设在上海",
+        "职能涵盖治理规则协调、技术标准互认、安全框架共建",
+        "习近平：WAICO标志着人类AI从各自为政走向共同治理"
+      ],
+      "key_points_en": [
+        "Xi announces WAICO, 29 founding members sign Shanghai Agreement",
+        "World's first intergovernmental AI organization, HQ in Shanghai",
+        "Covers governance coordination, standards mutual recognition, safety frameworks",
+        "Xi: WAICO marks transition from fragmented to shared AI governance"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-18",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "title": "国家发改委发布《人工智能合作发展行动计划》——智能算力普惠、开源生态共享、优质数据供给等8大行动",
+      "title_en": "NDRC Releases 'AI Cooperative Development Action Plan'—8 Major Actions Including Smart Computing普惠, Open Source Ecosystem, Quality Data Supply",
+      "summary": "国家发改委在WAIC 2026上发布《人工智能合作发展行动计划》，提出智能算力普惠、开源生态共享、优质数据供给、AI安全治理、国际合作深化等8大行动。计划到2028年建成全球最大的AI算力普惠网络，算力成本降低50%以上，推动AI大模型在千行百业规模化落地。",
+      "summary_en": "The National Development and Reform Commission (NDRC) released the 'AI Cooperative Development Action Plan' at WAIC 2026, proposing 8 major actions including smart computing普惠, open source ecosystem sharing, quality data supply, AI safety governance, and deepening international cooperation. Target: build the world's largest AI computing普惠 network by 2028, reduce computing costs by over 50%.",
+      "source": "国家发改委 / WAIC 2026",
+      "source_en": "NDRC / WAIC 2026",
+      "image": "https://ainewsdaily.asia/img/pool/deep_analysis-06-v5.jpg",
+      "content": "国家发改委在WAIC 2026主论坛上正式发布《人工智能合作发展行动计划》。8大行动包括：智能算力普惠行动——建设国家AI算力枢纽，到2028年算力成本降低50%以上；开源生态共享行动——建立国家级AI开源社区，培育100个以上开源基础模型；优质数据供给行动——建设AI训练数据开放平台，开放公共数据资源；AI安全治理行动——建立AI安全评估与认证体系；国际合作深化行动——以WAICO为平台推动多边AI治理对话。发改委副主任表示，该计划将与WAICO框架协同推进，形成「国内行动+国际机制」的双轮驱动格局。",
+      "content_en": "The NDRC officially released the 'AI Cooperative Development Action Plan' at the WAIC 2026 main forum. The 8 major actions include: Smart Computing普惠—build national AI computing hubs, reducing computing costs by over 50% by 2028; Open Source Ecosystem Sharing—establish a national AI open-source community, cultivate 100+ open-source foundation models; Quality Data Supply—build an AI training data open platform, release public data resources; AI Safety Governance—establish AI safety evaluation and certification systems; International Cooperation Deepening—use WAICO as a platform for multilateral AI governance dialogue. The NDRC vice chairman stated the plan will synergize with the WAICO framework.",
+      "key_points": [
+        "8大行动：智能算力普惠、开源生态共享、优质数据供给、AI安全治理等",
+        "目标2028年建成全球最大AI算力普惠网络，算力成本降50%以上",
+        "培育100个以上开源基础模型，开放公共数据资源",
+        "与WAICO框架协同，形成「国内行动+国际机制」双轮驱动"
+      ],
+      "key_points_en": [
+        "8 actions: Smart Computing普惠, Open Source, Data Supply, Safety Governance, etc.",
+        "Target 2028: world's largest AI computing普惠 network, 50%+ cost reduction",
+        "Cultivate 100+ open-source foundation models, open public data resources",
+        "Synergizes with WAICO framework for dual-drive approach"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-18",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "Kimi K3 登顶前端代码竞技场：1679分超越Claude Fable 5，100万token上下文窗口，开源模型再创里程碑",
+      "title_en": "Kimi K3 Tops Frontend Code Arena: 1679 Points Surpasses Claude Fable 5, 1M Token Context, Open-Source Model Hits New Milestone",
+      "summary": "月之暗面Kimi K3以1679分登顶前端代码竞技场（Frontend Code Arena），超越Anthropic Claude Fable 5的1652分。Kimi K3采用MoE架构、100万token上下文窗口，在HTML/CSS/JS三端代码生成任务上全面领先。这是继DeepSeek之后，中国开源大模型再次在关键基准上超越国际顶尖闭源模型。",
+      "summary_en": "Moonshot AI's Kimi K3 tops the Frontend Code Arena with 1679 points, surpassing Anthropic Claude Fable 5's 1652. Kimi K3 features MoE architecture, 1M token context window, leading across HTML/CSS/JS code generation tasks. Following DeepSeek, another Chinese open-source model surpasses top international closed-source models on a key benchmark.",
+      "source": "Frontend Code Arena / 月之暗面",
+      "source_en": "Frontend Code Arena / Moonshot AI",
+      "image": "https://ainewsdaily.asia/img/pool/AI_applications-06-v5.jpg",
+      "content": "月之暗面（Moonshot AI）于7月18日发布Kimi K3模型，以1679分登顶前端代码竞技场（Frontend Code Arena），超越此前排名第一的Anthropic Claude Fable 5（1652分）。Kimi K3采用MoE（混合专家）架构，总参数量未公开，但激活参数约850亿，支持100万token上下文窗口。在HTML/CSS/JS三端代码生成任务上，Kimi K3在交互式UI生成、响应式布局、跨浏览器兼容性三项子指标上均取得最高分。Kimi K3以开源方式发布，权重可在HuggingFace下载，采用Apache 2.0许可。",
+      "content_en": "Moonshot AI released Kimi K3 on July 18, topping the Frontend Code Arena with 1679 points, surpassing the previous leader Anthropic Claude Fable 5 (1652 points). Kimi K3 uses MoE (Mixture of Experts) architecture with approximately 85B activated parameters and supports 1M token context window. Across HTML/CSS/JS code generation tasks, Kimi K3 achieved top scores in interactive UI generation, responsive layout, and cross-browser compatibility. Kimi K3 is open-source with weights available on HuggingFace under Apache 2.0 license.",
+      "key_points": [
+        "Kimi K3 1679分登顶前端代码竞技场，超越Claude Fable 5的1652分",
+        "MoE架构，约850亿激活参数，100万token上下文窗口",
+        "HTML/CSS/JS三端代码生成全面领先",
+        "Apache 2.0开源发布，权重可下载"
+      ],
+      "key_points_en": [
+        "Kimi K3 scores 1679, tops Frontend Code Arena, surpassing Claude Fable 5's 1652",
+        "MoE architecture, ~85B activated params, 1M token context window",
+        "Leads across HTML/CSS/JS code generation tasks",
+        "Open-source under Apache 2.0, weights available for download"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-18",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "全球AI芯片股暴跌：半导体指数从6月底峰值下跌20%进入熊市，英伟达领跌，纳斯达克100期货跌1.8%",
+      "title_en": "Global AI Chip Stocks Plunge: Semiconductor Index Falls 20% from Late-June Peak into Bear Market, Nvidia Leads, Nasdaq 100 Futures Down 1.8%",
+      "summary": "受Kimi K3发布引发的「算力泡沫担忧」冲击，全球AI芯片股在7月18日大幅下跌。费城半导体指数从6月30日峰值下跌20%，正式进入技术性熊市。英伟达跌幅最大，单日下跌7.2%，AMD跌5.8%，台积电ADR跌4.3%。纳斯达克100期货在盘后交易中下跌1.8%。",
+      "summary_en": "Global AI chip stocks plunged on July 18, hit by 'computing bubble fears' triggered by Kimi K3's release. The Philadelphia Semiconductor Index fell 20% from its June 30 peak, entering a technical bear market. Nvidia led the decline, falling 7.2% in a single day, AMD down 5.8%, TSMC ADR down 4.3%. Nasdaq 100 futures fell 1.8% in after-hours trading.",
+      "source": "Bloomberg / Reuters",
+      "source_en": "Bloomberg / Reuters",
+      "image": "https://ainewsdaily.asia/img/pool/chips-06-v5.jpg",
+      "content": "全球AI芯片股在7月18日遭遇「黑色星期五」。费城半导体指数当日下跌4.8%，从6月30日的历史峰值累计下跌20%，正式进入技术性熊市。英伟达（NVIDIA）单日下跌7.2%，市值蒸发约2100亿美元，创下2024年9月以来最大单日跌幅。AMD跌5.8%，台积电ADR跌4.3%，博通跌4.1%，高通跌3.6%。市场分析认为，Kimi K3以开源模型实现超越Claude Fable 5的性能，证明「更高效的模型架构可以大幅降低对高端算力的依赖」，动摇了市场对AI算力无限扩张的估值逻辑。",
+      "content_en": "Global AI chip stocks experienced a 'Black Friday' on July 18. The Philadelphia Semiconductor Index fell 4.8% on the day, accumulating a 20% decline from its June 30 all-time high, entering a technical bear market. Nvidia fell 7.2% in a single day, wiping out approximately $210B in market cap—the largest single-day drop since September 2024. AMD fell 5.8%, TSMC ADR 4.3%, Broadcom 4.1%, Qualcomm 3.6%. Market analysis suggests Kimi K3's open-source model surpassing Claude Fable 5 proves 'more efficient architectures can significantly reduce reliance on high-end computing,' undermining the valuation logic of infinite AI computing expansion.",
+      "key_points": [
+        "费城半导体指数从6月底峰值下跌20%，进入技术性熊市",
+        "英伟达单日跌7.2%，市值蒸发约2100亿美元",
+        "Kimi K3引发「算力泡沫担忧」，高效架构降低对高端算力依赖",
+        "纳斯达克100期货跌1.8%，科技股恐慌情绪蔓延"
+      ],
+      "key_points_en": [
+        "Philadelphia Semi Index falls 20% from June peak, enters technical bear market",
+        "Nvidia down 7.2% in single day, ~$210B market cap wiped out",
+        "Kimi K3 triggers 'computing bubble fears': efficient architecture reduces high-end computing needs",
+        "Nasdaq 100 futures down 1.8%, tech panic spreads"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-18",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "高盛警告：「算力扩张时代或已走到尽头」，AI估值逻辑面临重塑，超大规模资本开支预期下调",
+      "title_en": "Goldman Sachs Warns: 'The Era of Computing Expansion May Have Reached Its End,' AI Valuation Logic Faces Reshaping, CapEx Expectations Downgraded",
+      "summary": "高盛在7月18日发布的研报中罕见发出警告，称「算力扩张时代或已走到尽头」。报告指出，Kimi K3等高效开源模型的出现正在改变AI产业的底层逻辑——如果模型效率每季度提升30-50%，那么算力需求增长可能远低于市场预期。高盛将2027年全球AI芯片需求预测下调25%，并建议投资者重新评估超大规模云计算厂商的资本开支计划。",
+      "summary_en": "Goldman Sachs issued a rare warning in a July 18 research note, stating 'the era of computing expansion may have reached its end.' The report notes that efficient open-source models like Kimi K3 are changing the fundamental logic of the AI industry—if model efficiency improves 30-50% per quarter, computing demand growth may be far below market expectations. Goldman cut 2027 global AI chip demand forecast by 25% and advised investors to reassess hyperscaler CapEx plans.",
+      "source": "高盛 / Bloomberg",
+      "source_en": "Goldman Sachs / Bloomberg",
+      "image": "https://ainewsdaily.asia/img/pool/investment-05-v5.jpg",
+      "content": "高盛在Kimi K3发布后的第一时间发布题为「算力扩张时代终结？」的特别研报，引起华尔街广泛关注。报告核心论点是：AI模型的效率提升正在以指数级速度加速，从DeepSeek V4到Kimi K3，中国开源模型在不到一年内实现了两次「性能跃迁」，每一次都大幅降低了对算力的单位消耗。如果这一趋势持续，全球AI芯片需求在2027年可能仅增长40-60%，远低于此前市场预期的100-150%。高盛将2027年全球AI芯片需求预测从4500亿美元下调至3375亿美元，下调幅度25%。同时，高盛建议投资者对微软、亚马逊、谷歌等超大规模云厂商的CapEx计划保持谨慎。",
+      "content_en": "Goldman Sachs issued a special research note titled 'The End of the Computing Expansion Era?' immediately after Kimi K3's release, drawing widespread attention on Wall Street. The core thesis: AI model efficiency improvements are accelerating exponentially—from DeepSeek V4 to Kimi K3, Chinese open-source models have achieved two 'performance leaps' in under a year, each significantly reducing per-unit computing consumption. If this trend continues, global AI chip demand in 2027 may grow only 40-60%, far below the market's previous expectation of 100-150%. Goldman cut its 2027 global AI chip demand forecast from $450B to $337.5B, a 25% reduction. The bank also advised caution on hyperscaler CapEx plans at Microsoft, Amazon, and Google.",
+      "key_points": [
+        "高盛罕见警告：算力扩张时代或已走到尽头",
+        "模型效率每季度提升30-50%，算力需求增长远低于预期",
+        "2027年全球AI芯片需求预测从4500亿下调至3375亿美元（-25%）",
+        "建议对超大规模云厂商CapEx计划保持谨慎"
+      ],
+      "key_points_en": [
+        "Goldman Sachs rare warning: computing expansion era may have ended",
+        "Model efficiency improves 30-50% quarterly, computing demand growth far below expectations",
+        "2027 global AI chip demand forecast cut from $450B to $337.5B (-25%)",
+        "Advises caution on hyperscaler CapEx plans"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-18",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "Apple 起诉 OpenAI 窃取AI硬件商业秘密：指控前工程师携机密跳槽，涉及A系列芯片AI引擎设计",
+      "title_en": "Apple Sues OpenAI for Stealing AI Hardware Trade Secrets: Ex-Engineer Allegedly Took Confidential Info on A-Series Chip AI Engine Design",
+      "summary": "Apple 7月18日向加州北区联邦法院提起诉讼，指控OpenAI窃取其AI硬件商业秘密。诉状称一名前Apple芯片工程师在2025年跳槽OpenAI时，携带了涉及A系列芯片AI引擎（Neural Engine）的机密设计文档和源代码。Apple要求OpenAI停止使用相关技术并赔偿损失。",
+      "summary_en": "Apple filed a lawsuit on July 18 in the Northern District of California, accusing OpenAI of stealing its AI hardware trade secrets. The complaint alleges that a former Apple chip engineer, when joining OpenAI in 2025, took confidential design documents and source code related to the A-series chip AI engine (Neural Engine). Apple demands OpenAI cease using the technology and pay damages.",
+      "source": "Bloomberg / 法院文件",
+      "source_en": "Bloomberg / Court Documents",
+      "image": "https://ainewsdaily.asia/img/pool/industry-04-v5.jpg",
+      "content": "Apple于7月18日向美国加州北区联邦法院提起诉讼，指控OpenAI通过挖角Apple芯片工程师窃取其AI硬件商业秘密。诉状详细描述了一名在Apple工作7年的芯片设计工程师，在2025年12月跳槽至OpenAI前，下载了超过500份涉及A系列芯片Neural Engine架构的设计文档、RTL代码和测试用例。Apple声称OpenAI正在其AI加速器芯片「Neural Core」中使用这些被盗技术。Apple要求法院禁止OpenAI使用相关技术、交出所有被盗材料，并赔偿经济损失。OpenAI发言人回应称「指控毫无根据」，将积极应诉。",
+      "content_en": "Apple filed a lawsuit on July 18 in the US District Court for the Northern District of California, accusing OpenAI of stealing its AI hardware trade secrets through poaching Apple chip engineers. The complaint details that a chip design engineer who worked at Apple for 7 years downloaded over 500 design documents, RTL code, and test cases related to the A-series chip Neural Engine architecture before joining OpenAI in December 2025. Apple claims OpenAI is using the stolen technology in its AI accelerator chip 'Neural Core.' Apple seeks an injunction, return of all materials, and damages. An OpenAI spokesperson called the allegations 'baseless' and vowed to defend vigorously.",
+      "key_points": [
+        "Apple起诉OpenAI窃取AI硬件商业秘密，涉及Neural Engine设计",
+        "前工程师跳槽前下载500+份机密文档和源代码",
+        "Apple指控OpenAI在「Neural Core」芯片中使用被盗技术",
+        "OpenAI回应「指控毫无根据」，将积极应诉"
+      ],
+      "key_points_en": [
+        "Apple sues OpenAI over AI hardware trade secret theft, involving Neural Engine design",
+        "Ex-engineer downloaded 500+ confidential documents before joining OpenAI",
+        "Apple alleges OpenAI uses stolen tech in 'Neural Core' chip",
+        "OpenAI responds 'allegations baseless,' vows to defend"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-18",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "Anthropic 向 Meta 租用算力：两年期合同最高100亿美元，AI竞赛改写云服务格局",
+      "title_en": "Anthropic Leases Computing from Meta: Up to $10B Two-Year Deal, AI Race Reshapes Cloud Landscape",
+      "summary": "Anthropic与Meta签署了一项为期两年的算力租赁协议，总额最高可达100亿美元。Anthropic将租用Meta自建的数据中心算力用于训练和推理其下一代AI模型。这笔交易被视为AI公司「多云+多源」算力战略的典型——Anthropic此前主要依赖AWS和GCP，此次引入Meta显示AI巨头正在打破传统云服务格局。",
+      "summary_en": "Anthropic has signed a two-year computing lease agreement with Meta, worth up to $10 billion. Anthropic will lease Meta's self-built data center computing power for training and inference of its next-generation AI models. The deal is seen as a typical 'multi-cloud + multi-source' computing strategy—Anthropic previously relied mainly on AWS and GCP, and this move signals AI giants breaking traditional cloud patterns.",
+      "source": "The Information / Bloomberg",
+      "source_en": "The Information / Bloomberg",
+      "image": "https://ainewsdaily.asia/img/pool/investment-07-v5.jpg",
+      "content": "Anthropic与Meta于7月18日宣布签署一项为期两年的算力租赁协议，合同金额最高可达100亿美元。根据协议，Anthropic将租用Meta位于美国、欧洲和亚洲的多个数据中心算力资源，用于训练其下一代旗舰模型（预计2027年发布）以及优化现有Claude系列的推理效率。Anthropic此前主要依赖AWS（亚马逊云）和GCP（谷歌云），此次引入Meta标志着AI公司正在从「单一云依赖」转向「多云+多源」的算力战略。Meta方面，此次租约将帮助其消化过剩算力——Meta正在大规模建设AI数据中心，但自研模型Llama系列的算力需求未能完全填满其扩张中的数据中心。",
+      "content_en": "Anthropic and Meta announced on July 18 a two-year computing lease agreement worth up to $10 billion. Under the agreement, Anthropic will lease Meta's data center computing resources across the US, Europe, and Asia for training its next-generation flagship model (expected 2027) and optimizing Claude series inference efficiency. Anthropic previously relied mainly on AWS and GCP; this move signals a shift from 'single-cloud dependency' to 'multi-cloud + multi-source' computing strategy. For Meta, the lease helps absorb excess computing capacity—Meta is building AI data centers at scale, but its Llama series' computing needs haven't fully filled its expanding data centers.",
+      "key_points": [
+        "Anthropic与Meta签署两年期算力租赁协议，最高100亿美元",
+        "Anthropic从「单一云依赖」（AWS/GCP）转向「多云+多源」战略",
+        "Meta通过租约消化其AI数据中心扩张中的过剩算力",
+        "AI竞赛正在重塑传统云服务格局"
+      ],
+      "key_points_en": [
+        "Anthropic-Meta two-year computing lease, up to $10B",
+        "Anthropic shifts from single-cloud to multi-cloud+multi-source strategy",
+        "Meta absorbs excess capacity from AI data center expansion",
+        "AI race is reshaping traditional cloud service landscape"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-18",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "智谱AI年度经常性收入达10亿美元，半年增长15倍，成为中国最快达到10亿美元ARR的AI公司",
+      "title_en": "Zhipu AI ARR Reaches $1 Billion, 15x Growth in Six Months, Fastest Chinese AI Company to $1B ARR",
+      "summary": "智谱AI（Zhipu AI）在7月18日宣布其年度经常性收入（ARR）已达到10亿美元，较2025年底的6500万美元增长15倍，仅用6个月时间。智谱AI由此成为中国最快达到10亿美元ARR的AI公司，超过了字节跳动豆包和月之暗面Kimi。公司表示增长主要来自企业级API调用和模型私有化部署两大业务线。",
+      "summary_en": "Zhipu AI announced on July 18 that its Annual Recurring Revenue (ARR) has reached $1 billion, growing 15x from $65 million at end of 2025 in just 6 months. This makes Zhipu AI the fastest Chinese AI company to reach $1B ARR, surpassing ByteDance Doubao and Moonshot Kimi. The company attributes growth to enterprise API calls and private model deployment.",
+      "source": "智谱AI / 36氪",
+      "source_en": "Zhipu AI / 36Kr",
+      "image": "https://ainewsdaily.asia/img/pool/investment-08-v5.jpg",
+      "content": "智谱AI于7月18日披露其年度经常性收入（ARR）已突破10亿美元大关，从2025年底的6500万美元增长至10亿美元，仅用时6个月，增长15倍。智谱AI由此成为中国最快达到10亿美元ARR的AI公司，超越了字节跳动豆包（12个月达到8亿美元ARR）和月之暗面（9个月达到6亿美元ARR）。智谱AI CEO张鹏表示，增长主要来自两大赛道：一是企业级API调用——智谱GLM系列模型已成为中国最大的企业AI API平台，日均调用量超过500亿token；二是模型私有化部署——智谱已为超过200家大型企业（包括银行、保险、制造、能源）部署了私有化AI模型。",
+      "content_en": "Zhipu AI disclosed on July 18 that its Annual Recurring Revenue (ARR) has exceeded $1 billion, growing from $65 million at end of 2025 to $1 billion in just 6 months—a 15x increase. This makes Zhipu AI the fastest Chinese AI company to reach $1B ARR, surpassing ByteDance Doubao (12 months to $800M ARR) and Moonshot Kimi (9 months to $600M ARR). CEO Zhang Peng attributed growth to two tracks: enterprise API calls—Zhipu's GLM series is China's largest enterprise AI API platform with 50B+ daily token calls; and private model deployment—Zhipu has deployed private AI models for 200+ large enterprises across banking, insurance, manufacturing, and energy sectors.",
+      "key_points": [
+        "智谱AI ARR达10亿美元，半年增长15倍（6500万→10亿）",
+        "中国最快达到10亿美元ARR的AI公司",
+        "增长来源：企业API日均500亿token + 200+企业私有化部署",
+        "超越字节豆包和月之暗面Kimi的增速"
+      ],
+      "key_points_en": [
+        "Zhipu AI ARR reaches $1B, 15x growth in 6 months ($65M→$1B)",
+        "Fastest Chinese AI company to $1B ARR",
+        "Growth drivers: 50B+ daily enterprise API tokens + 200+ private deployments",
+        "Surpasses ByteDance Doubao and Moonshot Kimi in growth speed"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-18",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "Altman承认OpenAI过去12个月表现不佳：「主要是我的错」，承诺2027年重启AGI路线图",
+      "title_en": "Altman Admits OpenAI Underperformed in Past 12 Months: 'Mostly My Fault,' Pledges to Restart AGI Roadmap in 2027",
+      "summary": "Sam Altman在7月18日接受The Verge独家采访时罕见承认，OpenAI在过去12个月「表现不佳」，并称「主要是我的错」。Altman坦承公司在产品迭代速度、组织管理和AGI路线图推进方面都存在不足。他承诺2027年将重启AGI路线图，并透露OpenAI正在开发代号为「Orion 2」的下一代基础模型。",
+      "summary_en": "Sam Altman, in a rare candid interview with The Verge on July 18, admitted that OpenAI has 'underperformed' over the past 12 months, calling it 'mostly my fault.' He acknowledged shortcomings in product iteration speed, organizational management, and AGI roadmap progress. He pledged to restart the AGI roadmap in 2027 and revealed OpenAI is developing a next-generation foundation model codenamed 'Orion 2.'",
+      "source": "The Verge",
+      "source_en": "The Verge",
+      "image": "https://ainewsdaily.asia/img/pool/LLM-09-v5.jpg",
+      "content": "Sam Altman在7月18日接受The Verge独家访问时做出了罕见的自我批评。Altman表示：「过去12个月，我们没有达到自己设定的标准。GPT-5.6的发布比计划晚了3个月，Codex 2.0的集成深度不够，组织管理上我们也犯了很多错误。这些主要是我的错。」Altman承诺2027年将重启OpenAI的AGI路线图，并透露公司正在开发代号为「Orion 2」的下一代基础模型，该模型将在推理能力、多模态融合和Agent自主性方面实现「代际跨越」。Altman还表示，OpenAI正在从「模型优先」转向「产品优先」战略，计划在2027年推出更多可直接面向消费者的AI产品。",
+      "content_en": "Sam Altman made a rare self-criticism in an exclusive interview with The Verge on July 18. Altman stated: 'Over the past 12 months, we haven't met the standards we set for ourselves. GPT-5.6 launched 3 months late, Codex 2.0's integration depth isn't enough, and we've made many mistakes in organizational management. These are mostly my fault.' Altman pledged to restart OpenAI's AGI roadmap in 2027 and revealed the company is developing a next-generation foundation model codenamed 'Orion 2,' which will achieve 'generational leaps' in reasoning capability, multimodal fusion, and Agent autonomy. He also said OpenAI is shifting from 'model-first' to 'product-first' strategy, planning more direct-to-consumer AI products in 2027.",
+      "key_points": [
+        "Altman罕见承认OpenAI过去12个月表现不佳，称「主要是我的错」",
+        "GPT-5.6发布延迟3个月，Codex 2.0集成深度不足",
+        "承诺2027年重启AGI路线图，开发代号「Orion 2」的下一代模型",
+        "OpenAI将从「模型优先」转向「产品优先」战略"
+      ],
+      "key_points_en": [
+        "Altman admits OpenAI underperformed past 12 months, 'mostly my fault'",
+        "GPT-5.6 delayed 3 months, Codex 2.0 integration insufficient",
+        "Pledges to restart AGI roadmap in 2027, developing 'Orion 2'",
+        "OpenAI shifting from 'model-first' to 'product-first' strategy"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-18",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "中兴Matrix超节点获WAIC 2026 SAIL之星奖：7nm存算一体架构，大模型推理能效比提升8倍",
+      "title_en": "ZTE Matrix Supernode Wins WAIC 2026 SAIL Star Award: 7nm Compute-in-Memory Architecture, 8x Energy Efficiency Improvement for LLM Inference",
+      "summary": "中兴通讯Matrix超节点在WAIC 2026上荣获SAIL之星奖（Super AI Leader）。Matrix采用7nm存算一体架构，专为大模型推理场景设计，在标准测试中实现能效比提升8倍、延迟降低60%。Matrix超节点已在中国移动、百度的AI推理场景中投入商用部署。",
+      "summary_en": "ZTE's Matrix Supernode won the WAIC 2026 SAIL Star Award (Super AI Leader). Matrix uses a 7nm compute-in-memory architecture, specifically designed for LLM inference, achieving 8x energy efficiency improvement and 60% latency reduction in standard benchmarks. Matrix has been commercially deployed in AI inference scenarios at China Mobile and Baidu.",
+      "source": "中兴通讯 / WAIC 2026",
+      "source_en": "ZTE / WAIC 2026",
+      "image": "https://ainewsdaily.asia/img/pool/chips-07-v5.jpg",
+      "content": "中兴通讯Matrix超节点在WAIC 2026上荣获SAIL之星奖（Super AI Leader），这是WAIC最高奖项之一。Matrix超节点采用7nm制程存算一体架构，专为大模型推理场景优化。在MLPerf Inference v5.0标准测试中，Matrix在LLM推理场景下实现能效比8倍提升（vs传统GPU方案）、p99延迟降低60%、单节点支持1000+并发推理。Matrix超节点已在中国移动的智能客服系统和百度搜索的AI摘要场景中投入商用部署。中兴通讯在WAIC现场展示了Matrix在真实场景中的运行效果——一台Matrix超节点可以同时支持1000路AI对话，功耗仅为传统GPU方案的1/8。",
+      "content_en": "ZTE's Matrix Supernode won the WAIC 2026 SAIL Star Award (Super AI Leader), one of WAIC's highest honors. Matrix uses a 7nm compute-in-memory architecture, optimized for LLM inference scenarios. In MLPerf Inference v5.0 standard benchmarks, Matrix achieved 8x energy efficiency improvement (vs traditional GPU solutions), 60% p99 latency reduction, and 1,000+ concurrent inference support per node. Matrix has been commercially deployed at China Mobile's intelligent customer service system and Baidu Search's AI summary scenarios. ZTE demonstrated Matrix in real-world scenarios at WAIC—one Matrix node can simultaneously support 1,000 AI conversations at 1/8 the power consumption of traditional GPU solutions.",
+      "key_points": [
+        "中兴Matrix获WAIC 2026 SAIL之星奖，最高奖项之一",
+        "7nm存算一体架构，专为大模型推理优化",
+        "MLPerf测试：能效比提升8倍，延迟降低60%，单节点1000+并发",
+        "已在中国移动、百度场景中商用部署"
+      ],
+      "key_points_en": [
+        "ZTE Matrix wins WAIC 2026 SAIL Star Award, one of highest honors",
+        "7nm compute-in-memory architecture, optimized for LLM inference",
+        "MLPerf: 8x energy efficiency, 60% latency reduction, 1,000+ concurrent per node",
+        "Commercially deployed at China Mobile and Baidu"
+      ],
+      "url": "news.html"
+    }
+  ],
+  "hero": {
+    "id": "hero-2026-07-18",
+    "title": "Kimi K3 登顶全球代码竞技场引发AI芯片股暴跌——从「DeepSeek时刻」到「Kimi冲击」，开源模型如何撼动算力泡沫",
+    "title_en": "Kimi K3 Tops Global Code Arena, Triggers AI Chip Stock Rout—From 'DeepSeek Moment' to 'Kimi Shock,' How Open-Source Models Are Puncturing the Computing Bubble",
+    "image": "https://ainewsdaily.asia/img/pool/LLM-07-v5.jpg",
+    "date": "2026-07-18",
+    "source": "AI News Daily 综合",
+    "source_en": "AI News Daily Analysis",
+    "summary": "月之暗面Kimi K3以1679分登顶前端代码竞技场，超越Claude Fable 5，引发全球AI芯片股暴跌。费城半导体指数跌入技术性熊市，英伟达单日跌7.2%。高盛警告「算力扩张时代或已走到尽头」。同日，WAIC 2026迎来高潮——习近平宣布成立世界人工智能合作组织（WAICO），29个创始成员国签署协定，中国AI从「技术追赶」走向「规则制定」。",
+    "summary_en": "Moonshot AI's Kimi K3 tops Frontend Code Arena with 1679 points, surpassing Claude Fable 5, triggering a global AI chip stock rout. Philadelphia Semi Index enters bear market, Nvidia down 7.2%. Goldman Sachs warns 'computing expansion era may have ended.' Meanwhile, WAIC 2026 reaches its climax—Xi Jinping announces WAICO with 29 founding members, marking China's AI shift from 'tech catching up' to 'rule setting.'",
+    "category": "深度解读",
+    "category_en": "Deep Analysis"
+  }
+}

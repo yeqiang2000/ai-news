@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "article-47",
+      "date": "2026-07-18",
+      "title": "WAIC 2026 开幕深度报道——习近平主席宣布成立世界人工智能合作组织（WAICO），中国AI从「技术追赶」到「规则制定」的转折点",
+      "title_en": "WAIC 2026 Deep Dive—President Xi Announces WAICO, China's AI Crosses from 'Tech Catching Up' to 'Rule Setting'",
+      "subtitle": "29个创始成员国签署《上海协定》，全球首个AI政府间国际组织诞生。从习近平开幕式讲话要点到国家发改委8大行动计划，全面解读WAIC 2026如何重塑全球AI治理格局。",
+      "subtitle_en": "29 founding members sign the Shanghai Agreement, the world's first intergovernmental AI organization is born. From Xi's keynote highlights to the NDRC's 8 action plans, a comprehensive look at how WAIC 2026 is reshaping global AI governance.",
+      "summary": "WAIC 2026 深度报道——习近平主席出席开幕式并宣布成立世界人工智能合作组织（WAICO），29个创始成员国签署协定。中国AI从「技术追赶」到「规则制定」的转折点，全球AI治理格局的里程碑事件。",
+      "summary_en": "WAIC 2026 deep dive—President Xi announces WAICO with 29 founding members. The inflection point where China's AI shifts from 'tech catching up' to 'rule setting,' a milestone in global AI governance.",
+      "image": "https://ainewsdaily.asia/img/pool/policy-07-v5.jpg",
+      "author": "AI News Daily",
+      "read_time": "15",
+      "url": "articles/article-47.html",
+      "url_en": "articles/en/article-47.html",
+      "source": "AI News Daily 综合报道"
+    },
+    {
       "id": "article-46",
       "date": "2026-07-17",
       "category": "深度解读",

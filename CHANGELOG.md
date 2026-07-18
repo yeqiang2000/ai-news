@@ -1260,3 +1260,25 @@
 - 部署: https://02009903.ainewsdaily.pages.dev
 - 生产域: https://ainewsdaily.asia
 - SEO 更新：sitemap.xml 已追加 article-45 中英文 URL，Yandex ping 失败（exit code 56，服务方网络问题），Google/Bing 需主人手动 GSC 提交
+## 2026-07-17 · 网站+微信 · article-46（隔天规则第 5 次落地，奇数日网站+微信，不写头条）
+
+### 网站版：article-46 上线
+- **主题**：《Google Gemini 3.5 Pro 延期——编程能力未达目标，旗舰模型推迟数月，内部派系斗争浮出水面，AI 编程格局加速洗牌：深度分析谷歌 AI 旗舰模型背后的技术、组织与竞争三重困境》
+- **切角**：从 7 个维度拆解 Google Gemini 3.5 Pro 延期——编程能力瓶颈（SWE-Bench 未达发布门槛）、内部派系斗争（云/DeepMind/Android AI 编程工具「三国杀」、布林与安全团队对立）、竞争格局（OpenAI Codex 2.0 76.3% vs Google 58.4%）、股价冲击（Alphabet 7/16 跌 4.4% 蒸发 850 亿）、Gemini 3.5 Flash 两极分化评价、产业启示。**与 article-45「WAIC 开幕」形成"全球 vs 中国"对比，与近期文章（article-38~45）清晰区隔**
+- **规模**：中文 21.5 KB + 英文 22.8 KB，18 分钟阅读
+
+### 微信版：Mira Murati 人物叙事
+- **主题**：《前 OpenAI CTO Mira Murati 创办 Thinking Machines Lab 发布 Inkling 开放权重模型——9750 亿参数 MoE、Apache 2.0、美国开放权重第一》
+- **切角**：从阿尔巴尼亚到达特茅斯、特斯拉、Leap Motion，到 OpenAI 五年黄金期（CTO 任内打造 ChatGPT/GPT-4/GPT-5）、2023 年 11 月临时 CEO 经历、2024 年 9 月离开，再到 2025 年 2 月创办 Thinking Machines Lab、2026 年 7 月 15 日发布 Inkling 模型（9750 亿参数 MoE、Apache 2.0），以及 Tinker 微调平台和安全开源哲学
+- **规模**：21.0 KB，含至少 1 张 hero `<img>`
+
+### 数据更新
+- articles.json 总数 45（编号 article-1~46，历史缺一个编号）
+- sitemap 96 URL（6 静态 + 45×2）
+- used-images total_used=313（+8），image-pool 376（余量 63）
+- news.json 保留 5 天（07-17~07-13），hero 更新为 Gemini 3.5 Pro 延期
+
+### 部署
+- commit `4bdba36`，部署 `4ada7e2c`
+- 侧边栏 10 条，首条 article-46
+- 3 项自检 + 3 次 curl 验证 + Yandex ping 全部通过
