@@ -1299,3 +1299,27 @@
 - image-pool：376（余50）
 - 最新 commit：`adcea73`
 - 部署 URL：https://f732fddc.ainewsdaily.pages.dev
+## 2026-07-19 · 网站+微信 · article-48（隔天规则第 7 次落地，奇数日网站+微信，不写头条）
+
+### 网站版：article-48 上线
+- **主题**：《商汤科技与国星宇航共建「商汤算力星座」——太空算力基础设施产业深度分析：从地面万卡集群到在轨多星协同，AI基础设施的「天地一体」新纪元》
+- **切角**：WAIC 2026 商汤与国星宇航宣布千星万P太空算力星座计划，上海「星枢计划」首发星座发布，优刻得太空算力样机亮相。从 WAIC 官宣到 SpaceX Starmind，中美太空算力路线首次正面交锋。**与 article-35（Meta 地面算力代工 2026-07-06）形成「天地对照」**
+- **规模**：中文 17.6 KB + 英文 28.2 KB
+
+### 微信版：wechat-2026-07-19.html 上线
+- **主题**：《从涨价宣言到降价 75%：奥特曼一年内的态度反转》
+- **切角**：奥特曼公开表态 GPT-5.6 Sol 再降价 75%，点名 Claude Fable 5 当靶子——从 CEO 视角看大模型价格战从暗战转明牌
+- **来源**：2026-07-18 系统主动推送 | 主人手动指定进微信池，本次消耗
+
+### 数据更新
+- articles.json: 47 篇（article-1~48，历史缺一个编号）
+- sitemap.xml: 100 URLs（6 静态 + 47×2）
+- used-images: 328（新增 industry-09-v5, llm-pricing-tier-v4）
+- 侧边栏: 10 条，首条 article-48（7/19），末条 article-39（7/10）
+- news.json: 5 天（07-19~07-15），hero=商汤算力星座
+
+### 部署信息
+- commit: 38f330c
+- pages.dev: https://e74975fd.ainewsdaily.pages.dev
+- 生产域名: https://ainewsdaily.asia
+- 部署验证: 自检 3 项全绿 + curl 3 次（sitemap 200/article-48 200/Yandex 202）
