@@ -282,7 +282,20 @@
           "url": "news.html"
         }
       ],
-      "date": "2026-07-19"
+      "date": "2026-07-19",
+      "hero": {
+        "id": "hero-2026-07-19",
+        "title": "WAIC 2026 第三天——商汤科技与国星宇航共建「商汤算力星座」，千星万P太空算力基础设施正式启航",
+        "title_en": "WAIC 2026 Day 3—SenseTime & Guoxing Aerospace Build 'SenseTime Computing Constellation', Thousand-Satellite ExaFLOPS Space Computing Sets Sail",
+        "image": "https://ainewsdaily.asia/img/pool/industry-09-v5.jpg",
+        "date": "2026-07-19",
+        "source": "AI News Daily 综合",
+        "source_en": "AI News Daily Analysis",
+        "summary": "7月18日，WAIC 2026 商汤科技论坛上，商汤与国星宇航宣布共建「商汤算力星座」，目标千星万P（千颗卫星、总算力超万P）。2026年「商汤号」首发，2028年星地混合云骨干网，2030年全球组网。同日上海「星枢计划」首发星座发布，优刻得发布太空算力样机。",
+        "summary_en": "On July 18 at WAIC 2026, SenseTime and Guoxing Aerospace announced the 'SenseTime Computing Constellation' targeting 1,000 satellites with 1+ ExaFLOPS total compute. First launch in 2026, hybrid cloud backbone by 2028, global network by 2030. Shanghai's 'Star Pivot Plan' debut constellation also launched.",
+        "category": "产业",
+        "category_en": "Industry Analysis"
+      }
     },
     {
       "articles": [
