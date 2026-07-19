@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "id": "article-48",
+      "date": "2026-07-19",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "商汤科技与国星宇航共建「商汤算力星座」——太空算力基础设施产业深度分析：从地面万卡集群到在轨多星协同，AI基础设施的「天地一体」新纪元",
+      "title_en": "SenseTime and Guoxing Aerospace Build the 'SenseTime Computing Constellation'—Deep Industry Analysis of Space Computing Infrastructure: From Ground ExaFLOPS Clusters to In-Orbit Multi-Satellite Collaboration, the 'Space-Earth Integrated' New Era of AI Infrastructure",
+      "subtitle": "WAIC 2026 上商汤与国星宇航宣布千星万P太空算力星座计划，上海「星枢计划」首发星座发布，优刻得太空算力样机亮相。从 SpaceX Starmind 到商汤星座，中美太空算力路线首次正面交锋。本文深度拆解太空算力的技术路径、产业逻辑与投资图谱。",
+      "subtitle_en": "At WAIC 2026, SenseTime and Guoxing Aerospace announced a thousand-satellite ExaFLOPS space computing constellation. Shanghai's 'Star Pivot Plan' debut constellation launched. From SpaceX Starmind to SenseTime Constellation—Sino-US space computing roadmaps intersect for the first time. Deep analysis of technology paths, industry logic, and investment landscape.",
+      "summary": "WAIC 2026 第三天，商汤科技与国星宇航宣布共建「商汤算力星座」，目标千星万P。同日上海「星枢计划」首发星座发布、优刻得太空算力样机亮相。本文从产业视角深度拆解太空算力的技术路径、中美路线对比、产业意义与投资图谱，揭示AI基础设施从地面万卡集群迈向在轨多星协同的「天地一体」新纪元。",
+      "summary_en": "On Day 3 of WAIC 2026, SenseTime and Guoxing Aerospace announced the 'SenseTime Computing Constellation' targeting 1,000 satellites with 1+ ExaFLOPS. Same day saw Shanghai's 'Star Pivot Plan' debut and UCloud's space computing prototype. This article deeply analyzes the technology paths, Sino-US roadmap comparison, industrial significance, and investment landscape of the new 'space-earth integrated' era of AI infrastructure.",
+      "image": "https://ainewsdaily.asia/img/pool/industry-09-v5.jpg",
+      "author": "AI News Daily",
+      "read_time": "阅读约 18 分钟",
+      "read_time_en": "Approximately 18 min read",
+      "url": "articles/article-48.html",
+      "url_en": "articles/en/article-48.html",
+      "source": "AI News Daily 综合报道",
+      "source_en": "AI News Daily Analysis"
+    },
+    {
       "id": "article-47",
       "date": "2026-07-18",
       "title": "WAIC 2026 开幕深度报道——习近平主席宣布成立世界人工智能合作组织（WAICO），中国AI从「技术追赶」到「规则制定」的转折点",

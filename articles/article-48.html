@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WAIC 2026 商汤科技与国星宇航宣布共建「商汤算力星座」，千星万P太空算力基础设施正式启航。本文深度拆解太空算力的技术路径、中美路线对比、产业意义与投资图谱。">
+    <meta name="keywords" content="商汤科技, 国星宇航, 商汤算力星座, 太空算力, WAIC 2026, 星枢计划, 天地一体化, AI基础设施, 算力卫星, SpaceX Starmind">
+    <meta property="og:title" content="商汤科技与国星宇航共建「商汤算力星座」——太空算力基础设施产业深度分析">
+    <meta property="og:description" content="WAIC 2026 上商汤与国星宇航宣布千星万P太空算力星座计划。从 SpaceX Starmind 到商汤星座，中美太空算力路线首次正面交锋。">
+    <meta property="og:image" content="https://ainewsdaily.asia/img/pool/industry-09-v5.jpg">
+    <title>商汤科技与国星宇航共建「商汤算力星座」——太空算力基础设施产业深度分析 | AI News Daily</title>
+    <link rel="canonical" href="articles/article-48.html">
+    <link rel="alternate" hreflang="en" href="articles/en/article-48.html">
+    <link rel="alternate" hreflang="zh-CN" href="articles/article-48.html">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f5f6fa;
+            color: #2c3e50;
+        }
+        .deep-article {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 50px 56px;
+            box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+        }
+        .article-header { margin-bottom: 30px; }
+        .article-meta-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 22px;
+            font-size: 0.92em;
+            color: #7f8c9b;
+        }
+        .article-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.88em;
+            font-weight: 500;
+        }
+        .article-date, .article-read-time { color: #95a5a6; }
+        .article-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.35;
+            margin: 0 0 16px 0;
+        }
+        .article-subtitle {
+            font-size: 1.08em;
+            color: #5a6c7d;
+            line-height: 1.7;
+            margin: 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-hero-image {
+            margin: 30px 0 36px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            max-height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+        .article-content { font-size: 1.05em; color: #2c3e50; }
+        .article-content h2 {
+            font-size: 1.5em;
+            color: #1a1a2e;
+            margin: 40px 0 16px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #667eea;
+        }
+        .article-content h3 {
+            font-size: 1.2em;
+            color: #2c3e50;
+            margin: 28px 0 12px 0;
+        }
+        .article-content p {
+            margin: 0 0 16px 0;
+            text-indent: 2em;
+        }
+        .article-content p.no-indent { text-indent: 0; }
+        .article-content blockquote {
+            margin: 20px 0;
+            padding: 16px 20px;
+            border-left: 4px solid #667eea;
+            background: #f8f9ff;
+            border-radius: 0 8px 8px 0;
+            color: #555;
+        }
+        .article-content blockquote p { text-indent: 0; margin: 0; }
+        .article-content .data-card {
+            background: linear-gradient(135deg, #f0f4ff 0%, #f8f9ff 100%);
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin: 20px 0;
+            border: 1px solid #e8ecf4;
+        }
+        .article-content .data-card p { text-indent: 0; margin: 4px 0; }
+        .article-content .data-card .data-label {
+            font-size: 0.85em;
+            color: #7f8c9b;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .article-content .data-card .data-value {
+            font-size: 1.6em;
+            font-weight: 700;
+            color: #667eea;
+        }
+        .article-content .data-card .data-value-accent { color: #e74c3c; }
+        .article-content .data-card .data-value-green { color: #27ae60; }
+        .article-content ul, .article-content ol {
+            margin: 12px 0 16px 0;
+            padding-left: 2em;
+        }
+        .article-content li { margin: 6px 0; }
+        .article-content strong { color: #1a1a2e; }
+        .article-content a { color: #667eea; text-decoration: none; }
+        .article-content a:hover { text-decoration: underline; }
+        .article-content .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+        .article-content .comparison-table th {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px 16px;
+            text-align: left;
+        }
+        .article-content .comparison-table td {
+            padding: 10px 16px;
+            border-bottom: 1px solid #eef1f5;
+        }
+        .article-content .comparison-table tr:nth-child(even) td { background: #f8f9ff; }
+        .article-footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eef1f5;
+            font-size: 0.9em;
+            color: #95a5a6;
+        }
+        .article-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 20px 0;
+        }
+        .article-tag {
+            background: #f0f4ff;
+            color: #667eea;
+            padding: 4px 12px;
+            border-radius: 14px;
+            font-size: 0.85em;
+        }
+        @media (max-width: 640px) {
+            .deep-article { padding: 24px 18px; }
+            .article-title { font-size: 1.4em; }
+        }
+    </style>
+</head>
+<body>
+<div class="deep-article">
+    <div class="article-header">
+        <div class="article-meta-top">
+            <span class="article-category">产业分析</span>
+            <span class="article-date">2026年7月19日</span>
+            <span class="article-read-time">阅读约 18 分钟</span>
+        </div>
+        <h1 class="article-title">商汤科技与国星宇航共建「商汤算力星座」——太空算力基础设施产业深度分析：从地面万卡集群到在轨多星协同，AI基础设施的「天地一体」新纪元</h1>
+        <p class="article-subtitle">WAIC 2026 上商汤与国星宇航宣布千星万P太空算力星座计划，上海「星枢计划」首发星座发布，优刻得太空算力样机亮相。从 SpaceX Starmind 到商汤星座，中美太空算力路线首次正面交锋。本文深度拆解太空算力的技术路径、产业逻辑与投资图谱。</p>
+    </div>
+
+    <div class="article-hero-image">
+        <img src="https://ainewsdaily.asia/img/pool/industry-09-v5.jpg" alt="太空算力基础设施概念图——航空航天制造与卫星组网" loading="lazy">
+    </div>
+
+    <div class="article-content">
+
+        <p>2026年7月18日，WAIC 2026进入第三天，上海世博展览馆的热度不减反增。在商汤科技举办的「基座大模型架构创新与生态合作论坛」上，一个消息让在场所有人意识到——AI基础设施的竞争维度，已经从地面升到了太空。</p>
+
+        <p>国星宇航与商汤科技宣布共建「商汤算力星座」，星座规模将达到「千星万P」——千颗级算力卫星、总算力超万P（千万亿次运算）。这不是一个PPT上的概念，而是一个有着清晰时间表和路线图的工程计划：2026年内「商汤号」系列算力卫星首发并启动组网验证，2028年建成星地混合云商用算力骨干网，2030年完成千星组网，形成覆盖全球的空间智能计算网络。</p>
+
+        <p>同一天，上海「星枢计划」首发星座正式发布——采用「一主二辅」星簇架构，搭载定制国产航天级GPU芯片，实现32PFLOPS超高在轨算力。优刻得联合上海理工大学发布「太空算力」样机系统，攻克了失重真空环境下高密度芯片散热的工程难题。三件事情同时发生，不是巧合。2026年7月18日，很可能被记为中国太空算力产业的「元年日」。</p>
+
+        <p>本文从产业视角，分为七个维度深度拆解这次太空算力产业的集体爆发：一、核心事件全景回顾；二、太空算力解决什么核心问题；三、中美太空算力路线对比（商汤务实落地 vs SpaceX Starmind 激进基建）；四、上海「星枢计划」的技术拆解；五、太空算力产业链全景图谱；六、与地面AI基础设施的关系重构；七、投资图谱与风险提示。</p>
+
+        <h2>一、核心事件全景回顾</h2>
+
+        <p>2026年7月18日，WAIC 2026的太空算力主题日，三大重磅消息先后发布：</p>
+
+        <p><strong>事件一：商汤科技 × 国星宇航——「商汤算力星座」</strong></p>
+
+        <p>在WAIC 2026「基座大模型架构创新与生态合作论坛」上，国星宇航执行副总裁谭兴林与商汤联合创始人、大装置事业群总裁杨帆代表双方签署战略合作协议。商汤科技董事长兼CEO徐立与国星宇航创始人、董事长陆川共同见证签约。根据规划，双方将按照「单星验证—平台建设—星座组网」的发展路径，分阶段推进天地一体化AI基础设施建设：</p>
+
+        <ul>
+            <li><strong>2026年</strong>：「商汤号」算力卫星完成首发并启动组网验证</li>
+            <li><strong>2028年</strong>：建成星地混合云商用算力骨干网</li>
+            <li><strong>2030年</strong>：千颗级算力卫星组网，总算力超万P，形成覆盖全球的空间智能计算网络</li>
+        </ul>
+
+        <p>「商汤号」首批算力卫星将搭载高性能自主可控星载计算平台，具备高算力、大存储和在轨实时智能处理能力，支持多类AI算法在轨运行和部署。双方还将联合研发万卡级天地一体化AI算力调度平台，实现地面智算中心与在轨算力节点协同调度。</p>
+
+        <div class="data-card">
+            <p class="data-label">商汤算力星座核心数据</p>
+            <p><span class="data-value">千星</span> <span style="color:#7f8c9b;">级算力卫星</span></p>
+            <p><span class="data-value">万P</span> <span style="color:#7f8c9b;">总算力（千万亿次运算）</span></p>
+            <p><span class="data-value">2026</span> <span style="color:#7f8c9b;">首发卫星入轨</span></p>
+            <p><span class="data-value">2028</span> <span style="color:#7f8c9b;">星地混合云骨干网</span></p>
+            <p><span class="data-value">2030</span> <span style="color:#7f8c9b;">千星全球组网</span></p>
+        </div>
+
+        <p><strong>事件二：上海「星枢计划」首发星座发布</strong></p>
+
+        <p>同日，在WAIC 2026「未来计算 未来算力」专题论坛上，上海标志性太空数字基建工程「星枢计划」首发星座正式对外发布。该项目由复旦大学联合上海星枢天算牵头研制运营，金亚秋、王建宇、褚君浩、李军四位院士担任首席科学家。首发星座采用「一主二辅」星簇架构：1颗中心算力主星（搭载定制国产航天级GPU芯片，32PFLOPS在轨算力）+ 伏羲气象星 + 即时遥感星。三星依托星间激光链路互联互通，所有数据采集、AI推理、研判分析全部在轨完成。</p>
+
+        <p><strong>事件三：优刻得发布「太空算力」样机系统</strong></p>
+
+        <p>优刻得联合上海理工大学发布「太空算力」样机系统，以「构建微型宇宙生存闭环」为核心理念，将能源管理、核心算力与散热循环三大子系统协同串联。该样机的核心技术突破在于「全局热管理与全自主能源」的闭环协同设计——流体循环回路在为服务器降温的同时，兼顾为太阳能板降温以维持光电转换效率，验证了高密度芯片在极端环境下高可靠运行的技术路径。</p>
+
+        <h2>二、太空算力解决什么核心问题</h2>
+
+        <p>要理解太空算力为什么突然成为产业焦点，需要先理解地面算力的三个结构性瓶颈：</p>
+
+        <p><strong>第一，覆盖盲区。</strong>全球仍有约30亿人口处于网络覆盖薄弱地区，海洋、沙漠、极地、高空等场景地面网络无法触及。对于远洋航运、应急救灾、野外勘探、航空航天等场景，地面算力存在天然的覆盖盲区。</p>
+
+        <p><strong>第二，传输延迟。</strong>地面数据中心与终端之间的物理距离决定了延迟上限。即使是最优的光纤网络，跨洋传输延迟也在100ms以上。对于自动驾驶、实时遥感、工业控制等场景，这个延迟是不可接受的。而卫星在轨计算可以将数据就地处理，传输延迟从百毫秒级降至微秒级。</p>
+
+        <p><strong>第三，能耗与土地瓶颈。</strong>地面数据中心是耗电大户——全球数据中心用电量已占全球总用电量的2-3%。在中国，东部沿海地区的土地和电力资源日趋紧张，部分城市已对新建数据中心实施限制。太空算力可利用太阳能，实现零碳排放，且不受土地资源限制。</p>
+
+        <p>太空算力的核心价值，可以用一句话概括：<strong>将算力部署到数据产生的地方，而不是将数据传输到算力存在的地方。</strong></p>
+
+        <p>对于遥感卫星而言，目前每天产生PB级的数据，但受限于星地传输带宽，大量数据无法下传。如果卫星本身具备强大的在轨计算能力，就可以在轨完成数据筛选、压缩、推理，只将最有价值的结果传回地面。这不仅是效率提升，更是一种范式转变——从「传数据回来算」到「在数据产生的地方算」。</p>
+
+        <h2>三、中美太空算力路线对比</h2>
+
+        <p>太空算力并非中国独有的赛道。美国方面，SpaceX的Starmind计划是当前最受关注的太空算力项目。但中美的路线选择存在根本性差异：</p>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>对比维度</th>
+                    <th>中国路线（商汤星座/星枢计划）</th>
+                    <th>美国路线（SpaceX Starmind）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>核心理念</strong></td>
+                    <td>务实落地：从单星验证到星座组网，渐进式推进</td>
+                    <td>激进基建：大规模星座一次性部署</td>
+                </tr>
+                <tr>
+                    <td><strong>首发时间</strong></td>
+                    <td>2026年「商汤号」首发，当年完成组网验证</td>
+                    <td>Starmind 计划2027年首发测试星</td>
+                </tr>
+                <tr>
+                    <td><strong>星座规模</strong></td>
+                    <td>千星万P（2030年目标）</td>
+                    <td>规划数千颗，单星算力更高</td>
+                </tr>
+                <tr>
+                    <td><strong>芯片来源</strong></td>
+                    <td>国产航天级GPU（自主可控）</td>
+                    <td>基于NVIDIA定制版</td>
+                </tr>
+                <tr>
+                    <td><strong>应用场景</strong></td>
+                    <td>气象、遥感、应急、航运、金融等场景驱动</td>
+                    <td>以全球宽带互联网+边缘计算为主</td>
+                </tr>
+                <tr>
+                    <td><strong>产业协同</strong></td>
+                    <td>产学研深度结合（复旦、上海理工等）</td>
+                    <td>以SpaceX为核心，商业航天生态</td>
+                </tr>
+                <tr>
+                    <td><strong>政策支持</strong></td>
+                    <td>国家十五五规划明确支持，上海经信委重点扶持</td>
+                    <td>NASA/DoD 支持，商业航天政策宽松</td>
+                </tr>
+                <tr>
+                    <td><strong>核心优势</strong></td>
+                    <td>渐进式落地、国产自主可控、场景明确</td>
+                    <td>发射成本优势、规模化部署经验</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>两条路线并非简单的「谁更先进」，而是反映了不同的产业逻辑和资源禀赋。中国路线更强调<strong>场景驱动</strong>——从气象、应急、航运等具体场景切入，逐步验证再规模化。美国路线则更依赖<strong>规模效应</strong>——利用SpaceX的发射成本优势，一次性部署大规模星座。</p>
+
+        <p>值得注意的是，商汤与国星宇航的合作模式，与美国路线存在本质区别。商汤作为AI基础设施运营商，提供的是「AI能力上太空」——将商汤大装置在AI基础设施领域的积累（日均2.42万亿Token服务量、异构混合推理技术、算电协同Agent等）延展到太空场景。而国星宇航提供的是卫星制造与运营能力。这种「AI公司+航天公司」的跨界组合，在中国是首创，在全球范围内也极具前瞻性。</p>
+
+        <h2>四、上海「星枢计划」的技术拆解</h2>
+
+        <p>「星枢计划」作为上海市旗舰级太空算力星座工程，其首发星座的技术方案值得深入拆解。首发星座采用「一主二辅」星簇架构，构成独立闭环最小算力验证单元：</p>
+
+        <p><strong>中心算力主星——「太空大脑」</strong></p>
+
+        <p>主星作为全域调度核心与算力枢纽，搭载自研分布式全域混合算力调度平台，统一汇聚两颗辅星感知数据并完成多模态融合分析。其技术亮点包括：</p>
+
+        <ul>
+            <li><strong>国产航天级GPU芯片：</strong>实现32PFLOPS超高在轨算力输出，填补国内卫星大规模原位实时计算领域技术空白</li>
+            <li><strong>具身智能运维系统：</strong>国内算力卫星首个具身智能系统，可在轨完成GPU载荷模块化重组</li>
+            <li><strong>三级协同散热体系：</strong>航天级微通道主动液冷模块 + 多层超轻被动隔热复合材料 + 大尺寸可展开式辐射散热器，国内首个星载GPU长效稳定热控方案</li>
+            <li><strong>400Gbps星间/星地激光通信：</strong>突破面向算力互连的高速激光通信，配合地面光学相控阵接收</li>
+            <li><strong>晶硅钙钛矿复合发电：</strong>15KW发电功率，晶硅钙钛矿技术首次作为卫星主电源方案进入星座工程化应用</li>
+        </ul>
+
+        <p><strong>伏羲气象星——精准天气预报</strong></p>
+
+        <p>由上海科学智能研究院、复旦大学、巡天千河共同研制，搭载高精度微波辐射计载荷，依托「伏羲」无缝隙端到端气象预测大模型体系，实现从观测数据同化到预报的一体化，为全球极端天气预警和防灾减灾提供支撑。</p>
+
+        <p><strong>即时遥感星——地表快速成像</strong></p>
+
+        <p>由太驿微行航天科技有限公司牵头，联合复旦大学褚君浩院士团队研制，搭载高分辨率可见光及红外载荷，2POPS边缘算力实现遥感大模型在轨推理，为数字三维城市、区域综合治理、应急灾情勘察提供遥感影像和在轨智能计算支撑。</p>
+
+        <p>三星依托星间激光链路互联互通，所有数据采集、AI推理、研判分析全部在轨完成，无需下传海量原始遥感数据。这一设计从根本上改变了传统遥感卫星「先下传再处理」的工作模式，将延迟从天级降至秒级。</p>
+
+        <h2>五、太空算力产业链全景图谱</h2>
+
+        <p>太空算力不是单一赛道，而是一条涵盖上游芯片、中游卫星制造与运营、下游场景应用的完整产业链：</p>
+
+        <p><strong>上游：星载AI芯片与核心器件</strong></p>
+
+        <p>这是技术壁垒最高的环节。太空环境对芯片提出了严苛要求——抗辐射、宽温域、高可靠性。目前国内主要玩家包括：航宇微（「玉龙」系列宇航级AI芯片，唯一实现全链路闭环）、寒武纪（MLU370-X8航天级芯片，744TOPS，支持百亿参数大模型在轨运行）、复旦微电（宇航级抗辐射FPGA，市占率超80%）。此外，星载GPU、星间激光通信模块、抗辐照存储芯片等也是关键环节。</p>
+
+        <p><strong>中游：卫星制造与星座运营</strong></p>
+
+        <p>包括整星研制（中国卫星、巡天千河等）、星座运营（星枢天算、国星宇航等）、地面测控与数据接收。这一环节的核心能力在于规模化制造能力与星座运营经验。国星宇航拥有近百颗商业卫星研制发射经验，是其与商汤合作的关键筹码。</p>
+
+        <p><strong>下游：场景应用与数据服务</strong></p>
+
+        <p>太空算力的应用场景正在快速扩展：气象预报（极端天气预警）、应急减灾（灾害监测与救援决策）、远洋航运（航线优化与安全监控）、金融分析（大宗商品与农业遥感数据）、国防安全（空间态势感知）等。这些场景的共同特点是：数据量大、时效性要求高、地面网络覆盖不足。</p>
+
+        <div class="data-card">
+            <p class="data-label">市场规模预测</p>
+            <p><span class="data-value">千亿</span> <span style="color:#7f8c9b;">上海太空算力产业年产值目标（5年）</span></p>
+            <p><span class="data-value">3414亿</span> <span style="color:#7f8c9b;">国产超节点市场规模（华泰证券，2028年）</span></p>
+            <p><span class="data-value">100+</span> <span style="color:#7f8c9b;">星枢计划预计带动上下游配套企业数</span></p>
+        </div>
+
+        <h2>六、与地面AI基础设施的关系重构</h2>
+
+        <p>太空算力的兴起，并不意味着地面算力的终结。相反，两者将形成互补协同的「天地一体」算力体系。</p>
+
+        <p><strong>地面算力：</strong>承担大规模训练、复杂推理、冷数据存储等任务。万卡集群、超节点等地面基础设施仍然是AI产业的主力。</p>
+
+        <p><strong>太空算力：</strong>承担边缘推理、实时处理、全球覆盖等任务。在弱网、无网及高价值场景中提供实时AI推理与智能决策支持。</p>
+
+        <p>商汤科技联合创始人杨帆的表述恰如其分：「对于应急救灾、远洋船舶、野外作业等弱网络环境，太空算力能够有效填补地面网络覆盖的盲区。其价值不止于能力边界的突破，更是支撑中国AI能力向全球辐射的基础设施，有望大幅提高国产AI出海服务的覆盖率。」</p>
+
+        <p>从产业演进的角度看，AI基础设施正在经历从「单点算力」到「系统算力」再到「天地一体算力」的三级跳：</p>
+
+        <ul>
+            <li><strong>第一级（单点算力）：</strong>单卡GPU → 单机服务器 → 小型集群。代表：NVIDIA H100时代。</li>
+            <li><strong>第二级（系统算力）：</strong>万卡超节点 → 十万卡集群 → 算力网络。代表：华为昇腾950、曙光8000。</li>
+            <li><strong>第三级（天地一体算力）：</strong>地面智算中心 + 在轨算力星座 + 星地混合云。代表：商汤算力星座。</li>
+        </ul>
+
+        <p>值得注意的是，这与本文此前报道的「Meta转型算力卖家」（article-35）形成了鲜明对比。Meta做的是地面算力的「代工」——将闲置的GPU算力出租给其他公司。而商汤星座做的是太空算力的「原生」——在太空中建造全新的算力基础设施。前者是存量资源的再分配，后者是增量空间的创造。</p>
+
+        <h2>七、投资图谱与风险提示</h2>
+
+        <p><strong>投资图谱</strong></p>
+
+        <p>太空算力产业链的主要受益方向包括：</p>
+
+        <ul>
+            <li><strong>星座运营平台：</strong>钧达股份（间接控股星枢天算）、国星宇航（商汤星座运营方）、中科星图（三体计算星座）</li>
+            <li><strong>星载AI芯片：</strong>航宇微（玉龙系列）、寒武纪（MLU370-X8）、复旦微电（抗辐射FPGA）</li>
+            <li><strong>卫星制造与总装：</strong>中国卫星（国家队龙头）、巡天千河（星枢计划整星供应）</li>
+            <li><strong>太空算力云服务：</strong>优刻得（太空算力样机+星图平台）</li>
+            <li><strong>核心器件与配套：</strong>航天电子（星载电子）、航天电器（宇航级连接器）、光弘科技（EMS代工）</li>
+        </ul>
+
+        <p><strong>风险提示</strong></p>
+
+        <p>太空算力仍处于早期阶段，存在以下风险：</p>
+
+        <ul>
+            <li><strong>技术验证风险：</strong>深空环境的长期可靠性、散热闭环在微重力下的真实表现、能源子系统的循环效率——这些都需要后续在轨验证才能坐实</li>
+            <li><strong>发射成本风险：</strong>尽管中国商业航天发射成本持续下降，但大规模星座部署仍需巨额资金投入</li>
+            <li><strong>轨道资源竞争：</strong>近地轨道资源日益稀缺，各国对轨道频率的争夺日趋激烈</li>
+            <li><strong>地缘政治风险：</strong>太空算力涉及国家安全，出口管制和国际合作受限可能影响产业发展</li>
+            <li><strong>商业化周期风险：</strong>从样机到规模化商用通常需要5-10年，短期业绩兑现难度大</li>
+        </ul>
+
+        <blockquote>
+            <p>2026年7月18日，可能只是太空算力产业漫长征程中的一个起点。但正如商汤与国星宇航签约现场的那句标语——「算力上天，智能落地」——这八个字，也许就是下一个十年AI基础设施演进的最佳注脚。</p>
+        </blockquote>
+
+        <div class="article-tags">
+            <span class="article-tag">太空算力</span>
+            <span class="article-tag">商汤科技</span>
+            <span class="article-tag">国星宇航</span>
+            <span class="article-tag">WAIC 2026</span>
+            <span class="article-tag">星枢计划</span>
+            <span class="article-tag">天地一体化</span>
+            <span class="article-tag">AI基础设施</span>
+            <span class="article-tag">产业分析</span>
+        </div>
+
+        <div class="article-footer">
+            <p>作者：AI News Daily | 发布日期：2026年7月19日</p>
+            <p>本文所引用的事实和数据来源包括：人民网、证券时报、36氪、凤凰网科技、华尔街见闻、复旦大学官方发布、优刻得官方发布等。本文不构成投资建议。</p>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,282 @@
+{
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-19",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "WAIC 2026 第三天——商汤科技与国星宇航共建「商汤算力星座」，千星万P太空算力基础设施正式启航",
+      "title_en": "WAIC 2026 Day 3—SenseTime & Guoxing Aerospace Build 'SenseTime Computing Constellation', Thousand-Satellite ExaFLOPS Space Computing Sets Sail",
+      "summary": "7月18日，WAIC 2026 商汤科技论坛上，商汤与国星宇航宣布共建「商汤算力星座」，目标千星万P（千颗卫星、总算力超万P）。2026年「商汤号」首发，2028年星地混合云骨干网，2030年全球组网。同日上海「星枢计划」首发星座发布，优刻得发布太空算力样机。",
+      "summary_en": "On July 18 at WAIC 2026, SenseTime and Guoxing Aerospace announced the 'SenseTime Computing Constellation' targeting 1,000 satellites with 1+ ExaFLOPS total compute. First launch in 2026, hybrid cloud backbone by 2028, global network by 2030. Shanghai's 'Star Pivot Plan' debut constellation also launched.",
+      "source": "人民网 / 证券时报 / 36氪",
+      "source_en": "People's Daily / Securities Times / 36Kr",
+      "image": "https://ainewsdaily.asia/img/pool/industry-09-v5.jpg",
+      "content": "7月18日，在2026世界人工智能大会（WAIC）「基座大模型架构创新与生态合作论坛」上，国星宇航与商汤科技宣布共建「商汤算力星座」，星座规模将达到「千星万P」——千颗级算力卫星、总算力超万P（千万亿次运算）。双方将按照「单星验证—平台建设—星座组网」路径分阶段推进：2026年内「商汤号」系列算力卫星完成首发并启动组网验证；2028年建成星地混合云商用算力骨干网；2030年建成由千颗级算力卫星组成、总算力超万P的「商汤太空算力星座」，形成覆盖全球的空间智能计算网络。同日，上海「星枢计划」首发星座正式发布，采用「一主二辅」星簇架构，搭载定制国产航天级GPU芯片，实现32PFLOPS超高在轨算力。优刻得联合上海理工大学发布「太空算力」样机系统，攻克了失重真空环境下高密度芯片散热的工程难题。",
+      "content_en": "On July 18 at WAIC 2026, Guoxing Aerospace and SenseTime announced the 'SenseTime Computing Constellation', targeting a thousand satellites with an ExaFLOPS of compute. The roadmap: 2026—first satellites launch; 2028—space-ground hybrid cloud backbone; 2030—global coverage. The same day, Shanghai's 'Star Pivot Plan' debut constellation was released, and UCloud released a space computing prototype.",
+      "key_points": [
+        "商汤科技与国星宇航共建「商汤算力星座」，目标千星万P",
+        "2026年首发，2028年星地混合云骨干网，2030年全球组网",
+        "上海「星枢计划」首发星座发布，采用一主二辅星簇架构",
+        "优刻得发布太空算力样机系统，攻克太空散热难题"
+      ],
+      "key_points_en": [
+        "SenseTime & Guoxing Aerospace build 'SenseTime Computing Constellation'",
+        "2026 first launch, 2028 hybrid cloud backbone, 2030 global network",
+        "Shanghai 'Star Pivot Plan' debut with 1-master-2-auxiliary cluster",
+        "UCloud releases space computing prototype solving thermal challenges"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-19",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "奥特曼公开表态：GPT-5.6 Sol 可再降价75%，点名Claude Fable 5为靶子，大模型价格战从暗战转明牌",
+      "title_en": "Altman Publicly Declares GPT-5.6 Sol Could Drop 75% Further, Calls Out Claude Fable 5—The AI Price War Goes from Shadow to Spotlight",
+      "summary": "Sam Altman在X上发文称GPT-5.6 Sol定价已是Claude Fable 5的一半，Token效率高约2倍，「很乐意降价75%」。Sol定价$5/$30（输入/输出百万Token），Fable 5为$10/$50，DeepSeek V4 Pro仅$0.435/$0.87。Anthropic企业份额从12%升至41%，OpenAI单季亏损$37亿。",
+      "summary_en": "Sam Altman posted on X that GPT-5.6 Sol is already half the price of Claude Fable 5 with ~2x token efficiency, and said he would be 'happy to deliver at one-quarter of the price.' Sol costs $5/$30 per M tokens vs Fable 5 at $10/$50. DeepSeek V4 Pro: $0.435/$0.87. Anthropic enterprise share rose from 12% to 41%.",
+      "source": "Digital Today / 快科技 / ZAKER",
+      "source_en": "Digital Today / Kuai Tech / ZAKER",
+      "image": "https://ainewsdaily.asia/img/pool/llm-pricing-tier-v4.jpg",
+      "content": "OpenAI CEO Sam Altman在X（原Twitter）上公开表态，称GPT-5.6 Sol的定价已是竞争对手Anthropic Claude Fable 5的一半，且Token效率高出约2倍，「很乐意提供四分之一的价格」。这一表态标志着大模型价格战从暗战转为明牌。GPT-5.6 Sol旗舰版定价为每百万输入Token 5美元、输出30美元；Claude Fable 5定价为输入10美元、输出50美元。中国竞争对手DeepSeek V4-Pro的定价仅为$0.435/$0.87，远低于美国同行。Anthropic在企业级市场的份额已从2023年的12%飙升至2026年的41%，而OpenAI同期从50%下滑至约32%。财务数据方面，Anthropic 2026年Q2实现单季盈利$5.59亿，OpenAI单季亏损$37亿。",
+      "content_en": "OpenAI CEO Sam Altman publicly stated on X that GPT-5.6 Sol is already priced at half of Anthropic's Claude Fable 5 and is ~2x more token-efficient, saying he would be 'happy to deliver at one-quarter of the price.' GPT-5.6 Sol costs $5/$30 per M tokens; Fable 5 costs $10/$50. Chinese rival DeepSeek V4-Pro is priced at just $0.435/$0.87. Anthropic's enterprise share surged from 12% to 41%, while OpenAI dropped from 50% to ~32%.",
+      "key_points": [
+        "Altman：GPT-5.6 Sol可再降价75%，点名Fable 5为靶子",
+        "Sol定价$5/$30 vs Fable 5 $10/$50，DeepSeek V4 Pro仅$0.435/$0.87",
+        "Anthropic企业份额从12%升至41%，OpenAI从50%降至32%",
+        "Anthropic Q2盈利$5.59亿，OpenAI单季亏损$37亿"
+      ],
+      "key_points_en": [
+        "Altman: GPT-5.6 Sol could drop 75%, calls out Fable 5",
+        "Sol $5/$30 vs Fable 5 $10/$50, DeepSeek V4 Pro just $0.435/$0.87",
+        "Anthropic enterprise share 12%->41%, OpenAI 50%->32%",
+        "Anthropic Q2 profit $559M, OpenAI Q2 loss $3.7B"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-19",
+      "category": "大模型",
+      "category_en": "LLM",
+      "title": "Kimi K3 登顶Artificial Analysis全球第三，2.8万亿参数开源模型引美股震荡",
+      "title_en": "Kimi K3 Ranks 3rd Globally on Artificial Analysis—2.8 Trillion Parameter Open-Source Model Shakes US Stocks",
+      "summary": "月之暗面Kimi K3在Artificial Analysis智能指数评分57分，全球第三，仅次于Claude Fable 5（60分）和GPT-5.6 Sol。Frontend Code Arena以1679分登顶。纳指100早盘一度重挫2.7%，高盛警告「算力扩张时代」或已走到尽头。",
+      "summary_en": "Moonshot AI's Kimi K3 scored 57 on Artificial Analysis Intelligence Index, ranking 3rd globally behind Claude Fable 5 (60) and GPT-5.6 Sol. #1 on Frontend Code Arena with 1679 points. Nasdaq 100 fell 2.7% in early trading. Goldman Sachs warns the compute expansion era may be ending.",
+      "source": "华尔街见闻 / 凤凰网科技",
+      "source_en": "Wall Street CN / Phoenix Tech",
+      "image": "https://ainewsdaily.asia/img/pool/industry-ai-ranking-v4.jpg",
+      "content": "7月17日凌晨，月之暗面推出新一代大模型Kimi K3，2.8万亿参数，全球首个开源的3万亿级模型。在Artificial Analysis智能指数上，K3以57分位列全球第三，仅次于Claude Fable 5的60分和GPT-5.6 Sol。Frontend Code Arena上，它以1679分登顶，超越Fable 5的1631和GPT-5.6 Sol的1618。K3的发布引发全球科技股震荡——纳指100早盘一度重挫2.7%，英伟达领跌科技七巨头。高盛将市场下跌定义为「去杠杆事件」，认为「算力扩张时代」或已接近尾声。摩根士丹利则认为，K3标志着中国大模型在规模、性能和定价三方面全面追赶美国领先者。",
+      "content_en": "On July 17, Moonshot AI released Kimi K3, a 2.8 trillion parameter model—the world's first open-source 3-trillion-scale model. On Artificial Analysis' Intelligence Index, K3 scored 57, ranking 3rd globally. On Frontend Code Arena, it topped with 1679 points. The launch triggered a global tech stock rout—Nasdaq 100 fell 2.7% in early trading. Goldman Sachs called it a 'de-leveraging event.'",
+      "key_points": [
+        "Kimi K3 2.8万亿参数，全球首个开源3万亿级模型",
+        "Artificial Analysis全球第三，Frontend Code Arena登顶",
+        "纳指100早盘一度重挫2.7%，高盛警告算力扩张时代或结束",
+        "大摩：中国大模型在规模、性能、定价三方面全面追赶"
+      ],
+      "key_points_en": [
+        "Kimi K3: 2.8T parameters, first open-source 3T-scale model",
+        "3rd globally on Artificial Analysis, #1 on Frontend Code Arena",
+        "Nasdaq 100 fell 2.7%, Goldman warns compute era may be ending",
+        "Morgan Stanley: China LLMs catching up on scale, performance, pricing"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-19",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "title": "习近平出席WAIC 2026开幕式宣布成立WAICO，29个创始成员国签署《上海协定》",
+      "title_en": "Xi Jinping Attends WAIC 2026, Announces WAICO with 29 Founding Members Signing 'Shanghai Agreement'",
+      "summary": "7月18日，习近平主席在WAIC 2026主旨演讲中宣布成立世界人工智能合作组织（WAICO）——全球首个AI政府间国际组织。29个创始成员国签署《上海协定》，总部设在上海。同日国家发改委发布《人工智能合作发展行动计划》8大行动。",
+      "summary_en": "On July 18, President Xi Jinping announced the World AI Cooperation Organization (WAICO)—the world's first intergovernmental AI organization—with 29 founding members signing the 'Shanghai Agreement,' HQ in Shanghai. The NDRC also released an 8-point action plan.",
+      "source": "新华社 / WAIC 2026组委会",
+      "source_en": "Xinhua / WAIC 2026 Organizing Committee",
+      "image": "https://ainewsdaily.asia/img/pool/policy-03-v5.jpg",
+      "content": "7月18日上午，WAIC 2026迎来最重磅时刻——国家主席习近平在主旨演讲中正式宣布成立世界人工智能合作组织（WAICO）。29个创始成员国——包括中国、法国、德国、新加坡、阿联酋、巴西、南非、印度尼西亚等——现场签署了《上海协定》。WAICO总部设在上海，是全球首个AI领域的政府间国际组织，职能涵盖AI治理规则协调、技术标准互认、安全框架共建。习近平强调，WAICO的成立标志着「人类在人工智能领域从各自为政走向共同治理」。同日，国家发改委发布《人工智能合作发展行动计划》，提出智能算力普惠、开源生态共享、优质数据供给等8大行动，目标到2028年算力成本降低50%以上。",
+      "content_en": "On the morning of July 18, WAIC 2026 saw its most significant moment—President Xi Jinping formally announced the establishment of the World AI Cooperation Organization (WAICO). 29 founding members signed the 'Shanghai Agreement' on site. WAICO, headquartered in Shanghai, is the world's first intergovernmental AI organization. The NDRC also released an 8-point action plan targeting a 50%+ reduction in computing costs by 2028.",
+      "key_points": [
+        "习近平宣布成立WAICO，29个创始成员国签署《上海协定》",
+        "全球首个AI政府间国际组织，总部设在上海",
+        "国家发改委发布8大行动计划，目标2028年算力成本降50%",
+        "习近平：WAICO标志着人类AI从各自为政走向共同治理"
+      ],
+      "key_points_en": [
+        "Xi announces WAICO with 29 founding members signing Shanghai Agreement",
+        "World's first intergovernmental AI organization, HQ in Shanghai",
+        "NDRC releases 8-point action plan, targeting 50%+ compute cost reduction by 2028",
+        "Xi: WAICO marks transition from fragmented to shared AI governance"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-19",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "WAIC 2026国产超节点集体亮相——华为昇腾950真机首展，算力竞赛进入「系统级较量」",
+      "title_en": "National AI Supernodes Debut at WAIC 2026—Huawei Ascend 950 Physical First, Computing Competition Enters 'System-Level' Phase",
+      "summary": "WAIC 2026张江「芯算融合馆」超节点密集亮相：华为昇腾950真机首展（1024卡/1 EFLOPS），燧原云燧ESL64-O、沐曦曦景S600、摩尔线程夸娥万卡集群纷纷亮相。华泰证券称2026年为「国产超节点元年」。",
+      "summary_en": "WAIC 2026's 'Chip-Compute Fusion Hall' in Zhangjiang saw a deluge of supernode unveilings: Huawei Ascend 950 physical debut (1024 cards/1 EFLOPS), Enflame ESL64-O, M-Xing S600, Moore Threads Kua-e 10K-cluster. Huatai Securities calls 2026 the 'Year of National Supernodes.'",
+      "source": "凤凰网科技 / 华尔街见闻 / 36氪",
+      "source_en": "Phoenix Tech / Wall Street CN / 36Kr",
+      "image": "https://ainewsdaily.asia/img/pool/chips-nvidia-h200-v4.jpg",
+      "content": "2026世界人工智能大会张江科学会堂一万平米的「芯算融合馆」里，百余家芯片企业同台竞技。华为昇腾950超节点（Atlas 950 SuperPoD）首次以真机亮相，1024张昇腾卡高速互联，提供1 EFLOPS FP8算力，256TB全局统一内存编址空间。燧原科技首发云燧ESL64-O超节点，沐曦股份发布曦景S600超节点（64卡「三零设计」零线缆），摩尔线程展示夸娥万卡级集群。华泰证券将2026年称为「国产超节点元年」，预计2028年市场规模有望达到3414亿元。中兴通讯联合曦智科技、壁仞科技等多家国产GPU厂商打造了Matrix超节点，斩获WAIC SAIL奖。",
+      "content_en": "WAIC 2026's 10,000 sqm 'Chip-Compute Fusion Hall' in Zhangjiang featured over 100 chip companies. Huawei's Ascend 950 SuperPoD made its physical debut—1,024 Ascend cards with 1 EFLOPS FP8 and 256TB unified memory. Enflame debuted its ESL64-O, M-Xing released the S600, and Moore Threads showed its Kua-e 10K cluster. Huatai Securities calls 2026 the 'Year of National Supernodes.'",
+      "key_points": [
+        "华为昇腾950超节点真机首展：1024卡/1 EFLOPS/256TB统一内存",
+        "燧原、沐曦、摩尔线程等国产GPU厂商超节点密集亮相",
+        "华泰证券：2026年为国产超节点元年，2028年市场规模3414亿",
+        "中兴联合多家国产GPU打造Matrix超节点，获WAIC SAIL奖"
+      ],
+      "key_points_en": [
+        "Huawei Ascend 950 SuperPoD: 1,024 cards, 1 EFLOPS, 256TB unified memory",
+        "Enflame, M-Xing, Moore Threads debut supernode systems",
+        "Huatai: 2026 is Year of National Supernodes, RMB 341.4B market by 2028",
+        "ZTE + multiple GPU makers build Matrix supernode, wins WAIC SAIL award"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-19",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "智谱AI半年ARR激增至10亿美元，5个月增长15倍，商业化速度超Anthropic",
+      "title_en": "Zhipu AI Hits $1B ARR in 5 Months, 15x Growth—Commercialization Outpaces Anthropic",
+      "summary": "智谱AI的年度经常性收入（ARR）在5个月内从1亿美元飙升至10亿美元，增长15倍。此前投资人预测智谱需至2026年底才能实现10-15亿美元ARR目标。智谱GLM-5.2开源首日即完成八大国产算力平台全适配。",
+      "summary_en": "Zhipu AI's ARR surged from $100M to $1B in just 5 months—15x growth. Previously, investors predicted Zhipu would reach $1-1.5B ARR by end of 2026. Zhipu's GLM-5.2 completed Day-0 adaptation across 8 domestic computing platforms.",
+      "source": "华尔街见闻 / 36氪",
+      "source_en": "Wall Street CN / 36Kr",
+      "image": "https://ainewsdaily.asia/img/pool/investment-09-v5.jpg",
+      "content": "截至2026年7月，智谱AI的年度经常性收入（ARR）已达10亿美元，从1亿美元到10亿美元仅用5个月，增长15倍。这一增长速度超越了海外Anthropic（后者从1亿到10亿ARR耗时15个月）。此前投资人预测智谱ARR需至2026年底才能达到10-15亿美元，实际进度远超预期。智谱GLM-5.2开源首日即完成了与华为昇腾、平头哥、摩尔线程、寒武纪、昆仑芯、沐曦、海光、壁仞八大国产算力平台的全适配，实现「Day 0适配」。另有报道称Meta正与Anthropic洽谈向后者出租算力，拟进军云计算市场，合作期限两年价值最高可达100亿美元。",
+      "content_en": "As of July 2026, Zhipu AI's ARR reached $1B, growing from $100M to $1B in just 5 months—15x growth. This surpasses Anthropic's pace (15 months from $100M to $1B ARR). Zhipu's GLM-5.2 completed Day-0 adaptation across 8 domestic computing platforms. Separately, Meta is reportedly in talks to lease computing power to Anthropic in a deal potentially worth up to $10B over 2 years.",
+      "key_points": [
+        "智谱AI ARR 5个月从1亿美元飙升至10亿美元，增长15倍",
+        "增速超越Anthropic（15个月达10亿ARR）",
+        "GLM-5.2开源首日即完成八大国产算力平台适配",
+        "Meta拟向Anthropic出租算力，两年最高100亿美元"
+      ],
+      "key_points_en": [
+        "Zhipu AI ARR surges from $100M to $1B in 5 months, 15x growth",
+        "Outpaces Anthropic (15 months to $1B ARR)",
+        "GLM-5.2 completes Day-0 adaptation across 8 domestic platforms",
+        "Meta in talks to lease compute to Anthropic, up to $10B over 2 years"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-19",
+      "category": "AI应用",
+      "category_en": "AI Applications",
+      "title": "OpenAI发布Codex Micro——230美元机械键盘，首款消费级AI硬件产品",
+      "title_en": "OpenAI Launches Codex Micro—$230 Mechanical Keypad, First Consumer AI Hardware",
+      "summary": "OpenAI推出Codex Micro，一款售价230美元的AI编程机械键盘，配备专用按键用于代码补全、生成和调试，面向开发者群体。这是OpenAI首款消费级硬件产品。",
+      "summary_en": "OpenAI introduced Codex Micro, a $230 mechanical keypad for AI coding with dedicated keys for code completion, generation, and debugging—the company's first consumer hardware product.",
+      "source": "Ghacks / 多家科技媒体",
+      "source_en": "Ghacks / Multiple Tech Media",
+      "image": "https://ainewsdaily.asia/img/pool/chips-edge-ai-v3.jpg",
+      "content": "OpenAI推出了Codex Micro，一款专为AI编程设计的机械键盘，售价230美元。该键盘配备专用按键，一键触发代码补全、生成和调试等功能，面向专业开发者群体。这是OpenAI从纯软件公司向硬件领域延伸的重要一步。Codex Micro的推出正值OpenAI面临来自Anthropic Claude Code（AI编程工具市场54%份额）和DeepSeek V4 Pro（超低价开源编程模型）的激烈竞争。",
+      "content_en": "OpenAI launched Codex Micro, a $230 mechanical keypad designed for AI coding with dedicated keys for code completion, generation, and debugging—marking the company's first foray into consumer hardware. The launch comes as OpenAI faces fierce competition from Anthropic's Claude Code (54% AI coding tool market share) and DeepSeek V4 Pro.",
+      "key_points": [
+        "OpenAI首款消费级硬件：Codex Micro机械键盘，售价230美元",
+        "专用按键实现代码补全、生成、调试一键触发",
+        "OpenAI从纯软件向硬件领域延伸",
+        "面临Anthropic Claude Code（54%份额）和DeepSeek的竞争"
+      ],
+      "key_points_en": [
+        "OpenAI's first consumer hardware: Codex Micro keypad, $230",
+        "Dedicated keys for code completion, generation, debugging",
+        "OpenAI extends from pure software to hardware",
+        "Faces competition from Claude Code (54% share) and DeepSeek"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-19",
+      "category": "AI应用",
+      "category_en": "AI Applications",
+      "title": "Google NotebookLM更名为Gemini Notebook，向AI Pro用户开放云电脑访问",
+      "title_en": "Google Rebrands NotebookLM to Gemini Notebook, Opens Cloud Computer to AI Pro Users",
+      "summary": "Google将AI笔记工具NotebookLM更名为Gemini Notebook，归入Gemini品牌体系。同时向AI Pro用户扩展云电脑访问权限，允许在云端运行更复杂的AI工作负载。",
+      "summary_en": "Google rebrands NotebookLM as Gemini Notebook, integrating it under the Gemini brand. It also expands cloud computer access to AI Pro users, enabling more complex AI workloads in the cloud.",
+      "source": "Ghacks / 多家科技媒体",
+      "source_en": "Ghacks / Multiple Tech Media",
+      "image": "https://ainewsdaily.asia/img/pool/LLM-01-v5.jpg",
+      "content": "Google宣布将AI笔记和研究工具NotebookLM正式更名为Gemini Notebook，将其纳入Gemini品牌统一管理。新名称反映了Google将AI研究工具与核心Gemini品牌深度整合的战略。同时，Google向AI Pro用户扩展了云电脑访问权限，允许用户在云端运行更复杂的AI工作负载。这一举措是Google在AI工具领域与OpenAI ChatGPT Work和Anthropic Claude竞争的最新动作。",
+      "content_en": "Google announced the rebranding of NotebookLM to Gemini Notebook, integrating the AI research tool under the unified Gemini brand. The move reflects Google's strategy of consolidating AI tools under the Gemini umbrella. Google also expanded cloud computer access to AI Pro users, enabling more complex AI workloads in the cloud.",
+      "key_points": [
+        "NotebookLM更名为Gemini Notebook，归入Gemini品牌体系",
+        "向AI Pro用户开放云电脑访问权限",
+        "Google整合AI工具品牌，应对OpenAI和Anthropic竞争"
+      ],
+      "key_points_en": [
+        "NotebookLM rebranded as Gemini Notebook, under Gemini brand",
+        "Cloud computer access expanded to AI Pro users",
+        "Google consolidates AI tools to compete with OpenAI and Anthropic"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-19",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "title": "微软CEO纳德拉警告：企业使用AI模型正在「付费两次」——为Token买单，也为交出核心知识买单",
+      "title_en": "Microsoft CEO Nadella Warns Enterprises 'Pay Twice' for AI—Once for Tokens, Once for Handing Over Core Knowledge",
+      "summary": "微软CEO Satya Nadella发文警告，企业使用OpenAI和Anthropic的模型正在「付费两次」：一次为Token付费，一次为交出专有知识付费。Palantir CEO Alex Karp也呼应，称企业客户对AI供应商「怒不可遏」。",
+      "summary_en": "Microsoft CEO Satya Nadella warns enterprises using OpenAI and Anthropic models are 'paying twice': once for tokens, once for handing over proprietary know-how. Palantir CEO Alex Karp echoes, saying enterprise clients are privately 'livid' about AI vendors.",
+      "source": "Fortune / CNBC",
+      "source_en": "Fortune / CNBC",
+      "image": "https://ainewsdaily.asia/img/pool/policy-04-v5.jpg",
+      "content": "微软CEO Satya Nadella发表博客文章，警告企业使用AI模型正在「付费两次」：一次为Token付费，一次为交出专有知识付费。他指出「模型从'废气'中学习——用户的提示词、Agent使用的工具、尤其是模型出错时用户的修正——每一次修正都被蒸馏成机构知识」。Palantir CEO Alex Karp在CNBC上呼应，称企业客户私下对AI供应商「怒不可遏」。前白宫AI与加密沙皇David Sacks也在All In播客中表示，OpenAI和Anthropic已形成双头垄断。",
+      "content_en": "Microsoft CEO Satya Nadella published a blog post warning that enterprises using AI models are 'paying twice': once for tokens, once for handing over proprietary know-how. Palantir CEO Alex Karp echoed this on CNBC, saying enterprise clients are privately 'livid' about AI vendors. David Sacks said OpenAI and Anthropic have formed a duopoly.",
+      "key_points": [
+        "Nadella：企业使用AI模型在「付费两次」——Token费+知识费",
+        "模型从用户提示词、工具使用和修正中学习机构知识",
+        "Palantir CEO：企业客户对AI供应商「怒不可遏」",
+        "前白宫AI沙皇David Sacks：OpenAI和Anthropic已形成双头垄断"
+      ],
+      "key_points_en": [
+        "Nadella: Enterprises 'pay twice' for AI—tokens + knowledge",
+        "Models learn from user prompts, tool usage, and corrections",
+        "Palantir CEO: Enterprise clients are 'livid' about AI vendors",
+        "David Sacks: OpenAI and Anthropic have formed a duopoly"
+      ],
+      "url": "news.html"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-19",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "title": "Thinking Machines Lab发布Inkling——9750亿参数开放权重模型，Apache 2.0许可，在美国开放权重模型中排名第一",
+      "title_en": "Thinking Machines Lab Releases Inkling—975B Parameter Open-Weight Model Under Apache 2.0, #1 Among US Open-Weight Models",
+      "summary": "Mira Murati创立的Thinking Machines Lab发布Inkling，9750亿参数MoE架构，Apache 2.0许可。Artificial Analysis综合评分41，在所有美国开放权重模型中排名第一。公司成立不到18个月即交出旗舰模型。",
+      "summary_en": "Mira Murati's Thinking Machines Lab released Inkling, a 975B parameter MoE model under Apache 2.0. Artificial Analysis composite score of 41, #1 among all US open-weight models. The company delivered its flagship model in under 18 months.",
+      "source": "Ghacks / 多家科技媒体",
+      "source_en": "Ghacks / Multiple Tech Media",
+      "image": "https://ainewsdaily.asia/img/pool/open_source-03-v5.jpg",
+      "content": "Mira Murati创立的Thinking Machines Lab（成立不到18个月）发布了首款旗舰模型Inkling——9750亿参数MoE架构，Apache 2.0开放权重许可。在Artificial Analysis综合评分中，Inkling以41分在所有美国开放权重模型中排名第一。Inkling的发布标志着从OpenAI离职的Murati正式在开源AI领域开辟了新战场。公司由a16z、Nvidia、Accel联合投资，估值120亿美元。Nvidia的参与格外引人注目——这是Nvidia对OpenAI离职高管的最大投资。",
+      "content_en": "Thinking Machines Lab, founded by former OpenAI CTO Mira Murati less than 18 months ago, released its first flagship model—Inkling, a 975B parameter MoE model under Apache 2.0. With a composite score of 41 on Artificial Analysis, it ranks #1 among all US open-weight models. The company is backed by a16z, Nvidia, and Accel at a $12B valuation.",
+      "key_points": [
+        "Thinking Machines Lab发布Inkling：9750亿参数MoE，Apache 2.0",
+        "Artificial Analysis评分41，美国开放权重模型排名第一",
+        "Mira Murati创立，公司成立不到18个月",
+        "a16z/Nvidia/Accel投资，估值120亿美元"
+      ],
+      "key_points_en": [
+        "Thinking Machines Lab releases Inkling: 975B MoE, Apache 2.0",
+        "#1 among US open-weight models on Artificial Analysis (score 41)",
+        "Founded by Mira Murati, company less than 18 months old",
+        "Backed by a16z/Nvidia/Accel at $12B valuation"
+      ],
+      "url": "news.html"
+    }
+  ]
+}
