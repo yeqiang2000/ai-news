@@ -1,0 +1,280 @@
+{
+  "date": "2026-07-20",
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-20",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "WAIC 2026 在上海闭幕，1100+企业参展创历史之最",
+      "title_en": "WAIC 2026 Concludes in Shanghai with Record 1,100+ Exhibitors",
+      "summary": "以「智能伙伴共创未来」为主题的WAIC 2026于7月20日在上海闭幕。四天展期吸引1100+企业参展，300+全球首发产品，展览面积首破10万平，十大镇馆之宝亮相。",
+      "summary_en": "WAIC 2026, themed 'Intelligent Partners, Co-creating the Future,' concluded on July 20 in Shanghai. The four-day event featured 1,100+ exhibitors, 300+ global premieres, and a record-breaking 100,000+ sqm exhibition area.",
+      "source": "WAIC 官方",
+      "source_en": "WAIC Official",
+      "image": "https://ainewsdaily.asia/img/pool/robotics-06-v5.jpg",
+      "content": "2026年7月20日，为期四天的世界人工智能大会（WAIC 2026）在上海世博中心落下帷幕。本届大会以「智能伙伴共创未来」为主题，吸引了超过1100家企业参展，发布300余款全球首发产品，展览面积首次突破10万平方米。大会评选出十大镇馆之宝，涵盖曙光8000十万卡超集群、智元远征A3 Ultra人形机器人、蚂蚁灵波机器人智慧药房、阶跃星辰Step X Neo L3智能体手机、百度搭子通用智能体等前沿产品。",
+      "content_en": "The four-day World Artificial Intelligence Conference (WAIC 2026) concluded at the Shanghai World Expo Center on July 20, 2026. With the theme 'Intelligent Partners, Co-creating the Future,' the event attracted over 1,100 exhibitors, unveiled 300+ global premieres, and exceeded 100,000 sqm of exhibition space for the first time. The Top Ten Treasures included Sugon 8000, Zhiyuan A3 Ultra, Ant Lingbo Robot Smart Pharmacy, StepFun Step X Neo, and Baidu Dazi.",
+      "key_points": [
+        "WAIC 2026 闭幕，主题「智能伙伴共创未来」",
+        "1100+企业参展，300+全球首发",
+        "展览面积首破10万平，十大镇馆之宝亮相"
+      ],
+      "key_points_en": [
+        "WAIC 2026 concludes with theme 'Intelligent Partners'",
+        "1,100+ exhibitors, 300+ global premieres",
+        "Record 100,000+ sqm exhibition area, Top Ten Treasures unveiled"
+      ],
+      "url": "https://www.waic.com"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-20",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "曙光8000十万卡超集群入选WAIC十大镇馆之宝",
+      "title_en": "Sugon 8000 100K-Card Ultra-Cluster Named WAIC Top Treasure",
+      "summary": "曙光8000（登峰）十万卡超集群作为国产算力里程碑入选WAIC十大镇馆之宝。该集群实现10万张国产AI芯片规模化部署，标志着中国进入十万卡算力时代。",
+      "summary_en": "Sugon 8000 (Dengfeng) 100K-card ultra-cluster was named a WAIC Top Treasure, marking a milestone for domestic computing. The cluster deploys 100,000 domestic AI chips, signaling China's entry into the ExaFLOPS computing era.",
+      "source": "WAIC 官方",
+      "source_en": "WAIC Official",
+      "image": "https://ainewsdaily.asia/img/pool/data_center-04-v5.jpg",
+      "content": "曙光8000（登峰）十万卡超集群在本届WAIC上入选十大镇馆之宝。该集群实现了10万张国产AI芯片的规模化部署，在训练效率、互联带宽和能效比三个维度上均达到国际先进水平。这一成果标志着中国在超大规模算力集群自主可控方面迈出了实质性一步，为国内AI大模型训练提供了坚实的算力底座。",
+      "content_en": "Sugon 8000 (Dengfeng) 100K-card ultra-cluster was named among the Top Ten Treasures at WAIC 2026. The cluster achieves large-scale deployment of 100,000 domestic AI chips, reaching international advanced levels in training efficiency, interconnect bandwidth, and energy efficiency. This marks a substantive step forward in China's self-sufficiency in ultra-large-scale computing clusters.",
+      "key_points": [
+        "曙光8000入选WAIC十大镇馆之宝",
+        "10万张国产AI芯片集群部署",
+        "训练效率、互联带宽、能效比达国际先进"
+      ],
+      "key_points_en": [
+        "Sugon 8000 named WAIC Top Treasure",
+        "100,000 domestic AI chip cluster deployment",
+        "International advanced levels in training, bandwidth, and efficiency"
+      ],
+      "url": "https://www.waic.com"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-20",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "智元机器人A3 Ultra累计下线超1.5万台，具身智能加速量产",
+      "title_en": "Zhiyuan Robotics A3 Ultra Surpasses 15,000 Units Shipped",
+      "summary": "智元远征A3 Ultra人形机器人入选WAIC十大镇馆之宝，累计下线超1.5万台，正在工业制造、物流分拣和商业服务场景进行规模化部署。",
+      "summary_en": "Zhiyuan's A3 Ultra humanoid robot was named a WAIC Top Treasure, with cumulative shipments exceeding 15,000 units. The robot is being deployed at scale in industrial manufacturing, logistics, and commercial services.",
+      "source": "智元机器人",
+      "source_en": "Zhiyuan Robotics",
+      "image": "https://ainewsdaily.asia/img/pool/robotics-07-v5.jpg",
+      "content": "智元远征A3 Ultra人形机器人入选本届WAIC十大镇馆之宝。智元机器人宣布A3 Ultra累计下线已超过1.5万台，正在工业制造、物流分拣、商业服务等多个场景进行规模化部署。在WAIC现场，A3 Ultra展示了精细的零部件装配和柔性物料搬运能力，标志着具身智能从概念验证走向量产交付。",
+      "content_en": "Zhiyuan's A3 Ultra humanoid robot was named among the Top Ten Treasures at WAIC 2026. Zhiyuan announced cumulative shipments of over 15,000 units, with large-scale deployment across industrial manufacturing, logistics sorting, and commercial service scenarios. At WAIC, the A3 Ultra demonstrated precision assembly and flexible material handling, marking embodied AI's transition from concept to mass production.",
+      "key_points": [
+        "智元A3 Ultra入选WAIC十大镇馆之宝",
+        "累计下线超1.5万台",
+        "工业制造、物流分拣等场景规模化部署"
+      ],
+      "key_points_en": [
+        "Zhiyuan A3 Ultra named WAIC Top Treasure",
+        "15,000+ units shipped cumulatively",
+        "Mass deployment in manufacturing and logistics"
+      ],
+      "url": "https://www.zhiyuan.ai"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-20",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "阶跃星辰Step X Neo获L3智能体认证，智能体手机元年开启",
+      "title_en": "StepFun Step X Neo Receives L3 Agent Certification, Ushering in the Year of Agent Phones",
+      "summary": "阶跃星辰Step X Neo获得WAIC L3智能体认证，为中国首个手机端L3级智能体模型。同期字节豆包手机二代NaviX Ultra和荣耀Robot Phone亮相，2026年被称为智能体手机元年。",
+      "summary_en": "StepFun's Step X Neo received WAIC's L3 Agent Certification, China's first mobile-side L3 agent model. ByteDance's Doubao Phone Gen 2 NaviX Ultra and Honor's Robot Phone also debuted, making 2026 the Year of Agent Phones.",
+      "source": "WAIC 官方",
+      "source_en": "WAIC Official",
+      "image": "https://ainewsdaily.asia/img/pool/industry-06-v5.jpg",
+      "content": "阶跃星辰Step X Neo在本届WAIC上获得L3智能体认证，成为中国首个通过L3级智能体认证的手机端模型。该模型能够实现跨应用的任务编排、上下文记忆和主动式服务推荐。同期，字节跳动发布了豆包手机二代NaviX Ultra，主打「眼神交互」；荣耀发布了Robot Phone，配备微型机械臂。2026年被视为智能体手机元年。",
+      "content_en": "StepFun's Step X Neo received WAIC's L3 Agent Certification, becoming China's first L3-certified mobile-side agent model. The model enables cross-app task orchestration, contextual memory, and proactive service recommendations. ByteDance's NaviX Ultra and Honor's Robot Phone also debuted, making 2026 the Year of Agent Phones.",
+      "key_points": [
+        "Step X Neo获中国首个L3手机端智能体认证",
+        "字节豆包二代NaviX Ultra主打眼神交互",
+        "荣耀Robot Phone配备微型机械臂"
+      ],
+      "key_points_en": [
+        "Step X Neo: China's first L3 mobile agent model",
+        "ByteDance NaviX Ultra features gaze interaction",
+        "Honor Robot Phone includes micro-robotic arm"
+      ],
+      "url": "https://www.stepfun.com"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-20",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "蚂蚁灵波机器人智慧药房落地国大药房运营",
+      "title_en": "Ant Lingbo Robot Smart Pharmacy Deployed at Guoda Pharmacy",
+      "summary": "蚂蚁灵波机器人智慧药房入选WAIC十大镇馆之宝，已进入国大药房运营。该系统实现药品从入库、分拣到出库的全流程自动化，是具身智能在医药零售领域的首个规模化落地案例。",
+      "summary_en": "Ant Lingbo Robot Smart Pharmacy was named a WAIC Top Treasure and has entered operations at Guoda Pharmacy. The system automates the entire drug management process from storage to dispensing, marking embodied AI's first large-scale deployment in pharmaceutical retail.",
+      "source": "蚂蚁集团",
+      "source_en": "Ant Group",
+      "image": "https://ainewsdaily.asia/img/pool/healthcare-02-v5.jpg",
+      "content": "蚂蚁灵波机器人智慧药房入选本届WAIC十大镇馆之宝，并已进入国大药房实际运营。该系统实现了药品从入库、分拣到出库的全流程自动化管理，大幅提升了药房运营效率和准确性。这是具身智能在医药零售领域的首个规模化落地案例，验证了垂直场景切入的商业化路径。",
+      "content_en": "Ant Lingbo Robot Smart Pharmacy was named among the Top Ten Treasures at WAIC 2026 and has entered operations at Guoda Pharmacy. The system automates the entire drug management workflow from storage to dispensing, significantly improving pharmacy efficiency and accuracy. This marks embodied AI's first large-scale deployment in pharmaceutical retail, validating the vertical-scenario commercialization path.",
+      "key_points": [
+        "入选WAIC十大镇馆之宝，已落地国大药房",
+        "药品入库、分拣、出库全流程自动化",
+        "具身智能在医药零售的首个规模化案例"
+      ],
+      "key_points_en": [
+        "Named WAIC Top Treasure, deployed at Guoda",
+        "Full automation of drug storage to dispensing",
+        "Embodied AI's first pharma retail deployment"
+      ],
+      "url": "https://www.antgroup.com"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-20",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "三大运营商集体转向Token经营，AI经济计量单位重塑产业格局",
+      "title_en": "China's Three Telecom Operators Shift to Token Management, Reshaping AI Economy",
+      "summary": "中国移动、电信、联通在WAIC 2026上集体发布基于Token的AI算力经营战略，标志着AI经济正在从流量经营转向Token经营。Token成为AI产业的核心计量单位。",
+      "summary_en": "China Mobile, China Telecom, and China Unicom all announced Token-based AI computing strategies at WAIC 2026, signaling a shift from traffic management to Token management. Token is becoming the core unit of measurement in the AI economy.",
+      "source": "WAIC 2026",
+      "source_en": "WAIC 2026",
+      "image": "https://ainewsdaily.asia/img/pool/network-01-v5.jpg",
+      "content": "在WAIC 2026上，中国三大运营商集体发布了AI算力网络战略，核心方向一致——从流量经营转向Token经营。中国移动发布「AI算力套餐」以Token计价，中国电信推出「天翼Token通」支持跨平台结算，中国联通发布「联通Token链」基于区块链实现透明流转。这一转变将重塑AI产业链的价值分配逻辑。",
+      "content_en": "At WAIC 2026, China's three major telecom operators collectively announced AI computing network strategies, all shifting from traffic management to Token management. China Mobile launched an 'AI Computing Package' priced in Tokens, China Telecom introduced 'Tianyi Token Connect,' and China Unicom unveiled the 'Token Chain.' This shift is reshaping value distribution across the AI industry.",
+      "key_points": [
+        "三大运营商集体发布Token经营战略",
+        "Token成为AI经济核心计量单位",
+        "移动电信联通分别推出Token产品"
+      ],
+      "key_points_en": [
+        "Three operators launch Token strategies",
+        "Token becomes core AI economy unit",
+        "Each operator releases Token-based products"
+      ],
+      "url": "https://www.waic.com"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-20",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "公募基金密集探访WAIC，AI投资进入精细化投研阶段",
+      "title_en": "Mutual Funds Swarm WAIC as AI Investing Enters Precision Phase",
+      "summary": "超过30家公募基金派出投研团队在WAIC 2026进行实地调研，覆盖AI芯片、大模型、具身智能、AI应用等细分赛道。AI投资正在从「赛道押注」转向「精细化投研」。",
+      "summary_en": "Over 30 mutual funds dispatched research teams to WAIC 2026, conducting field research across AI chips, large models, embodied AI, and AI applications. AI investing is shifting from 'sector betting' to 'precision research.'",
+      "source": "WAIC 2026",
+      "source_en": "WAIC 2026",
+      "image": "https://ainewsdaily.asia/img/pool/investment-09-v5.jpg",
+      "content": "本届WAIC迎来超过30家公募基金投研团队实地调研，覆盖AI芯片、大模型、具身智能、AI应用等多个细分赛道。这一信号表明AI赛道的投资正在从「赛道押注」转向「精细化投研」。投资人不再满足于「我们做AI」，而是追问「解决什么问题」「毛利率多少」「客户复购率如何」。",
+      "content_en": "Over 30 mutual fund research teams conducted field research at WAIC 2026, covering AI chips, large models, embodied AI, and AI applications. This signals a shift from 'sector betting' to 'precision research' in AI investing. Investors are no longer satisfied with 'we do AI'—they now ask 'what problem does it solve,' 'what's the margin,' and 'what's the retention rate.'",
+      "key_points": [
+        "30+公募基金团队实地调研WAIC",
+        "覆盖芯片、大模型、具身智能等赛道",
+        "从赛道押注转向精细化投研"
+      ],
+      "key_points_en": [
+        "30+ mutual fund teams at WAIC",
+        "Covering chips, LLMs, embodied AI",
+        "Shift from sector betting to precision research"
+      ],
+      "url": "https://www.waic.com"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-20",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "OpenAI获400亿美元融资，软银领投估值达3000亿美元",
+      "title_en": "OpenAI Raises $40B at $300B Valuation, Led by SoftBank",
+      "summary": "OpenAI宣布完成400亿美元融资，由软银领投，估值达到3000亿美元。ChatGPT活跃用户突破5亿，成为全球最大的AI应用产品。",
+      "summary_en": "OpenAI announced a $40 billion funding round led by SoftBank, valuing the company at $300 billion. ChatGPT surpassed 500 million active users, making it the world's largest AI application.",
+      "source": "OpenAI",
+      "source_en": "OpenAI",
+      "image": "https://ainewsdaily.asia/img/pool/llm-usage-credit-v4.jpg",
+      "content": "7月20日，OpenAI宣布完成400亿美元融资，由软银领投，公司估值达到3000亿美元。同一天，OpenAI宣布ChatGPT活跃用户突破5亿，使其成为全球最大的AI应用产品。这笔融资将用于扩大算力基础设施、加速模型研发和全球化布局。",
+      "content_en": "On July 20, OpenAI announced a $40 billion funding round led by SoftBank, valuing the company at $300 billion. The same day, OpenAI announced that ChatGPT surpassed 500 million active users, making it the world's largest AI application. The funds will be used to expand computing infrastructure, accelerate model development, and global expansion.",
+      "key_points": [
+        "OpenAI获400亿美元融资",
+        "软银领投，估值3000亿美元",
+        "ChatGPT活跃用户突破5亿"
+      ],
+      "key_points_en": [
+        "OpenAI raises $40B in funding",
+        "SoftBank leads, $300B valuation",
+        "ChatGPT surpasses 500M active users"
+      ],
+      "url": "https://openai.com"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-20",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "百度「搭子」通用智能体入选WAIC十大镇馆之宝",
+      "title_en": "Baidu 'Dazi' Universal Agent Named WAIC Top Treasure",
+      "summary": "百度「搭子」通用智能体入选WAIC十大镇馆之宝，展示跨场景智能服务能力，覆盖生活、办公、娱乐等多个领域，用户可通过自然语言与智能体进行多轮交互。",
+      "summary_en": "Baidu's 'Dazi' universal agent was named a WAIC Top Treasure, demonstrating cross-scenario intelligent service capabilities spanning daily life, office work, and entertainment. Users can engage in multi-turn interactions with the agent through natural language.",
+      "source": "百度",
+      "source_en": "Baidu",
+      "image": "https://ainewsdaily.asia/img/pool/AI_applications-07-v5.jpg",
+      "content": "百度「搭子」通用智能体入选本届WAIC十大镇馆之宝。「搭子」能够在多个生活、办公、娱乐场景中提供跨场景智能服务，用户通过自然语言即可与智能体进行多轮交互，完成信息查询、任务执行、方案推荐等复杂操作。该产品代表了百度在通用智能体方向的最新成果。",
+      "content_en": "Baidu's 'Dazi' universal agent was named among the Top Ten Treasures at WAIC 2026. Dazi provides cross-scenario intelligent services across daily life, office, and entertainment. Users can engage in multi-turn natural language interactions with the agent to complete tasks including information queries, task execution, and recommendation. The product represents Baidu's latest achievement in universal agent technology.",
+      "key_points": [
+        "百度搭子入选WAIC十大镇馆之宝",
+        "覆盖生活、办公、娱乐多场景",
+        "自然语言多轮交互智能服务"
+      ],
+      "key_points_en": [
+        "Baidu Dazi named WAIC Top Treasure",
+        "Covers life, office, and entertainment",
+        "Multi-turn natural language interaction"
+      ],
+      "url": "https://www.baidu.com"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-20",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "WAIC 2026 四大趋势：具身智能、智能体手机、十万卡算力、Token经济",
+      "title_en": "WAIC 2026 Reveals Four Major Trends: Embodied AI, Agent Phones, ExaFLOPS Computing, Token Economy",
+      "summary": "产业分析总结WAIC 2026四大趋势：具身智能从「跳舞」到「上班」、智能体手机元年开启、国产算力进入十万卡时代、Token成为AI经济计量单位。同时提醒冷静看待同质化、安全合规等挑战。",
+      "summary_en": "Industry analysis summarizes four major trends from WAIC 2026: embodied AI from 'dancing' to 'working,' the year of agent phones, China's ExaFLOPS computing era, and Token as the AI economy unit. It also notes sobering challenges including homogenization and compliance.",
+      "source": "AI News Daily",
+      "source_en": "AI News Daily",
+      "image": "https://ainewsdaily.asia/img/pool/deep_analysis-08-v5.jpg",
+      "content": "WAIC 2026释放了四大核心产业趋势：一、具身智能从「跳舞」到「上班」，200+企业参展、300+真机动态运行，迈向实际应用；二、2026年成为智能体手机元年，StepX Neo获L3认证、豆包二代NaviX Ultra亮相、荣耀Robot Phone发布；三、国产算力进入十万卡时代，曙光8000和华为Atlas 950超节点引领；四、Token成为AI经济计量单位，三大运营商从流量经营转向Token经营。同时，冷静观点指出行业仍面临同质化、安全合规等挑战。",
+      "content_en": "WAIC 2026 revealed four major industry trends: 1) Embodied AI transitioning from 'dancing' to 'working' with 200+ exhibitors and 300+ robots in dynamic operation; 2) 2026 as the Year of Agent Phones with Step X Neo L3 certification, NaviX Ultra, and Honor Robot Phone; 3) China's entry into the ExaFLOPS computing era led by Sugon 8000 and Huawei Atlas 950; 4) Token becoming the AI economy unit with three operators shifting to Token management. Cautious perspectives note challenges including homogenization and compliance.",
+      "key_points": [
+        "具身智能从跳舞到上班，200+企业参展",
+        "2026智能体手机元年，三大新品发布",
+        "国产算力十万卡时代，曙光8000引领",
+        "Token经济三大运营商集体转型"
+      ],
+      "key_points_en": [
+        "Embodied AI: 200+ exhibitors, from demo to deployment",
+        "2026: Year of Agent Phones with three major launches",
+        "China's ExaFLOPS era: Sugon 8000 leads",
+        "Token economy: three operators transform"
+      ],
+      "url": "https://ainewsdaily.asia"
+    }
+  ],
+  "hero": {
+    "id": "hero-waic-2026",
+    "title": "WAIC 2026 闭幕：AI 进入「交付元年」，从参数竞赛到兑现落地的四大趋势",
+    "title_en": "WAIC 2026 Concludes: AI Enters 'Year of Delivery' — Four Trends from Parameter Competition to Value Realization",
+    "image": "https://ainewsdaily.asia/img/pool/robotics-04-v5.jpg",
+    "date": "2026-07-20",
+    "source": "WAIC 官方 / AI News Daily",
+    "source_en": "WAIC Official / AI News Daily",
+    "summary": "WAIC 2026 于 7 月 20 日在上海闭幕，1100+ 企业参展、300+ 全球首发、展览面积首破 10 万平。具身智能、智能体手机、十万卡算力、Token 经济四大趋势揭示 AI 产业正从参数竞赛转向交付兑现。",
+    "summary_en": "WAIC 2026 concluded on July 20 in Shanghai with 1,100+ exhibitors, 300+ global premieres, and a record 100,000+ sqm area. Four major trends—embodied AI, agent phones, ExaFLOPS computing, and Token economy—reveal AI's shift from parameter competition to value delivery.",
+    "category": "产业",
+    "category_en": "Industry Analysis"
+  }
+}

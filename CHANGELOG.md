@@ -1322,4 +1322,6 @@
 - commit: 38f330c
 - pages.dev: https://e74975fd.ainewsdaily.pages.dev
 - 生产域名: https://ainewsdaily.asia
-- 部署验证: 自检 3 项全绿 + curl 3 次（sitemap 200/article-48 200/Yandex 202）
+- 部署验证: 自检 3 项全绿 + curl 3 次（sitemap 200/article-48 200/Yandex 202）## 2026-07-19 (fix)
+- **修复**: news.json 第一天 date 字段缺失，导致 hero 区 JS 渲染失败
+- **修复**: news.json days[0] 缺少 hero 字段，JS 读取 days[0].hero 渲染 hero 区，补上后 hero 正常显示

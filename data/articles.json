@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "id": "article-49",
+      "date": "2026-07-20",
+      "title": "WAIC 2026 闭幕全景——AI 正式进入「交付元年」，从参数竞赛到交付兑现的四大趋势",
+      "title_en": "WAIC 2026 Full Panorama — AI Enters the 'Year of Delivery': From Parameter Competition to Value Delivery, Four Defining Trends",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "image": "https://ainewsdaily.asia/img/pool/robotics-04-v5.jpg",
+      "summary": "WAIC 2026 于 7 月 20 日在上海闭幕，主题「智能伙伴共创未来」。本文从四大趋势深度剖析 AI 产业从参数竞赛到交付兑现的转折点，涵盖具身智能、智能体手机、十万卡算力、Token 经济等核心议题。",
+      "summary_en": "WAIC 2026 concluded on July 20 in Shanghai with the theme 'Intelligent Partners, Co-creating the Future.' This article provides deep analysis of AI's inflection point from parameter competition to value delivery, covering embodied AI, agent phones, ExaFLOPS computing, and the Token economy.",
+      "read_time": 20,
+      "tags": [
+        "WAIC 2026",
+        "具身智能",
+        "智能体手机",
+        "国产算力",
+        "Token经济",
+        "交付元年"
+      ],
+      "tags_en": [
+        "WAIC 2026",
+        "Embodied AI",
+        "Agent Phone",
+        "Domestic Computing",
+        "Token Economy",
+        "Year of Delivery"
+      ]
+    },
+    {
       "id": "article-48",
       "date": "2026-07-19",
       "category": "产业",
@@ -741,5 +769,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-20"
 }

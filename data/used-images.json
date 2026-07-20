@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-19",
+  "last_updated": "2026-07-20",
   "used_urls": [
     "https://ainewsdaily.asia/img/pool/autonomous-drone-v3.jpg",
     "https://ainewsdaily.asia/img/pool/blockchain-defi-v3.jpg",
@@ -329,7 +329,21 @@
     "https://ainewsdaily.asia/img/pool/LLM-09-v5.jpg",
     "https://ainewsdaily.asia/img/pool/chips-07-v5.jpg",
     "https://ainewsdaily.asia/img/pool/industry-09-v5.jpg",
-    "https://ainewsdaily.asia/img/pool/llm-pricing-tier-v4.jpg"
+    "https://ainewsdaily.asia/img/pool/llm-pricing-tier-v4.jpg",
+    "https://ainewsdaily.asia/img/pool/robotics-04-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/robotics-06-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/data_center-04-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/robotics-07-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/industry-06-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/healthcare-02-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/network-01-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/investment-09-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/llm-usage-credit-v4.jpg",
+    "https://ainewsdaily.asia/img/pool/AI_applications-07-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/deep_analysis-08-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/data_center-03-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/deep_analysis-07-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/robotics-05-v5.jpg"
   ],
-  "total_used": 328
+  "total_used": 342
 }

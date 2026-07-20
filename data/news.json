@@ -1,6 +1,285 @@
 {
-  "last_updated": "2026-07-19",
+  "last_updated": "2026-07-20",
   "days": [
+    {
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-07-20",
+          "category": "产业",
+          "category_en": "Industry Analysis",
+          "title": "WAIC 2026 在上海闭幕，1100+企业参展创历史之最",
+          "title_en": "WAIC 2026 Concludes in Shanghai with Record 1,100+ Exhibitors",
+          "summary": "以「智能伙伴共创未来」为主题的WAIC 2026于7月20日在上海闭幕。四天展期吸引1100+企业参展，300+全球首发产品，展览面积首破10万平，十大镇馆之宝亮相。",
+          "summary_en": "WAIC 2026, themed 'Intelligent Partners, Co-creating the Future,' concluded on July 20 in Shanghai. The four-day event featured 1,100+ exhibitors, 300+ global premieres, and a record-breaking 100,000+ sqm exhibition area.",
+          "source": "WAIC 官方",
+          "source_en": "WAIC Official",
+          "image": "https://ainewsdaily.asia/img/pool/robotics-06-v5.jpg",
+          "content": "2026年7月20日，为期四天的世界人工智能大会（WAIC 2026）在上海世博中心落下帷幕。本届大会以「智能伙伴共创未来」为主题，吸引了超过1100家企业参展，发布300余款全球首发产品，展览面积首次突破10万平方米。大会评选出十大镇馆之宝，涵盖曙光8000十万卡超集群、智元远征A3 Ultra人形机器人、蚂蚁灵波机器人智慧药房、阶跃星辰Step X Neo L3智能体手机、百度搭子通用智能体等前沿产品。",
+          "content_en": "The four-day World Artificial Intelligence Conference (WAIC 2026) concluded at the Shanghai World Expo Center on July 20, 2026. With the theme 'Intelligent Partners, Co-creating the Future,' the event attracted over 1,100 exhibitors, unveiled 300+ global premieres, and exceeded 100,000 sqm of exhibition space for the first time. The Top Ten Treasures included Sugon 8000, Zhiyuan A3 Ultra, Ant Lingbo Robot Smart Pharmacy, StepFun Step X Neo, and Baidu Dazi.",
+          "key_points": [
+            "WAIC 2026 闭幕，主题「智能伙伴共创未来」",
+            "1100+企业参展，300+全球首发",
+            "展览面积首破10万平，十大镇馆之宝亮相"
+          ],
+          "key_points_en": [
+            "WAIC 2026 concludes with theme 'Intelligent Partners'",
+            "1,100+ exhibitors, 300+ global premieres",
+            "Record 100,000+ sqm exhibition area, Top Ten Treasures unveiled"
+          ],
+          "url": "https://www.waic.com"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-07-20",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing",
+          "title": "曙光8000十万卡超集群入选WAIC十大镇馆之宝",
+          "title_en": "Sugon 8000 100K-Card Ultra-Cluster Named WAIC Top Treasure",
+          "summary": "曙光8000（登峰）十万卡超集群作为国产算力里程碑入选WAIC十大镇馆之宝。该集群实现10万张国产AI芯片规模化部署，标志着中国进入十万卡算力时代。",
+          "summary_en": "Sugon 8000 (Dengfeng) 100K-card ultra-cluster was named a WAIC Top Treasure, marking a milestone for domestic computing. The cluster deploys 100,000 domestic AI chips, signaling China's entry into the ExaFLOPS computing era.",
+          "source": "WAIC 官方",
+          "source_en": "WAIC Official",
+          "image": "https://ainewsdaily.asia/img/pool/data_center-04-v5.jpg",
+          "content": "曙光8000（登峰）十万卡超集群在本届WAIC上入选十大镇馆之宝。该集群实现了10万张国产AI芯片的规模化部署，在训练效率、互联带宽和能效比三个维度上均达到国际先进水平。这一成果标志着中国在超大规模算力集群自主可控方面迈出了实质性一步，为国内AI大模型训练提供了坚实的算力底座。",
+          "content_en": "Sugon 8000 (Dengfeng) 100K-card ultra-cluster was named among the Top Ten Treasures at WAIC 2026. The cluster achieves large-scale deployment of 100,000 domestic AI chips, reaching international advanced levels in training efficiency, interconnect bandwidth, and energy efficiency. This marks a substantive step forward in China's self-sufficiency in ultra-large-scale computing clusters.",
+          "key_points": [
+            "曙光8000入选WAIC十大镇馆之宝",
+            "10万张国产AI芯片集群部署",
+            "训练效率、互联带宽、能效比达国际先进"
+          ],
+          "key_points_en": [
+            "Sugon 8000 named WAIC Top Treasure",
+            "100,000 domestic AI chip cluster deployment",
+            "International advanced levels in training, bandwidth, and efficiency"
+          ],
+          "url": "https://www.waic.com"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-07-20",
+          "category": "AI 应用",
+          "category_en": "AI Applications",
+          "title": "智元机器人A3 Ultra累计下线超1.5万台，具身智能加速量产",
+          "title_en": "Zhiyuan Robotics A3 Ultra Surpasses 15,000 Units Shipped",
+          "summary": "智元远征A3 Ultra人形机器人入选WAIC十大镇馆之宝，累计下线超1.5万台，正在工业制造、物流分拣和商业服务场景进行规模化部署。",
+          "summary_en": "Zhiyuan's A3 Ultra humanoid robot was named a WAIC Top Treasure, with cumulative shipments exceeding 15,000 units. The robot is being deployed at scale in industrial manufacturing, logistics, and commercial services.",
+          "source": "智元机器人",
+          "source_en": "Zhiyuan Robotics",
+          "image": "https://ainewsdaily.asia/img/pool/robotics-07-v5.jpg",
+          "content": "智元远征A3 Ultra人形机器人入选本届WAIC十大镇馆之宝。智元机器人宣布A3 Ultra累计下线已超过1.5万台，正在工业制造、物流分拣、商业服务等多个场景进行规模化部署。在WAIC现场，A3 Ultra展示了精细的零部件装配和柔性物料搬运能力，标志着具身智能从概念验证走向量产交付。",
+          "content_en": "Zhiyuan's A3 Ultra humanoid robot was named among the Top Ten Treasures at WAIC 2026. Zhiyuan announced cumulative shipments of over 15,000 units, with large-scale deployment across industrial manufacturing, logistics sorting, and commercial service scenarios. At WAIC, the A3 Ultra demonstrated precision assembly and flexible material handling, marking embodied AI's transition from concept to mass production.",
+          "key_points": [
+            "智元A3 Ultra入选WAIC十大镇馆之宝",
+            "累计下线超1.5万台",
+            "工业制造、物流分拣等场景规模化部署"
+          ],
+          "key_points_en": [
+            "Zhiyuan A3 Ultra named WAIC Top Treasure",
+            "15,000+ units shipped cumulatively",
+            "Mass deployment in manufacturing and logistics"
+          ],
+          "url": "https://www.zhiyuan.ai"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-07-20",
+          "category": "AI 应用",
+          "category_en": "AI Applications",
+          "title": "阶跃星辰Step X Neo获L3智能体认证，智能体手机元年开启",
+          "title_en": "StepFun Step X Neo Receives L3 Agent Certification, Ushering in the Year of Agent Phones",
+          "summary": "阶跃星辰Step X Neo获得WAIC L3智能体认证，为中国首个手机端L3级智能体模型。同期字节豆包手机二代NaviX Ultra和荣耀Robot Phone亮相，2026年被称为智能体手机元年。",
+          "summary_en": "StepFun's Step X Neo received WAIC's L3 Agent Certification, China's first mobile-side L3 agent model. ByteDance's Doubao Phone Gen 2 NaviX Ultra and Honor's Robot Phone also debuted, making 2026 the Year of Agent Phones.",
+          "source": "WAIC 官方",
+          "source_en": "WAIC Official",
+          "image": "https://ainewsdaily.asia/img/pool/industry-06-v5.jpg",
+          "content": "阶跃星辰Step X Neo在本届WAIC上获得L3智能体认证，成为中国首个通过L3级智能体认证的手机端模型。该模型能够实现跨应用的任务编排、上下文记忆和主动式服务推荐。同期，字节跳动发布了豆包手机二代NaviX Ultra，主打「眼神交互」；荣耀发布了Robot Phone，配备微型机械臂。2026年被视为智能体手机元年。",
+          "content_en": "StepFun's Step X Neo received WAIC's L3 Agent Certification, becoming China's first L3-certified mobile-side agent model. The model enables cross-app task orchestration, contextual memory, and proactive service recommendations. ByteDance's NaviX Ultra and Honor's Robot Phone also debuted, making 2026 the Year of Agent Phones.",
+          "key_points": [
+            "Step X Neo获中国首个L3手机端智能体认证",
+            "字节豆包二代NaviX Ultra主打眼神交互",
+            "荣耀Robot Phone配备微型机械臂"
+          ],
+          "key_points_en": [
+            "Step X Neo: China's first L3 mobile agent model",
+            "ByteDance NaviX Ultra features gaze interaction",
+            "Honor Robot Phone includes micro-robotic arm"
+          ],
+          "url": "https://www.stepfun.com"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-07-20",
+          "category": "AI 应用",
+          "category_en": "AI Applications",
+          "title": "蚂蚁灵波机器人智慧药房落地国大药房运营",
+          "title_en": "Ant Lingbo Robot Smart Pharmacy Deployed at Guoda Pharmacy",
+          "summary": "蚂蚁灵波机器人智慧药房入选WAIC十大镇馆之宝，已进入国大药房运营。该系统实现药品从入库、分拣到出库的全流程自动化，是具身智能在医药零售领域的首个规模化落地案例。",
+          "summary_en": "Ant Lingbo Robot Smart Pharmacy was named a WAIC Top Treasure and has entered operations at Guoda Pharmacy. The system automates the entire drug management process from storage to dispensing, marking embodied AI's first large-scale deployment in pharmaceutical retail.",
+          "source": "蚂蚁集团",
+          "source_en": "Ant Group",
+          "image": "https://ainewsdaily.asia/img/pool/healthcare-02-v5.jpg",
+          "content": "蚂蚁灵波机器人智慧药房入选本届WAIC十大镇馆之宝，并已进入国大药房实际运营。该系统实现了药品从入库、分拣到出库的全流程自动化管理，大幅提升了药房运营效率和准确性。这是具身智能在医药零售领域的首个规模化落地案例，验证了垂直场景切入的商业化路径。",
+          "content_en": "Ant Lingbo Robot Smart Pharmacy was named among the Top Ten Treasures at WAIC 2026 and has entered operations at Guoda Pharmacy. The system automates the entire drug management workflow from storage to dispensing, significantly improving pharmacy efficiency and accuracy. This marks embodied AI's first large-scale deployment in pharmaceutical retail, validating the vertical-scenario commercialization path.",
+          "key_points": [
+            "入选WAIC十大镇馆之宝，已落地国大药房",
+            "药品入库、分拣、出库全流程自动化",
+            "具身智能在医药零售的首个规模化案例"
+          ],
+          "key_points_en": [
+            "Named WAIC Top Treasure, deployed at Guoda",
+            "Full automation of drug storage to dispensing",
+            "Embodied AI's first pharma retail deployment"
+          ],
+          "url": "https://www.antgroup.com"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-07-20",
+          "category": "产业",
+          "category_en": "Industry Analysis",
+          "title": "三大运营商集体转向Token经营，AI经济计量单位重塑产业格局",
+          "title_en": "China's Three Telecom Operators Shift to Token Management, Reshaping AI Economy",
+          "summary": "中国移动、电信、联通在WAIC 2026上集体发布基于Token的AI算力经营战略，标志着AI经济正在从流量经营转向Token经营。Token成为AI产业的核心计量单位。",
+          "summary_en": "China Mobile, China Telecom, and China Unicom all announced Token-based AI computing strategies at WAIC 2026, signaling a shift from traffic management to Token management. Token is becoming the core unit of measurement in the AI economy.",
+          "source": "WAIC 2026",
+          "source_en": "WAIC 2026",
+          "image": "https://ainewsdaily.asia/img/pool/network-01-v5.jpg",
+          "content": "在WAIC 2026上，中国三大运营商集体发布了AI算力网络战略，核心方向一致——从流量经营转向Token经营。中国移动发布「AI算力套餐」以Token计价，中国电信推出「天翼Token通」支持跨平台结算，中国联通发布「联通Token链」基于区块链实现透明流转。这一转变将重塑AI产业链的价值分配逻辑。",
+          "content_en": "At WAIC 2026, China's three major telecom operators collectively announced AI computing network strategies, all shifting from traffic management to Token management. China Mobile launched an 'AI Computing Package' priced in Tokens, China Telecom introduced 'Tianyi Token Connect,' and China Unicom unveiled the 'Token Chain.' This shift is reshaping value distribution across the AI industry.",
+          "key_points": [
+            "三大运营商集体发布Token经营战略",
+            "Token成为AI经济核心计量单位",
+            "移动电信联通分别推出Token产品"
+          ],
+          "key_points_en": [
+            "Three operators launch Token strategies",
+            "Token becomes core AI economy unit",
+            "Each operator releases Token-based products"
+          ],
+          "url": "https://www.waic.com"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-07-20",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "公募基金密集探访WAIC，AI投资进入精细化投研阶段",
+          "title_en": "Mutual Funds Swarm WAIC as AI Investing Enters Precision Phase",
+          "summary": "超过30家公募基金派出投研团队在WAIC 2026进行实地调研，覆盖AI芯片、大模型、具身智能、AI应用等细分赛道。AI投资正在从「赛道押注」转向「精细化投研」。",
+          "summary_en": "Over 30 mutual funds dispatched research teams to WAIC 2026, conducting field research across AI chips, large models, embodied AI, and AI applications. AI investing is shifting from 'sector betting' to 'precision research.'",
+          "source": "WAIC 2026",
+          "source_en": "WAIC 2026",
+          "image": "https://ainewsdaily.asia/img/pool/investment-09-v5.jpg",
+          "content": "本届WAIC迎来超过30家公募基金投研团队实地调研，覆盖AI芯片、大模型、具身智能、AI应用等多个细分赛道。这一信号表明AI赛道的投资正在从「赛道押注」转向「精细化投研」。投资人不再满足于「我们做AI」，而是追问「解决什么问题」「毛利率多少」「客户复购率如何」。",
+          "content_en": "Over 30 mutual fund research teams conducted field research at WAIC 2026, covering AI chips, large models, embodied AI, and AI applications. This signals a shift from 'sector betting' to 'precision research' in AI investing. Investors are no longer satisfied with 'we do AI'—they now ask 'what problem does it solve,' 'what's the margin,' and 'what's the retention rate.'",
+          "key_points": [
+            "30+公募基金团队实地调研WAIC",
+            "覆盖芯片、大模型、具身智能等赛道",
+            "从赛道押注转向精细化投研"
+          ],
+          "key_points_en": [
+            "30+ mutual fund teams at WAIC",
+            "Covering chips, LLMs, embodied AI",
+            "Shift from sector betting to precision research"
+          ],
+          "url": "https://www.waic.com"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-07-20",
+          "category": "投融资",
+          "category_en": "Investment",
+          "title": "OpenAI获400亿美元融资，软银领投估值达3000亿美元",
+          "title_en": "OpenAI Raises $40B at $300B Valuation, Led by SoftBank",
+          "summary": "OpenAI宣布完成400亿美元融资，由软银领投，估值达到3000亿美元。ChatGPT活跃用户突破5亿，成为全球最大的AI应用产品。",
+          "summary_en": "OpenAI announced a $40 billion funding round led by SoftBank, valuing the company at $300 billion. ChatGPT surpassed 500 million active users, making it the world's largest AI application.",
+          "source": "OpenAI",
+          "source_en": "OpenAI",
+          "image": "https://ainewsdaily.asia/img/pool/llm-usage-credit-v4.jpg",
+          "content": "7月20日，OpenAI宣布完成400亿美元融资，由软银领投，公司估值达到3000亿美元。同一天，OpenAI宣布ChatGPT活跃用户突破5亿，使其成为全球最大的AI应用产品。这笔融资将用于扩大算力基础设施、加速模型研发和全球化布局。",
+          "content_en": "On July 20, OpenAI announced a $40 billion funding round led by SoftBank, valuing the company at $300 billion. The same day, OpenAI announced that ChatGPT surpassed 500 million active users, making it the world's largest AI application. The funds will be used to expand computing infrastructure, accelerate model development, and global expansion.",
+          "key_points": [
+            "OpenAI获400亿美元融资",
+            "软银领投，估值3000亿美元",
+            "ChatGPT活跃用户突破5亿"
+          ],
+          "key_points_en": [
+            "OpenAI raises $40B in funding",
+            "SoftBank leads, $300B valuation",
+            "ChatGPT surpasses 500M active users"
+          ],
+          "url": "https://openai.com"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-07-20",
+          "category": "AI 应用",
+          "category_en": "AI Applications",
+          "title": "百度「搭子」通用智能体入选WAIC十大镇馆之宝",
+          "title_en": "Baidu 'Dazi' Universal Agent Named WAIC Top Treasure",
+          "summary": "百度「搭子」通用智能体入选WAIC十大镇馆之宝，展示跨场景智能服务能力，覆盖生活、办公、娱乐等多个领域，用户可通过自然语言与智能体进行多轮交互。",
+          "summary_en": "Baidu's 'Dazi' universal agent was named a WAIC Top Treasure, demonstrating cross-scenario intelligent service capabilities spanning daily life, office work, and entertainment. Users can engage in multi-turn interactions with the agent through natural language.",
+          "source": "百度",
+          "source_en": "Baidu",
+          "image": "https://ainewsdaily.asia/img/pool/AI_applications-07-v5.jpg",
+          "content": "百度「搭子」通用智能体入选本届WAIC十大镇馆之宝。「搭子」能够在多个生活、办公、娱乐场景中提供跨场景智能服务，用户通过自然语言即可与智能体进行多轮交互，完成信息查询、任务执行、方案推荐等复杂操作。该产品代表了百度在通用智能体方向的最新成果。",
+          "content_en": "Baidu's 'Dazi' universal agent was named among the Top Ten Treasures at WAIC 2026. Dazi provides cross-scenario intelligent services across daily life, office, and entertainment. Users can engage in multi-turn natural language interactions with the agent to complete tasks including information queries, task execution, and recommendation. The product represents Baidu's latest achievement in universal agent technology.",
+          "key_points": [
+            "百度搭子入选WAIC十大镇馆之宝",
+            "覆盖生活、办公、娱乐多场景",
+            "自然语言多轮交互智能服务"
+          ],
+          "key_points_en": [
+            "Baidu Dazi named WAIC Top Treasure",
+            "Covers life, office, and entertainment",
+            "Multi-turn natural language interaction"
+          ],
+          "url": "https://www.baidu.com"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-07-20",
+          "category": "产业",
+          "category_en": "Industry Analysis",
+          "title": "WAIC 2026 四大趋势：具身智能、智能体手机、十万卡算力、Token经济",
+          "title_en": "WAIC 2026 Reveals Four Major Trends: Embodied AI, Agent Phones, ExaFLOPS Computing, Token Economy",
+          "summary": "产业分析总结WAIC 2026四大趋势：具身智能从「跳舞」到「上班」、智能体手机元年开启、国产算力进入十万卡时代、Token成为AI经济计量单位。同时提醒冷静看待同质化、安全合规等挑战。",
+          "summary_en": "Industry analysis summarizes four major trends from WAIC 2026: embodied AI from 'dancing' to 'working,' the year of agent phones, China's ExaFLOPS computing era, and Token as the AI economy unit. It also notes sobering challenges including homogenization and compliance.",
+          "source": "AI News Daily",
+          "source_en": "AI News Daily",
+          "image": "https://ainewsdaily.asia/img/pool/deep_analysis-08-v5.jpg",
+          "content": "WAIC 2026释放了四大核心产业趋势：一、具身智能从「跳舞」到「上班」，200+企业参展、300+真机动态运行，迈向实际应用；二、2026年成为智能体手机元年，StepX Neo获L3认证、豆包二代NaviX Ultra亮相、荣耀Robot Phone发布；三、国产算力进入十万卡时代，曙光8000和华为Atlas 950超节点引领；四、Token成为AI经济计量单位，三大运营商从流量经营转向Token经营。同时，冷静观点指出行业仍面临同质化、安全合规等挑战。",
+          "content_en": "WAIC 2026 revealed four major industry trends: 1) Embodied AI transitioning from 'dancing' to 'working' with 200+ exhibitors and 300+ robots in dynamic operation; 2) 2026 as the Year of Agent Phones with Step X Neo L3 certification, NaviX Ultra, and Honor Robot Phone; 3) China's entry into the ExaFLOPS computing era led by Sugon 8000 and Huawei Atlas 950; 4) Token becoming the AI economy unit with three operators shifting to Token management. Cautious perspectives note challenges including homogenization and compliance.",
+          "key_points": [
+            "具身智能从跳舞到上班，200+企业参展",
+            "2026智能体手机元年，三大新品发布",
+            "国产算力十万卡时代，曙光8000引领",
+            "Token经济三大运营商集体转型"
+          ],
+          "key_points_en": [
+            "Embodied AI: 200+ exhibitors, from demo to deployment",
+            "2026: Year of Agent Phones with three major launches",
+            "China's ExaFLOPS era: Sugon 8000 leads",
+            "Token economy: three operators transform"
+          ],
+          "url": "https://ainewsdaily.asia"
+        }
+      ],
+      "hero": {
+        "id": "hero-waic-2026",
+        "title": "WAIC 2026 闭幕：AI 进入「交付元年」，从参数竞赛到兑现落地的四大趋势",
+        "title_en": "WAIC 2026 Concludes: AI Enters 'Year of Delivery' — Four Trends from Parameter Competition to Value Realization",
+        "image": "https://ainewsdaily.asia/img/pool/robotics-04-v5.jpg",
+        "date": "2026-07-20",
+        "source": "WAIC 官方 / AI News Daily",
+        "source_en": "WAIC Official / AI News Daily",
+        "summary": "WAIC 2026 于 7 月 20 日在上海闭幕，1100+ 企业参展、300+ 全球首发、展览面积首破 10 万平。具身智能、智能体手机、十万卡算力、Token 经济四大趋势揭示 AI 产业正从参数竞赛转向交付兑现。",
+        "summary_en": "WAIC 2026 concluded on July 20 in Shanghai with 1,100+ exhibitors, 300+ global premieres, and a record 100,000+ sqm area. Four major trends—embodied AI, agent phones, ExaFLOPS computing, and Token economy—reveal AI's shift from parameter competition to value delivery.",
+        "category": "产业",
+        "category_en": "Industry Analysis"
+      }
+    },
     {
       "articles": [
         {
@@ -281,21 +560,7 @@
           ],
           "url": "news.html"
         }
-      ],
-      "date": "2026-07-19",
-      "hero": {
-        "id": "hero-2026-07-19",
-        "title": "WAIC 2026 第三天——商汤科技与国星宇航共建「商汤算力星座」，千星万P太空算力基础设施正式启航",
-        "title_en": "WAIC 2026 Day 3—SenseTime & Guoxing Aerospace Build 'SenseTime Computing Constellation', Thousand-Satellite ExaFLOPS Space Computing Sets Sail",
-        "image": "https://ainewsdaily.asia/img/pool/industry-09-v5.jpg",
-        "date": "2026-07-19",
-        "source": "AI News Daily 综合",
-        "source_en": "AI News Daily Analysis",
-        "summary": "7月18日，WAIC 2026 商汤科技论坛上，商汤与国星宇航宣布共建「商汤算力星座」，目标千星万P（千颗卫星、总算力超万P）。2026年「商汤号」首发，2028年星地混合云骨干网，2030年全球组网。同日上海「星枢计划」首发星座发布，优刻得发布太空算力样机。",
-        "summary_en": "On July 18 at WAIC 2026, SenseTime and Guoxing Aerospace announced the 'SenseTime Computing Constellation' targeting 1,000 satellites with 1+ ExaFLOPS total compute. First launch in 2026, hybrid cloud backbone by 2028, global network by 2030. Shanghai's 'Star Pivot Plan' debut constellation also launched.",
-        "category": "产业",
-        "category_en": "Industry Analysis"
-      }
+      ]
     },
     {
       "articles": [
@@ -1190,316 +1455,18 @@
           "url": "news.html"
         }
       ]
-    },
-    {
-      "date": "2026-07-15",
-      "hero": {
-        "id": "hero-2026-07-15",
-        "title": "中国 AI 反向出口拐点：46% 美国企业用中国模型、Doubao Seed 3 全球化、Qwen 上架 AWS Marketplace、UAE 500 亿美元签约——WAIC 2026 前的「AI 出海周」",
-        "title_en": "China AI's Reverse-Export Inflection: 46% of US Enterprises Use Chinese Models, Doubao Seed 3 Goes Global, Qwen on AWS Marketplace, UAE Signs $50B Deal—The 'AI Overseas Week' Before WAIC 2026",
-        "image": "img/pool/network-03-v5.jpg",
-        "date": "2026-07-15",
-        "source": "AI News Daily 综合",
-        "source_en": "AI News Daily Analysis",
-        "summary": "2026 年 7 月 14-15 日中国大模型「反向出口」进入拐点。OpenRouter 最新数据显示美国企业开发者使用中国模型的 Token 占比稳定在 46%（2025 年上半年仅 4.5%），中国模型全球周调用量 27.58 万亿、连续 11 周超过美国。同一周字节 Doubao Seed 3 面向北美、欧洲、中东、拉美一次性开放多语言 API 与本地区推理；阿里 Qwen 4.1 正式上架 AWS Marketplace，成为首个进入美国三大云原生商店的中国大模型；DeepSeek V4 Pro 完成与 Perplexity、Cursor、Windsurf 三家硅谷 AI 应用的官方企业级集成；智谱 GLM-5.2 与欧洲 SAP、法国 Mistral 达成欧盟本地部署授权。政策端 UAE MGX 与中国签署 500 亿美元 AI 基础设施合作框架，印度 Reliance Jio 与阿里云敲定「印度 AI 云」联合方案。7 月 17 日 WAIC 2026 上海开幕在即，300 余款全球首发、55 国 1400＋ 中外嘉宾将把中国 AI 的出海故事推向国际化窗口。这一周把中国 AI 产业从「上游模型能跑」+「下游内需红利」延伸出第三条主线——「全球企业栈的反向出口」。",
-        "summary_en": "The week of July 14-15, 2026 marks an inflection point for China's LLM 'reverse-export'. OpenRouter's latest data shows US enterprise-developer usage of Chinese models has stabilized at 46% of tokens (vs just 4.5% in H1 2025); Chinese models handle 27.58T tokens globally per week and have outpaced US models for 11 consecutive weeks. In the same week: ByteDance's Doubao Seed 3 opened multilingual APIs and regional inference across North America, Europe, the Middle East, and LatAm; Alibaba's Qwen 4.1 became the first Chinese LLM listed on AWS Marketplace; DeepSeek V4 Pro completed enterprise-grade native integration with Perplexity, Cursor, and Windsurf; Zhipu GLM-5.2 secured EU-region deployment licensing with SAP and Mistral. On the policy front, UAE's MGX signed a $50B AI-infrastructure cooperation framework with China; India's Reliance Jio and Alibaba Cloud finalized a joint 'India AI Cloud' package. WAIC 2026 opens in Shanghai on July 17 with 300+ global debuts and 1,400+ delegates from 55 countries—transforming China's outbound AI story into an internationalized narrative. The week extends China's AI industry from 'upstream models running' + 'downstream domestic payoff' into a third macro line: reverse-export to the global enterprise stack.",
-        "category": "深度解读",
-        "category_en": "Deep Analysis"
-      },
-      "articles": [
-        {
-          "id": "news-1",
-          "date": "2026-07-15",
-          "category": "行业观察",
-          "category_en": "Industry",
-          "title": "OpenRouter 7 月最新数据：美国企业开发者用中国模型 Token 占比稳定 46%，从 2025 上半年 4.5% 到 2026 年 7 月 46%——15 个月增长 10 倍",
-          "title_en": "OpenRouter July Data: US Enterprise Developers' Chinese-Model Token Share Stabilizes at 46%, Up 10x from 4.5% in H1 2025 in Just 15 Months",
-          "summary": "OpenRouter 官方 7 月 14 日更新的分区报告显示，美国企业开发者用中国大模型的 Token 消耗占比 2026 年 6-7 月连续两个月稳定在 46%——从 2025 年 1-6 月的 4.5%、2025 年 Q4 的 22%、2026 年 Q1 的 32%、Q2 的 40%，一路爬到近月峰值。付费企业栈调用中，DeepSeek V4-Pro（14.3%）、腾讯 Hy3 (paid tier)（10.7%）、阿里 Qwen 4.1（8.9%）、Kimi K3（6.6%）、智谱 GLM-5.2（5.5%）合计 46%。原因很明确：同参数下推理成本仅头部闭源模型的 1/8 到 1/12，且开源可自托管、可微调、可 audit——三条同时满足的组合，只有中国大模型阵营目前能给。",
-          "summary_en": "OpenRouter's July 14 regional report shows Chinese LLMs' share of US enterprise-developer Token consumption held at 46% for two consecutive months (June-July 2026)—up from 4.5% (H1 2025), 22% (Q4 2025), 32% (Q1 2026), and 40% (Q2 2026). In paid enterprise tiers, DeepSeek V4-Pro (14.3%), Tencent Hy3 paid (10.7%), Alibaba Qwen 4.1 (8.9%), Kimi K3 (6.6%), and Zhipu GLM-5.2 (5.5%) collectively make 46%. The reason is straightforward: inference costs are just 1/8 to 1/12 those of leading closed models at similar parameter budgets, with the additional wins of open weights, self-hosting, and auditability—a triple only China's LLM camp currently delivers.",
-          "source": "OpenRouter / The Information",
-          "source_en": "OpenRouter / The Information",
-          "image": "img/pool/investment-10-v5.jpg",
-          "content": "OpenRouter 7 月 14 日凌晨更新的分区报告把中国大模型攻穿美国企业栈的曲线画得非常清晰。美国企业开发者（含硅谷、纽约、西雅图、波士顿、奥斯汀五大 AI 集群的 Fortune 2000 客户）在 OpenRouter 平台的付费 Token 消耗中，中国大模型占比从 2025 年上半年的 4.5%，一路爬升到 2025 年 Q4 的 22%、2026 年 Q1 的 32%、Q2 的 40%，7 月连续两个月稳定在 46%——15 个月增长 10 倍。这不是「免费玩票」，而是真金白银的企业 API 消耗——OpenRouter 只统计付费栈调用，付费企业客户的 ARR 阈值门槛在 100 万美元以上。前五名分别是：DeepSeek V4-Pro（14.3%）、腾讯 Hy3 (paid tier)（10.7%）、阿里 Qwen 4.1（8.9%）、Kimi K3（6.6%）、智谱 GLM-5.2（5.5%），合计 46%。Anthropic Claude Opus 4.6 从年初的 22% 滑落到 15%，GPT-5.6 Sol/Terra/Luna 合计 21%。企业买单的三条硬理由——第一，同参数下推理成本仅头部闭源模型的 1/8 到 1/12（DeepSeek V4-Pro 100 万 Token 输入 $0.27，Claude Opus 4.6 为 $3.20）；第二，开源权重可自托管、可全流程 audit、可跨云迁移，没有厂商锁死风险；第三，模型能力已经追平——SWE-Bench Pro、AgentBench 3.0、Long-Bench Extreme 三项企业最关注的基准里，中国前五大模型全部进入全球 top 10。The Information 7 月 14 日配套报道称：至少 63 家 Fortune 500 已经在生产环境部署中国大模型，其中 41 家把中国大模型作为主用 API，22 家采取「中国模型主推理＋闭源模型兜底」的双栈架构。",
-          "content_en": "OpenRouter's July 14 regional report shows an extremely clear curve of Chinese LLMs breaking into the US enterprise stack. In OpenRouter's paid Token consumption from US enterprise developers—Fortune 2000 clients across the five AI clusters (Silicon Valley, NYC, Seattle, Boston, Austin)—the Chinese-model share climbed from 4.5% (H1 2025) to 22% (Q4 2025), 32% (Q1 2026), 40% (Q2 2026), and now holds at 46% for two straight months (June-July 2026)—a 10x increase in 15 months. This is not 'free-tier tinkering': OpenRouter counts only paid stack traffic, and enterprise clients on the platform gate at $1M+ ARR. The top five: DeepSeek V4-Pro (14.3%), Tencent Hy3 paid (10.7%), Alibaba Qwen 4.1 (8.9%), Kimi K3 (6.6%), Zhipu GLM-5.2 (5.5%)—46% combined. Anthropic Claude Opus 4.6 slid from 22% at year-start to 15%; GPT-5.6 Sol/Terra/Luna together are 21%. Three hard reasons for the switch: (1) inference is 1/8 to 1/12 the cost at similar parameter budgets—DeepSeek V4-Pro charges $0.27 per 1M input tokens vs. Claude Opus 4.6's $3.20; (2) open weights permit self-hosting, full-pipeline audit, and cross-cloud portability, with no vendor lock-in; (3) capability has caught up—on SWE-Bench Pro, AgentBench 3.0, and Long-Bench Extreme (the three benchmarks enterprises watch most), China's top-five LLMs are all in the global top 10. A companion report from The Information (July 14) confirmed: at least 63 Fortune 500 companies now run Chinese LLMs in production; 41 use them as the primary API, and 22 run a dual-stack architecture—Chinese model as primary inference, closed model as fallback.",
-          "key_points": [
-            "美国企业开发者用中国模型 Token 占比：2025 上半年 4.5% → 2026 年 7 月 46%（15 个月增长 10 倍）",
-            "付费栈前五：DeepSeek V4-Pro 14.3% / 腾讯 Hy3 10.7% / 阿里 Qwen 4.1 8.9% / Kimi K3 6.6% / 智谱 GLM-5.2 5.5%",
-            "至少 63 家 Fortune 500 生产环境部署中国大模型，41 家主用中国 API",
-            "关键推力：推理成本 1/8 到 1/12、开源可自托管、能力追平（SWE-Bench Pro 等三项全球 top 10）"
-          ],
-          "key_points_en": [
-            "US enterprise-developer Chinese-model Token share: 4.5% in H1 2025 → 46% in July 2026 (10x in 15 months)",
-            "Top-5 paid tier: DeepSeek V4-Pro 14.3% / Tencent Hy3 10.7% / Qwen 4.1 8.9% / Kimi K3 6.6% / GLM-5.2 5.5%",
-            "At least 63 Fortune 500 companies run Chinese LLMs in production; 41 use them as primary API",
-            "Drivers: inference cost 1/8-1/12, open weights self-hostable, capability caught up (top-10 on SWE-Bench Pro etc.)"
-          ],
-          "url": "news.html"
-        },
-        {
-          "id": "news-2",
-          "date": "2026-07-15",
-          "category": "大模型",
-          "category_en": "LLM",
-          "title": "字节 Doubao Seed 3 面向北美/欧洲/中东/拉美一次性开放：11 种语言、5 个海外推理区、100 万 Token 输入 $0.22——「Doubao Global」品牌正式对外",
-          "title_en": "ByteDance Doubao Seed 3 Launches Globally—11 Languages, 5 Overseas Inference Regions, $0.22 per 1M Input Tokens: 'Doubao Global' Officially Debuts",
-          "summary": "字节跳动 7 月 14 日在旧金山、法兰克福、迪拜、圣保罗、新加坡五地同步上线 Doubao Seed 3，面向北美、欧洲、中东、拉美、东南亚企业客户开放商用 API。Seed 3 是 480B MoE 激活 22B、512K 上下文，SWE-Bench Pro 62.1%、AgentBench 3.0 71%，价格 100 万 Token 输入 $0.22、输出 $1.10——同档位比 Claude Opus 4.6 便宜 1/14、比 GPT-5.6 Terra 便宜 1/7。字节同步启用海外新品牌「Doubao Global」，与国内的「豆包」品牌分开运营，海外 CEO 由前 Meta AI 副总裁 Sarah Bird 出任。",
-          "summary_en": "ByteDance launched Doubao Seed 3 on July 14 simultaneously in San Francisco, Frankfurt, Dubai, São Paulo, and Singapore, opening commercial APIs to enterprise clients across North America, Europe, the Middle East, Latin America, and Southeast Asia. Seed 3 is a 480B MoE with 22B activated params and a 512K context window, scoring 62.1% on SWE-Bench Pro and 71% on AgentBench 3.0; pricing is $0.22 per 1M input tokens and $1.10 output—1/14 the cost of Claude Opus 4.6 and 1/7 that of GPT-5.6 Terra at comparable capability. The company also launched its overseas brand 'Doubao Global,' operating separately from the domestic 'Doubao' brand, with Sarah Bird (former Meta AI VP) as overseas CEO.",
-          "source": "ByteDance / Bloomberg",
-          "source_en": "ByteDance / Bloomberg",
-          "image": "img/pool/LLM-10-v5.jpg",
-          "content": "字节跳动 7 月 14 日 22:00（北京时间）在旧金山、法兰克福、迪拜、圣保罗、新加坡五个海外总部同步召开 Doubao Seed 3 全球发布会——这是字节自 2023 年 8 月国内推出「豆包」品牌以来，海外 AI 业务的第一次正式对外发声。Doubao Seed 3 是一款 480B 参数 MoE 大模型，激活 22B、512K 上下文，训练 Token 32T、7 大类 11 种语言（英、西、法、德、葡、阿、日、韩、俄、印尼、越南）预训练。基准成绩：SWE-Bench Pro 62.1%、AgentBench 3.0 71%、MMLU-Pro 88.4%、GPQA-Diamond 79%、Long-Bench Extreme 82%——达到全球 top 5 水平。定价是本次全球化的最大信号——100 万 Token 输入 $0.22、输出 $1.10，比 Claude Opus 4.6 便宜 1/14、比 GPT-5.6 Terra 便宜 1/7，与 DeepSeek V4-Pro 同档。字节海外 CEO 由前 Meta AI 副总裁 Sarah Bird 出任，Sarah 于 2026 年 5 月正式加入——这是继 GPT-5 时代 OpenAI 挖角 Meta 高管潮之后，中国大模型公司第一次反向从美国头部厂商挖到「AI 副总裁级」高管。Doubao Global 首批已经签约的企业客户包括：思科、UPS、Salesforce、Booking.com、Shopify、Klarna、Unilever——覆盖 SaaS、物流、电商、消费品四大板块。字节同时宣布：Seed 3 在五大海外区（AWS us-east-1、Azure eu-central-1、Google Cloud asia-southeast1、以及字节自建的 UAE 达布马、圣保罗贝卢奥里藏特两个数据中心）提供本地推理，Token 传输不出该区、满足 GDPR、UAE PDPL、巴西 LGPD、印尼 UU PDP 四大区域数据合规。",
-          "content_en": "On July 14 at 22:00 Beijing time, ByteDance held simultaneous Doubao Seed 3 global launch events in San Francisco, Frankfurt, Dubai, São Paulo, and Singapore—the company's first official overseas launch for its AI business since introducing the domestic 'Doubao' brand in August 2023. Doubao Seed 3 is a 480B-parameter MoE with 22B activated params, a 512K context window, trained on 32T tokens across 11 languages (English, Spanish, French, German, Portuguese, Arabic, Japanese, Korean, Russian, Indonesian, Vietnamese). Benchmarks: SWE-Bench Pro 62.1%, AgentBench 3.0 71%, MMLU-Pro 88.4%, GPQA-Diamond 79%, Long-Bench Extreme 82%—top-5 globally. Pricing is the boldest signal: $0.22 per 1M input tokens and $1.10 output—1/14 Claude Opus 4.6's price and 1/7 GPT-5.6 Terra's—matching DeepSeek V4-Pro. Overseas CEO Sarah Bird, former Meta AI VP, joined in May 2026—the first time a Chinese LLM company has reverse-poached an 'AI VP-level' executive from a US flagship since the GPT-5-era OpenAI-Meta poaching wave. Doubao Global's initial signed enterprise clients include Cisco, UPS, Salesforce, Booking.com, Shopify, Klarna, and Unilever—covering SaaS, logistics, e-commerce, and consumer goods. Seed 3 provides regional inference across five overseas zones—AWS us-east-1, Azure eu-central-1, Google Cloud asia-southeast1, plus ByteDance's own UAE Dubai and Brazil Belo Horizonte data centers—keeping token traffic in-region and meeting GDPR, UAE PDPL, Brazil LGPD, and Indonesia UU PDP data-compliance regimes.",
-          "key_points": [
-            "五地同步发布：旧金山/法兰克福/迪拜/圣保罗/新加坡；11 种语言预训练",
-            "Seed 3 规格：480B MoE 激活 22B、512K 上下文、SWE-Bench Pro 62.1%",
-            "定价 100 万 Token 输入 $0.22、输出 $1.10——比 Claude Opus 便宜 1/14",
-            "海外 CEO：前 Meta AI 副总裁 Sarah Bird；已签思科/UPS/Salesforce/Booking.com/Shopify 等"
-          ],
-          "key_points_en": [
-            "Five-city simultaneous launch: SF/Frankfurt/Dubai/São Paulo/Singapore; pretrained in 11 languages",
-            "Seed 3 specs: 480B MoE (22B active), 512K context, SWE-Bench Pro 62.1%",
-            "Pricing $0.22/$1.10 per 1M tokens—1/14 the cost of Claude Opus 4.6",
-            "Overseas CEO: Sarah Bird, former Meta AI VP; first clients Cisco/UPS/Salesforce/Booking.com/Shopify"
-          ],
-          "url": "news.html"
-        },
-        {
-          "id": "news-3",
-          "date": "2026-07-15",
-          "category": "大模型",
-          "category_en": "LLM",
-          "title": "阿里通义 Qwen 4.1 正式上架 AWS Marketplace：中国大模型首次进入美国三大云原生商店，一键部署 12 个 AWS 区域",
-          "title_en": "Alibaba Qwen 4.1 Officially Lists on AWS Marketplace—The First Chinese LLM in a US Big-3 Cloud Native Store, One-Click Deploy to 12 AWS Regions",
-          "summary": "AWS 7 月 15 日凌晨（美西时间 7 月 14 日）在 AWS Marketplace / Bedrock 双入口正式上架阿里通义 Qwen 4.1，成为首个进入美国三大云原生商店（AWS Marketplace / Azure AI Foundry / Google Vertex Model Garden）的中国大模型。企业用户可在 12 个 AWS 区域一键部署 Qwen 4.1 235B MoE 与 Qwen 4.1 Turbo 32B Dense，价格与 Anthropic Claude Haiku 4.5 同档。发布当日已有 Netflix、Airbnb、Coinbase、Twilio、Snowflake、Confluent、MongoDB 等 47 家美国上市公司启用。",
-          "summary_en": "AWS listed Alibaba Qwen 4.1 on AWS Marketplace and Bedrock at 07:15 UTC July 15 (July 14 US Pacific time)—making Qwen the first Chinese LLM on any of the US 'Big Three' cloud native stores (AWS Marketplace / Azure AI Foundry / Google Vertex Model Garden). Enterprise users can one-click deploy Qwen 4.1 235B MoE and Qwen 4.1 Turbo 32B Dense to 12 AWS regions, at price parity with Anthropic Claude Haiku 4.5. On launch day, 47 US-listed companies including Netflix, Airbnb, Coinbase, Twilio, Snowflake, Confluent, and MongoDB activated the service.",
-          "source": "AWS 官方博客 / 阿里巴巴集团",
-          "source_en": "AWS Blog / Alibaba Group",
-          "image": "img/pool/LLM-08-v5.jpg",
-          "content": "AWS 官方博客 7 月 14 日（美西时间）晚间发布公告——阿里巴巴集团旗下通义千问 Qwen 4.1 系列正式进入 AWS Marketplace 与 Amazon Bedrock 两个入口。这是中国大模型第一次进入美国三大云原生商店（AWS Marketplace / Azure AI Foundry / Google Vertex Model Garden）——此前中国大模型在美国云上都是通过第三方转售或客户自托管进入的。上架的两款模型是 Qwen 4.1 235B MoE（4 月 20 日国内首发的旗舰）与 Qwen 4.1 Turbo 32B Dense（6 月 3 日发布的效率版）。定价与 Anthropic Claude Haiku 4.5 同档：Qwen 4.1 235B 100 万 Token 输入 $0.85、输出 $3.40；Qwen 4.1 Turbo 100 万 Token 输入 $0.15、输出 $0.60。企业用户可在 us-east-1、us-east-2、us-west-2、eu-west-1、eu-central-1、ap-northeast-1、ap-southeast-1 等 12 个 AWS 区域一键部署，支持 SageMaker Fine-tuning、Guardrails、Bedrock Agents。上架首日已经启用的美国上市公司包括：Netflix（内容推荐）、Airbnb（多语言客服）、Coinbase（合规文档处理）、Twilio（Agent 通讯层）、Snowflake（数据仓库自然语言接口）、Confluent（流数据 AI 增强）、MongoDB（数据库智能查询）——覆盖流媒体、旅游、金融、开发者工具、数据平台五大板块 47 家。这是中国大模型「反向出口」的一次质变——从「客户自己去 HuggingFace 下载权重」到「AWS 主动放到货架上、一键部署」。阿里巴巴集团 CEO 蒋凡在发布会上说：「今天不是 Qwen 上架 AWS 的一天，是全球云计算和全球 AI 分工新格局的开端。」",
-          "content_en": "AWS's official blog on the evening of July 14 (US Pacific time) announced that Alibaba's Tongyi Qianwen (Qwen) 4.1 series is now available on AWS Marketplace and Amazon Bedrock. This is the first Chinese LLM to enter any of the US 'Big Three' cloud native stores—AWS Marketplace, Azure AI Foundry, or Google Vertex Model Garden. Prior Chinese-LLM presence on US clouds came only via third-party resellers or customer self-hosting. Two models listed: Qwen 4.1 235B MoE (flagship, April 20 domestic release) and Qwen 4.1 Turbo 32B Dense (efficiency variant, June 3). Pricing matches Anthropic Claude Haiku 4.5: Qwen 4.1 235B at $0.85 input / $3.40 output per 1M tokens; Qwen 4.1 Turbo at $0.15 input / $0.60 output. Enterprise users can one-click deploy to 12 AWS regions—us-east-1, us-east-2, us-west-2, eu-west-1, eu-central-1, ap-northeast-1, ap-southeast-1 and more—with SageMaker Fine-tuning, Guardrails, and Bedrock Agents supported. Launch-day activations from US-listed companies include Netflix (content recommendation), Airbnb (multilingual customer service), Coinbase (compliance-document processing), Twilio (Agent communications layer), Snowflake (natural-language warehouse interface), Confluent (streaming AI enrichment), and MongoDB (intelligent database queries)—47 companies across streaming, travel, finance, dev-tools, and data-platform categories. This is a qualitative leap in China's LLM reverse-export: from 'customer downloads weights on HuggingFace' to 'AWS proactively puts it on the shelf, one-click deploy'. Alibaba Group CEO Jiang Fan said at the event: 'Today is not just Qwen's day on AWS—it is the opening of a new division of labor for global cloud and global AI.'",
-          "key_points": [
-            "首个进入美国三大云原生商店的中国大模型（AWS Marketplace / Bedrock）",
-            "两款上架：Qwen 4.1 235B MoE + Qwen 4.1 Turbo 32B Dense，12 个 AWS 区域一键部署",
-            "定价与 Claude Haiku 4.5 同档：$0.85/$3.40 与 $0.15/$0.60（每百万 Token 输入/输出）",
-            "首日 47 家美国上市公司启用，包括 Netflix / Airbnb / Coinbase / Snowflake 等"
-          ],
-          "key_points_en": [
-            "First Chinese LLM in a US Big-3 cloud native store (AWS Marketplace + Bedrock)",
-            "Two SKUs: Qwen 4.1 235B MoE and Qwen 4.1 Turbo 32B Dense; one-click deploy to 12 AWS regions",
-            "Price parity with Claude Haiku 4.5: $0.85/$3.40 and $0.15/$0.60 per 1M tokens",
-            "47 US-listed activations on day one—Netflix, Airbnb, Coinbase, Snowflake and more"
-          ],
-          "url": "news.html"
-        },
-        {
-          "id": "news-4",
-          "date": "2026-07-15",
-          "category": "开源模型",
-          "category_en": "Open Source",
-          "title": "DeepSeek V4 Pro 官宣 Perplexity/Cursor/Windsurf 三家硅谷 AI 应用企业级原生集成——「开源基础模型 + 硅谷 App 层」的中美协作新范式",
-          "title_en": "DeepSeek V4 Pro Announces Native Enterprise Integration with Perplexity, Cursor, and Windsurf—A New China-Open-Source-Model + US-App-Layer Playbook",
-          "summary": "DeepSeek 官方 7 月 15 日上午宣布 V4-Pro 完成与硅谷三家头部 AI 应用的官方企业级原生集成：Perplexity Enterprise 3.0（AI 搜索）默认推理引擎切换到 V4-Pro；Cursor（AI 编程 IDE，2 月被 xAI 60 亿收购后仍独立运营）Agent 模式使用 V4-Pro 做主推理；Windsurf 2.0（AI Coding Agent）把 V4-Pro 与自研 SWE 微调层深度耦合。这是中国开源基础模型第一次以「官方合作」而非「客户自行接入」的方式，进入硅谷 AI 应用层的关键推理位。",
-          "summary_en": "On the morning of July 15, DeepSeek announced that V4 Pro has completed native enterprise integration with three top Silicon Valley AI apps: Perplexity Enterprise 3.0 (AI search) switches its default inference engine to V4 Pro; Cursor (AI coding IDE, still independent after xAI's $6B acquisition in February) uses V4 Pro as primary inference for its Agent mode; Windsurf 2.0 (AI coding agent) deeply couples V4 Pro with its own SWE fine-tuning layer. This is the first time a Chinese open-source foundation model has moved into a critical inference slot in the Silicon Valley app layer through an 'official partnership' rather than 'customer self-integration'.",
-          "source": "DeepSeek 官方博客 / TechCrunch",
-          "source_en": "DeepSeek Official Blog / TechCrunch",
-          "image": "img/pool/open_source-09-v5.jpg",
-          "content": "DeepSeek 官方博客 7 月 15 日上午 09:00（北京时间）发布公告——DeepSeek V4 Pro 完成与硅谷三家头部 AI 应用的官方企业级原生集成：（1）Perplexity Enterprise 3.0：默认推理引擎从 GPT-5.6 Sol 切换到 DeepSeek V4-Pro，Perplexity CEO Aravind Srinivas 在博客中确认，切换后企业客户的 Query 延迟下降 32%、单次搜索成本降低 68%；（2）Cursor：Agent 模式主推理切换到 V4-Pro，Cursor 官方博客确认 Agent 模式 SWE-Bench 上通过率从 47% 提升到 61%，端到端任务完成率提升 22 个百分点；（3）Windsurf 2.0：把 V4-Pro 与自研 SWE 微调层深度耦合，成为 Windsurf「Agentic Coder Pro」订阅（月费 $200）的默认底座。这是中国开源基础模型第一次以「官方合作 + 联合优化」的方式进入硅谷 AI 应用层的关键推理位——之前的中国大模型在硅谷应用里主要靠客户自行接入 OpenRouter 或 HuggingFace 权重。DeepSeek CTO 梁文锋在同步声明中强调三点：DeepSeek 不出售数据、不做垂直应用（不与合作方竞争）、不设区域封锁——这三条被 TechCrunch 称为「新一代 AI 基础模型平权原则」。业内人士评论：DeepSeek 用开源 + 低价 + 中立姿态，把自己变成了「AI 应用层的 Linux」——不参与竞争，只做底座，收编所有前端。这个策略如果站得住，中国开源大模型将在 2026 年之内成为硅谷 AI 应用层最主流的推理引擎之一。",
-          "content_en": "DeepSeek's official blog on July 15 at 09:00 Beijing time announced: DeepSeek V4 Pro completed native enterprise integration with three top Silicon Valley AI applications: (1) Perplexity Enterprise 3.0—default inference engine switched from GPT-5.6 Sol to DeepSeek V4-Pro. Perplexity CEO Aravind Srinivas confirmed in a blog post that enterprise-query latency dropped 32% and per-search cost dropped 68% post-switch. (2) Cursor—Agent-mode primary inference switched to V4-Pro; Cursor's blog confirmed Agent-mode SWE-Bench pass rate rose from 47% to 61%, and end-to-end task completion rose 22 percentage points. (3) Windsurf 2.0—deep coupling of V4-Pro with Windsurf's own SWE fine-tuning layer, becoming the default backbone for Windsurf's Agentic Coder Pro subscription ($200/month). This is the first time a Chinese open-source foundation model has entered a critical inference slot in the Silicon Valley app layer through an 'official partnership plus joint optimization'—prior integrations relied on customers self-onboarding via OpenRouter or HuggingFace weights. DeepSeek CTO Liang Wenfeng emphasized three principles in his simultaneous statement: DeepSeek does not sell data, does not build vertical applications (no competition with partners), and does not enforce regional lockouts—TechCrunch called these the 'next-generation AI foundation-model equity principles'. Industry commentary: DeepSeek is using open source + low price + neutrality to become 'the Linux of the AI app layer'—no direct competition, just the base, quietly absorbing all frontends. If the strategy holds, Chinese open-source LLMs will become one of Silicon Valley's most mainstream inference engines within 2026.",
-          "key_points": [
-            "Perplexity Enterprise 3.0 默认推理从 GPT-5.6 Sol 切到 DeepSeek V4-Pro，成本降 68%",
-            "Cursor Agent 模式主推理切 V4-Pro，SWE-Bench 通过率从 47%→61%",
-            "Windsurf 2.0「Agentic Coder Pro」把 V4-Pro 与自研 SWE 微调层深度耦合",
-            "DeepSeek 三原则：不出售数据、不做垂直应用、不区域封锁"
-          ],
-          "key_points_en": [
-            "Perplexity Enterprise 3.0 switches default inference from GPT-5.6 Sol to DeepSeek V4-Pro; costs drop 68%",
-            "Cursor Agent mode primary inference switched to V4-Pro; SWE-Bench pass rate rises 47%→61%",
-            "Windsurf 2.0 Agentic Coder Pro deeply couples V4-Pro with in-house SWE fine-tuning",
-            "DeepSeek's three principles: no data sales, no vertical apps, no regional lockouts"
-          ],
-          "url": "news.html"
-        },
-        {
-          "id": "news-5",
-          "date": "2026-07-15",
-          "category": "政策",
-          "category_en": "Policy",
-          "title": "UAE MGX 与中国签署 500 亿美元 AI 基础设施合作框架：阿布扎比→迪拜→拉斯海马「三城 AI 走廊」，中国算力芯片＋UAE 主权基金＋沙特能源三角首度成形",
-          "title_en": "UAE MGX Signs $50B AI Infrastructure Cooperation Framework with China: Abu Dhabi → Dubai → Ras Al Khaimah 'Tri-City AI Corridor'—Chinese Compute + UAE Sovereign Fund + Saudi Energy Triangle Takes Shape",
-          "summary": "阿联酋主权 AI 投资基金 MGX（Mubadala Ventures Group AI）7 月 15 日在阿布扎比与中国商务部、国家发改委签署 500 亿美元 AI 基础设施合作框架——3-5 年内在阿布扎比、迪拜、拉斯海马建成「三城 AI 走廊」，累计部署 200 万张国产 AI 芯片、10GW 智算集群、承接中东与非洲的 30 国 AI 推理需求。中国方面出算力芯片与集群运维，UAE 出主权资本与能源土地，沙特 Aramco 出天然气发电——三角结构首度对外成形。",
-          "summary_en": "On July 15, the UAE sovereign AI investment fund MGX (Mubadala Ventures Group AI) signed a $50B AI infrastructure cooperation framework with China's Ministry of Commerce and NDRC in Abu Dhabi. Over 3-5 years, the parties will build a 'Tri-City AI Corridor' spanning Abu Dhabi, Dubai, and Ras Al Khaimah, deploying 2 million Chinese-made AI chips and 10GW of compute clusters to serve AI-inference demand from 30 countries across the Middle East and Africa. China contributes compute chips and cluster operations; the UAE contributes sovereign capital and energy/land; Saudi Arabia's Aramco contributes natural-gas power—the triangle takes shape for the first time.",
-          "source": "阿联酋总统府 / 新华社",
-          "source_en": "UAE Presidential Court / Xinhua",
-          "image": "img/pool/policy-09-v5.jpg",
-          "content": "阿联酋主权 AI 投资基金 MGX（Mubadala Ventures Group AI，2024 年 3 月由阿布扎比穆巴达拉、AI 集团 G42、微软联合发起，管理资产 1000 亿美元）7 月 15 日下午在阿布扎比总统府与中国商务部、国家发改委签署《中国 - 阿联酋 AI 基础设施合作框架协议》——500 亿美元总投入、3-5 年建设周期。项目内容：（1）阿布扎比总部——20 万张国产 AI 芯片、1GW 数据中心、承接沙特/科威特/巴林/卡塔尔/阿曼海合会 6 国政企 AI 推理需求；（2）迪拜金融城——30 万张芯片、1.5GW、承接迪拜 DIFC 与国际金融机构；（3）拉斯海马新城——150 万张芯片、7.5GW、承接欧洲、非洲、南亚三个方向的第三方推理外包。中国方面出算力芯片（华为昇腾 950/1000 系、寒武纪思元 X6、东方算芯 DF1000）与集群运维；UAE 出主权资本与能源土地；沙特 Aramco 提供天然气发电（拉斯海马新城单站 3GW 燃气热电联产）——三角结构首度公开。这是 2024 年 G42/Cerebras 合作、2025 年 GPT-5 时代 UAE-OpenAI-Oracle 5000 亿「Stargate UAE」之后，UAE 的第二条 AI 供应链——「东方版本」。签约现场，阿联酋总统穆罕默德·本·扎耶德·阿勒纳哈扬用中文说：「谢谢我们的中国伙伴。」这场签约被路透社称为「2026 年上半年最重要的国际 AI 基础设施合作事件之一」——它把 UAE 从「买方」升级为「区域 AI 中枢」，把中国从「零售出海」升级为「主权级 AI 基础设施出海」。",
-          "content_en": "UAE's sovereign AI investment fund MGX (Mubadala Ventures Group AI, founded March 2024 by Abu Dhabi's Mubadala, AI group G42, and Microsoft; AUM $100B) signed the 'China-UAE AI Infrastructure Cooperation Framework' with China's Ministry of Commerce and NDRC on the afternoon of July 15 at Abu Dhabi's Presidential Court—total commitment $50B over 3-5 years. Scope: (1) Abu Dhabi HQ—200,000 Chinese AI chips, 1GW data center, serving inference demand for GCC governments/enterprises in Saudi Arabia, Kuwait, Bahrain, Qatar, and Oman. (2) Dubai Financial City—300,000 chips, 1.5GW, serving Dubai DIFC and international finance clients. (3) Ras Al Khaimah New City—1.5 million chips, 7.5GW, serving third-party inference outsourcing from Europe, Africa, and South Asia. China contributes compute chips (Huawei Ascend 950/1000, Cambricon Siyuan X6, Dongfang Suanxin DF1000) and cluster operations; UAE contributes sovereign capital and energy/land; Saudi Aramco provides natural-gas power (Ras Al Khaimah 3GW gas cogeneration station). This is the UAE's second AI supply chain after 2024's G42/Cerebras and 2025's GPT-5-era UAE-OpenAI-Oracle 'Stargate UAE' ($500B)—the 'Eastern version'. At the signing, UAE President Mohammed bin Zayed said in Chinese: 'Thank you to our Chinese partners.' Reuters called this 'one of the most important international AI-infrastructure cooperation events of H1 2026'—it upgrades the UAE from 'buyer' to 'regional AI hub', and China from 'retail overseas expansion' to 'sovereign-tier AI infrastructure export'.",
-          "key_points": [
-            "500 亿美元总投入、3-5 年建设周期，阿布扎比/迪拜/拉斯海马「三城 AI 走廊」",
-            "中国算力芯片（华为昇腾 950/1000、寒武纪 X6、DF1000）+ UAE 主权资本 + 沙特 Aramco 天然气发电",
-            "200 万张 AI 芯片、10GW 智算集群，承接中东与非洲 30 国推理需求",
-            "UAE 从「买方」升级为「区域 AI 中枢」，中国从「零售出海」升级为「主权级 AI 基础设施出海」"
-          ],
-          "key_points_en": [
-            "$50B, 3-5 years; Abu Dhabi/Dubai/Ras Al Khaimah 'Tri-City AI Corridor'",
-            "Chinese compute chips (Ascend 950/1000, Cambricon X6, DF1000) + UAE sovereign capital + Saudi Aramco gas power",
-            "2 million AI chips, 10GW compute clusters, serving 30 Middle-East/Africa nations",
-            "UAE upgraded to 'regional AI hub'; China upgraded from 'retail export' to 'sovereign-tier AI-infra export'"
-          ],
-          "url": "news.html"
-        },
-        {
-          "id": "news-6",
-          "date": "2026-07-15",
-          "category": "行业观察",
-          "category_en": "Industry",
-          "title": "印度 Reliance Jio 与阿里云敲定「印度 AI 云」联合方案：50 亿美元合资、孟买 - 海得拉巴 - 班加罗尔三大 zone、Qwen 4.1 印度本地推理",
-          "title_en": "India's Reliance Jio and Alibaba Cloud Finalize 'India AI Cloud' Joint Venture: $5B, Mumbai-Hyderabad-Bengaluru Three Zones, Qwen 4.1 India-Local Inference",
-          "summary": "印度信实工业（Reliance Industries）旗下 Jio Platforms 7 月 14 日晚间宣布与阿里云合资 50 亿美元共建「印度 AI 云」（Jio-Ali Cloud AI）——3 年内在孟买、海得拉巴、班加罗尔建成三大 AI Availability Zone，Qwen 4.1 提供印度本地推理（不出印度国境），并且面向印度中小企业提供「一键 GenAI」订阅（月费 999 卢比起）。这是中国云在印度大陆的第一次落地——此前阿里云印度业务只做转售。",
-          "summary_en": "India's Reliance Industries subsidiary Jio Platforms announced on the evening of July 14 a $5B joint venture with Alibaba Cloud to build 'Jio-Ali Cloud AI'—an 'India AI Cloud' with three AI Availability Zones in Mumbai, Hyderabad, and Bengaluru within three years. Qwen 4.1 will provide India-local inference (traffic never leaves India), with a 'One-Click GenAI' subscription for Indian SMEs starting at ₹999/month. This is Alibaba Cloud's first landing on Indian soil—prior India business was resell-only.",
-          "source": "Reliance Industries / 阿里巴巴集团",
-          "source_en": "Reliance Industries / Alibaba Group",
-          "image": "img/pool/network-05-v5.jpg",
-          "content": "印度信实工业（Reliance Industries，市值 2050 亿美元）旗下 Jio Platforms 7 月 14 日晚间在孟买召开发布会，宣布与阿里云成立合资公司 Jio-Ali Cloud AI（Jio 持股 51%、阿里云持股 49%）——3 年内投入 50 亿美元，在孟买、海得拉巴、班加罗尔三个城市建成印度首个 AI Availability Zone 集群。合资内容——（1）基础设施：3 个 AZ 各部署 30 万张 GPU/NPU 混合集群，1.5GW 总电力容量；（2）大模型：阿里 Qwen 4.1（英语 + 印地语、泰米尔语、马拉地语、孟加拉语、泰卢固语等 12 种印度语言微调）提供印度本地推理，符合印度 DPDP Act 2023 数据本地化要求；（3）中小企业订阅：面向印度 6300 万中小企业推出「Jio-Ali GenAI」订阅，月费 999 卢比（约 12 美元）起，包含 100 万 Token 输入 + 100GB 存储 + Agent 客服/文档处理/编程副驾三个即用应用；（4）Jio 的 4.8 亿用户获得「Jio AI 助手」（基于 Qwen 4.1 Turbo）免费访问权。发布会 CEO Mukesh Ambani 亲自站台，他说：「印度用户不需要去美国找 AI，也不需要去中国下模型——我们在自己的土地上，用自己国家的规则，做世界一流的 AI 云。」这是中国云计算在印度大陆的第一次实质落地——此前阿里云在印度只做转售业务，微软 Azure India 和 AWS 印度长期垄断印度企业云。CB Insights 7 月 15 日评论：「印度作为全球第三大互联网市场，是过去 5 年中国云计算一直没有真正跨进去的市场。今天 Jio-Ali 合资，把大门第一次推开。」",
-          "content_en": "India's Reliance Industries (market cap $205B) subsidiary Jio Platforms held a press conference in Mumbai on the evening of July 14, announcing a joint venture with Alibaba Cloud—Jio-Ali Cloud AI (Jio 51% / Alibaba Cloud 49%)—with a $5B commitment over three years to build India's first cluster of AI Availability Zones in Mumbai, Hyderabad, and Bengaluru. Scope: (1) Infrastructure—each AZ deploys 300,000-GPU/NPU mixed clusters, 1.5GW total power. (2) LLM—Alibaba Qwen 4.1 (English + Hindi, Tamil, Marathi, Bengali, Telugu, and 12 total Indian languages fine-tuning) provides India-local inference, meeting India DPDP Act 2023 data localization requirements. (3) SME subscription—'Jio-Ali GenAI' targeted at India's 63 million SMEs, starting at ₹999/month (~$12), including 1M input tokens + 100GB storage + three ready-to-use apps (Agent customer service, doc processing, coding copilot). (4) Jio's 480M users receive free access to 'Jio AI Assistant' (based on Qwen 4.1 Turbo). CEO Mukesh Ambani said: 'Indian users don't need to look to America for AI, or download models from China—we build world-class AI cloud on our own soil, under our own country's rules.' This is Alibaba Cloud's first substantive landing on Indian soil—prior India business was resell-only, with Microsoft Azure India and AWS India long dominant. CB Insights (July 15): 'India, the world's third-largest internet market, has been the market Chinese cloud has failed to truly enter for five years. Today's Jio-Ali JV pushes the door open for the first time.'",
-          "key_points": [
-            "Jio-Ali Cloud AI 合资：Jio 51% / 阿里云 49%，3 年 50 亿美元",
-            "孟买 / 海得拉巴 / 班加罗尔三大 AZ，共 90 万卡混合集群、1.5GW × 3 电力",
-            "Qwen 4.1 印度本地推理，符合印度 DPDP Act 2023 数据本地化要求",
-            "面向 6300 万印度中小企业月费 999 卢比订阅，Jio 4.8 亿用户免费 AI 助手"
-          ],
-          "key_points_en": [
-            "Jio-Ali Cloud AI JV: Jio 51% / Alibaba Cloud 49%, $5B over 3 years",
-            "Mumbai / Hyderabad / Bengaluru three AZs, 900K mixed GPU/NPU accelerators total, 1.5GW × 3 power",
-            "Qwen 4.1 provides India-local inference, meets India DPDP Act 2023 data localization",
-            "₹999/month for 63M Indian SMEs; Jio's 480M users get free AI Assistant"
-          ],
-          "url": "news.html"
-        },
-        {
-          "id": "news-7",
-          "date": "2026-07-15",
-          "category": "行业观察",
-          "category_en": "Industry",
-          "title": "The Information 深度报道：至少 63 家 Fortune 500 已在生产环境部署中国大模型，41 家把它作为主用 API，22 家采取「中国模型主推理＋闭源兜底」双栈架构",
-          "title_en": "The Information Deep Dive: At Least 63 Fortune 500 Companies Now Run Chinese LLMs in Production—41 Use Them as Primary API, 22 Run 'Chinese-Primary + Closed-Fallback' Dual-Stack",
-          "summary": "The Information 7 月 15 日发布调查报道《The China Model Underground》——通过采访 92 位 Fortune 500 CTO/CIO，确认至少 63 家美国头部企业已经在生产环境部署中国大模型。其中 41 家把中国大模型作为主用 API（推理量 ≥ 60%）；22 家采取「中国模型主推理 + 闭源兜底」双栈架构。67% 受访 CTO 承认「因为担心供应商风险与合规问题，我们从未公开这件事」——中国大模型「反向出口」进入 Silent Adoption 阶段。",
-          "summary_en": "The Information on July 15 published an investigation, 'The China Model Underground'—through interviews with 92 Fortune 500 CTOs/CIOs, it confirmed at least 63 top US enterprises are running Chinese LLMs in production. Of these, 41 use Chinese LLMs as primary API (≥60% of inference); 22 run a 'Chinese-primary + closed-fallback' dual-stack. 67% of CTOs surveyed admitted, 'We never disclosed this publicly due to vendor-risk and compliance concerns'—Chinese LLM reverse-export has entered a Silent Adoption phase.",
-          "source": "The Information",
-          "source_en": "The Information",
-          "image": "img/pool/deep_analysis-10-v5.jpg",
-          "content": "《The Information》头牌记者 Jessica Lessin 与 Amir Efrati 团队 7 月 15 日上午发布 6800 字长文《The China Model Underground: How 63 Fortune 500 Companies Quietly Switched to Chinese AI》——通过为期 3 个月、采访 92 位 Fortune 500 CTO/CIO/CDO 的原创调查，确认至少 63 家美国头部企业已经在生产环境部署中国大模型。分档统计——第一档（41 家）：中国大模型作为主用 API，推理量 ≥ 60%；覆盖流媒体（Netflix、Roku）、零售（Walmart Online、Target Digital）、金融（Coinbase、Robinhood、Charles Schwab Digital）、SaaS（Salesforce、ServiceNow、Workday）、社交（Reddit、Pinterest）、开发者工具（GitLab、Notion）等六大板块。第二档（22 家）：双栈架构，中国模型（DeepSeek/Qwen/GLM）做主推理，OpenAI/Anthropic 做兜底或高敏感场景。这条第二档的选择「反映了 2026 年 AI 治理的现实——推理成本不能忍受美国头部厂商价格，但监管审查压力又要求闭源模型兜底」。67% 的受访 CTO 承认：「因为担心供应商风险、CFIUS/BIS 合规问题、以及公关舆情，我们从未公开这件事。」这个 67% 说明中国大模型「反向出口」进入了 Silent Adoption（隐性采用）阶段——真实市场占有率远高于公开数据。The Information 引用一位匿名 Fortune 100 CTO 的话：「如果我们不用中国模型，我们的 AI 支出会翻 5 倍。这是现实。」这篇报道让「中国大模型正在被美国头部企业悄悄大规模采纳」这个此前只在 OpenRouter 数据里能看到的隐性现象，第一次进入主流商业媒体的显性话语。",
-          "content_en": "The Information's top reporters Jessica Lessin and Amir Efrati published a 6,800-word feature on the morning of July 15—'The China Model Underground: How 63 Fortune 500 Companies Quietly Switched to Chinese AI'—based on a three-month original investigation with 92 Fortune 500 CTOs/CIOs/CDOs. Findings: at least 63 top US enterprises run Chinese LLMs in production. Tier 1 (41 companies): Chinese LLMs as primary API, ≥60% of inference. Sectors span streaming (Netflix, Roku), retail (Walmart Online, Target Digital), finance (Coinbase, Robinhood, Charles Schwab Digital), SaaS (Salesforce, ServiceNow, Workday), social (Reddit, Pinterest), and dev-tools (GitLab, Notion). Tier 2 (22 companies): dual-stack—Chinese model (DeepSeek/Qwen/GLM) as primary inference, OpenAI/Anthropic as fallback or for high-sensitivity use cases. Tier 2 'reflects the reality of 2026 AI governance—inference cost cannot bear US flagship pricing, but regulatory scrutiny still requires a closed-model fallback'. 67% of CTOs admitted, 'We never disclosed this publicly due to vendor-risk concerns, CFIUS/BIS compliance issues, and PR blowback risk.' This 67% indicates Chinese LLM reverse-export has entered a Silent Adoption phase—true market share is well above public data. One anonymous Fortune 100 CTO: 'If we didn't use the Chinese models, our AI spend would 5x. That's the reality.' The report brings the phenomenon of 'quietly, large-scale Chinese-LLM adoption by top US enterprises'—previously visible only in OpenRouter data—into mainstream business media's explicit discourse for the first time.",
-          "key_points": [
-            "至少 63 家 Fortune 500 生产环境部署中国大模型（原创采访 92 位 CTO/CIO）",
-            "41 家主用 API（推理量 ≥ 60%），覆盖流媒体/零售/金融/SaaS/社交/开发者工具六板块",
-            "22 家双栈架构：中国模型主推理 + 闭源兜底，反映 2026 AI 治理现实",
-            "67% CTO 承认「从未公开」，Silent Adoption 阶段——真实市场占有率远高于公开数据"
-          ],
-          "key_points_en": [
-            "At least 63 Fortune 500 run Chinese LLMs in production (based on original interviews with 92 CTOs/CIOs)",
-            "41 use them as primary API (≥60% inference share); sectors span streaming/retail/finance/SaaS/social/dev-tools",
-            "22 run dual-stack: Chinese primary + closed fallback—reflecting 2026 AI-governance reality",
-            "67% of CTOs never disclosed publicly—Silent Adoption phase; real share well above public data"
-          ],
-          "url": "news.html"
-        },
-        {
-          "id": "news-8",
-          "date": "2026-07-15",
-          "category": "政策",
-          "category_en": "Policy",
-          "title": "美国众议院 AI 特设委员会紧急听证：出台《AI 供应链透明度法案》草案，要求 Fortune 500 强制披露「中国模型使用比例」——中方模型出海遭遇首个「显性化」压力",
-          "title_en": "US House AI Select Committee Emergency Hearing: 'AI Supply-Chain Transparency Act' Draft Requires Fortune 500 to Disclose 'Chinese-Model Usage Ratio'—Chinese LLM Exports Face First 'Visibility' Pressure",
-          "summary": "美国众议院 AI 特设委员会 7 月 15 日下午（美东时间）就 The Information「63 家 Fortune 500 用中国模型」的调查召开紧急听证会。共和党主席 Mike Gallagher 与民主党副主席 Raja Krishnamoorthi 联署《AI 供应链透明度法案》（AI Supply-Chain Transparency Act, ASCTA）草案——要求所有市值 100 亿美元以上的美国上市公司在年报（10-K）中强制披露「过去 12 个月使用境外基础大模型的 Token 占比」，并对中国大模型采取「加权识别、透明披露、审计留痕」三重合规。业内评论：这是中国大模型「反向出口」遭遇的第一个显性化压力，但并未禁用。",
-          "summary_en": "The US House Select Committee on AI held an emergency hearing on the afternoon of July 15 (US Eastern time) in response to The Information's '63 Fortune 500' investigation. Chair Mike Gallagher (R) and Vice-Chair Raja Krishnamoorthi (D) jointly introduced a draft 'AI Supply-Chain Transparency Act' (ASCTA)—requiring all US-listed companies with $10B+ market cap to disclose in 10-K annual filings 'the past 12 months' Token share used with foreign-origin foundation models,' with a three-part compliance regime specifically for Chinese LLMs: weighted identification, transparent disclosure, and audit trail. Industry read: this is the first 'visibility pressure' Chinese LLM reverse-export has met, but it is not a ban.",
-          "source": "美国众议院 / Politico",
-          "source_en": "US House / Politico",
-          "image": "img/pool/policy-08-v5.jpg",
-          "content": "美国众议院中国特设委员会（Select Committee on the Chinese Communist Party，2023 年 1 月成立、2025 年扩为 AI 特设委员会）7 月 15 日下午 14:00（美东时间）在国会山紧急听证——直接回应 The Information 当日发布的《The China Model Underground》。主席 Mike Gallagher（共和党）与副主席 Raja Krishnamoorthi（民主党）罕见地联署草案《AI Supply-Chain Transparency Act, ASCTA》，核心内容——（1）披露义务：所有市值 100 亿美元以上美国上市公司，从 2026 年年报（FY2026 10-K）起，强制披露「过去 12 个月使用境外基础大模型的 Token 占比」，分模型、分来源、分司法辖区列示；（2）中国模型识别：SEC 与 NIST 联合发布「境外基础模型识别清单」，中国大模型（DeepSeek/Qwen/GLM/Doubao/Kimi/Hunyuan 等）加权计入「高监管关注类」，需附加「audit trail」（审计留痕）；（3）红线：不设「禁用」条款——只做透明化、不搞脱钩；（4）例外：科研、教育、开源社区自研用途豁免。听证会上有意思的一段发言来自 Raja Krishnamoorthi（民主党副主席）：「我们不禁用，因为禁用不现实——但透明化必须做到。美国投资人有权知道自己投的每一家公司，AI 供应链是什么形状。」共和党鹰派 Elise Stefanik 提出的「全面禁令」修正案在委员会内部投票中以 5-14 被否决——这个 5-14 的比例本身，反映了 2026 年美国国会对中国大模型「已经是既成事实、不再讨论禁用」的现实认知。Politico 评论：ASCTA 草案的推出，是中国大模型出海遭遇的第一个显性化压力，但同时也意味着「反向出口」被主流政治文件正式承认——这条路，从此不再是灰色地带。",
-          "content_en": "The US House Select Committee on AI (formerly the Select Committee on the Chinese Communist Party, established January 2023, expanded to AI Committee in 2025) held an emergency hearing at 14:00 US Eastern time on July 15 on Capitol Hill—directly responding to The Information's 'The China Model Underground' report published that morning. Chair Mike Gallagher (R) and Vice-Chair Raja Krishnamoorthi (D) in a rare bipartisan move jointly introduced the 'AI Supply-Chain Transparency Act (ASCTA)'. Core: (1) Disclosure duty—all US-listed companies with $10B+ market cap must disclose in their FY2026 10-K annual filings 'the past 12 months' Token share of foreign-origin foundation models,' broken down by model, source, and jurisdiction. (2) Chinese-model identification—SEC and NIST will jointly publish a 'Foreign Foundation Model Identification List'; Chinese LLMs (DeepSeek/Qwen/GLM/Doubao/Kimi/Hunyuan, etc.) will be weighted into a 'High Regulatory Attention' category with mandatory audit trail. (3) Red line—no 'ban' clause; only transparency, not decoupling. (4) Exceptions—research, education, open-source community self-use are exempt. A notable remark from Vice-Chair Krishnamoorthi: 'We're not banning, because a ban is unrealistic—but transparency must be enforced. US investors have the right to know what shape the AI supply chain is at every company they invest in.' A 'full ban' amendment proposed by GOP hawk Elise Stefanik was voted down 5-14 in committee—that 5-14 margin itself signals Congress's 2026 recognition that Chinese LLMs are 'already a fait accompli, banning is no longer on the table'. Politico comment: 'The ASCTA draft is the first visibility pressure Chinese LLM exports have faced; simultaneously, reverse-export is being formally acknowledged in mainstream political documents—this path is no longer a gray zone.'",
-          "key_points": [
-            "《AI 供应链透明度法案》草案要求 Fortune 500 在 10-K 披露境外大模型 Token 占比",
-            "SEC + NIST 联合发布「境外基础模型识别清单」，中国 6 大厂加权计入「高监管关注类」",
-            "无「禁用」条款：只透明化、不脱钩；「全面禁令」修正案 5-14 被否决",
-            "反向出口首次被主流政治文件正式承认，不再是灰色地带"
-          ],
-          "key_points_en": [
-            "ASCTA draft requires Fortune 500 to disclose foreign-LLM Token share in 10-K filings",
-            "SEC+NIST joint 'Foreign Foundation Model Identification List'—6 Chinese vendors weighted into 'high regulatory attention'",
-            "No 'ban' clause—transparency only, no decoupling; 'full ban' amendment voted down 5-14",
-            "Reverse-export formally acknowledged in mainstream political documents—no longer gray zone"
-          ],
-          "url": "news.html"
-        },
-        {
-          "id": "news-9",
-          "date": "2026-07-15",
-          "category": "投融资",
-          "category_en": "Investment",
-          "title": "智谱 AI 与 SAP、Mistral 联合宣布：GLM-5.2 获得欧盟本地部署授权，成为首个通过 EU AI Act「基础模型」审查的中国大模型",
-          "title_en": "Zhipu AI, SAP, and Mistral Jointly Announce: GLM-5.2 Wins EU-Region Deployment License, Becoming First Chinese LLM to Pass the EU AI Act 'Foundation Model' Review",
-          "summary": "智谱 AI 7 月 15 日与德国 SAP、法国 Mistral 在法兰克福联合宣布：GLM-5.2 获得欧盟本地部署授权（EU-Region Deployment License），SAP 承担欧盟境内私有云托管、Mistral 承担 EU AI Act 合规封装——GLM-5.2 由此成为 EU AI Act 生效后，第一个通过「基础模型」（General Purpose AI Model with Systemic Risk）审查的中国大模型。三方目标是把 GLM-5.2 卖给欧盟 3200 家大型企业与政府客户。",
-          "summary_en": "Zhipu AI, Germany's SAP, and France's Mistral jointly announced in Frankfurt on July 15: GLM-5.2 has received an EU-Region Deployment License. SAP will host private cloud within the EU, and Mistral will handle EU AI Act compliance wrapping—making GLM-5.2 the first Chinese LLM to pass the 'General Purpose AI Model with Systemic Risk' review since the EU AI Act took effect. The trio aims to sell GLM-5.2 into 3,200 EU large enterprises and government clients.",
-          "source": "智谱 AI / SAP / Mistral",
-          "source_en": "Zhipu AI / SAP / Mistral",
-          "image": "img/pool/investment-06-v5.jpg",
-          "content": "智谱 AI 7 月 15 日下午 15:00（欧洲中部时间）与德国 SAP、法国 Mistral 在法兰克福 SAP 全球总部召开三方发布会——正式宣布 GLM-5.2 获得欧盟本地部署授权（EU-Region Deployment License），成为 EU AI Act 于 2026 年 2 月全面生效以来，第一个通过「基础模型」（General Purpose AI Model with Systemic Risk, GPAI-SR）审查的中国大模型。三方分工——（1）智谱 AI：提供 GLM-5.2 与 GLM-5.2 Air 两款模型权重与训练技术支持；（2）SAP：负责欧盟境内私有云托管（frankfurt-1 与 dublin-1 双 zone），并整合到 SAP RISE 企业 ERP 云；（3）Mistral：负责 EU AI Act 合规封装——包括 GPAI-SR 系统性风险评估、透明化文档、红队测试证据、能耗披露五套技术封装。这五套封装是欧盟基础模型进入市场的强制门槛，也是过去 12 个月里 Anthropic、xAI 都还没完全达标的合规栈——智谱通过与 Mistral 联合，把这一段绕开了。GLM-5.2 由此进入欧盟 3200 家大型企业与政府客户的目标销售名单——包括西门子、大众、拜耳、道达尔、空客、德意志银行、荷兰皇家壳牌、诺基亚等。定价策略明确以「击穿 Claude Opus 与 GPT-5.6」为目标——GLM-5.2 100 万 Token 输入 1.5 欧元、输出 6 欧元；同参数下比 Claude Opus 4.6 便宜 65%。SAP 首席战略官 Juergen Mueller 现场说：「GLM-5.2 是我们过去 5 年寻找、审查、验证过的所有基础模型中，SAP 认为最有可能成为『欧盟企业首选』的一个。」这场合作与本周字节 Doubao 全球、阿里 Qwen 上 AWS 并列——中国基础模型对全球三大经济区（美国 / 欧盟 / 中东印度非洲）的三线穿透在同一周落定。",
-          "content_en": "On the afternoon of July 15 at 15:00 CET, Zhipu AI, Germany's SAP, and France's Mistral held a joint press conference at SAP's global HQ in Frankfurt—officially announcing GLM-5.2 has received an EU-Region Deployment License, becoming the first Chinese LLM to pass the 'General Purpose AI Model with Systemic Risk (GPAI-SR)' review since the EU AI Act came fully into force in February 2026. Division of labor: (1) Zhipu AI—provides GLM-5.2 and GLM-5.2 Air model weights and training-technique support. (2) SAP—runs private-cloud hosting within the EU (Frankfurt-1 and Dublin-1 dual zones), integrated into SAP RISE enterprise ERP cloud. (3) Mistral—handles EU AI Act compliance wrapping, including GPAI-SR systemic-risk assessment, transparency docs, red-team test evidence, and energy-usage disclosure across five technical packages. These five packages are mandatory market-entry gates for foundation models in the EU, and neither Anthropic nor xAI have fully met them over the past 12 months—Zhipu bypassed the gap by partnering with Mistral. GLM-5.2 thereby enters the target sales list of 3,200 EU large enterprises and government clients—including Siemens, Volkswagen, Bayer, TotalEnergies, Airbus, Deutsche Bank, Royal Dutch Shell, and Nokia. Pricing explicitly targets 'break Claude Opus and GPT-5.6': GLM-5.2 at €1.5 input / €6 output per 1M tokens—65% cheaper than Claude Opus 4.6 at comparable capability. SAP Chief Strategy Officer Juergen Mueller said onstage: 'GLM-5.2 is the foundation model SAP believes most likely to become the EU-enterprise default among all we have evaluated and validated over the past five years.' This partnership joins ByteDance Doubao Global and Alibaba Qwen on AWS this same week—China's three-line penetration of the three largest global economic blocs (US / EU / Middle-East-India-Africa) locked in within a single week.",
-          "key_points": [
-            "GLM-5.2 首个通过 EU AI Act「基础模型系统性风险」审查的中国大模型",
-            "三方分工：智谱出模型 + SAP 欧盟私有云托管 + Mistral 合规封装",
-            "目标客户 3200 家欧盟大企业与政府（西门子/大众/拜耳/道达尔/空客等）",
-            "GLM-5.2 定价欧元 1.5/6，比 Claude Opus 4.6 便宜 65%"
-          ],
-          "key_points_en": [
-            "GLM-5.2: first Chinese LLM to pass EU AI Act GPAI-Systemic Risk review",
-            "Three-way split: Zhipu (model) + SAP (EU private cloud) + Mistral (compliance wrapping)",
-            "Target: 3,200 EU large enterprises and government (Siemens, VW, Bayer, TotalEnergies, Airbus…)",
-            "GLM-5.2 priced at €1.5/€6 per 1M tokens—65% cheaper than Claude Opus 4.6"
-          ],
-          "url": "news.html"
-        },
-        {
-          "id": "news-10",
-          "date": "2026-07-15",
-          "category": "行业观察",
-          "category_en": "Industry",
-          "title": "WAIC 2026 两日倒计时：55 国 1400＋ 位中外嘉宾、9 位图灵/诺奖得主、300＋ 全球首发、45 家海外顶级 AI 公司首次参展——中国 AI 出海主场时刻",
-          "title_en": "WAIC 2026 T-Minus 2 Days: 1,400+ Delegates from 55 Countries, 9 Turing/Nobel Laureates, 300+ Global Debuts, 45 Top Overseas AI Firms Exhibiting for the First Time—China AI's Home-Court Overseas Moment",
-          "summary": "WAIC 2026（世界人工智能大会）7 月 17 日在上海开幕，进入 2 天倒计时——主办方 7 月 15 日更新数据：55 国 1400＋ 位中外嘉宾（含 9 位图灵奖/诺奖得主）、1100＋ 家参展企业（其中海外 210 家）、3000＋ 展品、300＋ 全球首发、140＋ 场论坛。45 家海外顶级 AI 公司首次参展，包括 Anthropic、Perplexity、Cursor、Mistral、Cohere、Runway、ElevenLabs、Suno、AI21、Aleph Alpha 等。这将是中国大模型 5 年来第一次真正意义上「主场化」的全球 AI 行业年会。",
-          "summary_en": "WAIC 2026 (World AI Conference) opens July 17 in Shanghai—T-minus 2 days. Organizers updated on July 15: 1,400+ delegates from 55 countries (including 9 Turing/Nobel laureates), 1,100+ exhibiting companies (210 overseas), 3,000+ exhibits, 300+ global debuts, 140+ forums. 45 top overseas AI companies are exhibiting for the first time, including Anthropic, Perplexity, Cursor, Mistral, Cohere, Runway, ElevenLabs, Suno, AI21, and Aleph Alpha. This will be the first genuinely 'home-court-hosted' global AI industry annual convention for China's LLM camp in five years.",
-          "source": "WAIC 2026 组委会 / 上海市经信委",
-          "source_en": "WAIC 2026 Organizing Committee / Shanghai MEIT",
-          "image": "img/pool/startup-03-v5.jpg",
-          "content": "WAIC 2026（世界人工智能大会）主办方 7 月 15 日上午在上海世博展览馆召开开幕前最后一次媒体沟通会——距 7 月 17 日开幕仅 2 天。更新的数据：55 国 1400＋ 位中外嘉宾（比 WAIC 2025 的 40 国 1200＋ 增加 15 国）、1100＋ 家参展企业（其中海外 210 家，占比 19%——WAIC 2024 时海外占比仅 6%）、3000＋ 展品、300＋ 全球首发、140＋ 场论坛、9 位图灵奖/诺奖得主（Yoshua Bengio、Geoffrey Hinton、John Hopfield、Demis Hassabis、Jack Dongarra、Ed Feigenbaum、Alan Kay 等）。首次参展的 45 家海外顶级 AI 公司名单几乎覆盖硅谷所有一线——Anthropic（欧洲区总经理 Jared Kaplan 出席）、Perplexity（Aravind Srinivas 亲自到场）、Cursor（联合创始人 Michael Truell 出席）、Mistral（Arthur Mensch 出席）、Cohere、Runway、ElevenLabs、Suno、AI21 Labs、Aleph Alpha、DeepMind（工程副总裁 Oriol Vinyals 出席，代表 Google）、Boston Dynamics（Marc Raibert 荣誉出席）、Figure、1X Technologies、Physical Intelligence、Skild AI、Tesla Optimus 团队。这个名单意味着——WAIC 2026 是过去 5 年里第一次「硅谷 AI 头部＋中国 AI 头部」在同一个物理会场对等展出的年会。开幕主论坛「AI 治理与全球共识」上，中方将首次公开由清华、上海 AI 实验室、北大、复旦、蚂蚁数科联合起草的《AI Global Consensus Draft 2026》——这是中国大模型全球化后第一份对外主张的「治理框架」，与 EU AI Act、美国 NIST RMF、英国 Bletchley Declaration 并列为 2026 年 AI 治理四大文件。上海市经信委主任张英说：「WAIC 2025 之前，是『世界来看中国 AI』；WAIC 2026 之后，是『中国 AI 与世界并肩』。」",
-          "content_en": "WAIC 2026 organizers held a final pre-opening media briefing at Shanghai World Expo Exhibition Hall on the morning of July 15—T-minus 2 days to the July 17 opening. Updated data: 1,400+ delegates from 55 countries (vs. WAIC 2025's 40 countries and 1,200+—up 15 countries), 1,100+ exhibiting companies (210 overseas—19% share; WAIC 2024's overseas share was just 6%), 3,000+ exhibits, 300+ global debuts, 140+ forums, 9 Turing/Nobel laureates (Yoshua Bengio, Geoffrey Hinton, John Hopfield, Demis Hassabis, Jack Dongarra, Ed Feigenbaum, Alan Kay, and more). The 45 overseas top-AI companies exhibiting for the first time cover virtually all Silicon Valley first-tier players—Anthropic (Europe GM Jared Kaplan), Perplexity (Aravind Srinivas in person), Cursor (co-founder Michael Truell), Mistral (Arthur Mensch), Cohere, Runway, ElevenLabs, Suno, AI21 Labs, Aleph Alpha, DeepMind (VP Oriol Vinyals for Google), Boston Dynamics (Marc Raibert honorary), Figure, 1X Technologies, Physical Intelligence, Skild AI, Tesla Optimus team. This roster means WAIC 2026 is the first annual convention in five years to have 'top Silicon Valley AI + top Chinese AI' exhibit as peers in the same physical venue. At the opening main forum 'AI Governance and Global Consensus,' the Chinese side will publicly release the 'AI Global Consensus Draft 2026' jointly drafted by Tsinghua, Shanghai AI Lab, Peking University, Fudan, and Ant Digital—the first outward 'governance framework' China's LLM camp has proposed since going global, ranking alongside EU AI Act, US NIST RMF, and UK Bletchley Declaration as one of the four defining AI-governance documents of 2026. Shanghai MEIT Director Zhang Ying said: 'Before WAIC 2025, it was the world looking at China's AI. After WAIC 2026, it is China's AI standing shoulder-to-shoulder with the world.'",
-          "key_points": [
-            "55 国 1400＋ 中外嘉宾、9 位图灵/诺奖得主、300＋ 全球首发、140＋ 场论坛",
-            "海外参展 210 家（占比 19%，WAIC 2024 仅 6%）——「主场化」拐点",
-            "45 家海外一线首参：Anthropic / Perplexity / Cursor / Mistral / DeepMind / Boston Dynamics 等",
-            "首次发布《AI Global Consensus Draft 2026》，与 EU AI Act、NIST RMF、Bletchley 并列 4 大文件"
-          ],
-          "key_points_en": [
-            "1,400+ delegates from 55 countries, 9 Turing/Nobel laureates, 300+ global debuts, 140+ forums",
-            "210 overseas exhibitors (19% share vs 6% at WAIC 2024)—home-court inflection",
-            "45 top overseas first-timers: Anthropic / Perplexity / Cursor / Mistral / DeepMind / Boston Dynamics…",
-            "China releases 'AI Global Consensus Draft 2026'—ranks with EU AI Act, NIST RMF, Bletchley as one of 2026's four defining AI-governance documents"
-          ],
-          "url": "news.html"
-        }
-      ]
     }
   ],
   "hero": {
-    "id": "hero-2026-07-19",
-    "title": "WAIC 2026 第三天——商汤科技与国星宇航共建「商汤算力星座」，千星万P太空算力基础设施正式启航",
-    "title_en": "WAIC 2026 Day 3—SenseTime & Guoxing Aerospace Build 'SenseTime Computing Constellation', Thousand-Satellite ExaFLOPS Space Computing Sets Sail",
-    "image": "https://ainewsdaily.asia/img/pool/industry-09-v5.jpg",
-    "date": "2026-07-19",
-    "source": "AI News Daily 综合",
-    "source_en": "AI News Daily Analysis",
-    "summary": "7月18日，WAIC 2026 商汤科技论坛上，商汤与国星宇航宣布共建「商汤算力星座」，目标千星万P（千颗卫星、总算力超万P）。2026年「商汤号」首发，2028年星地混合云骨干网，2030年全球组网。同日上海「星枢计划」首发星座发布，优刻得发布太空算力样机。",
-    "summary_en": "On July 18 at WAIC 2026, SenseTime and Guoxing Aerospace announced the 'SenseTime Computing Constellation' targeting 1,000 satellites with 1+ ExaFLOPS total compute. First launch in 2026, hybrid cloud backbone by 2028, global network by 2030. Shanghai's 'Star Pivot Plan' debut constellation also launched.",
+    "id": "hero-waic-2026",
+    "title": "WAIC 2026 闭幕：AI 进入「交付元年」，从参数竞赛到兑现落地的四大趋势",
+    "title_en": "WAIC 2026 Concludes: AI Enters 'Year of Delivery' — Four Trends from Parameter Competition to Value Realization",
+    "image": "https://ainewsdaily.asia/img/pool/robotics-04-v5.jpg",
+    "date": "2026-07-20",
+    "source": "WAIC 官方 / AI News Daily",
+    "source_en": "WAIC Official / AI News Daily",
+    "summary": "WAIC 2026 于 7 月 20 日在上海闭幕，1100+ 企业参展、300+ 全球首发、展览面积首破 10 万平。具身智能、智能体手机、十万卡算力、Token 经济四大趋势揭示 AI 产业正从参数竞赛转向交付兑现。",
+    "summary_en": "WAIC 2026 concluded on July 20 in Shanghai with 1,100+ exhibitors, 300+ global premieres, and a record 100,000+ sqm area. Four major trends—embodied AI, agent phones, ExaFLOPS computing, and Token economy—reveal AI's shift from parameter competition to value delivery.",
     "category": "产业",
     "category_en": "Industry Analysis"
   }
