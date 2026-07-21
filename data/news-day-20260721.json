@@ -1,0 +1,278 @@
+{
+  "date": "2026-07-21",
+  "articles": [
+    {
+      "id": "news-1",
+      "date": "2026-07-21",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "苹果起诉OpenAI窃取硬件商业机密，指控通过挖角获取芯片设计机密",
+      "title_en": "Apple Sues OpenAI for Stealing Hardware Trade Secrets via Employee Poaching",
+      "summary": "苹果公司正式起诉OpenAI，指控其通过系统性地挖角苹果员工，非法获取硬件商业机密，涉及芯片设计和消费硬件领域的核心技术情报。",
+      "summary_en": "Apple has filed a lawsuit accusing OpenAI of improperly acquiring hardware trade secrets through the systematic recruitment of former Apple employees, covering chip design and consumer hardware development.",
+      "source": "CNNBC",
+      "source_en": "CNNBC",
+      "image": "https://ainewsdaily.asia/img/pool/chips-09-v5.jpg",
+      "content": "7月21日，苹果公司正式向联邦法院提起诉讼，指控OpenAI通过有组织地招募前苹果员工，非法获取硬件商业机密，涵盖芯片设计、散热架构和消费硬件等核心技术领域。诉讼称，OpenAI在2024年至2026年间至少挖角了40余名苹果硬件工程师，其中多人掌握关键芯片设计机密。OpenAI否认全部指控，称这些员工带来的仅是公开领域知识和个人技能。此案可能影响OpenAI的消费硬件计划，并推迟其自研AI芯片的研发进度。",
+      "content_en": "On July 21, Apple filed a federal lawsuit accusing OpenAI of systematically poaching former Apple employees to acquire hardware trade secrets, including chip design, thermal architecture, and consumer hardware blueprints. The lawsuit claims OpenAI recruited at least 40+ Apple hardware engineers between 2024-2026, many with access to critical chip design secrets. OpenAI denies all allegations, stating employees brought only public knowledge and personal skills. The case could complicate OpenAI's consumer hardware ambitions and delay its in-house AI chip development.",
+      "key_points": [
+        "苹果起诉OpenAI挖角窃取芯片设计机密",
+        "涉及40余名前苹果硬件工程师",
+        "可能影响OpenAI自研芯片和消费硬件计划"
+      ],
+      "key_points_en": [
+        "Apple sues OpenAI over chip design trade secret theft",
+        "Involves 40+ former Apple hardware engineers",
+        "Could delay OpenAI's custom chip and hardware plans"
+      ],
+      "url": "https://cnnbc.com/the-ai-race-enters-its-infrastructure-era"
+    },
+    {
+      "id": "news-2",
+      "date": "2026-07-21",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "title": "欧盟发布AI网络安全新规：先进AI模型上市前须通过强制安全评估",
+      "title_en": "EU Unveils New AI Cybersecurity Rules: Mandatory Safety Assessments Before Market Entry",
+      "summary": "欧盟委员会发布新规，要求所有先进AI模型在进入欧洲市场前接受严格安全评估，同时建立安全测试平台和专项评估能力，以防范针对关键基础设施的网络攻击。",
+      "summary_en": "The European Commission unveiled new rules requiring advanced AI models to undergo rigorous security evaluations before entering the European market, alongside a secure testing platform for critical infrastructure protection.",
+      "source": "CNNBC",
+      "source_en": "CNNBC",
+      "image": "https://ainewsdaily.asia/img/pool/policy-04-v5.jpg",
+      "content": "欧盟委员会7月21日正式发布新的AI网络安全框架，要求所有先进AI模型在进入欧洲市场前必须通过强制性的安全评估。新规还要求建立统一的安全测试平台，并设立专门的评估能力，以强化针对关键基础设施的网络攻击防御。该框架是欧盟AI法案的补充，重点针对具备潜在双重用途风险的AI系统。违反规定的企业将面临最高全球年营收6%的罚款。",
+      "content_en": "The European Commission on July 21 unveiled a new AI cybersecurity framework requiring all advanced AI models to pass mandatory security evaluations before entering the European market. The rules also mandate a unified secure testing platform and dedicated assessment capabilities to strengthen defenses against cyberattacks on critical infrastructure. The framework complements the EU AI Act, targeting AI systems with potential dual-use risks. Violators face fines of up to 6% of global annual revenue.",
+      "key_points": [
+        "欧盟新规要求先进AI模型上市前强制安全评估",
+        "建立统一安全测试平台",
+        "违规罚款最高全球年营收6%"
+      ],
+      "key_points_en": [
+        "Mandatory AI security assessments before EU market entry",
+        "Unified secure testing platform established",
+        "Fines up to 6% of global annual revenue"
+      ],
+      "url": "https://cnnbc.com/european-union-introduces-new-framework-for-advanced-artificial-intelligence-cybersecurity"
+    },
+    {
+      "id": "news-3",
+      "date": "2026-07-21",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "苹果智能获准入华：基于阿里千问的本地化方案获批，百度提供补充能力",
+      "title_en": "Apple Intelligence Approved for China Launch: Localized with Alibaba's Qwen, Baidu to Supply Additional Capabilities",
+      "summary": "Apple Intelligence在华部署方案获得监管批准，基于阿里巴巴千问大模型的本地化版本已经就绪，百度将提供额外的AI能力补充。这是苹果AI首次进入中国这个最重要的海外市场之一。",
+      "summary_en": "Apple Intelligence has received regulatory approval for deployment in mainland China, featuring a localized version built around Alibaba's Qwen model, with Baidu providing additional AI capabilities. This marks Apple AI's first entry into one of its most important overseas markets.",
+      "source": "CNNBC / Reuters",
+      "source_en": "CNNBC / Reuters",
+      "image": "https://ainewsdaily.asia/img/pool/AI_applications-08-v5.jpg",
+      "content": "据多方消息确认，Apple Intelligence已获得中国监管机构批准，将在华部署基于阿里巴巴千问大模型(Qwen)的本地化AI方案。百度也将为苹果提供额外的AI能力支持。这一获批标志着苹果AI能力首次进入中国市场，对中国用户而言，Siri将获得本地化的智能助手体验。此前由于中国严格的AI监管法规，Apple Intelligence在全球发布后一直未在中国大陆上线。",
+      "content_en": "Apple Intelligence has received regulatory approval from Chinese authorities for deployment in mainland China, featuring a localized AI solution built around Alibaba's Qwen large language model. Baidu will also provide additional AI capabilities. This marks Apple AI's first entry into the Chinese market, offering Chinese users a localized Siri experience. Apple Intelligence had been unavailable in mainland China since its global launch due to strict AI regulations.",
+      "key_points": [
+        "Apple Intelligence获中国监管批准入华",
+        "基于阿里千问Qwen大模型本地化",
+        "百度将提供补充AI能力"
+      ],
+      "key_points_en": [
+        "Apple Intelligence approved for China launch",
+        "Localized with Alibaba's Qwen model",
+        "Baidu to supply additional AI capabilities"
+      ],
+      "url": "https://cnnbc.com/the-ai-race-enters-its-infrastructure-era"
+    },
+    {
+      "id": "news-4",
+      "date": "2026-07-21",
+      "category": "芯片算力",
+      "category_en": "Chips & Computing",
+      "title": "台积电Q2财报超预期，再宣布千亿美元赴美投资计划",
+      "title_en": "TSMC Q2 Earnings Beat Estimates, Announces Another $100B US Investment",
+      "summary": "台积电公布超预期的第二季度财报，AI芯片需求强劲拉动增长。同时宣布追加1000亿美元美国投资计划，使在美总投资额达到约2650亿美元。",
+      "summary_en": "TSMC reported sharply higher Q2 earnings driven by surging AI chip demand, while announcing an additional $100 billion in planned US investment, bringing its total American commitment to roughly $265 billion.",
+      "source": "CNNBC",
+      "source_en": "CNNBC",
+      "image": "https://ainewsdaily.asia/img/pool/data_center-05-v5.jpg",
+      "content": "台积电7月21日公布第二季度财报，营收和利润均超市场预期，主要受AI芯片需求的强劲拉动。公司同时宣布再追加1000亿美元的在美投资计划，使其在美国的总投资额达到约2650亿美元。这笔投资将用于建设先进的3纳米和2纳米晶圆厂。台积电董事长刘德音表示，全球AI算力需求仍处于爆发初期，公司对未来5年的增长前景保持乐观。",
+      "content_en": "TSMC reported Q2 earnings on July 21 that beat market expectations, driven by surging AI chip demand. The company announced an additional $100 billion investment in the US, bringing its total American commitment to approximately $265 billion. The investment will fund advanced 3nm and 2nm wafer fabs. TSMC Chairman Mark Liu stated that global AI computing demand remains in its early explosive phase, and the company is optimistic about growth over the next five years.",
+      "key_points": [
+        "台积电Q2财报超预期，AI芯片需求驱动",
+        "追加1000亿美元在美投资",
+        "总投资额达2650亿美元"
+      ],
+      "key_points_en": [
+        "TSMC Q2 earnings beat estimates on AI chip demand",
+        "Additional $100B US investment announced",
+        "Total US commitment reaches $265B"
+      ],
+      "url": "https://cnnbc.com/the-ai-race-enters-its-infrastructure-era"
+    },
+    {
+      "id": "news-5",
+      "date": "2026-07-21",
+      "category": "政策监管",
+      "category_en": "Policy & Regulation",
+      "title": "欧盟DMA要求谷歌向竞争对手AI助手开放Android核心功能",
+      "title_en": "EU DMA Requires Google to Open Android Core Features to Competing AI Assistants",
+      "summary": "根据欧盟数字市场法案，谷歌将被要求向竞争对手的AI助手提供与Android关键功能的同等访问权限，以防止Gemini成为Android设备上永久偏好的AI助手。",
+      "summary_en": "Under the EU Digital Markets Act, Google will be required to provide competing AI assistants with comparable access to key Android capabilities, preventing Gemini from becoming the permanently preferred assistant on Android devices.",
+      "source": "CNNBC",
+      "source_en": "CNNBC",
+      "image": "https://ainewsdaily.asia/img/pool/network-06-v5.jpg",
+      "content": "欧盟委员会根据数字市场法案(DMA)正式裁定，谷歌必须向第三方AI助手开放Android系统的关键功能接口，包括语音唤醒、默认助手设置和设备权限等。这一决定旨在防止Gemini凭借Android系统的默认地位获得不公平竞争优势。谷歌表示将遵守裁决但可能提出上诉。这一决定将深刻影响欧洲AI助手市场的竞争格局。",
+      "content_en": "The European Commission has ruled under the Digital Markets Act that Google must open key Android system interfaces to third-party AI assistants, including voice wake-up, default assistant settings, and device permissions. The decision aims to prevent Gemini from gaining unfair advantage through Android's default status. Google stated it will comply but may appeal. The ruling will profoundly reshape the European AI assistant market landscape.",
+      "key_points": [
+        "欧盟DMA裁定谷歌开放Android给第三方AI助手",
+        "防止Gemini获得默认优势",
+        "涵盖语音唤醒、默认助手设置等"
+      ],
+      "key_points_en": [
+        "EU DMA rules Google must open Android to rival AI assistants",
+        "Prevents Gemini from gaining default advantage",
+        "Covers voice wake-up, default assistant settings"
+      ],
+      "url": "https://cnnbc.com/the-ai-race-enters-its-infrastructure-era"
+    },
+    {
+      "id": "news-6",
+      "date": "2026-07-21",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "title": "美国考虑限制中国先进开源AI模型，月之暗面Kimi K3可能被禁",
+      "title_en": "US Considers Ban on Advanced Chinese Open-Source AI Models, Kimi K3 at Risk",
+      "summary": "美国政府正在评估对Moonshot的Kimi K3等中国先进开源AI模型实施限制措施，担心低成本开源竞争威胁美国AI公司的盈利能力。",
+      "summary_en": "The US government is evaluating potential restrictions on advanced Chinese open-weight AI models like Moonshot's Kimi K3, concerned that low-cost open-source competition could threaten domestic AI companies' profitability.",
+      "source": "WhalesBook / Reuters",
+      "source_en": "WhalesBook / Reuters",
+      "image": "https://ainewsdaily.asia/img/pool/open_source-03-v5.jpg",
+      "content": "据知情人士透露，美国政府正在评估对月之暗面(Moonshot AI)的Kimi K3等中国先进开源AI模型实施出口限制的可能性。Kimi K3拥有2.8万亿参数，是目前全球最大的开源模型，其性能接近闭源旗舰模型。美国国内AI公司担忧，中国开源模型的低成本竞争将严重侵蚀其利润率。该评估尚处于早期阶段，但已引发开源社区的广泛关注和争议。",
+      "content_en": "The US government is evaluating potential export restrictions on advanced Chinese open-weight AI models such as Moonshot's Kimi K3, sources familiar with the matter revealed. With 2.8 trillion parameters, Kimi K3 is the world's largest open-source model, approaching the performance of closed-source flagship models. US AI companies fear that low-cost Chinese open-source competition could severely impact their profit margins. The evaluation is in early stages but has sparked widespread concern in the open-source community.",
+      "key_points": [
+        "美国评估限制中国开源AI模型",
+        "月之暗面Kimi K3可能被列入限制范围",
+        "开源社区对此广泛关注"
+      ],
+      "key_points_en": [
+        "US evaluates restrictions on Chinese open-source AI models",
+        "Moonshot's Kimi K3 could be restricted",
+        "Open-source community widely concerned"
+      ],
+      "url": "https://www.whalesbook.com/all-news/English/technology"
+    },
+    {
+      "id": "news-7",
+      "date": "2026-07-21",
+      "category": "投融资",
+      "category_en": "Investment",
+      "title": "月之暗面寻求投资者批准，推进香港IPO计划",
+      "title_en": "Moonshot AI Seeks Investor Approval to List in Hong Kong",
+      "summary": "月之暗面(Moonshot AI)已要求投资者为香港IPO扫清障碍。这家北京AI初创公司旗下Kimi K3大模型近期引发全球关注，IPO估值可能超过300亿美元。",
+      "summary_en": "Moonshot AI has asked its investors to clear the way for a Hong Kong IPO. The Beijing-based AI startup, whose Kimi K3 model has recently drawn global attention, could be valued at over $30 billion.",
+      "source": "Unite.AI",
+      "source_en": "Unite.AI",
+      "image": "https://ainewsdaily.asia/img/pool/startup-04-v5.jpg",
+      "content": "月之暗面(Moonshot AI)已正式要求其投资者为香港IPO扫清障碍。这家开发了Kimi K3大模型的北京AI初创公司，在WAIC 2026期间发布的2.8万亿参数开源模型引发全球关注。据知情人士透露，IPO估值可能超过300亿美元。月之暗面选择香港而非美国上市，反映了地缘政治压力下中国AI公司对资本市场的重新考量。",
+      "content_en": "Moonshot AI has formally asked its investors to clear the way for a Hong Kong IPO. The Beijing-based AI startup, which developed the Kimi K3 model, drew global attention during WAIC 2026 with its 2.8 trillion parameter open-source model. Sources indicate the IPO could value the company at over $30 billion. Moonshot's choice of Hong Kong over the US reflects Chinese AI companies' strategic recalibration amid geopolitical pressures.",
+      "key_points": [
+        "月之暗面推进香港IPO",
+        "估值可能超过300亿美元",
+        "Kimi K3发布后全球关注度飙升"
+      ],
+      "key_points_en": [
+        "Moonshot AI advances Hong Kong IPO",
+        "Potential valuation over $30 billion",
+        "Global attention surged after Kimi K3 launch"
+      ],
+      "url": "https://www.unite.ai/moonshot-ai-seeks-investor-approval-hong-kong-ipo/"
+    },
+    {
+      "id": "news-8",
+      "date": "2026-07-21",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "title": "微软与AMD扩大合作，Azure将部署AMD Helios AI平台",
+      "title_en": "Microsoft Expands AMD Partnership, Deploys Helios AI Platform on Azure",
+      "summary": "微软宣布扩大与AMD的战略合作，将在Azure云平台部署AMD的下一代Helios AI机架级平台，为AI推理工作负载提供算力支持。",
+      "summary_en": "Microsoft announced an expanded strategic partnership with AMD, deploying AMD's next-generation Helios rack-scale AI platform on Azure to power AI inference workloads.",
+      "source": "36氪",
+      "source_en": "36Kr",
+      "image": "https://ainewsdaily.asia/img/pool/industry-05-v5.jpg",
+      "content": "微软与AMD宣布扩大战略合作。根据协议，微软将在其Azure云平台部署AMD的下一代Helios机架级AI平台，为其自身的AI服务和Azure客户的前沿模型推理工作负载提供算力支持。AMD预计将于2026年下半年开始向包括微软在内的客户出货Helios平台。此举标志着微软在AI算力基础设施上进一步多元化，减少对单一供应商的依赖。",
+      "content_en": "Microsoft and AMD announced an expanded strategic partnership. Under the agreement, Microsoft will deploy AMD's next-generation Helios rack-scale AI platform on Azure to power its own AI services and Azure customers' frontier model inference workloads. AMD expects to begin shipping the Helios platform to customers including Microsoft in the second half of 2026. The move marks Microsoft's further diversification of AI computing infrastructure, reducing reliance on a single supplier.",
+      "key_points": [
+        "微软Azure部署AMD Helios AI平台",
+        "AMD 2026年下半年出货",
+        "微软AI算力多元化战略"
+      ],
+      "key_points_en": [
+        "Azure to deploy AMD Helios AI platform",
+        "AMD shipping in H2 2026",
+        "Microsoft diversifies AI compute strategy"
+      ],
+      "url": "https://36kr.com/newsflashes/3904609584694912"
+    },
+    {
+      "id": "news-9",
+      "date": "2026-07-21",
+      "category": "AI 应用",
+      "category_en": "AI Applications",
+      "title": "Anthropic版权案达成15亿美元和解，联邦法院最终批准",
+      "title_en": "Anthropic's $1.5B Book Piracy Settlement Wins Final Court Approval",
+      "summary": "联邦法院最终批准了Anthropic的15亿美元版权和解协议，这是美国历史上最大的版权和解案之一，涉及使用受版权保护的书籍训练AI模型。",
+      "summary_en": "A federal court has given final approval to Anthropic's $1.5 billion copyright settlement, believed to be the largest copyright settlement in US history, concerning the use of copyrighted books for AI model training.",
+      "source": "Unite.AI",
+      "source_en": "Unite.AI",
+      "image": "https://ainewsdaily.asia/img/pool/energy-01-v5.jpg",
+      "content": "美国联邦法院最终批准了Anthropic的15亿美元版权和解协议，这被认为是美国历史上最大的版权和解案。该案涉及Anthropic使用受版权保护的书籍训练其AI模型。和解协议要求Anthropic向出版商和作者支付赔偿金，并建立新的合规机制。这一裁决为AI训练数据的版权使用建立了重要法律先例，可能影响整个AI行业的数据采集实践。",
+      "content_en": "A US federal court has given final approval to Anthropic's $1.5 billion copyright settlement, believed to be the largest copyright settlement in US history. The case involved Anthropic's use of copyrighted books to train its AI models. The settlement requires Anthropic to pay compensation to publishers and authors and establish new compliance mechanisms. The ruling sets a significant legal precedent for copyright use in AI training data, potentially impacting data collection practices across the entire AI industry.",
+      "key_points": [
+        "Anthropic 15亿美元版权和解获法院批准",
+        "美国历史上最大版权和解案",
+        "为AI训练数据版权使用建立法律先例"
+      ],
+      "key_points_en": [
+        "Anthropic's $1.5B copyright settlement approved",
+        "Largest copyright settlement in US history",
+        "Sets legal precedent for AI training data"
+      ],
+      "url": "https://www.unite.ai/anthropic-book-piracy-settlement-final-approval/"
+    },
+    {
+      "id": "news-10",
+      "date": "2026-07-21",
+      "category": "开源动态",
+      "category_en": "Open Source",
+      "title": "Meta考虑向竞争对手Anthropic出租AI算力，十年或超千亿美元",
+      "title_en": "Meta Weighs Leasing AI Compute to Rival Anthropic in Potential $10B+ Deal",
+      "summary": "Meta正在与Anthropic进行初步谈判，拟向其出租AI算力。若达成协议，两年内价值可能高达100亿美元，标志着Meta首次将其数据中心建设转化为对外产品。",
+      "summary_en": "Meta is in early talks to lease AI computing capacity to Anthropic in a potential deal valued at up to $10 billion over two years, marking Meta's first move to turn its data center buildout into an external product.",
+      "source": "Unite.AI / NYT",
+      "source_en": "Unite.AI / NYT",
+      "image": "https://ainewsdaily.asia/img/pool/robotics-08-v5.jpg",
+      "content": "Meta正在与Anthropic进行初步谈判，拟向其出租AI算力。据《纽约时报》首次报道，这笔潜在交易两年内价值可能高达100亿美元。Anthropic在2026年6月主动提出这一想法，希望获得像SpaceX Colossus合同中那样的灵活退出条款。Meta最新财报显示其2026年资本支出预计达1250至1450亿美元，大部分用于AI基础设施。这一交易若能达成，将标志着Meta首次从AI算力买家转身为算力卖家。",
+      "content_en": "Meta is in early talks to lease AI computing capacity to Anthropic. The New York Times first reported the discussions, valuing a potential deal at up to $10 billion over two years. Anthropic floated the idea in June 2026, seeking flexible exit terms similar to its SpaceX Colossus contract. Meta's latest earnings report shows 2026 capital spending of $125-145 billion, mostly for AI infrastructure. If finalized, the deal would mark Meta's first transformation from compute buyer to compute seller.",
+      "key_points": [
+        "Meta与Anthropic谈判出租AI算力",
+        "两年期合同潜在价值100亿美元",
+        "Meta从算力买家转身为卖家"
+      ],
+      "key_points_en": [
+        "Meta in talks to lease AI compute to Anthropic",
+        "Potential $10B deal over two years",
+        "Meta transforms from compute buyer to seller"
+      ],
+      "url": "https://www.unite.ai/meta-weighs-leasing-ai-compute-to-rival-anthropic/"
+    }
+  ],
+  "hero": {
+    "id": "hero-2026-07-21",
+    "title": "AI基础设施战争：从芯片到操作系统，AI竞赛进入生态时代",
+    "title_en": "The AI Infrastructure War: From Chips to Operating Systems, the AI Race Enters Its Ecosystem Era",
+    "image": "https://ainewsdaily.asia/img/pool/deep_analysis-09-v5.jpg",
+    "date": "2026-07-21",
+    "source": "CNNBC / 综合编译",
+    "source_en": "CNNBC / Comprehensive",
+    "summary": "过去一周，AI竞赛的焦点从模型能力转向基础设施生态。苹果起诉OpenAI窃取芯片机密、台积电千亿美元赴美扩产、欧盟DMA打破Android AI壁垒、Apple Intelligence借阿里千问入华——AI产业正进入以芯片、操作系统、硬件和市场准入为核心的生态战争时代。",
+    "summary_en": "Over the past week, the AI race shifted focus from model capabilities to infrastructure ecosystems. Apple sues OpenAI over chip secrets, TSMC invests $100B more in US, EU DMA breaks Android AI barriers, Apple Intelligence enters China via Alibaba's Qwen — the AI industry has entered an era of ecosystem warfare centered on chips, OS, hardware, and market access.",
+    "category": "产业",
+    "category_en": "Industry Analysis"
+  }
+}

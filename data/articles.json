@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "id": "article-50",
+      "date": "2026-07-21",
+      "title": "AI基础设施战争：从芯片到操作系统，AI竞赛进入生态时代",
+      "title_en": "The AI Infrastructure War: From Chips to Operating Systems, the AI Race Enters Its Ecosystem Era",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "image": "https://ainewsdaily.asia/img/pool/deep_analysis-09-v5.jpg",
+      "summary": "2026年7月第三周，AI产业的竞争焦点发生了根本性转变。苹果起诉OpenAI窃取芯片机密、台积电千亿美元赴美扩产、欧盟DMA打破Android AI壁垒、Apple Intelligence借阿里千问入华——这些看似独立的事件，共同指向一个核心趋势：AI竞赛已从模型能力之争，转向涵盖芯片、操作系统、硬件终端和市场准入的生态战争。",
+      "summary_en": "In the third week of July 2026, the competitive focus of the AI industry underwent a fundamental shift. Apple sues OpenAI over chip secrets, TSMC invests $100B more in the US, EU DMA breaks Android's AI barriers, Apple Intelligence enters China via Alibaba's Qwen — these seemingly independent events point to a core trend: the AI race has shifted from model capability competition to an ecosystem war encompassing chips, operating systems, hardware, and market access.",
+      "read_time": 18,
+      "tags": [
+        "AI基础设施",
+        "芯片战争",
+        "生态系统",
+        "苹果诉讼",
+        "台积电",
+        "欧盟DMA",
+        "Apple Intelligence"
+      ],
+      "tags_en": [
+        "AI Infrastructure",
+        "Chip War",
+        "Ecosystem",
+        "Apple Lawsuit",
+        "TSMC",
+        "EU DMA",
+        "Apple Intelligence"
+      ]
+    },
+    {
       "id": "article-49",
       "date": "2026-07-20",
       "title": "WAIC 2026 闭幕全景——AI 正式进入「交付元年」，从参数竞赛到交付兑现的四大趋势",
