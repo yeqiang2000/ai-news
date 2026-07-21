@@ -1325,3 +1325,31 @@
 - 部署验证: 自检 3 项全绿 + curl 3 次（sitemap 200/article-48 200/Yandex 202）## 2026-07-19 (fix)
 - **修复**: news.json 第一天 date 字段缺失，导致 hero 区 JS 渲染失败
 - **修复**: news.json days[0] 缺少 hero 字段，JS 读取 days[0].hero 渲染 hero 区，补上后 hero 正常显示
+## 2026-07-19 · 修复 · hero 区空白（Bug 1: days[0].date 缺失 + Bug 2: days[0].hero 缺失）
+- Git commit `da9b3f8` + `035e529`，wrangler 部署（`cb92cc42`）
+- 生产域名 ainewsdaily.asia 验证通过
+
+## 2026-07-20 · 网站+头条 · article-49 WAIC 2026 闭幕全景 + 头条 AI创业商业化
+- **网站 article-49**：《WAIC 2026 闭幕全景——AI 正式进入「交付元年」，从参数竞赛到交付兑现的四大趋势》
+- **头条版**：《AI创业不再讲故事，开始算账了——WAIC 2026 释放的信号》
+- 消耗选题池：头条「AI创业不再讲故事，开始算账了」
+- Git commit `bf9a0e3`，wrangler 部署（`22736cd1`）
+- 自检全绿：sidebar 10 条首条=article-49 ✅ / news.json days[0].hero ✅ / sitemap 101 URL ✅
+## 2026-07-21 · 网站+微信 · article-50（奇数日，人物叙事）
+
+### 网站版：article-50 上线
+- **主题**：《AI基础设施战争：从芯片到操作系统，AI竞赛进入生态时代》
+- **切角**：苹果起诉OpenAI窃取芯片机密、台积电千亿美元赴美扩产、欧盟DMA打破Android AI壁垒、Apple Intelligence借阿里千问入华——AI竞赛从模型能力之争转向涵盖芯片、操作系统、硬件终端和市场准入的生态战争
+- **规模**：中文 18KB + 英文 20KB
+
+### 微信版：人物叙事
+- **主题**：《苹果AI的中国之路：从被拒之门外到阿里千问成为Siri的大脑》
+- 677px table 布局，含 hero img + 原创声明
+
+### 数据更新
+- news.json：5天结构（07-21~07-17），修复历史缺失的 date/hero 字段
+- used-images：+11 → 353
+- sitemap：+2 → 103 URL
+
+### 部署
+- commit `5065ad6`，pages.dev `25e8c7e1`

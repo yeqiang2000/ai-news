@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-22",
   "used_urls": [
     "https://ainewsdaily.asia/img/pool/autonomous-drone-v3.jpg",
     "https://ainewsdaily.asia/img/pool/blockchain-defi-v3.jpg",
@@ -354,7 +354,18 @@
     "https://ainewsdaily.asia/img/pool/startup-04-v5.jpg",
     "https://ainewsdaily.asia/img/pool/industry-05-v5.jpg",
     "https://ainewsdaily.asia/img/pool/energy-01-v5.jpg",
-    "https://ainewsdaily.asia/img/pool/robotics-08-v5.jpg"
+    "https://ainewsdaily.asia/img/pool/robotics-08-v5.jpg",
+    "https://ainewsdaily.asia/img/pool/network-infrastructure.jpg",
+    "https://ainewsdaily.asia/img/pool/quantum-computing.jpg",
+    "https://ainewsdaily.asia/img/pool/chip-closeup.jpg",
+    "https://ainewsdaily.asia/img/pool/startup-team.jpg",
+    "https://ainewsdaily.asia/img/pool/5g-tower.jpg",
+    "https://ainewsdaily.asia/img/pool/ai-healthcare.jpg",
+    "https://ainewsdaily.asia/img/pool/cybersecurity.jpg",
+    "https://ainewsdaily.asia/img/pool/ai-ethics.jpg",
+    "https://ainewsdaily.asia/img/pool/blockchain.jpg",
+    "https://ainewsdaily.asia/img/pool/factory-automation.jpg",
+    "https://ainewsdaily.asia/img/pool/ai-creative.jpg"
   ],
-  "total_used": 353
+  "total_used": 364
 }

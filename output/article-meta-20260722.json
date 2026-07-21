@@ -1,0 +1,32 @@
+{
+  "id": "article-51",
+  "date": "2026-07-22",
+  "title": "AI基础设施进入系统竞争时代：从芯片战争到全栈对决",
+  "title_en": "AI Infrastructure Enters the Era of Systems Competition: From Chip Wars to Full-Stack Showdown",
+  "summary": "本周，AMD发布Helios机架级AI系统、谷歌Frozen v2芯片曝光、台积电加码1000亿美元美国投资、华为Atlas 950超节点亮相WAIC——AI基础设施正从「单一芯片竞赛」全面转向「全栈系统竞争」。本文深度解析这一结构性转变，以及它对全球AI产业格局的深远影响。",
+  "summary_en": "This week, AMD launched Helios rack-scale AI system, Google's Frozen v2 chip leaked, TSMC announced $100B additional US investment, and Huawei's Atlas 950 SuperPoD debuted at WAIC — AI infrastructure is undergoing a fundamental shift from 'single chip competition' to 'full-stack systems competition.' This article provides deep analysis of this structural transformation and its profound implications for the global AI industry.",
+  "category": "deep_analysis",
+  "category_en": "Deep Analysis",
+  "image": "https://ainewsdaily.asia/img/pool/network-infrastructure.jpg",
+  "image_desc": "network fiber optics",
+  "author": "AI News Daily",
+  "author_en": "AI News Daily",
+  "tags": [
+    "AI基础设施",
+    "芯片竞争",
+    "AMD Helios",
+    "谷歌Frozen v2",
+    "台积电",
+    "华为昇腾",
+    "系统竞争"
+  ],
+  "tags_en": [
+    "AI Infrastructure",
+    "Chip Competition",
+    "AMD Helios",
+    "Google Frozen v2",
+    "TSMC",
+    "Huawei Ascend",
+    "Systems Competition"
+  ]
+}
