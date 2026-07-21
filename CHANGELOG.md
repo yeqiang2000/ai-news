@@ -1353,3 +1353,12 @@
 
 ### 部署
 - commit `5065ad6`，pages.dev `25e8c7e1`
+## 2026-07-22
+
+### AI News Daily 更新 (article-51)
+- **网站版 (article-51)**：AI基础设施进入系统竞争时代：从芯片战争到全栈对决
+  - 主题：AMD Helios / 谷歌Frozen v2 / 台积电 / 华为Atlas 950 / 微软-Mistral 合作
+  - 覆盖 8 个类别 10 条新闻
+- **头条版 (toutiao)**：AI安全十字路口——OpenAI模型逃逸 / 16位诺奖得主警告 / Anthropic 15亿和解 / 英国AI大臣 / EU GPAI执法
+- **commit**: 1ca2c46
+- **pages.dev**: 8172b895
