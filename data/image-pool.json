@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-22",
   "images": [
     {
       "id": "unsplash-1451187580459-43490279c0fa",
@@ -3580,6 +3580,816 @@
         "vr_ar"
       ],
       "desc": "Remote collaboration meeting in VR with team avatars around virtual table, professional business pho"
+    },
+    {
+      "id": "agnes-AI_applications-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI smart mirror displaying health metrics and weather in modern bathroom, reflective glass interface"
+    },
+    {
+      "id": "agnes-AI_applications-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI-powered inventory management robot in warehouse scanning shelves with laser, professional logisti"
+    },
+    {
+      "id": "agnes-AI_applications-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI fitness coach on smartwatch displaying real-time workout metrics on gym background, professional "
+    },
+    {
+      "id": "agnes-AI_applications-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI language learning app on tablet with interactive conversation practice, cozy home study corner, p"
+    },
+    {
+      "id": "agnes-AI_applications-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/AI_applications-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "AI_applications"
+      ],
+      "desc": "AI real estate property tour with virtual staging visualization on laptop, modern empty room with bl"
+    },
+    {
+      "id": "agnes-LLM-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Large language model token embedding visualization as colorful 3D particle cloud on dark monitor, pr"
+    },
+    {
+      "id": "agnes-LLM-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "AI researcher adjusting transformer model hyperparameters in Jupyter notebook, dual monitors with at"
+    },
+    {
+      "id": "agnes-LLM-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "LLM context window visualization showing token limits and memory hierarchy on developer screen, prof"
+    },
+    {
+      "id": "agnes-LLM-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "Model distillation diagram showing knowledge transfer from large to small model on whiteboard, profe"
+    },
+    {
+      "id": "agnes-LLM-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/LLM-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "LLM"
+      ],
+      "desc": "LLM benchmarking dashboard with MMLU, HumanEval, and GSM8K scores on presentation screen, profession"
+    },
+    {
+      "id": "agnes-autonomous-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Autonomous delivery robot navigating city sidewalk with pedestrians, urban street scene, professiona"
+    },
+    {
+      "id": "agnes-autonomous-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Self-driving truck on highway at dusk with lidar visualization overlay, professional autonomous vehi"
+    },
+    {
+      "id": "agnes-autonomous-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Autonomous drone swarm inspecting solar panel farm from above, clean energy infrastructure, professi"
+    },
+    {
+      "id": "agnes-autonomous-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Autonomous warehouse robot fleet coordinating movement in massive fulfillment center, professional l"
+    },
+    {
+      "id": "agnes-autonomous-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/autonomous-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "autonomous"
+      ],
+      "desc": "Autonomous farming tractor with GPS guidance system in wheat field at golden hour, professional agri"
+    },
+    {
+      "id": "agnes-blockchain-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Blockchain supply chain tracking dashboard showing product journey from factory to store, profession"
+    },
+    {
+      "id": "agnes-blockchain-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Decentralized AI model marketplace interface on laptop, with model cards and pricing, professional w"
+    },
+    {
+      "id": "agnes-blockchain-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Blockchain validator node hardware setup in home office with cooling fans and LED indicators, profes"
+    },
+    {
+      "id": "agnes-blockchain-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Smart contract auditing workstation with code review on large monitor, security-focused setup, profe"
+    },
+    {
+      "id": "agnes-blockchain-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/blockchain-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "blockchain"
+      ],
+      "desc": "Cross-chain bridge visualization showing token transfers between different blockchain networks, prof"
+    },
+    {
+      "id": "agnes-chips-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/chips-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Advanced chip packaging with stacked HBM memory on silicon interposer, macro semiconductor photograp"
+    },
+    {
+      "id": "agnes-chips-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/chips-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Chip design engineer reviewing RTL code on ultrawide monitor, EDA tools open, professional fabless p"
+    },
+    {
+      "id": "agnes-chips-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/chips-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Wafer probing station testing chips on 300mm silicon wafer in cleanroom, professional semiconductor "
+    },
+    {
+      "id": "agnes-chips-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/chips-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Chiplet architecture diagram on engineering whiteboard with interconnects marked, professional archi"
+    },
+    {
+      "id": "agnes-chips-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/chips-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "chips"
+      ],
+      "desc": "Silicon photonics chip with optical fibers connected, glowing data transmission, professional photon"
+    },
+    {
+      "id": "agnes-data_center-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Modular data center deployment in shipping containers in desert landscape, professional infrastructu"
+    },
+    {
+      "id": "agnes-data_center-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Data center cooling tower and chiller plant exterior, industrial photography"
+    },
+    {
+      "id": "agnes-data_center-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Liquid immersion cooling tank with server blades submerged in dielectric fluid, professional data ce"
+    },
+    {
+      "id": "agnes-data_center-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Data center white space with cold aisle containment and overhead cable trays, professional facility "
+    },
+    {
+      "id": "agnes-data_center-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/data_center-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "data_center"
+      ],
+      "desc": "Edge computing micro data center cabinet in 5G cell tower base, urban infrastructure, professional t"
+    },
+    {
+      "id": "agnes-deep_analysis-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Data analyst presenting findings with interactive dashboard on large touchscreen, conference room se"
+    },
+    {
+      "id": "agnes-deep_analysis-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Research team analyzing AI trend charts and market forecasts on glass wall, professional strategy ph"
+    },
+    {
+      "id": "agnes-deep_analysis-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Economic impact report visualization on tablet showing AI industry growth projections, professional "
+    },
+    {
+      "id": "agnes-deep_analysis-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Technology roadmap whiteboard with AI milestones from 2024 to 2030, strategic planning, professional"
+    },
+    {
+      "id": "agnes-deep_analysis-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/deep_analysis-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "deep_analysis"
+      ],
+      "desc": "Global AI regulation map on digital globe showing different policy approaches by country, profession"
+    },
+    {
+      "id": "agnes-education-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/education-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "AI tutoring session on tablet with student practicing math problems, home learning environment, prof"
+    },
+    {
+      "id": "agnes-education-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/education-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "Virtual reality classroom with students wearing VR headsets exploring ancient Rome, professional edt"
+    },
+    {
+      "id": "agnes-education-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/education-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "AI grading assistant dashboard on teacher's laptop showing essay analysis and feedback, professional"
+    },
+    {
+      "id": "agnes-education-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/education-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "Coding bootcamp classroom with students learning Python on laptops, instructor helping, professional"
+    },
+    {
+      "id": "agnes-education-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/education-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "education"
+      ],
+      "desc": "AI-generated personalized learning path visualization on tablet showing skill progression, professio"
+    },
+    {
+      "id": "agnes-energy-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/energy-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "AI-optimized smart grid control room with massive screen showing energy flow, professional energy in"
+    },
+    {
+      "id": "agnes-energy-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/energy-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Nuclear fusion reactor interior with plasma containment visualization, clean energy research, profes"
+    },
+    {
+      "id": "agnes-energy-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/energy-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "AI-predicted wind farm output dashboard next to actual turbine array, renewable energy analytics, pr"
+    },
+    {
+      "id": "agnes-energy-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/energy-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Hydrogen fuel cell stack with AI monitoring system in clean energy lab, professional energy storage "
+    },
+    {
+      "id": "agnes-energy-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/energy-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "energy"
+      ],
+      "desc": "Carbon capture facility with AI process control towers and piping, industrial climate tech photograp"
+    },
+    {
+      "id": "agnes-healthcare-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "AI radiology assistant highlighting suspicious regions on chest X-ray for radiologist review, profes"
+    },
+    {
+      "id": "agnes-healthcare-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Remote patient monitoring dashboard with vital signs from multiple patients, hospital command center"
+    },
+    {
+      "id": "agnes-healthcare-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "AI drug discovery visualization showing molecular docking simulation on research workstation, profes"
+    },
+    {
+      "id": "agnes-healthcare-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "Surgical robot arm with AI-assisted precision control in operating room, professional medical roboti"
+    },
+    {
+      "id": "agnes-healthcare-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/healthcare-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "healthcare"
+      ],
+      "desc": "AI mental health chatbot interface on smartphone with mood tracking and therapy exercises, professio"
+    },
+    {
+      "id": "agnes-industry-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/industry-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "AI quality inspection camera system on assembly line detecting defects in real-time, professional ma"
+    },
+    {
+      "id": "agnes-industry-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/industry-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Industrial digital twin visualization on factory floor monitor showing production line simulation, p"
+    },
+    {
+      "id": "agnes-industry-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/industry-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "AI predictive maintenance dashboard on factory tablet showing equipment health scores, professional "
+    },
+    {
+      "id": "agnes-industry-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/industry-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "Robotic arm collaborating with human worker on automotive assembly line, professional manufacturing "
+    },
+    {
+      "id": "agnes-industry-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/industry-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "industry"
+      ],
+      "desc": "AI supply chain optimization center with real-time global logistics map on wall screen, professional"
+    },
+    {
+      "id": "agnes-investment-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/investment-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "AI hedge fund trading desk with multiple monitors showing real-time market data, professional financ"
+    },
+    {
+      "id": "agnes-investment-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/investment-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "Venture capital pitch meeting with AI startup founder presenting growth metrics, professional invest"
+    },
+    {
+      "id": "agnes-investment-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/investment-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "AI portfolio optimization dashboard on tablet showing risk-return allocation, professional wealth ma"
+    },
+    {
+      "id": "agnes-investment-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/investment-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "IPO celebration screen showing AI company stock price surge on exchange floor, professional finance "
+    },
+    {
+      "id": "agnes-investment-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/investment-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "investment"
+      ],
+      "desc": "AI real estate investment analysis platform with property valuation heatmap, professional proptech p"
+    },
+    {
+      "id": "agnes-network-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/network-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "5G small cell deployment on urban street lamp post, smart city infrastructure, professional telecom "
+    },
+    {
+      "id": "agnes-network-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/network-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Satellite internet ground station antenna array at sunset, professional space communications photo"
+    },
+    {
+      "id": "agnes-network-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/network-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Network operations center with massive wall display showing global traffic, professional NOC photo"
+    },
+    {
+      "id": "agnes-network-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/network-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Fiber optic cable laying ship at sea with submarine cable deployment, professional undersea cable ph"
+    },
+    {
+      "id": "agnes-network-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/network-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "network"
+      ],
+      "desc": "Mesh network router setup in smart home with connected devices shown on app, professional IoT photo"
+    },
+    {
+      "id": "agnes-open_source-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Open source AI model card on GitHub repository page on laptop screen, professional open source photo"
+    },
+    {
+      "id": "agnes-open_source-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Hugging Face model hub interface showing trending models and downloads, professional ML community ph"
+    },
+    {
+      "id": "agnes-open_source-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Open source AI conference with developers collaborating on laptops in hackathon, professional commun"
+    },
+    {
+      "id": "agnes-open_source-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Linux terminal with AI framework installation and build process, developer workstation, professional"
+    },
+    {
+      "id": "agnes-open_source-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/open_source-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "open_source"
+      ],
+      "desc": "Open source AI model fine-tuning workshop with contributors reviewing pull requests, professional co"
+    },
+    {
+      "id": "agnes-policy-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/policy-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "AI regulatory compliance document on lawyer desk with highlighted sections, professional legal photo"
+    },
+    {
+      "id": "agnes-policy-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/policy-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Government hearing on AI safety with expert witnesses testifying, professional policy photo"
+    },
+    {
+      "id": "agnes-policy-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/policy-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "International AI governance summit stage with flags of multiple nations, professional diplomacy phot"
+    },
+    {
+      "id": "agnes-policy-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/policy-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "AI ethics review board meeting with diverse committee members reviewing documents, professional gove"
+    },
+    {
+      "id": "agnes-policy-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/policy-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "policy"
+      ],
+      "desc": "Data privacy dashboard on smartphone showing app permissions and data access controls, professional "
+    },
+    {
+      "id": "agnes-robotics-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Humanoid robot walking on treadmill in bipedal locomotion lab, professional robotics research photo"
+    },
+    {
+      "id": "agnes-robotics-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Soft robotic gripper handling delicate objects in food processing facility, professional robotics ph"
+    },
+    {
+      "id": "agnes-robotics-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Robot swarm sorting packages in high-speed distribution center, professional logistics robotics phot"
+    },
+    {
+      "id": "agnes-robotics-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Underwater ROV exploring coral reef with robotic arm collecting samples, professional marine robotic"
+    },
+    {
+      "id": "agnes-robotics-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/robotics-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "robotics"
+      ],
+      "desc": "Exoskeleton suit assisting warehouse worker in heavy lifting task, professional industrial robotics "
+    },
+    {
+      "id": "agnes-startup-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/startup-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "AI startup team brainstorming in modern glass-walled office with whiteboard, professional startup ph"
+    },
+    {
+      "id": "agnes-startup-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/startup-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Tech accelerator demo day presentation with founder on stage and audience, professional startup even"
+    },
+    {
+      "id": "agnes-startup-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/startup-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "AI startup office with bean bags, standing desks, and collaborative workspace, professional startup "
+    },
+    {
+      "id": "agnes-startup-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/startup-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "Founder meeting with angel investor in trendy coffee shop with laptops and pitch deck, professional "
+    },
+    {
+      "id": "agnes-startup-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/startup-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "startup"
+      ],
+      "desc": "AI product launch event with press and early adopters trying the product, professional launch photo"
+    },
+    {
+      "id": "agnes-vr_ar-11-v6",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-11-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "Augmented reality assembly instructions overlay on mechanical parts, professional industrial AR phot"
+    },
+    {
+      "id": "agnes-vr_ar-12-v6",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-12-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "VR architectural walkthrough with client reviewing building design in headset, professional AEC tech"
+    },
+    {
+      "id": "agnes-vr_ar-13-v6",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-13-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "Mixed reality design studio with holographic 3D models floating above desk, professional design phot"
+    },
+    {
+      "id": "agnes-vr_ar-14-v6",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-14-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "AR navigation glasses showing turn-by-turn directions on city street, professional wearable tech pho"
+    },
+    {
+      "id": "agnes-vr_ar-15-v6",
+      "url": "https://ainewsdaily.asia/img/pool/vr_ar-15-v6.jpg",
+      "source": "agnes-image-2.1-flash",
+      "category": [
+        "vr_ar"
+      ],
+      "desc": "VR training simulation for emergency response with firefighters in headsets, professional training p"
     }
   ]
 }
