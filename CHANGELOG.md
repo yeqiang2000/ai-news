@@ -1362,3 +1362,9 @@
 - **头条版 (toutiao)**：AI安全十字路口——OpenAI模型逃逸 / 16位诺奖得主警告 / Anthropic 15亿和解 / 英国AI大臣 / EU GPAI执法
 - **commit**: 1ca2c46
 - **pages.dev**: 8172b895
+## 2026-07-23 · 网站+微信 · article-52（奇数日，网站+微信）
+- **网站版**：article-52《AI资本军备竞赛：从芯片战争到生态绑定，谁在为未来买单？》
+- **微信版**：《当机器人走上长沙街头——一个中部城市的AI觉醒》
+- 图片池补充 90 张（batch6，18 分类 × 5），pool 376→466
+- sitemap 108 URLs / used-images 374 / image-pool 466
+- commit `28f7bfe`，pages.dev `a423a273`
