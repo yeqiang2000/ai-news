@@ -1,6 +1,66 @@
 {
   "articles": [
     {
+      "date": "2026-07-24",
+      "title": "AI智能体从「对话」到「干活」：当智能体经济元年遇上标准化浪潮",
+      "title_en": "AI Agents from 'Chat' to 'Work': When the Agent Economy Meets the Standardization Wave",
+      "category": "AI_applications",
+      "category_en": "AI Applications",
+      "image": "https://ainewsdaily.asia/img/pool/ai-customer-service.jpg",
+      "summary": "7月21日至23日，OpenAI ChatGPT Work中小企业版全量开放周活破千万、IETF维也纳会议加速推进Agent通信协议标准化、WAIC发布智能体互信互联全球倡议——三件大事在72小时内密集发生，宣告AI智能体正从「能对话」走向「能干活」，而标准化浪潮正在为这场变革铺设基础设施。本文深度解析智能体经济的临界点时刻。",
+      "summary_en": "From July 21-23, three major events unfolded within 72 hours: OpenAI ChatGPT Work for SMBs hit 10M weekly active users, IETF 126 accelerated agent communication protocol standardization, and WAIC launched the Global Agent Interconnection Initiative. These signal AI agents transitioning from 'can chat' to 'can work,' with standardization building the infrastructure for this transformation. This article provides deep analysis of the agent economy's tipping point.",
+      "read_time": 12,
+      "tags": [
+        "AI智能体",
+        "智能体经济",
+        "OpenAI Work",
+        "IETF",
+        "Agent互联标准",
+        "标准化",
+        "中小企业AI"
+      ],
+      "tags_en": [
+        "AI Agent",
+        "Agent Economy",
+        "OpenAI Work",
+        "IETF",
+        "Agent Interconnection",
+        "Standardization",
+        "SMB AI"
+      ],
+      "article_id": "article-53"
+    },
+    {
+      "article_id": "article-53",
+      "date": "2026-07-24",
+      "title": "AI智能体从「对话」到「干活」：当智能体经济元年遇上标准化浪潮",
+      "title_en": "AI Agents from 'Chat' to 'Work': When the Agent Economy Meets the Standardization Wave",
+      "category": "AI_applications",
+      "category_en": "AI Applications",
+      "image": "https://ainewsdaily.asia/img/pool/ai-customer-service.jpg",
+      "summary": "7月21日至23日，OpenAI ChatGPT Work中小企业版全量开放周活破千万、IETF维也纳会议加速推进Agent通信协议标准化、WAIC发布智能体互信互联全球倡议——三件大事在72小时内密集发生，宣告AI智能体正从「能对话」走向「能干活」，而标准化浪潮正在为这场变革铺设基础设施。本文深度解析智能体经济的临界点时刻。",
+      "summary_en": "From July 21-23, three major events unfolded within 72 hours: OpenAI ChatGPT Work for SMBs hit 10M weekly active users, IETF 126 accelerated agent communication protocol standardization, and WAIC launched the Global Agent Interconnection Initiative. These signal AI agents transitioning from 'can chat' to 'can work,' with standardization building the infrastructure for this transformation. This article provides deep analysis of the agent economy's tipping point.",
+      "read_time": 12,
+      "tags": [
+        "AI智能体",
+        "智能体经济",
+        "OpenAI Work",
+        "IETF",
+        "Agent互联标准",
+        "标准化",
+        "中小企业AI"
+      ],
+      "tags_en": [
+        "AI Agent",
+        "Agent Economy",
+        "OpenAI Work",
+        "IETF",
+        "Agent Interconnection",
+        "Standardization",
+        "SMB AI"
+      ]
+    },
+    {
       "id": "article-52",
       "date": "2026-07-23",
       "title": "AI资本军备竞赛：从芯片战争到生态绑定，谁在为未来买单？",
@@ -858,5 +918,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-07-20"
+  "last_updated": "2026-07-24"
 }

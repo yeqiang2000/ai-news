@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Agents from 'Chat' to 'Work': When the Agent Economy Meets the Standardization Wave | AI News Daily</title>
+<style>
+*, *::before, *::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#f5f7fa;color:#1a1a2e;line-height:1.8;font-size:16px}
+.article-wrapper{max-width:860px;margin:0 auto;padding:0}
+.article-header{background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);padding:60px 40px 50px;position:relative;overflow:hidden}
+.article-header::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="30" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="20" r="1.5" fill="rgba(255,255,255,0.08)"/><circle cx="50" cy="70" r="1" fill="rgba(255,255,255,0.06)"/><circle cx="90" cy="80" r="1.2" fill="rgba(255,255,255,0.07)"/></svg>');opacity:0.5}
+.article-header .header-content{position:relative;z-index:1}
+.article-category{display:inline-block;background:rgba(255,255,255,0.15);color:#a8b2ff;font-size:13px;padding:4px 14px;border-radius:20px;letter-spacing:1px;margin-bottom:18px;border:1px solid rgba(168,178,255,0.3)}
+.article-header h1{color:#fff;font-size:32px;font-weight:700;line-height:1.4;margin-bottom:16px;letter-spacing:-0.5px}
+.article-header .subtitle{color:rgba(255,255,255,0.7);font-size:16px;line-height:1.6;max-width:700px}
+.article-meta{display:flex;align-items:center;gap:16px;margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.1)}
+.article-meta .author-icon{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,#667eea,#764ba2);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:16px}
+.article-meta .meta-info{color:rgba(255,255,255,0.6);font-size:13px}
+.article-meta .meta-info .name{color:rgba(255,255,255,0.9);font-weight:600}
+.article-body{padding:40px;background:#fff}
+.article-body h2{font-size:24px;font-weight:700;margin:40px 0 18px;color:#1a1a2e;padding-bottom:10px;border-bottom:2px solid #667eea;position:relative}
+.article-body h2::after{content:'';position:absolute;bottom:-2px;left:0;width:60px;height:2px;background:#764ba2}
+.article-body h3{font-size:19px;font-weight:600;margin:30px 0 12px;color:#2d2d5e}
+.article-body p{font-size:16px;line-height:1.9;margin-bottom:18px;color:#333}
+.article-body .highlight-box{background:linear-gradient(135deg,#f0f4ff,#e8eeff);border-left:4px solid #667eea;border-radius:0 8px 8px 0;padding:20px 24px;margin:24px 0}
+.article-body .highlight-box p{font-size:15px;color:#2d2d5e;margin-bottom:0}
+.article-body .highlight-box .stat{font-size:28px;font-weight:700;color:#667eea;display:block;margin-bottom:4px}
+.article-body .data-card{background:#f8f9fc;border-radius:10px;padding:24px;margin:24px 0;border:1px solid #e8ecf4}
+.article-body .data-card .card-title{font-size:14px;font-weight:600;color:#667eea;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+.article-body .data-card .card-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px dashed #e8ecf4}
+.article-body .data-card .card-row:last-child{border-bottom:none}
+.article-body .data-card .card-row .label{color:#666;font-size:14px}
+.article-body .data-card .card-row .value{font-weight:600;color:#1a1a2e;font-size:14px}
+.article-body .insight-callout{background:linear-gradient(135deg,#1a1a2e,#302b63);color:#fff;border-radius:10px;padding:24px 28px;margin:24px 0}
+.article-body .insight-callout p{color:rgba(255,255,255,0.9);font-size:15px;margin-bottom:0}
+.article-body .insight-callout .callout-label{display:inline-block;background:rgba(255,255,255,0.15);color:#a8b2ff;font-size:11px;padding:3px 10px;border-radius:12px;margin-bottom:10px;letter-spacing:1px}
+.article-body ul, .article-body ol{padding-left:24px;margin-bottom:18px}
+.article-body li{font-size:16px;line-height:1.8;margin-bottom:8px;color:#333}
+.article-body strong{color:#1a1a2e}
+.article-body a{color:#667eea;text-decoration:none;border-bottom:1px solid rgba(102,126,234,0.3)}
+.article-body a:hover{border-bottom-color:#667eea}
+.article-footer{background:#f5f7fa;padding:32px 40px;border-top:1px solid #e8ecf4}
+.article-footer .footer-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.article-footer .footer-tags span{background:#e8ecf4;color:#555;font-size:12px;padding:4px 12px;border-radius:16px}
+.article-footer .footer-note{color:#999;font-size:13px;line-height:1.6}
+.article-footer .footer-note a{color:#667eea;text-decoration:none}
+@media(max-width:640px){
+.article-header{padding:36px 20px 30px}.article-header h1{font-size:24px}
+.article-body{padding:24px 16px}.article-body h2{font-size:20px}
+.article-footer{padding:24px 16px}
+}
+</style>
+</head>
+<body>
+<div class="article-wrapper">
+<header class="article-header">
+<div class="header-content">
+<span class="article-category">AI Applications</span>
+<h1>AI Agents from 'Chat' to 'Work': When the Agent Economy Meets the Standardization Wave</h1>
+<p class="subtitle">OpenAI Work hits 10M weekly active users, IETF Vienna pushes agent protocol standardization, WAIC launches global interconnection initiative — three events in 72 hours signal AI agents crossing the threshold from 'conversation tool' to 'digital employee.'</p>
+<div class="article-meta">
+<div class="author-icon">AI</div>
+<div class="meta-info"><span class="name">AI News Daily</span> · July 24, 2026 · 12 min read</div>
+</div>
+</div>
+</header>
+<div class="article-body">
+
+<h2>Three Events, 72 Hours</h2>
+
+<p>Between July 21 and 23, 2026, the AI industry experienced what may later be defined as the tipping point of the 'Agent Economy' — all within 72 hours.</p>
+
+<p>On July 21, OpenAI fully launched ChatGPT Work for SMBs, featuring dual-agent engines (conversation + Codex), with weekly active users surpassing <strong>10 million</strong> — nearly doubling since early July. OpenAI also partnered with Booking.com to launch the SME AI Accelerator, with 78% of participants building a functional AI workflow in a single guided session.</p>
+
+<p>On July 22, IETF 126 in Vienna reached its critical agenda — the agentproto BoF formally discussed whether to charter a Working Group for AI agent communication standardization. Five competing protocols — Anthropic's MCP, Google's A2A, Cisco's Agntcy, and others — competed on the same stage. Vint Cerf warned pre-meeting that machine-speed AI cannot tolerate the semantic ambiguity of natural language.</p>
+
+<p>On July 23, the WAIC-launched Global Agent Interconnection Initiative continued to gain momentum, built on 7 national standards released in June 2026, with 18 pilot entities signing on for the Agent Internet verification project.</p>
+
+<p>Three seemingly independent events point in the same direction: AI agents are transitioning from 'can chat' to 'can work,' and the standardization wave is building the infrastructure for this transformation.</p>
+
+<div class="highlight-box">
+<p><span class="stat">10M</span>ChatGPT Work weekly active users, nearly doubled</p>
+<p><span class="stat">78%</span>built working AI workflows in one guided session</p>
+<p><span class="stat">5</span>competing agent protocols vie for IETF standardization</p>
+</div>
+
+<h2>From 'Q&A Machine' to 'Digital Employee'</h2>
+
+<p>ChatGPT Work represents a fundamental restructuring of the AI product paradigm.</p>
+
+<p>For the past two years, ChatGPT's core interaction was 'Q&A' — user inputs a prompt, AI generates a response. This works well for information retrieval and content creation, but cannot complete end-to-end business workflows. Work's breakthrough: upgrading AI from 'passive response' to 'proactive execution.'</p>
+
+<p>Specifically, ChatGPT Work autonomously completes multi-step tasks: connecting to enterprise files and applications, remembering how users work, decomposing complex goals, and orchestrating execution flows. An e-commerce store owner can send a voice note, and Work will automatically format it into marketing copy, schedule posts, and generate data reports — all without step-by-step human instructions.</p>
+
+<p>The deeper signal is in the user demographic. OpenAI is targeting <strong>SMBs</strong> — a group historically excluded from AI commercialization benefits. Large enterprises have dedicated AI teams and custom deployment budgets; SMBs often have 1-10 person teams with no specialized technical talent. ChatGPT Work's 'zero-deployment, pay-as-you-go' model makes AI agents a 'digital employee' affordable for SMBs for the first time.</p>
+
+<p>OpenAI's data validates the demand: 78% of participants built a working workflow after one session, 42% saved over 5 hours per week. These numbers suggest SMBs' AI challenge isn't 'whether to use' but 'how to use' — once the learning barrier is crossed, value conversion is nearly immediate.</p>
+
+<div class="data-card">
+<div class="card-title">ChatGPT Work for SMBs Key Metrics</div>
+<div class="card-row"><span class="label">Weekly Active Users</span><span class="value">10M+ (doubled)</span></div>
+<div class="card-row"><span class="label">One-Session Workflow Build</span><span class="value">78%</span></div>
+<div class="card-row"><span class="label">Weekly Time Saved</span><span class="value">5hrs+ (42% of users)</span></div>
+<div class="card-row"><span class="label">Partner Ecosystem</span><span class="value">Shopify, Dropbox, Intuit, etc.</span></div>
+<div class="card-row"><span class="label">Driving Model</span><span class="value">GPT-5.6</span></div>
+</div>
+
+<h2>Standardization: The 'Highway' for the Agent Economy</h2>
+
+<p>If ChatGPT Work solves 'what agents can do,' then IETF and WAIC are solving 'how agents collaborate' — the latter may be more fundamental.</p>
+
+<p>The current AI agent market faces a structural困境: every vendor builds their own agent ecosystem, but agents from different brands cannot communicate. Anthropic's Claude agents cannot call Google's tools, OpenAI's Codex cannot communicate with Cisco's Agent framework — reminiscent of the early internet's封闭 networks before TCP/IP unified them.</p>
+
+<p>IETF 126 aims to break this impasse. The agentproto BoF's core question: should a formal IETF Working Group be established to set standards for cross-organizational AI agent communication? If successful, this would be an internet infrastructure standard on par with HTTP and TCP/IP — except the communicating parties are AI agents, not browsers and servers.</p>
+
+<p>Meanwhile, China's WAIC-launched Global Agent Interconnection Initiative offers a different path. Unlike IETF's 'bottom-up' approach, China's path is 'standards-first' — 7 national standards released in June 2026 covering agent identity codes, identity management, description and discovery, and interaction protocols. The 18 pilot entities of the Agent Internet verification project are turning these standards into operational systems.</p>
+
+<div class="insight-callout">
+<div class="callout-label">Deep Insight</div>
+<p>The IETF and China approaches are complementary, not opposing. IETF's strength is global consensus and cross-organizational interoperability; China's advantage is standards implementation speed and scale — 18 pilot entities represent a complete industrial chain. Both ultimately target the same goal: making AI agents as universally interconnected as today's web pages.</p>
+</div>
+
+<h2>IDC's DAA Metric: The 'GDP' of the Agent Economy</h2>
+
+<p>The rise of the agent economy has also spawned a new measurement metric. IDC's July 'DAA Research Report' proposed the concept of 'Daily Active Agents,' projecting <strong>79.4 million</strong> active agents globally in 2026, growing to <strong>2.216 billion</strong> by 2030.</p>
+
+<p>The DAA metric's significance: it shifts the AI industry's evaluation logic from 'parameter count' and 'token consumption' to 'actual value creation.' An agent that handles customer inquiries, generates reports, and orchestrates workflows daily is creating real economic value. This fundamentally differs from the past narrative of 'releasing a billion-parameter model.'</p>
+
+<p>Gartner's prediction aligns: by end of 2026, 40% of global enterprise applications will embed task-executing AI agents. This means agents will evolve from 'standalone tools' to 'standard enterprise infrastructure components' — like databases and cloud services today.</p>
+
+<h2>The Open Source Piece: Poolside Laguna S 2.1</h2>
+
+<p>In the agent economy puzzle, open source is an indispensable piece. On July 22, Poolside's open-sourced Laguna S 2.1 model offers an interesting perspective.</p>
+
+<p>Laguna S 2.1 uses MoE architecture with 118B total parameters but only 8B active per token, supporting 1M context. It can run on a single NVIDIA DGX Spark, providing SMB teams with a privately deployable coding agent foundation model. Beyond Cursor and GitHub Copilot, Laguna S 2.1 represents an 'open source + private deployment' path.</p>
+
+<p>This complements ChatGPT Work's 'cloud agent' model: cloud agents suit standardized, ready-to-use scenarios; open-source agents suit enterprises with higher data privacy and customization requirements. Both models together form the supply side of the agent economy.</p>
+
+<h2>Challenges and Concerns</h2>
+
+<p>The agent economy's explosion comes with unavoidable challenges.</p>
+
+<p><strong>First, security and trust.</strong> When agents have autonomous task execution permissions — reading/writing files, sending emails, operating enterprise systems — how to ensure they don't err or get exploited? Anthropic's Fable 5 is too restrictive, frequently rejecting legitimate requests; being too permissive invites risk. The 'golden safety midpoint' remains undefined.</p>
+
+<p><strong>Second, the standardization window.</strong> IETF's standardization process typically takes 2-3 years, while the agent market evolves on a 'weekly' basis. Can standards development keep pace with technology iteration? Vint Cerf's warning — 'machine-speed AI needs protocol-level support' — suggests standardization lag could bottleneck the agent economy.</p>
+
+<p><strong>Third, the 'data flywheel' effect.</strong> Agents with more users and data will evolve faster, potentially creating new monopolies. While SMBs enjoy agent benefits, will they become more data-dependent on platforms? This is a governance issue the agent economy must address.</p>
+
+<h2>The Tipping Point Has Arrived</h2>
+
+<p>Looking back at this July 2026 week, the three concurrent events are no coincidence.</p>
+
+<p>OpenAI Work proved agent market demand is real — not 'might be useful in the future,' but 'saves 5 hours today.' IETF and WAIC proved agent standardization is no longer optional but infrastructure-essential. IDC and Gartner's data provide quantified timelines: agents will evolve from 'novelty' to 'necessity.'</p>
+
+<p>If we analogize AI agents to smartphones, July 2026 may be the agent economy's 'iPhone 4 moment' — technology maturation, market validation, ecosystem ignition, and standard foundation, all four conditions simultaneously met. The next questions: who becomes the agent economy's App Store? Who becomes the next runaway 'agent virus'?</p>
+
+<p>The answers are being written rapidly.</p>
+
+</div>
+<footer class="article-footer">
+<div class="footer-tags">
+<span>AI Agent</span><span>Agent Economy</span><span>OpenAI Work</span>
+<span>IETF</span><span>Agent Interconnection</span><span>Standardization</span><span>SMB AI</span>
+</div>
+<div class="footer-note">
+© 2026 AI News Daily. Based on publicly available information. Sources include OpenAI Blog, IETF Datatracker, IDC DAA Report, Gartner forecasts, and other public sources.
+</div>
+</footer>
+</div>
+</body>
+</html>
+PYEOF
