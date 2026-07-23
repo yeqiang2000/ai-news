@@ -97,3 +97,8 @@
 - **使用日期**：2026-07-01
 - **实际产出**：`toutiao/toutiao-2026-07-01.md`《5 天 1 万 Star，3B 模型反超 DeepSeek —— 百度 Unlimited OCR 把开源 OCR 重新做了一遍》
 - **验证项落地**：模型名 baidu/Unlimited-OCR / GitHub github.com/baidu/Unlimited-OCR / 6-22 发布 6-25 开源 / 5 天破万 Star / OmniDocBench v1.6 综合 93.92% SOTA / 长输出比 DeepSeek OCR 快 35%
+### 2026-07-24 头条版 · 谷歌 Gemini 3.5 Flash-Lite AI推理成本再降（选题池预定消耗）
+- **来源时间**：2026-07-23 系统主动推送 | 主人 2026-07-23 18:39 手动指定进头条池
+- **使用日期**：2026-07-24
+- **实际产出**：`toutiao/toutiao-2026-07-24.md`《谷歌 Gemini 3.5 Flash-Lite 发布：AI推理成本进入 $0.3/百万token时代》
+- **切角**：从$0.3/百万token切入，分析谷歌分层定价矩阵、推理成本断崖式下跌、行业影响

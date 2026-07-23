@@ -1367,4 +1367,16 @@
 - **微信版**：《当机器人走上长沙街头——一个中部城市的AI觉醒》
 - 图片池补充 90 张（batch6，18 分类 × 5），pool 376→466
 - sitemap 108 URLs / used-images 374 / image-pool 466
-- commit `28f7bfe`，pages.dev `a423a273`
+- commit `28f7bfe`，pages.dev `a423a273`## 2026-07-24 · 网站+头条 · article-53（偶数日，头条版）
+
+### 网站版（article-53）
+- **标题**：AI智能体从「对话」到「干活」：当智能体经济元年遇上标准化浪潮
+- **主题**：AI智能体经济与标准化——OpenAI ChatGPT Work中小企业版全量开放周活破千万、IETF维也纳加速Agent通信协议标准化、WAIC智能体互信互联全球倡议
+- **hero**：AMD「2nm」突袭：Venice登顶、Helios出鞘、AI基础设施三强争霸
+- **sitemap新增**：+2 URLs（article-53 zh+en），总数 108→110
+- **commit**：da23921 | pages.dev：a3abbc8c
+
+### 头条版
+- **标题**：谷歌Gemini 3.5 Flash-Lite「AI推理成本再降」
+- **切角**：输入$0.3/百万token、输出$2.5/百万token，谷歌分层定价矩阵分析
+- **预定选题消耗**：主人 2026-07-23 手动指定进头条池，本次消化
