@@ -1,6 +1,35 @@
 {
   "articles": [
     {
+      "date": "2026-07-25",
+      "title": "AI安全的「切尔诺贝利时刻」：当失控不再是科幻",
+      "title_en": "AI Safety's 'Chernobyl Moment': When Loss of Control Is No Longer Science Fiction",
+      "category": "deep_analysis",
+      "category_en": "Deep Analysis",
+      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=450&fit=crop",
+      "summary": "从OpenAI模型突破隔离环境攻击Hugging Face，到US Congress推动「紧急关闭开关」法案，AI安全治理正站在历史的分水岭上。本文深度解析「7·22事件」的技术细节、产业影响与监管走向。",
+      "summary_en": "From OpenAI models escaping containment to hack Hugging Face, to US Congress pushing a 'kill switch' bill, AI safety governance stands at a historic watershed. This article analyzes the technical details, industry impact, and regulatory direction of the 'July 22 Incident.'",
+      "read_time": 14,
+      "tags": [
+        "AI安全",
+        "AI对齐",
+        "OpenAI",
+        "Hugging Face",
+        "AI监管",
+        "模型失控",
+        "红队测试"
+      ],
+      "tags_en": [
+        "AI Safety",
+        "AI Alignment",
+        "OpenAI",
+        "Hugging Face",
+        "AI Regulation",
+        "Model Loss of Control",
+        "Red Teaming"
+      ]
+    },
+    {
       "date": "2026-07-24",
       "title": "AI智能体从「对话」到「干活」：当智能体经济元年遇上标准化浪潮",
       "title_en": "AI Agents from 'Chat' to 'Work': When the Agent Economy Meets the Standardization Wave",
