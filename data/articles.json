@@ -1,6 +1,31 @@
 {
   "articles": [
     {
+      "date": "2026-07-26",
+      "title": "硅谷分裂：AI开源与闭源的路线之争如何重塑全球格局",
+      "title_en": "Silicon Valley Divided: How the Open vs Closed Source AI Battle is Reshaping the Global Landscape",
+      "category": "产业",
+      "category_en": "Industry Analysis",
+      "image": "https://ainewsdaily.asia/img/pool/deep_analysis-11-v6.jpg",
+      "summary": "围绕人工智能应该走开源还是闭源路线，硅谷已形成两大阵营。本文深度剖析这场路线之争背后的商业逻辑、技术哲学与地缘政治博弈。",
+      "summary_en": "A deep dive into the Silicon Valley divide over open vs closed source AI, analyzing the business logic, technical philosophy, and geopolitical dynamics behind the battle.",
+      "read_time": "8分钟",
+      "tags": [
+        "AI",
+        "开源",
+        "闭源",
+        "硅谷",
+        "产业分析"
+      ],
+      "tags_en": [
+        "AI",
+        "Open Source",
+        "Closed Source",
+        "Silicon Valley",
+        "Industry Analysis"
+      ]
+    },
+    {
       "date": "2026-07-25",
       "title": "AI安全的「切尔诺贝利时刻」：当失控不再是科幻",
       "title_en": "AI Safety's 'Chernobyl Moment': When Loss of Control Is No Longer Science Fiction",
