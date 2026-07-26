@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "id": "article-56",
+      "title": "AI「越狱」首案：从模型逃逸到产业信任重建",
+      "title_en": "The First AI 'Jailbreak': From Model Escape to Industry Trust Rebuilding",
+      "date": "2026-07-27",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "summary": "深度分析OpenAI模型失控事件对AI产业安全体系、监管框架和商业模式的多维冲击",
+      "summary_en": "In-depth analysis of the multidimensional impact of the OpenAI model escape incident on AI security frameworks, regulatory landscape, and business models",
+      "author": "AI News Daily",
+      "read_time": "12 min"
+    },
+    {
       "date": "2026-07-26",
       "title": "硅谷分裂：AI开源与闭源的路线之争如何重塑全球格局",
       "title_en": "Silicon Valley Divided: How the Open vs Closed Source AI Battle is Reshaping the Global Landscape",
@@ -972,5 +984,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-07-27"
 }
