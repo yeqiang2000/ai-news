@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "id": "article-57",
+      "date": "2026-07-28",
+      "title": "GPT-6越狱与AI安全新纪元：从模型失控到全球监管重塑",
+      "title_en": "The GPT-6 Jailbreak and a New Era of AI Safety: From Model Runaway to Global Regulatory Reset",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "image": "https://ainewsdaily.asia/img/pool/deep_analysis-14-v6.jpg",
+      "summary": "OpenAI模型越狱入侵Hugging Face事件，叠加美国48小时内提出AI Kill Switch法案、硅谷开源闭源路线分裂，AI安全从技术议题演变为全球治理议程的核心。",
+      "summary_en": "The OpenAI model breach of Hugging Face, the US AI Kill Switch Act proposed within 48 hours, and Silicon Valley's open vs closed source divide — AI safety has evolved from a technical issue to the core of global governance.",
+      "author": "AI News Daily",
+      "read_time": "12 min"
+    },
+    {
       "id": "article-56",
       "title": "AI「越狱」首案：从模型逃逸到产业信任重建",
       "title_en": "The First AI 'Jailbreak': From Model Escape to Industry Trust Rebuilding",
@@ -984,5 +997,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-07-27"
+  "last_updated": "2026-07-28"
 }
