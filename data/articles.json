@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "article-58",
+      "date": "2026-07-29",
+      "title": "零一万物退出“大模型六小虎”：中国AI创业资本逻辑转向盈利验证",
+      "title_en": "01.AI Exits the 'Big Model Six Tigers': China's AI Startup Capital Logic Shifts to Profitability Validation",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "image": "https://ainewsdaily.asia/img/pool/deep-analysis-forecast.jpg",
+      "summary": "2026年7月，李开复创办的零一万物正式宣布退出“大模型六小虎”阵营，全面对标Palantir转向ToB业务。这一标志性事件折射出中国大模型创业资本逻辑的深刻转变：从“算力补贴换用户规模”转向“商业化落地与盈利验证”。结合苹果市值突破5万亿美元背后的“不烧钱”克制策略，以及全球AI巨头对商业化PMF的追求，本文深度剖析中国AI产业在下半场的生存法则与破局之道。",
+      "summary_en": "In July 2026, Kai-Fu Lee's 01.AI officially announced its exit from the 'Big Model Six Tigers' camp, fully benchmarking Palantir and shifting towards B2B business. This landmark event reflects a profound shift in the capital logic of China's large model startups: from 'subsidizing computing power for user scale' to 'commercialization and profitability validation.' Combined with Apple's 'non-burning' restraint strategy behind its $5 trillion market cap, and the global AI giants' pursuit of commercialized PMF, this article deeply analyzes the survival rules and breakthrough paths of China's AI industry in the second half of the game.",
+      "author": "AI News Daily",
+      "read_time": "5 min",
+      "tags": [
+        "零一万物",
+        "大模型六小虎",
+        "Palantir",
+        "AI商业化",
+        "资本逻辑",
+        "ToB转型",
+        "苹果市值",
+        "智能体"
+      ],
+      "tags_en": [
+        "01.AI",
+        "Big Model Six Tigers",
+        "Palantir",
+        "AI Commercialization",
+        "Capital Logic",
+        "B2B Transformation",
+        "Apple Market Cap",
+        "AI Agent"
+      ]
+    },
+    {
       "id": "article-57",
       "date": "2026-07-28",
       "title": "GPT-6越狱与AI安全新纪元：从模型失控到全球监管重塑",
@@ -997,5 +1030,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-07-28"
+  "last_updated": "2026-07-29"
 }
