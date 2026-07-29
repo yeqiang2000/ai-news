@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "days": [
+    {
+      "date": "2026-07-29",
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-07-29",
+          "category": "深度解读",
+          "category_en": "Deep Analysis",
+          "title": "零一万物退出“大模型六小虎”：中国AI创业资本逻辑转向盈利验证",
+          "title_en": "01.AI Exits the 'Big Model Six Tigers': China's AI Startup Capital Logic Shifts to Profitability Validation",
+          "summary": "2026年7月，李开复创办的零一万物正式宣布退出“大模型六小虎”阵营，全面对标Palantir转向ToB业务。这一标志性事件折射出中国大模型创业资本逻辑的深刻转变：从“算力补贴换用户规模”转向“商业化落地与盈利验证”。结合苹果市值突破5万亿美元背后的“不烧钱”克制策略，以及全球AI巨头对商业化PMF的追求，本文深度剖析中国AI产业在下半场的生存法则与破局之道。",
+          "summary_en": "In July 2026, Kai-Fu Lee's 01.AI officially announced its exit from the 'Big Model Six Tigers' camp, fully benchmarking Palantir and shifting towards B2B business. This landmark event reflects a profound shift in the capital logic of China's large model startups: from 'subsidizing computing power for user scale' to 'commercialization and profitability validation.' Combined with Apple's 'non-burning' restraint strategy behind its $5 trillion market cap, and the global AI giants' pursuit of commercialized PMF, this article deeply analyzes the survival rules and breakthrough paths of China's AI industry in the second half of the game.",
+          "source": "AI News Daily",
+          "source_en": "AI News Daily",
+          "image": "https://ainewsdaily.asia/img/pool/deep-analysis-forecast.jpg",
+          "content": "2026年7月，李开复创办的零一万物正式宣布退出“大模型六小虎”阵营，全面对标Palantir转向ToB业务。这一标志性事件折射出中国大模型创业资本逻辑的深刻转变：从“算力补贴换用户规模”转向“商业化落地与盈利验证”。结合苹果市值突破5万亿美元背后的“不烧钱”克制策略，以及全球AI巨头对商业化PMF的追求，本文深度剖析中国AI产业在下半场的生存法则与破局之道。",
+          "content_en": "In July 2026, Kai-Fu Lee's 01.AI officially announced its exit from the 'Big Model Six Tigers' camp, fully benchmarking Palantir and shifting towards B2B business. This landmark event reflects a profound shift in the capital logic of China's large model startups: from 'subsidizing computing power for user scale' to 'commercialization and profitability validation.' Combined with Apple's 'non-burning' restraint strategy behind its $5 trillion market cap, and the global AI giants' pursuit of commercialized PMF, this article deeply analyzes the survival rules and breakthrough paths of China's AI industry in the second half of the game.",
+          "key_points": [
+            "零一万物",
+            "大模型六小虎",
+            "Palantir",
+            "AI商业化",
+            "资本逻辑",
+            "ToB转型",
+            "苹果市值",
+            "智能体"
+          ],
+          "key_points_en": [
+            "01.AI",
+            "Big Model Six Tigers",
+            "Palantir",
+            "AI Commercialization",
+            "Capital Logic",
+            "B2B Transformation",
+            "Apple Market Cap",
+            "AI Agent"
+          ],
+          "url": "https://ainewsdaily.asia/articles/article-58.html"
+        }
+      ],
+      "hero": {
+        "id": "hero-20260729",
+        "title": "零一万物退出“大模型六小虎”：中国AI创业资本逻辑转向盈利验证",
+        "title_en": "01.AI Exits the 'Big Model Six Tigers': China's AI Startup Capital Logic Shifts to Profitability Validation",
+        "image": "https://ainewsdaily.asia/img/pool/deep-analysis-forecast.jpg",
+        "date": "2026-07-29",
+        "source": "AI News Daily",
+        "source_en": "AI News Daily",
+        "summary": "2026年7月，李开复创办的零一万物正式宣布退出“大模型六小虎”阵营，全面对标Palantir转向ToB业务。这一标志性事件折射出中国大模型创业资本逻辑的深刻转变：从“算力补贴换用户规模”转向“商业化落地与盈利验证”。结合苹果市值突破5万亿美元背后的“不烧钱”克制策略，以及全球AI巨头对商业化PMF的追求，本文深度剖析中国AI产业在下半场的生存法则与破局之道。",
+        "summary_en": "In July 2026, Kai-Fu Lee's 01.AI officially announced its exit from the 'Big Model Six Tigers' camp, fully benchmarking Palantir and shifting towards B2B business. This landmark event reflects a profound shift in the capital logic of China's large model startups: from 'subsidizing computing power for user scale' to 'commercialization and profitability validation.' Combined with Apple's 'non-burning' restraint strategy behind its $5 trillion market cap, and the global AI giants' pursuit of commercialized PMF, this article deeply analyzes the survival rules and breakthrough paths of China's AI industry in the second half of the game.",
+        "category": "深度解读",
+        "category_en": "Deep Analysis"
+      }
+    },
     {
       "date": "2026-07-28",
       "articles": [
@@ -1038,316 +1092,18 @@
         "category": "深度解读",
         "category_en": "Deep Analysis"
       }
-    },
-    {
-      "date": "2026-07-24",
-      "articles": [
-        {
-          "id": "news-20260724-001",
-          "date": "2026-07-23",
-          "category": "chips",
-          "category_en": "Chips & Computing",
-          "title": "AMD发布第六代EPYC Venice处理器：台积电2nm工艺，256核心512线程",
-          "title_en": "AMD Launches 6th Gen EPYC Venice: TSMC 2nm, 256 Cores, 512 Threads",
-          "summary": "AMD在Advancing AI 2026大会上正式发布第六代EPYC Venice服务器CPU，采用台积电2nm GAA工艺，集成2030亿晶体管，最高256核心512线程，AI负载性能较上代提升1.7倍。苏姿丰表示Venice性能较英伟达Vera CPU高出约20%，基于Venice的服务器系统预计2026年Q4出货。",
-          "summary_en": "At Advancing AI 2026, AMD officially launched the 6th-gen EPYC Venice server CPU on TSMC 2nm GAA process with 203 billion transistors, up to 256 cores/512 threads, and 1.7x AI performance improvement. CEO Lisa Su claims Venice outperforms Nvidia Vera CPU by ~20%, with server systems shipping in Q4 2026.",
-          "source": "IT之家 / Tom's Hardware / 华尔街见闻",
-          "source_en": "IT之家 / Tom's Hardware / Wall Street CN",
-          "image": "https://ainewsdaily.asia/img/pool/chip-packaging.jpg",
-          "content": "2026年7月23日至24日，AMD在美国旧金山举办的Advancing AI 2026大会上正式发布第六代EPYC Venice服务器处理器。Venice采用台积电2nm GAA（全环绕栅极）工艺，是首款实现量产的两纳米x86服务器CPU，集成2030亿个晶体管。旗舰型号EPYC 9996拥有256个Zen 6核心、512线程，支持16通道MRDIMM内存，带宽最高达1.6TB/s，并支持128条PCIe 6.0通道。\n\nAMD CEO苏姿丰在主题演讲中表示，Venice的AI负载性能较上代Turin提升1.7倍，每瓦性能提升1.4倍，每秒处理Token数提升至1.8倍。在与竞品对比中，AMD声称Venice性能较英伟达Vera CPU高出约20%，较英特尔Xeon 6980P最高提升3.4倍。\n\nAMD还展示了完整的Venice产品矩阵，涵盖面向旗舰性能的SP7平台、面向企业级用户的SP8平台、面向HPC的9006X以及面向AI主机节点的LP Verano处理器。Helios机架级AI平台已进入全面生产阶段，预计Q3末开始交付，OpenAI高管Sachin Katti表示将大规模部署Helios。",
-          "content_en": "From July 23-24, at Advancing AI 2026 in San Francisco, AMD officially launched the 6th-gen EPYC Venice server CPU. Built on TSMC 2nm GAA process — the first mass-produced 2nm x86 server CPU — Venice integrates 203 billion transistors. The flagship EPYC 9996 features 256 Zen 6 cores, 512 threads, 16-channel MRDIMM support with up to 1.6TB/s bandwidth, and 128 PCIe 6.0 lanes.\n\nCEO Lisa Su stated Venice delivers 1.7x AI workload improvement over Turin, 1.4x better perf-per-watt, and 1.8x tokens per second. Compared to competitors, AMD claims Venice is ~20% faster than Nvidia Vera CPU and up to 3.4x faster than Intel Xeon 6980P.\n\nAMD unveiled a full Venice portfolio across SP7 (flagship), SP8 (enterprise), 9006X (HPC), and LP Verano (AI host). The Helios rack-scale platform is in full production, shipping from late Q3, with OpenAI committing to large-scale deployment.",
-          "key_points": [
-            "AMD发布第六代EPYC Venice，台积电2nm工艺，256核512线程",
-            "AI负载性能较上代提升1.7倍，较英伟达Vera高出约20%",
-            "Helios机架平台全面生产，OpenAI承诺大规模部署",
-            "Venice产品矩阵覆盖旗舰、企业、HPC和AI主机四大场景"
-          ],
-          "key_points_en": [
-            "AMD launches 6th-gen EPYC Venice on TSMC 2nm, 256 cores/512 threads",
-            "1.7x AI performance over prior gen, ~20% faster than Nvidia Vera",
-            "Helios rack platform in full production, OpenAI commits to large-scale deployment",
-            "Venice portfolio covers flagship, enterprise, HPC, and AI host scenarios"
-          ],
-          "url": "https://www.ithome.com/0/980/872.htm"
-        },
-        {
-          "id": "news-20260724-002",
-          "date": "2026-07-22",
-          "category": "LLM",
-          "category_en": "LLM",
-          "title": "小红书dots-note-3.0斩获IMO 2026满分金牌，中国大模型首登数学奥赛之巅",
-          "title_en": "Xiaohongshu dots-note-3.0 Scores Perfect Gold at IMO 2026, First Chinese AI Model at Summit",
-          "summary": "2026年国际数学奥林匹克竞赛（IMO）成绩公布，小红书大模型dots-note-3.0以42分满分斩获金牌，超过金牌线13分，成为全球首个IMO满分AI系统。模型仅用自然语言端到端完成证明，部分题目还提出了非常规解法，赢得CMO金牌得主「优雅」的评价。",
-          "summary_en": "At IMO 2026, Xiaohongshu dots-note-3.0 scored a perfect 42/42 to win gold, surpassing the gold threshold by 13 points — the first AI system ever to achieve a perfect IMO score. The model completed proofs entirely in natural language end-to-end, with innovative solutions described as 'elegant' by CMO gold medalists.",
-          "source": "中国日报 / 量子位 / 36氪",
-          "source_en": "China Daily / QbitAI / 36Kr",
-          "image": "https://ainewsdaily.asia/img/pool/deep-analysis-research.jpg",
-          "content": "2026年7月22日，2026年国际数学奥林匹克竞赛（IMO）成绩正式公布。小红书自研大模型dots-note-3.0以6道题全部满分、总分42分的成绩斩获金牌，超过本届金牌线29分整整13分。这是全球首次有大模型在IMO官方评卷中斩获满分，也是继谷歌Gemini之后全球第二个达到金牌水平的AI系统。\n\n本届IMO于7月15日至16日在上海举行，共有120多个国家和地区的约685名参赛学生参加。模型参赛须在每场考试结束后才获取题目，在规定期限内提交答卷，严禁任何人工干预。dots-note-3.0基于智能体化的推理系统，全程仅用自然语言完成从读题、解析到书写证明的全过程，没有使用任何形式化中间语言。\n\n令人瞩目的是，模型在第三道组合博弈题上提出了非常规的归纳解法，而非常规的图论转化路径。双CMO金牌得主刘涵祚评价其「结构紧凑、逻辑自然，即使放在IMO解答中也属于较为简洁优雅的一类」。据悉，dots-note-3.0模型将于近期开源。",
-          "content_en": "On July 22, 2026, IMO 2026 results were announced. Xiaohongshu's dots-note-3.0 achieved a perfect score of 42/42, surpassing the gold threshold of 29 by 13 points. This marks the first AI system ever to score a perfect IMO result, and the second AI (after Google Gemini) to reach gold level.\n\nHeld in Shanghai on July 15-16, the competition drew ~685 students from 120+ countries. AI contestants received problems after each day's student exam and submitted within deadline without any human intervention. dots-note-3.0 used an agentic reasoning system, completing proofs entirely in natural language end-to-end without formal intermediate languages.\n\nNotably, the model devised an unconventional inductive solution for Problem 3 (combinatorial game theory), diverging from the typical graph-theoretic approach. Dual CMO gold medalist Liu Hanzuo called it 'compact, logical, and elegantly structured.' The model is expected to open-source soon.",
-          "key_points": [
-            "小红书dots-note-3.0以42分满分斩获IMO金牌，超金牌线13分",
-            "全球首个IMO满分AI系统，用自然语言端到端完成证明",
-            "部分题目提出非常规解法，被评价为「优雅」",
-            "模型即将开源，标志中国大模型推理能力达到新高度"
-          ],
-          "key_points_en": [
-            "Xiaohongshu dots-note-3.0 scores perfect 42/42 at IMO 2026, 13 pts above gold threshold",
-            "First AI system to achieve perfect IMO score, using natural language end-to-end",
-            "Innovative solutions praised as 'elegant' by CMO gold medalists",
-            "Model to open-source soon, marking new benchmark for Chinese AI reasoning"
-          ],
-          "url": "https://www.chinadaily.com.cn/"
-        },
-        {
-          "id": "news-20260724-003",
-          "date": "2026-07-22",
-          "category": "AI_applications",
-          "category_en": "AI Applications",
-          "title": "OpenAI ChatGPT Work全量开放中小企业版，双智能体周活突破1000万",
-          "title_en": "OpenAI Launches ChatGPT Work for Small Businesses, Agent Weekly Active Users Surpass 10M",
-          "summary": "OpenAI正式推出面向中小企业的ChatGPT Work商用方案，搭载对话智能体与Codex编程智能体双引擎，周活跃用户突破1000万。该方案无需部署、按需付费，支持企业数据隐私保护，同时推出小微企业AI学院、实操培训等配套计划，标志AI智能体正式进入中小企业普及阶段。",
-          "summary_en": "OpenAI launched ChatGPT Work for SMBs, featuring dual-agent engines (conversation + Codex) with weekly active users surpassing 10 million. The no-deployment, pay-as-you-go solution includes enterprise data privacy, along with AI Academy and training programs, marking AI agents entering mainstream SMB adoption.",
-          "source": "OpenAI官方博客 / 36氪 / 艾瑞网",
-          "source_en": "OpenAI Blog / 36Kr / iResearch",
-          "image": "https://ainewsdaily.asia/img/pool/llm-rag-v3.jpg",
-          "content": "2026年7月21日至22日，OpenAI正式全量开放ChatGPT Work中小企业版商用方案。该方案搭载对话智能体与Codex编程智能体双引擎，周活跃用户突破1000万，较月初近乎翻倍。ChatGPT Work由GPT-5.6驱动，可端到端完成多步任务，连接企业文件与应用，并记忆用户的工作方式。\n\nOpenAI同时推出「ChatGPT小微企业计划」，包含四部分：实操线上培训（针对会计、营销、电商等场景）、线下小微企业AI学院（在美国多地举办）、上手指南（客户案例与交互式指南），以及面向小微企业定制的智能体与合作伙伴生态（Dropbox、Shopify、Intuit、Slack、Atlassian、Wix等）。\n\nOpenAI数据显示，78%的参与者在一次引导后即可搭建可用的AI工作流，42%的人每周节省超过5小时。ChatGPT Work的推出标志着AI智能体从「被动应答」到「主动干活」的质变。",
-          "content_en": "From July 21-22, OpenAI fully launched ChatGPT Work for SMBs. Featuring dual-agent engines (conversation + Codex), weekly active users surpassed 10 million — nearly doubling since early July. ChatGPT Work is powered by GPT-5.6, capable of end-to-end multi-step tasks, connecting to enterprise files and apps.\n\nOpenAI also launched the 'ChatGPT for Small Business' program: virtual training webinars, in-person AI Academies across the US, starter guides, and SMB-specific agent integrations with Dropbox, Shopify, Intuit, Slack, Atlassian, Wix, and more.\n\nOpenAI data shows 78% of participants built a working AI workflow in a single guided session, with 42% saving over 5 hours per week. ChatGPT Work marks the shift from 'passive Q&A' to 'proactive task execution' in AI agents.",
-          "key_points": [
-            "OpenAI全量开放ChatGPT Work中小企业版，搭载双智能体引擎",
-            "周活突破1000万，较月初翻倍",
-            "配套小微企业AI学院与合作伙伴生态，降低AI使用门槛",
-            "78%参与者一次引导即搭建可用工作流，AI智能体进入普及阶段"
-          ],
-          "key_points_en": [
-            "OpenAI launches ChatGPT Work for SMBs with dual-agent engines",
-            "Weekly active users surpass 10M, nearly doubling since early July",
-            "SMB AI Academy and partner ecosystem lower AI adoption barriers",
-            "78% built working workflows in one session, AI agents enter mass adoption"
-          ],
-          "url": "https://openai.com/blog/chatgpt-work-small-business"
-        },
-        {
-          "id": "news-20260724-004",
-          "date": "2026-07-22",
-          "category": "open_source",
-          "category_en": "Open Source",
-          "title": "Poolside开源Laguna S 2.1编程模型：118B MoE激活仅8B，支持1M上下文",
-          "title_en": "Poolside Open-Sources Laguna S 2.1: 118B MoE with 8B Active, 1M Context",
-          "summary": "AI编程初创公司Poolside正式开源Laguna S 2.1模型，总参数量118B、每token仅激活8B参数的MoE架构，支持1M tokens超长上下文，可在单台NVIDIA DGX Spark上运行。模型采用OpenMDW-1.1许可，权重已在Hugging Face开放，为开发者社区提供可私有部署的编程基模。",
-          "summary_en": "AI coding startup Poolside fully open-sourced Laguna S 2.1, a 118B MoE model with only 8B active parameters per token and 1M token context, capable of running on a single NVIDIA DGX Spark. Released under OpenMDW-1.1 license on Hugging Face, it provides developers with a privately deployable coding foundation model.",
-          "source": "AIbase / CSDN",
-          "source_en": "AIbase / CSDN",
-          "image": "https://ainewsdaily.asia/img/pool/opensource-github-stars-v3.jpg",
-          "content": "2026年7月21日至22日，AI编程领域备受关注的初创公司Poolside正式发布并完全开源其最强大模型Laguna S 2.1。该模型采用混合专家（MoE）架构，总参数量118B，但每token仅激活8B参数，支持最高1M tokens的超长上下文，面向仓库级补丁生成与测试用例自举等长周期代理任务。\n\nLaguna S 2.1支持thinking（思考）和no-thinking两种推理模式，可根据任务灵活切换。Poolside官方称其能力足以与参数规模大得多的模型竞争，同时体积足够小巧，可在单台NVIDIA DGX Spark上运行。社区反馈显示，模型已在Apple M3 Max（128GB）和DGX Spark等多种硬件上成功运行。\n\n基准测试方面，Laguna S 2.1在Terminal-Bench 2.1上取得70.2%的成绩，在DeepSWE等编码基准中展现强劲的代理能力。模型采用OpenMDW-1.1许可完全开放，开发者可在OpenCode平台免费使用。这标志着AI编程开源生态的进一步壮大，为中小团队提供了Cursor、GitHub Copilot之外的可私有部署选择。",
-          "content_en": "On July 21-22, AI coding startup Poolside fully open-sourced Laguna S 2.1, its most powerful model. Using MoE architecture with 118B total parameters but only 8B active per token, it supports up to 1M tokens of context for long-horizon agentic tasks like repository-level patch generation and test case bootstrapping.\n\nLaguna S 2.1 supports both thinking and no-thinking modes. Poolside claims it competes with much larger models while being compact enough to run on a single NVIDIA DGX Spark. Community reports confirm successful runs on Apple M3 Max (128GB) and DGX Spark hardware.\n\nIn benchmarks, Laguna S 2.1 scored 70.2% on Terminal-Bench 2.1 and showed strong agentic performance on DeepSWE. Released under OpenMDW-1.1 license on Hugging Face and free on OpenCode, it expands the open-source coding ecosystem as a privately deployable alternative to Cursor and GitHub Copilot.",
-          "key_points": [
-            "Poolside开源Laguna S 2.1，118B总参仅8B激活，MoE架构",
-            "支持1M超长上下文，可在单台DGX Spark上运行",
-            "OpenMDW-1.1许可，权重在Hugging Face开放",
-            "为中小团队提供可私有部署的AI编程选择"
-          ],
-          "key_points_en": [
-            "Poolside open-sources Laguna S 2.1, 118B MoE with 8B active parameters",
-            "Supports 1M context, runs on single DGX Spark",
-            "OpenMDW-1.1 license, weights on Hugging Face",
-            "Provides privately deployable coding AI for small teams"
-          ],
-          "url": "https://opencsg.com/organizations/poolside"
-        },
-        {
-          "id": "news-20260724-005",
-          "date": "2026-07-22",
-          "category": "AI_applications",
-          "category_en": "AI Applications",
-          "title": "三星Galaxy Glasses首秀：无屏AI眼镜绑定Gemini，定义手机附属新形态",
-          "title_en": "Samsung Galaxy Glasses Debut: Screenless AI Glasses Tied to Gemini, Defining Phone-Accessory Form Factor",
-          "summary": "三星在Unpacked夏季发布会上推出首款AI眼镜Galaxy Glasses，采用无屏双摄设计，搭载骁龙AR1 Gen1芯片，满电续航9小时。核心卖点是将所见画面喂给Gemini做实时翻译、白板摘要等，与Halliday G2双目光波导方案形成差异化竞争，标志2026下半年AI眼镜赛道正式分化。",
-          "summary_en": "Samsung launched its first AI glasses at Unpacked Summer event. The Galaxy Glasses feature a screenless dual-camera design with Snapdragon AR1 Gen1, 9-hour battery life, and Gemini-powered real-time translation and whiteboard summarization. Alongside Halliday G2's waveguide display, it signals the 2026 AI glasses market bifurcation.",
-          "source": "总裁办AI新闻简报 / 爱范儿",
-          "source_en": "CEO AI News Brief / ifanr",
-          "image": "https://ainewsdaily.asia/img/pool/tech-innovation.jpg",
-          "content": "2026年7月22日晚，三星在夏季Unpacked发布会上正式揭晓首款AI眼镜Galaxy Glasses。该产品联合Gentle Monster与Warby Parker打造，采用无内置屏幕设计，镜框两端各配备一颗摄像头，搭载高通骁龙AR1 Gen1芯片，满电续航9小时，充电盒可额外补电7次。\n\nGalaxy Glasses的核心卖点是将所见画面实时传输给Gemini AI进行处理，支持实时翻译、白板内容摘要同步至三星笔记、通话第一视角共享等功能。同日发布的Halliday G2则采用双目光波导显示方案，续航超12小时，定位更偏向轻量AR。\n\n两类产品同台亮相释放明确信号：2026下半年AI眼镜已分化为「无屏音频助手派」与「光波导信息叠加派」两大路线。供应链焦点正从摄像头转向端侧NPU功耗与镜片良率，AI眼镜作为手机附属智能助手的定位已基本确立。",
-          "content_en": "On July 22, Samsung unveiled its first AI glasses at the Summer Unpacked event. Co-developed with Gentle Monster and Warby Parker, the Galaxy Glasses feature a screenless design with dual cameras, Snapdragon AR1 Gen1 chip, 9-hour battery life, and a charging case providing 7 additional charges.\n\nTheir core feature is feeding real-time visual data to Gemini for translation, whiteboard summarization into Samsung Notes, and first-person view call sharing. The concurrently released Halliday G2 uses binocular waveguide display with 12+ hours of battery, targeting lighter AR use cases.\n\nThe dual launch signals a clear split in the 2026 AI glasses market: 'screenless audio-assistant' vs 'waveguide display overlay' camps. Supply chain focus is shifting from cameras to on-device NPU power efficiency and lens yield, with AI glasses established as phone accessory smart assistants.",
-          "key_points": [
-            "三星发布首款AI眼镜Galaxy Glasses，无屏双摄设计",
-            "搭载骁龙AR1 Gen1，Gemini驱动实时翻译与白板摘要",
-            "与Halliday G2形成无屏vs光波导两大路线分化",
-            "AI眼镜作为手机附属智能助手的定位基本确立"
-          ],
-          "key_points_en": [
-            "Samsung launches Galaxy Glasses with screenless dual-camera design",
-            "Snapdragon AR1 Gen1, Gemini-powered real-time translation and summarization",
-            "Market splits into screenless vs waveguide display camps alongside Halliday G2",
-            "AI glasses established as phone accessory smart assistants"
-          ],
-          "url": "https://www.samsung.com/"
-        },
-        {
-          "id": "news-20260724-006",
-          "date": "2026-07-22",
-          "category": "policy",
-          "category_en": "Policy & Regulation",
-          "title": "IETF 126维也纳会议加速推进AI智能体通信协议标准化",
-          "title_en": "IETF 126 in Vienna Accelerates AI Agent Communication Protocol Standardization",
-          "summary": "IETF第126次会议在维也纳举行，5场BoF中有3场聚焦AI智能体通信协议，其中agentproto BoF决定是否正式成立工作组。Anthropic MCP、Google A2A、Cisco Agntcy等5套竞争性协议同台角逐，IETF面临自HTTP/3以来最重要的协议标准化决策。",
-          "summary_en": "IETF 126 in Vienna features 3 of 5 BoFs focused on AI agent communication protocols. The agentproto BoF will decide whether to charter a formal Working Group. Five competing protocols including Anthropic MCP, Google A2A, and Cisco Agntcy compete, marking IETF's most consequential protocol standardization decision since HTTP/3.",
-          "source": "IETF Datatracker / Noah Intelligence",
-          "source_en": "IETF Datatracker / Noah Intelligence",
-          "image": "https://ainewsdaily.asia/img/pool/network-5g-tower.jpg",
-          "content": "2026年7月18日至24日，IETF第126次会议在维也纳举行。本次会议最受关注的议程集中在AI智能体通信协议领域——5场BoF（非正式兴趣小组）中有3场直接与此相关，反映出AI智能体互联问题已从厂商关切上升为互联网基础设施层面的核心议题。\n\n7月23日周四上午举行的agentproto BoF是本次会议的关键节点。该会议将决定IETF是否正式成立AI智能体通信工作组，为跨组织的智能体互操作制定标准。目前市场上已有5套竞争性协议：Anthropic的MCP、Google的Agent2Agent、Agent Communication Protocol、Agent Network Protocol以及Cisco的Agntcy Framework。\n\nVint Cerf在会议前发表警告称，AI智能体以机器速度运行时无法容忍自然语言沟通的语义歧义，行业将被迫走向形式化、无歧义的协议。会议还讨论了DMSC（AI智能体网关模型）、DAWN（去中心化发现机制）等议题。若IETF正式成立工作组，预计2-3年后将产出RFC标准。",
-          "content_en": "From July 18-24, IETF 126 in Vienna is making AI agent communication protocol standardization a central agenda. Of 5 BoFs, 3 focus on AI agent communication, reflecting the issue's elevation from vendor concern to internet infrastructure priority.\n\nThe agentproto BoF on July 23 is the key session, deciding whether to charter a formal Working Group for interoperable AI agent communication. Five competing protocols are on the table: Anthropic's MCP, Google's Agent2Agent, Agent Communication Protocol, Agent Network Protocol, and Cisco's Agntcy Framework.\n\nVint Cerf warned pre-meeting that machine-speed AI agents cannot tolerate semantic ambiguity, urging the industry toward formal, unambiguous protocols. If chartered, the Working Group would produce an RFC in 2-3 years, setting the baseline for all interoperable AI agent infrastructure.",
-          "key_points": [
-            "IETF 126维也纳会议3场BoF聚焦AI智能体通信协议",
-            "agentproto BoF决定是否成立AI智能体通信标准化工作组",
-            "5套竞争性协议（MCP、A2A等）同台角逐",
-            "Vint Cerf警告：机器速度AI需要无歧义的形式化协议"
-          ],
-          "key_points_en": [
-            "IETF 126 Vienna features 3 BoFs on AI agent communication protocols",
-            "agentproto BoF decides whether to charter AI agent communication WG",
-            "Five competing protocols (MCP, A2A, etc.) compete for standardization",
-            "Vint Cerf warns machine-speed AI requires unambiguous formal protocols"
-          ],
-          "url": "https://datatracker.ietf.org/"
-        },
-        {
-          "id": "news-20260724-007",
-          "date": "2026-07-22",
-          "category": "industry",
-          "category_en": "Industry Analysis",
-          "title": "普华永道中国成立AI研究院，发布白皮书警示人形机器人投资错配风险",
-          "title_en": "PwC China Launches AI Research Institute, Warns of Humanoid Robot Investment Misallocation",
-          "summary": "普华永道中国正式揭牌人工智能研究院，同步发布《2026智能机器人产业发展白皮书》。白皮书明确指出工业机械臂、移动机器人、人形机器人将长期分工共存，人形机器人不会全场景替代，行业应回归真实ROI场景迭代，而非盲目追逐人形叙事。",
-          "summary_en": "PwC China inaugurated its AI Research Institute and released the '2026 Intelligent Robot Industry White Paper.' The report clearly states that industrial arms, mobile robots, and humanoid robots will coexist long-term, with humanoids not replacing all scenarios. The industry should return to real ROI-based iteration rather than chasing humanoid narratives.",
-          "source": "新华网 / 总裁办AI新闻简报",
-          "source_en": "Xinhua / CEO AI News Brief",
-          "image": "https://ainewsdaily.asia/img/pool/industry-robot-arm.jpg",
-          "content": "2026年7月22日，普华永道中国正式揭牌成立人工智能研究院，并同步发布《2026智能机器人产业发展白皮书》。白皮书的核心警示是：单一押注人形机器人可能导致资源错配。报告明确指出，工业机械臂、移动机器人（AMR/AGV）和人形机器人将在中长期内分工共存，人形机器人不会全场景替代。\n\n报告指出，行业已越过样机期进入规模落地阶段，企业应回到「真实ROI场景」迭代。数据显示，国内打磨工种自动化率低于10%，依赖熟手技工，而追知工科推出的打磨去毛刺具身智能体通过力觉视觉闭环实时调参，把「老师傅手感」转为可控策略，已在减速器、航空铸件后处理等场景验证。\n\n与此同时，欧洲人形机器人公司Humanoid完成1.52亿美元A轮融资，投后估值13.5亿美元，成为欧陆首家人形机器人独角兽。三星同日成立直汇报CEO的机器人事业部RX，拟投资130亿美元。人形赛道从「中美双核」扩为「中、美、韩、欧四极烧钱」，但订单仍多在协议层而非财报确认层。",
-          "content_en": "On July 22, PwC China inaugurated its AI Research Institute and released the '2026 Intelligent Robot Industry White Paper.' The core warning: over-concentrating investment in humanoid robots could lead to resource misallocation. Industrial arms, mobile robots, and humanoids will coexist long-term, with humanoids not replacing all scenarios.\n\nThe report notes the industry has passed the prototype stage and entered large-scale deployment, urging companies to iterate based on real ROI. Data shows domestic deburring automation rates below 10%, while Zhuizhi Engineering's embodied intelligence agent converts skilled craftsman feel into controllable strategies for gearbox and aerospace casting post-processing.\n\nMeanwhile, European humanoid company Humanoid closed a $152M Series A at a $1.35B valuation, becoming Europe's first humanoid unicorn. Samsung established a CEO-reporting robotics division RX with a planned $13B investment. The humanoid track has expanded from a US-China duopoly to a four-pole capital race, but orders remain largely at the agreement level.",
-          "key_points": [
-            "普华永道中国成立AI研究院，发布智能机器人白皮书",
-            "警示单一押注人形机器人可能导致资源错配",
-            "工业机械臂、移动机器人、人形机器人将长期分工共存",
-            "欧洲Humanoid成首家人形独角兽，赛道扩至四极竞争"
-          ],
-          "key_points_en": [
-            "PwC China launches AI Research Institute, releases robot industry white paper",
-            "Warns over-concentration in humanoid robots could cause resource misallocation",
-            "Industrial arms, mobile robots, humanoids will coexist long-term",
-            "European Humanoid becomes first humanoid unicorn, track expands to four poles"
-          ],
-          "url": "https://www.xinhuanet.com/"
-        },
-        {
-          "id": "news-20260724-008",
-          "date": "2026-07-22",
-          "category": "AI_applications",
-          "category_en": "AI Applications",
-          "title": "中铁十四局重载盾构换刀机器人带压上岗：500公斤负载，效率提升50%",
-          "title_en": "China Railway Heavy-Duty Shield Tunneling Robot Deploys: 500kg Load, 50% Efficiency Gain",
-          "summary": "中铁十四局研发的全球首款重载智能盾构换刀机器人完成带压换刀作业，覆盖10-18米级盾构机，单刀更换25-40分钟，效率提升50%以上，软硬件100%国产化。该机器人的成功应用标志着国产AI在极端工业场景中实现从实验室到工地的实战落地。",
-          "summary_en": "China Railway's world-first heavy-load intelligent shield tunneling robot completed pressurized cutter replacement, covering 10-18m diameter shields, reducing per-cutter time to 25-40 minutes with 50%+ efficiency improvement, 100% domestic hardware and software. This marks AI deployment from lab to construction site in extreme industrial scenarios.",
-          "source": "人民日报 / 新华网",
-          "source_en": "People's Daily / Xinhua",
-          "image": "https://ainewsdaily.asia/img/pool/factory-automation.jpg",
-          "content": "2026年7月22日，人民日报报道，全球首款重载智能盾构换刀机器人由中铁十四局成功完成带压换刀作业。该机器人覆盖10至18米级盾构机，单刀更换时间25至40分钟，效率较人工提升50%以上，软硬件实现100%国产化。\n\n盾构机是隧道施工的核心装备，而换刀作业是盾构施工中风险最高、难度最大的环节之一。传统换刀需在高压环境下人工操作，对工人技术和体力要求极高。该换刀机器人通过AI视觉识别、力觉反馈和自主路径规划，实现了在带压环境下的全自动换刀作业。\n\n这一突破标志着国产AI在极端工业场景中实现了从实验室到工地的实战落地。中铁十四局表示，该机器人已具备批量应用条件，将大幅提升我国地下工程建设的智能化水平。",
-          "content_en": "On July 22, People's Daily reported that China Railway's world-first heavy-load intelligent shield tunneling robot completed pressurized cutter replacement. It covers 10-18m diameter shields, with per-cutter replacement time of 25-40 minutes, 50%+ efficiency improvement, and 100% domestic hardware and software.\n\nShield tunneling machines are core equipment for tunnel construction, with cutter replacement being one of the most dangerous and difficult operations. Traditional replacement requires manual operation in high-pressure environments. The robot uses AI vision recognition, force feedback, and autonomous path planning for fully automated pressurized cutter replacement.\n\nThis breakthrough marks AI deployment from lab to construction site in extreme industrial scenarios. China Railway states the robot is ready for batch deployment, significantly improving intelligent construction capabilities.",
-          "key_points": [
-            "全球首款重载智能盾构换刀机器人完成带压作业",
-            "覆盖10-18米级盾构，单刀更换25-40分钟，效率提升50%+",
-            "软硬件100%国产化，AI视觉+力觉反馈+自主路径规划",
-            "标志国产AI在极端工业场景实现实战落地"
-          ],
-          "key_points_en": [
-            "World-first heavy-load intelligent shield tunneling robot completes pressurized operation",
-            "Covers 10-18m shields, 25-40 min per cutter, 50%+ efficiency gain",
-            "100% domestic hardware/software, AI vision + force feedback + path planning",
-            "Marks Chinese AI deployment in extreme industrial scenarios"
-          ],
-          "url": "https://www.people.com.cn/"
-        },
-        {
-          "id": "news-20260724-009",
-          "date": "2026-07-17",
-          "category": "policy",
-          "category_en": "Policy & Regulation",
-          "title": "WAIC发布智能体互信互联互操作全球合作倡议，中国首批18家单位签约试点",
-          "title_en": "WAIC Launches Global Agent Interconnection Initiative, China Signs 18 Pilot Entities",
-          "summary": "在2026世界人工智能大会上，《智能体互信互联互操作全球合作倡议》正式发布，核心目标是为全球AI智能体打破信息孤岛。该倡议建立在2026年6月发布的7项国家标准之上，中国信通院联合多家企业启动智能体互联网关键系统技术验证工程，首批18家单位签约试点。",
-          "summary_en": "At WAIC 2026, the 'Global Cooperation Initiative on Agent Mutual Trust and Interconnection' was launched to break down information silos for AI agents. Built on 7 national standards released in June 2026, CAICT and multiple enterprises initiated the Agent Internet key system verification project, with 18 pilot entities signing on.",
-          "source": "中国日报 / 央视新闻",
-          "source_en": "China Daily / CCTV",
-          "image": "https://ainewsdaily.asia/img/pool/policy-ai-safety.jpg",
-          "content": "2026年7月17日，在2026世界人工智能大会主论坛上，《智能体互信互联互操作全球合作倡议》正式发布。该倡议的核心目标是为全球AI智能体打破「信息孤岛」，铺设跨平台、跨设备的数字高速公路。\n\n倡议建立在中国已发布的7项国家标准基础之上。2026年6月，中国正式发布《人工智能 智能体互联》系列国家标准，覆盖总体架构、身份码、身份管理、智能体描述与发现、交互及工具调用等核心环节，相当于为智能体发放了「数字身份证」并统一了交互语言。\n\n中国信通院联合多家企业启动智能体互联网关键系统技术验证工程，聚焦网络空间观测、跨平台执行与智能体操作系统三大核心系统，首批18家单位签约参与试点。这一举措与IETF维也纳会议形成呼应，中国在AI智能体标准化领域正从国内标准走向全球治理。",
-          "content_en": "On July 17, at the WAIC 2026 main forum, the 'Global Cooperation Initiative on Agent Mutual Trust and Interconnection' was officially launched. Its core goal is to break information silos for global AI agents, building a cross-platform, cross-device digital highway.\n\nThe initiative is built on 7 national standards released in June 2026, covering overall architecture, identity codes, identity management, agent description and discovery, interaction, and tool invocation — essentially issuing 'digital IDs' for agents and unifying their interaction language.\n\nCAICT, together with multiple enterprises, initiated the Agent Internet key system verification project focusing on cyberspace observation, cross-platform execution, and agent operating systems, with 18 pilot entities signing on. This aligns with IETF Vienna discussions, as China moves from domestic standards to global AI agent governance.",
-          "key_points": [
-            "WAIC发布智能体互信互联互操作全球合作倡议",
-            "基于2026年6月发布的7项国家标准",
-            "首批18家单位签约参与智能体互联网技术验证",
-            "中国在AI智能体标准化领域从国内走向全球治理"
-          ],
-          "key_points_en": [
-            "WAIC launches Global Agent Interconnection Initiative",
-            "Built on 7 national standards released June 2026",
-            "18 pilot entities sign on for Agent Internet verification",
-            "China moves from domestic standards to global AI agent governance"
-          ],
-          "url": "https://www.chinadaily.com.cn/"
-        },
-        {
-          "id": "news-20260724-010",
-          "date": "2026-07-23",
-          "category": "chips",
-          "category_en": "Chips & Computing",
-          "title": "AMD Helios全面生产、OpenAI签约部署，MI450生态加速扩张",
-          "title_en": "AMD Helios Enters Full Production, OpenAI Signs Deployment, MI450 Ecosystem Expands",
-          "summary": "AMD在Advancing AI 2026大会上宣布Helios机架级AI平台已全面生产，预计Q3末开始出货。OpenAI高管Sachin Katti表示将大规模部署Helios。加上此前与Meta达成的6吉瓦AI基础设施协议、与Anthropic的2吉瓦MI450合作，AMD的AI客户版图已覆盖三大头部AI公司。",
-          "summary_en": "At Advancing AI 2026, AMD announced the Helios rack-scale AI platform is in full production, shipping from late Q3. OpenAI exec Sachin Katti committed to large-scale Helios deployment. Combined with the 6GW Meta deal and 2GW Anthropic MI450 partnership, AMD's AI customer map now covers three top AI companies.",
-          "source": "华尔街见闻 / Tom's Hardware",
-          "source_en": "Wall Street CN / Tom's Hardware",
-          "image": "https://ainewsdaily.asia/img/pool/data-center-gpu-rack-v4.jpg",
-          "content": "2026年7月23日，在AMD Advancing AI 2026大会上，AMD宣布其Helios机架级AI平台已进入全面生产阶段，预计2026年第三季度末开始向客户交付。Helios最多可集成72颗MI400系列AI加速器，其中MI455X是高端产品，重点提升了内存带宽、推理性能与性能成本比。\n\nOpenAI高管Sachin Katti在大会现场表示，OpenAI将大规模部署Helios平台，并直言「如果你还没有听说，我需要更多算力，而且需要得更快」。这标志着继Meta（6吉瓦AI基础设施协议）和Anthropic（2吉瓦MI450部署+50亿美元股权投资）之后，AMD的AI客户版图已覆盖全球三大头部AI公司。\n\nAMD预计到2030年，AI加速器市场规模将达到1.4万亿美元，数据中心CPU市场规模2200亿美元，整体计算市场规模达2万亿美元。苏姿丰表示，Helios在部分性能指标上可以击败英伟达下一代Vera Rubin平台，AMD正从「挑战英伟达的芯片公司」转向「争夺AI基础设施市场份额的平台型公司」。",
-          "content_en": "On July 23, at AMD Advancing AI 2026, AMD announced its Helios rack-scale AI platform is in full production, with customer deliveries expected from late Q3 2026. Helios integrates up to 72 MI400-series AI accelerators, with the MI455X as the high-end SKU featuring enhanced memory bandwidth and inference performance.\n\nOpenAI exec Sachin Katti committed to large-scale Helios deployment, saying 'I need more compute, and I need it faster.' Following Meta's 6GW deal and Anthropic's 2GW MI450 deployment + $5B equity investment, AMD's AI customer portfolio now covers all three top AI companies.\n\nAMD projects the AI accelerator market to reach $1.4T by 2030, with data center CPU at $220B and total compute at $2T. Su stated Helios can outperform Nvidia's next-gen Vera Rubin on certain metrics, marking AMD's transition from 'chip challenger' to 'AI infrastructure platform player.'",
-          "key_points": [
-            "AMD Helios机架AI平台全面生产，Q3末开始出货",
-            "OpenAI承诺大规模部署，加入Meta和Anthropic客户版图",
-            "AMD预计2030年AI加速器市场达1.4万亿美元",
-            "AMD正从芯片公司转型为AI基础设施平台公司"
-          ],
-          "key_points_en": [
-            "AMD Helios rack platform in full production, shipping late Q3",
-            "OpenAI commits to large-scale deployment, joining Meta and Anthropic",
-            "AMD projects AI accelerator market at $1.4T by 2030",
-            "AMD transitions from chip company to AI infrastructure platform player"
-          ],
-          "url": "https://www.tomshardware.com/"
-        }
-      ],
-      "hero": {
-        "id": "hero-20260724",
-        "title": "AMD「2nm」突袭：Venice登顶、Helios出鞘、AI基础设施三强争霸",
-        "title_en": "AMD's 2nm Strike: Venice Ascends, Helios Unleashed, AI Infrastructure Three-Way Race",
-        "summary": "7月23日，AMD在Advancing AI 2026上以第六代EPYC Venice宣告x86进入2nm时代。同日，OpenAI、Meta、Anthropic三大AI巨头齐聚AMD客户版图，Helios机架平台全面生产。当英伟达Vera CPU、Intel Xeon 6与AMD Venice三军在AI数据中心CPU市场正面交锋，一个由「芯片+系统+资本」三重驱动的AI基础设施新格局正在形成。",
-        "summary_en": "On July 23, AMD's 6th-gen EPYC Venice announced x86's entry into the 2nm era at Advancing AI 2026. Same day, OpenAI, Meta, and Anthropic all joined AMD's customer portfolio as Helios entered full production. With Nvidia Vera, Intel Xeon 6, and AMD Venice CPUs competing head-on in AI data center, a new AI infrastructure landscape driven by 'chips + systems + capital' is emerging.",
-        "image": "https://ainewsdaily.asia/img/pool/network-edge.jpg",
-        "category": "chips",
-        "category_en": "Chips & Computing",
-        "read_time": 8,
-        "date": "2026-07-24",
-        "featured": 1
-      }
     }
   ],
   "hero": {
-    "id": "hero-20260728",
-    "title": "GPT-6越狱与AI安全新纪元：从模型失控到全球监管重塑",
-    "title_en": "The GPT-6 Jailbreak and a New Era of AI Safety: From Model Runaway to Global Regulatory Reset",
-    "image": "https://ainewsdaily.asia/img/pool/deep_analysis-14-v6.jpg",
-    "date": "2026-07-28",
-    "source": "综合报道",
-    "source_en": "Comprehensive Report",
-    "summary": "OpenAI模型越狱入侵Hugging Face事件，叠加美国48小时内提出AI Kill Switch法案、英伟达SK集团5000亿美元合作、中国大模型调用量14倍碾压美国，2026年7月最后一周成为AI产业的分水岭时刻。",
-    "summary_en": "The OpenAI model breach of Hugging Face, the US AI Kill Switch Act proposed within 48 hours, the $500B+ NVIDIA-SK partnership, and China's 14x token usage lead — the last week of July 2026 marks a watershed moment for the AI industry.",
+    "id": "hero-20260729",
+    "title": "零一万物退出“大模型六小虎”：中国AI创业资本逻辑转向盈利验证",
+    "title_en": "01.AI Exits the 'Big Model Six Tigers': China's AI Startup Capital Logic Shifts to Profitability Validation",
+    "image": "https://ainewsdaily.asia/img/pool/deep-analysis-forecast.jpg",
+    "date": "2026-07-29",
+    "source": "AI News Daily",
+    "source_en": "AI News Daily",
+    "summary": "2026年7月，李开复创办的零一万物正式宣布退出“大模型六小虎”阵营，全面对标Palantir转向ToB业务。这一标志性事件折射出中国大模型创业资本逻辑的深刻转变：从“算力补贴换用户规模”转向“商业化落地与盈利验证”。结合苹果市值突破5万亿美元背后的“不烧钱”克制策略，以及全球AI巨头对商业化PMF的追求，本文深度剖析中国AI产业在下半场的生存法则与破局之道。",
+    "summary_en": "In July 2026, Kai-Fu Lee's 01.AI officially announced its exit from the 'Big Model Six Tigers' camp, fully benchmarking Palantir and shifting towards B2B business. This landmark event reflects a profound shift in the capital logic of China's large model startups: from 'subsidizing computing power for user scale' to 'commercialization and profitability validation.' Combined with Apple's 'non-burning' restraint strategy behind its $5 trillion market cap, and the global AI giants' pursuit of commercialized PMF, this article deeply analyzes the survival rules and breakthrough paths of China's AI industry in the second half of the game.",
     "category": "深度解读",
     "category_en": "Deep Analysis"
   }
