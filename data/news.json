@@ -4,6 +4,304 @@
     {
       "date": "2026-07-30",
       "hero": {
+        "id": "article-60",
+        "date": "2026-07-30",
+        "title": "OpenAI首发推理芯片Jalapeño：AI竞争全面进入“软硬一体”全栈时代",
+        "title_en": "OpenAI Launches First Inference Chip Jalapeño: AI Competition Enters the 'Hardware-Software Integration' Full-Stack Era",
+        "category": "芯片算力",
+        "category_en": "Chip & Computing Power",
+        "image": "https://ainewsdaily.asia/img/pool/deep-analysis-ai-ethics.jpg",
+        "summary": "2026年，全球AI产业面临前所未有的“算力荒”。OpenAI发布首款自研推理芯片Jalapeño，标志着其全栈战略的里程碑。本文深度剖析软硬一体、先进封装与系统级创新如何重塑AI算力版图，推动行业迈入全栈竞争的新纪元。",
+        "summary_en": "In 2026, the global AI industry faces an unprecedented 'computing power shortage.' OpenAI's release of its first custom inference chip, Jalapeño, marks a milestone in its full-stack strategy. This article deeply analyzes how hardware-software integration, advanced packaging, and system-level innovations are reshaping the AI computing landscape, pushing the industry into a new era of full-stack competition.",
+        "url": "/articles/article-60.html",
+        "url_en": "/articles/en/article-60.html"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-07-30",
+          "category": "芯片算力",
+          "category_en": "Chip Computing",
+          "title": "OpenAI发布首款自研AI推理芯片Jalapeño，9个月刷新流片纪录",
+          "title_en": "OpenAI Releases First Custom AI Inference Chip Jalapeño, Setting 9-Month Tape-out Record",
+          "summary": "OpenAI联合博通发布专为大模型推理设计的Jalapeño芯片，从设计到流片仅用9个月。该芯片标志着OpenAI正式进军硬件领域，开启全栈闭环战略。",
+          "summary_en": "OpenAI and Broadcom released Jalapeño, a chip designed specifically for large model inference, taking only 9 months from design to tape-out. This marks OpenAI's official entry into the hardware sector, initiating a full-stack closed-loop strategy.",
+          "source": "CSDN",
+          "source_en": "CSDN",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800",
+          "content": "2026年6月25日，OpenAI与博通联合发布首款自研AI推理芯片Jalapeño。该芯片专为大模型推理深度定制，从架构设计到制造流片仅耗时9个月，刷新了高性能ASIC芯片的开发速度纪录。Jalapeño并非通用GPU改造，而是围绕大模型推理的核函数、内存移动和网络服务进行深度优化，旨在解决传统GPU在LLM推理中面临的“内存墙”问题。工程样品已在实验室稳定运行GPT-5.3等ML工作负载，每瓦性能大幅优于当前最先进水平。计划于2026年底与微软等合作伙伴部署吉瓦级数据中心，这标志着AI竞争正式升级为“软硬一体”的全栈战争。",
+          "content_en": "On June 25, 2026, OpenAI and Broadcom jointly released their first custom AI inference chip, Jalapeño. Deeply customized for large model inference, the chip took only 9 months from architectural design to manufacturing tape-out, setting a new record for high-performance ASIC development. Jalapeño is not a modified general-purpose GPU but is deeply optimized around kernel functions, memory movement, and network services for LLM inference, aiming to solve the 'memory wall' problem. Engineering samples have stably run ML workloads like GPT-5.3 in labs, with per-watt performance significantly surpassing current state-of-the-art. It is planned to be deployed in gigawatt-scale data centers with partners like Microsoft by late 2026, marking the escalation of AI competition into a 'hardware-software integrated' full-stack war.",
+          "key_points": [
+            "首款自研推理芯片Jalapeño发布",
+            "9个月流片刷新ASIC开发纪录",
+            "专为大模型推理深度定制",
+            "计划年底部署吉瓦级数据中心"
+          ],
+          "key_points_en": [
+            "Release of the first custom inference chip Jalapeño",
+            "9-month tape-out sets new ASIC development record",
+            "Deeply customized for large model inference",
+            "Planned deployment in gigawatt-scale data centers by year-end"
+          ],
+          "url": "https://blog.csdn.net/qq_63981644/article/details/162292419"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-07-30",
+          "category": "芯片算力",
+          "category_en": "Chip Computing",
+          "title": "AMD发布Helios超节点及MI455X芯片，算力宣称超英伟达15%",
+          "title_en": "AMD Unveils Helios Superpod and MI455X Chip, Claiming 15% More Compute than NVIDIA",
+          "summary": "AMD在Advancing AI 2026大会上正式发布Helios超节点及MI455X计算芯片，配备432GB HBM4。苏姿丰宣称其算力超英伟达15%，并预计2030年AI加速器市场将达1.4万亿美元。",
+          "summary_en": "At Advancing AI 2026, AMD officially launched the Helios superpod and MI455X compute chip, equipped with 432GB HBM4. CEO Lisa Su claimed its compute power exceeds NVIDIA's by 15% and projected the AI accelerator market to reach $1.4 trillion by 2030.",
+          "source": "今日头条",
+          "source_en": "Toutiao",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800",
+          "content": "AMD在旧金山Advancing AI 2026大会上全面量产并发布了首个超节点产品Helios。其核心计算芯片MI455X采用第五代CDNA架构，集成12个2nm计算Chiplet与3nm IO Chiplet，配备432GB HBM4，单卡带宽达23.3TB/s，峰值算力40.26 PFLOPS。AMD宣称其整体算力超英伟达15%，HBM容量多50%。CEO苏姿丰指出，2026年全球推理算力消耗将首次超过训练，占比达六成。她还将2030年AI加速器市场规模预期上调至1.4万亿美元。微软已宣布Azure将规模部署Helios用于前沿模型推理，AMD累计手握约14GW算力订单。",
+          "content_en": "AMD fully mass-produced and launched its first superpod product, Helios, at the Advancing AI 2026 conference in San Francisco. Its core compute chip, MI455X, uses the 5th-gen CDNA architecture, integrating twelve 2nm compute chiplets and a 3nm IO chiplet, equipped with 432GB HBM4, 23.3TB/s bandwidth, and 40.26 PFLOPS peak compute. AMD claims its overall compute power exceeds NVIDIA's by 15% with 50% more HBM. CEO Lisa Su noted that global inference compute consumption will surpass training for the first time in 2026, accounting for 60%. She raised the 2030 AI accelerator market projection to $1.4 trillion. Microsoft announced Azure will deploy Helios at scale, and AMD has secured about 14GW in compute orders.",
+          "key_points": [
+            "发布Helios超节点及MI455X芯片",
+            "配备432GB HBM4，算力超英伟达15%",
+            "2030年AI加速器市场预期达1.4万亿美元",
+            "微软Azure将规模部署该产品"
+          ],
+          "key_points_en": [
+            "Launch of Helios superpod and MI455X chip",
+            "Equipped with 432GB HBM4, 15% more compute than NVIDIA",
+            "2030 AI accelerator market projected at $1.4 trillion",
+            "Microsoft Azure to deploy the product at scale"
+          ],
+          "url": "http://m.toutiao.com/group/7668029898464494114"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-07-30",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "月之暗面宣布Kimi K3正式开源，2.8万亿参数混合专家架构",
+          "title_en": "Moonshot AI Announces Open-Sourcing of Kimi K3 with 2.8 Trillion Parameter MoE Architecture",
+          "summary": "月之暗面正式开源Kimi K3大语言模型，总参数规模达2.8万亿，采用896个路由专家的混合专家架构。开发者可通过Hugging Face下载并进行本地部署。",
+          "summary_en": "Moonshot AI officially open-sourced the Kimi K3 large language model, featuring a total of 2.8 trillion parameters and a Mixture of Experts architecture with 896 routing experts. Developers can download and deploy it locally via Hugging Face.",
+          "source": "i黑马",
+          "source_en": "iHeima",
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800",
+          "content": "7月27日晚，月之暗面宣布Kimi K3模型正式开源，同步发布模型文件、技术报告及三项基础设施技术。Kimi K3是一款混合专家（MoE）架构大语言模型，总参数规模高达2.8万亿，采用896个路由专家，每个Token激活16个专家。在架构上，该模型采用自研的Kimi Delta Attention混合线性注意力机制与Attention Residuals技术，原生支持视觉理解，上下文窗口长达100万Token。开发者现可通过Hugging Face社区下载模型文件，进行本地部署和二次开发，进一步推动了国内万亿参数级大模型的开源生态建设。",
+          "content_en": "On the evening of July 27, Moonshot AI announced the official open-sourcing of the Kimi K3 model, releasing model files, technical reports, and three infrastructure technologies. Kimi K3 is a Mixture of Experts (MoE) large language model with a massive 2.8 trillion parameters, utilizing 896 routing experts and activating 16 per token. Architecturally, it employs the proprietary Kimi Delta Attention hybrid linear attention mechanism and Attention Residuals technology, natively supporting visual understanding with a 1-million-token context window. Developers can now download the model files via the Hugging Face community for local deployment and secondary development, further advancing the open-source ecosystem for trillion-parameter models in China.",
+          "key_points": [
+            "Kimi K3大语言模型正式开源",
+            "总参数2.8万亿，采用MoE架构",
+            "支持100万Token上下文及视觉理解",
+            "可通过Hugging Face下载部署"
+          ],
+          "key_points_en": [
+            "Kimi K3 large language model officially open-sourced",
+            "2.8 trillion parameters with MoE architecture",
+            "Supports 1M token context and visual understanding",
+            "Available for download and deployment on Hugging Face"
+          ],
+          "url": "http://m.toutiao.com/group/7667863529243804179"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-07-30",
+          "category": "投融资",
+          "category_en": "Investment & Financing",
+          "title": "AI独角兽上市潮席卷中美，智谱与MiniMax登陆港交所",
+          "title_en": "AI Unicorn IPO Wave Sweeps US and China, Zhipu and MiniMax List on HKEX",
+          "summary": "2026年上半年全球AI独角兽迎来上市潮，Anthropic与OpenAI筹备万亿级IPO，中国智谱与MiniMax则成功登陆港交所，开启“A+H”两地上市结构。",
+          "summary_en": "In the first half of 2026, global AI unicorns ushered in an IPO wave. While Anthropic and OpenAI prepare for trillion-dollar IPOs, China's Zhipu and MiniMax successfully listed on the HKEX, initiating an 'A+H' dual-listing structure.",
+          "source": "新浪财经",
+          "source_en": "Sina Finance",
+          "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800",
+          "content": "2026年上半年，全球AI科创生态迎来密集的独角兽上市潮。美国市场方面，Anthropic完成650亿美元H轮融资，估值达9650亿美元，并提交上市招股书；OpenAI也提交了招股书。中国市场方面，智谱与MiniMax相继登陆港交所，智谱市值达7334亿港元，MiniMax市值698亿港元，两者均启动了A股上市计划，构成“A+H”结构。此外，科创板第五套标准扩容至AI大模型行业，为未盈利AI公司打开A股通道。一季度全球AI私募投资高度向头部集中，Anthropic、xAI、OpenAI三家合计拿走67.3%的投资额，反映出AI产业资本向头部加速聚拢的趋势。",
+          "content_en": "In the first half of 2026, the global AI tech ecosystem witnessed a dense wave of unicorn IPOs. In the US, Anthropic closed a $65 billion Series H funding round at a $965 billion valuation and filed for an IPO; OpenAI also filed its prospectus. In China, Zhipu and MiniMax sequentially listed on the HKEX, with market caps reaching HK$733.4 billion and HK$69.8 billion respectively. Both have initiated A-share listing plans, forming an 'A+H' structure. Additionally, the STAR Market's fifth set of standards was expanded to include AI large model companies, opening A-share channels for unprofitable AI firms. In Q1, global AI private investment highly concentrated at the top, with Anthropic, xAI, and OpenAI capturing 67.3% of total investments, reflecting the trend of capital accelerating towards top AI enterprises.",
+          "key_points": [
+            "全球AI独角兽迎来密集上市潮",
+            "智谱与MiniMax登陆港交所并筹备A股",
+            "科创板第五套标准扩容至AI大模型",
+            "资本高度向头部AI企业集中"
+          ],
+          "key_points_en": [
+            "Global AI unicorns enter a dense IPO wave",
+            "Zhipu and MiniMax list on HKEX, preparing for A-shares",
+            "STAR Market expands 5th standards to AI large models",
+            "Capital highly concentrates in top AI enterprises"
+          ],
+          "url": "http://m.toutiao.com/group/7667934530149368329"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-07-30",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "美国商务部向格罗方德发放3亿美元补贴，聚焦先进封装与光学材料",
+          "title_en": "US Commerce Department Grants $300M Subsidy to GlobalFoundries for Advanced Packaging and Optical Materials",
+          "summary": "美国商务部敲定3亿美元专项研发补贴定向投入格罗方德，重点发力先进封装、硅光子及光学材料，美国商务部将获得其约1%股权。",
+          "summary_en": "The US Commerce Department finalized a $300 million dedicated R&D subsidy for GlobalFoundries, focusing on advanced packaging, silicon photonics, and optical materials. The Department will acquire approximately 1% equity in the company.",
+          "source": "今日头条",
+          "source_en": "Toutiao",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800",
+          "content": "7月29日，美国商务部宣布向晶圆代工企业格罗方德发放3亿美元专项研发补贴。这笔资金源自《芯片与科学法案》，100%定向用于先进封装配套材料、硅光子封装基材及共封装光学（CPO）核心耗材的研发与量产。协议附带安排，美国商务部将获得格罗方德约1%的股权，实现政策与企业的深度绑定。此举表明先进封装已上升为美国半导体战略的核心突破口。随着AI算力需求爆发，先进封装成为后摩尔时代提升芯片性能的关键，美国政府正通过资金与股权双重手段，加速本土前沿技术研发产能的锁定与供应链安全。",
+          "content_en": "On July 29, the US Commerce Department announced a $300 million dedicated R&D subsidy for foundry GlobalFoundries. Sourced from the CHIPS and Science Act, 100% of the funds are directed toward the R&D and mass production of advanced packaging materials, silicon photonics packaging substrates, and co-packaged optics (CPO) core consumables. The agreement includes an arrangement for the Department to acquire about 1% equity in GlobalFoundries, deeply binding policy and enterprise. This indicates that advanced packaging has risen to a core breakthrough in US semiconductor strategy. With exploding AI compute demand, advanced packaging is key to improving chip performance in the post-Moore era. The US government is accelerating the locking of domestic cutting-edge R&D capacity and supply chain security through dual financial and equity means.",
+          "key_points": [
+            "美国商务部发放3亿美元专项补贴",
+            "资金聚焦先进封装与光学材料研发",
+            "美国商务部将获得格罗方德1%股权",
+            "先进封装上升为半导体战略核心"
+          ],
+          "key_points_en": [
+            "US Commerce Dept grants $300M dedicated subsidy",
+            "Funds focus on advanced packaging and optical materials R&D",
+            "US Commerce Dept to acquire 1% equity in GlobalFoundries",
+            "Advanced packaging rises to core semiconductor strategy"
+          ],
+          "url": "http://m.toutiao.com/group/7667967636285932034"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-07-30",
+          "category": "芯片算力",
+          "category_en": "Chip Computing",
+          "title": "算力荒愈演愈烈！英伟达H100一年期合约价暴涨40%",
+          "title_en": "Compute Shortage Intensifies! NVIDIA H100 One-Year Contract Price Surges 40%",
+          "summary": "受AI需求激增影响，全球GPU算力短缺加剧，英伟达H100一年期租赁价格半年内暴涨近40%，现货市场几乎全部售罄。",
+          "summary_en": "Driven by surging AI demand, the global GPU compute shortage is worsening. NVIDIA H100 one-year lease prices have skyrocketed nearly 40% in half a year, with the spot market almost completely sold out.",
+          "source": "财经编辑部",
+          "source_en": "Financial Editorial Dept",
+          "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=800",
+          "content": "行业研究机构SemiAnalysis报告显示，全球AI产业需求急剧增长导致GPU算力短缺加剧。英伟达H100 GPU的一年期租赁价格自2025年10月的1.70美元/小时飙升至2026年3月的2.35美元/小时，涨幅接近40%。目前所有类型GPU的按需租赁产能已全部售罄，部分用户为获取竞价实例甚至愿支付14美元/小时的高价。同时，英伟达新一代Blackwell系列GPU交付周期已延长至2026年下半年。上游存储芯片价格跳涨进一步推高了AI服务器成本，迫使运营商放缓新集群部署。多智能体工作流的普及带来Token消耗指数级增长，预计GPU租赁价格将持续上涨。",
+          "content_en": "A report by research firm SemiAnalysis shows that the rapid growth in global AI industry demand has exacerbated GPU compute shortages. The one-year lease price for NVIDIA H100 GPUs surged from $1.70/hour in October 2025 to $2.35/hour in March 2026, a nearly 40% increase. On-demand lease capacity for all types of GPUs is currently completely sold out, with some users willing to pay up to $14/hour for spot instances. Meanwhile, delivery times for NVIDIA's new Blackwell series GPUs have been extended to the second half of 2026. Jumping upstream memory chip prices have further driven up AI server costs, forcing operators to slow down new cluster deployments. The proliferation of multi-agent workflows has led to exponential growth in token consumption, and GPU lease prices are expected to continue rising.",
+          "key_points": [
+            "H100一年期租赁价格暴涨近40%",
+            "全球GPU按需租赁产能全部售罄",
+            "新一代Blackwell芯片交付延至下半年",
+            "多智能体应用导致Token消耗激增"
+          ],
+          "key_points_en": [
+            "H100 one-year lease price surges nearly 40%",
+            "Global GPU on-demand lease capacity completely sold out",
+            "New Blackwell chip delivery extended to H2",
+            "Multi-agent applications cause token consumption surge"
+          ],
+          "url": "http://hzbyzx.mr.njjwfs.com/article/06f099993.html"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-07-30",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "中国模型占据全球2/3份额，小米MiMo登顶全球调用量榜首",
+          "title_en": "Chinese Models Capture 2/3 Global Share, Xiaomi MiMo Tops Global API Call Volume",
+          "summary": "OpenRouter最新数据显示，中国模型全球市场份额已超63%，小米MiMo-V2.5成为当周全球调用量唯一突破10T的模型，位居双榜第一。",
+          "summary_en": "Latest data from OpenRouter shows Chinese models' global market share has exceeded 63%. Xiaomi MiMo-V2.5 became the only model to surpass 10T global API calls in a week, ranking first on both weekly and monthly charts.",
+          "source": "i黑马",
+          "source_en": "iHeima",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800",
+          "content": "7月27日，OpenRouter最新数据显示，小米MiMo-V2.5登上全球大模型调用量周榜、月榜双第一，成为当周全球调用量唯一突破10T的模型，月调用量达31.20T。当前，OpenRouter 7月模型调用量前五名均为中国模型，依次为小米MiMo-V2.5、DeepSeek V4 Flash、腾讯HY3、智谱GLM-5.2及DeepSeek V4Pro。OpenRouter官方披露，中国模型全球市场份额已在6月初整体超过美国，截至7月26日，中国模型近28天份额约为63.5%，美国模型仅为35.5%，占据全球三分之二市场份额，中美大模型应用差距进一步拉大。",
+          "content_en": "On July 27, the latest data from OpenRouter showed that Xiaomi MiMo-V2.5 topped both the weekly and monthly global large model API call charts, becoming the only model to surpass 10T global calls in a week, with a monthly volume of 31.20T. Currently, the top five models by call volume on OpenRouter in July are all Chinese models: Xiaomi MiMo-V2.5, DeepSeek V4 Flash, Tencent HY3, Zhipu GLM-5.2, and DeepSeek V4Pro. OpenRouter officially disclosed that the global market share of Chinese models overall surpassed US models in early June. As of July 26, the 28-day share of Chinese models is about 63.5%, while US models are only 35.5%, capturing two-thirds of the global market and further widening the application gap between the two nations.",
+          "key_points": [
+            "小米MiMo-V2.5登顶全球调用量榜首",
+            "中国模型全球市场份额超63.5%",
+            "OpenRouter调用量前五均为中国模型",
+            "中美大模型应用市场份额差距拉大"
+          ],
+          "key_points_en": [
+            "Xiaomi MiMo-V2.5 tops global API call volume",
+            "Chinese models' global market share exceeds 63.5%",
+            "Top 5 OpenRouter call volumes are all Chinese models",
+            "Application market share gap between US and China widens"
+          ],
+          "url": "http://m.toutiao.com/group/7667863529243804179"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-07-30",
+          "category": "芯片算力",
+          "category_en": "Chip Computing",
+          "title": "国产算力破局：东方算芯发布14nm“天枢-1”三维近存AI芯片",
+          "title_en": "Breakthrough in Domestic Compute: Dongfang Suanxin Releases 14nm 'Tianshu-1' 3D Near-Memory AI Chip",
+          "summary": "东方算芯发布首颗软件定义三维近存AI芯片“天枢-1”，基于14nm成熟制程实现520 TFLOPS算力，探索出不依赖先进制程的国产算力新路线。",
+          "summary_en": "Dongfang Suanxin released its first software-defined 3D near-memory AI chip 'Tianshu-1'. Based on the mature 14nm process, it achieves 520 TFLOPS compute power, exploring a new route for domestic compute that does not rely on advanced nodes.",
+          "source": "CSDN",
+          "source_en": "CSDN",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800",
+          "content": "2026年7月13日，初创企业“东方算芯”在上海发布我国首颗采用软件定义架构与三维近存计算技术的AI训练芯片“天枢-1”。该芯片基于成熟的14纳米制程工艺，通过数千个可重构计算单元（RCU）和三维堆叠技术，实现了每秒520万亿次浮点运算（520 TFLOPS），能效比达15.2 TFLOPS/W，性能对标英伟达A100。其“编译即重构”策略将硬件利用率提升至90%以上，三维近存设计使Token生成速率提升2.3倍。这一“第三条路线”以系统级创新换取性能飞跃，为国产算力在制程封锁下突围提供了全新范式。",
+          "content_en": "On July 13, 2026, startup 'Dongfang Suanxin' released 'Tianshu-1' in Shanghai, China's first AI training chip采用 a software-defined architecture and 3D near-memory computing technology. Based on the mature 14nm process, the chip achieves 520 TFLOPS through thousands of reconfigurable compute units (RCUs) and 3D stacking, with an energy efficiency of 15.2 TFLOPS/W, benchmarking against NVIDIA A100. Its 'compile-as-reconfigure' strategy boosts hardware utilization to over 90%, and the 3D near-memory design increases token generation speed by 2.3 times. This 'third route' trades system-level innovation for performance leaps, providing a new paradigm for domestic compute to break through process blockades.",
+          "key_points": [
+            "发布14nm制程“天枢-1”AI芯片",
+            "算力达520 TFLOPS，对标A100",
+            "采用软件定义与三维近存计算技术",
+            "探索出不依赖先进制程的国产算力路线"
+          ],
+          "key_points_en": [
+            "Release of 14nm 'Tianshu-1' AI chip",
+            "520 TFLOPS compute, benchmarking A100",
+            "Adopts software-defined and 3D near-memory tech",
+            "Explores domestic route independent of advanced nodes"
+          ],
+          "url": "https://blog.csdn.net/qq_63981644/article/details/163025341"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-07-30",
+          "category": "AI应用",
+          "category_en": "AI Applications",
+          "title": "端侧AI迎来产业拐点，智源研究院发布规模化落地报告",
+          "title_en": "Edge AI Reaches Industrial Inflection Point, BAAI Releases Scale Deployment Report",
+          "summary": "北京智源研究院发布《端侧智能2026》报告，定调AI产业主线从云端转向终端本地化落地，预计未来五年全球端侧AI市场空间将突破12万亿人民币。",
+          "summary_en": "Beijing Academy of AI released the 'Edge Intelligence 2026' report, setting the tone for the AI industry's mainline shifting from cloud to terminal localization. It projects the global edge AI market to exceed 12 trillion RMB in the next five years.",
+          "source": "今日头条",
+          "source_en": "Toutiao",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800",
+          "content": "2026年7月，北京智源研究院正式发布《端侧智能2026：规模化落地元年》行业报告，明确AI产业主线正从“堆更大云端模型”转向“终端本地化落地”，端侧AI正式迎来产业拐点。报告指出，受云端推理成本高企、隐私监管收紧及网络时延短板影响，AI推理需求正大规模下沉至终端设备。IDC测算，手机、AI PC、车载等全品类端侧硬件叠加软件算法，未来五年全球市场空间将突破12万亿人民币，国内本土产业链国产化替代空间超5万亿。多家头部消费电子与半导体厂商已同步调整产能规划，将端侧NPU和轻量化大模型列为核心增长业务。",
+          "content_en": "In July 2026, the Beijing Academy of AI officially released the industry report 'Edge Intelligence 2026: The First Year of Scale Deployment', clarifying that the AI industry's mainline is shifting from 'stacking larger cloud models' to 'terminal localization', marking an industrial inflection point for edge AI. The report points out that driven by high cloud inference costs, tightening privacy regulations, and network latency shortcomings, AI inference demand is大规模 sinking to terminal devices. IDC estimates that combining edge hardware like smartphones, AI PCs, and vehicles with software algorithms, the global market space will exceed 12 trillion RMB in the next five years, with domestic substitution space over 5 trillion RMB. Multiple leading consumer electronics and semiconductor manufacturers have adjusted capacity plans, listing edge NPUs and lightweight large models as core growth businesses.",
+          "key_points": [
+            "智源研究院发布端侧智能行业报告",
+            "AI产业主线转向终端本地化落地",
+            "预计未来五年全球市场空间破12万亿",
+            "头部厂商调整产能布局端侧NPU"
+          ],
+          "key_points_en": [
+            "BAAI releases edge intelligence industry report",
+            "AI industry mainline shifts to terminal localization",
+            "Global market space projected to exceed 12T RMB in 5 years",
+            "Leading manufacturers adjust capacity for edge NPUs"
+          ],
+          "url": "http://m.toutiao.com/group/7667964588842893847"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-07-30",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "《金融时报》：中国掌握关键矿产王牌，重塑全球AI竞争格局",
+          "title_en": "Financial Times: China Holds Key Mineral Trump Card, Reshaping Global AI Competition",
+          "summary": "英国《金融时报》发文称，关键矿产在AI竞争中的作用正超越算力，中国垄断了半导体源头关键矿产的精炼产能，成为中美AI博弈的核心地缘筹码。",
+          "summary_en": "The UK's Financial Times published an article stating that the role of key minerals in AI competition is surpassing compute power. China's monopoly on the refining capacity of source key minerals for semiconductors has become a core geopolitical chip in the US-China AI game.",
+          "source": "今日头条",
+          "source_en": "Toutiao",
+          "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800",
+          "content": "英国《金融时报》近日发文指出，中美AI竞争的关键在于谁掌握了源头的关键矿产。报道以稀土金属“钇”为例，其在GPU晶圆制造的栅介质、EUV光刻掩膜保护层及AI服务器封装基板中发挥着不可替代的作用。随着万亿参数大模型扩张，关键矿物消耗将增加数十倍。中国垄断了全球稀土精炼（占91%）、镓冶炼（占98%）等核心产能，尽管美国试图搭建“去中国化”供应链，但短期内无法摆脱依赖。目前中美形成“恐怖平衡”：美国管制高端芯片，中国则以关键矿产出口管制反制，关键矿产已成为AI博弈的核心地缘筹码。",
+          "content_en": "The UK's Financial Times recently published an article pointing out that the key to US-China AI competition lies in who controls source key minerals. Using the rare earth metal 'yttrium' as an example, the report notes its irreplaceable role in gate dielectrics for GPU wafer manufacturing, EUV lithography mask protective layers, and AI server packaging substrates. With the expansion of trillion-parameter large models, key mineral consumption will increase dozens of times. China monopolizes core capacities like global rare earth refining (91%) and gallium smelting (98%). Despite US attempts to build a 'de-China' supply chain, it cannot shake off dependence in the short term. Currently, a 'balance of terror' has formed: the US restricts high-end chips, while China retaliates with key mineral export controls, making key minerals a core geopolitical chip in the AI game.",
+          "key_points": [
+            "英媒称关键矿产成AI竞争核心",
+            "钇等矿产在芯片制造中不可或缺",
+            "中国垄断全球稀土及镓等精炼产能",
+            "关键矿产成为中美AI博弈地缘筹码"
+          ],
+          "key_points_en": [
+            "UK media claims key minerals are core to AI competition",
+            "Minerals like yttrium are indispensable in chip manufacturing",
+            "China monopolizes global rare earth and gallium refining",
+            "Key minerals become geopolitical chips in US-China AI game"
+          ],
+          "url": "http://m.toutiao.com/group/7667937769209070086"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "hero": {
         "id": "article-59",
         "title": "中国大模型包揽全球路由平台使用量前五：开源生态重塑全球AI版图",
         "title_en": "Chinese LLMs Sweep Top 5 on Global Routing Platforms: Open-Source Ecosystem Reshapes the Global AI Landscape",
@@ -1359,16 +1657,16 @@
     }
   ],
   "hero": {
-    "id": "hero-20260729",
-    "title": "零一万物退出“大模型六小虎”：中国AI创业资本逻辑转向盈利验证",
-    "title_en": "01.AI Exits the 'Big Model Six Tigers': China's AI Startup Capital Logic Shifts to Profitability Validation",
-    "image": "https://ainewsdaily.asia/img/pool/deep-analysis-forecast.jpg",
-    "date": "2026-07-29",
+    "id": "article-60",
+    "title": "OpenAI首发推理芯片Jalapeño：AI竞争全面进入“软硬一体”全栈时代",
+    "title_en": "OpenAI Launches First Inference Chip Jalapeño: AI Competition Enters the 'Hardware-Software Integration' Full-Stack Era",
+    "image": "https://ainewsdaily.asia/img/pool/deep-analysis-ai-ethics.jpg",
+    "date": "2026-07-30",
     "source": "AI News Daily",
     "source_en": "AI News Daily",
-    "summary": "2026年7月，李开复创办的零一万物正式宣布退出“大模型六小虎”阵营，全面对标Palantir转向ToB业务。这一标志性事件折射出中国大模型创业资本逻辑的深刻转变：从“算力补贴换用户规模”转向“商业化落地与盈利验证”。结合苹果市值突破5万亿美元背后的“不烧钱”克制策略，以及全球AI巨头对商业化PMF的追求，本文深度剖析中国AI产业在下半场的生存法则与破局之道。",
-    "summary_en": "In July 2026, Kai-Fu Lee's 01.AI officially announced its exit from the 'Big Model Six Tigers' camp, fully benchmarking Palantir and shifting towards B2B business. This landmark event reflects a profound shift in the capital logic of China's large model startups: from 'subsidizing computing power for user scale' to 'commercialization and profitability validation.' Combined with Apple's 'non-burning' restraint strategy behind its $5 trillion market cap, and the global AI giants' pursuit of commercialized PMF, this article deeply analyzes the survival rules and breakthrough paths of China's AI industry in the second half of the game.",
-    "category": "深度解读",
-    "category_en": "Deep Analysis"
+    "summary": "2026年，全球AI产业面临前所未有的“算力荒”。OpenAI发布首款自研推理芯片Jalapeño，标志着其全栈战略的里程碑。本文深度剖析软硬一体、先进封装与系统级创新如何重塑AI算力版图，推动行业迈入全栈竞争的新纪元。",
+    "summary_en": "In 2026, the global AI industry faces an unprecedented 'computing power shortage.' OpenAI's release of its first custom inference chip, Jalapeño, marks a milestone in its full-stack strategy. This article deeply analyzes how hardware-software integration, advanced packaging, and system-level innovations are reshaping the AI computing landscape, pushing the industry into a new era of full-stack competition.",
+    "category": "芯片算力",
+    "category_en": "Chip & Computing Power"
   }
 }

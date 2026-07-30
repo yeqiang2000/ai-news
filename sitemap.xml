@@ -1014,4 +1014,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-59.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-59.html" />
   </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/article-60.html</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-60.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-60.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-60.html" />
+  </url>
+  <url>
+    <loc>https://ainewsdaily.asia/articles/en/article-60.html</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainewsdaily.asia/articles/article-60.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ainewsdaily.asia/articles/en/article-60.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ainewsdaily.asia/articles/article-60.html" />
+  </url>
 </urlset>

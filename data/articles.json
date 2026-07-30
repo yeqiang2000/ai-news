@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "article-60",
+      "date": "2026-07-30",
+      "title": "OpenAI首发推理芯片Jalapeño：AI竞争全面进入“软硬一体”全栈时代",
+      "title_en": "OpenAI Launches First Inference Chip Jalapeño: AI Competition Enters the 'Hardware-Software Integration' Full-Stack Era",
+      "category": "芯片算力",
+      "category_en": "Chip & Computing Power",
+      "image": "https://ainewsdaily.asia/img/pool/deep-analysis-ai-ethics.jpg",
+      "summary": "2026年，全球AI产业面临前所未有的“算力荒”。OpenAI发布首款自研推理芯片Jalapeño，标志着其全栈战略的里程碑。本文深度剖析软硬一体、先进封装与系统级创新如何重塑AI算力版图，推动行业迈入全栈竞争的新纪元。",
+      "summary_en": "In 2026, the global AI industry faces an unprecedented 'computing power shortage.' OpenAI's release of its first custom inference chip, Jalapeño, marks a milestone in its full-stack strategy. This article deeply analyzes how hardware-software integration, advanced packaging, and system-level innovations are reshaping the AI computing landscape, pushing the industry into a new era of full-stack competition.",
+      "author": "AI News Daily",
+      "read_time": "8 min",
+      "tags": [
+        "OpenAI",
+        "Jalapeño",
+        "AI推理芯片",
+        "软硬一体",
+        "先进封装",
+        "算力荒",
+        "全栈战略",
+        "半导体"
+      ],
+      "tags_en": [
+        "OpenAI",
+        "Jalapeño",
+        "AI Inference Chip",
+        "Hardware-Software Integration",
+        "Advanced Packaging",
+        "Computing Shortage",
+        "Full-Stack Strategy",
+        "Semiconductor"
+      ]
+    },
+    {
       "id": "article-59",
       "date": "2026-07-30",
       "title": "中国大模型包揽全球路由平台使用量前五：开源生态重塑全球AI版图",
