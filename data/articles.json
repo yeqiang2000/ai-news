@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "article-59",
+      "date": "2026-07-30",
+      "title": "中国大模型包揽全球路由平台使用量前五：开源生态重塑全球AI版图",
+      "title_en": "Chinese LLMs Sweep Top 5 on Global Routing Platforms: Open-Source Ecosystem Reshapes the Global AI Landscape",
+      "category": "大模型",
+      "category_en": "Large Models",
+      "image": "https://ainewsdaily.asia/img/pool/deep-analysis-research.jpg",
+      "summary": "2026年7月，中国大模型首次包揽全球中立路由平台OpenRouter使用量前五，标志着中国AI在全球开发者市场的统治力。本文深度剖析中国大模型如何通过万亿参数开源、MoE架构创新及极致性价比打破西方闭源垄断。同时，结合国内算力基建升级、商业化落地加速以及全球AI安全治理呼吁，揭示中国开源生态不仅重塑了全球AI产业版图，更为弥合全球“智能鸿沟”、推动AI普惠发展提供了核心驱动力。",
+      "summary_en": "In July 2026, Chinese LLMs swept the top 5 spots on the global neutral routing platform OpenRouter, marking China's dominance in the global developer market. This article deeply analyzes how Chinese LLMs are breaking Western closed-source monopolies through trillion-parameter open-weights, MoE architecture innovation, and extreme cost-effectiveness. Combined with the upgrade of domestic computing infrastructure, accelerated commercialization, and global calls for AI safety governance, it reveals that China's open-source ecosystem is not only reshaping the global AI landscape but also providing core momentum for bridging the global 'intelligence gap' and promoting inclusive AI development.",
+      "author": "AI News Daily",
+      "read_time": "10 min",
+      "tags": [
+        "中国大模型",
+        "OpenRouter",
+        "开源生态",
+        "Kimi K3",
+        "AI算力",
+        "MoE架构",
+        "人工智能商业化",
+        "全球AI版图"
+      ],
+      "tags_en": [
+        "Chinese LLMs",
+        "OpenRouter",
+        "Open-Source Ecosystem",
+        "Kimi K3",
+        "AI Computing Power",
+        "MoE Architecture",
+        "AI Commercialization",
+        "Global AI Landscape"
+      ]
+    },
+    {
       "id": "article-58",
       "date": "2026-07-29",
       "title": "零一万物退出“大模型六小虎”：中国AI创业资本逻辑转向盈利验证",
@@ -1030,5 +1063,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-07-29"
+  "last_updated": "2026-07-30"
 }
