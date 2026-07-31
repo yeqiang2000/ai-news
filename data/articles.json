@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "article-61",
+      "date": "2026-07-31",
+      "title": "大模型告别“参数暴力美学”：从万亿规模竞赛走向效率革命与商业落地拐点",
+      "title_en": "Beyond Parameter Brute Force: The Shift from Trillion-Parameter Race to Efficiency Revolution and Commercial Inflection",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "image": "https://ainewsdaily.asia/img/pool/deep-analysis-market-trend.jpg",
+      "summary": "2026年下半年，大模型行业正式告别盲目堆砌参数的“暴力美学”。从OpenAI GPT-5.6 Luna大幅降价80%，到Anthropic Claude Opus 5实现“加量不加价”，再到中国厂商凭借MoE架构在开源生态中强势突围，AI竞争的核心已全面转向推理效率、算力架构优化与Agent商业落地。本文深度剖析这场从“规模竞赛”到“效率革命”的产业跃迁。",
+      "summary_en": "In the second half of 2026, the large model industry officially bids farewell to the 'brute force aesthetics' of blindly stacking parameters. From OpenAI's 80% price cut for GPT-5.6 Luna to Anthropic's Claude Opus 5 offering more for the same price, and Chinese vendors breaking through the open-source ecosystem with MoE architecture, the core of AI competition has fully shifted to inference efficiency, computing architecture optimization, and Agent commercialization. This article deeply analyzes this industrial leap from 'scale race' to 'efficiency revolution'.",
+      "author": "AI News Daily",
+      "read_time": "8 min",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "参数规模",
+        "MoE架构",
+        "AI Agent",
+        "商业落地",
+        "开源模型",
+        "算力超节点"
+      ],
+      "tags_en": [
+        "Large Language Models",
+        "OpenAI",
+        "Parameter Scale",
+        "MoE Architecture",
+        "AI Agents",
+        "Commercialization",
+        "Open Source Models",
+        "Computing Super Nodes"
+      ]
+    },
+    {
       "id": "article-60",
       "date": "2026-07-30",
       "title": "OpenAI首发推理芯片Jalapeño：AI竞争全面进入“软硬一体”全栈时代",
@@ -1096,5 +1129,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-07-31"
 }

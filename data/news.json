@@ -1,6 +1,304 @@
 {
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-07-31",
   "days": [
+    {
+      "date": "2026-07-31",
+      "hero": {
+        "id": "article-61",
+        "date": "2026-07-31",
+        "title": "大模型告别“参数暴力美学”：从万亿规模竞赛走向效率革命与商业落地拐点",
+        "title_en": "Beyond Parameter Brute Force: The Shift from Trillion-Parameter Race to Efficiency Revolution and Commercial Inflection",
+        "category": "深度解读",
+        "category_en": "Deep Analysis",
+        "image": "https://ainewsdaily.asia/img/pool/deep-analysis-market-trend.jpg",
+        "summary": "2026年下半年，大模型行业正式告别盲目堆砌参数的“暴力美学”。从OpenAI GPT-5.6 Luna大幅降价80%，到Anthropic Claude Opus 5实现“加量不加价”，再到中国厂商凭借MoE架构在开源生态中强势突围，AI竞争的核心已全面转向推理效率、算力架构优化与Agent商业落地。本文深度剖析这场从“规模竞赛”到“效率革命”的产业跃迁。",
+        "summary_en": "In the second half of 2026, the large model industry officially bids farewell to the 'brute force aesthetics' of blindly stacking parameters. From OpenAI's 80% price cut for GPT-5.6 Luna to Anthropic's Claude Opus 5 offering more for the same price, and Chinese vendors breaking through the open-source ecosystem with MoE architecture, the core of AI competition has fully shifted to inference efficiency, computing architecture optimization, and Agent commercialization. This article deeply analyzes this industrial leap from 'scale race' to 'efficiency revolution'.",
+        "url": "/articles/article-61.html",
+        "url_en": "/articles/en/article-61.html"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-07-31",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "降价80%！OpenAI大幅下调GPT-5.6 Luna模型调用费用",
+          "title_en": "80% Price Cut! OpenAI Slashes GPT-5.6 Luna Model Costs",
+          "summary": "OpenAI宣布下调GPT-5.6 Terra和Luna两款模型的API调用费用，其中Luna模型降幅高达80%。此举旨在降低企业使用成本，加速AGI普及。",
+          "summary_en": "OpenAI announced price cuts for its GPT-5.6 Terra and Luna models, with Luna seeing an 80% reduction. This move aims to lower enterprise costs and accelerate AGI adoption.",
+          "source": "IT之家",
+          "source_en": "IT Home",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800",
+          "content": "7月31日，OpenAI正式宣布下调GPT-5.6 Terra和GPT-5.6 Luna两款模型的API调用费用。数据显示，GPT-5.6 Luna的输入价格从每百万Token 1美元降至0.2美元，输出价格从6美元降至1.2美元，降幅高达80%；Terra模型的输入和输出价格也均下调了20%。OpenAI表示，普及先进智能是公司的核心使命，希望通过降价回馈用户，为企业提供更具成本效益的方式来处理高质量工作。根据Artificial Analysis Intelligence Index v4.1的跑分对比，GPT-5.6 Luna在性价比上表现优异，优于DeepSeek V4 Pro等竞品。",
+          "content_en": "On July 31, OpenAI officially announced price reductions for the API calls of its GPT-5.6 Terra and GPT-5.6 Luna models. Data shows that the input price for GPT-5.6 Luna dropped from $1 to $0.2 per million tokens, and output from $6 to $1.2, marking an 80% cut; Terra's input and output prices were both reduced by 20%. OpenAI stated that democratizing advanced intelligence is its core mission, aiming to reward users and provide enterprises with a more cost-effective way to handle high-quality workloads. According to the Artificial Analysis Intelligence Index v4.1, GPT-5.6 Luna offers superior cost-performance, outperforming competitors like DeepSeek V4 Pro.",
+          "key_points": [
+            "GPT-5.6 Luna模型输入输出价格降幅达80%",
+            "GPT-5.6 Terra模型调用费用下调20%",
+            "OpenAI旨在降低企业成本以普及AGI",
+            "Luna模型在性价比测试中优于DeepSeek V4 Pro"
+          ],
+          "key_points_en": [
+            "GPT-5.6 Luna model input and output prices cut by 80%",
+            "GPT-5.6 Terra model API costs reduced by 20%",
+            "OpenAI aims to lower enterprise costs to democratize AGI",
+            "Luna outperforms DeepSeek V4 Pro in cost-performance benchmarks"
+          ],
+          "url": "http://m.toutiao.com/group/7668462948725129737"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-07-31",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "马斯克预告：Grok 4.6将于8月7日发布，随后推出2.1万亿参数Grok 4.7",
+          "title_en": "Elon Musk Previews: Grok 4.6 Coming Aug 7, Followed by 2.1-Trillion-Parameter Grok 4.7",
+          "summary": "马斯克在X平台宣布，Grok 4.6（1.5万亿参数）将于8月7日发布，几周后还将推出2.1万亿参数的Grok 4.7，保持高频迭代节奏。",
+          "summary_en": "Musk announced on X that Grok 4.6 (1.5 trillion parameters) will launch on August 7, followed by the 2.1-trillion-parameter Grok 4.7 a few weeks later, maintaining a high-frequency iteration pace.",
+          "source": "凤凰网科技",
+          "source_en": "iFeng Tech",
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800",
+          "content": "7月30日，SpaceXAI创始人埃隆·马斯克在社交平台X发文透露了新一代大模型的发布计划。他表示，参数规模达1.5万亿的Grok 4.6预计将于8月7日左右发布，该模型在监督微调（SFT）和强化学习（RL）方面将有显著提升。此外，几周后SpaceXAI还将推出规模更大的Grok 4.7，其参数规模将增至2.1万亿。此前，Grok 4.5已于7月8日向公众开放，被马斯克称为“Opus级别”模型，具备更快的速度和更低的推理成本。马斯克强调，积极的内部测试反馈促使公司加快新模型的发布节奏，以巩固其在AI领域的领先地位。",
+          "content_en": "On July 30, SpaceXAI founder Elon Musk revealed the release schedule for the next-generation large models on X. He stated that Grok 4.6, with 1.5 trillion parameters, is expected to launch around August 7, featuring significant improvements in Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL). Additionally, a larger Grok 4.7 with 2.1 trillion parameters will follow a few weeks later. Previously, Grok 4.5 was released to the public on July 8, dubbed an \"Opus-level\" model with faster speeds and lower inference costs. Musk emphasized that positive internal testing feedback is driving the accelerated release pace to maintain their lead in the AI sector.",
+          "key_points": [
+            "Grok 4.6（1.5万亿参数）定于8月7日发布",
+            "Grok 4.7（2.1万亿参数）将在数周后推出",
+            "新模型在SFT和强化学习方面显著提升",
+            "SpaceXAI保持极高的大模型迭代频率"
+          ],
+          "key_points_en": [
+            "Grok 4.6 (1.5T parameters) scheduled for August 7 release",
+            "Grok 4.7 (2.1T parameters) to follow in a few weeks",
+            "New models feature significant SFT and RL improvements",
+            "SpaceXAI maintains extremely high LLM iteration frequency"
+          ],
+          "url": "https://i.ifeng.com/c/8v9wZcXmW5L"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-07-31",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "中国重塑全球AI格局：月之暗面开源2.8万亿参数Kimi K3模型",
+          "title_en": "China Reshapes Global AI Landscape: Moonshot AI Open-Sources 2.8-Trillion-Parameter Kimi K3",
+          "summary": "月之暗面发布旗舰开源模型Kimi K3，拥有2.8万亿参数和100万上下文窗口，成为全球最大开源权重模型，助力弥合全球“智能鸿沟”。",
+          "summary_en": "Moonshot AI released its flagship open-source model Kimi K3, featuring 2.8 trillion parameters and a 1-million-token context window, becoming the world's largest open-weight model to help bridge the global \"intelligence gap.\"",
+          "source": "中国网",
+          "source_en": "China.org.cn",
+          "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800",
+          "content": "7月30日，北京月之暗面（Moonshot AI）正式开源其旗舰Kimi K3系统的全套内容，包括模型权重、技术报告及关键训练基础设施。该模型基于混合专家（MoE）架构，拥有2.8万亿参数，并具备原生图像理解能力和100万Token的超长上下文窗口。通过自研计算架构和训练优化，团队在受限硬件资源下将计算效率提升了250%。在独立评估机构Artificial Analysis的基准测试中，Kimi K3的整体智能排名第三，仅次于Anthropic的Claude Fable 5和OpenAI的GPT-5.6 Sol。作为目前全球最大的开源权重模型，Kimi K3允许全球开发者自由下载和本地部署，为欠发达国家和基层创新者提供了先进且低成本的计算工具。",
+          "content_en": "On July 30, Beijing-based Moonshot AI officially open-sourced the full suite of its flagship Kimi K3 system, including model weights, technical reports, and key training infrastructure. Built on a Mixture-of-Experts (MoE) framework, the model features 2.8 trillion parameters, native image comprehension, and a 1-million-token context window. Through a self-developed computing architecture and training optimization, the team increased computing efficiency by 250% despite constrained hardware. In benchmarks by Artificial Analysis, Kimi K3 ranked third in overall intelligence, trailing only Anthropic's Claude Fable 5 and OpenAI's GPT-5.6 Sol. As the world's largest open-weight model, it allows global developers to freely download and deploy it locally, providing advanced, affordable tools for less developed nations and grassroots innovators.",
+          "key_points": [
+            "月之暗面开源2.8万亿参数Kimi K3模型",
+            "基于MoE架构，支持100万Token上下文",
+            "计算效率提升250%，整体智能排名全球第三",
+            "允许全球开发者自由下载以弥合智能鸿沟"
+          ],
+          "key_points_en": [
+            "Moonshot AI open-sources 2.8T parameter Kimi K3 model",
+            "Built on MoE architecture with 1M-token context window",
+            "Computing efficiency up 250%, ranks 3rd globally in intelligence",
+            "Allows free global downloads to bridge the intelligence gap"
+          ],
+          "url": "http://www.china.org.cn/2026-07/30/content_118625773.shtml"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-07-31",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "突发！北大校友翁荔光速加入OpenAI，亲自挂帅研发“递归自我改进”",
+          "title_en": "Breaking! PKU Alum Lilian Weng Joins OpenAI to Lead \"Recursive Self-Improvement\"",
+          "summary": "前Thinking Machines联创翁荔在因病离职仅48小时后，光速加入OpenAI，将带队开发“递归自我改进”（RSI）新模型，加速AI自我进化。",
+          "summary_en": "Former Thinking Machines co-founder Lilian Weng joined OpenAI just 48 hours after resigning, leading the development of \"Recursive Self-Improvement\" (RSI) models to accelerate AI self-evolution.",
+          "source": "今日头条",
+          "source_en": "Toutiao",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800",
+          "content": "7月31日消息，北大校友、前Thinking Machines联合创始人翁荔在因病裸辞仅48小时后，正式确认加入OpenAI。OpenAI发言人证实，翁荔将亲自挂帅，领导一个聚焦“递归自我改进”（RSI）的全新团队。RSI旨在用AI研发AI，让AI加速OpenAI设计、训练和评估下一代模型的流程。这契合了OpenAI首席科学家Jakub Pachocki此前定下的“打造全自动AI研究员”的北极星战略。翁荔在月初发布的长文《Harness Engineering for Self-Improvement》中详细阐述了RSI的工程化路径，强调通过优化模型外部的脚手架（Harness）来实现可靠的AI自我改进。这一人事变动标志着OpenAI在通往AGI和超级智能的道路上迈出了极具战略意义的一步。",
+          "content_en": "On July 31, it was reported that Lilian Weng, a Peking University alum and former co-founder of Thinking Machines, officially joined OpenAI just 48 hours after her sudden resignation due to illness. An OpenAI spokesperson confirmed that Weng will lead a new team focused on \"Recursive Self-Improvement\" (RSI). RSI aims to use AI to develop AI, accelerating OpenAI's process of designing, training, and evaluating next-generation models. This aligns with the \"North Star\" strategy set by OpenAI's Chief Scientist Jakub Pachocki to build a fully automated \"AI researcher.\" In her recent blog post, Weng detailed the engineering path for RSI, emphasizing the optimization of external scaffolding (Harness) for reliable AI self-improvement. This move marks a highly strategic step for OpenAI on its path to AGI and superintelligence.",
+          "key_points": [
+            "翁荔离职Thinking Machines后48小时内加入OpenAI",
+            "将带队研发“递归自我改进”（RSI）新模型",
+            "RSI旨在实现AI自动设计、训练下一代模型",
+            "契合OpenAI打造全自动AI研究员的北极星战略"
+          ],
+          "key_points_en": [
+            "Weng joins OpenAI within 48 hours of leaving Thinking Machines",
+            "Will lead development of 'Recursive Self-Improvement' (RSI) models",
+            "RSI aims to automate AI designing and training next-gen models",
+            "Aligns with OpenAI's North Star strategy of building an automated AI researcher"
+          ],
+          "url": "http://m.toutiao.com/group/7668355146618896938"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-07-31",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "118B参数击败1.6万亿巨头！Poolside发布高效编程模型Laguna S 2.1",
+          "title_en": "118B Beats 1.6T Giants! Poolside Releases Highly Efficient Coding Model Laguna S 2.1",
+          "summary": "AI初创公司Poolside发布118B参数的编程模型Laguna S 2.1，在Terminal-Bench测试中击败DeepSeek等万亿参数模型，证明编程竞争转向效率。",
+          "summary_en": "AI startup Poolside released Laguna S 2.1, a 118B-parameter coding model that outperformed trillion-parameter models like DeepSeek in Terminal-Bench, proving the coding race is shifting towards efficiency.",
+          "source": "创意艺术AI实验室",
+          "source_en": "Creative AI Lab",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800",
+          "content": "7月22日，旧金山AI实验室Poolside发布了118B参数的编程模型Laguna S 2.1。在衡量AI自主完成长周期终端任务的Terminal-Bench 2.1基准测试中，Laguna S 2.1取得了70.2%的成绩，成功击败了拥有1.6万亿参数的DeepSeek-V4-Pro-Max（64.0%）和9750亿参数的Inkling（63.8%）。该模型采用稀疏MoE架构，推理时仅激活8B参数，使得一台DGX Spark即可运行，大幅降低了推理成本。Poolside通过此模型瞄准了对数据主权要求极高的政府和国防机构客户。这一突破表明，AI编程领域的竞争正从“堆砌算力与参数”转向“提升单卡算力利用率”，打破了西方实验室在大型开源编程模型上长达11个月的空白。",
+          "content_en": "On July 22, San Francisco AI lab Poolside released Laguna S 2.1, a 118B-parameter coding model. In the Terminal-Bench 2.1 benchmark, which measures AI's ability to autonomously complete long-cycle terminal tasks, Laguna S 2.1 scored 70.2%, successfully defeating DeepSeek-V4-Pro-Max (1.6T parameters, 64.0%) and Inkling (975B parameters, 63.8%). Utilizing a sparse MoE architecture, the model activates only 8B parameters during inference, allowing it to run on a single DGX Spark and drastically cutting costs. Poolside is targeting government and defense clients with strict data sovereignty needs. This breakthrough indicates that the AI coding race is shifting from \"scaling compute and parameters\" to \"maximizing compute efficiency,\" breaking an 11-month drought for large open-source coding models from Western labs.",
+          "key_points": [
+            "Laguna S 2.1仅118B参数，推理激活8B",
+            "Terminal-Bench测试得分70.2%，击败万亿参数模型",
+            "采用稀疏MoE架构，大幅降低推理与部署成本",
+            "AI编程竞争从参数规模转向算力利用效率"
+          ],
+          "key_points_en": [
+            "Laguna S 2.1 has only 118B parameters, activating 8B for inference",
+            "Scored 70.2% in Terminal-Bench, defeating trillion-parameter models",
+            "Uses sparse MoE architecture to drastically cut inference costs",
+            "AI coding competition shifts from parameter scale to compute efficiency"
+          ],
+          "url": "http://m.toutiao.com/group/7668020491541660203"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-07-31",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "腾讯混元Hy3登顶OpenRouter全球榜首，多模态统一时代加速来临",
+          "title_en": "Tencent Hunyuan Hy3 Tops OpenRouter Global Chart, Accelerating the Unified Multimodal Era",
+          "summary": "腾讯混元大模型Hy3发布后调用量激增，登顶全球最大API聚合平台OpenRouter榜首，标志着腾讯在模型效率与全模态统一落地上取得重大突破。",
+          "summary_en": "Tencent's Hunyuan Hy3 model saw a surge in API calls after its release, topping the global chart on OpenRouter, marking a major breakthrough in model efficiency and unified multimodal deployment for Tencent.",
+          "source": "CSDN",
+          "source_en": "CSDN",
+          "image": "https://images.unsplash.com/photo-1531746790095-e5995a61b641?auto=format&fit=crop&w=800",
+          "content": "2026年7月，腾讯正式发布混元大模型Hy3。据全球最大API聚合平台OpenRouter数据显示，Hy3在调用量总榜上迅速升至第一，总调用量较上一代Hy2增长超68倍。在腾讯自研办公智能体WorkBuddy中，用户选择Hy3的比例高达60%。Hy3展现出强于同尺寸模型且比肩2至5倍参数规模旗舰模型的智能水平。为全力冲刺商业化与全模态统一，腾讯于7月23日宣布将混元多模态模型部门与大语言模型部门合并，成立基础模型部。这一架构调整意味着腾讯AI战略从“分赛道研发”正式转向“全模态统一落地”，结合字节Seed Audio等发布，行业正经历从单一文本向统一多模态基座的范式跃迁。",
+          "content_en": "In July 2026, Tencent officially released the Hunyuan Hy3 large model. According to data from OpenRouter, the world's largest API aggregation platform, Hy3 quickly rose to the top of the total call volume chart, with calls increasing over 68 times compared to the previous Hy2 generation. In Tencent's self-developed office agent WorkBuddy, 60% of users chose Hy3. Hy3 demonstrates intelligence surpassing models of the same size and rivaling flagship models with 2 to 5 times the parameters. To push for commercialization and unified multimodal deployment, Tencent announced on July 23 the merger of its multimodal and LLM departments into a new Foundation Model Department. This structural shift signifies Tencent's AI strategy moving from \"separate track R&D\" to \"unified multimodal deployment,\" echoing industry-wide transitions towards unified multimodal foundations.",
+          "key_points": [
+            "腾讯混元Hy3登顶OpenRouter全球调用量榜首",
+            "调用量较上一代增长超68倍，Agent产品采用率达60%",
+            "腾讯合并大语言与多模态部门，成立基础模型部",
+            "标志着AI行业向全模态统一基座的范式跃迁"
+          ],
+          "key_points_en": [
+            "Tencent Hunyuan Hy3 tops OpenRouter global call volume chart",
+            "Calls increased over 68x YoY, 60% adoption in Agent products",
+            "Tencent merges LLM and multimodal departments into Foundation Model Dept",
+            "Marks industry paradigm shift towards unified multimodal foundations"
+          ],
+          "url": "https://mukebb.blog.csdn.net/article/details/163232392"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-07-31",
+          "category": "机器人",
+          "category_en": "Robotics",
+          "title": "Google发布Gemini Robotics ER 2，赋予机器人自主思考与协作能力",
+          "title_en": "Google Launches Gemini Robotics ER 2, Empowering Robots with Autonomous Thinking and Collaboration",
+          "summary": "Google推出最新机器人AI模型Gemini Robotics ER 2，使机器人能够同时思考与行动，实现复杂任务协调及多机器人协作，释放机器人技术真正潜力。",
+          "summary_en": "Google introduced its latest robotics AI model, Gemini Robotics ER 2, enabling robots to think and act simultaneously, coordinating complex tasks and multi-robot collaboration to unlock the true potential of robotics.",
+          "source": "Hipertextual",
+          "source_en": "Hipertextual",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800",
+          "content": "7月30日，Google正式发布了其最先进的机器人人工智能模型Gemini Robotics ER 2。该模型的核心突破在于打破了传统机器人“先感知后行动”的串行逻辑，使机器人能够在与物理环境交互的同时进行实时思考与决策。Gemini Robotics ER 2不仅大幅提升了机器人与人类自然交互的能力，还能在复杂环境中自主协调多步骤任务，并支持多台机器人之间的无缝协作。Google表示，这一新模型将彻底改变机器人技术的开发范式，帮助释放机器人的真正潜力，推动具身智能从实验室走向更广泛的工业与商业应用场景，加速向通用物理智能迈进。",
+          "content_en": "On July 30, Google officially launched its most advanced robotics AI model, Gemini Robotics ER 2. The core breakthrough of this model lies in breaking the traditional serial logic of \"perceive then act,\" enabling robots to think and make decisions in real-time while interacting with the physical environment. Gemini Robotics ER 2 not only significantly enhances natural human-robot interaction but also autonomously coordinates multi-step tasks in complex environments and supports seamless collaboration among multiple robots. Google stated that this new model will fundamentally change the development paradigm of robotics, helping to unlock the true potential of robots and pushing embodied AI from labs to broader industrial and commercial applications, accelerating the march towards general physical intelligence.",
+          "key_points": [
+            "Google发布最新机器人模型Gemini Robotics ER 2",
+            "实现机器人边思考边行动的实时交互决策",
+            "支持复杂任务自主协调与多机器人无缝协作",
+            "旨在释放机器人潜力，推动具身智能商业化落地"
+          ],
+          "key_points_en": [
+            "Google releases latest robotics model Gemini Robotics ER 2",
+            "Enables real-time thinking and acting during physical interaction",
+            "Supports autonomous coordination of complex tasks and multi-robot collaboration",
+            "Aims to unlock robot potential and drive commercialization of embodied AI"
+          ],
+          "url": "https://hipertextual.com/inteligencia-artificial/gemini-robotics-er-2-google-ia-robots/"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-07-31",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing Power",
+          "title": "SK海力士Q2营收暴涨257%，AI内存需求成核心驱动力",
+          "title_en": "SK Hynix Q2 Revenue Surges 257%, AI Memory Demand Becomes Core Driver",
+          "summary": "SK海力士公布2026年Q2财报，营收达79.3万亿韩元，同比暴涨257%，营业利润率高达76%，AI驱动的HBM等内存芯片需求爆发是主要功臣。",
+          "summary_en": "SK Hynix reported its Q2 2026 financials, with revenue reaching 79.3 trillion KRW, a 257% YoY surge, and an operating margin of 76%, driven primarily by the explosive demand for AI memory chips like HBM.",
+          "source": "eTeknix",
+          "source_en": "eTeknix",
+          "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800",
+          "content": "7月30日，韩国存储芯片巨头SK海力士公布了2026年第二季度财报，业绩创下历史新高。数据显示，公司Q2营收达到79.3万亿韩元，同比暴涨257%；营业利润高达60.5万亿韩元，营业利润率达到了惊人的76%；净利润更是攀升至93.9万亿韩元。这一破纪录的业绩主要归功于全球AI基础设施建设的狂潮。随着NVIDIA等AI芯片巨头对高带宽内存（HBM）的需求呈指数级增长，SK海力士作为核心供应商，其HBM及先进DRAM产品供不应求，价格持续走高。财报凸显了AI算力竞赛中“存力”环节的巨大商业价值，也印证了内存芯片已成为当前AI硬件产业链中最赚钱的赛道之一。",
+          "content_en": "On July 30, South Korean memory chip giant SK Hynix released its Q2 2026 financial report, posting record-breaking results. Data shows Q2 revenue reached 79.3 trillion KRW, a 257% YoY surge; operating profit hit 60.5 trillion KRW, yielding an astonishing 76% operating margin; and net profit climbed to 93.9 trillion KRW. This record performance is primarily attributed to the global boom in AI infrastructure construction. As AI chip giants like NVIDIA see exponential growth in demand for High Bandwidth Memory (HBM), SK Hynix, a core supplier, faces overwhelming demand and rising prices for its HBM and advanced DRAM products. The earnings highlight the massive commercial value of the \"memory\" segment in the AI computing race, confirming memory chips as one of the most profitable tracks in the current AI hardware supply chain.",
+          "key_points": [
+            "SK海力士Q2营收79.3万亿韩元，同比增257%",
+            "营业利润率达76%，净利润攀升至93.9万亿韩元",
+            "AI基础设施建设带动HBM等内存需求爆发",
+            "凸显AI算力竞赛中“存力”环节的巨大商业价值"
+          ],
+          "key_points_en": [
+            "SK Hynix Q2 revenue hits 79.3T KRW, up 257% YoY",
+            "Operating margin reaches 76%, net profit climbs to 93.9T KRW",
+            "AI infrastructure boom drives explosive demand for HBM memory",
+            "Highlights massive commercial value of 'memory' in AI computing race"
+          ],
+          "url": "https://www.eteknix.com/sk-hynix-breaks-all-its-records-as-revenue-jumps-257-in-a-year-thanks-to-the-ai-memory-boom/"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-07-31",
+          "category": "投融资",
+          "category_en": "Investment & Financing",
+          "title": "硬科技登陆港股：中际旭创H股上市，成今年港股最大IPO",
+          "title_en": "Hard Tech Lands on HKEX: Zhongji Innolight H-Share IPO Becomes Year's Largest",
+          "summary": "A股光模块龙头中际旭创H股正式登陆港交所，斩获今年港股最大IPO，淡马锡、贝莱德等全球长线资本悉数入局，彰显全球资本对中国AI算力产业链的看好。",
+          "summary_en": "A-share optical module leader Zhongji Innolight's H-shares officially debuted on the HKEX, securing the year's largest IPO. Global long-term capital like Temasek and BlackRock participated, highlighting global confidence in China's AI computing supply chain.",
+          "source": "央视财经",
+          "source_en": "CCTV Finance",
+          "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800",
+          "content": "7月30日，A股光模块龙头企业中际旭创的H股正式登陆港交所，成为2026年港股市场规模最大的IPO项目。本次IPO吸引了淡马锡、贝莱德、摩根资产管理、加拿大养老基金等33家全球顶级机构作为基石投资者，合计认购约34.50亿美元。中际旭创作为全球领先的光互连解决方案提供商，其产品是AI大模型和超级算力中心高速运转不可或缺的“信息高速路”。此次上市不仅刷新了港股年度募资纪录，更与近期登陆科创板的长鑫科技等硬科技企业一起，标志着中国高端制造与AI核心产业（涵盖算力、运力、存力）已全面进入全球化资本布局的新阶段，获得了国际长线资本的坚定认可。",
+          "content_en": "On July 30, the H-shares of A-share optical module leader Zhongji Innolight officially debuted on the HKEX, becoming the largest IPO on the Hong Kong stock market in 2026. The IPO attracted 33 top global institutions, including Temasek, BlackRock, Morgan Stanley Asset Management, and the Canada Pension Plan, as cornerstone investors, subscribing to a total of approximately $3.45 billion. As a global leader in optical interconnect solutions, Zhongji Innolight's products are indispensable \"information highways\" for the high-speed operation of AI large models and supercomputing centers. This listing not only refreshed the annual fundraising record on the HKEX but also, along with recent hard-tech IPOs like Changxin Memory, marks that China's high-end manufacturing and core AI industries (covering computing, transmission, and storage power) have fully entered a new stage of global capital allocation, gaining firm recognition from international long-term capital.",
+          "key_points": [
+            "中际旭创H股登陆港交所，成今年港股最大IPO",
+            "淡马锡、贝莱德等33家机构认购超34.5亿美元",
+            "光模块是AI算力中心不可或缺的“信息高速路”",
+            "标志中国AI核心产业进入全球化资本布局新阶段"
+          ],
+          "key_points_en": [
+            "Zhongji Innolight H-shares debut on HKEX, year's largest IPO",
+            "33 institutions including Temasek and BlackRock subscribed over $3.45B",
+            "Optical modules are vital 'information highways' for AI computing centers",
+            "Marks new stage of global capital allocation for China's core AI industries"
+          ],
+          "url": "http://m.toutiao.com/group/7668468728073290246"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-07-31",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "Anthropic发布Claude Opus 5，并以万亿美元估值推进IPO计划",
+          "title_en": "Anthropic Releases Claude Opus 5 and Pushes IPO Plans with $1 Trillion Valuation",
+          "summary": "Anthropic推出旗舰模型Claude Opus 5，以Opus 4.8的价格提供接近Fable 5的智能，同时公司正以超万亿美元估值的目标推进10月份的IPO。",
+          "summary_en": "Anthropic launched its flagship Claude Opus 5, offering near-Fable 5 intelligence at Opus 4.8 pricing, while the company pushes its October IPO targeting a valuation exceeding $1 trillion.",
+          "source": "BigHat Group",
+          "source_en": "BigHat Group",
+          "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800",
+          "content": "7月30日，AI工具领域的重心发生转移，Anthropic正式发布了旗舰模型Claude Opus 5。该模型在定价上保持了与Opus 4.8相同的水平（输入5美元/百万Token，输出25美元/百万Token），仅为竞品Fable 5的一半，却提供了接近前沿的智能水平。Opus 5原生支持100万Token上下文窗口，并默认开启五级扩展思考模式。与此同时，Anthropic在基础设施和企业级控制上持续发力，MCP协议完成重大无状态化修订。在商业层面，Anthropic展现出超大规模云厂商的支出力度，向AMD投资50亿美元，每月向SpaceX支付12.5亿美元，并正积极筹备于10月进行IPO，目标估值超过1万亿美元，标志着AI大模型商业化与资本化的巅峰对决。",
+          "content_en": "On July 30, the center of gravity in AI tooling shifted as Anthropic officially released its flagship model, Claude Opus 5. Priced identically to Opus 4.8 ($5/million input tokens, $25/million output), it is half the cost of Fable 5 while delivering near-frontier intelligence. Opus 5 natively supports a 1-million-token context window and defaults to a five-level extended thinking mode. Concurrently, Anthropic continues to advance its infrastructure and enterprise controls, with the MCP specification undergoing a major stateless revision. Commercially, Anthropic is spending like a hyperscaler—investing $5B in AMD and paying SpaceX $1.25B monthly—and is actively preparing for an October IPO targeting a valuation exceeding $1 trillion, marking the peak showdown in AI commercialization and capitalization.",
+          "key_points": [
+            "Anthropic发布Claude Opus 5，性价比远超竞品",
+            "原生支持100万Token上下文，默认开启扩展思考",
+            "MCP协议完成重大无状态化修订，提升企业级能力",
+            "公司正以超万亿美元估值目标推进10月IPO"
+          ],
+          "key_points_en": [
+            "Anthropic releases Claude Opus 5, outperforming competitors in cost-performance",
+            "Natively supports 1M-token context, defaults to extended thinking",
+            "MCP protocol undergoes major stateless revision for enterprise capabilities",
+            "Company pushes October IPO targeting over $1 trillion valuation"
+          ],
+          "url": "https://www.bighatgroup.com/blog/claude-weekly-2026-07-30"
+        }
+      ]
+    },
     {
       "date": "2026-07-30",
       "hero": {
@@ -1657,16 +1955,16 @@
     }
   ],
   "hero": {
-    "id": "article-60",
-    "title": "OpenAI首发推理芯片Jalapeño：AI竞争全面进入“软硬一体”全栈时代",
-    "title_en": "OpenAI Launches First Inference Chip Jalapeño: AI Competition Enters the 'Hardware-Software Integration' Full-Stack Era",
-    "image": "https://ainewsdaily.asia/img/pool/deep-analysis-ai-ethics.jpg",
-    "date": "2026-07-30",
+    "id": "article-61",
+    "title": "大模型告别“参数暴力美学”：从万亿规模竞赛走向效率革命与商业落地拐点",
+    "title_en": "Beyond Parameter Brute Force: The Shift from Trillion-Parameter Race to Efficiency Revolution and Commercial Inflection",
+    "image": "https://ainewsdaily.asia/img/pool/deep-analysis-market-trend.jpg",
+    "date": "2026-07-31",
     "source": "AI News Daily",
     "source_en": "AI News Daily",
-    "summary": "2026年，全球AI产业面临前所未有的“算力荒”。OpenAI发布首款自研推理芯片Jalapeño，标志着其全栈战略的里程碑。本文深度剖析软硬一体、先进封装与系统级创新如何重塑AI算力版图，推动行业迈入全栈竞争的新纪元。",
-    "summary_en": "In 2026, the global AI industry faces an unprecedented 'computing power shortage.' OpenAI's release of its first custom inference chip, Jalapeño, marks a milestone in its full-stack strategy. This article deeply analyzes how hardware-software integration, advanced packaging, and system-level innovations are reshaping the AI computing landscape, pushing the industry into a new era of full-stack competition.",
-    "category": "芯片算力",
-    "category_en": "Chip & Computing Power"
+    "summary": "2026年下半年，大模型行业正式告别盲目堆砌参数的“暴力美学”。从OpenAI GPT-5.6 Luna大幅降价80%，到Anthropic Claude Opus 5实现“加量不加价”，再到中国厂商凭借MoE架构在开源生态中强势突围，AI竞争的核心已全面转向推理效率、算力架构优化与Agent商业落地。本文深度剖析这场从“规模竞赛”到“效率革命”的产业跃迁。",
+    "summary_en": "In the second half of 2026, the large model industry officially bids farewell to the 'brute force aesthetics' of blindly stacking parameters. From OpenAI's 80% price cut for GPT-5.6 Luna to Anthropic's Claude Opus 5 offering more for the same price, and Chinese vendors breaking through the open-source ecosystem with MoE architecture, the core of AI competition has fully shifted to inference efficiency, computing architecture optimization, and Agent commercialization. This article deeply analyzes this industrial leap from 'scale race' to 'efficiency revolution'.",
+    "category": "深度解读",
+    "category_en": "Deep Analysis"
   }
 }
