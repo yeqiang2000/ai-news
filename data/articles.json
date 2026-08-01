@@ -1,6 +1,37 @@
 {
   "articles": [
     {
+      "id": "article-62",
+      "date": "2026-08-01",
+      "title": "“十五五”4万亿算力投资破局：AI算力供需缺口下的国家级底座重构",
+      "title_en": "Breaking the Game with 4 Trillion Yuan Computing Investment in the '15th Five-Year Plan': Restructuring the National Base Under the AI Computing Supply-Demand Gap",
+      "category": "芯片算力",
+      "category_en": "Chip & Computing Power",
+      "image": "https://ainewsdaily.asia/img/pool/llm-finetune-v3.jpg",
+      "summary": "本文深度剖析“十五五”期间4万亿算力投资的战略逻辑。面对全球科技巨头千亿级美元基建竞赛与国内万亿参数大模型的爆发，AI算力供需缺口日益扩大。文章结合最新产业动态，探讨国家级算力底座重构在支撑开源生态、保障AI安全及赋能实体经济中的关键作用。",
+      "summary_en": "This article deeply analyzes the strategic logic of the 4 trillion yuan computing investment during the '15th Five-Year Plan'. Facing the multi-billion-dollar infrastructure race of global tech giants and the explosion of trillion-parameter large models in China, the supply-demand gap of AI computing power is expanding. Combining the latest industry dynamics, the article explores the key role of restructuring the national computing base in supporting the open-source ecosystem, ensuring AI security, and empowering the real economy.",
+      "author": "AI News Daily",
+      "read_time": "10 min",
+      "tags": [
+        "十五五规划",
+        "算力基础设施",
+        "AI大模型",
+        "国产算力",
+        "开源生态",
+        "人工智能安全",
+        "数字经济"
+      ],
+      "tags_en": [
+        "15th Five-Year Plan",
+        "Computing Infrastructure",
+        "AI Large Models",
+        "Domestic Computing Power",
+        "Open Source Ecosystem",
+        "AI Security",
+        "Digital Economy"
+      ]
+    },
+    {
       "id": "article-61",
       "date": "2026-07-31",
       "title": "大模型告别“参数暴力美学”：从万亿规模竞赛走向效率革命与商业落地拐点",
@@ -1129,5 +1160,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-08-01"
 }

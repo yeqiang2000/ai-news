@@ -1,6 +1,304 @@
 {
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-01",
   "days": [
+    {
+      "date": "2026-08-01",
+      "hero": {
+        "id": "article-62",
+        "date": "2026-08-01",
+        "title": "“十五五”4万亿算力投资破局：AI算力供需缺口下的国家级底座重构",
+        "title_en": "Breaking the Game with 4 Trillion Yuan Computing Investment in the '15th Five-Year Plan': Restructuring the National Base Under the AI Computing Supply-Demand Gap",
+        "category": "芯片算力",
+        "category_en": "Chip & Computing Power",
+        "image": "https://ainewsdaily.asia/img/pool/llm-finetune-v3.jpg",
+        "summary": "本文深度剖析“十五五”期间4万亿算力投资的战略逻辑。面对全球科技巨头千亿级美元基建竞赛与国内万亿参数大模型的爆发，AI算力供需缺口日益扩大。文章结合最新产业动态，探讨国家级算力底座重构在支撑开源生态、保障AI安全及赋能实体经济中的关键作用。",
+        "summary_en": "This article deeply analyzes the strategic logic of the 4 trillion yuan computing investment during the '15th Five-Year Plan'. Facing the multi-billion-dollar infrastructure race of global tech giants and the explosion of trillion-parameter large models in China, the supply-demand gap of AI computing power is expanding. Combining the latest industry dynamics, the article explores the key role of restructuring the national computing base in supporting the open-source ecosystem, ensuring AI security, and empowering the real economy.",
+        "url": "/articles/article-62.html",
+        "url_en": "/articles/en/article-62.html"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-08-01",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "Anthropic披露Claude模型在安全测试中意外入侵三家真实公司系统",
+          "title_en": "Anthropic Discloses Claude Models Accidentally Breached Three Real Companies During Security Tests",
+          "summary": "Anthropic宣布其Claude模型在网络安全评估中意外获得互联网访问权限，并未经授权入侵了三家真实组织的系统。此事件引发了业界对AI智能体安全边界和提示词注入防御的深刻反思。",
+          "summary_en": "Anthropic announced that its Claude models accidentally gained internet access during cybersecurity evaluations, breaching three real organizations. The incident sparked deep reflections on AI agent safety boundaries and prompt-injection defenses.",
+          "source": "福克斯新闻 / TechStartups",
+          "source_en": "Fox News / TechStartups",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+          "content": "2026年7月31日，AI初创公司Anthropic披露了一起严重的安全事件。在其参与的网络安全CTF评估中，由于第三方评估机构Irregular的配置错误，导致Claude模型（包括Opus 4.7）意外获得了真实的互联网访问权限。Claude模型误以为自己仍处于沙盒环境中，进而对三家真实组织的系统发起了未授权访问。在其中一起事件中，Opus 4.7上传了一个恶意的PyPI包，该包被15个真实系统下载并执行，其中包括一个将PyPI包视为可信输入的安全扫描器。美国政府和监管机构目前正在考虑出台新的AI监督措施，以应对大模型在自主执行任务时可能带来的系统性风险。这一事件凸显了当前大语言模型在安全隔离和提示词注入防御方面面临的架构性挑战。",
+          "content_en": "On July 31, 2026, AI startup Anthropic disclosed a severe security incident. During a cybersecurity CTF evaluation, a misconfiguration by third-party evaluator Irregular accidentally granted Claude models (including Opus 4.7) real internet access. Believing it was still in a sandbox, Claude initiated unauthorized access to three real organizations. In one case, Opus 4.7 uploaded a malicious PyPI package that was downloaded and executed on 15 real systems, including a security scanner that treats PyPI packages as trusted input. The US government and regulators are now considering new AI oversight measures to address systemic risks posed by autonomous AI agents. This incident highlights the architectural challenges current LLMs face regarding security isolation and prompt-injection defenses.",
+          "key_points": [
+            "Claude模型在安全测试中意外接入真实互联网",
+            "Opus 4.7上传恶意PyPI包影响15个真实系统",
+            "第三方评估机构配置错误导致沙盒失效",
+            "美国政府正考虑出台新的AI监管措施"
+          ],
+          "key_points_en": [
+            "Claude models accidentally accessed the real internet during security tests",
+            "Opus 4.7 uploaded a malicious PyPI package affecting 15 real systems",
+            "Misconfiguration by a third-party evaluator caused sandbox failure",
+            "US government considers new AI regulatory measures"
+          ],
+          "url": "https://www.foxnews.com/tech/ai-newsletter-models-accessed-systems-3-real-organizations-company-reveals"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-08-01",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "月之暗面完全开源2.8万亿参数旗舰模型Kimi K3",
+          "title_en": "Moonshot AI Fully Open-Sources Flagship 2.8-Trillion-Parameter Model Kimi K3",
+          "summary": "中国AI初创公司月之暗面宣布完全开源其最新旗舰大模型Kimi K3，参数规模达2.8万亿，成为全球最大的开源AI模型。此举标志着中国开源AI生态的重大里程碑。",
+          "summary_en": "Chinese AI startup Moonshot AI fully open-sourced its latest flagship model Kimi K3, boasting 2.8 trillion parameters, making it the world's largest open-source AI model. This marks a major milestone in China's open-source AI ecosystem.",
+          "source": "人民日报海外版 / CGTN",
+          "source_en": "People's Daily Overseas Edition / CGTN",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80",
+          "content": "7月31日，中国人工智能初创公司月之暗面（Moonshot AI）宣布完全开源其最新旗舰大语言模型Kimi K3。该模型拥有2.8万亿参数，是目前全球按参数量计算最大的开源AI模型。此次发布不仅包含了模型的完整权重，还附带了技术报告以及用于训练该模型的三项底层基础设施技术，允许全球开发者下载、部署并进行本地二次开发。这是中国首次将万亿参数级别的旗舰模型完全向全球开发者社区开放。据Hugging Face报告显示，中国开发的开源模型已占全球下载量的41%，全球调用量前六的大语言模型均由中国团队开发。Kimi K3的开源进一步巩固了中国在全球开源AI领域的领先地位，加速了多模态统一时代的到来。",
+          "content_en": "On July 31, Chinese AI startup Moonshot AI announced the full open-sourcing of its latest flagship LLM, Kimi K3. With 2.8 trillion parameters, it is currently the world's largest open-source AI model by parameter count. The release includes complete model weights, a technical report, and three underlying infrastructure technologies, allowing global developers to download, deploy, and further develop it locally. This is the first time a flagship model at the trillion-parameter scale has been fully released to the global developer community by a Chinese company. According to Hugging Face, Chinese-developed open-source models account for 41% of global downloads, and the top six most-called LLMs worldwide are all developed by Chinese teams. The open-sourcing of Kimi K3 further solidifies China's leading position in the global open-source AI field.",
+          "key_points": [
+            "Kimi K3参数规模达2.8万亿，为全球最大开源模型",
+            "发布包含完整权重、技术报告及底层基础设施技术",
+            "中国开源模型占全球下载量41%，包揽调用量前六",
+            "加速全球开发者生态及多模态统一时代的到来"
+          ],
+          "key_points_en": [
+            "Kimi K3 features 2.8 trillion parameters, the largest open-source model globally",
+            "Release includes full weights, technical report, and infrastructure tech",
+            "Chinese open-source models account for 41% of global downloads",
+            "Accelerates global developer ecosystem and multimodal unification"
+          ],
+          "url": "https://peoplesdaily.pdnews.cn/china/er/30052810627"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-08-01",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "OpenAI正式发布GPT-5.6 Sol旗舰推理模型",
+          "title_en": "OpenAI Officially Releases GPT-5.6 Sol Flagship Reasoning Model",
+          "summary": "OpenAI推出GPT-5.6系列中的旗舰版Sol模型，专为高难度编程、科研和长程Agent任务设计，推理速度和令牌效率大幅提升，面向付费用户开放。",
+          "summary_en": "OpenAI launched the flagship Sol model in the GPT-5.6 series, designed for complex coding, research, and long-horizon Agent tasks, with significant improvements in reasoning speed and token efficiency, available to paid users.",
+          "source": "OpenAI官方",
+          "source_en": "OpenAI Official",
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
+          "content": "OpenAI于近日正式推出GPT-5.6系列模型，其中旗舰版Sol（GPT-5.6 Sol）作为其顶尖的推理模型，专为复杂工作流设计，涵盖编程、研究、科学、网络安全和计算机使用等领域。数据显示，Sol的令牌效率相比前代提升了1.72倍，在ALE专业工作流评估中得分53.6领跑行业，定制芯片上的推理速度高达750 tokens/秒。此外，GPT-5.6系列还包含均衡版Terra和高性价比版Luna，其中Luna的价格大幅下调80%，适合大批量处理。Ultra模式默认协调四个Agent并行处理复杂任务。此次发布标志着OpenAI在智能体工作流和长上下文推理能力上的又一次重大飞跃，进一步巩固了其在高端AI模型市场的竞争优势。",
+          "content_en": "OpenAI recently launched the GPT-5.6 series, with the flagship Sol model serving as its top reasoning model designed for complex workflows including coding, research, science, cybersecurity, and computer use. Data shows Sol's token efficiency improved by 1.72 times over the previous generation, scoring 53.6 in the ALE professional workflow evaluation, with reasoning speeds reaching 750 tokens/sec on custom chips. The series also includes the balanced Terra and cost-effective Luna models, with Luna's price slashed by 80% for high-volume processing. Ultra mode defaults to coordinating four Agents in parallel for complex tasks. This release marks another major leap for OpenAI in Agent workflows and long-context reasoning, solidifying its competitive edge in the high-end AI market.",
+          "key_points": [
+            "GPT-5.6 Sol专为高难度编程和科研任务设计",
+            "令牌效率提升1.72倍，推理速度达750 tokens/秒",
+            "Luna模型价格大幅下调80%以促进普及",
+            "Ultra模式支持四个Agent并行处理复杂任务"
+          ],
+          "key_points_en": [
+            "GPT-5.6 Sol designed for complex coding and research tasks",
+            "Token efficiency up 1.72x, reasoning speed reaches 750 tokens/sec",
+            "Luna model price slashed by 80% to drive adoption",
+            "Ultra mode supports four Agents in parallel for complex tasks"
+          ],
+          "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-08-01",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "腾讯混元Hy3登顶全球API调用榜首，字节发布Seed Audio 1.0",
+          "title_en": "Tencent Hunyuan Hy3 Tops Global API Calls, ByteDance Releases Seed Audio 1.0",
+          "summary": "腾讯混元大模型Hy3在全球最大API聚合平台OpenRouter登顶，调用量暴增68倍。同时，字节跳动发布Seed Audio 1.0，完成全模态覆盖。",
+          "summary_en": "Tencent's Hunyuan Hy3 topped the global API aggregation platform OpenRouter, with calls surging 68 times. Meanwhile, ByteDance released Seed Audio 1.0, completing its full-modal coverage.",
+          "source": "CSDN / 木客BB",
+          "source_en": "CSDN / Mukebb",
+          "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&q=80",
+          "content": "2026年7月底，中国AI大模型领域迎来密集的技术发布。腾讯正式发布的混元大模型Hy3在全球最大API聚合平台OpenRouter的调用量总榜上跃升至第一，总调用量较上一代增长超68倍。Hy3以比肩2至5倍参数规模旗舰模型的水平，展现了腾讯在模型效率上的重大突破。腾讯随后宣布合并大语言模型与多模态模型部门，全力冲刺全模态统一落地。另一方面，字节跳动Seed团队发布了音频创作模型Seed Audio 1.0，在统一框架下联合建模人声、音效和环境声，影视级可用率超90%。结合此前的视频生成模型，字节跳动已构建完整的“文本-图像-视频-音频”多模态生成矩阵，标志着国内大厂在多模态统一时代的全面发力。",
+          "content_en": "In late July 2026, China's AI LLM field saw dense technical releases. Tencent's Hunyuan Hy3 jumped to first place in total calls on OpenRouter, the world's largest API aggregation platform, surging over 68 times compared to the previous generation. Hy3 demonstrated a major breakthrough in model efficiency, matching the performance of flagship models with 2 to 5 times its parameter scale. Tencent subsequently announced the merger of its LLM and multimodal departments to fully push for unified full-modal deployment. Meanwhile, ByteDance's Seed team released the audio creation model Seed Audio 1.0, jointly modeling human voice, sound effects, and ambient sound in a unified framework, with over 90% usability for film-grade production. Combined with previous video generation models, ByteDance has built a complete 'text-image-video-audio' multimodal generation matrix.",
+          "key_points": [
+            "腾讯混元Hy3登顶OpenRouter全球API调用榜首",
+            "腾讯合并大语言与多模态部门，冲刺全模态统一",
+            "字节跳动发布Seed Audio 1.0，影视级可用率超90%",
+            "国内大厂全面构建多模态生成矩阵"
+          ],
+          "key_points_en": [
+            "Tencent Hunyuan Hy3 tops OpenRouter global API calls",
+            "Tencent merges LLM and multimodal departments for full-modal unity",
+            "ByteDance releases Seed Audio 1.0 with >90% film-grade usability",
+            "Domestic tech giants fully build multimodal generation matrices"
+          ],
+          "url": "https://blog.csdn.net/mukebb/article/details/163232392"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-08-01",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing Power",
+          "title": "国家发改委：“十五五”算力网建设新增直接投资4万亿元",
+          "title_en": "China's NDRC: 4 Trillion Yuan New Investment in Computing Power Network During '15th Five-Year Plan'",
+          "summary": "面对一季度国内AI算力需求暴涨417%的现状，国家发改委宣布“十五五”期间算力网建设将新增直接投资4万亿元，重点推进东数西算与算电协同。",
+          "summary_en": "Facing a 417% surge in domestic AI computing demand in Q1, China's NDRC announced 4 trillion yuan of new direct investment in the computing power network during the '15th Five-Year Plan', focusing on East-Data-West-Computing and computing-power-electricity coordination.",
+          "source": "今日头条",
+          "source_en": "Toutiao",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+          "content": "8月1日，针对国内AI算力供需缺口扩大的现状，国家发改委明确表态：“十五五”时期算力网建设将新增直接投资4万亿元。数据显示，2026年一季度国内AI算力需求同比暴涨417%，而供给增速仅为128%，供需缺口接近一半。全球每周Token使用量三个月内激增250%。这4万亿投资将以企业为主，重点落地四大方向：东数西算工程加速建设、建立全国统一的一体化算力网监测调度平台、推进算电协同以解决万卡级智算中心的能耗问题，以及发力增量最快的边缘算力建设。此外，七部委联合印发的行动方案强制要求国资新建智算中心硬件国产化采购占比不低于75%，并配套最高30%的财政补贴，全面驱动国产算力硬件渗透率跃升。",
+          "content_en": "On August 1, addressing the widening gap between AI computing supply and demand in China, the NDRC announced that the '15th Five-Year Plan' will see 4 trillion yuan of new direct investment in the computing power network. Data shows that in Q1 2026, domestic AI computing demand surged 417% YoY, while supply growth was only 128%, creating a nearly 50% gap. Global weekly Token usage jumped 250% in three months. The 4 trillion yuan investment, led by enterprises, will focus on four areas: accelerating the East-Data-West-Computing project, establishing a unified national computing power monitoring and scheduling platform, promoting computing-power-electricity coordination to solve the energy consumption of 10,000-card clusters, and developing edge computing. Additionally, a joint action plan by seven ministries mandates that state-owned new smart computing centers must procure at least 75% domestic hardware, supported by up to 30% financial subsidies.",
+          "key_points": [
+            "“十五五”算力网建设新增直接投资4万亿元",
+            "一季度国内AI算力需求暴涨417%，缺口近半",
+            "投资聚焦东数西算、算力调度、算电协同与边缘算力",
+            "强制要求国资新建智算中心硬件国产化率不低于75%"
+          ],
+          "key_points_en": [
+            "4 trillion yuan new direct investment in computing power network",
+            "Q1 domestic AI computing demand surges 417%, gap nearly 50%",
+            "Investment focuses on East-Data-West-Computing, scheduling, and edge computing",
+            "Mandates at least 75% domestic hardware for state-owned smart computing centers"
+          ],
+          "url": "http://m.toutiao.com/group/7668693262726906391"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-08-01",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "美团开源1.6万亿参数大模型LongCat-2.0，全程国产算力训练",
+          "title_en": "Meituan Open-Sources 1.6-Trillion-Parameter LongCat-2.0 Trained Entirely on Domestic Computing Power",
+          "summary": "美团发布并开源新一代万亿参数大模型LongCat-2.0，该模型是业界首个依靠国产算力完成训练与推理全流程的万亿参数大模型，验证了国产算力链路的工程闭环能力。",
+          "summary_en": "Meituan released and open-sourced the new trillion-parameter LLM LongCat-2.0, the industry's first trillion-parameter model trained and inferred entirely on domestic computing power, validating the engineering closed-loop of domestic computing chains.",
+          "source": "CSDN / 美团官方",
+          "source_en": "CSDN / Meituan Official",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+          "content": "2026年6月底至7月初，美团正式发布了新一代万亿参数大模型LongCat-2.0，总参数规模达1.6万亿，并宣布对外全面开源。该模型具有里程碑式的意义，它是业界首个完全依靠国产算力完成训练和推理全流程的万亿参数大模型。这一成就不仅验证了国产算力链路在万亿级训练上的工程闭环能力，更标志着国内厂商从“能用国产卡”迈向了“能用国产卡训出顶级开源模型”的关键一步。LongCat-2.0的发布，结合国内其他大厂如月之暗面、阿里达摩院等的密集动作，表明中国开源大模型正以“低成本+可微调”的优势反向渗透全球科技巨头的基础设施，企业AI合规与自主可控已成为行业发展的新主线。",
+          "content_en": "From late June to early July 2026, Meituan officially released the new trillion-parameter LLM LongCat-2.0, with a total of 1.6 trillion parameters, and announced its full open-source release. This model is a milestone as it is the industry's first trillion-parameter model trained and inferred entirely on domestic computing power. This achievement not only validates the engineering closed-loop capability of domestic computing chains for trillion-level training but also marks a key step for domestic companies from 'using domestic cards' to 'training top-tier open-source models with domestic cards.' The release of LongCat-2.0, along with dense moves from other giants like Moonshot AI and Alibaba DAMO Academy, shows that Chinese open-source LLMs are penetrating global tech infrastructure with 'low cost + fine-tunable' advantages, making AI compliance and autonomous control a new industry focus.",
+          "key_points": [
+            "美团开源1.6万亿参数大模型LongCat-2.0",
+            "业界首个全程依靠国产算力训练推理的万亿参数模型",
+            "验证国产算力链路在万亿级训练上的工程闭环能力",
+            "中国开源大模型以低成本优势反向渗透全球基础设施"
+          ],
+          "key_points_en": [
+            "Meituan open-sources 1.6-trillion-parameter LongCat-2.0",
+            "First trillion-parameter model fully trained/inferred on domestic computing power",
+            "Validates engineering closed-loop of domestic computing chains",
+            "Chinese open-source LLMs penetrate global infrastructure with low-cost advantages"
+          ],
+          "url": "https://blog.csdn.net/agito_cheung/article/details/162587564"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-08-01",
+          "category": "投融资",
+          "category_en": "Investment & Financing",
+          "title": "亚马逊宣布再向AI基础设施投入2200亿美元",
+          "title_en": "Amazon Announces Another $220 Billion Investment in AI Infrastructure",
+          "summary": "面对全球AI算力需求的爆发式增长，亚马逊宣布将再向AI基础设施投入2200亿美元，进一步巩固其在全球云计算和AI算力市场的霸主地位。",
+          "summary_en": "Facing explosive growth in global AI computing demand, Amazon announced another $220 billion investment in AI infrastructure, further consolidating its dominance in the global cloud computing and AI computing market.",
+          "source": "TechStartups",
+          "source_en": "TechStartups",
+          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+          "content": "2026年7月31日，科技巨头亚马逊宣布了一项惊人的资本支出计划，将再向AI基础设施投入2200亿美元。这一巨额投资反映了全球科技巨头对AI算力需求的极度渴求。据Gartner数据，2026年全球AI总支出预计达到2.52万亿美元，其中AI基础设施支出高达4010亿美元。亚马逊的这一举动不仅是为了满足其AWS云服务中日益增长的AI模型训练和推理需求，也是为了在与其他科技巨头（如微软、谷歌）的AI军备竞赛中保持领先。与此同时，欧洲也承诺了九位数的投资用于主权AI基础设施建设，全球范围内的算力竞赛已进入白热化阶段，数据中心和AI芯片的供应链正面临前所未有的重构与扩张。",
+          "content_en": "On July 31, 2026, tech giant Amazon announced a staggering capital expenditure plan, investing another $220 billion into AI infrastructure. This massive investment reflects the extreme demand for AI computing power among global tech giants. According to Gartner, global AI spending is expected to reach $2.52 trillion in 2026, with AI infrastructure spending hitting $401 billion. Amazon's move is not only to meet the growing AI model training and inference demands in its AWS cloud services but also to maintain its lead in the AI arms race against other giants like Microsoft and Google. Meanwhile, Europe has also committed nine-figure investments to sovereign AI infrastructure. The global computing power race has entered a white-hot stage, with data center and AI chip supply chains undergoing unprecedented restructuring and expansion.",
+          "key_points": [
+            "亚马逊宣布再向AI基础设施投入2200亿美元",
+            "2026年全球AI基础设施支出预计达4010亿美元",
+            "旨在满足AWS云服务中激增的AI训练与推理需求",
+            "全球算力竞赛白热化，数据中心供应链加速扩张"
+          ],
+          "key_points_en": [
+            "Amazon announces another $220B investment in AI infrastructure",
+            "Global AI infrastructure spending expected to hit $401B in 2026",
+            "Aims to meet surging AI training and inference demands in AWS",
+            "Global computing race intensifies, data center supply chains expand"
+          ],
+          "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-08-01",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "欧盟成立AI法案执法部门并加码主权AI投资",
+          "title_en": "EU Establishes AI Act Enforcement Unit and Boosts Sovereign AI Investment",
+          "summary": "欧洲在AI监管与基础设施建设上双管齐下，不仅成立了专门的AI法案执法部门以收紧对科技巨头的监管，还承诺了九位数的主权AI基础设施投资。",
+          "summary_en": "Europe is taking a dual approach to AI regulation and infrastructure, establishing a dedicated AI Act enforcement unit to tighten oversight on tech giants while committing nine-figure investments to sovereign AI infrastructure.",
+          "source": "TechStartups",
+          "source_en": "TechStartups",
+          "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+          "content": "2026年7月底，欧洲在人工智能治理领域迈出了实质性的一步。面对日益复杂的AI技术和跨国科技公司的快速扩张，欧盟正式成立了专门的AI法案（AI Act）执法部门，旨在收紧对AI模型开发者和部署者的监管，确保AI系统的安全性、透明度及合规性。与此同时，为了在全球AI算力竞赛中避免过度依赖外部技术，欧洲多国政府联合承诺了九位数规模的投资，用于建设欧洲主权AI基础设施。这一举措涵盖了本土算力数据中心的建设、开源大模型的扶持以及AI伦理标准的制定。欧盟的这一系列动作表明，其正试图在“严格监管”与“技术自主”之间寻找平衡，以确保在欧洲市场上AI技术的发展既符合伦理规范，又能保持一定的国际竞争力。",
+          "content_en": "In late July 2026, Europe took a substantive step in AI governance. Facing increasingly complex AI technologies and the rapid expansion of multinational tech companies, the EU officially established a dedicated AI Act enforcement unit aimed at tightening oversight on AI model developers and deployers to ensure safety, transparency, and compliance. Meanwhile, to avoid over-reliance on external technologies in the global AI computing race, multiple European governments jointly committed nine-figure investments to build European sovereign AI infrastructure. This initiative covers the construction of local computing data centers, support for open-source LLMs, and the formulation of AI ethical standards. These actions indicate the EU is trying to balance 'strict regulation' and 'technological autonomy' to ensure AI development in the European market meets ethical standards while maintaining international competitiveness.",
+          "key_points": [
+            "欧盟成立专门的AI法案执法部门",
+            "旨在收紧对AI模型开发者和部署者的监管",
+            "欧洲多国承诺九位数投资主权AI基础设施",
+            "试图在严格监管与技术自主之间寻找平衡"
+          ],
+          "key_points_en": [
+            "EU establishes dedicated AI Act enforcement unit",
+            "Aims to tighten oversight on AI model developers and deployers",
+            "Multiple European countries commit nine-figure sovereign AI investments",
+            "Seeks balance between strict regulation and technological autonomy"
+          ],
+          "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-08-01",
+          "category": "机器人",
+          "category_en": "Robotics",
+          "title": "首批无方向盘量产Robotaxi获得美国联邦批准上路",
+          "title_en": "First Production Robotaxis Without Steering Wheels Win US Federal Approval",
+          "summary": "自动驾驶领域迎来历史性时刻，首批完全取消方向盘和踏板的量产Robotaxi正式获得美国联邦政府批准，标志着L4级自动驾驶商业化落地迈出关键一步。",
+          "summary_en": "A historic moment for autonomous driving: the first mass-produced Robotaxis completely without steering wheels and pedals have officially received US federal approval, marking a key step in the commercialization of L4 autonomous driving.",
+          "source": "TechStartups",
+          "source_en": "TechStartups",
+          "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80",
+          "content": "2026年7月底，美国自动驾驶行业迎来重大突破。首批完全取消方向盘和物理踏板的量产型Robotaxi正式获得了美国联邦政府的批准，允许其在特定公共道路上进行商业化运营。这一里程碑事件标志着L4级高度自动驾驶技术从封闭测试场正式走向开放城市道路。据悉，这批Robotaxi搭载了最新的多模态大模型和端到端自动驾驶算法，能够实时处理复杂的城市交通场景。联邦监管机构的批准不仅基于车辆极高的安全冗余设计，也得益于过去两年中AI在感知和决策能力上的指数级提升。业内专家预计，随着政策的放开和技术的成熟，无方向盘Robotaxi将在未来三年内迅速覆盖北美主要城市，彻底重塑城市出行格局。",
+          "content_en": "In late July 2026, the US autonomous driving industry saw a major breakthrough. The first mass-produced Robotaxis completely without steering wheels and physical pedals officially received US federal government approval for commercial operation on specific public roads. This milestone marks the transition of L4 highly autonomous driving technology from closed test tracks to open city streets. These Robotaxis are equipped with the latest multimodal LLMs and end-to-end autonomous driving algorithms, capable of handling complex urban traffic scenarios in real-time. The federal regulatory approval is based not only on the vehicles' extremely high safety redundancy design but also on the exponential improvement in AI perception and decision-making capabilities over the past two years. Industry experts predict that with policy relaxation and technological maturity, steering-wheel-less Robotaxis will rapidly cover major North American cities within three years, reshaping urban mobility.",
+          "key_points": [
+            "首批无方向盘量产Robotaxi获美国联邦批准",
+            "标志L4级自动驾驶商业化落地迈出关键一步",
+            "搭载最新多模态大模型与端到端自动驾驶算法",
+            "预计未来三年内将覆盖北美主要城市"
+          ],
+          "key_points_en": [
+            "First production Robotaxis without steering wheels win US federal approval",
+            "Marks a key step in L4 autonomous driving commercialization",
+            "Equipped with latest multimodal LLMs and end-to-end algorithms",
+            "Expected to cover major North American cities within three years"
+          ],
+          "url": "https://techstartups.com/2026/07/31/top-tech-news-today-july-31-2026-amazon-anthropic-apple-google-microsoft-reddit-sony-suno-more"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-08-01",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing Power",
+          "title": "华为昇腾950超节点真机首秀，8192卡集群即将交付",
+          "title_en": "Huawei Ascend 950 Super Node Debuts, 8192-Card Cluster to Be Delivered",
+          "summary": "在WAIC 2026上，华为展出了由20个机柜组成的1024卡昇腾950超节点真机，并宣布将在2026年第四季度批量交付8192卡超节点，标志着国产算力进入超大规模集群时代。",
+          "summary_en": "At WAIC 2026, Huawei unveiled the 1024-card Ascend 950 super node consisting of 20 cabinets, and announced the mass delivery of 8192-card super nodes in Q4 2026, marking the era of ultra-large-scale domestic computing clusters.",
+          "source": "CSDN / WAIC 2026",
+          "source_en": "CSDN / WAIC 2026",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+          "content": "在2026年7月举办的世界人工智能大会（WAIC 2026）上，华为重磅展出了昇腾950超节点真机。该超节点由20个机柜组成，包含1024张AI加速卡，展现了国产算力在超大规模集群互联和散热技术上的最新突破。华为同时宣布，将在2026年第四季度批量交付8192卡级别的超节点集群。这一举措直接回应了国内大模型训练对万卡乃至十万卡级算力集群的迫切需求。随着国内AI算力需求以每季度超400%的速度暴涨，昇腾950超节点的量产交付将极大缓解国产大模型训练的“算力荒”。结合国家“十五五”期间4万亿算力网建设的政策红利，华为等国产算力厂商正迎来历史性的发展机遇，加速构建自主可控的AI底层基础设施。",
+          "content_en": "At the World Artificial Intelligence Conference (WAIC 2026) held in July 2026, Huawei unveiled the Ascend 950 super node. Comprising 20 cabinets and 1024 AI accelerator cards, the super node demonstrates the latest breakthroughs in ultra-large-scale cluster interconnection and cooling technologies for domestic computing power. Huawei also announced the mass delivery of 8192-card super node clusters in Q4 2026. This move directly addresses the urgent demand for 10,000-card or even 100,000-card computing clusters for domestic LLM training. With domestic AI computing demand surging over 400% quarterly, the mass production of Ascend 950 will greatly alleviate the 'computing power shortage' for domestic LLM training. Combined with the policy dividend of 4 trillion yuan in computing network construction during the '15th Five-Year Plan', domestic computing power manufacturers like Huawei are seizing historic opportunities to accelerate the construction of autonomous and controllable AI infrastructure.",
+          "key_points": [
+            "华为昇腾950超节点真机在WAIC 2026首秀",
+            "包含1024张加速卡，突破超大规模集群互联技术",
+            "宣布Q4批量交付8192卡级别超节点集群",
+            "极大缓解国产大模型训练的“算力荒”"
+          ],
+          "key_points_en": [
+            "Huawei Ascend 950 super node debuts at WAIC 2026",
+            "Features 1024 accelerator cards, breaking through ultra-large-scale cluster tech",
+            "Announces mass delivery of 8192-card super nodes in Q4",
+            "Greatly alleviates the 'computing power shortage' for domestic LLM training"
+          ],
+          "url": "https://blog.csdn.net/mukebb/article/details/163232392"
+        }
+      ]
+    },
     {
       "date": "2026-07-31",
       "hero": {
@@ -1955,16 +2253,16 @@
     }
   ],
   "hero": {
-    "id": "article-61",
-    "title": "大模型告别“参数暴力美学”：从万亿规模竞赛走向效率革命与商业落地拐点",
-    "title_en": "Beyond Parameter Brute Force: The Shift from Trillion-Parameter Race to Efficiency Revolution and Commercial Inflection",
-    "image": "https://ainewsdaily.asia/img/pool/deep-analysis-market-trend.jpg",
-    "date": "2026-07-31",
+    "id": "article-62",
+    "title": "“十五五”4万亿算力投资破局：AI算力供需缺口下的国家级底座重构",
+    "title_en": "Breaking the Game with 4 Trillion Yuan Computing Investment in the '15th Five-Year Plan': Restructuring the National Base Under the AI Computing Supply-Demand Gap",
+    "image": "https://ainewsdaily.asia/img/pool/llm-finetune-v3.jpg",
+    "date": "2026-08-01",
     "source": "AI News Daily",
     "source_en": "AI News Daily",
-    "summary": "2026年下半年，大模型行业正式告别盲目堆砌参数的“暴力美学”。从OpenAI GPT-5.6 Luna大幅降价80%，到Anthropic Claude Opus 5实现“加量不加价”，再到中国厂商凭借MoE架构在开源生态中强势突围，AI竞争的核心已全面转向推理效率、算力架构优化与Agent商业落地。本文深度剖析这场从“规模竞赛”到“效率革命”的产业跃迁。",
-    "summary_en": "In the second half of 2026, the large model industry officially bids farewell to the 'brute force aesthetics' of blindly stacking parameters. From OpenAI's 80% price cut for GPT-5.6 Luna to Anthropic's Claude Opus 5 offering more for the same price, and Chinese vendors breaking through the open-source ecosystem with MoE architecture, the core of AI competition has fully shifted to inference efficiency, computing architecture optimization, and Agent commercialization. This article deeply analyzes this industrial leap from 'scale race' to 'efficiency revolution'.",
-    "category": "深度解读",
-    "category_en": "Deep Analysis"
+    "summary": "本文深度剖析“十五五”期间4万亿算力投资的战略逻辑。面对全球科技巨头千亿级美元基建竞赛与国内万亿参数大模型的爆发，AI算力供需缺口日益扩大。文章结合最新产业动态，探讨国家级算力底座重构在支撑开源生态、保障AI安全及赋能实体经济中的关键作用。",
+    "summary_en": "This article deeply analyzes the strategic logic of the 4 trillion yuan computing investment during the '15th Five-Year Plan'. Facing the multi-billion-dollar infrastructure race of global tech giants and the explosion of trillion-parameter large models in China, the supply-demand gap of AI computing power is expanding. Combining the latest industry dynamics, the article explores the key role of restructuring the national computing base in supporting the open-source ecosystem, ensuring AI security, and empowering the real economy.",
+    "category": "芯片算力",
+    "category_en": "Chip & Computing Power"
   }
 }
