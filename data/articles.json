@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "article-63",
+      "date": "2026-08-02",
+      "title": "多部门密集部署人工智能：顶层设计引领“模芯云用”协同与AI立法加速",
+      "title_en": "Multi-Department Intensive Deployment of AI: Top-Level Design Leads 'Model-Chip-Cloud-Application' Synergy and Accelerates AI Legislation",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "image": "https://ainewsdaily.asia/img/pool/llm-evaluation-v3.jpg",
+      "summary": "近日，国家发改委、工信部等多部门围绕人工智能密集发声，释放出AI已成为“十五五”高质量发展核心抓手的强烈信号。本文深度解析“模芯云用”全链条协同创新的落地路径，探讨算力超节点与开源大模型如何构筑坚实底座，并剖析AI立法加速与场景全域渗透背后的产业逻辑与技术演进趋势。",
+      "summary_en": "Recently, multiple Chinese ministries including the NDRC and MIIT have made intensive statements on AI, signaling that AI has become a core driver for high-quality development in the '15th Five-Year Plan'. This article deeply analyzes the implementation path of the 'Model-Chip-Cloud-Application' synergy, explores how computing super-nodes and open-source large models build a solid foundation, and dissects the industrial logic and technological evolution behind the acceleration of AI legislation and comprehensive scenario penetration.",
+      "author": "AI News Daily",
+      "read_time": "9 min",
+      "tags": [
+        "人工智能",
+        "模芯云用",
+        "AI立法",
+        "十五五规划",
+        "算力超节点",
+        "开源大模型",
+        "新质生产力",
+        "场景落地"
+      ],
+      "tags_en": [
+        "Artificial Intelligence",
+        "Model-Chip-Cloud-Application",
+        "AI Legislation",
+        "15th Five-Year Plan",
+        "Computing Super-Nodes",
+        "Open-Source LLM",
+        "New Quality Productive Forces",
+        "Scenario Implementation"
+      ]
+    },
+    {
       "id": "article-62",
       "date": "2026-08-01",
       "title": "“十五五”4万亿算力投资破局：AI算力供需缺口下的国家级底座重构",
@@ -1160,5 +1193,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-08-01"
+  "last_updated": "2026-08-02"
 }

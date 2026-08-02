@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-08-01",
+  "last_updated": "2026-08-02",
   "used_urls": [
     "https://ainewsdaily.asia/img/pool/autonomous-drone-v3.jpg",
     "https://ainewsdaily.asia/img/pool/blockchain-defi-v3.jpg",
@@ -421,7 +421,8 @@
     "https://ainewsdaily.asia/img/pool/deep-analysis-research.jpg",
     "https://ainewsdaily.asia/img/pool/deep-analysis-ai-ethics.jpg",
     "https://ainewsdaily.asia/img/pool/deep-analysis-market-trend.jpg",
-    "https://ainewsdaily.asia/img/pool/llm-finetune-v3.jpg"
+    "https://ainewsdaily.asia/img/pool/llm-finetune-v3.jpg",
+    "https://ainewsdaily.asia/img/pool/llm-evaluation-v3.jpg"
   ],
   "total_used": 415,
   "unsplash-1507003211169-0a1dd7228f2d": true,
