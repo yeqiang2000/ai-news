@@ -28,7 +28,7 @@
           "summary_en": "Multiple Chinese ministries, including the NDRC and MIIT, have made intensive statements on AI development, emphasizing the acceleration of AI legislation and the coordinated layout of computing resources. This marks a new stage of standardized and high-quality collaborative development for China's AI industry.",
           "source": "央视新闻",
           "source_en": "CCTV News",
-          "image": "https://ainewsdaily.asia/img/pool/policy-12-v6.jpg",
+          "image": "https://ainewsdaily.asia/img/pool/policy-01-v5.jpg",
           "content": "近日，国家发改委、工信部、海关总署等多部门在新闻发布会上围绕人工智能发展密集表态。国家发改委提出加快自主创新、推动国家AI应用中试基地布局，并加快人工智能法立法进程。工信部重点发力算力资源布局，推动智算集群建设与算电协同发展，实施普惠算力赋能中小企业行动。国家知识产权局将完善AI相关专利审查标准，国家能源局与海关总署则分别展示了AI在能源调度与智慧口岸中的深度应用。这一系列部署表明，中国正从技术创新、算力基建、法律规范及行业赋能等多维度全面构建AI高质量发展体系。",
           "content_en": "Recently, multiple ministries including the NDRC, MIIT, and General Administration of Customs made intensive statements on AI development at a press conference. The NDRC proposed accelerating independent innovation, promoting the layout of national AI application pilot bases, and speeding up the legislation of the AI Law. The MIIT focused on computing resource layout, promoting the construction of intelligent computing clusters and the coordinated development of computing and electricity. The CNIPA will improve AI-related patent examination standards, while the National Energy Administration and Customs showcased the deep application of AI in energy dispatch and smart ports. This series of deployments shows that China is comprehensively building a high-quality AI development system from multiple dimensions.",
           "key_points": [
@@ -56,7 +56,7 @@
           "summary_en": "Leading domestic memory chipmaker CXMT saw its market value surge after its A-share listing, successfully breaking the long-term monopoly of US and South Korean companies in high-performance memory chips. This marks a key breakthrough in the 'memory power' link of China's AI computing infrastructure.",
           "source": "小小说股",
           "source_en": "Toutiao",
-          "image": "https://ainewsdaily.asia/img/pool/investment-14-v6.jpg",
+          "image": "https://ainewsdaily.asia/img/pool/investment-01-v5.jpg",
           "content": "近日，国内存储芯片大厂长鑫科技正式在A股上市，开盘后股价大幅上涨，市值迅速攀升，引发全球半导体市场强烈关注。在AI大模型时代，海量数据搬运极度依赖高性能内存芯片。长鑫科技的崛起被华尔街视为中国在AI硬件“存力”环节补上了关键拼图，直接打破了三星、SK海力士和美光等美韩巨头的长期垄断。分析指出，随着国产AI芯片及存储方案的成熟，中国对进口AI芯片的依赖度正显著下降。长鑫科技的成功不仅重塑了全球存储芯片市场格局，也为中国AI算力底座的全面自主可控奠定了坚实基础。",
           "content_en": "Recently, domestic memory chip giant CXMT was officially listed on the A-share market. After the opening, its stock price surged and its market value climbed rapidly, attracting strong attention from the global semiconductor market. In the era of AI large models, massive data transfer heavily relies on high-performance memory chips. The rise of CXMT is seen by Wall Street as China completing a key puzzle piece in the 'memory power' link of AI hardware, directly breaking the long-term monopoly of US and South Korean giants like Samsung, SK Hynix, and Micron. Analysts point out that with the maturation of domestic AI chips and storage solutions, China's dependence on imported AI chips is significantly declining. CXMT's success not only reshapes the global memory chip market but also lays a solid foundation for the comprehensive autonomy of China's AI computing infrastructure.",
           "key_points": [
@@ -84,7 +84,7 @@
           "summary_en": "Chinese AI startup Moonshot AI announced the full open-sourcing of its flagship large model Kimi K3, with 2.8 trillion parameters, making it the world's largest open-source AI model. This move further accelerates the global influence of China's open-source AI ecosystem.",
           "source": "CGTN",
           "source_en": "CGTN",
-          "image": "https://ainewsdaily.asia/img/pool/open_source-11-v6.jpg",
+          "image": "https://ainewsdaily.asia/img/pool/open_source-01-v5.jpg",
           "content": "中国AI初创公司月之暗面（Moonshot AI）近日完全开源了其最新旗舰大语言模型Kimi K3。该模型拥有2.8万亿参数，是目前全球按参数量计算最大的开源AI模型。此次发布不仅包含完整的模型权重，还包括技术报告及三项底层基础设施技术，允许全球开发者下载、部署和本地二次开发。这是中国首次将2.8万亿参数级别的旗舰模型完全释放给全球开发者社区。据Hugging Face报告显示，中国开发的开源模型已占全球下载量的41%，且全球调用量前六的大模型均由中国团队开发，彰显了中国在开源AI领域的绝对领先地位。",
           "content_en": "Chinese AI startup Moonshot AI recently fully open-sourced its latest flagship large language model, Kimi K3. With 2.8 trillion parameters, it is currently the world's largest open-source AI model by parameter count. The release includes not only the complete model weights but also a technical report and three underlying infrastructure technologies, allowing global developers to download, deploy, and develop locally. This is the first time a flagship model at the 2.8-trillion-parameter scale has been fully released to the global developer community. According to a Hugging Face report, Chinese-developed open-source models account for 41% of global downloads, and the top six most-called LLMs worldwide are all developed by Chinese teams, highlighting China's absolute leading position in the open-source AI field.",
           "key_points": [
@@ -252,7 +252,7 @@
           "summary_en": "Domestic robotics star Unitree Robotics passed the STAR Market review in just 73 days, setting an industry record. This marks that the humanoid robot and embodied intelligence track is ushering in an accelerated period of capitalization.",
           "source": "CSDN",
           "source_en": "CSDN",
-          "image": "https://ainewsdaily.asia/img/pool/robotics-11-v6.jpg",
+          "image": "https://ainewsdaily.asia/img/pool/robotics-01-v5.jpg",
           "content": "在2026年7月首周的AI大事记中，国产机器人明星企业宇树科技的资本化进程引发瞩目。该公司仅用73天便闪电过审科创板，创下同类科技企业上市审核的速度纪录。宇树科技在四足机器人及人形机器人领域拥有深厚的技术积累，其产品在全球市场享有极高声誉。此次快速过审不仅体现了资本市场对具身智能及人形机器人赛道的高度认可，也释放出中国硬科技企业融资渠道进一步畅通的强烈信号。随着AI大模型与机器人硬件的深度融合，具身智能正成为继大模型之后的下一个万亿级风口，产业链上下游有望迎来爆发式增长。",
           "content_en": "In the AI highlights of the first week of July 2026, the capitalization process of domestic robotics star Unitree Robotics attracted attention. The company passed the STAR Market review in just 73 days, setting a speed record for the listing review of similar tech enterprises. Unitree Robotics has profound technical accumulation in the field of quadruped and humanoid robots, and its products enjoy a high reputation in the global market. This rapid review not only reflects the capital market's high recognition of the embodied intelligence and humanoid robot track but also sends a strong signal that the financing channels for China's hard tech enterprises are further unblocked. With the deep integration of AI large models and robot hardware, embodied intelligence is becoming the next trillion-level boom following large models, and the upstream and downstream of the industry chain are expected to usher in explosive growth.",
           "key_points": [
