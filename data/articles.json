@@ -1,6 +1,37 @@
 {
   "articles": [
     {
+      "id": "article-64",
+      "date": "2026-08-03",
+      "title": "头部大模型力拼“降价开源”，AI投资重心加速向应用层倾斜",
+      "title_en": "Top LLMs Compete on 'Price Cuts and Open Source', AI Investment Focus Accelerates Toward Application Layer",
+      "category": "大模型",
+      "category_en": "Large Models",
+      "image": "https://ainewsdaily.asia/img/pool/deep_analysis-15-v6.jpg",
+      "summary": "2026年7月，全球大模型赛道迎来“降价与开源”的双重浪潮。DeepSeek、OpenAI、月之暗面等头部厂商密集推出高性价比或开源模型。本文深度剖析大模型价格战背后的技术逻辑与商业考量，解读AI投资重心如何从基础模型向应用层及AI Infra转移，并展望智能商品化时代下企业级部署的加速与护城河的重构。",
+      "summary_en": "In July 2026, the global LLM track witnessed a dual wave of 'price cuts and open source.' Top players like DeepSeek, OpenAI, and Moonshot AI launched highly cost-effective or open-source models. This article deeply analyzes the technical logic and business considerations behind the LLM price war, interprets how the focus of AI investment is shifting from foundational models to the application layer and AI Infra, and looks forward to the acceleration of enterprise deployment and the reconstruction of moats in the era of commoditized intelligence.",
+      "author": "AI News Daily",
+      "read_time": "8 min",
+      "tags": [
+        "大模型",
+        "开源AI",
+        "AI投资",
+        "企业级AI",
+        "AI基础设施",
+        "Sam Altman",
+        "MaaS"
+      ],
+      "tags_en": [
+        "Large Language Models",
+        "Open Source AI",
+        "AI Investment",
+        "Enterprise AI",
+        "AI Infrastructure",
+        "Sam Altman",
+        "MaaS"
+      ]
+    },
+    {
       "id": "article-63",
       "date": "2026-08-02",
       "title": "多部门密集部署人工智能：顶层设计引领“模芯云用”协同与AI立法加速",
@@ -1193,5 +1224,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-08-02"
+  "last_updated": "2026-08-03"
 }
