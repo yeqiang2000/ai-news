@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "article-65",
+      "date": "2026-08-04",
+      "title": "全球大模型竞争格局重塑：从参数内卷到Agent能力与极致性价比的全面博弈",
+      "title_en": "Reshaping the Global LLM Landscape: From Parameter Involvement to the Comprehensive Game of Agent Capabilities and Ultimate Cost-Effectiveness",
+      "category": "大模型",
+      "category_en": "Large Models",
+      "image": "https://ainewsdaily.asia/img/pool/autonomous-vehicle.jpg",
+      "summary": "2026年盛夏，全球AI产业迎来深刻的范式转移。大模型竞争已从盲目的参数堆砌转向极致性价比与Agent实战能力。本文深度剖析OpenAI、阿里、DeepSeek等头部玩家如何通过分层定价与MoE架构重塑商业底座，AirLLM等开源项目如何打破算力围墙实现端侧部署，以及全球AI治理框架的收紧如何为行业划定新的合规门槛。",
+      "summary_en": "In the summer of 2026, the global AI industry is undergoing a profound paradigm shift. The competition has moved away from blind parameter scaling towards extreme cost-effectiveness, Agent capabilities, and open-weight ecosystems. This article analyzes how companies like OpenAI, Alibaba, and DeepSeek are leveraging tiered pricing and MoE architectures to slash inference costs, how AirLLM is breaking the memory wall for edge deployment, and how global regulations like the EU AI Act are setting new compliance thresholds.",
+      "author": "AI News Daily",
+      "read_time": "9 min",
+      "tags": [
+        "大模型",
+        "人工智能",
+        "Agent",
+        "开源模型",
+        "性价比",
+        "AI治理",
+        "DeepSeek",
+        "端侧推理"
+      ],
+      "tags_en": [
+        "LLM",
+        "Artificial Intelligence",
+        "AI Agent",
+        "Open-Weight Models",
+        "Cost-Effectiveness",
+        "AI Governance",
+        "DeepSeek",
+        "Edge Inference"
+      ]
+    },
+    {
       "id": "article-64",
       "date": "2026-08-03",
       "title": "头部大模型力拼“降价开源”，AI投资重心加速向应用层倾斜",
@@ -1224,5 +1257,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-08-03"
+  "last_updated": "2026-08-04"
 }

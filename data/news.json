@@ -1,6 +1,304 @@
 {
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-04",
   "days": [
+    {
+      "date": "2026-08-04",
+      "hero": {
+        "id": "article-65",
+        "date": "2026-08-04",
+        "title": "全球大模型竞争格局重塑：从参数内卷到Agent能力与极致性价比的全面博弈",
+        "title_en": "Reshaping the Global LLM Landscape: From Parameter Involvement to the Comprehensive Game of Agent Capabilities and Ultimate Cost-Effectiveness",
+        "category": "大模型",
+        "category_en": "Large Models",
+        "image": "https://ainewsdaily.asia/img/pool/autonomous-vehicle.jpg",
+        "summary": "2026年盛夏，全球AI产业迎来深刻的范式转移。大模型竞争已从盲目的参数堆砌转向极致性价比与Agent实战能力。本文深度剖析OpenAI、阿里、DeepSeek等头部玩家如何通过分层定价与MoE架构重塑商业底座，AirLLM等开源项目如何打破算力围墙实现端侧部署，以及全球AI治理框架的收紧如何为行业划定新的合规门槛。",
+        "summary_en": "In the summer of 2026, the global AI industry is undergoing a profound paradigm shift. The competition has moved away from blind parameter scaling towards extreme cost-effectiveness, Agent capabilities, and open-weight ecosystems. This article analyzes how companies like OpenAI, Alibaba, and DeepSeek are leveraging tiered pricing and MoE architectures to slash inference costs, how AirLLM is breaking the memory wall for edge deployment, and how global regulations like the EU AI Act are setting new compliance thresholds.",
+        "url": "/articles/article-65.html",
+        "url_en": "/articles/en/article-65.html"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-08-04",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "欧盟《人工智能法》透明度要求正式生效，强化AI系统监管",
+          "title_en": "EU AI Act Transparency Requirements Officially Take Effect",
+          "summary": "欧盟委员会自8月2日起正式执行《人工智能法》相关规定，新增AI透明度要求。该法案要求部分AI系统必须明确告知用户其正在与AI互动，以及内容是否由AI生成。",
+          "summary_en": "The European Commission officially enforces the EU AI Act from August 2, introducing new AI transparency requirements. The act mandates that certain AI systems must clearly inform users when they are interacting with AI and whether content is AI-generated.",
+          "source": "央视新闻",
+          "source_en": "CCTV News",
+          "image": "https://ainewsdaily.asia/img/pool/energy-carbon.jpg",
+          "content": "欧盟委员会7月31日宣布，自8月2日起，欧盟委员会人工智能办公室将与各成员国主管部门共同开始执行《人工智能法》相关规定。同时，新的人工智能透明度要求正式生效，要求部分人工智能系统明确告知用户其正在与人工智能互动，以及相关内容是否由人工智能生成或修改。此外，美国加州的《AI透明度法案》(SB 942)也于同日生效。这些监管规则的落地，将倒逼AI技术研发向可解释性、内容溯源、身份标识等负责任方向倾斜，推动全球AI技术沿着安全可控的路径稳步迭代。违规企业将面临按日累计的巨额罚款，标志着全球AI治理进入实质性执法阶段。",
+          "content_en": "The European Commission announced on July 31 that starting August 2, the EU AI Office and national authorities will begin enforcing the EU AI Act. New transparency requirements officially take effect, mandating that certain AI systems clearly inform users of their interaction with AI and whether content is AI-generated or modified. Additionally, California's AI Transparency Act (SB 942) took effect on the same day. These regulatory implementations will compel AI R&D towards responsible directions such as explainability, content tracing, and identity labeling, promoting safe and controllable global AI iteration. Non-compliant companies will face massive daily fines, marking a substantive enforcement phase in global AI governance.",
+          "key_points": [
+            "欧盟《人工智能法》新增透明度要求于8月2日正式生效",
+            "AI系统必须明确告知用户互动对象及内容生成方式",
+            "美国加州《AI透明度法案》同日生效，全球监管趋严",
+            "违规企业将面临巨额罚款，倒逼技术向安全可控方向发展"
+          ],
+          "key_points_en": [
+            "EU AI Act's new transparency requirements officially take effect on August 2",
+            "AI systems must clearly inform users about interaction and content generation",
+            "California's AI Transparency Act takes effect on the same day, tightening global regulation",
+            "Non-compliant companies face massive fines, driving tech towards safe and controllable development"
+          ],
+          "url": "http://m.toutiao.com/group/7669625052140274185"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-08-04",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "阿里巴巴发布Qwen3.8-Max大模型，在智能体任务中击败GPT-5.6",
+          "title_en": "Alibaba Unveils Qwen3.8-Max, Outperforming GPT-5.6 in Agentic Tasks",
+          "summary": "阿里巴巴通义千问团队发布新一代多模态大模型Qwen3.8-Max，总参数达2.4万亿。该模型在OSWorld-Verified等智能体计算基准测试中超越GPT-5.6，并将于下周开放权重。",
+          "summary_en": "Alibaba's Qwen team releases the new multimodal Qwen3.8-Max with 2.4 trillion parameters. The model outperforms GPT-5.6 in agentic computing benchmarks like OSWorld-Verified and will release its weights next week.",
+          "source": "AIWedia",
+          "source_en": "AIWedia",
+          "image": "https://ainewsdaily.asia/img/pool/llm-context-window-v3.jpg",
+          "content": "阿里巴巴通义千问团队正式推出Qwen3.8-Max，这是一款采用混合专家（MoE）架构的多模态大语言模型，总参数规模高达2.4万亿，每次推理激活参数为950亿，支持100万token上下文窗口。在OSWorld-Verified等针对自主软件工程和长周期企业工作流的智能体计算基准测试中，Qwen3.8-Max击败了OpenAI的GPT-5.6及Anthropic的Sol Max。该模型API已上线，定价为每百万输入token 2美元，输出6美元。阿里巴巴承诺将于下周开放其模型权重，进一步加剧了中美在前沿AI模型及开源生态领域的激烈竞争，标志着中国AI企业在智能体任务上的重大突破。",
+          "content_en": "Alibaba's Qwen team officially launched Qwen3.8-Max, a multimodal MoE LLM with 2.4 trillion total parameters, 95 billion active parameters per token, and a 1M-token context window. In agentic computing benchmarks like OSWorld-Verified for autonomous software engineering, Qwen3.8-Max outperformed OpenAI's GPT-5.6 and Anthropic's Sol Max. The API is now available at $2 per million input tokens and $6 per million output tokens. Alibaba promised to release the model weights next week, intensifying the US-China competition in frontier AI models and open-weight ecosystems, marking a significant breakthrough for Chinese AI firms in agentic tasks.",
+          "key_points": [
+            "阿里发布2.4万亿参数多模态大模型Qwen3.8-Max",
+            "采用MoE架构，支持100万token超长上下文",
+            "在OSWorld等智能体任务基准测试中击败GPT-5.6",
+            "API已上线，并承诺下周开放模型权重"
+          ],
+          "key_points_en": [
+            "Alibaba releases 2.4T parameter multimodal LLM Qwen3.8-Max",
+            "Adopts MoE architecture with 1M-token context window",
+            "Outperforms GPT-5.6 in agentic task benchmarks like OSWorld",
+            "API is live, with model weights promised to open next week"
+          ],
+          "url": "https://aiwedia.com/ai-news/alibabas-qwen38-max-claims-to-beat-gpt-56-on-agentic-tasks-e3d46240"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-08-04",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "OpenAI将GPT-5.6拆分为三款模型，Luna版本降价80%",
+          "title_en": "OpenAI Splits GPT-5.6 Into Three Models and Cuts Luna Price 80%",
+          "summary": "OpenAI正式推出GPT-5.6系列模型，包括旗舰版Sol、均衡版Terra和低成本版Luna。7月30日，OpenAI宣布Luna版本价格大幅下调80%，Terra下调20%，以应对激烈的市场竞争。",
+          "summary_en": "OpenAI launches the GPT-5.6 model family, including flagship Sol, balanced Terra, and low-cost Luna. On July 30, OpenAI announced an 80% price cut for Luna and 20% for Terra to应对 fierce market competition.",
+          "source": "Autonai News",
+          "source_en": "Autonai News",
+          "image": "https://ainewsdaily.asia/img/pool/llm-rag-v3.jpg",
+          "content": "OpenAI于7月9日推出GPT-5.6系列，打破了以往单一旗舰模型的传统，将其拆分为三款 distinct 变体：针对复杂推理、编程和科研的旗舰版Sol，均衡型Terra，以及低成本版Luna。这一策略旨在让企业客户根据具体任务匹配最合适的模型，而非被迫为所有工作负载支付高昂费用。7月30日，OpenAI进一步宣布大幅降价，其中Luna版本价格直降80%，Terra版本降价20%。此举被视为对Anthropic、阿里Qwen等竞争对手在性价比和开源领域施压的直接回应。通过细分模型矩阵与价格战，OpenAI正试图在保持技术领先的同时，全面抢占企业级AI应用市场。",
+          "content_en": "OpenAI introduced the GPT-5.6 family on July 9, splitting its previous single flagship into three distinct variants: Sol for complex reasoning and research, balanced Terra, and low-cost Luna. This strategy aims to let enterprise clients match models to specific tasks rather than paying premium prices for all workloads. On July 30, OpenAI announced massive price cuts, dropping Luna's price by 80% and Terra by 20%. This move is seen as a direct response to competitive pressure from Anthropic and Alibaba's Qwen in terms of cost-effectiveness and open weights. Through a segmented model matrix and price war, OpenAI aims to fully capture the enterprise AI market while maintaining technical leadership.",
+          "key_points": [
+            "OpenAI推出GPT-5.6系列，拆分为Sol、Terra、Luna三款模型",
+            "Luna版本主打低成本，价格大幅下调80%",
+            "Terra均衡版价格下调20%，Sol旗舰版保持高端定位",
+            "此举旨在应对竞争对手压力，抢占企业级AI应用市场"
+          ],
+          "key_points_en": [
+            "OpenAI launches GPT-5.6 family, splitting into Sol, Terra, and Luna models",
+            "Luna focuses on low-cost with an 80% price cut",
+            "Terra balanced version sees a 20% price drop, Sol remains high-end",
+            "Move aims to counter competitor pressure and capture enterprise AI market"
+          ],
+          "url": "https://autonainews.com/openai-splits-gpt-5-6-into-three-models-and-cuts-luna-price-80"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-08-04",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "DeepSeek-V4-Flash正式版API上线，马斯克公开关注",
+          "title_en": "DeepSeek-V4-Flash Official API Launches, Elon Musk Follows Account",
+          "summary": "深度求索（DeepSeek）宣布DeepSeek-V4-Flash正式版API上线公测，多项指标远超预览版。特斯拉CEO马斯克随后在X平台上关注了DeepSeek官方账号，引发行业热议。",
+          "summary_en": "DeepSeek announces the official API public beta for DeepSeek-V4-Flash, with metrics far exceeding the preview version. Tesla CEO Elon Musk subsequently followed DeepSeek's X account, sparking industry discussion.",
+          "source": "IT之家",
+          "source_en": "IT Home",
+          "image": "https://ainewsdaily.asia/img/pool/opensource-github-stars-v3.jpg",
+          "content": "7月31日，深度求索（DeepSeek）通过API文档发布日志，宣布DeepSeek-V4-Flash正式版API上线公测。基准测试显示，正式版在多项核心指标上远超4月发布的预览版，凭借超高性价比再次引爆AI圈，进一步巩固了其在开源及高性价比模型领域的领先地位。8月1日，科技动态账号BigTechAlert指出，特斯拉CEO埃隆·马斯克关注了DeepSeek的X（原Twitter）账号。此前马斯克在接受《经济学人》专访时曾盛赞中国在机器人和AI领域的实力，认为中国未来“很有可能在某个时候成为领导者”。马斯克的关注被视为国际科技巨头对中国AI创新实力的高度认可。",
+          "content_en": "On July 31, DeepSeek announced the official API public beta for DeepSeek-V4-Flash via its API documentation logs. Benchmarks show the official version far exceeds the April preview in multiple core metrics, igniting the AI circle again with its ultra-high cost-effectiveness and solidifying its leadership in open-weight models. On August 1, BigTechAlert noted that Tesla CEO Elon Musk followed DeepSeek's X account. Musk previously praised China's strength in robotics and AI in an interview with The Economist, stating China is \"very likely to become a leader at some point.\" Musk's follow is seen as high recognition from international tech leaders of China's AI innovation capabilities.",
+          "key_points": [
+            "DeepSeek-V4-Flash正式版API上线公测，性能大幅提升",
+            "模型凭借超高性价比巩固开源领域领先地位",
+            "马斯克在X平台关注DeepSeek官方账号",
+            "马斯克曾公开认可中国AI实力及未来领导地位"
+          ],
+          "key_points_en": [
+            "DeepSeek-V4-Flash official API launches public beta with significant performance boosts",
+            "Model consolidates leadership in open-weight field via ultra-high cost-effectiveness",
+            "Elon Musk follows DeepSeek's official X account",
+            "Musk previously publicly recognized China's AI strength and future leadership"
+          ],
+          "url": "http://m.toutiao.com/group/7669625052140274185"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-08-04",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "月之暗面发布2.8万亿参数开源模型Kimi K3，刷新纪录",
+          "title_en": "Moonshot AI Releases 2.8 Trillion Parameter Open-Weight Model Kimi K3",
+          "summary": "月之暗面正式发布新一代模型Kimi K3完整权重，参数规模达2.8万亿，成为全球参数最大的开放权重模型。其综合智能水平接近全球顶尖闭源模型，引发国际社会高度关注。",
+          "summary_en": "Moonshot AI officially releases the full weights of the new Kimi K3 model with 2.8 trillion parameters, making it the world's largest open-weight model. Its comprehensive intelligence approaches top global closed-source models, drawing high international attention.",
+          "source": "北京日报",
+          "source_en": "Beijing Daily",
+          "image": "https://ainewsdaily.asia/img/pool/opensource-contribution-v3.jpg",
+          "content": "北京月之暗面科技有限公司（Moonshot AI）于7月16日发布新一代模型Kimi K3，并在27日正式发布完整模型权重。该模型参数规模高达2.8万亿，一举成为全球参数规模最大的开放权重模型。业内评测显示，Kimi K3的综合智能水平已接近全球前沿的闭源模型，引发国际社会高度关注，不少观察人士将其与此前DeepSeek-R1的里程碑式突破相提并论。Kimi K3的发布不仅彰显了中国企业在超大规模模型训练上的工程能力，也进一步推动了全球开放权重模型生态的繁荣，证明了开源路线在追赶甚至超越闭源巨头方面的巨大潜力。",
+          "content_en": "Moonshot AI released the new Kimi K3 model on July 16 and officially published its full weights on July 27. With 2.8 trillion parameters, it becomes the world's largest open-weight model. Industry evaluations show Kimi K3's comprehensive intelligence approaches top global closed-source models, drawing high international attention. Many observers compare it to the milestone breakthrough of DeepSeek-R1. The release not only demonstrates Chinese enterprises' engineering capabilities in ultra-large-scale model training but also further promotes the global open-weight ecosystem, proving the huge potential of the open-source route in catching up with or even surpassing closed-source giants.",
+          "key_points": [
+            "月之暗面发布Kimi K3完整模型权重",
+            "参数规模达2.8万亿，成全球最大开放权重模型",
+            "综合智能水平接近全球顶尖闭源模型",
+            "彰显中国企业在超大规模模型训练上的工程能力"
+          ],
+          "key_points_en": [
+            "Moonshot AI releases full model weights for Kimi K3",
+            "2.8 trillion parameters make it the world's largest open-weight model",
+            "Comprehensive intelligence approaches top global closed-source models",
+            "Demonstrates Chinese enterprises' engineering capabilities in ultra-large-scale training"
+          ],
+          "url": "http://m.toutiao.com/group/7669586955077239302"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-08-04",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing Power",
+          "title": "AirLLM开源刷屏：4GB显存单卡成功运行70B大模型",
+          "title_en": "AirLLM Open Source Goes Viral: 4GB VRAM Runs 70B Model on Single GPU",
+          "summary": "开源项目AirLLM通过层间分块与智能内存调度技术，实现单块4GB显存GPU运行70B参数大模型推理。这一突破打破了显存墙，让消费级硬件本地部署大模型成为现实。",
+          "summary_en": "The open-source project AirLLM achieves 70B parameter LLM inference on a single 4GB VRAM GPU via layer-wise chunking and smart memory scheduling. This breakthrough breaks the VRAM wall, making local deployment on consumer hardware a reality.",
+          "source": "智享新知",
+          "source_en": "Zhixiang Xinzhi",
+          "image": "https://ainewsdaily.asia/img/pool/network-edge.jpg",
+          "content": "8月初，GitHub开源项目AirLLM引发AI圈轰动，其实现了单块4GB显存GPU运行70B参数大模型推理。传统方法下，70B模型FP16精度需至少140GB显存，而AirLLM通过层间分块（Layer-wise Chunking）、智能内存调度、4-bit量化与稀疏化结合以及异步预取技术，将显存门槛压缩了35倍。这意味着MacBook、RTX 4090等消费级硬件均可本地部署70B量级模型，推理速度可达2-5 tokens/秒。该技术不仅让离线文档分析、代码生成等场景在本地流畅运行，更保障了医疗、金融等强合规场景的数据隐私安全，彻底打破了消费级硬件部署大模型的“显存墙”。",
+          "content_en": "In early August, the GitHub open-source project AirLLM caused a sensation in the AI circle by achieving 70B parameter LLM inference on a single 4GB VRAM GPU. Traditionally, a 70B model in FP16 requires at least 140GB VRAM. AirLLM compresses the VRAM threshold by 35 times through layer-wise chunking, smart memory scheduling, 4-bit quantization with sparsity, and async prefetching. This means consumer hardware like MacBooks and RTX 4090s can locally deploy 70B models, reaching 2-5 tokens/second. This technology not only enables smooth local offline document analysis and code generation but also ensures data privacy for highly regulated sectors like healthcare and finance, completely breaking the \"VRAM wall\" for consumer hardware.",
+          "key_points": [
+            "AirLLM开源项目实现4GB显存运行70B大模型",
+            "采用层间分块与智能内存调度等创新技术",
+            "显存门槛从140GB压缩至4GB，降幅达35倍",
+            "让消费级硬件本地部署大模型并保障数据隐私成为现实"
+          ],
+          "key_points_en": [
+            "AirLLM open-source project runs 70B model on 4GB VRAM",
+            "Adopts innovative layer-wise chunking and smart memory scheduling",
+            "VRAM threshold compressed from 140GB to 4GB, a 35x reduction",
+            "Makes local deployment on consumer hardware and data privacy a reality"
+          ],
+          "url": "http://m.toutiao.com/group/7669957067112808994"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-08-04",
+          "category": "投融资",
+          "category_en": "Investment & Financing",
+          "title": "OpenAI或将IPO推迟至明年，Anthropic加速秋季上市计划",
+          "title_en": "OpenAI May Delay IPO to Next Year, Anthropic Accelerates Fall IPO Plans",
+          "summary": "因投资者担忧现金消耗过快及竞争压力，OpenAI可能将IPO推迟至明年。与此同时，营收增长迅猛的Anthropic正加速推进秋季IPO计划，试图抢占上市先机。",
+          "summary_en": "Due to investor concerns over rapid cash burn and competitive pressure, OpenAI may delay its IPO to next year. Meanwhile, rapidly growing Anthropic is accelerating its fall IPO plans to seize the first-mover advantage.",
+          "source": "新浪财经",
+          "source_en": "Sina Finance",
+          "image": "https://ainewsdaily.asia/img/pool/digital-economy.jpg",
+          "content": "据知情人士透露，由于面临投资者对现金消耗速度过快的担忧以及激烈的市场竞争压力，OpenAI可能会将其原定的IPO计划推迟到明年。部分大投资者已开始通过向竞争对手Anthropic投入资金来对冲风险。与此同时，Anthropic的营收增长和估值近期均已超越OpenAI，其正在加速秋季IPO的计划，并已着手与潜在投资者会面，强调其相对于ChatGPT制造商所保持的领先优势。最初希望抢在Anthropic之前上市的OpenAI，如今在资本市场节奏上已显被动。这一动态反映出AI巨头们在高昂算力成本与商业化落地之间的博弈，以及资本市场对AI赛道头部企业盈利能力的重新审视。",
+          "content_en": "According to sources, due to investor concerns over rapid cash burn and fierce market competition, OpenAI may delay its planned IPO to next year. Some major investors have begun hedging risks by investing in competitor Anthropic. Meanwhile, Anthropic's revenue growth and valuation have recently surpassed OpenAI's. It is accelerating its fall IPO plans and meeting with potential investors, emphasizing its lead over the ChatGPT maker. OpenAI, which initially hoped to go public before Anthropic, now appears passive in the capital market rhythm. This reflects the game between AI giants over high computing costs and commercialization, as well as the capital market's re-evaluation of the profitability of leading AI firms.",
+          "key_points": [
+            "OpenAI因现金消耗及竞争压力或推迟IPO至明年",
+            "部分投资者转向投资Anthropic以对冲风险",
+            "Anthropic营收与估值增长迅猛，加速推进秋季IPO",
+            "AI巨头在算力成本与商业化落地间面临资本市场重新审视"
+          ],
+          "key_points_en": [
+            "OpenAI may delay IPO to next year due to cash burn and competition",
+            "Some investors shift to Anthropic to hedge risks",
+            "Anthropic's revenue and valuation grow rapidly, accelerating fall IPO",
+            "AI giants face capital market re-evaluation amid computing costs and commercialization"
+          ],
+          "url": "http://m.toutiao.com/group/7669625052140274185"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-08-04",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "字节跳动发布Seedance 2.5视频创作模型，突破长叙事能力",
+          "title_en": "ByteDance Releases Seedance 2.5 Video Creation Model, Breaking Through Long Narrative Capabilities",
+          "summary": "字节跳动推出新一代视频创作模型Seedance 2.5，延续多模态音视频联合生成架构，重点突破长叙事、多模态参考及编辑能力，进一步降低高质量视频生成门槛。",
+          "summary_en": "ByteDance launches the new Seedance 2.5 video creation model, continuing its multimodal audio-video joint generation architecture. It focuses on breaking through long narrative, multimodal reference, and editing capabilities, further lowering the barrier for high-quality video generation.",
+          "source": "每日经济新闻",
+          "source_en": "National Business Daily",
+          "image": "https://ainewsdaily.asia/img/pool/autonomous-vehicle.jpg",
+          "content": "7月31日，字节跳动正式宣布发布新一代视频创作模型Seedance 2.5。该模型延续了统一的多模态音视频联合生成架构，在长叙事能力、多模态参考能力和编辑能力上实现了重点突破。据研究机构数据显示，Seedance 2.5在视频生成价格上仅为业内同类旗舰模型的三分之一，极大提升了AI视频生成的性价比。与此同时，MiniMax也发布了新一代多模态生成模型MiniMax H3，同样主打极致性价比。国内大模型厂商在视频生成领域的密集迭代，不仅推动了AI应用层内容的爆发式增长，也标志着中国AI企业在多模态生成技术上正逐步确立全球领先优势。",
+          "content_en": "On July 31, ByteDance officially announced the release of the new Seedance 2.5 video creation model. The model continues its unified multimodal audio-video joint generation architecture, achieving key breakthroughs in long narrative capabilities, multimodal reference, and editing. According to research data, Seedance 2.5's video generation price is only one-third of similar flagship models in the industry, greatly improving cost-effectiveness. Meanwhile, MiniMax also released its new multimodal MiniMax H3, also focusing on extreme cost-effectiveness. The dense iteration of domestic LLM vendors in video generation not only drives explosive growth in AI application content but also marks Chinese AI firms gradually establishing a global leading advantage in multimodal generation technology.",
+          "key_points": [
+            "字节跳动发布新一代视频创作模型Seedance 2.5",
+            "延续多模态音视频联合生成架构，突破长叙事能力",
+            "视频生成价格仅为同类旗舰模型的三分之一",
+            "国内厂商密集迭代，确立多模态生成技术全球领先优势"
+          ],
+          "key_points_en": [
+            "ByteDance releases new Seedance 2.5 video creation model",
+            "Continues multimodal audio-video architecture, breaks through long narrative",
+            "Video generation price is only one-third of similar flagship models",
+            "Dense domestic iteration establishes global lead in multimodal generation"
+          ],
+          "url": "https://news.ifeng.com/c/8vI1CWwpDJV"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-08-04",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "世界人工智能大会达成多项成果，成立世界人工智能合作组织",
+          "title_en": "WAIC Achieves Multiple Outcomes, Establishes World AI Cooperation Organization",
+          "summary": "2026世界人工智能大会暨人工智能全球治理高级别会议在上海举行，来自100多个国家的代表与会。会议正式签署协定成立世界人工智能合作组织，29个国家成为创始成员国。",
+          "summary_en": "The 2026 World Artificial Intelligence Conference and High-Level Meeting on Global AI Governance was held in Shanghai, with representatives from over 100 countries. The meeting officially signed an agreement to establish the World AI Cooperation Organization, with 29 countries as founding members.",
+          "source": "新华社",
+          "source_en": "Xinhua News Agency",
+          "image": "https://ainewsdaily.asia/img/pool/datacenter-security.jpg",
+          "content": "7月17日至20日，2026世界人工智能大会暨人工智能全球治理高级别会议在中国上海举行，来自100多个国家和国际组织的官方代表、产学研界嘉宾与会。大会达成了一系列重要成果，《关于成立世界人工智能合作组织的协定》正式签署，29个国家成为创始成员国。会议发布的主席声明等文件为各国在AI发展与治理中实现权利、机遇、规则平等凝聚了共识。当前AI技术加速迭代，风险外溢隐忧加剧，2025年AI驱动的网络攻击事件同比增长89%。联合国及多国政府代表强调，必须建立适应性治理框架、缩小数字鸿沟、加强国际技术合作，确保人工智能向善普惠发展。",
+          "content_en": "From July 17 to 20, the 2026 World Artificial Intelligence Conference and High-Level Meeting on Global AI Governance was held in Shanghai, China, attended by official representatives from over 100 countries and international organizations. The conference achieved significant outcomes, officially signing the agreement to establish the World AI Cooperation Organization, with 29 countries as founding members. The chairman's statement and other documents issued凝聚 consensus on equal rights, opportunities, and rules in AI development and governance. With accelerating AI iteration and rising risks, AI-driven cyberattacks grew 89% YoY in 2025. UN and multi-government representatives emphasized the need to build adaptive governance frameworks, bridge the digital divide, and strengthen international cooperation to ensure AI develops for the good of humanity.",
+          "key_points": [
+            "2026世界人工智能大会在上海举行，100多国代表参会",
+            "正式签署协定成立世界人工智能合作组织，29国为首批成员",
+            "会议发布主席声明，凝聚AI治理权利与规则平等共识",
+            "联合国及多国呼吁建立适应性治理框架以应对AI风险"
+          ],
+          "key_points_en": [
+            "2026 WAIC held in Shanghai with representatives from over 100 countries",
+            "Agreement signed to establish World AI Cooperation Organization, 29 founding members",
+            "Chairman's statement issued, consolidating consensus on equal AI governance rights",
+            "UN and governments call for adaptive governance frameworks to address AI risks"
+          ],
+          "url": "http://m.toutiao.com/group/7669586955077239302"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-08-04",
+          "category": "机器人",
+          "category_en": "Robotics",
+          "title": "宇树科技73天闪电过审科创板，机器人赛道资本化提速",
+          "title_en": "Unitree Robotics Passes STAR Market Review in 73 Days, Accelerating Robotics Capitalization",
+          "summary": "国产机器人明星企业宇树科技仅用73天便闪电过审科创板，刷新了机器人企业IPO审核速度纪录。这标志着资本市场对人形机器人及具身智能赛道的高度认可与迫切需求。",
+          "summary_en": "Chinese robotics star Unitree Robotics passed the STAR market review in just 73 days, setting a new record for robotics IPO review speed. This marks the capital market's high recognition and urgent demand for the humanoid robot and embodied AI track.",
+          "source": "CSDN",
+          "source_en": "CSDN",
+          "image": "https://ainewsdaily.asia/img/pool/healthcare-robotics-surgery.jpg",
+          "content": "据CSDN梳理的7月首周AI大事记显示，国产机器人领军企业宇树科技（Unitree Robotics）仅用73天便闪电过审科创板，刷新了机器人企业IPO审核的速度纪录。这一罕见的高效过审速度，不仅体现了监管层对硬科技及新质生产力企业的支持态度，更折射出资本市场对具身智能和人形机器人赛道的极度渴求。随着AI大模型与物理世界的深度融合，机器人产业正迎来从“自动化设备”向“自主智能体”跨越的历史性拐点。宇树科技的快速上市，将为国内机器人产业链注入巨额资金活水，进一步加速国产机器人在工业制造、特种作业及消费级市场的商业化落地进程。",
+          "content_en": "According to CSDN's review of early July AI events, leading Chinese robotics firm Unitree Robotics passed the STAR market review in just 73 days, setting a new record for robotics IPO review speed. This rare efficiency not only reflects regulators' support for hard-tech and new productive forces but also highlights the capital market's extreme thirst for the embodied AI and humanoid robot track. With the deep integration of AI LLMs and the physical world, the robotics industry is at a historical turning point from \"automated equipment\" to \"autonomous agents.\" Unitree's rapid listing will inject massive capital into the domestic robotics supply chain, further accelerating commercialization in industrial, special operations, and consumer markets.",
+          "key_points": [
+            "宇树科技73天闪电过审科创板，刷新IPO审核纪录",
+            "体现监管层对硬科技及新质生产力企业的支持",
+            "折射资本市场对具身智能和人形机器人赛道的极度渴求",
+            "将为国产机器人产业链注入资金，加速商业化落地进程"
+          ],
+          "key_points_en": [
+            "Unitree Robotics passes STAR market review in 73 days, setting IPO record",
+            "Reflects regulators' support for hard-tech and new productive forces",
+            "Highlights capital market's extreme thirst for embodied AI and humanoid robots",
+            "Will inject capital into domestic robotics supply chain, accelerating commercialization"
+          ],
+          "url": "https://blog.csdn.net/agito_cheung/article/details/162587564"
+        }
+      ]
+    },
     {
       "date": "2026-08-03",
       "hero": {
@@ -2849,15 +3147,15 @@
     }
   ],
   "hero": {
-    "id": "article-64",
-    "title": "头部大模型力拼“降价开源”，AI投资重心加速向应用层倾斜",
-    "title_en": "Top LLMs Compete on 'Price Cuts and Open Source', AI Investment Focus Accelerates Toward Application Layer",
-    "image": "https://ainewsdaily.asia/img/pool/deep_analysis-15-v6.jpg",
-    "date": "2026-08-03",
+    "id": "article-65",
+    "title": "全球大模型竞争格局重塑：从参数内卷到Agent能力与极致性价比的全面博弈",
+    "title_en": "Reshaping the Global LLM Landscape: From Parameter Involvement to the Comprehensive Game of Agent Capabilities and Ultimate Cost-Effectiveness",
+    "image": "https://ainewsdaily.asia/img/pool/autonomous-vehicle.jpg",
+    "date": "2026-08-04",
     "source": "AI News Daily",
     "source_en": "AI News Daily",
-    "summary": "2026年7月，全球大模型赛道迎来“降价与开源”的双重浪潮。DeepSeek、OpenAI、月之暗面等头部厂商密集推出高性价比或开源模型。本文深度剖析大模型价格战背后的技术逻辑与商业考量，解读AI投资重心如何从基础模型向应用层及AI Infra转移，并展望智能商品化时代下企业级部署的加速与护城河的重构。",
-    "summary_en": "In July 2026, the global LLM track witnessed a dual wave of 'price cuts and open source.' Top players like DeepSeek, OpenAI, and Moonshot AI launched highly cost-effective or open-source models. This article deeply analyzes the technical logic and business considerations behind the LLM price war, interprets how the focus of AI investment is shifting from foundational models to the application layer and AI Infra, and looks forward to the acceleration of enterprise deployment and the reconstruction of moats in the era of commoditized intelligence.",
+    "summary": "2026年盛夏，全球AI产业迎来深刻的范式转移。大模型竞争已从盲目的参数堆砌转向极致性价比与Agent实战能力。本文深度剖析OpenAI、阿里、DeepSeek等头部玩家如何通过分层定价与MoE架构重塑商业底座，AirLLM等开源项目如何打破算力围墙实现端侧部署，以及全球AI治理框架的收紧如何为行业划定新的合规门槛。",
+    "summary_en": "In the summer of 2026, the global AI industry is undergoing a profound paradigm shift. The competition has moved away from blind parameter scaling towards extreme cost-effectiveness, Agent capabilities, and open-weight ecosystems. This article analyzes how companies like OpenAI, Alibaba, and DeepSeek are leveraging tiered pricing and MoE architectures to slash inference costs, how AirLLM is breaking the memory wall for edge deployment, and how global regulations like the EU AI Act are setting new compliance thresholds.",
     "category": "大模型",
     "category_en": "Large Models"
   }
