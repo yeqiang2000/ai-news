@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "article-66",
+      "date": "2026-08-05",
+      "title": "中国大模型“开源+极致性价比”攻势引发美国AI路线之争与产业格局重塑",
+      "title_en": "China's 'Open Source + Extreme Cost-Effectiveness' AI Strategy Reshapes Global Industry Landscape",
+      "category": "开源动态",
+      "category_en": "Open Source Dynamics",
+      "image": "https://ainewsdaily.asia/img/pool/green-energy.jpg",
+      "summary": "2026年，以DeepSeek、Kimi K3、Qwen为代表的中国大模型凭借“开源+极致性价比”席卷全球，不仅霸榜全球Tokens消耗量，更引发美国AI产业内部的路线之争与资本焦虑。本文深度剖析中国AI企业如何通过底层架构创新与开源生态飞轮，绕开算力封锁，实现从技术追赶到全球AI话语权转移的历史性跨越。",
+      "summary_en": "In 2026, Chinese LLMs represented by DeepSeek, Kimi K3, and Qwen are sweeping the globe with an 'open source + extreme cost-effectiveness' strategy. They not only dominate global token consumption but also trigger route debates and capital anxiety within the US AI industry. This article deeply analyzes how Chinese AI companies are bypassing computing power blockades through architectural innovation and open-source ecosystem flywheels, achieving a historic leap from technological catch-up to the transfer of global AI discourse power.",
+      "author": "AI News Daily",
+      "read_time": "10 min",
+      "tags": [
+        "中国大模型",
+        "开源生态",
+        "AI性价比",
+        "Kimi K3",
+        "DeepSeek",
+        "产业格局",
+        "人工智能",
+        "科技新闻"
+      ],
+      "tags_en": [
+        "Chinese LLMs",
+        "Open Source AI",
+        "AI Cost-Effectiveness",
+        "Kimi K3",
+        "DeepSeek",
+        "Industry Landscape",
+        "Artificial Intelligence",
+        "Tech News"
+      ]
+    },
+    {
       "id": "article-65",
       "date": "2026-08-04",
       "title": "全球大模型竞争格局重塑：从参数内卷到Agent能力与极致性价比的全面博弈",
@@ -1257,5 +1290,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-08-04"
+  "last_updated": "2026-08-05"
 }

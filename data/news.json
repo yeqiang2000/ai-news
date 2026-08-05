@@ -1,6 +1,304 @@
 {
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-05",
   "days": [
+    {
+      "date": "2026-08-05",
+      "hero": {
+        "id": "article-66",
+        "date": "2026-08-05",
+        "title": "中国大模型“开源+极致性价比”攻势引发美国AI路线之争与产业格局重塑",
+        "title_en": "China's 'Open Source + Extreme Cost-Effectiveness' AI Strategy Reshapes Global Industry Landscape",
+        "category": "开源动态",
+        "category_en": "Open Source Dynamics",
+        "image": "https://ainewsdaily.asia/img/pool/green-energy.jpg",
+        "summary": "2026年，以DeepSeek、Kimi K3、Qwen为代表的中国大模型凭借“开源+极致性价比”席卷全球，不仅霸榜全球Tokens消耗量，更引发美国AI产业内部的路线之争与资本焦虑。本文深度剖析中国AI企业如何通过底层架构创新与开源生态飞轮，绕开算力封锁，实现从技术追赶到全球AI话语权转移的历史性跨越。",
+        "summary_en": "In 2026, Chinese LLMs represented by DeepSeek, Kimi K3, and Qwen are sweeping the globe with an 'open source + extreme cost-effectiveness' strategy. They not only dominate global token consumption but also trigger route debates and capital anxiety within the US AI industry. This article deeply analyzes how Chinese AI companies are bypassing computing power blockades through architectural innovation and open-source ecosystem flywheels, achieving a historic leap from technological catch-up to the transfer of global AI discourse power.",
+        "url": "/articles/article-66.html",
+        "url_en": "/articles/en/article-66.html"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-08-05",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "欧盟正式执行《人工智能法》透明度新规",
+          "title_en": "EU Enforces New Transparency Rules Under the AI Act",
+          "summary": "欧盟委员会自8月2日起正式执行《人工智能法》相关规定，新增AI透明度要求，部分AI系统需明确告知用户其正在与AI互动。",
+          "summary_en": "The European Commission began enforcing the AI Act on August 2, introducing new transparency requirements mandating certain AI systems to clearly inform users of their interactions with AI.",
+          "source": "央视新闻",
+          "source_en": "CCTV News",
+          "image": "https://ainewsdaily.asia/img/pool/energy-carbon.jpg",
+          "content": "欧盟委员会7月31日宣布，自8月2日起，欧盟委员会人工智能办公室将与各成员国主管部门共同开始执行《人工智能法》相关规定。此次生效的新规重点聚焦人工智能透明度，要求部分人工智能系统必须明确告知用户其正在与人工智能互动，以及相关内容是否由人工智能生成或修改。这一监管规则将倒逼AI技术研发向可解释性、内容溯源、身份标识等负责任方向倾斜，推动技术沿着安全可控的路径稳步迭代。此举标志着欧盟在全球AI监管领域继续保持领先，对全球AI企业的合规运营提出了更高要求。",
+          "content_en": "The European Commission announced that starting August 2, the AI Office will jointly enforce the AI Act with national authorities. The newly effective rules focus on AI transparency, requiring certain AI systems to explicitly inform users when they are interacting with AI and whether content is generated or modified by AI. This regulatory framework will drive AI R&D towards responsible directions such as explainability, content tracing, and identity labeling, promoting safe and controllable technological iteration. This marks the EU's continued global leadership in AI regulation, setting higher compliance standards for AI enterprises worldwide.",
+          "key_points": [
+            "欧盟8月2日起执行《人工智能法》新规",
+            "新增AI透明度要求，需告知用户AI互动状态",
+            "倒逼技术向可解释性和内容溯源方向倾斜",
+            "标志欧盟在全球AI监管领域保持领先"
+          ],
+          "key_points_en": [
+            "EU enforces new AI Act regulations from August 2",
+            "New transparency rules require informing users of AI interactions",
+            "Drives tech towards explainability and content tracing",
+            "Marks EU's continued leadership in global AI regulation"
+          ],
+          "url": "http://m.toutiao.com/group/7669625052140274185"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-08-05",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "Kimi K3开源爆火，逼出美国AI产业开源路线之争",
+          "title_en": "Kimi K3 Open-Source Boom Sparks US AI Industry Debate on Open Weights",
+          "summary": "月之暗面发布的2.8万亿参数Kimi K3开源模型引发全球关注，促使Meta、英伟达等25家美国科技巨头联名发表公开信支持开放权重模型。",
+          "summary_en": "Moonshot AI's 2.8-trillion parameter open-source model Kimi K3 has drawn global attention, prompting 25 US tech giants including Meta and NVIDIA to jointly publish an open letter supporting open-weight models.",
+          "source": "返朴",
+          "source_en": "Fanpu",
+          "image": "https://ainewsdaily.asia/img/pool/opensource-github-stars-v3.jpg",
+          "content": "凭借顶尖性能与极致性价比，中国初创公司月之暗面发布的Kimi K3开源模型发布即爆火。发布仅8天后，Meta、英伟达、微软、IBM等25家美国科技公司与投资机构联名发表题为《开放权重与美国AI领导力》的公开信，宣称开放权重模型对美国维持AI领导地位至关重要。K3总参数量达2.8万亿，在多项评测中超越闭源巨头，打破了“美国在AI领域绝对领先”的传统认知。西方媒体将其称为“第二次DeepSeek冲击”，这表明开源模型与闭源模型的性能差距已收窄至历史最低点，高性价比正成为行业王道，中国AI的崛起正深刻重塑全球AI产业格局与硅谷的估值体系。",
+          "content_en": "With top-tier performance and extreme cost-effectiveness, Moonshot AI's open-source model Kimi K3 became an instant hit. Just 8 days later, 25 US tech companies and investors, including Meta, NVIDIA, Microsoft, and IBM, jointly published an open letter titled \"Open Weights and American AI Leadership,\" emphasizing the importance of open-weight models for US AI leadership. With 2.8 trillion parameters, K3 surpassed closed-source giants in multiple benchmarks, shattering the traditional perception of absolute US AI dominance. Western media dubbed it the \"second DeepSeek shock,\" indicating that the performance gap between open and closed models has narrowed to a historic low. Cost-effectiveness is becoming king, and China's AI rise is profoundly reshaping the global AI landscape and Silicon Valley's valuation system.",
+          "key_points": [
+            "Kimi K3开源模型发布即爆火",
+            "25家美国科技巨头联名支持开放权重",
+            "开源与闭源模型性能差距收窄至历史最低",
+            "中国AI崛起重塑全球产业格局"
+          ],
+          "key_points_en": [
+            "Kimi K3 open-source model becomes an instant hit",
+            "25 US tech giants jointly support open weights",
+            "Performance gap between open and closed models narrows to historic low",
+            "China's AI rise reshapes global industry landscape"
+          ],
+          "url": "http://m.toutiao.com/group/7669599087167013402"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-08-05",
+          "category": "投融资",
+          "category_en": "Investment & Financing",
+          "title": "OpenAI或推迟IPO至明年，Anthropic加速秋季上市计划",
+          "title_en": "OpenAI May Postpone IPO to Next Year as Anthropic Accelerates Fall Listing",
+          "summary": "因投资者对现金消耗速度的担忧及Anthropic的强劲竞争，OpenAI可能将IPO推迟至明年，而Anthropic正加速秋季IPO计划。",
+          "summary_en": "Due to investor concerns over cash burn and strong competition from Anthropic, OpenAI may postpone its IPO to next year, while Anthropic is accelerating its fall IPO plans.",
+          "source": "新浪财经",
+          "source_en": "Sina Finance",
+          "image": "https://ainewsdaily.asia/img/pool/digital-economy.jpg",
+          "content": "据知情人士透露，由于面临投资者担忧与竞争压力，OpenAI可能会将其IPO推迟到明年。参与相关讨论的人士指出，近几个月来，OpenAI的一些大投资者已私下对其相对于增长的现金消耗速度过快表示担忧。与此同时，竞争对手Anthropic的营收增长近期已超过OpenAI，估值也随之攀升。Anthropic正在加速秋季IPO的计划，并已开始与潜在投资者会面，强调其相对于ChatGPT制造商所保持的领先优势。最初希望抢在Anthropic之前上市的OpenAI，现在不得不调整战略，等待明年再推进IPO进程。这一动态反映出当前AI赛道竞争白热化，资本市场对AI巨头的盈利能力与商业化落地正提出更严苛的审视。",
+          "content_en": "According to insiders, OpenAI may postpone its IPO to next year due to investor concerns and competitive pressure. Participants in the discussions noted that some major investors have privately expressed concerns about OpenAI's rapid cash burn relative to its growth. Meanwhile, rival Anthropic's revenue growth has recently surpassed OpenAI's, along with its valuation. Anthropic is accelerating its fall IPO plans and has begun meeting potential investors, highlighting its lead over the ChatGPT maker. OpenAI, which initially hoped to list before Anthropic, now has to adjust its strategy and wait until next year. This reflects the fierce competition in the AI race, as capital markets impose stricter scrutiny on the profitability and commercialization of AI giants.",
+          "key_points": [
+            "OpenAI因现金消耗担忧或推迟IPO",
+            "Anthropic营收增长超越OpenAI",
+            "Anthropic加速秋季IPO计划",
+            "资本市场对AI巨头盈利能力要求提高"
+          ],
+          "key_points_en": [
+            "OpenAI may postpone IPO due to cash burn concerns",
+            "Anthropic's revenue growth surpasses OpenAI",
+            "Anthropic accelerates fall IPO plans",
+            "Capital markets demand higher profitability from AI giants"
+          ],
+          "url": "http://m.toutiao.com/group/7669625052140274185"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-08-05",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "阿里发布2.4万亿参数Qwen3.8-Max，中国大模型海外受青睐",
+          "title_en": "Alibaba Launches 2.4-Trillion Parameter Qwen3.8-Max, Chinese Models Gain Overseas Favor",
+          "summary": "阿里发布Qwen3.8-Max模型，可分析200页财报并处理超100小时视频，正进入特斯拉中国车载系统深度测试阶段。",
+          "summary_en": "Alibaba launched the Qwen3.8-Max model, capable of analyzing 200-page financial reports and processing over 100 hours of video, and is now in deep testing for Tesla's in-car systems in China.",
+          "source": "China Daily",
+          "source_en": "China Daily",
+          "image": "https://ainewsdaily.asia/img/pool/llm-context-window-v3.jpg",
+          "content": "阿里巴巴集团正式推出2.4万亿参数的Qwen3.8-Max模型，该模型能够分析200页的财务报告并处理超过100小时的视频内容，直接跻身全球顶级大语言模型行列。据悉，Qwen3.8-Max已进入特斯拉中国车载系统的“深度测试”阶段，有望很快应用于特斯拉车载平台。在最新的Arena基准测试中，阿里Qwen系列模型排名紧随Anthropic的Claude系列之后。Qwen3.8-Max的API定价远低于国际同类前沿模型，仅为Anthropic Claude Opus价格的40%左右。数据显示，截至7月底，中国大语言模型在OpenRouter平台的周使用量已连续13周位居榜首，中国AI模型正凭借前沿性能与极致性价比在全球市场赢得越来越多企业的青睐。",
+          "content_en": "Alibaba Group officially launched the 2.4-trillion parameter Qwen3.8-Max model, which can analyze 200-page financial reports and process over 100 hours of video content, placing it among the world's top-tier LLMs. Reportedly, Qwen3.8-Max has entered the \"deep testing\" phase in Tesla's vehicle systems in China and is expected to be used for Tesla's in-car platform soon. In the latest Arena benchmark rankings, Alibaba's Qwen models ranked just behind Anthropic's Claude series. The API pricing for Qwen3.8-Max is significantly lower than comparable international frontier models, at about 40% of Anthropic's Claude Opus prices. Data shows that as of late July, the weekly usage of Chinese LLMs on the OpenRouter platform has ranked first for 13 consecutive weeks, with Chinese AI models gaining increasing favor globally for their frontier performance and cost-effectiveness.",
+          "key_points": [
+            "阿里发布2.4万亿参数Qwen3.8-Max",
+            "模型正进入特斯拉中国车载系统测试",
+            "API定价远低于国际同类前沿模型",
+            "中国大模型在OpenRouter周使用量连续13周居首"
+          ],
+          "key_points_en": [
+            "Alibaba launches 2.4-trillion parameter Qwen3.8-Max",
+            "Model enters deep testing for Tesla's in-car systems in China",
+            "API pricing significantly lower than international frontier models",
+            "Chinese LLMs rank first in weekly usage on OpenRouter for 13 consecutive weeks"
+          ],
+          "url": "https://global.chinadaily.com.cn/a/202608/04/WS6a7209b9a310986e2b468f6e.html"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-08-05",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "字节跳动发布Seedance 2.5，多模态视频生成能力再突破",
+          "title_en": "ByteDance Releases Seedance 2.5, Breaking New Ground in Multimodal Video Generation",
+          "summary": "字节跳动推出新一代视频创作模型Seedance 2.5，重点突破长叙事、多模态参考和编辑能力，完善全模态生成矩阵。",
+          "summary_en": "ByteDance launched the new-generation video creation model Seedance 2.5, focusing on breakthroughs in long narrative, multimodal reference, and editing capabilities, completing its full-modality generation matrix.",
+          "source": "每日经济新闻",
+          "source_en": "National Business Daily",
+          "image": "https://ainewsdaily.asia/img/pool/llm-rag-v3.jpg",
+          "content": "字节跳动宣布发布新一代视频创作模型Seedance 2.5。该模型延续统一的多模态音视频联合生成架构，重点突破了长叙事能力、多模态参考能力和编辑能力，原生支持最长30秒连贯高清视频生成。结合此前发布的Seed Audio 1.0音频创作模型，字节跳动已在统一框架下联合建模人声、音效和环境声，完成了从文本、图像、视频向音频领域的全场景覆盖，构建了完整的“文本-图像-视频-音频”多模态生成矩阵。在AI模型迭代密集窗口期，字节跳动凭借高性价比和多模态统一架构，进一步巩固了其在生成式AI领域的领先地位，为影视、短剧、动漫等创作场景提供了影视级可用的生产力工具。",
+          "content_en": "ByteDance announced the release of the new-generation video creation model Seedance 2.5. The model continues the unified multimodal audio-video joint generation architecture, focusing on breakthroughs in long narrative capabilities, multimodal reference, and editing, natively supporting up to 30 seconds of coherent HD video generation. Combined with the previously released Seed Audio 1.0, ByteDance has jointly modeled human voice, sound effects, and environmental sounds under a unified framework, achieving full-scenario coverage from text, image, and video to audio, building a complete \"text-image-video-audio\" multimodal generation matrix. During this intensive window of AI model iteration, ByteDance has further solidified its leadership in generative AI with cost-effectiveness and a unified multimodal architecture, providing film-grade productivity tools for creation scenarios like film, short dramas, and animation.",
+          "key_points": [
+            "字节跳动发布Seedance 2.5视频模型",
+            "突破长叙事与多模态参考编辑能力",
+            "结合Seed Audio完成全模态场景覆盖",
+            "构建文本-图像-视频-音频多模态矩阵"
+          ],
+          "key_points_en": [
+            "ByteDance releases Seedance 2.5 video model",
+            "Breakthroughs in long narrative and multimodal reference editing",
+            "Completes full-modality coverage with Seed Audio",
+            "Builds text-image-video-audio multimodal matrix"
+          ],
+          "url": "https://news.ifeng.com/c/8vI1CWwpDJV"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-08-05",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "AirLLM开源刷屏：4GB单卡显存成功运行70B大模型推理",
+          "title_en": "AirLLM Open-Source Sensation: 4GB Single GPU Runs 70B Model Inference",
+          "summary": "开源项目AirLLM通过层间分块与智能内存调度，实现单块4GB GPU运行70B参数模型推理，打破消费级硬件的显存墙。",
+          "summary_en": "The open-source project AirLLM achieves 70B parameter model inference on a single 4GB GPU through layer-wise chunking and smart memory scheduling, breaking the VRAM wall for consumer hardware.",
+          "source": "智享新知",
+          "source_en": "Zhixiang Xinzhi",
+          "image": "https://ainewsdaily.asia/img/pool/opensource-contribution-v3.jpg",
+          "content": "8月初，GitHub开源项目AirLLM引发AI圈轰动，其实现了单块4GB GPU运行70B参数大模型推理。过去70B模型被视为数据中心级GPU的专属领地，而AirLLM通过层间分块、智能内存调度、4-bit量化与稀疏化结合以及异步预取等技术，将原本需要140GB+显存的完整权重压缩至4GB显存+64GB内存即可运行，推理速度达2-5 tokens/秒。这意味着MacBook、RTX 4090等消费级硬件均可本地部署70B量级模型，且数据全程不出本机，为医疗、法律等强合规场景提供了企业级可用的本地隐私方案。AirLLM不仅拆掉了消费级硬件的“显存墙”，更开创了不裁模型、不堆算力的端侧大模型部署新范式。",
+          "content_en": "In early August, the GitHub open-source project AirLLM caused a sensation in the AI circle by achieving 70B parameter model inference on a single 4GB GPU. Previously, 70B models were considered the exclusive domain of data center-grade GPUs. However, AirLLM compresses the full weights, originally requiring 140GB+ VRAM, to run on 4GB VRAM + 64GB RAM using layer-wise chunking, smart memory scheduling, 4-bit quantization, sparsity, and async prefetching, achieving 2-5 tokens/second. This means consumer hardware like MacBooks and RTX 4090s can locally deploy 70B models with data never leaving the device, providing enterprise-grade local privacy solutions for highly regulated scenarios like healthcare and law. AirLLM not only dismantles the \"VRAM wall\" for consumer hardware but also pioneers a new paradigm for edge deployment without model pruning or compute stacking.",
+          "key_points": [
+            "AirLLM实现4GB单卡运行70B模型推理",
+            "采用层间分块与智能内存调度技术",
+            "消费级硬件可本地部署且数据不出本机",
+            "开创不裁模型不堆算力的端侧部署新范式"
+          ],
+          "key_points_en": [
+            "AirLLM achieves 4GB single GPU 70B model inference",
+            "Uses layer-wise chunking and smart memory scheduling",
+            "Consumer hardware can deploy locally with data privacy",
+            "Pioneers edge deployment without pruning or stacking"
+          ],
+          "url": "http://m.toutiao.com/group/7669957067112808994"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-08-05",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "OpenAI与Anthropic备战8月，GPT-6与Fable 5.1将开启自主代理时代",
+          "title_en": "OpenAI and Anthropic Prepare for August Showdown, GPT-6 and Fable 5.1 to Usher in Agentic Era",
+          "summary": "OpenAI的GPT-6和Anthropic的Fable 5.1即将发布，标志着AI从聊天机器人向自主代理群和原创科学发现的根本性转变。",
+          "summary_en": "OpenAI's GPT-6 and Anthropic's Fable 5.1 are about to be released, marking a fundamental shift in AI from chatbots to autonomous agent swarms and original scientific discovery.",
+          "source": "AI CM",
+          "source_en": "AI CM",
+          "image": "https://ainewsdaily.asia/img/pool/green-energy.jpg",
+          "content": "人工智能领域即将迎来关键拐点，OpenAI和Anthropic准备在8月部署其迄今最复杂的模型GPT-6和Fable 5.1。业内专家指出，这些系统不再是自然语言处理的渐进式升级，而是代表了向自主代理、长期战略规划和原创科学发现的根本性转变。架构正从单体模型转向分布式“代理群”，能够在无需人类干预的情况下将复杂的多步目标分解为可执行的子任务。OpenAI已向美国政府官员进行闭门简报，表明其已超越“聊天机器人”阶段，进入“数字原生科学家”领域。这场竞争不仅是商业角逐，更是定义人工超级智能（ASI）标准范式的战斗，标志着数字助手与自主操作者之间的边界将变得彻底透明。",
+          "content_en": "The AI field is approaching a critical inflection point as OpenAI and Anthropic prepare to deploy their most sophisticated models, GPT-6 and Fable 5.1, in August. Industry experts note that these systems are not merely incremental upgrades in NLP but represent a fundamental shift toward autonomous agency, long-term strategic planning, and original scientific discovery. Architectures are moving from monolithic models to distributed \"agent swarms\" capable of breaking down complex multi-step objectives into executable sub-tasks without human intervention. OpenAI has conducted closed-door briefings with US government officials, indicating a move beyond the \"chatbot\" phase into the realm of \"digital-native scientists.\" This race is not just commercial but a battle to define the standard paradigm for ASI, making the boundary between digital assistants and autonomous operators effectively transparent.",
+          "key_points": [
+            "OpenAI与Anthropic即将发布GPT-6和Fable 5.1",
+            "AI架构向分布式自主代理群转变",
+            "OpenAI进入数字原生科学家领域",
+            "竞争旨在定义人工超级智能标准范式"
+          ],
+          "key_points_en": [
+            "OpenAI and Anthropic to release GPT-6 and Fable 5.1",
+            "AI architectures shift to distributed autonomous agent swarms",
+            "OpenAI enters digital-native scientist realm",
+            "Competition aims to define ASI standard paradigm"
+          ],
+          "url": "https://www.ai.cm/article/openai-and-anthropic-prepare-for-high-stakes-august-showdown"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-08-05",
+          "category": "机器人",
+          "category_en": "Robotics",
+          "title": "Waymo在达拉斯取消等待名单，全面开放无人驾驶出租车服务",
+          "title_en": "Waymo Removes Waiting List in Dallas, Fully Opens Driverless Robotaxi Service",
+          "summary": "Alphabet旗下Waymo在达拉斯取消等待名单，在150平方英里覆盖区内向公众提供全自动商业无人驾驶出租车服务。",
+          "summary_en": "Alphabet's Waymo has removed its waiting list in Dallas, offering fully autonomous commercial robotaxi rides across a 150-square-mile coverage area to the public.",
+          "source": "TechCrunch",
+          "source_en": "TechCrunch",
+          "image": "https://ainewsdaily.asia/img/pool/healthcare-robotics-surgery.jpg",
+          "content": "Alphabet子公司Waymo正式宣布在德克萨斯州达拉斯市取消无人驾驶出租车的等待名单，在150平方英里的广泛覆盖区内向公众提供全自动商业出行服务。此前，Waymo已在达拉斯进行了 extensive 的城市测试，验证了其系统在复杂城市环境中的技术可行性与安全性。此次全面开放标志着Waymo在北美市场的商业化扩张迈出重要一步，也意味着无人驾驶技术正从测试阶段加速迈向规模化日常运营。随着Waymo等头部企业不断拓展服务边界，自动驾驶行业正迎来真正的“黄金元年”，对传统出行市场、城市交通规划以及相关法律法规的演进都将产生深远影响。",
+          "content_en": "Alphabet subsidiary Waymo officially announced the removal of its waiting list for robotaxis in Dallas, Texas, offering fully autonomous commercial rides across a 150-square-mile coverage area to the public. Prior to this, Waymo conducted extensive urban testing in Dallas, verifying the technical feasibility and safety of its system in complex city environments. This full opening marks a significant step in Waymo's commercial expansion in the North American market and indicates that autonomous driving technology is accelerating from the testing phase to scaled daily operations. As leading companies like Waymo continuously expand service boundaries, the autonomous driving industry is ushering in a true \"golden year,\" which will profoundly impact the traditional mobility market, urban transportation planning, and the evolution of relevant laws and regulations.",
+          "key_points": [
+            "Waymo在达拉斯取消无人驾驶等待名单",
+            "覆盖区达150平方英里并向公众开放",
+            "标志北美市场商业化扩张迈出重要一步",
+            "自动驾驶技术加速迈向规模化日常运营"
+          ],
+          "key_points_en": [
+            "Waymo removes robotaxi waiting list in Dallas",
+            "Coverage area reaches 150 sq miles, open to public",
+            "Marks significant step in North American commercial expansion",
+            "Autonomous driving accelerates to scaled daily operations"
+          ],
+          "url": "https://techbytes.app/tech-pulse-daily/2026/august/04"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-08-05",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "BOSS直聘开源Nanbeige4.2-3B，3B参数小模型Agent任务越级击败9B/12B",
+          "title_en": "BOSS Zhipin Open-Sources Nanbeige4.2-3B, 3B Small Model Outperforms 9B/12B in Agent Tasks",
+          "summary": "BOSS直聘南北阁实验室开源Nanbeige4.2-3B模型，采用Looped Transformer架构，在多项Agent与推理基准上全面超越数倍参数规模的模型。",
+          "summary_en": "BOSS Zhipin's Nanbeige Lab open-sourced the Nanbeige4.2-3B model, using a Looped Transformer architecture to comprehensively outperform models several times its size in multiple agent and reasoning benchmarks.",
+          "source": "花田里采蜜的蜜蜂",
+          "source_en": "Bee in the Flower Field",
+          "image": "https://ainewsdaily.asia/img/pool/opensource-foundation-v3.jpg",
+          "content": "BOSS直聘南北阁实验室正式开源Nanbeige4.2-3B通用Agent小模型。该模型仅3B非嵌入参数，却采用创新的Looped Transformer架构，通过权重复用不增参的方式将同一组层计算两遍，有效提高计算深度。在SWE-Bench Verified上拿下63.6分、GPQA Diamond达87.4分，在多项Agent与推理基准上全面超越Qwen3.5-9B与Gemma4-12B等对手。Agent任务通常需要调用模型数十次，大模型推理成本高昂，Nanbeige4.2-3B的出现证明了在参数约束下，通过架构创新与多阶段RL配方，小模型同样能掌握代码智能体、办公智能体及复杂工具调用能力。这为降低Agent大规模使用的推理成本提供了极具价值的开源解决方案。",
+          "content_en": "BOSS Zhipin's Nanbeige Lab officially open-sourced the Nanbeige4.2-3B general agent small model. With only 3B non-embedding parameters, it adopts an innovative Looped Transformer architecture, effectively increasing computational depth by computing the same set of layers twice without adding parameters. It scored 63.6 on SWE-Bench Verified and 87.4 on GPQA Diamond, comprehensively outperforming competitors like Qwen3.5-9B and Gemma4-12B in multiple agent and reasoning benchmarks. Since agent tasks often require dozens of model calls, making large model inference costly, Nanbeige4.2-3B proves that under parameter constraints, small models can also master code agents, office agents, and complex tool calling through architectural innovation and multi-stage RL recipes. This provides a highly valuable open-source solution for reducing inference costs in large-scale agent applications.",
+          "key_points": [
+            "BOSS直聘开源Nanbeige4.2-3B小模型",
+            "采用Looped Transformer架构提升计算深度",
+            "Agent任务表现越级击败9B与12B模型",
+            "为降低Agent大规模推理成本提供新方案"
+          ],
+          "key_points_en": [
+            "BOSS Zhipin open-sources Nanbeige4.2-3B small model",
+            "Adopts Looped Transformer to increase depth",
+            "Outperforms 9B and 12B models in agent tasks",
+            "Provides new solution for reducing agent inference costs"
+          ],
+          "url": "http://m.toutiao.com/group/7670036184589763114"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-08-05",
+          "category": "芯片算力",
+          "category_en": "Chips & Computing Power",
+          "title": "腾讯混元Hy3登顶全球API调用榜，华为昇腾950超节点真机首秀",
+          "title_en": "Tencent Hunyuan Hy3 Tops Global API Calls, Huawei Ascend 950 Super Node Debuts",
+          "summary": "腾讯混元Hy3登顶OpenRouter全球调用量榜首，同时华为在WAIC 2026展出昇腾950超节点真机，国产算力基础设施迈入超大规模集群时代。",
+          "summary_en": "Tencent Hunyuan Hy3 tops the OpenRouter global API call list, while Huawei debuted the Ascend 950 super node at WAIC 2026, marking a new era of ultra-large-scale domestic computing infrastructure.",
+          "source": "CSDN",
+          "source_en": "CSDN",
+          "image": "https://ainewsdaily.asia/img/pool/network-edge.jpg",
+          "content": "2026年7月，AI大模型与算力领域迎来密集突破。腾讯发布混元大模型Hy3后，全球最大API聚合平台OpenRouter数据显示，Hy3在调用量总榜上升至第一，总调用量较上一代增长超68倍。腾讯随后宣布合并多模态与大语言模型部门，全力冲刺全模态统一落地。与此同时，在WAIC 2026上，华为展出了由20个机柜组成的1024卡昇腾950超节点真机，并宣布将于四季度批量交付8192卡超节点。这标志着国产算力基础设施正式进入超大规模集群时代。从模型效率的突破到国产算力的崛起，中国AI产业正从底层硬件到上层应用构建起全栈自主创新的生态闭环。",
+          "content_en": "In July 2026, the AI large model and computing power fields saw intensive breakthroughs. After Tencent released Hunyuan Hy3, data from the world's largest API aggregation platform OpenRouter showed Hy3 rose to first in total calls, with a 68-fold increase over the previous generation. Tencent subsequently merged its multimodal and LLM departments to fully push for unified full-modality deployment. Meanwhile, at WAIC 2026, Huawei debuted the 1024-card Ascend 950 super node consisting of 20 cabinets and announced the batch delivery of 8192-card super nodes in Q4. This marks the official entry of domestic computing infrastructure into the ultra-large-scale cluster era. From model efficiency breakthroughs to the rise of domestic computing power, China's AI industry is building a full-stack independent innovation ecosystem from underlying hardware to upper-layer applications.",
+          "key_points": [
+            "腾讯混元Hy3登顶OpenRouter调用量榜首",
+            "腾讯合并模型部门冲刺全模态统一落地",
+            "华为昇腾950超节点真机在WAIC首秀",
+            "国产算力基础设施迈入超大规模集群时代"
+          ],
+          "key_points_en": [
+            "Tencent Hunyuan Hy3 tops OpenRouter call list",
+            "Tencent merges model departments for full-modality deployment",
+            "Huawei Ascend 950 super node debuts at WAIC",
+            "Domestic computing enters ultra-large-scale cluster era"
+          ],
+          "url": "https://blog.csdn.net/yonggeit/article/details/163232392"
+        }
+      ]
+    },
     {
       "date": "2026-08-04",
       "hero": {
@@ -3147,16 +3445,16 @@
     }
   ],
   "hero": {
-    "id": "article-65",
-    "title": "全球大模型竞争格局重塑：从参数内卷到Agent能力与极致性价比的全面博弈",
-    "title_en": "Reshaping the Global LLM Landscape: From Parameter Involvement to the Comprehensive Game of Agent Capabilities and Ultimate Cost-Effectiveness",
-    "image": "https://ainewsdaily.asia/img/pool/autonomous-vehicle.jpg",
-    "date": "2026-08-04",
+    "id": "article-66",
+    "title": "中国大模型“开源+极致性价比”攻势引发美国AI路线之争与产业格局重塑",
+    "title_en": "China's 'Open Source + Extreme Cost-Effectiveness' AI Strategy Reshapes Global Industry Landscape",
+    "image": "https://ainewsdaily.asia/img/pool/green-energy.jpg",
+    "date": "2026-08-05",
     "source": "AI News Daily",
     "source_en": "AI News Daily",
-    "summary": "2026年盛夏，全球AI产业迎来深刻的范式转移。大模型竞争已从盲目的参数堆砌转向极致性价比与Agent实战能力。本文深度剖析OpenAI、阿里、DeepSeek等头部玩家如何通过分层定价与MoE架构重塑商业底座，AirLLM等开源项目如何打破算力围墙实现端侧部署，以及全球AI治理框架的收紧如何为行业划定新的合规门槛。",
-    "summary_en": "In the summer of 2026, the global AI industry is undergoing a profound paradigm shift. The competition has moved away from blind parameter scaling towards extreme cost-effectiveness, Agent capabilities, and open-weight ecosystems. This article analyzes how companies like OpenAI, Alibaba, and DeepSeek are leveraging tiered pricing and MoE architectures to slash inference costs, how AirLLM is breaking the memory wall for edge deployment, and how global regulations like the EU AI Act are setting new compliance thresholds.",
-    "category": "大模型",
-    "category_en": "Large Models"
+    "summary": "2026年，以DeepSeek、Kimi K3、Qwen为代表的中国大模型凭借“开源+极致性价比”席卷全球，不仅霸榜全球Tokens消耗量，更引发美国AI产业内部的路线之争与资本焦虑。本文深度剖析中国AI企业如何通过底层架构创新与开源生态飞轮，绕开算力封锁，实现从技术追赶到全球AI话语权转移的历史性跨越。",
+    "summary_en": "In 2026, Chinese LLMs represented by DeepSeek, Kimi K3, and Qwen are sweeping the globe with an 'open source + extreme cost-effectiveness' strategy. They not only dominate global token consumption but also trigger route debates and capital anxiety within the US AI industry. This article deeply analyzes how Chinese AI companies are bypassing computing power blockades through architectural innovation and open-source ecosystem flywheels, achieving a historic leap from technological catch-up to the transfer of global AI discourse power.",
+    "category": "开源动态",
+    "category_en": "Open Source Dynamics"
   }
 }
