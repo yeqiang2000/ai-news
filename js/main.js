@@ -1,6 +1,7 @@
 /**
- * AI News Daily - 主脚本 (双语版·多日内容)
+ * AI News Daily - 主脚本 (双语版·多日内容) v2
  * 功能：动态加载新闻数据、分类筛选、相对时间转换、国际化、多日内容展示
+ * Updated: 2026-08-05 - sidebar EN links cache refresh
  */
 
 (function() {
