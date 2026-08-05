@@ -570,6 +570,30 @@
                 link.setAttribute('href', href.replace('articles/en/', 'articles/'));
             }
         });
+
+        // 侧边栏文章推荐列表 - 英文模式切换标题和链接
+        document.querySelectorAll('.sidebar-article-link').forEach(link => {
+            const titleEl = link.querySelector('.sidebar-article-title');
+            const enTitle = link.getAttribute('data-en-title');
+            const enHref = link.getAttribute('data-en-href');
+            if (lang === 'en' && enTitle) {
+                if (titleEl) titleEl.textContent = enTitle;
+                if (enHref) link.setAttribute('href', enHref);
+            } else if (lang === 'zh') {
+                // 恢复中文标题：从data-zh-title恢复，首次运行时保存
+                if (titleEl && !link.hasAttribute('data-zh-title')) {
+                    link.setAttribute('data-zh-title', titleEl.textContent);
+                }
+                if (titleEl && link.hasAttribute('data-zh-title')) {
+                    titleEl.textContent = link.getAttribute('data-zh-title');
+                }
+                // 恢复中文链接：从href中去掉/en/
+                const currentHref = link.getAttribute('href');
+                if (currentHref && currentHref.includes('/en/')) {
+                    link.setAttribute('href', currentHref.replace('articles/en/', 'articles/'));
+                }
+            }
+        });
     }
 
     /**
