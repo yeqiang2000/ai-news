@@ -1,6 +1,37 @@
 {
   "articles": [
     {
+      "id": "article-67",
+      "date": "2026-08-05",
+      "title": "2.8万亿参数登顶与全球调用量霸榜：中国开源大模型如何重塑全球AI产业格局",
+      "title_en": "2.8 Trillion Parameters Top the Charts: How China's Open-Source LLMs are Reshaping the Global AI Landscape",
+      "category": "开源动态",
+      "category_en": "Open Source Dynamics",
+      "image": "https://ainewsdaily.asia/img/pool/ai-education.jpg",
+      "summary": "2026年7月，以Kimi K3为代表的中国开源大模型迎来“世界时刻”，不仅刷新全球参数规模纪录，更在全球API调用量上实现霸榜。本文深度剖析中国开源模型如何凭借架构创新与极致性价比，从“经济适用款”跃升为全球AI核心基础设施，并在地缘博弈中成为破局利器，全面重塑全球AI产业格局。",
+      "summary_en": "In July 2026, China's AI industry reached a milestone with the open-sourcing of the 2.8-trillion-parameter Kimi K3 and other frontier models. This article analyzes how Chinese open-source LLMs have dominated global API call volumes, driven architectural innovation under compute constraints, and influenced geopolitical AI governance, ultimately reshaping the global AI ecosystem.",
+      "author": "AI News Daily",
+      "read_time": "9 min",
+      "tags": [
+        "中国开源大模型",
+        "Kimi K3",
+        "AI产业格局",
+        "全球调用量",
+        "DeepSeek",
+        "人工智能治理",
+        "大模型开源"
+      ],
+      "tags_en": [
+        "China Open-Source LLM",
+        "Kimi K3",
+        "AI Industry Landscape",
+        "Global API Calls",
+        "DeepSeek",
+        "AI Governance",
+        "LLM Open-Source"
+      ]
+    },
+    {
       "id": "article-66",
       "date": "2026-08-05",
       "title": "中国大模型“开源+极致性价比”攻势引发美国AI路线之争与产业格局重塑",

@@ -4,6 +4,304 @@
     {
       "date": "2026-08-05",
       "hero": {
+        "id": "article-67",
+        "date": "2026-08-05",
+        "title": "2.8万亿参数登顶与全球调用量霸榜：中国开源大模型如何重塑全球AI产业格局",
+        "title_en": "2.8 Trillion Parameters Top the Charts: How China's Open-Source LLMs are Reshaping the Global AI Landscape",
+        "category": "开源动态",
+        "category_en": "Open Source Dynamics",
+        "image": "https://ainewsdaily.asia/img/pool/ai-education.jpg",
+        "summary": "2026年7月，以Kimi K3为代表的中国开源大模型迎来“世界时刻”，不仅刷新全球参数规模纪录，更在全球API调用量上实现霸榜。本文深度剖析中国开源模型如何凭借架构创新与极致性价比，从“经济适用款”跃升为全球AI核心基础设施，并在地缘博弈中成为破局利器，全面重塑全球AI产业格局。",
+        "summary_en": "In July 2026, China's AI industry reached a milestone with the open-sourcing of the 2.8-trillion-parameter Kimi K3 and other frontier models. This article analyzes how Chinese open-source LLMs have dominated global API call volumes, driven architectural innovation under compute constraints, and influenced geopolitical AI governance, ultimately reshaping the global AI ecosystem.",
+        "url": "/articles/article-67.html",
+        "url_en": "/articles/en/article-67.html"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-08-05",
+          "category": "政策监管",
+          "category_en": "Policy & Regulation",
+          "title": "欧盟《人工智能法案》核心条款正式生效，强化AI透明度要求",
+          "title_en": "EU AI Act Core Provisions Take Effect, Strengthening AI Transparency Requirements",
+          "summary": "自8月2日起，欧盟《人工智能法案》核心条款正式生效，对AI生成内容标注及聊天机器人告知义务提出严格要求。违规企业将面临最高全球年营收7%的罚款。",
+          "summary_en": "Starting August 2, the core provisions of the EU AI Act officially take effect, imposing strict requirements on AI-generated content labeling and chatbot disclosure obligations. Violations may result in fines up to 7% of global annual revenue.",
+          "source": "央视新闻",
+          "source_en": "CCTV News",
+          "image": "https://ainewsdaily.asia/img/pool/energy-carbon.jpg",
+          "content": "8月2日起，欧盟委员会人工智能办公室与各成员国主管部门开始执行《人工智能法案》相关规定。此次生效的核心条款对AI生成内容的机器可读标注（即“水印红线”）以及聊天机器人的告知义务提出了严格要求，明确告知用户其正在与AI互动。尽管高风险系统义务延期至2027年底，但通用大模型的透明度义务已按期落地。违规企业将面临最高全球年营收7%的罚款，且该法案具有域外效力。监管规则的落地将倒逼AI技术研发向可解释性、内容溯源等负责任方向倾斜，推动行业竞争维度从单纯的“模型更强”转向“更可审计、更合规”。",
+          "content_en": "Starting August 2, the EU Commission's AI Office and national authorities began enforcing the EU AI Act. The newly effective core provisions impose strict requirements on machine-readable labeling for AI-generated content (the 'watermark red line') and chatbot disclosure obligations, ensuring users are informed of AI interactions. While high-risk system obligations are delayed until late 2027, transparency duties for general-purpose models have landed on schedule. Violators face fines up to 7% of global annual revenue, and the act has extraterritorial effect. These regulations will push AI R&D towards explainability and content tracing, shifting industry competition from merely 'stronger models' to 'more auditable and compliant' systems.",
+          "key_points": [
+            "欧盟AI法案核心条款于8月2日正式生效",
+            "严格要求AI内容水印标注与聊天机器人告知义务",
+            "违规企业最高面临全球年营收7%的罚款",
+            "监管规则倒逼AI研发向可解释性与合规方向倾斜"
+          ],
+          "key_points_en": [
+            "EU AI Act core provisions take effect on August 2",
+            "Strict requirements for AI content watermarking and chatbot disclosure",
+            "Fines for violations can reach up to 7% of global annual revenue",
+            "Regulations push AI development towards explainability and compliance"
+          ],
+          "url": "http://m.toutiao.com/group/7669625052140274185"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-08-05",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "OpenAI披露下一代模型Astra，攻克10项长期未解数学难题",
+          "title_en": "OpenAI Unveils Next-Gen Model Astra, Solving 10 Long-Standing Math Problems",
+          "summary": "OpenAI公布下一代模型系列定名“Astra”，其内部测试版本在球体堆积等方向取得10项新成果，标志AI科研能力进入新阶段。",
+          "summary_en": "OpenAI announces its next-generation model series named \"Astra,\" with internal test versions achieving 10 new breakthroughs in areas like sphere packing, marking a new stage in AI scientific research capabilities.",
+          "source": "智东西",
+          "source_en": "Zhidx",
+          "image": "https://ainewsdaily.asia/img/pool/llm-context-window-v3.jpg",
+          "content": "OpenAI于8月1日公布下一代模型系列定名“Astra”。其内部测试版本在球体堆积、群论、量子复杂性等方向取得了10项新成果，其中球体堆积问题更是自1978年以来的首次改进。所有论证被整理为249页论文，并附带机器可核验的Lean证明证书，全部推理成本约2000美元。CEO奥尔特曼已在华盛顿向政策制定者预览该模型。这一突破标志着前沿模型正从“对话工具”跨入“科研生产力”，AI科研能力进入以可机器验证证明形式介入长期开放数学问题的新阶段。",
+          "content_en": "On August 1, OpenAI announced its next-generation model series named 'Astra'. Internal test versions achieved 10 new breakthroughs in sphere packing, group theory, and quantum complexity, including the first improvement to sphere packing since 1978. All proofs were compiled into a 249-page paper with machine-verifiable Lean proof certificates, costing about $2,000 in inference. CEO Sam Altman has previewed the model to policymakers in Washington. This breakthrough marks the transition of frontier models from 'chat tools' to 'scientific research productivity', entering a new stage where AI tackles long-standing open math problems with machine-verifiable proofs.",
+          "key_points": [
+            "OpenAI发布下一代模型系列并定名为Astra",
+            "在球体堆积等长期数学难题上取得10项新突破",
+            "论证整理为249页论文并附带机器可核验证明",
+            "标志AI从对话工具跨入科研生产力新阶段"
+          ],
+          "key_points_en": [
+            "OpenAI unveils next-gen model series named Astra",
+            "Achieves 10 new breakthroughs in long-standing math problems",
+            "Includes 249-page paper with machine-verifiable Lean proofs",
+            "Marks AI's transition from chatbot to scientific research productivity"
+          ],
+          "url": "http://m.toutiao.com/group/7670343327414026803"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-08-05",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "马斯克预告下周发布Grok 4.6模型，总参数量达1.5万亿",
+          "title_en": "Elon Musk Previews Grok 4.6 Release Next Week with 1.5 Trillion Parameters",
+          "summary": "马斯克在SpaceX财报电话会议上宣布，下周将发布总参数量1.5万亿的Grok 4.6模型，重点改进监督微调与强化学习。",
+          "summary_en": "At the SpaceX Q2 2026 earnings call, Musk announced the release of the 1.5 trillion-parameter Grok 4.6 model next week, focusing on improvements in supervised fine-tuning and reinforcement learning.",
+          "source": "IT之家",
+          "source_en": "IT Home",
+          "image": "https://ainewsdaily.asia/img/pool/llm-rag-v3.jpg",
+          "content": "在SpaceX 2026年第二季度财报电话会议上，埃隆·马斯克宣布将于下周发布总参数量达1.5万亿的Grok 4.6模型。该模型重点改进了监督微调（SFT）与强化学习（RL）技术，旨在进一步提升AI系统的自主执行与逻辑推理能力。此外，马斯克还预告将在3至4周后推出参数规模高达2.1万亿的Grok 4.7模型。马斯克此前曾公开表示，中国在机器人和AI领域实力雄厚，未来很有可能在某个时候成为领导者。此次Grok系列的密集迭代，显示出其在AI赛道追赶前沿水平的强烈决心。",
+          "content_en": "During the SpaceX Q2 2026 earnings call, Elon Musk announced the release of the 1.5 trillion-parameter Grok 4.6 model next week. The model focuses on improving supervised fine-tuning (SFT) and reinforcement learning (RL) to enhance autonomous execution and logical reasoning. Additionally, Musk previewed the upcoming Grok 4.7, boasting 2.1 trillion parameters, expected in 3 to 4 weeks. Musk previously acknowledged China's strong capabilities in AI and robotics, suggesting it could become a leader. This rapid iteration of the Grok series demonstrates a strong determination to catch up with frontier levels in the AI race.",
+          "key_points": [
+            "Grok 4.6模型将于下周发布，参数量达1.5万亿",
+            "重点改进监督微调与强化学习技术",
+            "预告3至4周后推出2.1万亿参数的Grok 4.7",
+            "马斯克认可中国在AI与机器人领域的雄厚实力"
+          ],
+          "key_points_en": [
+            "Grok 4.6 with 1.5 trillion parameters to be released next week",
+            "Focuses on improvements in SFT and reinforcement learning",
+            "Grok 4.7 with 2.1 trillion parameters expected in 3-4 weeks",
+            "Musk acknowledges China's strong capabilities in AI and robotics"
+          ],
+          "url": "http://m.toutiao.com/group/7670343327414026803"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-08-05",
+          "category": "投融资",
+          "category_en": "Investment & Financing",
+          "title": "欧洲AI创企上半年融资230亿美元创纪录，占风投总额55%",
+          "title_en": "European AI Startups Raise Record $23 Billion in H1, Accounting for 55% of VC",
+          "summary": "据报告显示，欧洲AI初创公司2026年上半年融资达230亿美元，同比增长130%，显示欧洲正成为AI投资主引擎。",
+          "summary_en": "According to a report, European AI startups raised $23 billion in the first half of 2026, a 130% year-on-year increase, showing Europe is becoming a main engine for AI investment.",
+          "source": "ADVFN",
+          "source_en": "ADVFN",
+          "image": "https://ainewsdaily.asia/img/pool/digital-economy.jpg",
+          "content": "据HumanX与Crunchbase联合发布的《2026欧洲AI经济报告》显示，欧洲AI初创公司在2026年上半年共获得230亿美元融资，同比增长高达130%。这一融资额占该地区全部风险投资总额的55%，创下历史新高。数据表明，欧洲正迅速成为全球AI投资的主引擎。资本的大量涌入不仅为欧洲本土AI企业提供了充足的研发弹药，也反映出全球投资者对欧洲AI生态潜力的认可。随着资本从纯大模型向智能体与机器人等落地赛道迁移，欧洲AI产业有望迎来新一轮爆发式增长。",
+          "content_en": "According to the '2026 European AI Economy Report' jointly released by HumanX and Crunchbase, European AI startups raised a total of $23 billion in the first half of 2026, a massive 130% year-on-year increase. This funding accounts for 55% of the region's total venture capital, setting a historic record. The data indicates that Europe is rapidly becoming the main engine for global AI investment. The massive influx of capital not only provides ample R&D ammunition for local AI companies but also reflects global investors' recognition of Europe's AI ecosystem potential. As capital shifts from pure large models to applied tracks like agents and robotics, Europe's AI industry is poised for explosive growth.",
+          "key_points": [
+            "欧洲AI创企上半年融资达230亿美元",
+            "融资金额同比激增130%创下历史新高",
+            "AI投资占欧洲风投总额的55%",
+            "欧洲正迅速成为全球AI投资的主引擎"
+          ],
+          "key_points_en": [
+            "European AI startups raised $23 billion in H1 2026",
+            "Funding surged 130% year-on-year, setting a new record",
+            "AI investments account for 55% of total European VC funding",
+            "Europe is rapidly becoming a primary engine for global AI investment"
+          ],
+          "url": "http://m.toutiao.com/group/7670343327414026803"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-08-05",
+          "category": "投融资",
+          "category_en": "Investment & Financing",
+          "title": "具身智能赛道融资加速：蚂蚁灵波科技启动首轮融资拟募资15亿",
+          "title_en": "Embodied AI Funding Accelerates: Ant Group's Lingbo Tech Starts Series A to Raise 1.5B RMB",
+          "summary": "蚂蚁集团旗下具身智能公司灵波科技启动首轮融资，拟募资15亿元。2026年上半年国内具身智能赛道融资约438亿元，资本加速向物理AI迁移。",
+          "summary_en": "Ant Group's embodied AI company Lingbo Tech has started its Series A funding, aiming to raise 1.5 billion RMB. In H1 2026, domestic embodied AI funding reached about 43.8 billion RMB as capital shifts to physical AI.",
+          "source": "21世纪经济报道",
+          "source_en": "21st Century Business Herald",
+          "image": "https://ainewsdaily.asia/img/pool/startup-pitch.jpg",
+          "content": "具身智能赛道融资并购持续加速。蚂蚁集团旗下具身智能公司灵波科技被曝启动首轮融资，拟募资15亿元人民币。数据显示，2026年上半年国内具身智能赛道融资总额约438亿元，其中“大脑派”公司吸金能力尤为突出。与此同时，Anthropic与Physical Intelligence等头部公司的收并购传闻密集出现，2026年被业界视为AI收并购大年。资本正加速从纯大模型向“能落地、能自主行动”的物理AI与机器人赛道迁移，行业进入能力突破与商业化落地的关键拐点期。",
+          "content_en": "Funding and M&A in the embodied AI sector continue to accelerate. Ant Group's embodied AI company, Lingbo Tech, is reportedly starting its Series A funding, aiming to raise 1.5 billion RMB. Data shows that domestic embodied AI funding reached approximately 43.8 billion RMB in the first half of 2026, with 'brain-focused' companies attracting the most capital. Meanwhile, M&A rumors surrounding top companies like Anthropic and Physical Intelligence are frequent, making 2026 a major year for AI acquisitions. Capital is rapidly shifting from pure large models to physical AI and robotics tracks that can 'land and act autonomously', marking a critical turning point for capability breakthroughs and commercialization.",
+          "key_points": [
+            "蚂蚁灵波科技启动首轮融资拟募资15亿元",
+            "上半年国内具身智能赛道融资约438亿元",
+            "大脑派公司在融资中吸金能力尤为突出",
+            "资本加速向物理AI与机器人落地赛道迁移"
+          ],
+          "key_points_en": [
+            "Ant Group's Lingbo Tech starts Series A to raise 1.5 billion RMB",
+            "Domestic embodied AI sector raised 43.8 billion RMB in H1 2026",
+            "Brain-focused companies attract the majority of the funding",
+            "Capital shifts to physical AI and robotics commercialization tracks"
+          ],
+          "url": "http://m.toutiao.com/group/7670343327414026803"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-08-05",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "DeepSeek-V4-Flash正式版API上线公测，Agent能力反超Pro版",
+          "title_en": "DeepSeek-V4-Flash Official API Launches, Agent Capabilities Surpass Pro Version",
+          "summary": "DeepSeek宣布V4-Flash正式版API上线公测。该模型在智能体能力上实现了对自家V4-Pro预览版的全面反超，性价比极高。",
+          "summary_en": "DeepSeek announces the public beta of the V4-Flash official API. The model comprehensively surpasses its own V4-Pro preview version in Agent capabilities, offering ultra-high cost-effectiveness.",
+          "source": "新智元",
+          "source_en": "AI Era",
+          "image": "https://ainewsdaily.asia/img/pool/opensource-github-stars-v3.jpg",
+          "content": "7月31日，DeepSeek宣布V4-Flash正式版API上线公测。该模型总参数2840亿、激活参数130亿，定位高效低成本推理场景。与常规认知不同，此次升级最引人关注的是，V4-Flash正式版在智能体（Agent）能力上实现了对自家V4-Pro预览版的全面反超。模型原生支持Responses API格式并全面适配Codex，凭借超高性价比再次引爆AI圈。马斯克也在关注DeepSeek官方账号后，对其在AI领域的实力表示认可，进一步推高了该模型的市场热度。",
+          "content_en": "On July 31, DeepSeek announced the public beta of the V4-Flash official API. With 284 billion total parameters and 13 billion active parameters, it targets high-efficiency, low-cost inference scenarios. Contrary to conventional wisdom, the most notable upgrade is that V4-Flash comprehensively surpasses the V4-Pro preview in Agent capabilities. The model natively supports the Responses API format and fully adapts to Codex, igniting the AI circle again with its ultra-high cost-effectiveness. Elon Musk also showed recognition of DeepSeek's strength in AI after following their official account, further boosting the model's market popularity.",
+          "key_points": [
+            "DeepSeek-V4-Flash正式版API开启公测",
+            "Agent能力全面反超自家V4-Pro预览版",
+            "总参数2840亿，定位高效低成本推理场景",
+            "原生支持Responses API并全面适配Codex"
+          ],
+          "key_points_en": [
+            "DeepSeek-V4-Flash official API enters public beta",
+            "Agent capabilities comprehensively surpass the V4-Pro preview",
+            "Features 284 billion total parameters for low-cost inference",
+            "Natively supports Responses API and fully adapts to Codex"
+          ],
+          "url": "http://m.toutiao.com/group/7669980388558733834"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-08-05",
+          "category": "开源动态",
+          "category_en": "Open Source",
+          "title": "月之暗面全量开源Kimi K3，2.8万亿参数刷新全球开源模型纪录",
+          "title_en": "Moonshot AI Open-Sources Kimi K3, Setting Global Record with 2.8 Trillion Parameters",
+          "summary": "月之暗面正式开源2.8万亿参数的Kimi K3模型，登顶HuggingFace热度榜，成为首个超越头部闭源模型的开源大模型。",
+          "summary_en": "Moonshot AI fully open-sources the 2.8 trillion-parameter Kimi K3 model, topping the Hugging Face popularity chart and becoming the first open-source model to surpass top closed-source models.",
+          "source": "大模型之家",
+          "source_en": "Model Home",
+          "image": "https://ainewsdaily.asia/img/pool/opensource-contribution-v3.jpg",
+          "content": "7月27日，月之暗面在Hugging Face正式释放Kimi K3完整模型权重。这款总参数2.8万亿、原生支持视觉理解、拥有100万token上下文窗口的模型，成为全球参数规模最大的开源大模型。Kimi K3在Frontend Code Arena编程榜单上以1679分超越Anthropic的Claude Fable 5登顶，成为开源模型首次超越头部闭源模型的里程碑。马斯克留言称其“令人印象深刻”。该模型的发布标志着国产开源模型正撕掉“低价低质”标签，正式跻身全球第一梯队。",
+          "content_en": "On July 27, Moonshot AI officially released the full model weights of Kimi K3 on Hugging Face. With 2.8 trillion total parameters, native visual understanding, and a 1 million token context window, it becomes the largest open-source large model globally. Kimi K3 topped the Frontend Code Arena with a score of 1679, surpassing Anthropic's Claude Fable 5, marking a milestone as the first open-source model to beat top closed-source models. Elon Musk commented that it was 'impressive'. The release signifies that domestic open-source models are tearing off the 'low price, low quality' label and officially joining the global first tier.",
+          "key_points": [
+            "Kimi K3全量开源，总参数达2.8万亿",
+            "登顶HuggingFace热度榜与编程榜单",
+            "成为首个超越头部闭源模型的开源大模型",
+            "马斯克评价该模型表现令人印象深刻"
+          ],
+          "key_points_en": [
+            "Kimi K3 open-sourced with 2.8 trillion parameters",
+            "Tops Hugging Face popularity chart and Frontend Code Arena",
+            "First open-source model to surpass top closed-source models",
+            "Elon Musk praises the model as impressive"
+          ],
+          "url": "https://m.thepaper.cn/newsDetail_forward_33711968"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-08-05",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "阿里发布2.4万亿参数Qwen3.8-Max，已进入特斯拉中国车载测试",
+          "title_en": "Alibaba Releases 2.4T Parameter Qwen3.8-Max, Entering Tesla China In-Car Testing",
+          "summary": "阿里推出2.4万亿参数的Qwen3.8-Max模型，支持处理百小时视频，并已进入特斯拉中国车载系统深度测试阶段，海外影响力持续扩大。",
+          "summary_en": "Alibaba launches the 2.4 trillion-parameter Qwen3.8-Max model, capable of processing 100+ hours of video, which has entered deep testing in Tesla's vehicle systems in China.",
+          "source": "中国日报",
+          "source_en": "China Daily",
+          "image": "https://ainewsdaily.asia/img/pool/ai-education.jpg",
+          "content": "阿里巴巴推出2.4万亿参数的Qwen3.8-Max模型，支持分析200页财务报告及处理超100小时视频内容，直接跻身全球顶级大语言模型行列。据悉，该模型已进入特斯拉中国车载系统的“深度测试”阶段，预计将用于特斯拉车载平台。在最新的Arena基准排名中，阿里Qwen系列紧随Anthropic的Claude系列之后。此外，中国AI模型在海外持续获得青睐，OpenRouter数据显示，中国大模型周Token消耗量已连续13周位居全球第一，占据全球三分之二市场份额。",
+          "content_en": "Alibaba has launched the 2.4 trillion-parameter Qwen3.8-Max model, capable of analyzing 200-page financial reports and processing over 100 hours of video, placing it directly among the world's top-tier LLMs. Reportedly, the model has entered the 'deep testing' phase in Tesla's vehicle systems in China and is expected to be used for Tesla's in-car platform. In the latest Arena benchmark rankings, Alibaba's Qwen series ranks just behind Anthropic's Claude. Additionally, Chinese AI models continue to gain traction overseas; OpenRouter data shows Chinese LLMs have ranked first globally in weekly token consumption for 13 consecutive weeks, capturing two-thirds of the global market share.",
+          "key_points": [
+            "阿里发布2.4万亿参数Qwen3.8-Max模型",
+            "模型已进入特斯拉中国车载系统深度测试",
+            "在Arena基准排名中紧随Claude系列之后",
+            "中国大模型周Token消耗量连续13周全球第一"
+          ],
+          "key_points_en": [
+            "Alibaba releases Qwen3.8-Max with 2.4 trillion parameters",
+            "Model enters deep testing in Tesla China's in-car systems",
+            "Ranks just behind Anthropic's Claude in Arena benchmarks",
+            "Chinese LLMs rank first globally in weekly token consumption for 13 weeks"
+          ],
+          "url": "https://global.chinadaily.com.cn/a/202608/04/WS6a7209b9a310986e2b468f6e.html"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-08-05",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "字节跳动发布Seedance 2.5视频模型，单次生成时长突破30秒",
+          "title_en": "ByteDance Releases Seedance 2.5 Video Model, Single Generation Reaches 30 Seconds",
+          "summary": "字节跳动推出新一代视频创作模型Seedance 2.5，延续多模态音视频联合生成架构，单次生成时长达30秒，支持多轮延长。",
+          "summary_en": "ByteDance launches the new Seedance 2.5 video creation model, continuing its unified multimodal audio-video architecture, with single generation duration reaching 30 seconds and supporting multi-round extension.",
+          "source": "第一财经",
+          "source_en": "Yicai",
+          "image": "https://ainewsdaily.asia/img/pool/healthcare-ai-diagnosis.jpg",
+          "content": "7月31日，字节跳动发布新一代视频创作模型Seedance 2.5。该模型延续统一的多模态音视频联合生成架构，重点突破长叙事、多模态参考和编辑能力。核心亮点在于单次生成时长达30秒，支持多轮延长，并优化了镜头衔接和场景过渡。在多模态参考方面，用户单次可输入最多30张图片、10段视频和10段音频作为素材。Seedance 2.5的发布标志着用户对视频创作模型的期待正从“生成片段”走向“完成创作”，进一步降低了多模态内容生成的门槛，赋能广告、电商等商业场景。",
+          "content_en": "On July 31, ByteDance released the new-generation video creation model Seedance 2.5. Continuing its unified multimodal audio-video joint generation architecture, the model focuses on breakthroughs in long narrative, multimodal reference, and editing capabilities. The core highlight is a single generation duration of up to 30 seconds, supporting multi-round extension with optimized shot transitions and scene continuity. For multimodal references, users can input up to 30 images, 10 videos, and 10 audio clips at once. The release of Seedance 2.5 marks a shift in user expectations from 'generating clips' to 'completing creations', lowering the barrier for multimodal content generation and empowering commercial scenarios like advertising and e-commerce.",
+          "key_points": [
+            "字节跳动发布Seedance 2.5视频创作模型",
+            "单次生成时长达30秒并支持多轮延长",
+            "支持最多30张图片及10段音视频作为参考素材",
+            "推动视频创作从生成片段向完成完整创作转变"
+          ],
+          "key_points_en": [
+            "ByteDance releases Seedance 2.5 video creation model",
+            "Single generation duration reaches 30 seconds with multi-round extension",
+            "Supports up to 30 images, 10 videos, and 10 audio clips as references",
+            "Shifts user expectations from generating clips to completing full creations"
+          ],
+          "url": "http://m.toutiao.com/group/7669980388558733834"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-08-05",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "OpenAI宣布GPT-5.6系列API大幅降价，入门款最高降幅达80%",
+          "title_en": "OpenAI Slashes GPT-5.6 API Prices by Up to 80% for Entry-Level Models",
+          "summary": "OpenAI对GPT-5.6系列API进行大幅降价，入门款Luna输入输出价格均降80%，通过底层技术优化实现效率跃升与成本下降。",
+          "summary_en": "OpenAI announces massive price cuts for the GPT-5.6 API series, with the entry-level Luna model seeing an 80% reduction, achieving efficiency leaps through underlying technical optimizations.",
+          "source": "量子位",
+          "source_en": "QbitAI",
+          "image": "https://ainewsdaily.asia/img/pool/healthcare-robotics-surgery.jpg",
+          "content": "OpenAI宣布对GPT-5.6系列API进行大幅降价。其中，入门款Luna输入输出价格均下降80%，每百万Token输入降至0.2美元、输出降至1.2美元；主力款Terra降价20%；旗舰款Sol维持原价但新增速度提升2.5倍的Fast模式。此次降价源于GPT-5.6 Sol参与自身生产系统优化，通过改进GPU Kernel、推测解码等技术，在不降低模型能力的前提下实现了效率跃升。大幅降价将进一步降低开发者的接入门槛，加速AI应用在各行各业的规模化落地。",
+          "content_en": "OpenAI has announced massive price cuts for the GPT-5.6 API series. The entry-level Luna model sees an 80% reduction in both input and output prices, dropping to $0.2 and $1.2 per million tokens respectively; the main Terra model is cut by 20%; and the flagship Sol retains its price but adds a Fast mode with 2.5x speed. These cuts stem from GPT-5.6 Sol optimizing its own production systems, improving GPU Kernels and speculative decoding to achieve efficiency leaps without compromising capabilities. The significant price reductions will further lower the barrier for developers and accelerate the large-scale deployment of AI applications across various industries.",
+          "key_points": [
+            "OpenAI宣布GPT-5.6系列API大幅降价",
+            "入门款Luna输入输出价格均下降80%",
+            "降价源于GPU Kernel与推测解码等技术优化",
+            "大幅降价将加速AI应用在各行各业的规模化落地"
+          ],
+          "key_points_en": [
+            "OpenAI slashes GPT-5.6 API prices, up to 80% for Luna",
+            "Luna input/output prices drop to $0.2/$1.2 per million tokens",
+            "Price cuts stem from GPU Kernel and speculative decoding optimizations",
+            "Lower prices will accelerate AI application scaling across industries"
+          ],
+          "url": "http://m.toutiao.com/group/7669980388558733834"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "hero": {
         "id": "article-66",
         "date": "2026-08-05",
         "title": "中国大模型“开源+极致性价比”攻势引发美国AI路线之争与产业格局重塑",
@@ -3445,15 +3743,15 @@
     }
   ],
   "hero": {
-    "id": "article-66",
-    "title": "中国大模型“开源+极致性价比”攻势引发美国AI路线之争与产业格局重塑",
-    "title_en": "China's 'Open Source + Extreme Cost-Effectiveness' AI Strategy Reshapes Global Industry Landscape",
-    "image": "https://ainewsdaily.asia/img/pool/green-energy.jpg",
+    "id": "article-67",
+    "title": "2.8万亿参数登顶与全球调用量霸榜：中国开源大模型如何重塑全球AI产业格局",
+    "title_en": "2.8 Trillion Parameters Top the Charts: How China's Open-Source LLMs are Reshaping the Global AI Landscape",
+    "image": "https://ainewsdaily.asia/img/pool/ai-education.jpg",
     "date": "2026-08-05",
     "source": "AI News Daily",
     "source_en": "AI News Daily",
-    "summary": "2026年，以DeepSeek、Kimi K3、Qwen为代表的中国大模型凭借“开源+极致性价比”席卷全球，不仅霸榜全球Tokens消耗量，更引发美国AI产业内部的路线之争与资本焦虑。本文深度剖析中国AI企业如何通过底层架构创新与开源生态飞轮，绕开算力封锁，实现从技术追赶到全球AI话语权转移的历史性跨越。",
-    "summary_en": "In 2026, Chinese LLMs represented by DeepSeek, Kimi K3, and Qwen are sweeping the globe with an 'open source + extreme cost-effectiveness' strategy. They not only dominate global token consumption but also trigger route debates and capital anxiety within the US AI industry. This article deeply analyzes how Chinese AI companies are bypassing computing power blockades through architectural innovation and open-source ecosystem flywheels, achieving a historic leap from technological catch-up to the transfer of global AI discourse power.",
+    "summary": "2026年7月，以Kimi K3为代表的中国开源大模型迎来“世界时刻”，不仅刷新全球参数规模纪录，更在全球API调用量上实现霸榜。本文深度剖析中国开源模型如何凭借架构创新与极致性价比，从“经济适用款”跃升为全球AI核心基础设施，并在地缘博弈中成为破局利器，全面重塑全球AI产业格局。",
+    "summary_en": "In July 2026, China's AI industry reached a milestone with the open-sourcing of the 2.8-trillion-parameter Kimi K3 and other frontier models. This article analyzes how Chinese open-source LLMs have dominated global API call volumes, driven architectural innovation under compute constraints, and influenced geopolitical AI governance, ultimately reshaping the global AI ecosystem.",
     "category": "开源动态",
     "category_en": "Open Source Dynamics"
   }
