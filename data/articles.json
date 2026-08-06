@@ -1,6 +1,35 @@
 {
   "articles": [
     {
+      "id": "article-68",
+      "date": "2026-08-06",
+      "title": "AI Agent生态大转向：模型竞赛降温，工程可靠性与成本成生死线",
+      "title_en": "The Great Shift in AI Agent Ecosystem: Model Competition Cools, Engineering Reliability and Cost Become Lifelines",
+      "category": "AI应用",
+      "category_en": "AI Application",
+      "image": "https://ainewsdaily.asia/img/pool/digital-economy.jpg",
+      "summary": "2026年，AI Agent产业正经历从模型竞赛向工程落地的深刻转向。本文深度解析AI Agent在工程可靠性、安全治理与成本效率方面面临的三大核心挑战，揭示企业如何跨越“试点炼狱”，构建真正具备商业价值的智能体系统。",
+      "summary_en": "In 2026, the AI Agent industry is undergoing a profound shift from model competition to engineering implementation. This article deeply analyzes the three core challenges faced by AI Agents in engineering reliability, security governance, and cost efficiency, revealing how enterprises can cross the 'pilot purgatory' and build intelligent agent systems with true commercial value.",
+      "author": "AI News Daily",
+      "read_time": "8 min",
+      "tags": [
+        "AI Agent",
+        "工程可靠性",
+        "大模型落地",
+        "成本效率",
+        "安全治理",
+        "企业级AI"
+      ],
+      "tags_en": [
+        "AI Agent",
+        "Engineering Reliability",
+        "LLM Implementation",
+        "Cost Efficiency",
+        "Security Governance",
+        "Enterprise AI"
+      ]
+    },
+    {
       "id": "article-67",
       "date": "2026-08-05",
       "title": "2.8万亿参数登顶与全球调用量霸榜：中国开源大模型如何重塑全球AI产业格局",
@@ -1321,5 +1350,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-08-05"
+  "last_updated": "2026-08-06"
 }
