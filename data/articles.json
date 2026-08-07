@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "article-69",
+      "date": "2026-08-07",
+      "title": "7300亿美元AI豪赌背后的算力暗战：从百亿美元大单到HBM供应链瓶颈",
+      "title_en": "The $730 Billion AI Gamble: The Hidden Computing Power War from Billion-Dollar Deals to HBM Supply Chain Bottlenecks",
+      "category": "芯片算力",
+      "category_en": "Chip & Computing Power",
+      "image": "https://ainewsdaily.asia/img/pool/healthcare-ai-diagnosis.jpg",
+      "summary": "2026年，全球AI投资达到史无前例的规模，北美科技巨头合计投入超7300亿美元。本文深度剖析资本从软件层向底层硬件的转移、百亿美元级算力大单的频现、推理侧爆发带来的HBM与光互联瓶颈，以及数据中心扩张面临的能源与地缘政治天花板。随着AI迈入L3智能体时代，万亿资本的最终回报将取决于真实场景的商业化兑现能力。",
+      "summary_en": "In 2026, global AI investment has reached an unprecedented scale, with North American tech giants pouring over $730 billion into the sector. This article dives deep into the shifting capital flows from software to hardware, the emergence of $10 billion compute deals, the explosion of inference workloads causing HBM and optical interconnect bottlenecks, and the physical and geopolitical limits of data center expansion. As AI enters the L3 agent era, the ultimate return on trillions in capital depends on commercialization in real-world scenarios.",
+      "author": "AI News Daily",
+      "read_time": "7 min",
+      "tags": [
+        "人工智能",
+        "算力基建",
+        "大模型",
+        "智能体",
+        "HBM",
+        "科技投资",
+        "数据中心",
+        "商业化落地"
+      ],
+      "tags_en": [
+        "Artificial Intelligence",
+        "Compute Infrastructure",
+        "Large Language Models",
+        "AI Agents",
+        "HBM",
+        "Tech Investment",
+        "Data Centers",
+        "Commercialization"
+      ]
+    },
+    {
       "id": "article-68",
       "date": "2026-08-06",
       "title": "AI Agent生态大转向：模型竞赛降温，工程可靠性与成本成生死线",
@@ -1350,5 +1383,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-08-06"
+  "last_updated": "2026-08-07"
 }
