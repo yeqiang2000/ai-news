@@ -1,6 +1,37 @@
 {
   "articles": [
     {
+      "id": "article-72",
+      "date": "2026-08-08",
+      "title": "拒绝“蒸馏”捷径与承认差距：字节跳动大模型战略的长期主义与路线之争",
+      "title_en": "Rejecting the 'Distillation' Shortcut and Acknowledging the Gap: ByteDance's Long-termism and Route Debate in LLM Strategy",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "image": "https://ainewsdaily.asia/img/pool/autonomous-delivery.jpg",
+      "summary": "在2026年大模型竞速的深水区，字节跳动罕见地公开承认与海外头部产品的差距，并由创始人张一鸣亲自拍板拒绝“蒸馏”捷径。本文深度剖析字节Seed团队内部三次路线之争背后的技术逻辑与商业考量，揭秘其放弃短期榜单排名、押注5万亿参数原生训练与全双工多模态落地的长期主义战略。",
+      "summary_en": "In the deep-water stage of LLM competition in 2026, ByteDance rarely and publicly acknowledged its gap with overseas leading products, with founder Zhang Yiming personally making the final decision to reject the 'distillation' shortcut. This article deeply analyzes the technical logic and business considerations behind the three route debates within ByteDance's Seed team, revealing its long-termism strategy of giving up short-term leaderboard rankings and betting on 5-trillion parameter native training and full-duplex multimodal landing.",
+      "author": "AI News Daily",
+      "read_time": "8 min",
+      "tags": [
+        "字节跳动",
+        "大模型",
+        "蒸馏",
+        "长期主义",
+        "Seed",
+        "人工智能",
+        "算力"
+      ],
+      "tags_en": [
+        "ByteDance",
+        "Large Language Model",
+        "Distillation",
+        "Long-termism",
+        "Seed",
+        "Artificial Intelligence",
+        "Computing Power"
+      ]
+    },
+    {
       "id": "article-71",
       "date": "2026-08-08",
       "title": "字节拒绝“蒸馏”捷径坚守自研：中美大模型差距拉大下的长期主义博弈",
