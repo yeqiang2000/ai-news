@@ -18,13 +18,16 @@
   .article-read-time { font-size: 14px; color: #888; }
   .article-title { font-size: 32px; font-weight: 800; color: #f0f0f0; line-height: 1.3; margin-bottom: 16px; }
   .article-subtitle { font-size: 18px; color: #999; line-height: 1.6; max-width: 650px; margin: 0 auto; }
-  .article-hero-image { width: 100%%; max-width: 800px; height: auto; border-radius: 12px; margin: 30px 0; display: block; }
+  .article-hero-image { width: 100%; max-width: 800px; height: auto; border-radius: 12px; margin: 30px 0; display: block; }
   .article-content { font-size: 16px; color: #d0d0d0; }
   .article-content p { margin-bottom: 20px; }
   .article-content h2 { font-size: 24px; font-weight: 700; color: #f0f0f0; margin: 40px 0 20px; padding-bottom: 10px; border-bottom: 1px solid #2a2a3a; }
   .article-content strong { color: #f0f0f0; font-weight: 700; }
   .article-content a { color: #818cf8; text-decoration: none; }
-  @media (max-width: 768px) { .deep-article { padding: 20px 16px 60px; } .article-title { font-size: 24px; } }
+  .article-conclusion { background: linear-gradient(135deg, #0f0f1a, #1a1a2e); border: 1px solid #2a2a3a; border-radius: 12px; padding: 32px; margin: 40px 0 20px; text-align: center; }
+  .article-conclusion p { text-indent: 0 !important; }
+  .article-conclusion h3 { color: #818cf8; margin-bottom: 16px; }
+  @media (max-width: 768px) { .deep-article { padding: 20px 16px 60px; } .article-title { font-size: 24px; } .article-subtitle { font-size: 16px; } .article-content { font-size: 15px; } }
 </style>
 </head>
 <body>
@@ -38,33 +41,84 @@
     <h1 class="article-title">ByteDance Rejects the 'Distillation' Shortcut: A Long-Term Game in the Widening US-China LLM Gap</h1>
     <p class="article-subtitle">Zhang Yiming vetoes 'copying homework' three times, aiming for the first tier with a 5-trillion-parameter model. How is China's AI navigating the deep waters of the L3 Agent era?</p>
   </header>
-  <img class="article-hero-image" src="https://ainewsdaily.asia/img/pool/healthcare-wearable.jpg" alt="ByteDance Rejects the 'Distillation' Shortcut: A Long-Term Game in the Widening US-China LLM Gap">
+  <img class="article-hero-image" src="https://ainewsdaily.asia/img/pool/healthcare-wearable.jpg" alt="ByteDance Rejects Distillation">
   <div class="article-content">
-        <h2>Rejecting the 'Shortcut': Zhang Yiming's Three 'Vetoes' and Long-Termism</h2>
-    
+
+    <h2>Rejecting the 'Shortcut': Zhang Yiming's Three 'Vetoes' and Long-Termism</h2>
+
+    <p>In early August 2026, ByteDance founder Zhang Yiming made a rare public statement at an all-hands meeting of the Seed team: ByteDance will not use model distillation as a shortcut to improve its AI capabilities, even if it means falling behind domestic competitors in the short term.</p>
+
+    <p>According to exclusive reports from LatePost and 36Kr, this was not Zhang's first time vetoing the distillation route internally. From the first debate after DeepSeek-R1's release in January 2025, to the second push after Nvidia's Blackwell GPU deployment widened the compute gap in late 2025, to the third intense discussion after Moonshot AI's Kimi K3 (2.8 trillion parameters) entered the global top tier in July 2026 — each time, Zhang hit the pause button.</p>
+
+    <p>"We can accept temporary lagging behind, but no distillation," a source close to Seed said, citing Zhang's repeated statements internally. He believes distillation can improve model performance in the short term, but essentially it's still copying others' capabilities, making true breakthroughs difficult to achieve.</p>
+
+    <p>The timing of this decision was particularly delicate. On the same day, DeepSeek announced plans to raise API pricing. Earlier in June, US AI company Anthropic sent a letter to the US Senate Banking Committee, accusing Alibaba of launching a "distillation attack" on its Claude model. Model distillation is rapidly transforming from a common training technique into an increasingly sensitive term in the US-China AI competition.</p>
+
+    <p>But ByteDance's vigilance against distillation predates this geopolitical narrative. In April 2023, after introducing GPT API usage compliance checks, the company explicitly prohibited using GPT-generated data in its model training datasets. A subsequent internal inspection randomly sampled model outputs for GPT similarity to prevent data annotators from unauthorized GPT usage.</p>
+
     <h2>Distillation's 'Achilles Heel': Model Collapse and Long-Tail Loss</h2>
-    
+
+    <p>Distillation itself is not inherently problematic. In 2015, Geoffrey Hinton formally proposed the technique, where a resource-rich "teacher model" guides a lightweight "student model" by having the student learn from the teacher's input-output patterns. US tech giants like Google, OpenAI, and Amazon not only widely use this technique but also offer it as a standardized service.</p>
+
+    <p>However, in Zhang's view, distillation has a fundamental structural problem: when the entire industry distills from the same "teacher model," all "student models" converge, losing diversity. More critically, over-reliance on distillation leads to model collapse — models perform adequately on data distributions covered by the teacher but degrade sharply when encountering real-world long-tail scenarios.</p>
+
+    <p>A source close to Seed revealed that the team conducted comparative experiments: models trained via distillation scored significantly higher on standard benchmarks but showed systematic gaps in open-domain Q&A, adversarial testing, and complex reasoning tasks compared to self-trained models. "Distillation is like memorizing exam answers — you score high on familiar questions but freeze when encountering unseen problems."</p>
+
+    <p>This "Achilles heel" carries significant weight in ByteDance's calculus. With Douyin's chatbot exceeding 200 million daily active users, the company faces massive, diverse, and unpredictable real-world user requests daily. If model capabilities are built on "copying" rather than "understanding," any long-tail problem beyond the distillation data distribution could become a breaking point for user experience.</p>
+
+    <p>ByteDance also faces a unique structural constraint: it is the only major Chinese AI company whose LLMs are almost entirely proprietary. This means it cannot rely on open-source models for rapid capability improvement through distillation. It must build its technical system from scratch — a slower, harder, but more solid path.</p>
+
     <h2>ByteDance's Trump Card: 5 Trillion Parameters and the World's Largest Native Data Pool</h2>
-    
+
+    <p>Without distillation, how does ByteDance plan to catch up? The answer: bigger models, more solid data, and more determined investment.</p>
+
+    <p>According to LatePost's exclusive report, ByteDance is discussing training a model exceeding 5 trillion parameters — surpassing Alibaba's Qwen 3.8-Max (2.4 trillion) and Moonshot AI's K3 (2.8 trillion), making it the largest known parameter model in China. The new model will be led by Xiang Liang, head of Seed Foundation, in collaboration with Shen Ke, head of LLM pre-training data.</p>
+
+    <p>Xiang Liang holds a bachelor's degree from USTC and a PhD from the Chinese Academy of Sciences' Institute of Automation. He joined ByteDance in 2016, previously leading the AML machine learning platform team. Shen Ke graduated from Tsinghua University in 2018 and joined ByteDance, now responsible for LLM pre-training data. Both come from ByteDance's "search, recommendation, and advertising" system, with deep experience in data engineering and model training.</p>
+
+    <p>"Rather than continuing to chase on existing scales, push the parameter size several times beyond competitors' to gain a leading position," a source close to Seed said. "It's like a gamble."</p>
+
+    <p>ByteDance's confidence comes not only from its model parameter plans but also from its unmatched computing resources and unique data ecosystem. With Douyin, Toutiao, Fanqie Novel, and other billion-user products, ByteDance possesses one of the world's largest native Chinese data pools — spanning short videos, live streaming, images, long-form articles, and novels, with a breadth of data forms unmatched domestically. These are not "second-hand data" purchased from third parties but native data naturally generated within ByteDance's product ecosystem, untouched by other models' training.</p>
+
+    <p>On the computing front, ByteDance's capital expenditure leads among domestic AI companies, with the most GPU cards and the largest number of top AI talent. Industry insiders reveal ByteDance has invested over 100 billion RMB in AI infrastructure, with continued increases. CEO Liang Rubo has publicly stated the company "invests most decisively in AI, exhausting all business directions, leaving no possibility unexplored."</p>
+
+    <p>At the Seed all-hands meeting, Zhang made it clear: ByteDance has invested heavily in AI over the past years, and will invest even more in the future. He acknowledged coding as a key current direction but warned the team not to be completely led by this short-term热点 — there are bigger opportunities beyond coding.</p>
+
     <h2>Deep Waters of US-China Game: From 'Leaderboard Anxiety' to 'Agent' Implementation</h2>
-    
+
+    <p>ByteDance's "no distillation" decision comes at a time when the US-China AI competition landscape is undergoing profound changes.</p>
+
+    <p>Stanford's 2026 AI Index Report shows the comprehensive performance gap between top US and Chinese models has narrowed to just 2.7%, with the technology iteration lag compressed to 6-9 months. But the report also reveals a more complex reality: the narrowing gap is mainly in general capabilities, while structural gaps in underlying hardware, software ecosystems, and global multilingual data remain significant.</p>
+
+    <p>Nvidia's Blackwell series GPUs entered US leading labs in large scale in late 2025. Due to export controls, Chinese labs cannot access the most advanced B-series cards. An underreported fact: Seedance 2.0, which established ByteDance's global SOTA position in video generation, was trained on a massive cluster of Nvidia H20 chips — whose comprehensive performance is merely 1/50 of B200.</p>
+
+    <p>This means the compute gap between Chinese and US labs, already significant, was suddenly widened further by a new GPU generation in late 2025 to early 2026. Seed researchers noted a disturbing fact: from GPT-5.5 to Claude 4.8, US top models showed intelligence leaps in reasoning, coding, and science — all closely tied to the large-scale deployment of Blackwell GPUs.</p>
+
+    <p>But ByteDance's strategy is not simple head-to-head追赶. Zhang praised Seedance at the all-hands meeting, noting its unique market position and technological advantages. Rather than following other leading models' established paths, he encouraged Seed to create models with distinctive characteristics.</p>
+
+    <p>This approach aligns with ByteDance's overall AI strategy: "bloom everywhere" — from LLMs to video generation, image generation to AI infrastructure, covering all possible directions. Seedance 2.0's global leadership in video generation proves ByteDance can produce world-class products in non-LLM tracks.</p>
+
+    <p>For LLMs, ByteDance's strategy is "trading space for time" — using larger model parameters, more solid data engineering, and more determined long-term investment to compensate for short-term "inaction" on distillation. Zhang explicitly stated the company can accept temporary model lag, urging the team to pursue the ceiling of intelligence and aim for Seed's models to join the world's first tier.</p>
+
     <h2>Heavy Capital and Long Cycles: China AI's Differentiated Breakthrough</h2>
-    
+
+    <p>ByteDance's "no distillation" path is essentially betting on a heavier, slower, but higher-ceiling road.</p>
+
+    <p>The cost is obvious. In an era where "leaderboard chasing" and "rapid iteration" dominate China's LLM赛道, ByteDance has chosen to actively "slow down." In February, Seed 2.0, the key model launched after Wu Yonghui took over Seed, received limited market reception. Around the same time, Zhipu's open-source GLM-5 was hailed as the first domestic model comparable to Anthropic's Opus series. In July, Moonshot AI's Kimi K3 was rated by multiple third-party evaluations as approaching overseas closed-source flagships.</p>
+
+    <p>Multiple ByteDance sources told media that many Seed teams have been continuously反思 in the first half of the year. This is one reason behind the discussion of training a 5-trillion-parameter model — rather than continuing to chase on existing scales, push the parameter size several times beyond competitors' to gain a leading position.</p>
+
+    <p>From an industry perspective, ByteDance's choice is not isolated. It represents a strategic option for China's AI industry under the dual pressure of "hardware blockade + open-source surpassing": not consuming limited resources in short-term leaderboard competition, but concentrating fire on core underlying technologies.</p>
+
+    <p>The calculation requires a longer time horizon. ByteDance's computing reserves, data ecosystem, talent density, and financial strength give it the confidence to "afford to wait." Seedance's success also demonstrated that once model capability takes the lead, it can quickly translate into a commercial moat — users naturally flow to the most capable product, and being first in a key node can rapidly capture market share.</p>
+
+    <p>A sentence Zhang said at the internal meeting perhaps best summarizes ByteDance's AI philosophy: "To achieve long-term goals, we should be willing to sacrifice some short-term interests." This phrase, repeated during ByteDance's early entrepreneurial days, has now been extended to AI. When everyone takes the shortcut, choosing the long road — this is both a high-stakes gamble and a strategic statement about AI long-termism.</p>
 
     <div class="article-conclusion">
       <h3>Conclusion</h3>
-      <p>This concludes today's in-depth analysis. The AI industry evolves rapidly, and we will continue to track the latest developments for you.</p>
+      <p>ByteDance's rejection of distillation is fundamentally answering a fundamental question: Will China's AI become the "best imitator" or a "true innovator"? The answer may take years to reveal, but at least ByteDance's choice offers a different voice in the noisy AI race — beyond competing on who runs faster, perhaps we should also think about where we are running to.</p>
     </div>
   </div>
 </article>
-<footer style="text-align:center;padding:40px 20px;border-top:1px solid #2a2a3a;margin-top:40px;font-size:14px;color:#888;">
-  <p>&copy; 2026 AI News Daily. All rights reserved.</p>
-  <p style="margin-top:8px;">
-    <a href="/en/about.html" style="color:#818cf8;text-decoration:none;margin:0 8px;">About</a>
-    <a href="/en/contact.html" style="color:#818cf8;text-decoration:none;margin:0 8px;">Contact</a>
-    <a href="/en/privacy.html" style="color:#818cf8;text-decoration:none;margin:0 8px;">Privacy Policy</a>
-    <a href="/" style="color:#818cf8;text-decoration:none;margin:0 8px;">Home</a>
-  </p>
-</footer>
 </body>
 </html>
