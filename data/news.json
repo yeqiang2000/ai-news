@@ -4,6 +4,304 @@
     {
       "date": "2026-08-08",
       "hero": {
+        "id": "article-71",
+        "date": "2026-08-08",
+        "title": "字节拒绝“蒸馏”捷径坚守自研：中美大模型差距拉大下的长期主义博弈",
+        "title_en": "ByteDance Rejects the 'Distillation' Shortcut: A Long-Term Game in the Widening US-China LLM Gap",
+        "category": "深度解读",
+        "category_en": "Deep Analysis",
+        "image": "https://ainewsdaily.asia/img/pool/healthcare-wearable.jpg",
+        "summary": "在AI大模型竞速进入深水区之际，字节跳动创始人张一鸣明确拒绝“蒸馏”捷径，坚守底层自研。本文深度剖析蒸馏技术背后的“模型坍缩”陷阱，揭秘字节拟训练5万亿参数模型的底气，并透视中美大模型差距收窄背景下的长期主义博弈与L3智能体时代的产业重构。",
+        "summary_en": "As the LLM race enters deep waters, ByteDance founder Zhang Yiming explicitly rejects the 'distillation' shortcut, insisting on foundational self-research. This article delves into the 'model collapse' trap behind distillation, reveals the confidence behind ByteDance's planned 5-trillion-parameter model, and透视s the long-term game and industrial restructuring in the L3 Agent era against the backdrop of narrowing US-China LLM gaps.",
+        "url": "/articles/article-71.html",
+        "url_en": "/articles/en/article-71.html"
+      },
+      "articles": [
+        {
+          "id": "news-1",
+          "date": "2026-08-08",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "谷歌AI领导层历史性重组，Jeff Dean等四名核心科学家出走创业",
+          "title_en": "Historic Restructuring of Google AI Leadership: Jeff Dean and Three Core Scientists Leave to Start a Business",
+          "summary": "Alphabet宣布DeepMind CEO Hassabis卸任日常管理，同时效力谷歌27年的Jeff Dean等四名AI原始班底集体离职，创办聚焦AI驱动科学发现的Discovery Loop。",
+          "summary_en": "Alphabet announced that DeepMind CEO Hassabis will step down from daily management, while Jeff Dean and three other original Google AI team members collectively resigned to found Discovery Loop, focusing on AI-driven scientific discovery.",
+          "source": "今日头条",
+          "source_en": "Toutiao",
+          "image": "https://ainewsdaily.asia/img/pool/llm-context-window-v3.jpg",
+          "content": "8月6日，Alphabet宣布DeepMind CEO、诺奖得主Hassabis卸任日常管理转任首席科学家，CTO Koray接管运营。同日，效力谷歌27年的Jeff Dean与Sanjay Ghemawat、Oriol Vinyals、Quoc Le集体离职，创办聚焦“AI驱动科学发现”的Discovery Loop。这四人构成了谷歌AI的原始班底，是MapReduce、TensorFlow和Gemini的奠基者。消息公布后，Alphabet股价盘中跌超4%，Gemini 4的研发指挥链被迫重整。此次高管出走标志着谷歌AI核心团队的重大动荡，也将对全球大模型竞争格局产生深远影响。",
+          "content_en": "On August 6, Alphabet announced that DeepMind CEO and Nobel laureate Hassabis will step down from daily management to become Chief Scientist, with CTO Koray taking over operations. On the same day, Jeff Dean, who has been with Google for 27 years, along with Sanjay Ghemawat, Oriol Vinyals, and Quoc Le, collectively resigned to found Discovery Loop, focusing on AI-driven scientific discovery. These four formed the original Google AI team and were the founders of MapReduce, TensorFlow, and Gemini. Following the news, Alphabet's stock price fell by over 4% during trading, and the R&D command chain for Gemini 4 was forced to restructure. This departure marks a major turmoil in Google's AI core team and will profoundly impact the global large model competition landscape.",
+          "key_points": [
+            "DeepMind CEO Hassabis卸任日常管理转任首席科学家。",
+            "Jeff Dean等四名谷歌AI原始班底集体离职创业。",
+            "新公司Discovery Loop聚焦AI驱动科学发现。",
+            "消息导致Alphabet股价盘中跌超4%，Gemini 4研发受影响。"
+          ],
+          "key_points_en": [
+            "DeepMind CEO Hassabis steps down from daily management to become Chief Scientist.",
+            "Jeff Dean and three other original Google AI team members leave to start a business.",
+            "The new company Discovery Loop focuses on AI-driven scientific discovery.",
+            "The news caused Alphabet's stock to drop over 4% intraday, affecting Gemini 4 R&D."
+          ],
+          "url": "http://m.toutiao.com/group/7671070877265740290"
+        },
+        {
+          "id": "news-2",
+          "date": "2026-08-08",
+          "category": "芯片算力",
+          "category_en": "Chips and Computing Power",
+          "title": "Anthropic首度公开确认自研定制AI芯片，采取“多芯片策略”",
+          "title_en": "Anthropic Publicly Confirms Custom AI Chip Development, Adopting a Multi-Chip Strategy",
+          "summary": "面对Claude需求激增，Anthropic组建内部硅团队设计专用芯片，同时保留多家供应商。至此，全球头部AI公司全部下场造芯，算力自主权竞赛进入白热化。",
+          "summary_en": "Facing surging demand for Claude, Anthropic has established an internal silicon team to design custom chips while retaining multiple suppliers. Thus, all top global AI companies have entered chip manufacturing, and the computing autonomy race has reached a white-hot stage.",
+          "source": "今日头条",
+          "source_en": "Toutiao",
+          "image": "https://ainewsdaily.asia/img/pool/network-edge.jpg",
+          "content": "8月6日，据路透社与商业内幕披露，由于Claude模型需求激增倒逼算力自主，Anthropic正式组建内部硅团队，为Claude设计专用定制芯片。同时，该公司采取“多芯片策略”，继续保留AWS、谷歌、英伟达及AMD的供货。至此，OpenAI、谷歌、Meta、微软、Anthropic等全球头部AI企业已全部下场造芯。这一举措表明，通用GPU的垄断地位正被实质性瓦解，AI行业的算力自主权竞赛已进入白热化阶段。自研芯片不仅能降低对单一供应商的依赖，还能针对特定模型架构进行深度优化，从而在推理成本和效率上获得显著优势。",
+          "content_en": "On August 6, according to Reuters and Business Insider, driven by the surging demand for the Claude model, Anthropic has officially established an internal silicon team to design custom chips for Claude. Meanwhile, the company adopts a multi-chip strategy, continuing to retain supplies from AWS, Google, NVIDIA, and AMD. Thus, top global AI companies including OpenAI, Google, Meta, Microsoft, and Anthropic have all entered the chip manufacturing arena. This move indicates that the monopoly of general-purpose GPUs is being substantially dismantled, and the competition for computing power autonomy in the AI industry has reached a white-hot stage. Custom chips can not only reduce reliance on a single supplier but also be deeply optimized for specific model architectures, yielding significant advantages in inference cost and efficiency.",
+          "key_points": [
+            "Anthropic组建内部团队为Claude设计专用定制芯片。",
+            "采取多芯片策略，保留AWS、英伟达等多家供应商。",
+            "全球头部AI公司已全部下场造芯，瓦解GPU垄断。",
+            "算力自主权竞赛进入白热化，旨在优化推理成本与效率。"
+          ],
+          "key_points_en": [
+            "Anthropic establishes an internal team to design custom chips for Claude.",
+            "Adopts a multi-chip strategy, retaining multiple suppliers like AWS and NVIDIA.",
+            "All top global AI companies have entered chip manufacturing, dismantling GPU monopoly.",
+            "The computing autonomy race heats up, aiming to optimize inference cost and efficiency."
+          ],
+          "url": "http://m.toutiao.com/group/7671070877265740290"
+        },
+        {
+          "id": "news-3",
+          "date": "2026-08-08",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "字节拟训练超5万亿参数大模型，张一鸣明确拒绝“蒸馏”捷径",
+          "title_en": "ByteDance Plans to Train a 5-Trillion Parameter Large Model; Zhang Yiming Explicitly Rejects the Distillation Shortcut",
+          "summary": "字节跳动正讨论训练超5万亿参数的超大模型。创始人张一鸣在内部明确拒绝使用蒸馏手段追赶前沿模型，强调坚持长期主义以追求底层技术突破。",
+          "summary_en": "ByteDance is discussing training a super-large model with over 5 trillion parameters. Founder Zhang Yiming explicitly rejected using distillation to catch up with frontier models internally, emphasizing long-termism to pursue foundational technological breakthroughs.",
+          "source": "极客公园",
+          "source_en": "GeekPark",
+          "image": "https://ainewsdaily.asia/img/pool/llm-rag-v3.jpg",
+          "content": "据《晚点LatePost》等媒体报道，字节跳动正在讨论训练一个参数规模超5万亿的大模型，超越阿里Qwen 3.8-Max和月之暗面K3，成为国内已知最大参数模型。该计划由Seed Foundation负责人项亮主导。与此同时，字节创始人张一鸣在Seed内部全员会上明确表态，拒绝以蒸馏手段追赶前沿大语言模型。他认为蒸馏虽能短期提升榜单排名，但会妨碍真正的底层技术突破。为此，字节内部出台新规，借助API检测等手段硬性禁止闭源与开源模型的蒸馏行为。张一鸣强调，字节愿意为长远目标牺牲短期利益，追求智能上限，确保Seed模型能力跻身世界第一梯队。",
+          "content_en": "According to reports from LatePost and other media, ByteDance is discussing training a large model with over 5 trillion parameters, surpassing Alibaba's Qwen 3.8-Max and Moonshot AI's K3, making it the largest known parameter model in China. The plan is led by Xiang Liang, head of Seed Foundation. Meanwhile, ByteDance founder Zhang Yiming explicitly stated at an internal Seed all-hands meeting that he rejects using distillation to catch up with frontier LLMs. He believes that while distillation can briefly improve leaderboard rankings, it hinders true foundational technological breakthroughs. Consequently, ByteDance has introduced new regulations, using API detection to strictly prohibit distillation for both closed and open-source models. Zhang emphasized that ByteDance is willing to sacrifice short-term interests for long-term goals, pursuing the upper limit of intelligence to ensure Seed's capabilities rank in the world's first tier.",
+          "key_points": [
+            "字节跳动拟训练超5万亿参数模型，规模居国内已知之首。",
+            "张一鸣明确拒绝蒸馏捷径，认为其妨碍底层技术突破。",
+            "字节出台新规，通过API检测硬性禁止模型蒸馏行为。",
+            "公司坚持长期主义，愿牺牲短期利益以跻身世界第一梯队。"
+          ],
+          "key_points_en": [
+            "ByteDance plans to train a 5-trillion parameter model, the largest known in China.",
+            "Zhang Yiming rejects the distillation shortcut, citing it hinders foundational breakthroughs.",
+            "ByteDance introduces new rules to strictly ban model distillation via API detection.",
+            "The company adheres to long-termism, willing to sacrifice short-term gains to reach the global first tier."
+          ],
+          "url": "http://m.toutiao.com/group/7671078864840196651"
+        },
+        {
+          "id": "news-4",
+          "date": "2026-08-08",
+          "category": "开源动态",
+          "category_en": "Open Source Dynamics",
+          "title": "腾讯开源295B参数Hy3大模型，全面扩展全球企业市场",
+          "title_en": "Tencent Open-Sources 295B Parameter Hy3 Large Model, Expanding Globally for Enterprise Markets",
+          "summary": "腾讯正式发布并开源Hy3大模型，采用295B MoE架构与混合推理框架。上线首周API调用量激增68倍，登顶OpenRouter全球使用量榜首。",
+          "summary_en": "Tencent officially released and open-sourced the Hy3 large model, adopting a 295B MoE architecture and hybrid reasoning framework. API calls surged 68 times in the first week, topping the OpenRouter global usage leaderboard.",
+          "source": "Open Source For U",
+          "source_en": "Open Source For U",
+          "image": "https://ainewsdaily.asia/img/pool/opensource-github-stars-v3.jpg",
+          "content": "腾讯于近日宣布，其最新大模型Hy3正式在全球范围内扩展访问，面向国际产品、工作流和云服务开放。Hy3基于混合专家（MoE）架构，总参数量达2950亿，每次推理激活210亿参数，支持高达256K的上下文长度。该模型采用Apache 2.0许可证开源，并引入了可配置的推理努力参数，能同时处理低延迟直接响应和深度思维链推理任务。自7月开源以来，Hy3的API调用量较上一代激增68倍，迅速登顶OpenRouter全球LLM Token使用量排行榜。目前，Hy3已在Hugging Face、ModelScope等平台上线，并通过WorkBuddy等渠道向全球企业提供免费或商业接入服务。",
+          "content_en": "Tencent recently announced the global expansion of access to its latest large model, Hy3, opening it up for international products, workflows, and cloud services. Built on a Mixture-of-Experts (MoE) architecture, Hy3 boasts 295 billion total parameters, with 21 billion active per token, and supports a context length of up to 256K tokens. Released under the Apache 2.0 license, it features a configurable reasoning effort parameter, enabling it to handle both low-latency direct responses and deep chain-of-thought reasoning. Since its open-source release in July, API calls for Hy3 surged 68 times compared to the previous generation, quickly topping OpenRouter's global LLM token usage leaderboard. Hy3 is now available on platforms like Hugging Face and ModelScope, and offers free or commercial access globally through channels like WorkBuddy.",
+          "key_points": [
+            "腾讯开源Hy3大模型，总参数295B，支持256K上下文。",
+            "采用MoE架构与混合推理框架，兼顾低延迟与深度推理。",
+            "上线首周API调用量激增68倍，登顶OpenRouter榜首。",
+            "采用Apache 2.0协议，通过多渠道向全球企业市场扩展。"
+          ],
+          "key_points_en": [
+            "Tencent open-sources Hy3 with 295B parameters and 256K context support.",
+            "Uses MoE architecture and hybrid reasoning for low latency and deep thinking.",
+            "API calls surged 68x in the first week, topping the OpenRouter leaderboard.",
+            "Licensed under Apache 2.0, expanding to global enterprise markets via multiple channels."
+          ],
+          "url": "https://www.opensourceforu.com/2026/08/tencent-expands-hy3-ai-model"
+        },
+        {
+          "id": "news-5",
+          "date": "2026-08-08",
+          "category": "AI应用",
+          "category_en": "AI Applications",
+          "title": "OpenAI首款AI硬件曝光：甜甜圈造型智能音箱，Jony Ive参与设计",
+          "title_en": "OpenAI's First AI Hardware Leaked: Doughnut-Shaped Smart Speaker Co-Designed by Jony Ive",
+          "summary": "彭博社曝光OpenAI首款AI硬件“Doughnut”，外观呈甜甜圈状，定位为无屏幕智能音箱。该设备由前苹果设计师Jony Ive参与开发，预计售价300至400美元。",
+          "summary_en": "Bloomberg leaked OpenAI's first AI hardware 'Doughnut', featuring a doughnut shape and positioned as a screenless smart speaker. Co-developed with former Apple designer Jony Ive, it is expected to cost between $300 and $400.",
+          "source": "极客公园",
+          "source_en": "GeekPark",
+          "image": "https://ainewsdaily.asia/img/pool/healthcare-wearable.jpg",
+          "content": "据彭博社记者Mark Gurman爆料，OpenAI首款AI硬件代号为“Doughnut”，大小约等于冰球，外观呈独特的甜甜圈形。该设备定位为“没有显示屏的智能音箱”，面向家庭场景设计，支持单手携带移动。硬件方面，设备配备可自动移动的机械部件以提供交互反馈，并搭载灯光、摄像头及传感器。交互上，它将运行比手机端ChatGPT更先进的语音模型，实现接近人类的自然交流。据悉，这款硬件由OpenAI与前苹果传奇设计师乔纳森·伊夫（Jony Ive）合作开发，有望于2027年发布，预估售价在300至400美元之间，并可能接入第三方智能家居生态。",
+          "content_en": "According to a leak by Bloomberg's Mark Gurman, OpenAI's first AI hardware, codenamed 'Doughnut', is about the size of a hockey puck and features a unique doughnut shape. Positioned as a 'screenless smart speaker', it is designed for home scenarios and supports single-handed portability. Hardware-wise, the device includes automatically moving mechanical parts for interactive feedback, along with lights, cameras, and sensors. In terms of interaction, it will run a more advanced voice model than the mobile ChatGPT, achieving near-human natural conversation. Reportedly, this hardware is co-developed by OpenAI and former Apple legendary designer Jony Ive, expected to launch in 2027 with an estimated price of $300 to $400, and may integrate with third-party smart home ecosystems.",
+          "key_points": [
+            "OpenAI首款AI硬件“Doughnut”曝光，呈甜甜圈造型。",
+            "定位为无屏幕智能音箱，面向家庭场景，支持单手携带。",
+            "配备可动机械部件与先进语音模型，实现自然交互。",
+            "由前苹果设计师Jony Ive参与开发，预计2027年发布。"
+          ],
+          "key_points_en": [
+            "OpenAI's first AI hardware 'Doughnut' is leaked, featuring a doughnut shape.",
+            "Positioned as a screenless smart speaker for home use, supporting single-handed carry.",
+            "Equipped with moving mechanical parts and advanced voice models for natural interaction.",
+            "Co-developed with former Apple designer Jony Ive, expected to launch in 2027."
+          ],
+          "url": "http://m.toutiao.com/group/7671078864840196651"
+        },
+        {
+          "id": "news-6",
+          "date": "2026-08-08",
+          "category": "大模型",
+          "category_en": "Large Models",
+          "title": "OpenAI发布GPT-5.6系列模型，Luna版本向免费用户全面开放",
+          "title_en": "OpenAI Releases GPT-5.6 Model Family, Fully Opening Luna Version to Free Users",
+          "summary": "为应对DeepSeek等开源模型的竞争，OpenAI推出GPT-5.6系列（Sol、Terra、Luna），并宣布将免费用户的默认模型升级为GPT-5.6 Luna，开放无限量文本聊天。",
+          "summary_en": "To cope with competition from open-source models like DeepSeek, OpenAI launched the GPT-5.6 family (Sol, Terra, Luna) and announced upgrading the default model for free users to GPT-5.6 Luna with unlimited text chat.",
+          "source": "金融界",
+          "source_en": "JRJ",
+          "image": "https://ainewsdaily.asia/img/pool/autonomous-delivery.jpg",
+          "content": "面对国产开源模型如DeepSeek调用量激增带来的定价压力，OpenAI于8月6日宣布重大调整。公司正式推出GPT-5.6系列模型，包含旗舰版Sol、平衡版Terra以及低成本版Luna。同时，OpenAI宣布将免费用户的默认模型直接升级为GPT-5.6 Luna，并开放无限量文本聊天，全球约十亿ChatGPT免费用户将直接受益。此前，DeepSeek宣布计划大幅上调API服务定价，而OpenAI的“免费升级”策略则形成鲜明对比。这一举措不仅巩固了OpenAI在C端市场的护城河，也反映出在开源模型崛起倒逼下，全球AI大模型的定价体系与商业模式正在加速重构。",
+          "content_en": "Facing pricing pressure from the surging usage of domestic open-source models like DeepSeek, OpenAI announced major adjustments on August 6. The company officially launched the GPT-5.6 model family, including the flagship Sol, balanced Terra, and low-cost Luna. Simultaneously, OpenAI announced upgrading the default model for free users to GPT-5.6 Luna and opening unlimited text chat, directly benefiting about a billion free ChatGPT users globally. Previously, DeepSeek announced plans to significantly raise API service pricing, contrasting sharply with OpenAI's 'free upgrade' strategy. This move not only consolidates OpenAI's moat in the C-end market but also reflects that, driven by the rise of open-source models, the global AI large model pricing system and business models are accelerating restructuring.",
+          "key_points": [
+            "OpenAI推出GPT-5.6系列模型（Sol、Terra、Luna）。",
+            "免费用户默认模型升级为GPT-5.6 Luna，开放无限量聊天。",
+            "应对DeepSeek等开源模型崛起带来的市场竞争与定价压力。",
+            "全球AI大模型定价体系与商业模式在开源倒逼下加速重构。"
+          ],
+          "key_points_en": [
+            "OpenAI launches GPT-5.6 model family (Sol, Terra, Luna).",
+            "Free users' default model upgrades to GPT-5.6 Luna with unlimited chat.",
+            "Responds to market competition and pricing pressure from open-source models like DeepSeek.",
+            "Global AI pricing systems and business models accelerate restructuring under open-source pressure."
+          ],
+          "url": "http://m.toutiao.com/group/7671213958665945650"
+        },
+        {
+          "id": "news-7",
+          "date": "2026-08-08",
+          "category": "政策监管",
+          "category_en": "Policy and Regulation",
+          "title": "北京亦庄发布全市首个“词元经济”政策，每年发放1亿元数据券",
+          "title_en": "Beijing Yizhuang Releases City's First 'Token Economy' Policy, Issuing 100 Million Yuan in Data Vouchers Annually",
+          "summary": "北京经开区发布支持词元驱动智能经济高质量发展的措施，加大推理芯片扶持，探索词元交易定价模式，每年发放1亿元数据券支持数据采集处理。",
+          "summary_en": "Beijing E-Town released measures supporting the high-quality development of the token-driven intelligent economy, increasing support for inference chips, exploring token-based data pricing, and issuing 100 million yuan in data vouchers annually.",
+          "source": "金融界",
+          "source_en": "JRJ",
+          "image": "https://ainewsdaily.asia/img/pool/energy-carbon.jpg",
+          "content": "北京经济技术开发区管理委员会近日印发《关于支持词元驱动智能经济高质量发展的若干措施（试行）》。政策明确提出，加大推理专用芯片研发扶持力度，推动光子计算与传统算力融合，提升大模型海量词元并行处理能力。同时，探索以词元交易为基础的数据定价模式，鼓励批量产出专家分身等新型数据产品。在资金支持方面，每年发放1亿元数据券，按照年度数据交易金额的10%，给予采购主体最高100万元资金支持。此举旨在构筑词元低成本量产的硬件壁垒，全面适配大规模词元高速推理场景，加速AI算力基础设施的规模化升级。",
+          "content_en": "The Management Committee of Beijing Economic-Technological Development Area recently issued the 'Several Measures on Supporting the High-Quality Development of Token-Driven Intelligent Economy (Trial).' The policy explicitly proposes increasing support for the R&D of inference-specific chips, promoting the integration of photonic computing and traditional computing power, and enhancing the parallel processing capability of massive tokens for large models. Meanwhile, it explores a data pricing model based on token transactions, encouraging the batch production of new data products like expert avatars. In terms of financial support, 100 million yuan in data vouchers will be issued annually, providing up to 1 million yuan in support for purchasers based on 10% of the annual data transaction amount. This move aims to build a hardware barrier for low-cost mass production of tokens, fully adapting to large-scale high-speed token inference scenarios, and accelerating the scaled upgrade of AI computing infrastructure.",
+          "key_points": [
+            "北京亦庄发布全市首个支持词元驱动智能经济的政策。",
+            "加大推理专用芯片扶持，推动光子计算与传统算力融合。",
+            "探索以词元交易为基础的数据定价模式，鼓励新型数据产品。",
+            "每年发放1亿元数据券，最高给予采购主体100万元资金支持。"
+          ],
+          "key_points_en": [
+            "Beijing Yizhuang releases the city's first policy supporting token-driven intelligent economy.",
+            "Increases support for inference chips, promoting integration of photonic and traditional computing.",
+            "Explores data pricing models based on token transactions, encouraging new data products.",
+            "Issues 100 million yuan in data vouchers annually, supporting purchasers up to 1 million yuan."
+          ],
+          "url": "http://m.toutiao.com/group/7671213958665945650"
+        },
+        {
+          "id": "news-8",
+          "date": "2026-08-08",
+          "category": "机器人",
+          "category_en": "Robotics",
+          "title": "Figure 03展示无遥控自主攀爬工业梯子能力，引发具身智能圈震动",
+          "title_en": "Figure 03 Demonstrates Autonomous Industrial Ladder Climbing Without Remote Control, Shaking the Embodied AI Community",
+          "summary": "Figure公司发布最新视频，展示其Figure 03人形机器人在无遥控状态下自主攀爬工业梯子的能力，展现了具身智能在复杂物理环境中的突破。",
+          "summary_en": "Figure released a new video demonstrating its Figure 03 humanoid robot's ability to autonomously climb industrial ladders without remote control, showcasing breakthroughs in embodied AI within complex physical environments.",
+          "source": "今日头条",
+          "source_en": "Toutiao",
+          "image": "https://ainewsdaily.asia/img/pool/autonomous-warehouse.jpg",
+          "content": "8月6日，Figure公司创始人Brett Adcock发布了一段引发具身智能圈震动的视频。视频中，Figure 03人形机器人在完全没有人类遥控干预的情况下，自主规划路径并成功攀爬工业梯子。这一展示标志着人形机器人在动态平衡、空间感知和复杂物理环境交互方面取得了重大突破。与以往依赖预编程或远程遥操作的演示不同，Figure 03展现了真正的自主决策能力，能够实时处理视觉和触觉反馈以调整姿态。业内专家指出，这种无遥控自主攀爬能力是具身智能迈向工业级实际应用的关键一步，预示着人形机器人未来在仓储、制造和危险环境巡检等场景中的巨大商业潜力。",
+          "content_en": "On August 6, Figure founder Brett Adcock released a video that shook the embodied AI community. In the video, the Figure 03 humanoid robot autonomously planned its path and successfully climbed an industrial ladder without any human remote control intervention. This demonstration marks a major breakthrough in dynamic balance, spatial awareness, and complex physical environment interaction for humanoid robots. Unlike previous demonstrations relying on pre-programming or remote teleoperation, Figure 03 exhibited true autonomous decision-making capabilities, adjusting its posture in real-time based on visual and tactile feedback. Industry experts point out that this remote-control-free autonomous climbing ability is a crucial step for embodied AI towards industrial-level practical applications, heralding the immense commercial potential of humanoid robots in future scenarios like warehousing, manufacturing, and hazardous environment inspection.",
+          "key_points": [
+            "Figure 03人形机器人展示无遥控自主攀爬工业梯子能力。",
+            "标志着机器人在动态平衡与空间感知方面的重大突破。",
+            "展现真正的自主决策能力，实时处理视觉与触觉反馈。",
+            "被认为是具身智能迈向工业级实际应用的关键一步。"
+          ],
+          "key_points_en": [
+            "Figure 03 humanoid robot demonstrates remote-control-free autonomous ladder climbing.",
+            "Marks major breakthroughs in dynamic balance and spatial awareness.",
+            "Exhibits true autonomous decision-making, processing visual and tactile feedback in real-time.",
+            "Considered a key step for embodied AI towards industrial-level practical applications."
+          ],
+          "url": "http://m.toutiao.com/group/7671070877265740290"
+        },
+        {
+          "id": "news-9",
+          "date": "2026-08-08",
+          "category": "AI应用",
+          "category_en": "AI Applications",
+          "title": "字节发布SeedRealtime原生音视频全双工大模型，豆包实现实时多模态交互",
+          "title_en": "ByteDance Releases SeedRealtime Native Audio-Video Full-Duplex Large Model, Enabling Real-Time Multimodal Interaction in Doubao",
+          "summary": "字节Seed团队发布原生音视频全双工大模型SeedRealtime并上线豆包，取消级联架构，实现“边看边听边说”的实时多模态交互体验。",
+          "summary_en": "ByteDance's Seed team released the native audio-video full-duplex large model SeedRealtime and launched it on Doubao, eliminating cascade architecture to achieve real-time multimodal interaction of 'seeing, hearing, and speaking simultaneously'.",
+          "source": "今日头条",
+          "source_en": "Toutiao",
+          "image": "https://ainewsdaily.asia/img/pool/autonomous-drone.jpg",
+          "content": "8月5日至6日，字节Seed团队正式发布统一端到端架构模型SeedRealtime，并全量上线豆包APP。该模型原生融合音、视、文三模态，彻底取消了传统的ASR+TTS级联与VAD轮次判断机制，实现了真正的“边看边听边说”。官方人工评测显示，其对话节奏问题较级联方案减半，抢话与噪声误触发明显下降。用户开启视频通话后，模型能持续接收画面和声音，结合手势及前后动作判断用户所指对象，精准区分指令、旁人交谈和背景噪声。这一升级使豆包由文本助手正式跃升为实时多模态入口，直接对标OpenAI的GPT-Live，大幅提升了AI交互的自然度与流畅感。",
+          "content_en": "From August 5 to 6, ByteDance's Seed team officially released the unified end-to-end architecture model SeedRealtime and fully launched it on the Doubao app. The model natively integrates audio, video, and text modalities, completely eliminating the traditional ASR+TTS cascade and VAD turn-taking mechanisms, achieving true 'see, hear, and speak simultaneously.' Official manual evaluations show that dialogue pacing issues are halved compared to cascade solutions, with significant drops in interruptions and noise false triggers. When users start a video call, the model continuously receives visuals and audio, judging the user's target by combining gestures and prior actions, accurately distinguishing instructions, bystander conversations, and background noise. This upgrade elevates Doubao from a text assistant to a real-time multimodal portal, directly competing with OpenAI's GPT-Live and greatly enhancing the naturalness and fluency of AI interaction.",
+          "key_points": [
+            "字节发布SeedRealtime原生音视频全双工大模型。",
+            "取消级联架构，实现“边看边听边说”的实时多模态交互。",
+            "能结合手势与动作判断意图，精准区分指令与背景噪声。",
+            "豆包升级为实时多模态入口，直接对标OpenAI GPT-Live。"
+          ],
+          "key_points_en": [
+            "ByteDance releases SeedRealtime native audio-video full-duplex large model.",
+            "Eliminates cascade architecture, enabling real-time 'see, hear, speak' multimodal interaction.",
+            "Judges intent via gestures and actions, accurately distinguishing instructions from background noise.",
+            "Doubao upgrades to a real-time multimodal portal, directly competing with OpenAI GPT-Live."
+          ],
+          "url": "http://m.toutiao.com/group/7671070877265740290"
+        },
+        {
+          "id": "news-10",
+          "date": "2026-08-08",
+          "category": "投融资",
+          "category_en": "Investment and Financing",
+          "title": "AI驶入“L3智能体”深水区，2025年全球AI投资达4.2万亿元",
+          "title_en": "AI Enters the 'L3 Agent' Deep Water Zone, Global AI Investment Reaches 4.2 Trillion Yuan in 2025",
+          "summary": "沙利文峰会指出AI已进入L3智能体时代，中美模型差距实质性收窄。2025年全球AI投资达4.2万亿元，中国AI一级市场融资显著回暖。",
+          "summary_en": "The Sullivan summit pointed out that AI has entered the L3 agent era, with the gap between Chinese and US models substantially narrowing. Global AI investment reached 4.2 trillion yuan in 2025, and China's AI primary market financing has significantly warmed up.",
+          "source": "凤凰网财经",
+          "source_en": "Phoenix Finance",
+          "image": "https://ainewsdaily.asia/img/pool/startup-pitch.jpg",
+          "content": "在8月5日举行的沙利文全球增长峰会上，阶跃星辰联合创始人朱亦博表示，行业已无可置疑地进入AI的L3时代，即智能体时代，AI不仅能思考还能采取行动。峰会发布的《2026年AI进阶与飞跃白皮书》显示，中美前沿模型性能差距已实质性收窄，多次互换榜单榜首。资本层面，2025年全球企业AI投资总额达4.2万亿元，同比增长129.9%，其中私募投资占近六成。中国人工智能一级市场融资显著回暖，全年融资事件达1579起，金额达1504亿元。资金加速向头部企业集中，重点流向生成式AI、具身智能、AI芯片等高成长赛道，AI产业已全面进入重资本竞争阶段。",
+          "content_en": "At the Sullivan Global Growth Summit held on August 5, Zhu Yibo, co-founder of StepFun, stated that the industry has unquestionably entered the L3 era of AI, the agent era, where AI can not only think but also take action. The '2026 AI Advancement and Leap White Paper' released at the summit shows that the performance gap between frontier models in China and the US has substantially narrowed, frequently swapping the top spots on leaderboards. On the capital front, global corporate AI investment totaled 4.2 trillion yuan in 2025, a 129.9% year-on-year increase, with private investment accounting for nearly 60%. China's AI primary market financing has significantly warmed up, with 1,579 financing events and 150.4 billion yuan in total. Capital is accelerating towards head enterprises, focusing on high-growth tracks like generative AI, embodied intelligence, and AI chips, marking that the AI industry has fully entered a heavy-capital competition stage.",
+          "key_points": [
+            "行业进入AI L3智能体时代，模型不仅能思考还能行动。",
+            "中美前沿模型性能差距实质性收窄，多次互换榜首。",
+            "2025年全球AI投资达4.2万亿元，同比增长近130%。",
+            "中国AI一级市场融资回暖，资金加速流向生成式AI等赛道。"
+          ],
+          "key_points_en": [
+            "The industry enters the AI L3 agent era, where models can think and act.",
+            "The performance gap between Chinese and US frontier models substantially narrows.",
+            "Global AI investment reaches 4.2 trillion yuan in 2025, up nearly 130% YoY.",
+            "China's AI primary market financing warms up, with capital accelerating into generative AI."
+          ],
+          "url": "https://finance.ifeng.com/c/8vNcT5bUaQf"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "hero": {
         "id": "article-70",
         "date": "2026-08-08",
         "title": "字节跳动AI战略大考：拒绝蒸馏捷径背后的长期主义与底层重构",
@@ -4637,16 +4935,16 @@
     }
   ],
   "hero": {
-    "id": "article-70",
-    "title": "字节跳动AI战略大考：拒绝蒸馏捷径背后的长期主义与底层重构",
-    "title_en": "ByteDance's AI Strategic Exam: Long-termism and Underlying Reconstruction Behind Refusing the Distillation Shortcut",
-    "image": "https://ainewsdaily.asia/img/pool/healthcare-robotics-surgery.jpg",
+    "id": "article-71",
+    "title": "字节拒绝“蒸馏”捷径坚守自研：中美大模型差距拉大下的长期主义博弈",
+    "title_en": "ByteDance Rejects the 'Distillation' Shortcut: A Long-Term Game in the Widening US-China LLM Gap",
+    "image": "https://ainewsdaily.asia/img/pool/healthcare-wearable.jpg",
     "date": "2026-08-08",
     "source": "AI News Daily",
     "source_en": "AI News Daily",
-    "summary": "2026年，大模型军备竞赛进入深水区。面对国内同行的快速崛起与海外巨头的持续压制，字节跳动却选择了一条最艰难的路：全面封杀“蒸馏”捷径，押注超5万亿参数原生训练。本文深度剖析字节Seed团队的战略抉择，探讨其拒绝模型坍缩、坚守长期主义背后的技术逻辑与底层重构。在“抄捷径”盛行的时代，张一鸣为何执意押注原生数据？这场看似笨拙的“长期主义”，又将如何重塑全球AI竞争格局与AGI的未来走向？",
-    "summary_en": "In 2026, the large model arms race has entered a deep-water zone. Facing the rapid rise of domestic peers and continuous suppression from overseas giants, ByteDance has chosen the most difficult path: completely banning the 'distillation' shortcut and betting on over 5 trillion parameters for native training. This article deeply analyzes the strategic choices of ByteDance's Seed team, exploring the technical logic and underlying reconstruction behind its refusal of model collapse and adherence to long-termism. In an era where 'taking shortcuts' prevails, why is Zhang Yiming determined to bet on native data? How will this seemingly clumsy 'long-termism' reshape the global AI competitive landscape and the future of AGI?",
-    "category": "大模型",
-    "category_en": "Large Models"
+    "summary": "在AI大模型竞速进入深水区之际，字节跳动创始人张一鸣明确拒绝“蒸馏”捷径，坚守底层自研。本文深度剖析蒸馏技术背后的“模型坍缩”陷阱，揭秘字节拟训练5万亿参数模型的底气，并透视中美大模型差距收窄背景下的长期主义博弈与L3智能体时代的产业重构。",
+    "summary_en": "As the LLM race enters deep waters, ByteDance founder Zhang Yiming explicitly rejects the 'distillation' shortcut, insisting on foundational self-research. This article delves into the 'model collapse' trap behind distillation, reveals the confidence behind ByteDance's planned 5-trillion-parameter model, and透视s the long-term game and industrial restructuring in the L3 Agent era against the backdrop of narrowing US-China LLM gaps.",
+    "category": "深度解读",
+    "category_en": "Deep Analysis"
   }
 }

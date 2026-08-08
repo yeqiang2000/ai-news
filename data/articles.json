@@ -1,6 +1,37 @@
 {
   "articles": [
     {
+      "id": "article-71",
+      "date": "2026-08-08",
+      "title": "字节拒绝“蒸馏”捷径坚守自研：中美大模型差距拉大下的长期主义博弈",
+      "title_en": "ByteDance Rejects the 'Distillation' Shortcut: A Long-Term Game in the Widening US-China LLM Gap",
+      "category": "深度解读",
+      "category_en": "Deep Analysis",
+      "image": "https://ainewsdaily.asia/img/pool/healthcare-wearable.jpg",
+      "summary": "在AI大模型竞速进入深水区之际，字节跳动创始人张一鸣明确拒绝“蒸馏”捷径，坚守底层自研。本文深度剖析蒸馏技术背后的“模型坍缩”陷阱，揭秘字节拟训练5万亿参数模型的底气，并透视中美大模型差距收窄背景下的长期主义博弈与L3智能体时代的产业重构。",
+      "summary_en": "As the LLM race enters deep waters, ByteDance founder Zhang Yiming explicitly rejects the 'distillation' shortcut, insisting on foundational self-research. This article delves into the 'model collapse' trap behind distillation, reveals the confidence behind ByteDance's planned 5-trillion-parameter model, and透视s the long-term game and industrial restructuring in the L3 Agent era against the backdrop of narrowing US-China LLM gaps.",
+      "author": "AI News Daily",
+      "read_time": "10 min",
+      "tags": [
+        "字节跳动",
+        "大模型",
+        "模型蒸馏",
+        "中美AI博弈",
+        "长期主义",
+        "Seed团队",
+        "人工智能"
+      ],
+      "tags_en": [
+        "ByteDance",
+        "Large Language Models",
+        "Model Distillation",
+        "US-China AI Competition",
+        "Long-termism",
+        "Seed Team",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "id": "article-70",
       "date": "2026-08-08",
       "title": "字节跳动AI战略大考：拒绝蒸馏捷径背后的长期主义与底层重构",
