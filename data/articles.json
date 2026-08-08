@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "article-70",
+      "date": "2026-08-08",
+      "title": "字节跳动AI战略大考：拒绝蒸馏捷径背后的长期主义与底层重构",
+      "title_en": "ByteDance's AI Strategic Exam: Long-termism and Underlying Reconstruction Behind Refusing the Distillation Shortcut",
+      "category": "大模型",
+      "category_en": "Large Models",
+      "image": "https://ainewsdaily.asia/img/pool/healthcare-robotics-surgery.jpg",
+      "summary": "2026年，大模型军备竞赛进入深水区。面对国内同行的快速崛起与海外巨头的持续压制，字节跳动却选择了一条最艰难的路：全面封杀“蒸馏”捷径，押注超5万亿参数原生训练。本文深度剖析字节Seed团队的战略抉择，探讨其拒绝模型坍缩、坚守长期主义背后的技术逻辑与底层重构。在“抄捷径”盛行的时代，张一鸣为何执意押注原生数据？这场看似笨拙的“长期主义”，又将如何重塑全球AI竞争格局与AGI的未来走向？",
+      "summary_en": "In 2026, the large model arms race has entered a deep-water zone. Facing the rapid rise of domestic peers and continuous suppression from overseas giants, ByteDance has chosen the most difficult path: completely banning the 'distillation' shortcut and betting on over 5 trillion parameters for native training. This article deeply analyzes the strategic choices of ByteDance's Seed team, exploring the technical logic and underlying reconstruction behind its refusal of model collapse and adherence to long-termism. In an era where 'taking shortcuts' prevails, why is Zhang Yiming determined to bet on native data? How will this seemingly clumsy 'long-termism' reshape the global AI competitive landscape and the future of AGI?",
+      "author": "AI News Daily",
+      "read_time": "9 min",
+      "tags": [
+        "字节跳动",
+        "张一鸣",
+        "大模型",
+        "蒸馏",
+        "长期主义",
+        "Seed团队",
+        "人工智能",
+        "科技战略"
+      ],
+      "tags_en": [
+        "ByteDance",
+        "Zhang Yiming",
+        "Large Language Model",
+        "Distillation",
+        "Long-termism",
+        "Seed Team",
+        "Artificial Intelligence",
+        "Tech Strategy"
+      ]
+    },
+    {
       "id": "article-69",
       "date": "2026-08-07",
       "title": "7300亿美元AI豪赌背后的算力暗战：从百亿美元大单到HBM供应链瓶颈",
@@ -1383,5 +1416,5 @@
       "url_en": "articles/en/article-1.html"
     }
   ],
-  "last_updated": "2026-08-07"
+  "last_updated": "2026-08-08"
 }
